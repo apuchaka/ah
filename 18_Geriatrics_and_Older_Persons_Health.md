@@ -231,3 +231,53 @@ This is not a marginal issue in Australian practice — **roughly 20–34% of ol
 - **Immediate/acute:** treat injuries and address any immediate safety risk. Admission is a legitimate tool where it is the only way to create a safe space while a plan is made.
 - **Definitive:** raise the concern through the appropriate pathway above; involve social work early; separate the older person's needs from the carer's; and where the person has capacity and declines intervention, **keep the door open** — document the discussion, provide the contact numbers, treat what they will let you treat, and arrange follow-up. Disclosure often takes several contacts.
 - **Chronic/long-term:** address the modifiable drivers — carer support and respite, home care packages via an **Aged Care Assessment Team (ACAT)** assessment, treatment of carer mental illness or substance misuse, and reducing the older person's social isolation. Reassess, because circumstances change and a refusal today is not a refusal forever.
+
+---
+
+## Discharge Planning and Home Safety Assessment
+
+> [!note] Gap-filled from CSV ("Discharge planning / home safety assessment," High yield). Partially present before this: [[Communication]] Caring for the Elderly in the Community (Dementia, Mobility, Parkinson's, Recurrent Falls) carries home-environment and referral bullets within an OSCE communication framework, and [[15_01b_Paeds_-_Anaphylaxis]] Discharge planning covers a single-condition paediatric discharge — but the discharge *process* for an older inpatient existed nowhere. Verified against the Australian Commission on Safety and Quality in Health Care's Medication Management at Transitions of Care Stewardship Framework and medication reconciliation guidance, the NSW ACI Care of Confused Hospitalised Older Persons (CHOPs) transfer-of-care principles, and the RACGP aged care clinical guide (Silver Book, 5th edition), Aug 2026.
+
+**Why this is a clinical task rather than an administrative one:** the transition out of hospital is a **recognised high-risk period**, and older people are particularly vulnerable to re-presentation after it. The failure modes are predictable and therefore preventable — the medication list is wrong, the GP does not know what happened, nobody checked whether the person can actually manage at home, and the follow-up that the plan depends on was never arranged.
+
+> [!danger] **Discharge planning starts on admission, not on the day of discharge.** An older person's discharge destination and support needs should be an explicit question from day one, because the assessments and services it depends on — occupational therapy home visit, ACAT assessment, package activation, equipment supply — all take days to arrange. Beginning on the morning of discharge guarantees either a delayed discharge or an unsafe one.
+
+### Functional readiness — the question that actually decides discharge
+
+Medical stability is necessary but not sufficient. The operative question is whether this person can manage in **their** home, which requires knowing what that home is like and what they could do before:
+- **Baseline versus current function.** Compare current ADLs (washing, dressing, toileting, transferring, feeding) and IADLs (shopping, cooking, finances, medications, transport) against their **premorbid** level, not against normal. A patient discharged at a function below their baseline without new support will fail.
+- **Mobility and transfers**, assessed by physiotherapy — including stairs if there are stairs, and specifically whether they can get off a low chair and off the toilet.
+- **Cognition**, which determines whether they can follow the plan at all (see Delirium vs Dementia vs Depression in [[04_Neurology]] — and note that delirium frequently has *not* fully resolved at discharge, so the cognitive assessment made on admission may no longer apply).
+- **Continence, nutrition and swallowing.**
+- **Who is at home**, what they can realistically provide, and whether that arrangement is sustainable for them (see Abuse of Older People (Elder Abuse) and Carer Stress above — carer breakdown is both a discharge failure and a safeguarding risk).
+
+### Home safety assessment
+
+An **occupational therapist home visit** is the substantive version of this, and is more informative than any checklist completed in the ward, because it sees the actual environment. It covers access and entry (steps, rails), the bathroom (shower access, grab rails, toilet height), the kitchen, trip hazards and lighting, bed height and transfers, and the ability to summon help. It prescribes equipment and home modifications and — importantly — checks the person can use them. OT-led discharge planning of this kind is associated with reduced readmission.
+
+Overlaps directly with falls prevention: the same assessment addresses both, so do not commission it twice (see Falls in Older People above).
+
+### Medication reconciliation — the highest-yield single step
+
+**Medication reconciliation should occur at every transition of care**, and the patient and carer should leave with an accurate, updated medication list they understand.
+
+The scale of the problem is Australian and specific: **more than half of medication errors occur at transitions of care**, and **a patient with one or more medicines missing from their discharge information is around 2.3 times more likely to be readmitted** than one whose discharge information is correct. Practically, that means:
+- Reconcile the discharge list against the pre-admission list, and account for every difference — stopped, started, or changed dose — with the reason.
+- **Say what was deliberately stopped and why**, or the GP or a community pharmacist will helpfully restart it. This is the point at which good deprescribing work done during the admission is most often undone (see Polypharmacy and Deprescribing above).
+- Consider a dose administration aid, and whether the person can physically open the packaging and read the label.
+
+### Communication and follow-up
+
+- **Discharge summary to the GP, promptly**, stating the diagnosis, what changed, what was stopped and why, what is outstanding, and what the GP is being asked to do and by when. A summary that arrives after the patient does is of limited use.
+- **Explicit follow-up**: GP appointment, outpatient reviews, and who is responsible for chasing any pending results.
+- **The patient and carer must understand the plan** — teach-back rather than a handed-over sheet, particularly where cognition is impaired.
+- **Safety-netting**: what would warrant re-presentation, and who to call.
+
+### Australian services worth knowing by name
+
+- **Aged Care Assessment Team (ACAT)** — the assessment gateway to Commonwealth-funded aged care, including home care packages, residential care, and transition care. Refer early; it is a common cause of discharge delay.
+- **Transition Care Programme** — time-limited therapy and support after a hospital stay for people who need longer to recover; requires the acute episode to be complete, medical stability, and ACAT assessment.
+- **My Aged Care** as the entry point patients and families are directed to.
+- **Home Medicines Review** for the medication side (see Polypharmacy and Deprescribing above).
+
+> [!tip] The commonest avoidable discharge failures, in the order they occur: planning started too late for the services to be arranged; discharge to a function level below baseline with no new support; a medication list that does not say what changed or why; and a follow-up plan that depends on an appointment nobody actually booked.
