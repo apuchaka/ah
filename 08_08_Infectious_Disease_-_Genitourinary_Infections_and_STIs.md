@@ -126,6 +126,8 @@ A **window period** is the interval between exposure and the point at which a te
 - **S/Smx:** small (2–5mm) fleshy protuberances, slightly pigmented; may bleed or itch.
 - **Mx:** multiple, non-keratinised warts — topical podophyllum. Solitary, keratinised — cryotherapy or topical imiquimod. Can be resistant and recurrent; most clear without intervention within ~1–2 years.
 
+> [!info] **The prevention half, which this entry did not carry (N7 pass).** Genital warts is the one STI in this file with a **funded vaccine that has already changed its epidemiology in Australia**. **Gardasil 9 is given as a single dose at 12–13 years (Year 7) under the National Immunisation Program, with catch-up available to age 25** — see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Vaccination Schedule (Australia — National Immunisation Program) for the schedule, not repeated here. It covers HPV 6 and 11 (the wart types above) as well as the oncogenic types, which is why the same vaccine sits behind both this entry and cervical screening (see [[17_09_Cervical__Vaginal_and_Endometrial_Cancer]] Cervical cancer screening). **Ask about HPV vaccination status as part of the STI check** — it is one of the few modifiable answers in a sexual history, and catch-up eligibility is routinely missed in the 18–25 age group.
+
 ## Gonorrhoea
 
 - **A/P:** Gram -ve diplococcus *Neisseria gonorrhoeae*.
