@@ -285,6 +285,40 @@ source: quackquackmed 04 Neurology
 
 ---
 
+## Delirium vs Dementia vs Depression — the "3 Ds" in Older People
+
+> [!note] Gap-filled from CSV ("Delirium vs dementia vs depression (differentiating in the elderly)," High yield, Older Persons Health / Geriatrics category). Each of the three conditions was already built — Delirium immediately above, Dementias earlier in this file, and [[14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_]] Depression (Major depressive disorder) — but the *differential between them* existed only as a one-line tip about serial 7s. Built here rather than in the new Geriatrics file because both structural anchors (Dementias, Delirium) already live in this file, and separating the comparison from the things being compared would make it harder to find, not easier. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition), which carries the same comparison, Aug 2026.
+
+This is the single most commonly tested geriatric discriminator, and the single most common source of avoidable harm in an older inpatient — because the default assumption when an older person is confused is usually "dementia", and the answer is usually delirium.
+
+| | **Delirium** | **Dementia** | **Depression** |
+|---|---|---|---|
+| **Onset** | Acute — hours to days, and usually datable | Insidious — months to years, no clear start | Subacute — weeks to months |
+| **Course** | **Fluctuating**, characteristically worse in the evening and at night | Progressive; stable within any given day | Relatively stable day to day, often with diurnal variation (worse in the morning) |
+| **Attention** | **Markedly impaired — this is the cardinal feature** | Preserved until late disease | May be reduced by poor concentration, but the patient can be engaged and redirected |
+| **Level of consciousness** | Altered — drowsy, or hypervigilant | Clear until very late | Clear |
+| **Psychomotor activity** | Hyperactive, **hypoactive**, or mixed | Usually normal early | Retardation, or sometimes agitation |
+| **Perception** | Hallucinations common, characteristically **visual**; fleeting delusions | Possible, especially in Lewy body dementia (see Lewy Body Dementia above) | Uncommon unless psychotic depression |
+| **Sleep–wake cycle** | Disrupted, often reversed | Fragmented | Early morning waking |
+| **The patient's own account** | Cannot sustain attention well enough to give one | Often **minimises or confabulates**; typically unaware of the deficit | **Complains prominently** of poor memory; answers "I don't know" rather than guessing |
+| **Reversibility** | Usually reversible once the precipitant is treated | Not reversible | Treatable |
+
+> [!danger] Three traps, in order of how often they cause harm
+> 1. **Hypoactive delirium mistaken for depression, or dismissed as "just their dementia."** The quiet, withdrawn, drowsy patient is the one who gets missed — and hypoactive delirium carries a *worse* prognosis than the hyperactive form that attracts attention. Being difficult to rouse is not being depressed.
+> 2. **Delirium superimposed on dementia — the commonest scenario of all, not an edge case.** Dementia is the single largest risk factor for delirium. So the two are not alternatives to choose between: **any acute change in cognition or behaviour in a person with known dementia is delirium until proven otherwise**, and needs the precipitant hunt in the Delirium entry above, not a shrug and a note saying "known dementia".
+> 3. **Assuming the three are mutually exclusive.** They coexist frequently — depression is common in early dementia, and both predispose to delirium.
+
+**The practical bedside discriminators:**
+- **Test attention, not memory.** Attention is what delirium impairs first and most; memory testing is slower and less specific. Serial 7s, months of the year backwards, or digit span will separate delirium from dementia far more efficiently than a full cognitive battery — and the serial-7s point already noted in the Delirium entry above is really this principle in miniature.
+- **Get a collateral history with a timeline.** "How was she two weeks ago?" does more diagnostic work than any bedside test. An acute change over days is delirium; a slow decline over years is dementia; a change over weeks with low mood and anhedonia is depression.
+- **Screening tools are for screening.** The tools in [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS) measure impairment, not its cause — a low MMSE is equally consistent with all three, and in delirium the fluctuating course means a single score can mislead in either direction.
+
+> [!info] **Depressive pseudodementia** — depression in an older person presenting as cognitive impairment, and a genuine diagnostic trap because the cognitive deficits are real, not feigned. Suggestive features: the patient complains of memory loss more than their family does (the reverse of dementia), the onset is relatively abrupt and datable, effort on testing is poor with "I don't know" answers rather than confabulated wrong ones, and low mood and anhedonia are prominent. **The cognitive impairment improves with treatment of the depression** — which is precisely why it must not be labelled dementia and left. The honest caveat: late-life depression can also be an early manifestation of an emerging dementia rather than a purely reversible mimic, so treat the depression and then **reassess cognition once mood has responded**, rather than treating a single improved score as having settled the question permanently.
+
+**Why this matters beyond the diagnosis:** delirium is a marker of acute illness and demands a search for the precipitant (see Delirium above); it also predicts falls, longer admission, functional decline and institutionalisation (see [[18_Geriatrics_and_Older_Persons_Health]] Falls in Older People). Getting the label wrong sends the patient down the wrong pathway entirely — a missed delirium means a missed sepsis, a missed drug effect, or a missed urinary retention.
+
+---
+
 ## Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS)
 
 > [!note] Gap-filled — genuinely absent from any file despite being one of the classic contrasting-pair topics in medicine (both cause hyperthermia + altered mental status + muscle rigidity from different drug mechanisms, and distinguishing them is a frequently-tested skill), and despite haloperidol/antipsychotic use for delirium being covered immediately above, making NMS a directly relevant differential. Built together as a comparison, in the same spirit as the Warm vs Cold AIHA and Pemphigus vs Bullous Pemphigoid comparisons elsewhere in this project.
