@@ -145,6 +145,36 @@ source: quackquackmed 04 Neurology
 
 ## Dementias
 
+### Mild Cognitive Impairment (MCI)
+
+> [!note] Gap-filled from CSV ("Cognitive screening tools (MMSE, MoCA, AMTS) & MCI progression to dementia," High yield). The tools half of that row is fully built in [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS), but **MCI itself appeared exactly once in the entire corpus** — as an acronym inside a sentence about MoCA's sensitivity — with no definition, no boundary against normal ageing or dementia, and no management. Placed here at the head of the Dementias section rather than in the Geriatrics file because MCI is the prodromal state of the conditions below, and belongs with them. Verified against Dementia Australia's MCI guidance and healthdirect (Australian Government), Aug 2026.
+
+**D:** objective cognitive impairment in one or more domains that is **greater than expected for age but does not impair independent function in daily life** — the functional criterion is the whole distinction. Once cognitive impairment causes loss of independence in everyday activities, the diagnosis is dementia, not MCI.
+
+**The three-way boundary an intern is expected to hold:**
+- **Subjective cognitive decline** — the person notices a change; formal testing is normal.
+- **MCI** — testing is objectively abnormal; **function is preserved**.
+- **Dementia** — testing is abnormal **and** function is impaired.
+
+**Subtypes:** *amnestic* MCI (memory predominantly affected — the pattern most associated with progression to Alzheimer's disease) and *non-amnestic* MCI (executive, language or visuospatial domains predominantly).
+
+> [!info] **Progression to dementia — represent this honestly, because the commonly-quoted single figure is misleading.** Annual conversion rates vary substantially with the population studied: around **8% per year in clinical trial cohorts and roughly 13% in large registries**, with higher rates in specialist memory-clinic populations, which are enriched for people already more likely to progress. Amnestic MCI converts faster than non-amnestic.
+>
+> The genuinely important counterpoint, and the one patients most need to hear: **MCI is not a guaranteed pre-dementia state.** It may remain stable for years, and a meaningful proportion of people **revert to normal cognition** — often those whose impairment had a reversible contributor in the first place. Presenting MCI as "early dementia" is both inaccurate and needlessly distressing.
+
+**Ix — the point of investigating MCI is to find the reversible contributors**, because that is where the clinical value lies:
+- Cognitive assessment with a validated tool (see [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS)) — MoCA is preferred over MMSE here specifically because of its greater sensitivity at the mild end.
+- **Collateral history**, which does more work than any test in establishing whether function is genuinely preserved.
+- Bloods: **B12 and folate** (*why:* deficiency is a treatable cause of cognitive impairment; *what:* low — see Subacute Combined Degeneration of the Spinal Cord for the fuller mechanism, not repeated here), **TFTs** (*why:* hypothyroidism is treatable and commonly presents with cognitive slowing in older people; *what:* raised TSH), U&Es, calcium, LFTs, glucose/HbA1c.
+- **Screen for depression** — depressive pseudodementia is the single most important reversible mimic (see Delirium vs Dementia vs Depression — the "3 Ds" in Older People below).
+- **Medication review** — anticholinergic and sedative burden is a genuinely common and fully reversible contributor (see [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing, not repeated here).
+- Neuroimaging (CT or MRI brain) where there are atypical features, focal signs, rapid progression, or a young age at onset — not routinely in every case.
+
+**Mx:**
+- **Immediate/acute:** identify and treat every reversible contributor found above — this is the highest-value intervention and the reason the work-up matters.
+- **Definitive:** **there is no approved drug treatment for MCI**, and cholinesterase inhibitors are **not** indicated at this stage — a common error, given they are used in Alzheimer's disease below. What has evidence is: **regular physical exercise** (any level better than none), **treating cardiovascular risk factors** — hypertension, diabetes, dyslipidaemia — as modifiable dementia risk factors, cognitive and social engagement, addressing hearing and vision impairment, and treating depression where present.
+- **Chronic/long-term:** **planned review over time** rather than a single assessment, since the trajectory is the diagnostic information and a one-off score cannot distinguish stable MCI from early dementia. Refer to a geriatrician, memory clinic or neurologist where the presentation is atypical, progression is rapid, or onset is young. Use the period of preserved capacity to raise **advance care planning and enduring power of attorney** while the person can genuinely participate (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework) — a conversation that is far easier now than after progression, and a specific reason not to defer the discussion simply because the diagnosis is "only" MCI.
+
 ### Vascular Dementia
 
 **D:** chronic progressive cerebrovascular disease of the brain causing cognitive impairment. 2nd most common dementia after Alzheimer's.
