@@ -53,6 +53,39 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 - Parental consent is otherwise required for a child's treatment, with the same general emergency-treatment principles above applying if urgent treatment is needed and a parent/guardian isn't immediately available.
 - Disagreement between parents, or between a Gillick-competent minor and their parents, over a child's treatment can require escalation (senior clinician input, ethics consultation, or ultimately court involvement in genuinely contested or high-stakes cases) — genuinely complex territory beyond the scope of a single consultation, not detailed further here.
 
+## Documenting in the Medical Notes
+
+> [!note] Gap-filled from CSV ("Documenting in the medical notes," Medium yield). Genuinely absent as a topic: documentation is *instructed* in a dozen entries across the project ("document the refusal", "document the discussion", "document thoroughly and objectively" in the safeguarding entries) with **no entry saying what good documentation actually consists of**. Placed here rather than [[Communication]] because the record is a legal and professional-standards obligation rather than a consultation skill. Verified against Ahpra's *Good medical practice: a code of conduct for doctors in Australia* and its health-records guidance, RACGP practice standards on the content of patient health records, and the ACSQHC Communicating for Safety Standard, Aug 2026.
+
+**Why an intern should take this seriously beyond being told to:** the record is simultaneously a **clinical handover tool**, a **medicolegal document**, and the **evidence of your reasoning**. Those three purposes rarely conflict, but they set the standard: notes are written for the next clinician who has never met this patient, and read later by people reconstructing what was known at the time.
+
+> [!danger] **The one rule that matters most: "if it isn't documented, it didn't happen" is not a slogan — it is how a record is read in retrospect.** Where a coroner, tribunal or complaints body reviews care, an undocumented conversation or examination is functionally indistinguishable from one that never occurred. This applies most sharply to the things easiest to omit: the risk you considered and excluded, the advice you gave, the refusal the patient made, and the safety-netting you provided.
+
+**What a note must contain:**
+- **Date, time, and your identity** — name, role, and legible signature or electronic identity. In a paper record, print your surname; an illegible signature identifies nobody.
+- **What you were told, what you found, what you thought, and what you did.** The *thought* is the part most often missing: an assessment with no impression records data without reasoning.
+- **Your reasoning where a decision was finely balanced** — including **the differential you considered and excluded, and why.** This is the single highest-value thing an intern can add, because it is what demonstrates a decision was reasonable even if the outcome was poor.
+- **Advice given and safety-netting** — what you told the patient to look out for and what to do about it.
+- **Who else was involved** — who you escalated to, when, and what they said.
+
+**How it must be written:**
+- **Contemporaneously**, at the time or as soon as practicable afterwards. Accuracy degrades quickly, and a note written days later is worth far less.
+- **Legibly and understandably by another practitioner** — this is an explicit standard, not a courtesy. Avoid non-standard abbreviations.
+- **Factually and objectively**, distinguishing what you observed from what you inferred. Record the patient's own words in quotation marks where they matter — as required in the safeguarding entries (see [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI) and [[Communication]] Domestic and Family Violence — Identification and Initial Response, not repeated here).
+- **Without disparaging or gratuitous comment.** Patients can and do access their records. A note describing someone as "difficult" or "drug-seeking" is unprofessional, is discoverable, and prejudices the next clinician's assessment before they have seen the patient.
+
+> [!warning] **Never alter a record to make it read better after the fact.** If something needs correcting, make a **new, dated, timed entry** identifying the correction, or use the electronic record's amendment function which preserves the original. Do not overwrite, delete, backdate, or obscure. **An honest error in a record is a small problem; an altered record is a very large one** — it is the alteration rather than the original mistake that ends careers, because it destroys the credibility of everything else in the file.
+
+**Australian specifics worth knowing:**
+- **Retention:** generally **at least 7 years from the last entry** for an adult, and for a child **until they turn 25**. State legislation varies — check locally.
+- **Patients have a right of access** to their own records, under privacy legislation.
+- **Your correspondence with your medical defence organisation or lawyers is not part of the health record** and should be kept separate from the clinical file — as should the administrative file on a complaint.
+- **Security and confidentiality** of the record are your responsibility, including not leaving records or screens accessible and not accessing records you have no clinical reason to open.
+
+> [!tip] The practical test when deciding whether something is worth writing down: **would the next person to read this, at 3am, with no other information, be able to understand what was going on and what to do?** If not, the note is incomplete regardless of its length — and length is not the measure. A short note containing an impression and a plan is more useful than a long one containing neither.
+
+---
+
 ## Mandatory Reporting — the Overarching Duty
 
 > [!note] Gap-filled from CSV ("Mandatory reporting (Overall Skill)," Medium yield). **Partially present, in a specific and misleading way:** the project carried four *condition-specific* instances — child abuse, elder abuse, family violence, notifiable diseases — with **no entry connecting them**, and **zero corpus-wide hits for Ahpra or notifiable conduct**, meaning the duty to report an unsafe *colleague* was absent entirely. Built here rather than in [[Communication]] because this is a legal duty rather than a consultation skill. Verified against Ahpra's guidelines on mandatory notifications about registered health practitioners and Avant's guidance for Australian practitioners, Aug 2026.
