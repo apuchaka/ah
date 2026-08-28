@@ -338,6 +338,48 @@ An intern's list is almost always longer than the shift. The workable ordering:
 
 ---
 
+## Professional Boundaries, and the Inappropriate Patient
+
+> [!note] Gap-filled from CSV ("Dealing with an inappropriate patient (e.g. a flirtatious patient)," Medium yield). **A clear instance of the pattern this project keeps finding:** "chaperone" appears **eight times** in [[Examination]] — enough for the topic to look covered — but every instance is a procedural instruction *inside* an examination sequence ("offer a chaperone"). **No entry taught what professional boundaries are, what a breach is, or what to do when a patient crosses one.** Referenced sufficiently to look covered; never actually taught. Verified against the Medical Board of Australia's *Sexual boundaries in the doctor–patient relationship* guidelines and *Good medical practice: a code of conduct for doctors in Australia*, RACGP guidance on managing professional boundaries, and Avant's boundary-issues material, Aug 2026.
+
+### The professional obligation
+
+**Never use your professional position to establish or pursue a sexual, exploitative or otherwise inappropriate relationship with anyone under your care.** Two extensions of that rule are routinely underestimated:
+
+- **It extends beyond the patient** — to people close to them, including a carer, guardian, spouse, or the parent of a child patient. The power asymmetry that makes the rule necessary does not stop at the patient's own person.
+- **It is not limited to sexual activity.** Sexual remarks, touching a patient in a sexual manner, or a relationship with someone closely connected to a patient are all boundary breaches in their own right.
+
+> [!info] **Why the rule is absolute rather than balanced against consent, which is the part that most often confuses people:** the doctor–patient relationship carries an inherent power asymmetry and an inherent dependence, and the patient has disclosed things and permitted an examination on the basis of a professional relationship. That asymmetry means **apparent consent does not neutralise the breach** — which is precisely why this is regulated as professional misconduct rather than left to the individuals involved.
+
+### When the patient is the one crossing the boundary
+
+This is the CSV's actual scenario, and the intern's instinct — to ignore it and hope it stops — is the wrong one.
+
+**Assess two things:** is the behaviour **interfering with the patient's care**, and is it **placing either party at risk?** Those questions determine the response, and they keep the judgement clinical rather than personal.
+
+**Respond by re-establishing the boundary constructively rather than punitively:**
+- **Name it calmly and without hostility**, in the moment where possible: *"I'm not comfortable with that. Let's keep this to your medical care."*
+- **Be explicit about the professional frame** rather than hinting — hinting is easily missed or read as encouragement.
+- **Do not respond with humour or by playing along**, which reads as acceptance, and do not respond with anger, which forecloses the clinical relationship you may still need.
+- **Consider having an observer present** for subsequent consultations, and **consider whether continuing the therapeutic relationship is appropriate** — transferring care to a colleague is a legitimate option, not a failure, provided care is not abandoned.
+- **Seek advice early** — from an experienced colleague, your supervisor, or your medical defence organisation. This is explicitly the recommended course rather than managing it alone.
+- **Document the incident and your response factually**, at the time.
+
+> [!warning] **Do not simply endure it.** Behaviour that is tolerated tends to escalate, the record of what happened is contemporaneous or it is nothing, and — the point most often missed — **an unaddressed boundary problem compromises the patient's care too**, because a clinician managing discomfort is not consulting freely.
+
+### Observers (formerly "chaperones")
+
+> [!info] **Terminology has changed and it is worth knowing:** the Medical Board's revised guidelines use **"observer"** rather than "chaperone". This project's [[Examination]] entries still use the older term throughout; the meaning is unchanged, but the current word is observer.
+
+- An observer **protects both parties** — reassuring a patient who is fearful, vulnerable or embarrassed, and providing a witness for the clinician.
+- **Offer one for any intimate examination**, and for any examination where the patient may feel exposed or where you have any concern about how it may be perceived.
+- **Document the offer, the patient's response, and the observer's name and title** — including where the offer was declined. An undocumented offer provides no protection to anyone.
+- A family member is not an ideal observer; a clinical staff member is preferable where available.
+
+> [!tip] An observer is not only for intimate examinations of women by men. Consider one whenever the examination, the setting, or the patient's presentation makes it appropriate — and note that a request for an observer, or for a clinician of a particular gender, may reflect a cultural or religious need rather than a preference, and should be accommodated where practicable rather than treated as an inconvenience. (Stated as a general principle of culturally safe care; no Australian-specific disparity data was sourced for this entry, and none is asserted.)
+
+---
+
 ## Explaining a Medical Error — Open Disclosure
 
 > [!note] Gap-filled from CSV ("Explaining a medical error (e.g. incorrect medication)," Medium yield). Genuinely absent: corpus-wide search returned **zero hits** for open disclosure, adverse event, or apology in this sense — despite open disclosure being a national standard obligation and one of the harder OSCE stations. Verified against the **Australian Open Disclosure Framework** (Australian Commission on Safety and Quality in Health Care, 2026 edition) and Avant's guidance for Australian clinicians on responding when things go wrong, Aug 2026.
