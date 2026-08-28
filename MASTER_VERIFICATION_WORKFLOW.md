@@ -17,12 +17,24 @@ This is the single source of truth for sequencing. Work through it top to bottom
 
 | # | Category | Rows | Status |
 |---|---|---|---|
-| P1 | ENT | 20 | ⬜ |
-| P2 | Immunology, Allergy & Infectious Disease | 39 | ⬜ |
-| P3 | Psychiatry & Mental Health | 53 | ⬜ |
-| P4 | Paediatrics | 31 | ⬜ |
-| P5 | Gynaecology & Breast | 40 | ⬜ |
-| P6 | Ophthalmology | 34 | ⬜ |
+| P1 | ENT | 20 | ✅ 2026-08-28 — full pull run. 2 MISSING candidates, both artifacts or mis-filed MSK rows; no ENT gap. 5/20 rows are not ENT topics at all (see CSV-defects note below). |
+| P2 | Immunology, Allergy & Infectious Disease | 39 | ✅ 2026-08-28 — full pull run. 0 MISSING. **One genuine gap found and built: Allergic Rhinitis (High yield), now in `13_04`.** |
+| P3 | Psychiatry & Mental Health | 53 | ✅ 2026-08-28 — full pull run. 3 MISSING candidates, all umbrella-term artifacts. **Seasonal affective disorder corrected — it stated "little evidence for light therapy," which is wrong.** |
+| P4 | Paediatrics | 31 | ✅ 2026-08-28 — full pull run. 0 MISSING, 0 genuine gaps. The cleanest of the six. |
+| P5 | Gynaecology & Breast | 40 | ✅ 2026-08-28 — full pull run. 2 MISSING candidates, both artifacts. **One genuine gap found and built: Abnormal Uterine Bleeding approach (4 CSV rows), now in `17_02`.** |
+| P6 | Ophthalmology | 34 | ✅ 2026-08-28 — full pull run. 1 MISSING candidate, an umbrella-term artifact. 25/34 rows have a dedicated header; the strongest-covered of the six. |
+
+**Phase 1 result (2026-08-28): 8 MISSING candidates across 217 rows → 7 artifacts, 1 genuine absence.** The artifact ratio held at the level the Neurology validation predicted. Three genuine gaps were found by *depth* checking rather than by presence checking — the presence scan reported all three as FOUND. Fixed in place: Allergic Rhinitis (`13_04`), Abnormal Uterine Bleeding approach (`17_02`), Seasonal affective disorder correction (`14_01`).
+
+**Flagged for a later round, not built here:**
+- **Hamstring / biceps femoris tear** — the one genuine absence (zero hits corpus-wide). It is a *Musculoskeletal* topic mis-filed under ENT in the CSV, and belongs to an MSK round, not an ENT one.
+
+> [!warning] The checklist CSV itself contains defects, found during this sweep. These are **not** content gaps and must not be treated as such:
+> - **Mis-categorised rows.** ENT is the worst: 5 of its 20 rows are not ENT topics (`Biceps femoris (Hamstring) TEARS`, `meniscal tear` → MSK; `Sick Sinus Syndrome` → Cardiology; `ECG (start early…)`, `FBC, UEC, LFTs — the "core bloods"…` → investigations). Also `Intrauterine growth restriction (IUGR)` filed under Gynaecology rather than Obstetrics, and `Scleroderma`, `Sjogren's Syndrome`, `Vasculitis` under Immunology/ID rather than Rheumatology.
+> - **Misspellings.** `Acute Labrynthitis` (labyrinthitis), `Angiodema` (angioedema), `Viral Preumonitis` (pneumonitis), `Henoch-Schölnein Purpura` (Schönlein), `Endopthalmitis` (endophthalmitis), `Tredelenburg` (Trendelenburg, Neurology). Each produces a false MISSING unless the scan's fuzzy tier catches it.
+> - **Duplicate rows within a category**, which inflate the apparent row counts: Psychiatry has `Anxiety and panic`/`Anxiety disorders`, `Bipolar affective disorder`/`Bipolar disorder`, and four overlapping substance rows; Ophthalmology has `Glaucoma`/`Acute Glaucoma`/`Acute angle closure glaucoma`/`Chronic Glaucoma`/`Primary open-angle glaucoma`; Gynaecology has `Polycystic ovarian syndrome (PCOS)`/`Polycystic ovary syndrome`.
+>
+> Treat the CSV as the primary checklist, not as an authority on naming, spelling, or categorisation.
 
 Each of these is a "next" on its own: pull the full row list, spot-check the most distinctive/least-obviously-covered items (not the broad ones), verify depth where present, fix any confirmed gap in the same round where practical, and flag it for a dedicated build round if the gap is large (Geriatrics/GP-Ethics-sized).
 

@@ -50,6 +50,8 @@ still correctly describes the *variation*, not to pin one figure.
 | B8 | `16_06-07_Ante-Perinatal_Infections.md` | 94 | Neonatal gentamicin dose/interval — a 2025 Australian study found 5 different guidelines in use (4.5–7 mg/kg, 24–48 h). Confirm the note still correctly describes this as deliberately individualised. | ⬜ |
 | B9 | `16_14-15_Obstetric_Emergencies.md` | 48 | Preferred agent for recurrent eclamptic seizures (diazepam / clonazepam / midazolam) — local protocol dependent. The 20-minute magnesium loading infusion is settled. | ⬜ |
 | B10 | `17_04_Ectopic_Pregnancy_and_GTD.md` | 34 | Methotrexate route in ectopic pregnancy — genuinely state-variable (QLD splits IM/IV at β-hCG 3000 IU/L; NSW typically IM regardless). | ⬜ |
+| B12 | `13_04_ENT_-_Nose__...md` | Allergic Rhinitis (Hay Fever) | ASCIA Clinical Update: Allergic Rhinitis — cited as the 2024 edition. Confirm no newer edition before the exam, and that combined INCS/antihistamine sprays are still stated as an equal first-line option. | ⬜ |
+| B13 | `17_02_Menorrhagia__...md` | Abnormal Uterine Bleeding | The symptomatic co-test rule and the "a negative co-test does not close the case" caveat come from the Cancer Council Australia abnormal-vaginal-bleeding pathway, read alongside RANZCOG C-Gyn 6. Both sit under the National Cervical Screening Program, which has been revised more than once — re-confirm before the exam. | ⬜ |
 | B11 | `04_Neurology.md` | 1361 | CT head decision rule — note records that some Australian imaging pathway guidance is built on the Canadian CT Head Rule rather than the NICE-derived algorithm presented. Confirm which is current for AMC purposes. | ⬜ |
 
 ## Section C — Step 20 source-currency spot-audit
@@ -69,7 +71,7 @@ re-sampled every round and coverage actually accumulates.
 
 | Date | Round | Citations sampled (file:line) | Result |
 |---|---|---|---|
-| — | — | none yet | — |
+| 2026-08-28 | Phase 1 (P1–P6) | Not a random sample — three citations written this round were sourced from scratch and are logged here for re-verification, not re-sampled from existing text: ASCIA Allergic Rhinitis 2024 (`13_04`); healthdirect + light-therapy meta-analysis (`14_01` SAD); RANZCOG C-Gyn 6 + Cancer Council AU pathway (`17_02`). | Sourced this round; due for re-check nearer the exam. **The formal Step 22 random-sample audit has still never been run** — this row does not discharge it. |
 
 ### Regenerating the raw hit lists
 
