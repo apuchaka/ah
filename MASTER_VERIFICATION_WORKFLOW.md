@@ -29,6 +29,13 @@ This is the single source of truth for sequencing. Work through it top to bottom
 **Flagged for a later round, not built here:**
 - **Hamstring / biceps femoris tear** — the one genuine absence (zero hits corpus-wide). It is a *Musculoskeletal* topic mis-filed under ENT in the CSV, and belongs to an MSK round, not an ENT one.
 
+### Flagged for a dedicated MSK round
+
+| Topic | CSV category (as filed) | Correct home | Status |
+|---|---|---|---|
+| **Hamstring / biceps femoris tear** | ENT (mis-filed) | `11_05_Ortho_-_Knee_and_Ankle` or `11_04_Ortho_-_Hip` | ⬜ confirmed absent corpus-wide, 2026-08-28 (P1 sweep). Zero hits on any spelling. Low yield, but a genuine absence rather than a search artifact. |
+| **Acromioclavicular joint injury** | Musculoskeletal | `11_02_Ortho_-_Upper_Limb` | ⬜ pre-existing flag from Step 24 — has the Rockwood grading but lacks S/Smx and Ix detail. |
+
 > [!warning] The checklist CSV itself contains defects, found during this sweep. These are **not** content gaps and must not be treated as such:
 > - **Mis-categorised rows.** ENT is the worst: 5 of its 20 rows are not ENT topics (`Biceps femoris (Hamstring) TEARS`, `meniscal tear` → MSK; `Sick Sinus Syndrome` → Cardiology; `ECG (start early…)`, `FBC, UEC, LFTs — the "core bloods"…` → investigations). Also `Intrauterine growth restriction (IUGR)` filed under Gynaecology rather than Obstetrics, and `Scleroderma`, `Sjogren's Syndrome`, `Vasculitis` under Immunology/ID rather than Rheumatology.
 > - **Misspellings.** `Acute Labrynthitis` (labyrinthitis), `Angiodema` (angioedema), `Viral Preumonitis` (pneumonitis), `Henoch-Schölnein Purpura` (Schönlein), `Endopthalmitis` (endophthalmitis), `Tredelenburg` (Trendelenburg, Neurology). Each produces a false MISSING unless the scan's fuzzy tier catches it.
@@ -41,12 +48,31 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 ### Phase 2 — new content (confirmed gaps from Steps 21/23, plus anything Phase 1 adds)
 | # | Item | Status |
 |---|---|---|
-| N1 | Geriatrics/Older Persons Health build | ⬜ |
+| N1 | Geriatrics/Older Persons Health build | ✅ 2026-08-28 — audited all 11 CSV rows, then built 8 topics. See note below. |
 | N6 | GP/Preventive Med/Ethics/Communication build | ⬜ |
 | N3 | Injury/Poisoning/Envenomation/Environmental build | ⬜ |
 | N2 | Public Health/Epidemiology build | ⬜ |
 | N4 | Australian Context of Health build | ⬜ |
 | N5 | Clinical-Process-EBM-Consent-Capacity.md confirmation pass | ⬜ |
+
+**N1 result (2026-08-28).** All 11 CSV rows were audited by reading what each search hit actually contained before building anything — three turned out to be adequately covered already and were deliberately **not** duplicated: capacity assessment (`Clinical-Process`), the cognitive screening tools (`Investigation-Interpretation`), and osteoporosis management (`11_08b`, already verified against the 2024 RACGP/Healthy Bones guideline). Eight topics were built, one commit each:
+
+| Topic | Built in | Why there |
+|---|---|---|
+| Falls in Older People | `18_Geriatrics_and_Older_Persons_Health` (new file) | No organ system owns it |
+| Frailty | `18_…` | Same |
+| Polypharmacy and Deprescribing | `18_…` | Same |
+| Abuse of Older People and Carer Stress | `18_…` | Mirrors `15_24a`'s NAI structure; reciprocal cross-link added |
+| Discharge Planning and Home Safety | `18_…` | Same |
+| Delirium vs Dementia vs Depression | `04_Neurology` | Both anchors (Dementias, Delirium) already live there |
+| Mild Cognitive Impairment | `04_Neurology` | Prodrome of the dementias listed below it |
+| Goals of Care and Ceiling of Care | `Communication` | Completes the thought the DNACPR entry starts |
+
+Corpus is now **147 content files**; `check_structure.sh`'s `EXPECTED_CONTENT` was updated in the same commit as the new file.
+
+**Method note worth carrying forward:** the presence scan reported Falls as `FOUND` *with a header* — the hit was the OSCE communication station, not clinical content — and reported the MCI row as `PARTIAL` with a 4,159-character section, which was the cognitive-tools entry with MCI mentioned once as an acronym. Both would have read as covered without opening the files. **Read the hit, don't trust it.**
+
+---
 
 ### Phase 3 — mega files (M1–M10)
 | # | Item | Status |
@@ -695,7 +721,7 @@ These are fundamentally different from every row above: there's no existing file
 
 | # | Prompt | Est. rounds | Why |
 |---|---|---|---|
-| N1 | `build new content: Older Persons Health / Geriatrics — capacity assessment, cognitive screening context (link to the existing MMSE/MoCA/AMTS entry, don't duplicate), delirium vs dementia vs depression, discharge planning, elder abuse, falls, frailty, long-term care planning, osteoporosis/falls fracture prevention, polypharmacy/deprescribing` | 5–7 | 11 topics, 9 High yield, from genuinely zero existing coverage — the single largest gap found in this project |
+| ~~N1~~ ✅ | ~~`build new content: Older Persons Health / Geriatrics — capacity assessment, cognitive screening context (link to the existing MMSE/MoCA/AMTS entry, don't duplicate), delirium vs dementia vs depression, discharge planning, elder abuse, falls, frailty, long-term care planning, osteoporosis/falls fracture prevention, polypharmacy/deprescribing` | 5–7 | 11 topics, 9 High yield, from genuinely zero existing coverage — the single largest gap found in this project |
 | N2 | `build new content: Public Health/Epidemiology — NNT and absolute vs relative risk reduction, study design types and bias, p-value interpretation (verify Notifiable Diseases and sensitivity/specificity are genuinely already adequate first, don't rebuild what exists)` | 2–3 | 6 topics, but 2 already effectively covered |
 | N3 | `build new content: Injury, Poisoning, Envenomation & Environmental — Shock, adult choking, major trauma, traumatic head injury, lacerations/abrasions, adult resuscitation (confirm Burns and paediatric/neonatal resuscitation status first, may already partially exist)` | 4–5 | 10 topics including Shock (High yield); several may already be scattered in emergency-medicine content elsewhere and just need consolidating rather than writing from zero |
 | N4 | `build new content: Australian Context of Health — Australian healthcare system structure, rural general practice issues, detention/prison/immigration health (distinct from the disease-specific equity content already woven throughout the project)` | 2 | 4 topics, Low–Medium yield |
