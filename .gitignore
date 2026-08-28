@@ -1,0 +1,5 @@
+# Python bytecode cache — generated whenever a script in scripts/ is imported
+# (e.g. to debug the variant generator in csv_crosscheck.py). Build artifact,
+# never source.
+__pycache__/
+*.py[cod]
