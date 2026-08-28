@@ -160,11 +160,17 @@ DIGRAPHS = [
     ("diarrhoea", "diarrhea"), ("paediatr", "pediatr"),
     ("orthopaed", "orthoped"), ("labour", "labor"), ("behaviour", "behavior"),
     ("neurone", "neuron"), ("oestrogen", "estrogen"), ("amoeb", "ameb"),
+    # -ise/-ize: the checklist mixes British and American forms
+    # ("Sterilization" vs the notes' "sterilisation").
+    ("isation", "ization"), ("isation", "isation"), ("ised", "ized"),
+    ("ising", "izing"), ("ise", "ize"), ("yse", "yze"), ("ysis", "ysis"),
     ("dyskinaesi", "dyskinesi"), ("anaesthes", "anesthes"), ("hyperkalaem", "hyperkalem"),
 ]
 
-SPLIT_RE = re.compile(r"\s*(?::|/|,|;|\band\b|\bor\b|\bvs\.?\b|\beg\b|\be\.g\.\b|–|—| - )\s*",
-                      re.IGNORECASE)
+SPLIT_RE = re.compile(
+    r"\s*(?::|/|,|;|\band\b|\bor\b|\bvs\.?\b|\beg\b|\be\.g\.\b"
+    r"|\bincl\.?\b|\bincluding\b|\bwith\b|–|—| - )\s*",
+    re.IGNORECASE)
 
 # Leading/trailing qualifiers a checklist row may carry that the notes' own
 # header omits, or places differently: the CSV says "Acute otitis externa" while
@@ -328,6 +334,14 @@ def expand_topic(topic):
         for frag in SPLIT_RE.split(p):
             frag = frag.strip(" ,;:-")
             if len(frag) >= MIN_PART_LEN:
+                parts.add(frag)
+            # A parenthetical ALL-CAPS acronym is admitted even below
+            # MIN_PART_LEN. The acronym tier matches these case-sensitively on
+            # raw text with word boundaries, so they are safe to search, and
+            # dropping them loses the notes' preferred name for the topic:
+            # "Intrauterine growth restriction (IUGR)" is written throughout the
+            # obstetric files as IUGR, never spelled out in full.
+            elif 2 <= len(frag) <= 6 and frag.isupper() and frag.isalpha():
                 parts.add(frag)
     for w in list(wholes):
         for frag in SPLIT_RE.split(w):
@@ -693,6 +707,9 @@ def self_test():
         # than its real home in the 13_01 ENT file.
         ("Acute otitis externa", "## Otitis externa"),
         ("Acute otitis media and sequelae", "## Otitis media (acute)"),
+        # Variant classes found during the P5 (Gynaecology & Breast) sweep.
+        ("Contraception incl Sterilization", "female sterilisation"),
+        ("Intrauterine growth restriction (IUGR)", "asymmetrical IUGR on ultrasound"),
     ]
     failures = []
     for topic, appears_as in cases:
