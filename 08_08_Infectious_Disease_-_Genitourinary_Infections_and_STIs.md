@@ -3,6 +3,60 @@ block: Infectious Disease
 source: quackquackmed 08.08 Genitourinary infections / STIs
 ---
 
+## The STI Check — Sexual History, What to Test, and When
+
+> [!note] Gap-filled from CSV ("Sexually transmitted diseases (STD)," Sexual Health/STIs category) during the N7 pass. **This is the seventh instance of the conflation pattern**, and the clearest yet: this file builds **thirteen organisms** in detail, and the phrase "offer testing for other STIs" / "comprehensive STI screen" / "STI screen (as indicated)" appears across this file, [[17_02_Menorrhagia__PMS__Menopause__HRT]], [[17_06_Subfertility_and_OHSS]] and [[07_Renal_Medicine_and_Urology]] — **instructing the reader to do a thing the corpus never specified.** [[History-Taking]] carried a single line ("sexual history: unprotected sex, new/multiple partners, discharge") inside a different presentation's red-flag screen. Built here rather than split across two files: which sites you swab is decided entirely by what the history discloses, so separating the history from the test selection would break the only part that is hard to get right. Verified against **STI Guidelines Australia** (`sti.guidelines.org.au`, *Standard asymptomatic checkup*) — see `PENDING_GUIDELINE_CHECKS.md` B35.
+
+### Taking a sexual history
+
+> [!warning] **Terminology collision, flagged deliberately (Step 12).** Sexual health teaching uses a **"5 Ps"** framework, and psychiatric formulation uses a **4/5 Ps** grid (see [[History-Taking]] Clinical Formulation — Turning a History Into an Explanation). They are unrelated and share only the mnemonic. Do not carry one into the other.
+
+**Partners · Practices · Protection · Past history of STIs · Prevention of pregnancy.**
+
+- **Partners** — number in a defined recent period, their gender(s), whether regular or casual, and whether any are known to have an STI or to have been overseas. *Why it changes management:* it sets the contact-tracing lookback and identifies whether syphilis and HIV risk are elevated.
+- **Practices** — vaginal, anal, oral; receptive and insertive. **This is the question that determines which sites you swab**, and it is the one most often skipped out of discomfort. A urine NAAT alone does not test the throat or the rectum.
+- **Protection** — condom use, consistently or occasionally; **PrEP** use (see [[08_05-06_Infectious_Disease_-_Viral_Infections]] for PrEP and PEP, not repeated here).
+- **Past history** — previous STIs (reinfection is common and a previous diagnosis marks ongoing risk), previous testing and when, hepatitis B and HPV vaccination status.
+- **Prevention of pregnancy** — contraception, and whether pregnancy is possible or wanted (see [[16_16-17_Contraception]]).
+
+> [!tip] **How to ask, since the barrier here is almost never knowledge.** Normalise before you ask — *"I ask everyone these questions, because the answers change which tests I order"* — then ask directly and specifically rather than euphemistically. Vague questions get vague answers, and a vague answer here means the wrong swab. Confirm confidentiality first, and for anyone under 18 see [[Clinical-Process-EBM-Consent-Capacity]] Consent and children and [[History-Taking]] Adolescent Psychosocial Assessment (HEADSS/HEEADSSS).
+
+### What a standard asymptomatic check consists of
+
+| | Test | Specimen |
+|---|---|---|
+| **Always** | **HIV** and **syphilis** serology | Blood. Both are on every check, regardless of how low-risk the history sounds — this is the single most commonly missed part of an STI screen. |
+| **Always** | **Chlamydia and gonorrhoea** NAAT | Site-directed by the history (below). |
+| **Risk-directed** | **Hepatitis B** serology (and hepatitis C, hepatitis A) | Blood, per risk factors and vaccination status. |
+| **If symptomatic** | Add the symptom-specific tests | e.g. *M. genitalium* NAAT for persistent urethritis/cervicitis, wet-mount or NAAT for trichomonas, swab/PCR of any ulcer. The entries below cover these. |
+
+**Specimen choice for chlamydia/gonorrhoea NAAT:**
+- **First-pass urine** in men (*not* a mid-stream sample — the organisms are urethral, so the first part of the stream is the one that carries them).
+- **Self-collected vaginal swab** in women — as accurate as a clinician-collected endocervical swab and far more acceptable, so offer it as the default rather than the fallback.
+- **Throat swab** if there has been oral sex; **anal swab** if there has been receptive anal sex.
+
+> [!danger] **Three-site testing, and the reason it matters more than it sounds.** Rectal and pharyngeal gonorrhoea and chlamydia are **usually asymptomatic** (already stated for gonorrhoea below in this file). Testing urine alone in someone who has had receptive anal or oral sex will therefore **miss most of their infection** — the patient is told they are clear, remains infectious, and the pharynx in particular is where gonococcal treatment failure and resistance emerge. **Men who have sex with men should be tested at all three sites at least annually, and 3-monthly with multiple or higher-risk partners.** The generalisable rule is that **sites tested must match sites exposed**, for anyone.
+
+### Window periods — why a negative test soon after exposure means little
+
+A **window period** is the interval between exposure and the point at which a test can reliably detect infection. Testing inside it produces a **false negative**, and the patient leaves falsely reassured.
+
+- **Chlamydia and gonorrhoea** — detectable within roughly **1–2 weeks** (the entries below use 2 weeks post-exposure).
+- **HIV** — a 4th-generation antigen/antibody assay has a window of around **6 weeks**; repeat testing after a recent specific exposure.
+- **Syphilis** — serology takes **several weeks** to become reactive.
+
+> [!tip] **The practical consequence:** if someone presents days after a specific exposure, test now **and** book the repeat, and say explicitly that today's result cannot exclude infection. Testing once, early, and calling it negative is the error. Where there has been a high-risk HIV exposure within 72 hours, PEP is time-critical and takes priority over any testing discussion.
+
+### After the result
+
+- **Treatment** — see the individual entries below. **Contact tracing/partner notification** is covered under Chlamydia below, including the Australian 6-month lookback and patient-delivered partner therapy; the same structure applies across STIs with the lookback period varying by organism.
+- **Notifiable conditions.** Chlamydia, gonorrhoea, syphilis, HIV and several others are **notifiable in every Australian state and territory** — see [[08_09_Infectious_Disease_-_Miscellaneous]] for the National Notifiable Diseases Surveillance System and how notification actually works. Notification is a legal obligation on the diagnosing clinician or laboratory, and it is not the same thing as partner notification.
+- **Retesting at 3 months** to detect reinfection is recommended after a positive result, and is distinct from test of cure.
+
+> [!info] **Equity, and it is specific and already evidenced within this file (Step 10).** Two things this file already establishes independently: chlamydia notification rates are **substantially higher among Aboriginal and Torres Strait Islander people** (pooled prevalence around 22% in Indigenous women under 25 attending sexual health services), and infectious syphilis has been a **Communicable Disease Incident of National Significance since August 2025**, with rates around 7 times higher. Both are stated with sources in the entries below. The point that belongs *here*, with the screening approach, is the mechanism connecting them: **the burden is concentrated where access to testing is hardest** — distance from a service, limited privacy in small communities, and the delay between specimen collection and a result returning from a distant laboratory, which is precisely the interval in which a patient is lost to follow-up. That is the reasoning behind **point-of-care testing in remote services**, which shortens treat-time from weeks to the same visit. The intern-level version: **when the pathway from test to treatment is long, offer treatment at the point the risk is identified rather than assuming the patient will return** — the same logic as presumptive treatment of contacts.
+
+---
+
 ## Bacterial vaginosis
 
 - **A/P:** anaerobic *Gardnerella vaginalis* overgrowth. Affects women.
