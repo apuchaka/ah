@@ -155,6 +155,47 @@ The relationship: the Advance Care Directive **informs** the goals-of-care docum
 
 ---
 
+## Domestic and Family Violence — Identification and Initial Response
+
+> [!note] Gap-filled from CSV ("Domestic violence," High yield, General Practice/Preventive Med/Ethics/Communication category). This was flagged in an earlier round as deliberately deferred ("see GP sec") and never returned to. Corpus-wide search found it as **a single bare bullet** — "ask about domestic violence and substance abuse in unsupported women" in [[16_01-05_Antenatal_Care]] Antenatal care — with no screening approach, red flags, safety planning, risk assessment or reporting content anywhere. Verified against the RACGP *Abuse and violence: working with our patients in general practice* ("White Book," 5th edition) and its Family Violence Toolkit, AIHW family, domestic and sexual violence data, and 1800RESPECT, Aug 2026.
+
+**Scale, because it determines how often this is sitting in front of you unrecognised:** **around 1 in 4 Australian women (23%, ~2.3 million) have experienced physical and/or sexual violence from an intimate partner since the age of 15.** Primary care is frequently the **first** point of contact for a victim-survivor — often for something that is not obviously related.
+
+> [!danger] The single most important procedural rule: **never ask about violence in front of the partner, a family member, or a child old enough to repeat the conversation.** This includes not using a family member as an interpreter. If you cannot get the person alone, do not ask — find a legitimate reason to separate them ("I always examine people privately") or defer to a follow-up appointment. Asking unsafely is worse than not asking, because it can escalate risk after the consultation and destroys the chance of later disclosure.
+
+### Recognising it
+
+Violence is rarely the presenting complaint. Consider it with:
+- **Injuries** inconsistent with the explanation, of varying ages, in a distribution suggesting defence (forearms, back), or delayed presentation.
+- **Somatic and mental health presentations** — chronic pain, headaches, gastrointestinal symptoms, sleep disturbance, anxiety, depression, self-harm, substance use (see [[14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_]] Depression (Major depressive disorder) and [[History-Taking]] Psychiatric History).
+- **Reproductive and sexual health** — recurrent STIs, unintended pregnancy, requests for termination, pelvic pain. **Pregnancy is a period of elevated risk**, not reduced, and violence commonly begins or escalates then.
+- **Behavioural cues** — frequent attendances with vague complaints, missed appointments, a partner who attends every consultation and answers for them, evident fear.
+- **Coercive control**, which may be present with no physical violence at all: monitoring, isolation from family and friends, financial control, threats regarding children or immigration status.
+
+**Asking:** frame it normally and non-judgementally, rather than as an accusation about the partner —
+*"Because it's common and it affects health, I ask everyone: does anyone at home hurt you, frighten you, or make you feel unsafe?"*
+*"Does your partner ever control what you do, who you see, or the money?"*
+
+> [!warning] **Non-fatal strangulation is the red flag that changes urgency.** It is a strong predictor of subsequent homicide, and **around half of those strangled have no visible external injury** — so its absence proves nothing. Ask directly about being choked, squeezed around the neck, or having breathing obstructed. Where it has occurred, there is both an **acute medical risk** (delayed airway oedema, carotid dissection, hypoxic brain injury — warranting imaging and observation) and a **major risk-assessment implication**. Other high-risk markers: escalating frequency or severity, threats to kill, strangulation, weapons, separation or a recent attempt to leave (the highest-risk period), stalking, sexual violence within the relationship, and perpetrator substance misuse or suicidality. Structured tools such as the **Danger Assessment (and its short DA-5 form)** exist for this and are used by specialist services.
+
+### Responding
+
+The realistic goal of a single consultation is **not** to make the person leave. It is to identify the violence, validate it, assess immediate safety, offer a pathway, and keep the relationship open. **Leaving is the most dangerous period**, so a decision to stay is not a failure of the consultation and must not be treated as one.
+
+- **Validate explicitly:** *"This is not your fault."* *"You don't deserve to be treated this way."* *"I'm glad you told me."*
+- **Assess immediate safety** — is it safe to go home today; are children involved; are weapons present.
+- **Safety planning** where they are not leaving: a packed bag and copies of key documents somewhere safe, a code word with a trusted person, a planned exit route, an emergency contact, and knowing to call **000** in danger.
+- **Refer and connect** — **1800RESPECT (1800 737 732)** is the national 24-hour counselling and referral line; state-based services, specialist family violence workers, social work, and legal services.
+- **Document carefully and factually**, in the person's own words, with body-diagram or measured descriptions of injuries. Records may later become evidence, and this is a place where the distinction between fact and opinion genuinely matters (the same standard as [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI)). **Consider whether the record itself creates risk** if the perpetrator can access shared health records or accompanies the patient.
+- **Follow up** — offer a specific review appointment. Disclosure usually takes multiple contacts, and the first conversation is rarely the decisive one.
+
+> [!info] **Reporting — and this is where interns most often assume wrongly.** For a competent adult, **there is generally no mandatory obligation to report intimate partner violence against their will**, and doing so can increase danger; obligations vary by jurisdiction, so check local law. Two situations do change this:
+> - **Children exposed to family violence** — this engages child protection mandatory reporting duties, which *do* apply to doctors (see [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Sexual abuse for the SA framework). Exposure to violence is itself a form of harm, not merely context.
+> - **An older person** — see [[18_Geriatrics_and_Older_Persons_Health]] Abuse of Older People (Elder Abuse) and Carer Stress, where the position is different again.
+> Where capacity is in question, see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework.
+
+---
+
 ## Management of Patients with Multiple Chronic Medical Problems
 
 > [!note] CSV listed conditions for this task: COPD/asthma, CKD, congestive heart failure, ischaemic heart disease, diabetes, cirrhosis, rheumatoid arthritis, osteoporosis, HIV, stroke, depression — this is a task/approach-led row (multimorbidity management as a skill), not a single disease, hence its place here rather than in a system file.
