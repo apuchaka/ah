@@ -46,11 +46,11 @@ source: quackquackmed 08.08 Genitourinary infections / STIs
 
 - **Mx:** **doxycycline 100mg PO BD for 7 days** (first-line); **azithromycin 1g PO single dose** as the alternative; in pregnancy — **azithromycin 1g single dose**.
 
-> [!info] Verified against STI Guidelines Australia (sti.guidelines.org.au), Aug 2026 — the Australian partner notification (contact tracing) window for chlamydia is genuinely different from the UK figures below.
-> - **Advise no sex with partners from the last 6 months** until those partners have been tested and treated if necessary — a materially longer lookback window than the UK's shorter figures below, applying regardless of the patient's symptom status (not a separate symptomatic-male vs asymptomatic distinction the way the UK approach below is structured).
+> [!info] Verified against STI Guidelines Australia (sti.guidelines.org.au), Aug 2026 — the Australian partner notification (contact tracing) window for chlamydia is genuinely different from the UK figures this entry originally carried. **(Step 12 fix, N7 pass: this box previously said "the UK figures below" three times, but the UK figures had already been removed when the entry was localised — the box was pointing at content that no longer existed. The Australian figures are now stated on their own terms.)**
+> - **Advise no sex with partners from the last 6 months** until those partners have been tested and treated if necessary. This is a **materially longer lookback window than the UK equivalent**, and — the more important structural difference — it applies **regardless of the patient's symptom status**, rather than setting a different window for symptomatic men than for everyone else.
 > - Test of cure by NAAT (only needed in specific situations, e.g. pregnancy, or where non-first-line treatment was used) should be performed no earlier than 4 weeks post-treatment, to avoid a false positive from residual chlamydia DNA.
 > - Retesting at 3 months is recommended to detect reinfection, distinct from test-of-cure.
-> - Patient-delivered partner therapy (allowing the patient to pass treatment directly to partners without those partners attending a clinic first) is available in some Australian jurisdictions (Victoria, NSW, NT) — a specific Australian contact-tracing mechanism with no direct UK equivalent in the original note.
+> - Patient-delivered partner therapy (allowing the patient to pass treatment directly to partners without those partners attending a clinic first) is available in some Australian jurisdictions (Victoria, NSW, NT) — a specific Australian contact-tracing mechanism with no direct UK equivalent.
 
 - **Complications:** epididymitis; pelvic inflammatory disease (PID) → perihepatitis (Fitz-Hugh-Curtis syndrome); endometritis; infertility; ↑risk of ectopic pregnancy; reactive arthritis.
 
