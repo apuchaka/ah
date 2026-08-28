@@ -1385,7 +1385,11 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 - **Definitive:** treat the underlying cause — cross-reference the relevant disease section above (gluten-free diet for coeliac, PERT for pancreatic insufficiency, antibiotics for SBBOS, etc.) rather than treating malabsorption as a generic entity.
 - **Chronic/long-term:** replace specific deficiencies identified (iron, B12, folate, fat-soluble vitamins, calcium/magnesium as needed); dietitian involvement for nutritional optimisation; monitor for and address the downstream complications of prolonged deficiency (osteoporosis from vitamin D/calcium deficiency, peripheral neuropathy from B12 deficiency).
 
----### Anatomical regions and their contents
+---
+
+## Abdominal Pain — Regional Anatomy and DDx
+
+### Anatomical regions and their contents
 | Region | Structures |
 |---|---|
 | Right hypochondrium | Liver + GB, right kidney + adrenal, small intestine, ascending colon |
