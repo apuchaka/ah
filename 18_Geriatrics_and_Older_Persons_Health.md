@@ -81,3 +81,59 @@ The first branch point is whether consciousness was lost, because it splits the 
   - Referral pathways: falls clinic, geriatrician, community physiotherapy/OT, and an **Aged Care Assessment Team (ACAT)** assessment where support needs have changed — see Discharge Planning and Home Safety Assessment below.
 
 > [!info] The intervention hierarchy, if you remember nothing else: **balance-challenging exercise at adequate dose, deprescribe the FRIDs, and fix the home and the glasses.** Those three carry most of the evidence. Vitamin D matters where the patient is deficient, and much less where they are not.
+
+---
+
+## Frailty
+
+> [!note] Gap-filled from CSV ("Frailty phenotype / frailty assessment," High yield). Genuinely absent: the word appeared three times in the whole corpus, each time as a passing modifier on some other topic (an ECOG caveat in oncology, a relaxed HbA1c target in diabetes, a bladder-drug caution) — never as a concept with a definition, an assessment method, or management. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition) Part A "Frailty", the Australian Consensus Statement on the Prevention and Management of Frailty Among Community-Dwelling Older Adults (MJA, modified Delphi), and the AJGP review of sarcopenia in general practice, Aug 2026.
+
+**D:** a state of **reduced physiological reserve across multiple organ systems**, producing disproportionate vulnerability to decompensation after a stressor that a non-frail person of the same age would absorb without consequence.
+
+> [!info] The clinical signature, which is what makes frailty a useful concept rather than a synonym for "old": **the response is out of proportion to the insult.** The same urinary tract infection produces mild dysuria in a fit 80-year-old and, in a frail one, a fall, delirium, incontinence, immobility and an admission — with function often not returning to baseline afterwards. That non-linear response, and the incomplete recovery, is frailty. It is the reason a frail patient's presenting complaint is so often one of the geriatric syndromes (falls, delirium, immobility, incontinence) rather than the organ-specific symptom of the actual illness.
+
+**Frailty is not the same as any of the things it is routinely confused with:**
+- **Not age.** Many 90-year-olds are not frail; some 65-year-olds are.
+- **Not multimorbidity.** They overlap and each raises the risk of the other, but a patient can carry several well-controlled chronic diseases with intact reserve, and a patient with few diagnoses can be profoundly frail.
+- **Not disability.** Disability is established loss of function; frailty is the vulnerability that predicts *future* loss. A frail person may currently be fully independent — which is exactly when intervention has the most to offer.
+
+### Assessment — two different models, used for different jobs
+
+**1. The frailty phenotype (Fried) — a physical, criteria-based definition.** Five components:
+1. Unintentional weight loss
+2. Self-reported exhaustion
+3. Low physical activity
+4. Slow walking speed
+5. Weak grip strength
+
+**Three or more = frail; one or two = pre-frail; none = robust.** The *pre-frail* category is the practically important one — it identifies the patient in whom the trajectory is still readily modifiable.
+
+**2. The Clinical Frailty Scale (Rockwood) — a judgement-based 9-point scale**, running from *very fit* through to *terminally ill*, and derived from the accumulated-deficits model, which counts deficits across physical, cognitive and psychosocial domains rather than physical criteria alone. Fast enough to apply at the bedside or on admission, which is why it is the one most often seen in hospital practice and in escalation and perioperative decisions.
+
+Both are validated and both predict mortality; they are not interchangeable, and they answer different questions. The phenotype asks *"is this patient physically frail, and can I target the components?"*; the CFS asks *"how much reserve does this patient have, and what does that mean for the decision in front of me?"*
+
+**Australian guidance is to assess frailty annually in older patients using a validated tool** — the specific tool matters less than doing it systematically rather than by impression.
+
+**Sarcopenia** — the age-related loss of skeletal muscle mass, strength and function — is the muscle-specific core of physical frailty, and is what the exercise and protein interventions below are actually targeting.
+
+### Why it changes management, not just prognosis
+
+Frailty should alter clinical decisions rather than merely describe the patient:
+- **Treatment targets loosen.** Tighter is not better in frailty — see the relaxed HbA1c targets in frail older patients in [[06_Metabolic_Medicine_and_Endocrinology]], and weigh the falls and postural-hypotension cost of intensive blood-pressure lowering against its benefit.
+- **Fitness for intervention.** Frailty predicts postoperative complications and chemotherapy toxicity better than age or performance status alone — note the explicit acknowledgement in [[10_11a_Oncology_-_Common_Cancers__Carcinogens__Tumour_Markers]] ECOG Performance Status that ECOG is a broad functional snapshot rather than a frailty assessment.
+- **Falls and fracture risk rise together** — see Falls in Older People above and [[11_08b_Ortho_-_Paget_s_Disease_and_Osteoporosis]] Osteoporosis.
+- **Delirium risk rises sharply**, which is why reduced physiological reserve appears as the first half of the delirium equation in [[04_Neurology]] Delirium.
+- **Goals of care conversations become timely**, not premature — see [[Communication]] Discussing "Do Not Attempt Cardiopulmonary Resuscitation" (DNACPR / Not-for-Resuscitation) for that conversation, and [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework for the capacity question that underlies it.
+
+### Mx — the central message is that frailty is modifiable
+
+> [!danger] **Frailty is not an inevitable consequence of ageing, and identifying it is not a reason for therapeutic nihilism.** Its main drivers — sarcopenia, undernutrition, physical inactivity, uncontrolled chronic disease and polypharmacy — are all modifiable, and pre-frailty in particular can be reversed. Recording "frail" and doing nothing is a clinical failure, not a diagnosis.
+
+- **Immediate/acute:** in an acute presentation, expect an atypical one, hunt for the geriatric syndrome masking the illness, and avoid the iatrogenic harms that frail inpatients are most susceptible to — deconditioning from bed rest, delirium, pressure injury, and new medications.
+- **Definitive — the interventions with evidence:**
+  - **Exercise, progressive and individualised, combining resistance, aerobic, and balance/functional training**, tailored to frailty level and professionally supervised. **The resistance component is essential** and is the part most often left out when a patient is simply told to "stay active".
+  - **Nutrition — an individualised, protein-rich diet**, with active identification and treatment of protein–energy malnutrition and specific deficiencies. Early dietitian involvement.
+  - **Deprescribing** — see Polypharmacy and Deprescribing below.
+  - **Optimise contributing chronic disease**, and correct sensory impairment (vision, hearing), which drives inactivity and social withdrawal.
+  - **Early physiotherapist and dietitian involvement** is specifically recommended rather than reserved for failure of advice alone.
+- **Chronic/long-term:** **Comprehensive Geriatric Assessment** — the multidimensional, multidisciplinary assessment (medical, functional, cognitive, psychological, social, environmental) with a coordinated plan, which is the structure that ties together everything in this file. Address social isolation, arrange appropriate community supports, and reassess frailty status annually to track the trajectory rather than assuming it only goes one way.
