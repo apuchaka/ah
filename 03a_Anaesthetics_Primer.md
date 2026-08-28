@@ -245,6 +245,59 @@ Injection of anaesthetic (e.g. LA, opioids) into the epidural or subarachnoid sp
 
 ---
 
+## Assessment and Basic Management of Pain
+
+> [!note] Gap-filled from CSV ("Assessment and Basic Management of Pain," Medium yield, GP/Ethics category). **Verified absent by asking whether an entry *teaches* this, not whether the terms appear** — the distinction that has caught three prior misclassifications in this project. Zero corpus-wide hits for "analgesic ladder" or "pain assessment"; "neuropathic pain" appeared only as a *symptom* of other diseases or as an indication for amitriptyline; and [[10_11c_Oncology_-_Palliative_Care_Prescribing]] General principles covers opioid dosing and conversion in the **palliative** context without teaching general assessment.
+>
+> **Placement note — this overrides the queue's allocation.** The N6 remainder table assigned this row to `19_General_Practice_and_Preventive_Medicine`, but that file's declared scope is general practice as a discipline and preventive care as a system; pain assessment is neither, and putting it there would repeat the error of using a new file as a convenient container. Built here instead: ANZCA is the Australian college for acute pain medicine, this file has already had an ANZCA-focused localisation pass, and it already carries regional anaesthesia and postoperative care.
+>
+> Verified against ANZCA position statement **PS41(G) Acute Pain Management (2023)** and the ACSQHC **Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard (2022)**, Aug 2026.
+
+### Assessment
+
+**Characterise the pain** — SOCRATES or PQRST as the structure (see [[History-Taking]] Chest Pain for the SOCRATES framework applied in full, not repeated here). Then classify it, because **the class determines which drugs will work**:
+
+| Type | Mechanism | Typical description | Responds to |
+|---|---|---|---|
+| **Nociceptive** | Tissue injury activating intact nociceptors | Sharp, aching, throbbing; well localised (somatic) or vague and referred (visceral) | Paracetamol, NSAIDs, opioids |
+| **Neuropathic** | Damage or disease of the somatosensory nervous system itself | Burning, shooting, electric-shock; with allodynia or numbness in a neuroanatomical distribution | **Poorly responsive to opioids**; needs tricyclics or gabapentinoids |
+| **Nociplastic** | Altered central processing without identifiable tissue or nerve damage | Widespread, disproportionate to findings | Multimodal, non-pharmacological emphasis |
+
+> [!info] **Why the classification is not academic: neuropathic pain responds poorly to opioids, and the mechanism explains why.** Opioids act on receptors in a nociceptive pathway that is intact; in neuropathic pain the pathway itself is damaged and generating signal independently, so escalating the opioid dose adds side effects without adding analgesia. **A patient whose pain is not responding to increasing opioid doses may not need more opioid — they may need a different class.** Recognising that is the single highest-value thing this classification buys an intern.
+
+**Measure severity** with a numerical rating or visual analogue scale — but **pair it with function**, which is the more useful measure and the more reliable one: *can they cough, deep-breathe, mobilise, sleep?* A patient reporting 8/10 who is sleeping comfortably and one reporting 6/10 who cannot take a deep breath are different clinical problems, and the functional question distinguishes them.
+
+**Reassess after every intervention.** A pain score recorded once is an observation; recorded before and after treatment it becomes evidence of whether the treatment worked.
+
+> [!warning] **Patients who cannot self-report are the ones most often under-treated** — advanced dementia, delirium, intubation, intellectual disability, very young children. **Absence of complaint is not absence of pain.** Use an observational/behavioural tool (facial expression, vocalisation, body language, guarding, changes in behaviour or agitation) rather than assuming comfort. In an older person with dementia, **new agitation should prompt a search for pain** alongside the other precipitants (see [[04_Neurology]] Delirium, not repeated here).
+
+### Management
+
+**Multimodal analgesia is the organising principle**, and its logic is worth stating rather than the drug list alone: **combining agents that act by different mechanisms gives better analgesia at lower doses of each, and specifically reduces the opioid requirement and therefore opioid-related harm.** Paracetamol and an NSAID are not "weak" options to be skipped on the way to an opioid — they are the base the opioid sits on, and omitting them means using more opioid than necessary.
+
+**The WHO analgesic ladder** — three steps, each ± adjuvants:
+1. **Non-opioid** — paracetamol ± NSAID
+2. **Weak opioid** — e.g. codeine, tramadol
+3. **Strong opioid** — e.g. morphine, oxycodone, hydromorphone
+
+> [!tip] **Two things about the ladder that are usually left out.** It was developed for **cancer pain**, where pain escalates over time, so it is climbed upwards. **In acute severe pain it is used in reverse** — start at the step the pain warrants and step *down* as it settles. Starting a patient with a fractured femur on paracetamol because it is "step 1" misapplies the tool. And **adjuvants are not a fourth step** — they run alongside every step, and for neuropathic pain they are the primary treatment rather than an addition.
+
+**Opioid stewardship** — the ACSQHC clinical care standard exists because acute-pain opioid prescribing is a recognised source of long-term harm:
+- **Non-opioid analgesia first and always alongside**, not instead of.
+- **Immediate-release, not modified-release**, for acute pain — modified-release preparations are associated with greater harm in this setting and are harder to titrate.
+- **Shortest effective duration**, with a **plan and an endpoint** stated at the time of prescribing rather than left open.
+- **Do not discharge with an opioid script by default.** Where one is genuinely needed, supply a small quantity with an explicit stopping plan and tell the GP.
+- Prescribe a **laxative with any regular opioid** — constipation is the side effect that persists rather than resolving (already established in [[10_11c_Oncology_-_Palliative_Care_Prescribing]] General principles).
+
+**Non-pharmacological measures are part of the plan, not a substitute for it**: positioning and splinting, ice or heat, immobilisation of a fracture, treating the cause (drainage, reduction, catheterisation for retention), explanation and reassurance, and physiotherapy.
+
+**Special populations:** **start low and go slow in the elderly** (reduced renal and hepatic clearance, greater sensitivity — see [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing for the fall-risk consequences of getting this wrong); **opioid-tolerant patients need their baseline requirement continued *plus* additional analgesia** for the new acute pain, and withholding it is a common and avoidable error; renal impairment alters opioid choice.
+
+> [!danger] **Aboriginal and Torres Strait Islander patients are demonstrably under-treated for pain, and one of the documented causes is a clinician belief rather than a system barrier.** Australian research finds the musculoskeletal pain burden around **1.4 times higher**, pain **under-reported and under-treated**, and — in the pre-hospital setting — Aboriginal and Torres Strait Islander patients **less likely to receive IV access or analgesia**. A specific, correctable contributor identified in that literature is the **unfounded clinician belief that Aboriginal and Torres Strait Islander people are "more stoic"**, which converts an under-report into an under-treatment.
+> Two practical consequences: **do not calibrate analgesia to how much the patient complains** — use the functional questions above, which do not depend on expressed distress; and be aware that **standard pain scales may lack cultural relevance or feel uncomfortable**, so a low score on a numerical scale should not close the assessment. Verified against Australian systematic review and Queensland qualitative research on pain experience and management for Aboriginal and Torres Strait Islander peoples, Aug 2026.
+
+---
+
 ## Postoperative Care and Complications
 
 > [!note] Gap-filled from CSV (Anaesthetics/Perioperative Care category, Medium yield, "partially covered" via the PONV section above) — general postoperative complications beyond PONV weren't covered in the source primer.
