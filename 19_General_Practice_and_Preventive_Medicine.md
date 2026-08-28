@@ -72,3 +72,41 @@ The **National Immunisation Program (NIP)** provides funded vaccines. The **chil
 - **Mental health** — note that **Australia does not recommend general population screening for depression**; the RACGP approach is opportunistic case-finding, an established point in [[14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_]] that is a genuine AU-vs-UK difference.
 
 > [!tip] The practical intern-level summary: know **who is invited to the three national cancer screening programs and how often**, know that a **symptomatic patient is investigated rather than screened**, know that **AUSDRISK is not validated for Aboriginal and Torres Strait Islander people**, and know that **adult immunisation exists** and needs checking against current NIP eligibility rather than memory.
+
+---
+
+## Lifestyle Risk Factors (SNAP) and Smoking Cessation
+
+> [!warning] **Correction to this project's own record.** The workflow document's Step 23 findings list "smoking cessation/SNAP (appropriately scattered as a risk factor across many disease entries)" as **confirmed present**. That is wrong, and the error is instructive: *smoking cessation* is indeed mentioned across many entries, but **the SNAP framework itself appeared nowhere** — a corpus-wide search returns zero hits for the acronym as a framework (every match is "opening snap" or "snapping"). Being mentioned as a risk factor is not the same as being built as a topic, and the earlier pass conflated the two.
+
+> [!note] Gap-filled from CSV ("Life Style related Diseases (SNAP)," Medium yield). Placed here rather than in an organ-system file because SNAP spans all four domains and belongs to none of them; the *brief-intervention conversation* itself is a communication skill and is cross-referenced to [[Communication]] Motivational Interviewing and the Stages of Change rather than duplicated. Verified against the RACGP *Smoking, nutrition, alcohol, physical activity (SNAP): a population health guide to behavioural risk factors in general practice*, Aug 2026.
+
+**SNAP** is the Australian general-practice framework for the four behavioural risk factors that together account for most of the modifiable burden of chronic disease: **S**moking, **N**utrition, **A**lcohol, **P**hysical activity. They cluster — heavy smoking is commonly accompanied by poor nutrition, hazardous drinking and inactivity — so finding one is a reason to ask about the other three rather than to address it in isolation.
+
+### The 5As — the structure for a brief intervention
+
+| | | In practice |
+|---|---|---|
+| **Ask** | Identify and record the risk factor | Systematically, not opportunistically-if-remembered |
+| **Assess** | Level of risk, **and readiness to change** | This is where the stages-of-change model does the work — see [[Communication]] Motivational Interviewing and the Stages of Change, not repeated here |
+| **Advise** | Clear, personalised, non-judgemental advice to change | Personalised to *their* clinical situation beats generic advice |
+| **Assist** | Help them act — goal setting, self-monitoring, pharmacotherapy | The step most often skipped after giving advice |
+| **Arrange** | Referral and follow-up | Quitline, dietitian, exercise physiologist, alcohol services; and a review appointment |
+
+> [!info] The 5As and the stages of change interlock: **Assess** determines *how much* of the rest of the sequence is useful today. A precontemplative patient gets Ask, Assess, Advise, and an open door — pushing Assist and Arrange on them wastes the consultation. Someone in preparation should get all five in one visit.
+
+### Smoking — the highest-yield of the four
+
+- **Ask about smoking status at every opportunity and record it.** Brief advice from a clinician measurably increases quit rates, and it takes under a minute.
+- **Pharmacotherapy** roughly doubles quit rates over behavioural support alone: **nicotine replacement therapy** (combination therapy — a long-acting patch plus a short-acting form such as gum, lozenge, inhalator or spray for breakthrough cravings — is more effective than a patch alone), **varenicline**, and **bupropion**. Already named briefly in [[02_Respiratory]] under COPD; this is the fuller version.
+- **Quitline (13 7848)** is the national behavioural-support service and is the concrete "Arrange" step. Multi-session behavioural support plus pharmacotherapy outperforms either alone.
+- **Relapse is expected**, not a failure — most people make several attempts before sustained cessation, and a lapse should re-enter the cycle rather than end the conversation (see the Relapse row in [[Communication]] Motivational Interviewing and the Stages of Change).
+- **Smoking is the dominant modifiable risk factor** across an enormous share of this project's content — see [[02_Respiratory]] COPD and Lung Cancer, [[01_Cardiovascular]], and [[10_11a_Oncology_-_Common_Cancers__Carcinogens__Tumour_Markers]] — which is exactly why it is worth having a method rather than a reflex to advise stopping.
+
+### Nutrition, alcohol and physical activity
+
+- **Nutrition** — assess dietary pattern rather than individual nutrients; refer to a dietitian where there is an established condition (diabetes, CKD, coeliac disease, malnutrition in frailty — see [[18_Geriatrics_and_Older_Persons_Health]] Frailty for the protein-intake point specifically).
+- **Alcohol** — screen with **AUDIT-C**, already established in [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]] Alcohol use disorder, which carries the dependence, withdrawal and pharmacotherapy content and is not repeated here. Brief intervention is effective in hazardous drinkers who are not dependent; **dependence is a different problem needing a different pathway**, and the important clinical step is distinguishing the two before advising someone to cut down (abrupt cessation in a dependent drinker risks withdrawal — see [[03_Gastrointestinal]] Alcohol withdrawal).
+- **Physical activity** — ask about it specifically rather than inferring it; any increase from a low base carries benefit, and the framing that matters for an older or deconditioned patient is that **something beats nothing** (see [[18_Geriatrics_and_Older_Persons_Health]] Falls in Older People for the balance-challenging exercise dose specifically, which is a different and more demanding prescription than general activity advice).
+
+> [!tip] What makes this a topic rather than a slogan: the four factors **cluster**, the **5As give a structure** so the consultation does not stop at "you should really quit", and **matching the intervention to readiness** determines whether any of it lands. An intern who can do Ask–Assess–Advise well, and knows that Assist means pharmacotherapy and Arrange means Quitline, is doing the useful part.
