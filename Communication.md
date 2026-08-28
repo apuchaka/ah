@@ -419,16 +419,16 @@ This is the CSV's actual scenario, and the intern's instinct — to ignore it an
 
 > [!warning] **Do not simply endure it.** Behaviour that is tolerated tends to escalate, the record of what happened is contemporaneous or it is nothing, and — the point most often missed — **an unaddressed boundary problem compromises the patient's care too**, because a clinician managing discomfort is not consulting freely.
 
-### Observers (formerly "chaperones")
+### Observers
 
-> [!info] **Terminology has changed and it is worth knowing:** the Medical Board's revised guidelines use **"observer"** rather than "chaperone". This project's [[Examination]] entries still use the older term throughout; the meaning is unchanged, but the current word is observer.
+> [!info] **Terminology:** the Medical Board's guidelines use **"observer"**. "Chaperone" is the older, superseded term.
 
-- An observer **protects both parties** — reassuring a patient who is fearful, vulnerable or embarrassed, and providing a witness for the clinician.
-- **Offer one for any intimate examination**, and for any examination where the patient may feel exposed or where you have any concern about how it may be perceived.
-- **Document the offer, the patient's response, and the observer's name and title** — including where the offer was declined. An undocumented offer provides no protection to anyone.
-- A family member is not an ideal observer; a clinical staff member is preferable where available.
+**The full operational detail — who can act as an observer, what happens when a patient declines, and the separate right to a support person — is built in [[Examination]] Observers in Clinical Examination and is not repeated here.** Two points belong specifically to this entry, because they are about boundaries rather than examination technique:
 
-> [!tip] An observer is not only for intimate examinations of women by men. Consider one whenever the examination, the setting, or the patient's presentation makes it appropriate — and note that a request for an observer, or for a clinician of a particular gender, may reflect a cultural or religious need rather than a preference, and should be accommodated where practicable rather than treated as an inconvenience. (Stated as a general principle of culturally safe care; no Australian-specific disparity data was sourced for this entry, and none is asserted.)
+- **An observer is a witness, not only a comfort.** They can give an account if improper behaviour is later alleged, which means the offer protects **you** as well as the patient. Interns tend to frame it as something done *for* the patient and therefore skippable when the patient seems relaxed; that reasoning misses half its function.
+- **Consider one whenever the examination, the setting, or the patient's presentation makes it appropriate** — not only for intimate examinations of women by men. And note that **what counts as an "intimate" examination is defined from the patient's perspective and may be shaped by cultural values and beliefs**, so ask and offer rather than assume.
+
+**Document the offer, the response, and the observer's name and title** — including where the offer was declined. An undocumented offer protects nobody.
 
 ---
 

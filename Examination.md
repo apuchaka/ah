@@ -69,6 +69,26 @@ This file collects examination technique across all systems as an action checkli
 
 ---
 
+## Observers in Clinical Examination
+
+> [!note] Gap-filled — the term appeared **eight times across this file** as a procedural instruction inside examination sequences ("offer a observer"), with **no entry explaining what an observer is for, who can be one, or what happens if the patient declines**. Referenced enough to look covered; never taught. Verified against the **Medical Board of Australia's *Sexual boundaries in the doctor–patient relationship* guidelines, section 7.1 "Use of observers"**, Aug 2026. See also [[Communication]] Professional Boundaries, and the Inappropriate Patient for the wider boundaries framework, not repeated here.
+
+> [!info] **Terminology:** the Medical Board's guidelines use **"observer"**. "Chaperone" is the older term — still widely understood, but superseded.
+
+**An observer serves two purposes, and the first is routinely forgotten.** They are a **witness to the consultation**, able to give an account if improper behaviour is later alleged — protecting the doctor as well as the patient — **and** they may **provide comfort and reassurance** to a patient who is fearful, vulnerable or embarrassed. Offering one "for the patient's benefit" describes only half of why it exists.
+
+**Who can be an observer:** someone **qualified for the role** — a registered or enrolled nurse, another registered health practitioner, or a person **appropriately trained so they understand what the support role involves**. They must be **acceptable to the patient**, and must **respect the patient's privacy, confidentiality and dignity**. A family member is not a substitute for a qualified observer.
+
+> [!warning] **The patient may decline an observer, and this leaves the doctor with a genuine choice rather than an obligation.** Where the offer is declined, the doctor may **proceed without one**, or may **decline to proceed and assist the patient to find another doctor**. Both are legitimate; neither is abandonment, provided the patient is actually helped to access care. Document the offer and the response either way.
+
+> [!danger] **An observer and a support person are two different rights, and conflating them is the common error.** Separately from any observer the practice provides, **the patient may ask to be accompanied by a support person of their own choosing** — a partner, relative or friend. That is the patient's entitlement and is not a substitute for a qualified observer, nor does providing one discharge the offer of the other. A patient may reasonably want both, or either, or neither.
+
+> [!info] **"Intimate examination" is defined from the patient's perspective, not by a fixed anatomical list.** It usually means examination of the breasts, genitalia or an internal examination — but what a given patient experiences as intimate **may be shaped by their cultural values and beliefs**, and may extend beyond that list. The practical consequence: **ask and offer rather than assume**, and treat a patient's discomfort with an examination you consider routine as informative rather than as an overreaction. This is the same principle applied elsewhere in this project to culturally safe assessment.
+
+**In practice, for any examination in this file marked "offer an observer":** make the offer explicitly rather than assuming, record the offer and the response, and record the observer's **name and title** where one is present. An undocumented offer protects nobody.
+
+---
+
 ## GALS Screen (Gait, Arms, Legs, Spine)
 
 > [!note] Gap-filled — the classic, standardised rapid musculoskeletal screening examination, without a dedicated entry despite the extensive Orthopaedics and Rheumatology disease content built across [[11_01_Ortho_-_Orthopaedic_Emergencies]] through [[12_04_Rheum_-_Vasculitis]] that this screen is designed to trigger further, joint-specific examination for.
@@ -103,7 +123,7 @@ This file collects examination technique across all systems as an action checkli
 
 **Opening:**
 - Wash hands, introduce yourself, confirm patient's name and DOB, explain what the examination involves, gain consent
-- Expose the patient's chest appropriately (maintaining dignity — offer a chaperone), position at 45°
+- Expose the patient's chest appropriately (maintaining dignity — offer an observer, see Observers in Clinical Examination above), position at 45°
 - General inspection of the patient and surroundings — say aloud: "I'm looking around the bed for any relevant equipment (GTN spray, O2, medication charts) and assessing the patient's general state — comfortable at rest, any visible distress, cyanosis, or breathlessness"
 
 **Step-by-step sequence:**
@@ -149,7 +169,7 @@ This file collects examination technique across all systems as an action checkli
 
 **Opening:**
 - Wash hands, introduce yourself, confirm patient's name and DOB, explain what the examination involves, gain consent
-- Expose the patient's chest appropriately (offer a chaperone), position sitting up at 45°
+- Expose the patient's chest appropriately (offer an observer), position sitting up at 45°
 - General inspection — say aloud: "I'm looking for respiratory distress, use of accessory muscles, audible wheeze/stridor, cyanosis, scars, chest wall deformity, and any equipment around the bed (O2, inhalers, sputum pot)."
 
 **Step-by-step sequence:**
@@ -194,7 +214,7 @@ This file collects examination technique across all systems as an action checkli
 
 **Opening:**
 - Wash hands, introduce yourself, confirm patient's name and DOB, explain what the examination involves, gain consent
-- Expose from nipples to knees ideally (maintaining dignity — cover appropriately between steps, offer a chaperone), position lying flat with one pillow, arms by their sides
+- Expose from nipples to knees ideally (maintaining dignity — cover appropriately between steps, offer an observer), position lying flat with one pillow, arms by their sides
 - General inspection — say aloud: "I'm looking around the bed for relevant clues (vomit bowl, stoma bags, NG tube, medication charts) and assessing the patient's general state — comfortable at rest, jaundiced, cachectic, or in visible distress."
 
 **Step-by-step sequence:**
@@ -217,7 +237,7 @@ This file collects examination technique across all systems as an action checkli
 
 ## Digital Rectal Examination (DRE)
 
-**Opening:** wash hands, introduce, confirm identity, explain the examination clearly and sensitively (many patients find this examination embarrassing or distressing — explicit, calm explanation matters more here than for most exams), gain explicit consent, offer a chaperone (and document that one was offered/present), ensure privacy.
+**Opening:** wash hands, introduce, confirm identity, explain the examination clearly and sensitively (many patients find this examination embarrassing or distressing — explicit, calm explanation matters more here than for most exams), gain explicit consent, offer a observer (and document that one was offered/present), ensure privacy.
 
 > [!danger] Do NOT perform a DRE if an anal fissure is suspected (see [[03_Gastrointestinal]] Anal Fissures) — it is contraindicated due to pain and sphincter spasm, and won't add useful diagnostic information in that context.
 
@@ -333,7 +353,7 @@ This file collects examination technique across all systems as an action checkli
 
 > [!note] Gap-filled from CSV (Dermatology category: "Skin and soft tissue surgery including skin cancers," "Skin lesions" among others, Medium yield) — a systematic examination technique without a dedicated template despite 9 full disease-category files having been built ([[09_01_Dermatology_-_Dermatological_Emergencies]] through [[09_08_Dermatology_-_Miscellaneous]]). This entry covers the examination approach and systematic lesion description; cross-references the disease sections for diagnosis-specific detail rather than repeating it.
 
-**Opening:** wash hands, introduce, confirm identity, explain the examination (looking closely at the skin, and any specific lesion of concern), gain consent, ensure adequate lighting and privacy, expose the relevant area (with chaperone as appropriate) — a full skin examination should extend beyond just the presenting lesion, given incidental findings are common and occasionally more significant than the presenting complaint.
+**Opening:** wash hands, introduce, confirm identity, explain the examination (looking closely at the skin, and any specific lesion of concern), gain consent, ensure adequate lighting and privacy, expose the relevant area (with observer as appropriate) — a full skin examination should extend beyond just the presenting lesion, given incidental findings are common and occasionally more significant than the presenting complaint.
 
 **Systematic approach:**
 1. **General inspection from a distance first:** overall distribution pattern (localised vs generalised, symmetrical vs asymmetrical), general skin colour/pigmentation, obvious scarring or previous excision sites, nail and hair involvement, any signs of systemic illness (pallor, jaundice, cachexia).
@@ -358,7 +378,7 @@ This file collects examination technique across all systems as an action checkli
 
 > [!note] No single exact-matching CSV row for this, but it's implied by extensive content already built that depends on a systematic lymph node exam — [[10_01_Haemonc_-_Leukaemias_and_Myeloproliferative_Disorders]], [[10_02_Haemonc_-_Lymphomas_and_Multiple_Myeloma]], and [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Lymphadenopathy — added given how foundational and high-yield this examination is, similarly to the Cranial Nerve and Dermatological Examination entries above.
 
-**Opening:** wash hands, introduce, confirm identity, explain the examination (feeling the lymph node regions), gain consent, adequately expose the relevant areas (neck, axillae, groin at minimum) with appropriate privacy/chaperone for axillary and groin examination.
+**Opening:** wash hands, introduce, confirm identity, explain the examination (feeling the lymph node regions), gain consent, adequately expose the relevant areas (neck, axillae, groin at minimum) with appropriate privacy/observer for axillary and groin examination.
 
 **Systematic approach — examine all major node groups even if only one area is symptomatic, given the distinction between localised and generalised lymphadenopathy is itself diagnostically important:**
 1. **Head and neck** — a genuinely systematic sub-sequence is expected: submental, submandibular, pre-auricular, post-auricular, occipital, then working down the neck — anterior cervical chain, posterior cervical chain, supraclavicular (palpate from behind the seated patient, which is the standard technique for this examination). **Supraclavicular lymphadenopathy is a particular red flag** — classically associated with intra-abdominal or intra-thoracic malignancy (e.g. Virchow's node on the left specifically, associated with gastric cancer) and should never be dismissed as reactive without further work-up.
@@ -385,7 +405,7 @@ This file collects examination technique across all systems as an action checkli
 
 > [!note] No single exact-matching CSV row for this specific examination technique, but it's implied by extensive content already built in [[10_12_Oncology_-_Breast]] (breast cancer, fibroadenoma, and the other breast lump differentials) that depends on a systematic breast exam — added given how foundational and high-yield this station is.
 
-**Opening:** wash hands, introduce, confirm identity, explain the examination clearly and sensitively (looking at and feeling the breast tissue and the draining lymph node areas), gain explicit consent, **offer and arrange a chaperone regardless of examiner/patient gender combination** — this is a standard, expected step for this specific examination given its intimate nature, and omitting it is a common and significant OSCE mark-scheme penalty. Position the patient sitting initially for inspection, then reclined at 45° for palpation.
+**Opening:** wash hands, introduce, confirm identity, explain the examination clearly and sensitively (looking at and feeling the breast tissue and the draining lymph node areas), gain explicit consent, **offer and arrange a observer regardless of examiner/patient gender combination** — this is a standard, expected step for this specific examination given its intimate nature, and omitting it is a common and significant OSCE mark-scheme penalty. Position the patient sitting initially for inspection, then reclined at 45° for palpation.
 
 **Systematic approach:**
 1. **Inspection (sitting, arms relaxed by sides, then raised above the head, then hands pressed on hips to tense pectoral muscles)** — each position can reveal different findings: symmetry, contour, skin changes (dimpling — often more apparent with arms raised, given tethering to underlying tissue becomes more visible under tension; peau d'orange — a specific sign of dermal lymphatic involvement, classically associated with inflammatory breast cancer, see [[10_12_Oncology_-_Breast]] Breast cancer), nipple changes (inversion, retraction, discharge, eczematous change — see Paget's disease of the breast in [[10_12_Oncology_-_Breast]] Breast cancer, not repeated here), visible masses.
@@ -609,7 +629,7 @@ This file collects examination technique across all systems as an action checkli
 
 > [!note] Gap-filled — the specific screening technique for scoliosis, distinct from the general GALS spinal inspection above; built here given scoliosis screening is commonly performed as its own dedicated step in paediatric/adolescent examination (and historically in school screening programs), and given [[11_06_Ortho_-_Spinal_Orthopaedics]] Scoliosis covers the disease-level detail this screen feeds into, not repeated here.
 
-**Technique:** with the child standing and bare-chested (privacy maintained, chaperone as appropriate), ask them to bend forward at the waist with knees straight and arms hanging loosely, as if reaching to touch their toes — observe the back **from behind, at eye level with the child's back**, looking specifically for asymmetry.
+**Technique:** with the child standing and bare-chested (privacy maintained, observer as appropriate), ask them to bend forward at the waist with knees straight and arms hanging loosely, as if reaching to touch their toes — observe the back **from behind, at eye level with the child's back**, looking specifically for asymmetry.
 
 **What a positive test looks like:** a **rib hump** (unilateral prominence of the ribs on one side, most visible in the thoracic region) or asymmetry of the paraspinal muscles/flank — this asymmetry becomes visible specifically during forward flexion because the rotational component of a structural scoliosis (not just the lateral curve visible on standing inspection) is what produces the rib hump, making this test more sensitive for structural scoliosis than standing inspection alone.
 
