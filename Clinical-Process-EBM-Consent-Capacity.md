@@ -227,8 +227,64 @@ Asking these in order prevents most prescribing errors, because each one can sto
 
 ---
 
-## Evidence-based medicine — a brief note
+## Study Design and Bias — Reading the Evidence Behind a Recommendation
 
-> [!note] The "EBM" component of this file's scope is a smaller addition, given the core evidence-based-medicine hierarchy and critical appraisal skills are more naturally taught through worked examples across specific clinical questions than as a standalone abstract framework — flagged here as a topic this file's title covers, without a full treatment, should dedicated EBM content be added in a future pass.
+> [!note] Gap-filled from CSV ("Study design types and sources of bias," Public Health/Epidemiology category). Genuinely absent, and confirmed with the teach-vs-mention lens rather than a presence hit: corpus-wide search returned **zero hits** for *case-control*, *cohort study* as a study design, *selection bias*, *recall bias* or *confounding* — the only matches were "cohort" in the sense of a patient group and "confirms" partial-matching *confound*. The file's previous "Evidence-based medicine — a brief note" placeholder explicitly recorded this as an unbuilt topic; this entry replaces it. Verified against the **NHMRC Designation of Levels of Evidence** (the Australian hierarchy in use since 1999, extended in 2009 to cover diagnostic, prognostic, aetiological and screening questions as well as treatment), Aug 2026.
+
+**Why an intern needs this at all.** You will not design a study. You will constantly be handed a claim — by a drug rep, a consultant, a patient with a printout, a guideline — and have to judge how much weight it carries. The whole skill reduces to two questions: **what kind of study is this**, and **what could have produced this result other than the effect being claimed?**
+
+### The designs, ordered by how well they control for the alternatives
+
+| Design | What it does | The alternative explanation it cannot rule out |
+|---|---|---|
+| **Case report / case series** | Describes one or several patients. | Everything. No comparison group, so there is nothing to attribute the outcome *against*. Generates hypotheses; settles nothing. |
+| **Cross-sectional** (a survey/prevalence study) | Measures exposure and outcome **at the same moment**. | **Which came first.** Finding that people with back pain are less active cannot tell you whether inactivity caused the pain or the pain stopped the activity. |
+| **Case-control** | Starts with people who **have** the outcome, finds similar people who don't, looks **backwards** at exposure. | **Recall bias** — people with a disease search their memory harder for exposures than healthy controls do. Efficient for rare diseases and long latencies; cannot give you incidence. |
+| **Cohort** | Starts with **exposure**, follows people **forwards** to see who develops the outcome. | **Confounding**, and **loss to follow-up** — if the people who drop out differ from those who stay, the remaining group is no longer the group you recruited. |
+| **Randomised controlled trial (RCT)** | Allocates the intervention **by chance**. | Less than the above — but see blinding below. Chance allocation is the only method that balances the confounders you *didn't think of*, which is the entire reason it sits at the top. |
+| **Systematic review / meta-analysis** | Pools all studies meeting pre-set criteria. | **The quality of what went in.** Pooling biased trials produces a precise, confident, biased answer. |
+
+> [!info] **The NHMRC levels, which is the hierarchy Australian guidelines cite.** **Level I** — systematic review of RCTs · **Level II** — at least one properly designed RCT · **Level III** — comparative studies without randomised allocation (cohort, case-control, interrupted time series with control) · **Level IV** — case series. Guidelines you will actually read (RACGP, eTG, RANZCOG) grade recommendations against this, so "Level III evidence" in a guideline is telling you *the design*, not the strength of the effect.
+
+### The biases, and the mechanism of each
+
+The word *bias* here does not mean prejudice. It means **a systematic error in how the result was produced** — one that does not shrink by studying more people. That distinction is the single most useful thing in this entry: a larger study fixes imprecision, never bias.
+
+- **Selection bias** — the people studied differ systematically from the people the result will be applied to. *Mechanism:* the comparison groups were assembled by something related to the outcome. A trial recruiting only under-65s with no comorbidity tells you little about the 82-year-old in front of you.
+- **Confounding** — a third factor causes both the exposure and the outcome, manufacturing an association between them. *Mechanism:* the classic worked example is coffee and lung cancer — coffee drinkers smoked more, and smoking causes both the coffee habit's company and the cancer. Handled by randomisation (prospectively) or by statistical adjustment (retrospectively, and only for confounders you measured).
+- **Recall bias** — differential accuracy of memory between groups. *Mechanism:* having the disease changes how hard you search your memory. Specific to retrospective designs.
+- **Observer and performance bias** — knowing who got what changes how outcomes are assessed and how patients are treated. *Mechanism:* this is what **blinding** exists to prevent. *Single-blind* = the participant doesn't know; *double-blind* = neither participant nor assessor knows. Blinding matters most for subjective outcomes (pain scores) and least for hard ones (death).
+- **Attrition bias** — differential dropout. *Mechanism:* if the people for whom the drug wasn't working left the trial, the survivors flatter the drug. Countered by **intention-to-treat analysis** — analysing every participant in the group they were *allocated* to, regardless of what they actually received. **Per-protocol** analysis (only those who completed as assigned) systematically favours the intervention, so when a paper reports both and they disagree, believe the intention-to-treat one.
+- **Publication bias** — positive results get published; negative ones sit in drawers. *Mechanism:* a meta-analysis can therefore be a faithful synthesis of a distorted sample of reality. This is what trial registration exists to counter.
+
+> [!danger] **Association is not causation, and the specific reason matters more than the slogan.** Any observed association has four possible explanations before causation is one of them: **chance**, **bias**, **confounding**, and **reverse causation** (the outcome caused the exposure). Work through those four before concluding anything. It is also the honest answer to the patient who has read that something "causes" something else.
+
+> [!info] **Selection bias with a name and a consequence, already established elsewhere in this project (Step 10).** This is the one place the equity point here is concrete rather than general. **AUSDRISK — the Australian type 2 diabetes risk tool — is not validated for Aboriginal and Torres Strait Islander people**, and a different, earlier screening approach applies (see [[06_Metabolic_Medicine_and_Endocrinology]] and [[19_General_Practice_and_Preventive_Medicine]] Preventive Medicine and Screening in Australian General Practice). The mechanism is exactly the selection bias above: a tool derived in a population that under-represented the group it is later applied to will mis-estimate risk in that group, and the direction of the error is not predictable from first principles. The general lesson an intern can carry: **before applying a risk score or a trial result, ask who was in the derivation population.** Where that answer is "not this patient", the score is a prompt for clinical judgement, not a substitute for it.
+
+> [!tip] **What this looks like at intern level, practically.** You are not appraising papers on the ward. You are being asked, on a round, "why do we do it this way?" — and the useful answer distinguishes *this is Level I evidence* from *this is how the unit has always done it*. The second is not illegitimate, but it should be said out loud as what it is.
+
+---
+
+## Statistical Significance — p-values and Confidence Intervals
+
+> [!note] Gap-filled from CSV ("Interpretation of p-values," Public Health/Epidemiology category). Genuinely absent — corpus-wide search returned **zero hits** for *p-value*, *p value* or *statistical significance*; the only related content was the two-line "confidence intervals, briefly" note in the entry above, which stated the two intern-level uses of a CI without defining what either a CI or a p-value actually is. Verified against **Australian Prescriber**'s statistics-for-clinicians material and the NHMRC evidence framework, Aug 2026.
+
+**What a p-value actually is.** It is the probability of seeing a difference **at least as large as the one observed, if there were truly no difference** between the groups. Nothing more. The conventional threshold of **p < 0.05** is a social convention, not a law of nature — it means "this result would arise by chance less than 1 time in 20 if the treatment did nothing."
+
+> [!danger] **The three misreadings, each of which will be said out loud on a ward round.**
+> - **"p = 0.04 means there is a 96% chance the treatment works."** No. The p-value assumes there is no effect and asks how surprising the data are under that assumption. It is not the probability that the hypothesis is true.
+> - **"p = 0.06 means the treatment doesn't work."** No. It means the study did not demonstrate an effect at the conventional threshold — which is also what you would see with a real effect and too few patients. **Absence of evidence is not evidence of absence.**
+> - **"p < 0.001 means the treatment works really well."** No. p measures how *confident* you can be that a difference exists, not **how big it is**. A trivial difference becomes highly significant in a large enough study. The clinically relevant question is the effect size — which is the ARR/NNT reasoning in the entry above.
+
+**Why the confidence interval is the more useful number.** A 95% CI gives the range of effect sizes compatible with the data, so it answers "is it big enough to matter?" and "was it demonstrated?" at once:
+- **A CI for a ratio (risk ratio, odds ratio, hazard ratio) that crosses 1** — or **a CI for a difference that crosses 0** — means no statistically significant effect was demonstrated. The two null values differ because a ratio of 1 and a difference of 0 both mean "no effect"; using the wrong one is a common slip.
+- **The width tells you the precision.** RR 0.60 (95% CI 0.58–0.62) and RR 0.60 (95% CI 0.20–1.80) have the identical point estimate; the first is an answer and the second is barely more than a guess.
+- **Read the whole interval clinically, not just whether it crosses the null.** If the entire interval lies within a range you would consider trivial, the result is significant *and* unimportant. If a wide interval includes both trivial and major benefit, the honest conclusion is that the size of the effect is still unknown.
+
+> [!info] **Multiple testing, because it explains a specific pattern you will see in papers.** Test twenty outcomes at p < 0.05 and one will come up "significant" by chance alone. *Mechanism:* the 1-in-20 threshold applies to each test independently. This is why a **pre-specified primary outcome** carries so much more weight than a subgroup finding announced after the fact, and why a trial that missed its primary outcome but reports an impressive secondary one deserves scepticism rather than enthusiasm.
+
+**Cross-reference:** the effect-size half of this — absolute vs relative risk, NNT — is the entry immediately above; a p-value tells you whether a difference was demonstrated, and the ARR/NNT tell you whether it is worth anything to the patient. Neither is interpretable without the other.
+
+---
 
 **Cross-reference:** see [[Communication]] Discussing DNACPR and Consent for Blood Transfusion for worked examples of consent/capacity/refusal principles applied to specific clinical scenarios, not repeated here; see [[03a_Anaesthetics_Primer]] Consent for the anaesthetic-specific consent conversation this general framework underlies.
