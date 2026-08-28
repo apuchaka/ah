@@ -136,7 +136,7 @@ Three rows closed. **Steps 5, 6, 10 and 18 applied during each build rather than
 
 **Placement override, recorded.** Pain was allocated to `19_` by the remainder table. `19_`'s declared scope is general practice as a discipline and preventive care as a system; pain assessment is neither, and placing it there would repeat the container error corrected earlier in N6. Built in `03a` instead — ANZCA is the Australian college for acute pain medicine, the file is already ANZCA-localised, and it holds regional anaesthesia and postoperative care. **The remainder table's allocations are a starting point, not binding.**
 
-**Terminology finding, not yet propagated:** the Medical Board's revised guidelines use **"observer"** rather than "chaperone". `Examination.md` uses the older term 8 times. Not changed — the claim is snippet-sourced and "chaperone" is superseded rather than wrong. Flagged in the tracker.
+**Terminology finding — since resolved.** The Medical Board's guidelines use **"observer"** rather than "chaperone", confirmed against **section 7.1 "Use of observers"** of the primary guideline. All 8 instances in `Examination.md` updated, and the resolution surfaced a larger gap than the terminology: nothing explained what an observer is *for*, who can act as one, or what happens if the patient declines. Built as `Examination.md` **Observers in Clinical Examination**, with the Professional Boundaries subsection reduced to a cross-reference rather than left as a second copy. **This is the sixth confirmed instance of the referenced-but-never-taught pattern**, and the first found by pulling on a terminology thread rather than by auditing a CSV row — worth noting as a second way in.
 
 ### N6 remainder — allocated but not yet built
 
