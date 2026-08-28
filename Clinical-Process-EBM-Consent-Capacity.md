@@ -323,4 +323,4 @@ These are the reason "screen-detected patients survive longer" is a near-worthle
 
 ---
 
-**Cross-reference:** see [[Communication]] Discussing DNACPR and Consent for Blood Transfusion for worked examples of consent/capacity/refusal principles applied to specific clinical scenarios, not repeated here; see [[03a_Anaesthetics_Primer]] Consent for the anaesthetic-specific consent conversation this general framework underlies.
+**Cross-reference:** see [[Communication]] Discussing "Do Not Attempt Cardiopulmonary Resuscitation" (DNACPR / Not-for-Resuscitation) and [[Communication]] Consent for Blood Transfusion for worked examples of consent/capacity/refusal principles applied to specific clinical scenarios, not repeated here; see [[03a_Anaesthetics_Primer]] Consent for the anaesthetic-specific consent conversation this general framework underlies.
