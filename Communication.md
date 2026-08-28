@@ -390,6 +390,59 @@ An intern's list is almost always longer than the shift. The workable ordering:
 
 ---
 
+## Referral and Discussion with Other Specialties
+
+> [!note] Gap-filled from CSV ("Discussion/referral to specialities," Medium yield). Verified absent: **zero corpus-wide hits** for referral letter, how to refer, or referral urgency — despite the project instructing referral in well over a hundred entries. The instruction "refer to X" is everywhere; **how to do it is nowhere.** Verified against RACGP and Australian state health referral and clinical-communication guidance, Aug 2026.
+
+**Two different tasks, commonly confused:** the **written referral** (asking another service to take on care) and the **phone discussion** (asking a colleague for advice or acceptance now). They need different things.
+
+### The phone referral or consult
+
+Use **ISBAR** — the same structure as handover, and for the same reason (see Clinical Handover (ISBAR) and Prioritisation of Jobs above, not repeated here). The additions specific to a referral call:
+
+- **Know what you are asking for before you dial.** Advice? Review? Acceptance of care? Transfer? These are different requests and an unclear one wastes both people's time.
+- **Have the information to hand** — observations, relevant results, medications, and the actual question. Being asked something you have not looked up is the commonest reason a referral call goes badly.
+- **State your assessment**, not just the data. "I think this is X and I'd like your view" is a referral; reading out numbers is a request for someone else to do your thinking.
+- **Record who you spoke to, when, and what was advised.** A verbal opinion that is not documented did not happen (see [[Clinical-Process-EBM-Consent-Capacity]] Documenting in the Medical Notes, not repeated here).
+
+> [!tip] If you are told something you think is wrong, or you remain worried after the call, **say so explicitly rather than accepting it politely and worrying alone**: *"I hear that, but I'm still concerned because…"* — and escalate to your own senior if the concern persists. Deferring to a more senior voice against your own judgement, without saying anything, is a recognised contributor to patient harm.
+
+### The written referral
+
+A good referral answers, in this order: **who is the patient, what is the question, why now, and what have you already done?**
+
+- **A clear clinical question**, not "please see and advise" alone.
+- **Urgency stated and justified** — and where a service has defined referral criteria or triage categories, address them explicitly, because triage is done on what you wrote.
+- **Relevant history, examination findings, current medications, allergies**, and **results already obtained** (with the results, not references to them).
+- **What you have already tried**, so the specialist does not repeat it.
+- **What the patient has been told**, including what you told them about likely timeframes — managing that expectation is part of the referral.
+- **Your contact details.**
+
+> [!warning] **Referral does not transfer responsibility until it is accepted.** A referral sent is not a patient handed over: the duty of care remains yours until another clinician takes it on, which matters most for the **red-flag referral that is triaged as routine** or the appointment that never arrives. **Safety-net explicitly** — tell the patient what to do if they have not been contacted by a given date, and what would mean they should come back sooner regardless.
+
+---
+
+## The Family, and Families in Crisis
+
+> [!note] Gap-filled from CSV ("The family, families in crisis, significant presentations of family dysfunction," Medium yield). Verified absent: a single bullet in [[15_19a_Paeds_-_Developmental_Milestones_and_Delay]] mentioning parental mental health difficulties as a risk factor, and nothing else. Verified against RACGP guidance on family-centred care and the family violence and carer material already cited elsewhere in this file, Aug 2026.
+
+**Why this belongs in a clinical file rather than being social background:** family functioning is a **determinant of clinical outcome** — it drives adherence, attendance, discharge viability and safety. A technically correct plan delivered into a family that cannot execute it does not happen.
+
+**Where family dysfunction shows up in clinical presentations**, which is how an intern actually encounters it rather than as a stated complaint:
+- **Frequent attendance or non-attendance**, poor adherence, repeated failed discharges.
+- **A child** with unexplained symptoms, behavioural change, faltering growth, or developmental concerns (see [[15_19a_Paeds_-_Developmental_Milestones_and_Delay]] Behavioural Problems in Children).
+- **Carer exhaustion** presenting as the patient's deterioration (see [[18_Geriatrics_and_Older_Persons_Health]] Abuse of Older People (Elder Abuse) and Carer Stress).
+- **Conflict at the bedside**, particularly around goals of care.
+- **Somatic presentations** in a member of a family under strain.
+
+**Assessment** — ask about household composition and who does what; who the patient relies on and who relies on them; recent changes (illness, unemployment, bereavement, separation, housing); and **whether anyone is afraid**. That last question is not optional: family violence, child abuse and elder abuse all present as "family dysfunction" first (see Domestic and Family Violence — Identification and Initial Response above, and [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI)).
+
+> [!danger] **The family meeting is the main tool, and the failure mode is predictable: it becomes a room full of clinicians delivering information to a family who then cannot speak.** Prepare it — agree beforehand among the team what the message is and who will lead, or the family will hear three different prognoses. Establish what the family already understands before explaining anything. **Ask what the patient would have wanted** where they cannot say (see Goals of Care and Ceiling of Care (Treatment Escalation Planning) above). Give silence room. Summarise, agree actions with names against them, and document who was present.
+
+> [!info] **Two things worth holding.** **The identified patient may not be the person in most difficulty** — the presenting child, or the deteriorating older person, may be the visible symptom of a household under strain, and treating only them can miss it. And **confidentiality runs to the patient, not the family**: a capacitous adult decides what is shared, and a family's distress does not override that (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework). Where the patient lacks capacity, involve the substitute decision-maker rather than whoever is most present or most insistent.
+
+---
+
 ## Professional Boundaries, and the Inappropriate Patient
 
 > [!note] Gap-filled from CSV ("Dealing with an inappropriate patient (e.g. a flirtatious patient)," Medium yield). **A clear instance of the pattern this project keeps finding:** "chaperone" appears **eight times** in [[Examination]] — enough for the topic to look covered — but every instance is a procedural instruction *inside* an examination sequence ("offer a chaperone"). **No entry taught what professional boundaries are, what a breach is, or what to do when a patient crosses one.** Referenced sufficiently to look covered; never actually taught. Verified against the Medical Board of Australia's *Sexual boundaries in the doctor–patient relationship* guidelines and *Good medical practice: a code of conduct for doctors in Australia*, RACGP guidance on managing professional boundaries, and Avant's boundary-issues material, Aug 2026.
