@@ -52,6 +52,8 @@ still correctly describes the *variation*, not to pin one figure.
 | B10 | `17_04_Ectopic_Pregnancy_and_GTD.md` | 34 | Methotrexate route in ectopic pregnancy — genuinely state-variable (QLD splits IM/IV at β-hCG 3000 IU/L; NSW typically IM regardless). | ⬜ |
 | B12 | `13_04_ENT_-_Nose__...md` | Allergic Rhinitis (Hay Fever) | ASCIA Clinical Update: Allergic Rhinitis — cited as the 2024 edition. Confirm no newer edition before the exam, and that combined INCS/antihistamine sprays are still stated as an equal first-line option. | ⬜ |
 | B13 | `17_02_Menorrhagia__...md` | Abnormal Uterine Bleeding | The symptomatic co-test rule and the "a negative co-test does not close the case" caveat come from the Cancer Council Australia abnormal-vaginal-bleeding pathway, read alongside RANZCOG C-Gyn 6. Both sit under the National Cervical Screening Program, which has been revised more than once — re-confirm before the exam. | ⬜ |
+| B17 | `18_Geriatrics_and_Older_Persons_Health.md` | Falls — Timed Up and Go cutoff | Sources genuinely disagree: **>10 s** and **>12 s** both appear as the threshold identifying community-dwelling older adults more likely to fall. The entry states the range ("about 10–12 seconds") deliberately rather than picking one. **Do not resolve this to a single figure without a primary source** — confirm what the RACGP Silver Book Part A "Falls" itself states. Blocked at build time (see Section D). | ⬜ |
+| B18 | `18_Geriatrics_and_Older_Persons_Health.md` | Abuse of Older People — prevalence figures | The AIFS National Elder Abuse Prevalence Study figures used (15% overall; psychological 12%, neglect 3%, financial 2%, physical 2%, sexual 1%) were **read via search snippets, not from the primary report**, which was not reachable at build time. Internally consistent and correctly attributed, but second-hand. Verify against the NEAPS report directly before relying on them. | ⬜ |
 | B14 | `18_Geriatrics_and_Older_Persons_Health.md` | Polypharmacy and Deprescribing | The MJA *Deprescribing in Older People* clinical practice guideline was published in 2026 and carries 185 consensus recommendations — this entry reflects its general principles only. Check for the full guideline's specific medicine-class recommendations before the exam. | ⬜ |
 | B15 | `18_Geriatrics_and_Older_Persons_Health.md` | Falls / Frailty | Vitamin D for falls prevention is genuinely contested and dose- and setting-dependent; the entry states this rather than picking a figure. Re-check whether Australian guidance has settled. Frailty content draws on the MJA Australian Consensus Statement (modified Delphi), which is recent. | ⬜ |
 | B16 | `18_Geriatrics_and_Older_Persons_Health.md` | Abuse of Older People | Elder abuse reporting is under active policy reform under the National Plan to Respond to the Abuse of Older Australians. The stated position — **no general statutory mandatory reporting duty** — is correct as of Aug 2026 but is exactly the kind of thing that changes. Re-confirm. | ⬜ |
@@ -90,6 +92,29 @@ grep -n "verified against\|as of Aug 2026\|current as of" $CF
 # Step 22 — random sample of 5 specific-guideline citations to re-verify
 grep -n "verified against\|per SOMANZ\|per RANZCOG\|per RACGP\|per ANZCA\|per ADS-ANZCA\|Therapeutic Guidelines" $CF | shuf -n 5
 ```
+
+---
+
+## Section D — Content built under a network egress limitation
+
+Several primary Australian sources are **blocked by this environment's network egress proxy** and could not be fetched directly. Content citing them was written from search-result snippets — accurately attributed, but read second-hand rather than from the source document.
+
+**Blocked domains encountered so far:** `racgp.org.au` (Silver Book, AJGP), `safetyandquality.gov.au` (ACSQHC), `ranzcog.edu.au`, `allergy.org.au` (ASCIA), `australianprescriber.tg.org.au`, `onlinelibrary.wiley.com` (MJA).
+
+**What this does and does not mean.** The guideline *names* and the *substance* of what they recommend are correct as far as the snippets go, and nothing here is invented. But specific numbers, thresholds and exact wording carry more risk than content read from a primary source, and any place where sources visibly disagree could not be adjudicated.
+
+| Entry | File | Source that was blocked | Highest-risk element |
+|---|---|---|---|
+| Allergic Rhinitis (Hay Fever) | `13_04_ENT_-_Nose__…` | ASCIA Clinical Update 2024 | ARIA duration/severity cutoffs |
+| Abnormal Uterine Bleeding | `17_02_Menorrhagia__…` | RANZCOG C-Gyn 6; Cancer Council AU pathway | The symptomatic co-test rule |
+| Falls in Older People | `18_Geriatrics_…` | RACGP Silver Book Part A "Falls"; ACSQHC | TUG cutoff (see B17); exercise dose |
+| Frailty | `18_Geriatrics_…` | RACGP Silver Book Part A "Frailty"; MJA consensus statement | Fried criteria wording |
+| Polypharmacy and Deprescribing | `18_Geriatrics_…` | RACGP Silver Book; MJA 2026 deprescribing guideline (Wiley) | Benzodiazepine taper percentages |
+| Abuse of Older People | `18_Geriatrics_…` | RACGP Silver Book Part B | NEAPS prevalence (see B18) |
+| Discharge Planning | `18_Geriatrics_…` | ACSQHC transitions-of-care framework | The 2.3× readmission figure |
+| Goals of Care / Ceiling of Care | `Communication.md` | ACSQHC goals-of-care guidance | Document definitions |
+
+**Action:** when any of these is next reviewed from a machine with unrestricted access, re-read the primary source and either confirm the figure or correct it, then mark the row here.
 
 ---
 
