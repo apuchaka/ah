@@ -558,6 +558,39 @@ This file collects every CSV row that names a symptom/presentation rather than a
 
 ---
 
+## Clinical Formulation — Turning a History Into an Explanation
+
+> [!note] Gap-filled from CSV ("Clinical formulation," Public Health/Epidemiology–adjacent row, carried into the queue with N2/N5). Genuinely absent on the teach-vs-mention test: the Psychiatric History entry above collects the domains a formulation is built from, and [[Examination]] Mental State Examination (MSE) collects the cross-sectional findings — but **nothing in the corpus taught the synthesis step between them**, and corpus-wide search returned zero hits for *4 Ps*, *5 Ps*, *predisposing/precipitating/perpetuating*, or *formulation* in this sense (every "formulation" match was pharmaceutical). Placed here rather than in `Clinical-Process-EBM-Consent-Capacity.md` as the queue's remainder table proposed: this is the step immediately after the history that feeds it and the MSE it pairs with, and separating it from both would leave the reader arriving at the synthesis with the two inputs in another file. Verified against the **RANZCP** mood-disorders guidelines' biopsychosocial-lifestyle framing and Selzer & Ellen, *Formulation for beginners*, **Australasian Psychiatry 2014;22(4):397–401** — see `PENDING_GUIDELINE_CHECKS.md` B34.
+
+**What a formulation is, and what it is not.** A **diagnosis** names the condition — it answers *what*. A **formulation** is a set of explanatory hypotheses about **why this person is unwell in this way, at this time** — it answers *why now, and why them*. Two patients with an identical diagnosis of major depression can have formulations with almost nothing in common, and it is the formulation, not the diagnosis, that tells you what to actually do for either of them.
+
+> [!danger] **The most common error is writing a summary and calling it a formulation.** "45-year-old man with a three-month history of low mood, poor sleep and anhedonia, on a background of hypothyroidism" is a *summary* — it restates the history in shorter form. A formulation must contain at least one **explanatory link**: something that says *this* factor made *that* outcome more likely, and why. If you can write it without using the word "because" or its equivalent, you have not formulated.
+
+### The 4 Ps — the grid that does the work
+
+Ask the four questions in order. The fourth is the one most often skipped and the one that most changes management.
+
+| | The question it answers | Examples of what belongs here |
+|---|---|---|
+| **Predisposing** | What made this person **vulnerable** in the first place? | Family history, early adversity or trauma, chronic illness, personality traits, developmental factors. Usually long-standing and often not modifiable. |
+| **Precipitating** | What **triggered it now**? | A relationship breakdown, job loss, bereavement, a new medication, a physical illness, a substance. This is the answer to "why this month and not last year". |
+| **Perpetuating** | What is **keeping it going**? | Ongoing conflict, unemployment, alcohol, social isolation, untreated pain, poor sleep, an unaddressed side effect. **These are usually the most modifiable factors in the whole grid**, which is why this row generates most of the management plan. |
+| **Protective** | What is **working in their favour**? | Supportive relationships, employment, insight, previous good treatment response, engagement with services, absence of substance use. Skipping this row produces a formulation that reads as a list of problems and gives you nothing to build on. |
+
+**The biopsychosocial axis, crossed with the four Ps.** Each of the four is asked in three domains — **biological** (genetics, physical illness, medication, substances), **psychological** (beliefs, coping style, trauma, thinking patterns), and **social** (housing, work, finances, relationships, culture, legal). The value of the grid is that it forces you into cells you would otherwise leave empty: most clinicians default to one domain, and the crossed structure makes the omission visible.
+
+> [!tip] **A worked example, deliberately brief.** *Predisposing:* family history of depression (bio), childhood bereavement (psych). *Precipitating:* redundancy six weeks ago (social), started on a beta-blocker two months ago (bio). *Perpetuating:* drinking most nights to sleep (bio/psych), has withdrawn from his football club (social). *Protective:* stable marriage, responded well to sertraline eight years ago, wants help (psych/social). Notice that the management plan writes itself from the third row — review the alcohol, review the beta-blocker, re-engage the social contact — and the fourth row tells you where to start.
+
+> [!info] **This is not a psychiatry-only skill, which is the reason it sits in this file rather than in the Psychiatry group.** The same grid explains the frequently-readmitted patient with heart failure (predisposing: cardiomyopathy; precipitating: a chest infection; perpetuating: cannot afford the medicines and lives alone with no one to prompt them; protective: a daughter nearby who is willing to help), the patient with recurrent DKA, and the older person with repeated falls. Whenever the medical facts alone do not explain the pattern, the missing content is in the psychosocial cells (see [[18_Geriatrics_and_Older_Persons_Health]] Discharge Planning and Home Safety Assessment and [[19_General_Practice_and_Preventive_Medicine]] Hospital Avoidance and Potentially Preventable Hospitalisations, which are the same reasoning applied to admissions).
+
+> [!info] **Equity, and it is specific to this skill rather than general (Step 10).** The formulation is the one part of the clinical record where **social and historical determinants enter the reasoning explicitly rather than as background**. For Aboriginal and Torres Strait Islander patients this matters concretely: dispossession, forced removal from family and its intergenerational effects, experience of racism as a chronic stressor, and distance from country and kin are **predisposing and perpetuating factors with clinical consequences**, and a formulation that omits them is not neutral — it silently reattributes the whole picture to the biological and psychological cells. The corresponding protective factors are equally real and equally easy to omit: connection to family, community and country, and cultural identity. The practical instruction is to ask, and to write what you are told into the grid, rather than to assume either the adversity or the support.
+
+> [!tip] **What an intern is actually expected to produce.** Three or four sentences, spoken on a ward round or written at the top of an assessment — *this is who they are, this is what set it off, this is what is keeping it going, this is what we have to work with* — followed by a plan that visibly follows from the perpetuating and protective rows. Not a page. The test of whether it is any good is whether someone who has not met the patient could predict what the plan is going to say.
+
+**Cross-reference:** Psychiatric History above in this file for the domains this is built from; [[Examination]] Mental State Examination (MSE) for the cross-sectional findings it incorporates; [[Communication]] Clinical Handover (ISBAR) and Prioritisation of Jobs for how the formulation compresses into the "situation/background" of a handover.
+
+---
+
 ## Adolescent Psychosocial Assessment (HEADSS/HEEADSSS)
 
 > [!note] Gap-filled from CSV ("Adolescent health care incl - HEADSS," Medium yield) — genuinely absent despite being a distinctly structured, widely-taught framework in its own right, not a variant of the general psychiatric history above; built here given how commonly this specific structured approach is examined and used in adolescent consultations across all specialties, not just psychiatry.
