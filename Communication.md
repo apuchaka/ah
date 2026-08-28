@@ -283,6 +283,64 @@ An intern's list is almost always longer than the shift. The workable ordering:
 
 ---
 
+## Explaining a Medical Error — Open Disclosure
+
+> [!note] Gap-filled from CSV ("Explaining a medical error (e.g. incorrect medication)," Medium yield). Genuinely absent: corpus-wide search returned **zero hits** for open disclosure, adverse event, or apology in this sense — despite open disclosure being a national standard obligation and one of the harder OSCE stations. Verified against the **Australian Open Disclosure Framework** (Australian Commission on Safety and Quality in Health Care, 2026 edition) and Avant's guidance for Australian clinicians on responding when things go wrong, Aug 2026.
+
+**Station framework:** open disclosure is a **defined national process**, not an ad-hoc conversation — it is an obligation under the NSQHS Standards, and the framework sets out both what must be said and what must not.
+
+> [!danger] **The apology is the part most people get wrong, and the error runs in both directions.**
+> - **You must actually say the words "I am sorry" or "we are sorry."** A statement of regret that avoids the word is not an apology and patients hear the evasion. This is specified in the framework, not a matter of style.
+> - **The apology must not contain speculation, an admission of liability, or blame** — of yourself, a colleague, or a system you have not yet investigated. "I'm sorry this happened to you and I'm sorry for the harm it has caused" is right. "I'm sorry, the night team should have picked this up" is not: it is speculative, it apportions blame, and it may well turn out to be wrong.
+>
+> These are not in tension. **Apologising for the harm is not conceding fault for it** — and Australian jurisdictions have apology protections in law precisely so that clinicians can say sorry without that being treated as an admission. (Check the applicable state or territory provision if it matters legally; the clinical instruction is unaffected — apologise.)
+
+**The five elements of open disclosure**, which map directly onto what an OSCE mark scheme is looking for:
+1. **An apology or expression of regret**, including the words "I am sorry".
+2. **A factual explanation of what happened** — what is known, at the time, without speculating about what is not.
+3. **An opportunity for the patient to relate their experience** — this is an element in its own right, not a courtesy, and it is the one most often squeezed out by a clinician who talks continuously out of discomfort.
+4. **A discussion of the potential consequences** for that patient.
+5. **An explanation of the steps being taken** to manage the event and to prevent recurrence.
+
+**Opening approach:**
+- Establish the facts first — what actually happened, what is known versus assumed, and the patient's current clinical status. **Address any ongoing clinical harm before the conversation**: fixing the potassium comes before explaining the potassium.
+- Get senior support. **A junior doctor is rarely the right person to lead disclosure of significant harm alone** — the framework scales the response to the severity, and knowing when to escalate is itself the intern-level skill.
+- Choose the setting: private, uninterrupted, adequate time, with a support person present if the patient wishes.
+
+> [!info] **The response is proportionate to the harm, which is why "escalate or handle it" is a real decision rather than a reflex.**
+> - **Lower-level response** — a near miss or minor incident with no lasting harm. Acknowledge it, apologise, explain, **document the discussion**, and that may complete the process. This is within an intern's scope.
+> - **Higher-level response** — significant harm or death. A structured, formal process led by senior clinicians and the governance or patient-safety unit, running alongside incident reporting and investigation. **An intern's job here is to report it promptly, tell the truth, and support the patient — not to run the disclosure.**
+
+**Key content/checkpoints to cover (checklist):**
+- [ ] Confirm what the patient already knows and understands before explaining
+- [ ] Apologise using the words, early rather than at the end
+- [ ] Explain what happened factually, in plain language, **without speculating about cause**
+- [ ] Stop and let them respond — expect anger, and do not defend against it
+- [ ] Explain the clinical consequences and what is being done about them now
+- [ ] Explain what happens next: incident report, review, and that they will be told what is found
+- [ ] Offer ongoing contact — a named person and how to reach them
+- [ ] **Document the discussion in the medical record**: who was present, what was said, what was agreed
+- [ ] Complete the **incident report** — a separate obligation from the conversation, and not a substitute for it
+
+**Useful phrases/scripts:**
+- Opening: *"I need to talk to you about something that happened with your care, and I'm sorry to have to tell you about it."*
+- The apology: *"I am sorry. You were given the wrong medication, and I am sorry for the worry and the harm that has caused."*
+- Declining to speculate: *"I don't want to guess at why it happened — that's what the review will establish, and I'll make sure you're told what it finds."*
+- Handling anger: *"You have every right to be angry about this."* — then stop talking.
+
+**Closing:** summarise what was said and what happens next, confirm understanding, give a named contact, offer a further conversation once more is known, and document.
+
+**Common pitfalls / what OSCE mark schemes typically penalise:**
+- Avoiding the word "sorry", or apologising only that the patient "feels" upset
+- Speculating about cause, or blaming a colleague, a system, or a previous shift
+- Talking continuously and never letting the patient respond
+- Becoming defensive when the patient is angry
+- Treating the incident report as the whole obligation and never having the conversation — or having the conversation and never reporting
+- Promising an outcome ("this will never happen again") that cannot be guaranteed
+- **Failing to escalate** — attempting to lead disclosure of major harm as a junior
+
+---
+
 ## Management of Patients with Multiple Chronic Medical Problems
 
 > [!note] CSV listed conditions for this task: COPD/asthma, CKD, congestive heart failure, ischaemic heart disease, diabetes, cirrhosis, rheumatoid arthritis, osteoporosis, HIV, stroke, depression — this is a task/approach-led row (multimorbidity management as a skill), not a single disease, hence its place here rather than in a system file.
