@@ -59,7 +59,7 @@ cd "$DIR" || { echo "cannot cd to $DIR" >&2; exit 2; }
 
 # Meta/process files that are not exam content. Everything else matching *.md is content.
 META_RE='^(CLAUDE|CLAUDE_CODE_PROMPT|COWORK_HANDOFF|MASTER_VERIFICATION_WORKFLOW|PENDING_GUIDELINE_CHECKS|PHASE_EXECUTION_WORKFLOW|RECOMMENDED_WORKFLOW)\.md$'
-EXPECTED_CONTENT=146
+EXPECTED_CONTENT=147
 
 mapfile -t CONTENT < <(ls -1 *.md 2>/dev/null | grep -vE "$META_RE" | sort)
 if [ "${#CONTENT[@]}" -eq 0 ]; then
