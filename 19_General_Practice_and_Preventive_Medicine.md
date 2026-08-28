@@ -110,3 +110,33 @@ The **National Immunisation Program (NIP)** provides funded vaccines. The **chil
 - **Physical activity** — ask about it specifically rather than inferring it; any increase from a low base carries benefit, and the framing that matters for an older or deconditioned patient is that **something beats nothing** (see [[18_Geriatrics_and_Older_Persons_Health]] Falls in Older People for the balance-challenging exercise dose specifically, which is a different and more demanding prescription than general activity advice).
 
 > [!tip] What makes this a topic rather than a slogan: the four factors **cluster**, the **5As give a structure** so the consultation does not stop at "you should really quit", and **matching the intervention to readiness** determines whether any of it lands. An intern who can do Ask–Assess–Advise well, and knows that Assist means pharmacotherapy and Arrange means Quitline, is doing the useful part.
+
+---
+
+## Continuity of Care, and What Makes General Practice Different
+
+> [!note] Gap-filled from CSV ("Continuity of care," High yield, and "Unique features of General practice," Medium — built together because the second is largely an explanation of why the first matters). Genuinely absent: **zero corpus-wide hits** for "continuity of care". Placed here rather than in [[Communication]] because this is a property of the *system and the therapeutic relationship over time*, not a consultation skill performed within a single station. Verified against RACGP position and advocacy material on the role of specialist GPs and continuity, the MJA analysis of patient enrolment and continuity in Australian general practice, and RACGP-reported NSW Health linked-data findings on post-discharge follow-up, Aug 2026.
+
+**D:** the extent to which a patient experiences care as **connected and coherent over time**. Conventionally three components, which are genuinely different things and can come apart:
+- **Relational** — seeing the *same clinician* over time, so accumulated knowledge of the person does not have to be rebuilt each visit.
+- **Informational** — the *record* travels even when the clinician changes: results, medication changes, what has already been tried and failed.
+- **Management** — different clinicians deliver a *consistent plan* rather than contradicting one another.
+
+> [!info] Why the distinction matters practically: a patient can have excellent informational continuity (a complete shared record) and no relational continuity at all, and the two are not interchangeable. A locum with the full notes still does not know that this patient always minimises symptoms, or that the last three presentations were really about a deteriorating home situation.
+
+**The evidence — this is not merely a nice principle:** continuity of care is associated with **greater patient satisfaction and better chronic disease self-management, fewer hospitalisations, and lower mortality**. An Australian-specific finding worth knowing: linked NSW Health and general practice data show patients **promptly followed up by their GP after a hospital admission are substantially less likely to be readmitted**, and aged care residents who keep seeing their regular GP after entering a facility have around **8% fewer emergency department presentations**.
+
+> [!tip] The direct implication for an intern working in hospital, which is where this content is most immediately actionable: **the discharge summary and the follow-up appointment are the continuity mechanism.** They are not paperwork — they are the intervention that connects the admission to the rest of the patient's care, and the evidence above is the reason they matter (see [[18_Geriatrics_and_Older_Persons_Health]] Discharge Planning and Home Safety Assessment for how to do them well, and [[Communication]] Clinical Handover (ISBAR) and Prioritisation of Jobs for the in-hospital equivalent).
+
+**Australian context:** patient enrolment with a single practice has historically **not** been a feature of Australian general practice, unlike several comparable systems — patients may attend multiple practices, which fragments both relational and informational continuity. Voluntary registration arrangements have been introduced to address this. Check current arrangements rather than relying on this description, as the policy is actively changing.
+
+### What actually distinguishes general practice as a discipline
+
+Worth understanding because it explains why GP reasoning differs from hospital reasoning, and why an intern rotating into general practice finds their hospital habits do not transfer cleanly:
+
+- **Undifferentiated presentations.** Patients arrive with symptoms, not diagnoses, and often very early in the illness when discriminating features have not yet appeared. Much of the skill is tolerating diagnostic uncertainty safely rather than resolving it immediately.
+- **Very different pre-test probabilities.** The same symptom carries a far lower probability of serious disease in general practice than in an emergency department, because the population is different. **A test with good characteristics in a hospital population performs much worse in a low-prevalence one**, generating more false positives than true — which is why reflexively investigating everything is not the safer option it appears to be (see [[Clinical-Process-EBM-Consent-Capacity]] Evidence-based medicine — a brief note).
+- **Time as a diagnostic tool.** Reviewing in a defined interval — "watchful waiting" with an explicit plan — is a legitimate and often superior strategy to immediate investigation, provided the safety net is real.
+- **Safety-netting is the core skill this depends on.** Tell the patient specifically **what should improve and by when, what would mean they need to be seen sooner, and exactly how to get seen**. Vague advice to "come back if it gets worse" is not a safety net.
+- **Whole-person and longitudinal care** — comorbidity, family and social context, and the same clinician seeing the consequences of their own decisions over years, which is a genuinely different accountability from an episode of hospital care.
+- **The gatekeeping and coordinating role** — managing the interface with specialist services rather than being one, and holding the whole picture when several specialists each hold part of it (see [[Communication]] Management of Patients with Multiple Chronic Medical Problems).
