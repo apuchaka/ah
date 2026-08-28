@@ -186,3 +186,48 @@ This is not a marginal issue in Australian practice — **roughly 20–34% of ol
 - **Chronic/long-term:** schedule medication review as a recurring event rather than an incidental one, and record a stop date or review date at the time of *starting* any new medicine — the intervention that prevents the problem rather than correcting it later.
 
 > [!tip] Deprescribing is a shared decision, and forced or abrupt withdrawal is both unsafe and counterproductive. The evidence on what makes it succeed is unglamorous: the patient's trust in the prescriber, a gradual taper, and an explicit agreement that a medicine can be restarted if stopping it turns out to be the wrong call. Framing matters — "let's see whether you still need this" is heard very differently from "I'm taking you off this."
+
+---
+
+## Abuse of Older People (Elder Abuse) and Carer Stress
+
+> [!note] Gap-filled from CSV ("Elder abuse / carer stress recognition," High yield). The only genuinely absent row in the whole Geriatrics category on a corpus-wide search — the sole related content was one carer-wellbeing bullet in [[Communication]] Caring for the Elderly in the Community (Dementia, Mobility, Parkinson's, Recurrent Falls). Deliberately structured to mirror [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI) — risk factors, features suggestive of abuse, differential, then response — so the two safeguarding entries read the same way despite living in different files. Verified against the RACGP aged care clinical guide (Silver Book) Part B "Abuse of older people", the AIFS National Elder Abuse Prevalence Study, and the Aged Care Quality and Safety Commission's Serious Incident Response Scheme guidance, Aug 2026.
+
+**D:** a single or repeated act, or lack of appropriate action, occurring within a relationship where there is an **expectation of trust**, which causes harm or distress to an older person. The trust relationship is the defining element — it is what distinguishes elder abuse from crime committed by a stranger, and it is also why disclosure is so difficult.
+
+**The five recognised subtypes**, with Australian 12-month prevalence among community-dwelling people aged 65+ from the National Elder Abuse Prevalence Study (**15% experienced at least one subtype**):
+- **Psychological/emotional (12%)** — by far the commonest, and the one least likely to be looked for: intimidation, humiliation, threats (including threats of residential care placement), social isolation, withholding contact with family.
+- **Neglect (3%)** — failure to provide necessities of life: food, hygiene, medication, medical care, warmth, supervision. May be intentional or arise from carer incapacity.
+- **Financial (2%)** — misuse of funds or assets, coercion over a will or power of attorney, unpaid "borrowing", pressure to transfer property. The subtype most often uncovered incidentally.
+- **Physical (2%)** — including inappropriate use of restraint or over-sedation.
+- **Sexual (1%)**.
+
+**R:** older person factors — cognitive impairment (particularly dementia), functional dependence, social isolation, communication difficulty, and previous family violence. Perpetrator factors, which matter at least as much and are commonly the adult child rather than a paid carer — financial dependence on the older person, substance misuse, mental illness, and **carer stress with inadequate support**.
+
+> [!warning] Features suggestive of abuse of an older person
+> **From the history/interaction:** delayed presentation, or an explanation inconsistent with the injury; repeated presentations to different services; a carer who answers for the patient, refuses to leave the room, or is dismissive or hostile toward them; a patient who appears fearful, withdrawn or watchful in the carer's presence; the patient's own disclosure — which may be tentative, minimised, or later retracted.
+> **Physical:** bruising in unusual sites or of varying ages, pressure injuries, poor hygiene, unexplained weight loss or dehydration, over- or under-medication, untreated injuries.
+> **Financial:** unexplained inability to pay for care or medicines, sudden changes to a will or power of attorney, a relative with unusual control over finances, unpaid bills despite adequate income.
+> **Service-related:** missed appointments, non-collection of prescriptions, refusal of services on the patient's behalf by someone else.
+
+> [!note] Differential — none of the features above is specific, and each has innocent explanations that must be genuinely considered rather than dismissed: bruising from anticoagulants, thrombocytopenia or repeated falls (see Falls in Older People above); weight loss from malignancy, depression or dysphagia; pressure injury from immobility despite adequate care; confusion from delirium, dementia or polypharmacy (see Delirium vs Dementia vs Depression in [[04_Neurology]]); and self-neglect, which is genuinely different from neglect by another and calls for a different response.
+
+**Assessment:**
+- **Interview the older person alone.** This is the single most important step and the one most often skipped. A carer's insistence on remaining present is itself a red flag; a neutral reason to separate them ("I always examine people privately") is usually enough.
+- Ask directly but non-accusatorially — *"Does anyone at home make you feel afraid?"*, *"Is anyone taking or using your money without your permission?"*, *"Do you get the help you need with washing, dressing and meals?"*
+- **Assess capacity** for the specific decisions in question (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework), since it determines whether the person can decline intervention. **A person with capacity may choose to remain in an abusive situation**, and that choice must be respected while support and information are still offered — a genuinely difficult but legally clear point.
+- Assess the **carer** as well: burden, mental health, substance use, and whether they have adequate support. Carer stress is a contributing factor to be addressed, not an excuse that discharges the concern.
+- Examine and **document thoroughly and objectively** — describe and measure injuries, distinguish fact from opinion, and record the patient's own words verbatim, exactly as the NAI entry requires.
+
+> [!danger] The Australian reporting position — and it is genuinely different from child abuse, which is where most people's intuition comes from
+> **There is no general statutory mandatory reporting obligation for elder abuse in Australia.** This is a real and important contrast with mandatory reporting of child abuse (see [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Sexual abuse for the SA mandatory-reporting duty that does apply to children). Assuming the same duty applies to older people is a common error in both directions — some clinicians report without consent believing they must, others do nothing believing that without a mandatory duty there is no pathway.
+> - **Limited exception:** Commonwealth-funded aged care providers have specific reporting obligations under the *Aged Care Act 1997* (Cth), and the **Serious Incident Response Scheme (SIRS)** — in residential aged care since April 2021 and extended to in-home aged care services from December 2022 — requires providers to report serious incidents including abuse and neglect to the **Aged Care Quality and Safety Commission**. This is a *provider* obligation, not a treating-clinician one.
+> - **Call the police** where there is a suspected crime or immediate danger.
+> - **1800ELDERHelp (1800 353 374)** is the national number that redirects to the relevant state or territory service.
+> - Other pathways: the **Office of the Public Advocate** and the relevant state tribunal (**SACAT** in South Australia) where guardianship or financial administration is in question — the same bodies already named in [[Clinical-Process-EBM-Consent-Capacity]] Consent to Medical Treatment and Palliative Care Act 1995 (SA) for capacity disputes.
+> The national policy framework is the **National Plan to Respond to the Abuse of Older Australians**.
+
+**Mx:**
+- **Immediate/acute:** treat injuries and address any immediate safety risk. Admission is a legitimate tool where it is the only way to create a safe space while a plan is made.
+- **Definitive:** raise the concern through the appropriate pathway above; involve social work early; separate the older person's needs from the carer's; and where the person has capacity and declines intervention, **keep the door open** — document the discussion, provide the contact numbers, treat what they will let you treat, and arrange follow-up. Disclosure often takes several contacts.
+- **Chronic/long-term:** address the modifiable drivers — carer support and respite, home care packages via an **Aged Care Assessment Team (ACAT)** assessment, treatment of carer mental illness or substance misuse, and reducing the older person's social isolation. Reassess, because circumstances change and a refusal today is not a refusal forever.

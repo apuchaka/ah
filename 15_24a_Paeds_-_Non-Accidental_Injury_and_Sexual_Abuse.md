@@ -5,6 +5,8 @@ source: quackquackmed 15.24 Non-accidental injury, Sexual abuse
 
 ## Non-accidental injury (NAI)
 
+> [!info] The equivalent safeguarding entry for older people is [[18_Geriatrics_and_Older_Persons_Health]] Abuse of Older People (Elder Abuse) and Carer Stress, built to the same structure. Worth reading alongside this one specifically because the **reporting duties are genuinely different**: doctors are mandatory reporters for child abuse in South Australia, whereas there is **no general statutory mandatory reporting obligation for elder abuse in Australia** — carrying the assumption across from this entry to an older patient is a recognised error in both directions.
+
 - **R:** birth weight <2.5kg, mother <30 years old, unwanted pregnancy, poverty, prematurity, multiple medical conditions, child <2 years old, domestic abuse. Parental factors: substance and alcohol misuse, intellectual disability, history of childhood abuse, mental health problems.
 
 > [!warning] S/Smx suggestive of NAI: child may disclose it themselves; story inconsistent with injuries; repeated attendances at A&E; delayed presentation; child with a frightened, withdrawn appearance ("frozen watchfulness"); bruising; fractures (particularly metaphyseal, posterior rib fractures, or multiple fractures at different stages of healing); torn frenulum (e.g. from forcing a bottle into a child's mouth); burns or scalds; failure to thrive; STIs (e.g. gonorrhoea, trichomonas).
