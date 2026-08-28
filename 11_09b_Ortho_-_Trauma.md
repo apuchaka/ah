@@ -3,6 +3,55 @@ block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.09 Trauma - Thoracic, Genitourinary, Splenic, Liver, Head, Ocular
 ---
 
+## Major Trauma — Primary Survey
+
+> [!note] Gap-filled from CSV ("Major trauma" and "Trauma," Medium yield). **Verified as genuinely absent before building rather than assumed** — this file holds organ-specific trauma (thoracic, genitourinary, splenic, liver, head, ocular) with no structured approach to the patient, and corpus-wide search returned **zero hits** for catastrophic haemorrhage, pelvic binder, permissive hypotension or secondary survey. The **generic** ABCDE approach is fully built in [[Examination]] ABCDE Assessment (Acutely Unwell / Deteriorating Patient) and is **not repeated here** — this entry covers only what trauma changes about it. Verified against ANZCOR guidelines and Australian state major trauma service guidelines, Aug 2026.
+
+**What trauma changes about ABCDE:** the sequence is the same, but the differential within each letter is narrower and more time-critical, and one step is added in front.
+
+### \<C\> — Catastrophic haemorrhage, before airway
+
+In trauma, **exsanguinating external haemorrhage is addressed before the airway**, because a patient can bleed out faster than they can obstruct. Direct pressure, a **haemostatic dressing**, or an **arterial tourniquet** for a limb bleed that pressure will not control. This is the only situation in which anything precedes A.
+
+### A — Airway **with cervical spine protection**
+
+The addition is the C-spine. Assume injury in any significant blunt mechanism until cleared, use **manual in-line stabilisation** during airway manoeuvres, and prefer **jaw thrust over head tilt–chin lift**. The reason is mechanical: head tilt extends the neck, which is exactly the movement a potentially unstable cervical injury cannot tolerate.
+
+### B — Breathing: the immediately life-threatening chest injuries
+
+Five that must be found in the primary survey rather than on imaging, because each kills before a scan:
+- **Tension pneumothorax** — a clinical diagnosis treated on suspicion, not confirmed radiologically first (see [[02_Respiratory]] for the disease-level detail, not repeated here)
+- **Open pneumothorax** (sucking chest wound)
+- **Massive haemothorax** — see Thoracic trauma below
+- **Flail chest** with underlying pulmonary contusion
+- **Cardiac tamponade** — see [[01_Cardiovascular]] for Beck's triad and the tamponade physiology, not repeated here
+
+### C — Circulation: where the blood goes
+
+> [!info] **"Blood on the floor and four more" — the five places a trauma patient can lose enough blood to die, and the reason this list exists is that four of them are invisible.** External (on the floor), **chest**, **abdomen**, **pelvis/retroperitoneum**, and **long bones** (a femoral shaft fracture can hold 1–1.5 L; bilateral, considerably more). A hypotensive trauma patient with no external bleeding has occult haemorrhage in one of the other four until proven otherwise — that is what the list is for, and it is why the assessment is a search rather than an observation.
+
+- **Two large-bore IV cannulae**, bloods including crossmatch.
+- **Pelvic binder** at the level of the **greater trochanters** — not the iliac crests, which is the commonest application error and makes the binder ineffective. It works by reducing pelvic volume and tamponading venous bleeding, which is also why a suspected pelvic fracture should **not** be repeatedly "sprung" to test stability: doing so disrupts clot.
+- **Permissive hypotension** — accepting a lower blood pressure until surgical control of bleeding is achieved. The reasoning is that aggressive crystalloid before haemostasis raises pressure enough to dislodge formed clot, dilutes clotting factors, and worsens the trauma-induced coagulopathy.
+- **Blood, not crystalloid**, is the resuscitation fluid in haemorrhagic shock — see [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] Massive Transfusion Protocol (MTP) and [[01_Cardiovascular]] 0.20 Shock (0.20.2 Hypovolaemic shock) for the physiology and the classification by blood loss, not repeated here.
+- **Tranexamic acid** is given early in significant trauma haemorrhage; the benefit is time-dependent, so it is an early-in-the-primary-survey decision rather than a later one.
+
+### D — Disability
+
+GCS, pupils, blood glucose, and gross limb movement. The trauma-specific point is that **a falling GCS is a reason to re-look at A, B and C before attributing it to head injury** — hypoxia and hypoperfusion both reduce conscious level and both are reversible. See [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure for imaging thresholds and raised-ICP management, not repeated here.
+
+### E — Exposure and environment
+
+Fully expose, then **actively prevent hypothermia** — warmed fluids, warming blankets, minimise exposure time. Hypothermia in trauma is not merely uncomfortable: it forms the **"lethal triad" with acidosis and coagulopathy**, each worsening the others, and it is the component most directly under the treating team's control.
+
+### After the primary survey
+
+**Secondary survey** — a systematic head-to-toe examination including a **log roll** to inspect the back and perform a rectal examination if indicated, once the patient is stable enough. **AMPLE history** (Allergies, Medications, Past history, Last meal, Events) as in the generic ABCDE entry. **Re-assess from the top whenever the patient deteriorates** rather than continuing down the sequence — the primary survey is a loop, not a checklist to complete once.
+
+> [!warning] Australian context worth knowing: major trauma care is organised through **state-based trauma systems with designated major trauma services**, and the intern-level task in a smaller or regional hospital is usually **recognition, resuscitation and early retrieval** rather than definitive management. Retrieval services (such as the state aeromedical and retrieval organisations) should be contacted **early** — the referral conversation happens in parallel with resuscitation, not after it.
+
+---
+
 ## Burns and Scalds
 
 > [!note] Gap-filled from CSV — **two rows** ("Burns" and "Burns and scalds," both Low yield, Injury/Poisoning/Envenomation/Environmental category). Flagged as absent early in this project and **confirmed missing twice** on corpus-wide search: zero hits for Parkland, rule of nines, TBSA in a burns context (every TBSA hit was SJS/TEN in [[09_01_Dermatology_-_Dermatological_Emergencies]] Stevens-Johnson syndrome / Toxic epidermal necrolysis (SJS/TEN)), or cooling. Built here rather than in the dermatology file because burns are managed as **trauma** — primary survey, fluid resuscitation, transfer to a burns unit — and this file is already the project's de facto general trauma home despite its "Ortho" filename (it holds thoracic, genitourinary, splenic, liver, head and ocular trauma, none of them orthopaedic). Verified against ANZCOR Guideline 9.1.3 (First Aid for Burns), ANZBA (Australian and New Zealand Burn Association) referral criteria and Emergency Management of Severe Burns principles, and Australian state burns service guidelines, Aug 2026.
