@@ -155,6 +155,45 @@ The relationship: the Advance Care Directive **informs** the goals-of-care docum
 
 ---
 
+## Motivational Interviewing and the Stages of Change
+
+> [!note] Gap-filled from CSV ("Motivational interviewing: stages of change model," High yield). The exact "assumed but never explained" pattern from Step 5 of the workflow, applied to a communication framework rather than a clinical score: motivational interviewing is **named as a treatment modality twice** in [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]] (under Alcohol use disorder and Gambling disorder (gambling-related harms)) without the model ever being explained, and the stages themselves appeared **nowhere in the corpus** — zero hits for "precontemplation" or any other stage name. Verified against RACGP *Australian Family Physician* guidance on motivational interviewing techniques in general practice and on influencing behaviour change, Aug 2026.
+
+**Why an intern needs this rather than just "advise the patient to stop":** direct advice given to someone who is not ready produces resistance, not change — and the reflex to argue the case harder makes it worse. The value of the model is that it tells you **what a useful consultation looks like at each stage**, so effort is spent on the right thing.
+
+### The Stages of Change (Prochaska and DiClemente's transtheoretical model)
+
+| Stage | Where the person is | What is actually useful here |
+|---|---|---|
+| **Precontemplation** | Not considering change; may not see a problem at all | Do **not** push a plan. Raise awareness, offer information, ask permission to discuss it, and leave the door open. Pushing here reliably produces resistance |
+| **Contemplation** | Aware of the problem, **ambivalent** — weighing pros and cons | The pivotal stage. Explore ambivalence explicitly; use a decisional balance (what do you like about it, what do you like less); elicit *their* reasons for change rather than supplying yours |
+| **Preparation** | Intending to act soon, planning the steps | Help make the plan concrete and specific: a date, the method, the barriers, the supports. Offer treatment options |
+| **Action** | Actively making the change | Practical support, pharmacotherapy where indicated, frequent follow-up, and dealing with immediate difficulties |
+| **Maintenance** | Sustaining the change | Reinforce, anticipate high-risk situations, manage the lapse-versus-relapse distinction |
+| **Relapse** | Return to the previous behaviour | Explicitly part of the model, **not a failure of it**. Normalise it, identify what triggered it, and re-enter the cycle — most people cycle several times before sustained change |
+
+> [!info] The single most useful practical consequence: **match the intervention to the stage.** Handing a precontemplative smoker a quit plan and a script for varenicline wastes the consultation and can entrench resistance; asking a patient in preparation to "think about whether you're ready" wastes the moment they were ready. The first question is therefore not "what should they do" but **"where are they?"**
+
+### Motivational interviewing — the method
+
+A collaborative, person-centred conversation style for strengthening a person's *own* motivation and commitment to change. Its founding observation is that **ambivalence is normal**, not obstruction, and that a person is far more persuaded by reasons they generate themselves than by reasons supplied by a clinician.
+
+**Core skills — OARS:**
+- **O**pen questions — *"What worries you about your drinking?"* rather than *"Do you think you drink too much?"*
+- **A**ffirmations — genuine recognition of effort and strengths, which builds the self-efficacy the change depends on
+- **R**eflective listening — the main workhorse: reflect back what you heard, including the ambivalence, so the person hears their own reasoning
+- **S**ummarising — draw the threads together, deliberately foregrounding their change-favouring statements
+
+**Two principles that change what you actually do:**
+- **Roll with resistance rather than confronting it.** Argument produces counter-argument; if you find yourself making the case for change while the patient makes the case against, you have taken their side of the ambivalence and they are now arguing to stay the same.
+- **Listen for and reinforce "change talk"** — any statement of desire, ability, reason or need to change. Amplify those; do not lecture over them.
+
+> [!warning] The **righting reflex** — the clinician's instinct to fix the problem by explaining why the person should change — is the commonest error, and it is counterproductive precisely because it is well-intentioned. In an OSCE it is what mark schemes penalise as "lecturing the patient"; in practice it is what ends the conversation.
+
+**Where this is already applied in this project:** alcohol use disorder and gambling-related harms (see [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]] Alcohol use disorder and Gambling disorder (gambling-related harms), where MI is named as a treatment but not explained — this entry is that explanation), smoking cessation, weight and physical activity, medication adherence, and deprescribing conversations (see [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing, where the framing point about "let's see whether you still need this" is an MI move).
+
+---
+
 ## Domestic and Family Violence — Identification and Initial Response
 
 > [!note] Gap-filled from CSV ("Domestic violence," High yield, General Practice/Preventive Med/Ethics/Communication category). This was flagged in an earlier round as deliberately deferred ("see GP sec") and never returned to. Corpus-wide search found it as **a single bare bullet** — "ask about domestic violence and substance abuse in unsupported women" in [[16_01-05_Antenatal_Care]] Antenatal care — with no screening approach, red flags, safety planning, risk assessment or reporting content anywhere. Verified against the RACGP *Abuse and violence: working with our patients in general practice* ("White Book," 5th edition) and its Family Violence Toolkit, AIHW family, domestic and sexual violence data, and 1800RESPECT, Aug 2026.
