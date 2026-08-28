@@ -235,6 +235,47 @@ The realistic goal of a single consultation is **not** to make the person leave.
 
 ---
 
+## Clinical Handover (ISBAR) and Prioritisation of Jobs
+
+> [!note] Gap-filled from CSV ("Giving/receiving handover and prioritisation of jobs," Medium yield). Genuinely absent: corpus-wide search returned **zero hits** for handover, ISBAR, iSoBAR or SBAR — despite structured handover being a National Safety and Quality Health Service Standard requirement and one of the tasks an intern performs most often. Verified against the Australian Commission on Safety and Quality in Health Care's ISBAR resources and NSQHS Standard 6 (Communicating for Safety), and SA Health clinical handover guidance, Aug 2026.
+
+**Why this is a patient-safety topic rather than an administrative one:** handover is the point at which clinical information is most often lost, and communication failure at transitions is a leading contributor to preventable harm. It is a required, structured process under **NSQHS Standard 6**, not an informal courtesy between shifts.
+
+### ISBAR — the framework used across Australian health services
+
+| | | What it actually means in practice |
+|---|---|---|
+| **I** | Identify | Who **you** are, your role and location; who the **patient** is (name, age, ward/bed, UR number). Skipping this is the commonest reason a phone escalation goes wrong |
+| **S** | Situation | The problem, in one sentence, **now**. *"I'm calling about Mrs X, who has become hypotensive in the last 30 minutes."* |
+| **B** | Background | Only the context needed to understand the situation — admitting diagnosis, relevant history, what has happened this admission. Not the whole chart |
+| **A** | Assessment | **Your** read: observations and trend, what you think is going on, what you have already done. This is the part most often omitted, and it is the part that makes the call useful |
+| **R** | Recommendation | What you are **asking for**, and by when. *"I'd like you to review her within 30 minutes"* — an explicit request, with a timeframe, not a description hoping someone infers the ask |
+
+**Uses:** shift-to-shift handover, escalating a deteriorating patient, referral to another team, inter-hospital transfer, and transfer for a procedure. The same structure serves all of them.
+
+> [!tip] The two failure modes of a handover call. **Under-asking:** describing the patient thoroughly and never stating what you want, so the conversation ends with nothing agreed. **Under-assessing:** reading out observations without offering an interpretation, which pushes the whole clinical problem onto someone who cannot see the patient. If you can only get two letters right, make them **A** and **R**.
+
+### Giving and receiving a shift handover
+
+- Handover is a **two-way process with a shared understanding as its endpoint** — the receiver should read back or summarise, and ask about anything unclear. Silence is not confirmation.
+- Structure by clinical urgency, not bed order: **sick patients first**, then those with outstanding tasks or results, then stable patients.
+- For each patient, be explicit about **what is outstanding and who owns it** — a pending result nobody is chasing is the classic handover failure.
+- Flag **anticipated problems and ceilings of care** — the covering team at 3am needs to know the escalation plan before they need it (see Goals of Care and Ceiling of Care (Treatment Escalation Planning) above).
+- Use a written or electronic handover document alongside the verbal handover; verbal alone is not reliable.
+
+### Prioritising jobs
+
+An intern's list is almost always longer than the shift. The workable ordering:
+
+1. **Unwell patients before tasks.** A deteriorating patient outranks any paperwork. Review in person before deciding anything by phone.
+2. **Time-critical clinical tasks** — antibiotics in sepsis, analgesia, insulin and other drugs where a delay causes harm, and anything with a defined time window.
+3. **Tasks that unblock other people or other processes** — a discharge summary holding up a bed, a consent form before a theatre list, a request that must be in before radiology closes.
+4. **Everything else**, in order of clinical consequence.
+
+> [!danger] Two rules that matter more than any ordering scheme. **Escalate early rather than heroically working through a list while a patient deteriorates** — being busy is not a defence, and asking for help is a clinical skill, not an admission of inadequacy. And **hand over what you did not finish, explicitly and by name**; an unfinished job that nobody has been told about is more dangerous than one that was never started, because everyone assumes it is done.
+
+---
+
 ## Management of Patients with Multiple Chronic Medical Problems
 
 > [!note] CSV listed conditions for this task: COPD/asthma, CKD, congestive heart failure, ischaemic heart disease, diabetes, cirrhosis, rheumatoid arthritis, osteoporosis, HIV, stroke, depression — this is a task/approach-led row (multimorbidity management as a skill), not a single disease, hence its place here rather than in a system file.
