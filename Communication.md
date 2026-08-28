@@ -122,6 +122,39 @@ source: built from Grind Time CSV task-led rows, routed here per project workflo
 
 ---
 
+## Goals of Care and Ceiling of Care (Treatment Escalation Planning)
+
+> [!note] Gap-filled from CSV ("Long-term care planning (e.g. advanced directives, ceiling of care)," High yield, Older Persons Health / Geriatrics category). The DNACPR conversation above and the Advance Care Directives Act 2013 (SA) legal framework in [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment were both already built and are not repeated here — but **"ceiling of care" as a named concept, distinct from a resuscitation decision, existed nowhere in the corpus**. Verified against the Australian Commission on Safety and Quality in Health Care's goals-of-care and Comprehensive Care Standard guidance and Advance Care Planning Australia, Aug 2026.
+
+**The distinction this entry exists to make:** a DNACPR order answers exactly one question — what happens at cardiac arrest. A **ceiling of care** (treatment escalation plan) answers a much more frequently relevant one: **how far do we escalate for the deterioration that stops short of arrest?** The two are separate decisions, and conflating them causes harm in both directions.
+
+- A patient can be **not for CPR but fully for everything else** — antibiotics, IV fluids, non-invasive ventilation, even ICU admission. This is a common and entirely coherent position, and treating a DNACPR order as though it meant "ward-based comfort care" is a well-recognised failure.
+- A patient can be **for CPR in principle but not for ICU or intubation**, where the underlying reserve makes prolonged organ support futile.
+
+> [!info] The escalation ladder to think in, so the plan is specific rather than a vague "not for escalation":
+> **Ward-based care** (oral/IV antibiotics, IV fluids, oxygen) → **ward-based non-invasive support** (NIV/CPAP, high-flow oxygen) → **ICU-level organ support** (intubation and ventilation, vasopressors, renal replacement) → **CPR**.
+> A useful plan names **where on this ladder the ceiling sits**, and what *is* being done below it — not merely what is being withheld.
+
+**Getting the documents straight**, because they are routinely confused and an intern is expected to know which is which in Australia:
+- **Advance Care Directive** — made by the *patient* while they have capacity, recording their values, what outcomes they would find unacceptable, and any binding refusals of treatment. Legally binding as a refusal (see [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment for its statutory basis, not repeated here). Made in advance, and *not* a medical order.
+- **Goals of care / resuscitation plan** — a *clinical* document completed by the treating team for this admission, recording the agreed goals and the escalation ceiling. It is a medical order and it acts now.
+- **Substitute decision-maker** — the person who decides if the patient loses capacity (see [[Clinical-Process-EBM-Consent-Capacity]] Consent to Medical Treatment and Palliative Care Act 1995 (SA) for the hierarchy).
+
+The relationship: the Advance Care Directive **informs** the goals-of-care document; it does not replace it. A patient with an ACD still needs a current escalation plan written for the admission in front of you.
+
+**Checklist for the conversation** (the communication approach itself is as per Discussing "Do Not Attempt Cardiopulmonary Resuscitation" (DNACPR / Not-for-Resuscitation) above, not repeated here):
+- [ ] Establish the clinical picture and realistic prognosis first — the ceiling should follow from what treatment can actually achieve, not from age or a frailty score used as a proxy
+- [ ] Ask about an existing Advance Care Directive and about the substitute decision-maker **before** the conversation, not during it
+- [ ] Explore what outcomes the person would find unacceptable, which is usually more informative than asking which treatments they want
+- [ ] State clearly **what will be done**, not only what will not — this is the single most important framing point
+- [ ] Name the ceiling specifically on the ladder above, so the covering team at 3am knows what to do
+- [ ] Document the reasoning, who was present, and the review date — a ceiling of care is **reversible** and should be revisited if the clinical situation changes
+- [ ] Communicate it: the plan is useless if it is not visible to the after-hours team and, on discharge, to the GP and any residential aged care facility
+
+> [!warning] Common errors: writing "not for escalation" without saying what the ceiling actually is; setting a ceiling on the basis of age alone; treating the decision as permanent when the patient's trajectory has changed; and — the most consequential — allowing a DNACPR order to silently become a ceiling on active treatment that nobody ever actually decided. Where the frail patient's overall picture is the reason for the discussion, see [[18_Geriatrics_and_Older_Persons_Health]] Frailty for the reserve assessment that should inform it.
+
+---
+
 ## Management of Patients with Multiple Chronic Medical Problems
 
 > [!note] CSV listed conditions for this task: COPD/asthma, CKD, congestive heart failure, ischaemic heart disease, diabetes, cirrhosis, rheumatoid arthritis, osteoporosis, HIV, stroke, depression — this is a task/approach-led row (multimorbidity management as a skill), not a single disease, hence its place here rather than in a system file.
