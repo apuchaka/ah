@@ -73,6 +73,6 @@ source: quackquackmed 15.03 Childhood viral exanthems - Measles, Mumps, Rubella,
 > [!warning] Do not give NSAIDs — possible increased risk of secondary bacterial infections; secondary invasive GAS infections can result in necrotising fasciitis.
 
 - At-risk patients: PO/IV antiviral therapy, given within 72h of onset.
-- **Post-exposure prophylaxis:** VZIG, for significant exposure to VZV/HZV in patients with clinical conditions that increase risk of severe varicella (pregnant women, immunocompromised patients, neonates) with no antibodies to VZV.
+- **Post-exposure prophylaxis:** **VZIG (varicella zoster immunoglobulin** — preformed antibody, so it protects immediately but only temporarily and confers no immunity; see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Passive Immunisation — Immunoglobulin After an Exposure), for significant exposure to VZV/HZV in patients with clinical conditions that increase risk of severe varicella (pregnant women, immunocompromised patients, neonates) with no antibodies to VZV.
 
 *(See [[09_07_Dermatology_-_Chickenpox__Shingles__Pityriasis_Rosea__Hidradenitis_Suppurativa]] Varicella zoster virus (VZV) / chickenpox and Herpes zoster / shingles for shingles detail; VZV infection specifically in pregnancy is not yet built pending an Obstetrics category upload.)*

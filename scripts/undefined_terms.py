@@ -104,6 +104,14 @@ def definitional_sites(term, files):
         ("definition",  re.compile(r"\b%s\b\s*(?:\([^)]{0,60}\))?\s*(?:is|are|means|refers to|=)\s" % t, re.I)),
         ("D-line",      re.compile(r"\*\*D[:\s*]{1,4}\*{0,2}[^\n]{0,120}\b%s\b" % t, re.I)),
         ("gloss",       re.compile(r"\b%s\b\s*[—–-]\s*(?:a|an|the)\s" % t, re.I)),
+        # An acronym spelled out in parentheses IS a definition, and the first
+        # version of this scan could not see it. Three of the five abbreviations
+        # it surfaced on 2026-08-29 (CT-TAP, PERT, IAP) were already expanded
+        # inline at their main use site; none matched header/bold/callout/"X is".
+        # Expansion-then-acronym is unambiguous, so it is matched directly:
+        #   "pancreatic enzyme replacement therapy (PERT)"
+        ("expansion",   re.compile(
+            r"[A-Za-z][\w'’/-]*(?:[ /-][A-Za-z][\w'’/-]*){1,7}\s*\(\s*%s\s*\)" % t)),
     ]
     sites = []
     for f in files:
@@ -113,7 +121,35 @@ def definitional_sites(term, files):
                 line = f["raw"].count("\n", 0, m.start()) + 1
                 sites.append((f["name"], kind, line))
                 break
+        else:
+            hit = acronym_expansion(term, f["raw"])
+            if hit:
+                sites.append((f["name"], "expansion", hit))
     return sites
+
+
+# Acronym-then-parenthetical is NOT automatically a definition: "MART (moderate
+# dose ICS)" is a qualifier, not an expansion, and dismissing on it would have
+# hidden a real gap in the adult asthma entry. So the parenthetical has to look
+# like the acronym spelled out — most of its word-initials present in the
+# acronym's letters. "CT-TAP (chest/abdomen/pelvis)" passes (c, a, p all in
+# CTTAP); "MART (moderate dose ICS)" fails (only m of m, d, i).
+_EXPANSION_STOP = {"a", "an", "the", "of", "and", "or", "in", "for", "to", "with"}
+
+
+def acronym_expansion(term, raw, threshold=0.6):
+    letters = set(re.sub(r"[^A-Za-z]", "", term).upper())
+    if len(letters) < 2:
+        return None
+    for m in re.finditer(r"\b%s\b\s*\(([^)\n]{3,70})\)" % re.escape(term), raw):
+        words = [w for w in re.split(r"[\s/,-]+", m.group(1))
+                 if w and w.lower() not in _EXPANSION_STOP and w[0].isalpha()]
+        if not words:
+            continue
+        covered = sum(1 for w in words if w[0].upper() in letters)
+        if covered / len(words) >= threshold:
+            return raw.count("\n", 0, m.start()) + 1
+    return None
 
 
 def candidate_terms(files, min_uses):

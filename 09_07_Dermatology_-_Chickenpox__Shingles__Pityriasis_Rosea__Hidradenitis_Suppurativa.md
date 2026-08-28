@@ -20,7 +20,7 @@ source: quackquackmed 09.07 Chickenpox, Shingles, Pityriasis rosea, Hidradenitis
 
 ### Post-exposure prophylaxis (PEP)
 
-- Varicella zoster immunoglobulin (VZIG) for PEP.
+- Varicella zoster immunoglobulin (VZIG) for PEP — **passive** immunisation: preformed antibody giving immediate but temporary cover, which is why it is time-limited and why it does not remove the need for vaccination later (see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Passive Immunisation — Immunoglobulin After an Exposure).
 - Indicated for significant exposure to VZV/HZV in patients with clinical conditions that increase risk of severe varicella — pregnant women, immunocompromised patients, neonates — and no antibodies to VZV.
 
 ### VZV in pregnancy
