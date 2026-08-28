@@ -49,7 +49,7 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 | # | Item | Status |
 |---|---|---|
 | N1 | Geriatrics/Older Persons Health build | ✅ 2026-08-28 — audited all 11 CSV rows, then built 8 topics. See note below. |
-| N6 | GP/Preventive Med/Ethics/Communication build | ⬜ |
+| N6 | GP/Preventive Med/Ethics/Communication build | 🔶 2026-08-28 — all 29 rows audited; 6 topics built. 16 rows remain, allocated but unbuilt — see note below. |
 | N3 | Injury/Poisoning/Envenomation/Environmental build | ⬜ |
 | N2 | Public Health/Epidemiology build | ⬜ |
 | N4 | Australian Context of Health build | ⬜ |
@@ -71,6 +71,50 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 Corpus is now **147 content files**; `check_structure.sh`'s `EXPECTED_CONTENT` was updated in the same commit as the new file.
 
 **Method note worth carrying forward:** the presence scan reported Falls as `FOUND` *with a header* — the hit was the OSCE communication station, not clinical content — and reported the MCI row as `PARTIAL` with a 4,159-character section, which was the cognitive-tools entry with MCI mentioned once as an acronym. Both would have read as covered without opening the files. **Read the hit, don't trust it.**
+
+---
+
+**N6 result (2026-08-28).** All 29 rows audited by reading each hit. Result: **7 adequately covered, 6 partially present, 16 genuinely absent** — *not* the "roughly half already covered" previously assumed.
+
+> [!warning] **Correction to this document's own Step 23 findings.** The Step 23 entry below lists "smoking cessation/SNAP (appropriately scattered as a risk factor across many disease entries)" as **confirmed present**. That is wrong. Smoking cessation is mentioned widely; **the SNAP framework itself had zero corpus-wide hits** (every match was "opening snap"/"snapping"). The earlier pass conflated *mentioned as a risk factor* with *built as a topic* — a failure mode worth watching for elsewhere in this document's confirmed-present lists.
+
+**Placement rule used** (new file as last resort, not default): consultation skill → `Communication.md` · clinical process/ethics/legal → `Clinical-Process-EBM-Consent-Capacity.md` · preventive/screening **content** → the organ-system file that already owns it · new file only for what fits none of those.
+
+**Built, one commit each:**
+
+| Topic | Built in | Rows covered |
+|---|---|---|
+| Domestic and Family Violence | `Communication.md` | Domestic violence (High) |
+| Motivational Interviewing and the Stages of Change | `Communication.md` | Motivational interviewing (High) |
+| Clinical Handover (ISBAR) and Prioritisation | `Communication.md` | Giving/receiving handover (Medium) |
+| Preventive Medicine and Screening | `19_General_Practice_and_Preventive_Medicine` (new) | Preventative medicine (High); Immunisation (High, partial) |
+| Lifestyle Risk Factors (SNAP) and Smoking Cessation | `19_…` | Life Style related Diseases (SNAP) (Medium) |
+| Continuity of Care, and What Makes General Practice Different | `19_…` | Continuity of care (High); Unique features of GP (Medium) |
+
+**All five High-yield gaps are now built.** Corpus is **148 content files**; `EXPECTED_CONTENT` updated in the same commit as the new file.
+
+### N6 remainder — allocated but not yet built
+
+Deliberately left rather than thinned. Each is allocated to its destination file by the placement rule above, so the next round does not have to re-decide.
+
+| Row | Yield | Goes in | Class |
+|---|---|---|---|
+| Explaining a medical error / open disclosure | Medium | `Communication.md` | absent |
+| Managing complaints | Medium | `Communication.md` | absent |
+| Talking to angry patients or relatives | Medium | `Communication.md` | absent |
+| Dealing with an inappropriate patient (boundaries) | Medium | `Communication.md` | absent |
+| Safeguarding — explaining a referral | Medium | `Communication.md` | partial (pathways exist; the conversation does not) |
+| The family, families in crisis, family dysfunction | Medium | `Communication.md` | absent |
+| Discussion/referral to specialities | Medium | `Communication.md` | absent |
+| Documenting in the medical notes | Medium | `Clinical-Process-EBM-Consent-Capacity.md` | absent |
+| Mandatory reporting (overall skill) | Medium | `Clinical-Process-EBM-Consent-Capacity.md` | partial (child + elder instances exist; no general duty entry) |
+| Hospital avoidance | Medium | `19_…` | absent |
+| Initial diagnostic strategy for common GP presentations | Medium | `19_…` (or `History-Taking` — decide on build) | absent |
+| Key factors in selecting the most appropriate medication | Medium | `19_…` | absent |
+| Assessment and basic management of pain | Medium | `19_…` | partial (palliative opioids exist; no general assessment or analgesic ladder) |
+| Health promotion and patient education | Medium | folds into SNAP/preventive entries | partial |
+| Counselling stations | Medium | — | `Communication.md` *is* this; no build needed |
+| Initial GP investigation strategy overlap | Medium | — | see above |
 
 ---
 
