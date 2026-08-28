@@ -53,6 +53,44 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 - Parental consent is otherwise required for a child's treatment, with the same general emergency-treatment principles above applying if urgent treatment is needed and a parent/guardian isn't immediately available.
 - Disagreement between parents, or between a Gillick-competent minor and their parents, over a child's treatment can require escalation (senior clinician input, ethics consultation, or ultimately court involvement in genuinely contested or high-stakes cases) — genuinely complex territory beyond the scope of a single consultation, not detailed further here.
 
+## Mandatory Reporting — the Overarching Duty
+
+> [!note] Gap-filled from CSV ("Mandatory reporting (Overall Skill)," Medium yield). **Partially present, in a specific and misleading way:** the project carried four *condition-specific* instances — child abuse, elder abuse, family violence, notifiable diseases — with **no entry connecting them**, and **zero corpus-wide hits for Ahpra or notifiable conduct**, meaning the duty to report an unsafe *colleague* was absent entirely. Built here rather than in [[Communication]] because this is a legal duty rather than a consultation skill. Verified against Ahpra's guidelines on mandatory notifications about registered health practitioners and Avant's guidance for Australian practitioners, Aug 2026.
+
+> [!danger] **There is no single "mandatory reporting" duty in Australia. There are several separate ones, with different triggers, different thresholds and different recipients — and the commonest error is assuming a duty you have met in one context transfers to another.** This project has already documented one such error directly: doctors *are* mandatory reporters for child abuse, and there is **no general statutory duty to report elder abuse** (see [[18_Geriatrics_and_Older_Persons_Health]] Abuse of Older People (Elder Abuse) and Carer Stress). Carrying the child-protection intuition across is a recognised mistake in both directions.
+
+### The duties, and what actually triggers each
+
+| Duty | Trigger | Report to | Where it is built |
+|---|---|---|---|
+| **Child protection** | Reasonable suspicion of child abuse or neglect. Doctors **are** mandated reporters; failing to report can itself be an offence | State child protection department (± police) | [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI) and Sexual abuse |
+| **Notifiable diseases** | Diagnosis or suspicion of a listed condition | State/territory health department, feeding the national system | [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia) |
+| **Notifiable conduct (Ahpra)** | Reasonable belief a registered practitioner has engaged in one of four defined behaviours — see below | Ahpra | *this entry* |
+| **Fitness to drive** | A condition affecting safe driving; the duty is to **advise the patient**, who must notify the licensing authority — a reporting *pathway*, not usually a direct practitioner duty | Patient notifies; practitioner may report in defined circumstances | [[01_Cardiovascular]] 0.34.5 Austroads cardiovascular driving rules (private vehicle standards); [[04_Neurology]] Austroads Driving Standards (Neurological Conditions) |
+| **Elder abuse** | **No general statutory duty.** Limited provider obligations in Commonwealth-funded aged care (SIRS) | — | [[18_Geriatrics_and_Older_Persons_Health]] Abuse of Older People (Elder Abuse) and Carer Stress |
+| **Family violence (adult victim)** | **No general duty** for a competent adult; obligations vary by jurisdiction. **Children exposed to it does trigger child protection** | — | [[Communication]] Domestic and Family Violence — Identification and Initial Response |
+
+### Notifiable conduct — reporting a colleague
+
+The half that was entirely missing, and the one an intern is least prepared for. **All registered health practitioners** (not only supervisors) must notify Ahpra on forming a **reasonable belief** that another registered practitioner has engaged in **notifiable conduct**, which is defined as exactly four things:
+
+1. **Practising while intoxicated** by alcohol or drugs.
+2. **Sexual misconduct** in connection with practice.
+3. **Placing the public at risk of substantial harm because of an impairment** — a health condition, including mental illness or substance dependence, that is affecting practice.
+4. **A significant departure from accepted professional standards** placing the public at risk of harm.
+
+> [!info] **Two features of the threshold that matter, because both are commonly misunderstood.**
+> - **"Impairment" alone is not notifiable.** A colleague with a mental illness or a health condition is notifiable only where it is **placing the public at risk of substantial harm**. A doctor receiving treatment and practising safely is not a notification — treating them as one deters help-seeking, which is the harm the threshold is drawn to avoid.
+> - **A treating practitioner faces a higher threshold.** A doctor treating another doctor as a *patient* must notify only where they form a reasonable belief the patient is placing the public at **substantial risk of harm** — deliberately narrower, so that practitioners can seek care without their treating doctor being obliged to report them. Jurisdictional variation exists here; check the applicable provision if you are in this position.
+
+**Protection:** a practitioner who makes a notification **in good faith is protected from civil, criminal and administrative liability**. Good faith, not correctness, is the standard — you are not required to be right.
+
+**What an intern should actually do:** the realistic scenario is noticing something about a colleague, not being certain about it. **Do not sit on it and do not report reflexively.** Discuss it with your supervisor, the Director of Clinical Training, or your medical defence organisation — all of whom can help you work out whether the threshold is met, and none of whom require you to have decided first. Ahpra's own material is written on the assumption that most concerns are resolved without a notification.
+
+> [!tip] The generalisable question, given the duties differ: **for any concern, ask three things — is there a duty here at all, what exactly triggers it, and who does it go to?** The answers are different for a child, an older person, an infectious disease and a colleague, and assuming otherwise is how both over-reporting and under-reporting happen.
+
+---
+
 ## Diagnostic Test Characteristics — Sensitivity, Specificity, PPV and NPV
 
 > [!warning] **Correction to this project's own record.** The workflow's N2 entry instructs a future round to "verify Notifiable Diseases and sensitivity/specificity are genuinely already adequate first, don't rebuild what exists." Notifiable diseases *is* adequate (see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia)). **Sensitivity and specificity were not.** The terms appear eight times across the corpus, every one of them an *application* to a specific test — D-dimer's high sensitivity, faecal calprotectin, the Ottawa rules — with the concepts themselves never defined and PPV/NPV never mentioned at all. This is the same failure mode that produced the false "SNAP is covered" claim: **applied in context is not the same as built as a topic.**
