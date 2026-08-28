@@ -338,6 +338,58 @@ An intern's list is almost always longer than the shift. The workable ordering:
 
 ---
 
+## Explaining a Safeguarding Referral
+
+> [!note] Gap-filled from CSV ("Safeguarding (e.g. explaining a safeguarding referral)," Medium yield). **Same pattern as the two entries below it, and this one is the clearest case yet.** Four entries in this project now *instruct* the reader to raise a safeguarding concern — [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI) says "raise a safeguarding concern" twice, [[17_01_FGM__Amenorrhoea__PCOS]] requires engaging child safeguarding, [[18_Geriatrics_and_Older_Persons_Health]] Abuse of Older People (Elder Abuse) and Carer Stress and [[Communication]]'s own family-violence entry both give pathways — and **not one of them teaches the conversation in which you tell the family it is happening.** The instruction was everywhere; the skill nowhere. Verified against AIFS guidance on reporting child abuse and neglect and on responding to disclosures, RACGP child-abuse and mandatory-reporting material, and RCH Melbourne's reporting-to-child-protection guidance, Aug 2026.
+
+**The referral is not the difficult part. This conversation is** — and it is the one an intern is most likely to avoid, delegate, or fumble.
+
+### First: does the family get told at all?
+
+> [!danger] **The default is transparency. The exception is risk to the person you are protecting — and that exception is real, not theoretical.**
+> **Tell the family** in most cases: it is honest, it preserves a therapeutic relationship you may need for years, and concealment discovered later destroys trust far more than the referral itself would have.
+> **Do not tell them** — or defer telling them, having taken advice — where doing so would **increase risk to the child or adult at risk**: where you suspect it would prompt flight, retaliation, coaching of a child's account, or escalation of violence. **This is a decision to take with advice, not alone** — child protection services, your supervisor, or the hospital social work team can advise, and the intake service will often tell you directly whether to inform.
+> Where a **child has disclosed to you**, discuss with them what will happen next, at a level they can hold. **Do not promise secrecy** — including before a disclosure, since a promise you cannot keep is the thing that breaks a child's trust in adults, not the report itself.
+
+> [!info] **A timing nuance worth knowing, because it changes what you say:** most reports to child protection are **not investigated** — many are closed at intake. That means telling a family "child protection will be investigating" over-promises a process that may not occur, and can inflame a situation for nothing. A defensible sequence is to make the report, establish whether it will be actioned, and shape the conversation to what is actually happening — while being honest that a report has been made if asked directly.
+
+### Having the conversation
+
+**Opening approach:**
+- Private setting, adequate time, and — where safe and appropriate — **without the person of concern present**.
+- **Lead with the concern, not the accusation.** You are describing something you have observed and an obligation you have, not delivering a verdict.
+- **Be honest that you are required to do this.** The obligation is protective cover for both of you and it is true: *"This is something I have to report — it isn't a decision I make about you personally."*
+
+**Key content/checkpoints to cover (checklist):**
+- [ ] State plainly what you have observed, factually, without interpretation or accusation
+- [ ] Explain **what you are doing and why**, in plain language
+- [ ] **Name the obligation** where one applies (see [[Clinical-Process-EBM-Consent-Capacity]] Mandatory Reporting — the Overarching Duty for which duties actually apply to which situations, not repeated here — they differ, and stating the wrong one damages credibility)
+- [ ] Explain **what happens next** honestly, including that you do not control it and cannot predict the outcome
+- [ ] Emphasise the purpose is **support and safety, not punishment** — most child protection involvement is supportive rather than removal, and families overwhelmingly assume the opposite
+- [ ] Allow the reaction — expect anger, fear, or a plea to reconsider — and **do not negotiate the referral itself**
+- [ ] Make clear their care continues and you are not withdrawing from them
+- [ ] Give a contact and arrange follow-up
+- [ ] **Document** the conversation, what was said, and the reasoning for informing or not informing
+
+**Useful phrases/scripts:**
+- Leading with the observation: *"I've noticed some things today that I have a responsibility to follow up, and I want to be upfront with you about what I'm going to do."*
+- Naming the obligation: *"In my job, when I see this, I have to let child protection know. That's the same for every doctor and every family."*
+- Not over-promising: *"I don't know what they'll decide — that's not up to me. What I can tell you is what I've passed on."*
+- Holding the line without hostility: *"I understand you're angry. I'd still have to do this, and I'd still rather you heard it from me."*
+- Continuity: *"This doesn't change that I'm your doctor."*
+
+**Common pitfalls / what OSCE mark schemes typically penalise:**
+- Framing it as an accusation, or speculating about who caused what
+- Apologising for making the referral, which undermines its legitimacy and confuses the family about whether it is happening
+- **Negotiating** — agreeing to hold off, or making the referral conditional on the family's agreement
+- Promising an outcome, or promising confidentiality that cannot be given
+- Telling the family when doing so raises risk, because transparency felt more comfortable
+- Failing to take advice first, and failing to document the reasoning either way
+
+> [!tip] The reframe that makes this conversation possible: **you are not accusing anyone, and you are not deciding anything.** You are describing an observation and discharging an obligation that applies to every clinician equally. That framing is both true and, in practice, the thing that lets the therapeutic relationship survive the referral.
+
+---
+
 ## Professional Boundaries, and the Inappropriate Patient
 
 > [!note] Gap-filled from CSV ("Dealing with an inappropriate patient (e.g. a flirtatious patient)," Medium yield). **A clear instance of the pattern this project keeps finding:** "chaperone" appears **eight times** in [[Examination]] — enough for the topic to look covered — but every instance is a procedural instruction *inside* an examination sequence ("offer a chaperone"). **No entry taught what professional boundaries are, what a breach is, or what to do when a patient crosses one.** Referenced sufficiently to look covered; never actually taught. Verified against the Medical Board of Australia's *Sexual boundaries in the doctor–patient relationship* guidelines and *Good medical practice: a code of conduct for doctors in Australia*, RACGP guidance on managing professional boundaries, and Avant's boundary-issues material, Aug 2026.
