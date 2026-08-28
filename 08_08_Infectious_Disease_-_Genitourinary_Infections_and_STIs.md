@@ -39,7 +39,12 @@ source: quackquackmed 08.08 Genitourinary infections / STIs
   - Females: cervicitis (discharge, bleeding), dysuria.
   - Males: urethral discharge, dysuria.
 - **Ix:** NAAT using urine (first void) in males, vulvovaginal swab in females — carried out 2 weeks post-exposure.
-- **Mx:** doxycycline 7 days, or azithromycin 3 days; if pregnant — azithromycin, erythromycin, or amoxicillin.
+> [!danger] **Correction — this file carried a regimen that had already been corrected in another file and never propagated here.** [[17_08_Vaginal_Discharge__Urinary_Incontinence__Pelvic_Organ_Prolapse]] Chlamydia trachomatis was corrected in an earlier round against the WA Health *Quick guide to STI and BBV management*, and the same wrong regimen ("azithromycin 3 days") was left standing here — in the file that is the corpus's primary STI reference. Re-verified against **STI Guidelines Australia** (the Australian STI management guidelines for primary care), Aug 2026.
+> - **First-line: doxycycline 100mg PO BD for 7 days.** Doxycycline is now explicitly preferred over azithromycin in Australia, on evidence of superior efficacy — particularly at **non-genital sites** (anorectal and pharyngeal), which matters because those sites are frequently untested and doxycycline covers them.
+> - **Alternative: azithromycin 1g PO as a single dose** — *not* a 3-day course. Reserve it for isolated genital infection where other sites have tested negative, or where adherence to a 7-day course is a genuine concern (which is the one real advantage single-dose therapy has).
+> - **In pregnancy: azithromycin 1g single dose**, since doxycycline is contraindicated.
+
+- **Mx:** **doxycycline 100mg PO BD for 7 days** (first-line); **azithromycin 1g PO single dose** as the alternative; in pregnancy — **azithromycin 1g single dose**.
 
 > [!info] Verified against STI Guidelines Australia (sti.guidelines.org.au), Aug 2026 — the Australian partner notification (contact tracing) window for chlamydia is genuinely different from the UK figures below.
 > - **Advise no sex with partners from the last 6 months** until those partners have been tested and treated if necessary — a materially longer lookback window than the UK's shorter figures below, applying regardless of the patient's symptom status (not a separate symptomatic-male vs asymptomatic distinction the way the UK approach below is structured).
@@ -75,7 +80,13 @@ source: quackquackmed 08.08 Genitourinary infections / STIs
   - Female: cervicitis, vaginal discharge.
   - Rectal and pharyngeal infection: usually asymptomatic.
 - **Ix:** swabs (NAAT and culture).
-- **Mx:** IM ceftriaxone 1g, or PO cefixime 400mg + azithromycin 2g.
+> [!danger] **Correction — the same un-propagated correction as for chlamydia above, and this one was a double dose.** [[17_08_Vaginal_Discharge__Urinary_Incontinence__Pelvic_Organ_Prolapse]] Gonorrhoea already carried this correction; this file did not. Re-verified against **STI Guidelines Australia** and the ASHM/CDNA gonococcal treatment recommendations, Aug 2026.
+> - **The structural point first: Australian first-line is dual therapy given together, not a choice between single agents.** The previous "IM ceftriaxone 1g, **or** PO cefixime + azithromycin" got both the dose and the structure wrong.
+> - **Ceftriaxone 500mg IM** (suspended in 2mL of 1% lignocaine — the injection is painful without it) **plus azithromycin 1g PO**, as one treatment, for uncomplicated anogenital infection. The former "1g" was **double** the Australian dose.
+> - **Pharyngeal infection: the azithromycin dose increases to 2g**, ceftriaxone unchanged at 500mg. *Mechanism:* drug penetration to pharyngeal mucosa is poorer, which makes the pharynx the most likely site of treatment failure and the most likely place resistance emerges.
+> - **Cefixime is not Australian first-line** and cefixime-resistant *N. gonorrhoeae* is documented in Australia. The reason dual therapy exists at all is to raise a pharmacological barrier to resistance, so substituting a single agent defeats its purpose.
+
+- **Mx:** **ceftriaxone 500mg IM (in 1% lignocaine) plus azithromycin 1g PO, given together** — uncomplicated genital or anorectal infection. **Pharyngeal:** same ceftriaxone dose, azithromycin increased to **2g**.
 - **Complications:** urethral strictures, epididymitis, salpingitis → infertility. Disseminated gonococcal infection — tenosynovitis, migratory polyarthritis, dermatitis (maculopapular/vesicular).
 
 *(see also [[08_05-06_Infectious_Disease_-_Viral_Infections]] Herpes simplex virus (HSV))*
