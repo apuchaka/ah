@@ -159,7 +159,7 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
 **Mx – Definitive/chronic (routine hypertension, not a crisis):**
 Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-year cardiovascular risk ≥10%).
 
-> [!info] Verified against AMH/Heart Foundation, Aug 2026 — Australian approach differs from the UK NICE stepwise regimen above; do not use race-based stratification (not part of Australian guidance).
+> [!info] Verified against AMH/Heart Foundation, Aug 2026 — Australian approach differs from the UK NICE stepwise regimen (which this file no longer carries); do not use race-based stratification (not part of Australian guidance).
 > Australian treatment decisions are driven by **absolute cardiovascular disease risk** (the 2023 Australian Guideline for assessing and managing CVD risk, using the AusCVD Risk Calculator — a recalibrated NZ PREDICT-based equation), rather than blood pressure alone or the UK's age/ethnicity-stratified drug-class algorithm.
 > - Lifestyle modification for all patients.
 > - Drug therapy: recent PBS restriction changes now support starting most patients on a **dual single-pill combination** (a RAS blocker [ACEI or ARB] + either a CCB or a thiazide-like diuretic) as initial therapy, rather than the older stepwise monotherapy-first approach — this reflects a broader shift also seen in ESH/international guidelines.

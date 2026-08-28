@@ -3,7 +3,7 @@ block: Paediatrics
 source: quackquackmed 15.24 Screening schedule, Sudden infant death syndrome, Vaccination schedule
 ---
 
-> [!info] Localised for Australia — verified against the Australian Government National Immunisation Program (NIP) Schedule, Aug 2026. The Australian schedule differs structurally from the UK NHS schedule below, not just in vaccine naming — the timing points themselves differ (Australia: birth/2mo/4mo/6mo/12mo/18mo/4yr/12–13yr, vs the UK's 8wk/12wk/16wk/1yr/40mo/11yr/13yr pattern), and Australia does **not** include a routine MenB dose in the standard national schedule (nationally funded only for Aboriginal and Torres Strait Islander children with specified medical risk conditions — some states/territories fund it more broadly for all infants, so check the current local program).
+> [!info] Localised for Australia — verified against the Australian Government National Immunisation Program (NIP) Schedule, Aug 2026. The Australian schedule differs structurally from the UK NHS schedule this file was originally written against, not just in vaccine naming — the timing points themselves differ (Australia: birth/2mo/4mo/6mo/12mo/18mo/4yr/12–13yr, vs the UK's 8wk/12wk/16wk/1yr/40mo/11yr/13yr pattern), and Australia does **not** include a routine MenB dose in the standard national schedule (nationally funded only for Aboriginal and Torres Strait Islander children with specified medical risk conditions — some states/territories fund it more broadly for all infants, so check the current local program).
 
 ## Screening schedule
 

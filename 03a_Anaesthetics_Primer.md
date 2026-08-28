@@ -37,7 +37,7 @@ source: quackquackmed 03a Primer on Anaesthetics
 
 ### Pre-op instructions
 
-> [!info] Verified against ANZCA guidance (PG07 Fasting Guideline 2024; ANZCA Library perioperative anticoagulant/antiplatelet resources citing the 2022 CHEST guideline update), Aug 2026 — Australian practice differs from the UK figures below in several specifics, most importantly around anticoagulant bridging and fasting duration for clear fluids.
+> [!info] Verified against ANZCA guidance (PG07 Fasting Guideline 2024; ANZCA Library perioperative anticoagulant/antiplatelet resources citing the 2022 CHEST guideline update), Aug 2026 — Australian practice differs from the UK figures this entry previously carried in several specifics, most importantly around anticoagulant bridging and fasting duration for clear fluids.
 > **Medications to stop (unless otherwise directed by surgeon/anaesthetist):**
 > - **DOACs:** current evidence-based practice is a short, bleeding-risk-stratified interruption — roughly 24h before surgery for low-bleeding-risk procedures, 48h for high-bleeding-risk procedures (longer, e.g. up to 72h, before neuraxial anaesthesia specifically) — **not** routine bridging with enoxaparin. DOAC bridging is now considered outdated for most patients; bridging is reserved for specific high-thromboembolic-risk warfarin patients (see below), not applied by default to DOACs the way the source note implies. Always seek clear instruction from the treating surgeon/anaesthetist for the specific patient.
 > - **Warfarin:** stopped 3–5 days before surgery; bridging with LMWH considered only for patients at genuinely high thromboembolic risk (e.g. mechanical mitral valve, recent VTE, certain thrombophilias) — not a routine default for every anticoagulated patient.
