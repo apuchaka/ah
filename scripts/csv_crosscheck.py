@@ -395,6 +395,37 @@ def expand_topic(topic):
 HEADER_RE = re.compile(r"^(#{2,6})\s+(.+?)\s*$", re.MULTILINE)
 
 
+def _better(hits, label, best_hits, best_label):
+    """Is `hits` stronger evidence than `best_hits`?
+
+    Ranked by number of FILES matched, then total occurrences, then the length
+    of the matching variant.
+
+    Ordering variants longest-first and taking the first that matched anywhere
+    was wrong, and wrong in the most dangerous direction: it reported a
+    confident-looking file list pointing at the wrong files.
+      * "Vestibular schwannoma" generates the plural "vestibular schwannomas",
+        which is longer, so the plural won -- matching two incidental mentions in
+        04_Neurology and History-Taking while missing the dedicated header
+        "## Vestibular schwannoma (acoustic neuroma)" in 13_03.
+      * "Acute Labrynthitis" (a checklist typo) keeps the qualifier "Acute" in
+        its longest variant, so the fuzzy tier required "acute" near
+        "labyrinthitis" and matched only 04_Neurology -- missing the dedicated
+        "## (Viral) labyrinthitis" entry in 13_03.
+    Preferring the broadest match instead makes the reported file list
+    trustworthy, which matters more than picking the most specific variant: a
+    plausible wrong answer is more dangerous than a MISSING flag, because a
+    MISSING flag gets hand-verified and a confident wrong one does not.
+    """
+    if not hits:
+        return False
+    if not best_hits:
+        return True
+    a = (len(hits), sum(hits.values()), len(label or ""))
+    b = (len(best_hits), sum(best_hits.values()), len(best_label or ""))
+    return a > b
+
+
 class Corpus(object):
     """The content files, pre-canonicalised in two forms.
 
@@ -487,15 +518,16 @@ class Corpus(object):
                 continue
             seen.add(cv)
             ordered.append((v, cv))
+        best_hits, best_v = {}, None
         for v, cv in ordered:
             hits = {}
             for f in self.files:
                 n = f["tight"].count(cv)
                 if n:
                     hits[f["name"]] = n
-            if hits:
-                return hits, v
-        return {}, None
+            if _better(hits, v, best_hits, best_v):
+                best_hits, best_v = hits, v
+        return best_hits, best_v
 
     def _acronyms(self, variants):
         """Short ALL-CAPS tokens (GCS, AVPU) matched case-sensitively on raw text,
@@ -526,21 +558,23 @@ class Corpus(object):
                                 "Benign Paroxysmal Positional Vertigo"
         Reported separately from a contiguous match so it can be audited.
         """
-        best_words, hits = None, {}
+        best_hits, best_label = {}, None
+        seen = set()
         for v in sorted(variants, key=len, reverse=True):
-            words = self._significant(v)
-            if len(words) < 2:
+            words = tuple(self._significant(v))
+            if len(words) < 2 or words in seen:
                 continue
+            seen.add(words)
+            hits = {}
             for f in self.files:
                 lists = [self._positions(f["spaced"], w) for w in words]
                 span = self._min_window(lists)
                 if span is not None and span <= window:
-                    hits[f["name"]] = hits.get(f["name"], 0) + 1
-                    if best_words is None:
-                        best_words = words
-            if hits:
-                break
-        return hits, (" + ".join(best_words) if best_words else None)
+                    hits[f["name"]] = 1
+            label = " + ".join(words)
+            if _better(hits, label, best_hits, best_label):
+                best_hits, best_label = hits, label
+        return best_hits, best_label
 
     def _fuzzy(self, variants):
         """Single-word near-miss recovery, for CSV typos.
@@ -549,6 +583,7 @@ class Corpus(object):
         itself. Without this tier the row reads as a genuine gap forever.
         """
         import difflib
+        best_hits, best_label = {}, None
         for v in sorted(variants, key=len, reverse=True):
             words = self._significant(v)
             if not words:
@@ -568,9 +603,10 @@ class Corpus(object):
                 span = self._min_window(lists)
                 if span is not None and span <= 90:
                     hits[f["name"]] = hits.get(f["name"], 0) + 1
-            if hits:
-                return hits, "%s ~= %s (probable checklist typo)" % (longest, near[0])
-        return {}, None
+            label = "%s ~= %s (probable checklist typo)" % (longest, near[0])
+            if _better(hits, label, best_hits, best_label):
+                best_hits, best_label = hits, label
+        return best_hits, best_label
 
     def _headers_for(self, variants, hits):
         headers = []
