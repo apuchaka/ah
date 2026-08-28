@@ -283,6 +283,61 @@ An intern's list is almost always longer than the shift. The workable ordering:
 
 ---
 
+## Talking to Angry Patients and Relatives, and Managing Complaints
+
+> [!note] Gap-filled from CSV — **two rows**, "Talking to angry patients or relatives" and "Managing complaints (e.g. cancelled surgery)," both Medium yield. Genuinely absent: corpus-wide search returned no relevant hits (every "de-escalate" match was antibiotic de-escalation, every "complaint" match was *presenting* complaint). Built together because the same consultation usually contains both — an angry person is very often making a complaint, and handling the emotion badly is what converts a grievance into a formal one. Verified against RACGP guidance on preventing and managing patient aggression and violence in general practice, Aug 2026.
+
+> [!danger] **Safety comes before communication, and this ordering is not negotiable.** Before de-escalation is a question, assess whether you are safe: your position relative to the door, whether you have an exit, whether anyone knows where you are, whether the person is intoxicated or carrying anything. **Leave and get help rather than continue a conversation that has stopped being safe** — de-escalation is a skill, not an obligation to remain in the room. Know your service's emergency response call (commonly a "code black" for personal threat) and use it early rather than as a last resort.
+
+**Station framework:** anger is nearly always a *presenting symptom* of something else — fear, grief, loss of control, exhaustion, or a genuine failure of care. **Treat it as information about an unmet need rather than as an attack to be defended against**, and the conversation becomes tractable.
+
+**Opening approach:**
+- **Sit down** if it is safe to do so; standing over someone escalates.
+- **Let them speak without interrupting**, even if what they are saying is factually wrong. Interrupting to correct a detail is the single most reliable way to escalate, because it tells the person they are not being heard — which is usually what they were already angry about.
+- **Acknowledge the emotion explicitly and early:** *"I can see you're really angry, and I want to understand why."*
+
+**Key content/checkpoints to cover (checklist):**
+- [ ] Assess safety first; position yourself with an exit
+- [ ] Listen fully before responding; do not correct facts mid-flow
+- [ ] Name and validate the emotion — validation is not agreement
+- [ ] **Find the part you can genuinely agree with**, and say so — there almost always is one, and it changes the dynamic from adversarial to shared
+- [ ] Apologise for what is genuinely apologisable (the wait, the confusion, the poor communication) **without accepting blame for what is not yours or not yet established** — the same distinction as in Explaining a Medical Error — Open Disclosure above
+- [ ] Establish what they actually want — an explanation, an apology, a change to the plan, or escalation. **Ask directly:** *"What would help most right now?"*
+- [ ] Be honest about what you can and cannot do; do not over-promise to end the conversation
+- [ ] Offer the formal complaints pathway **as a right, not a threat or a dismissal**
+- [ ] Document the interaction factually
+- [ ] Debrief afterwards — with a senior colleague, and for yourself
+
+**Useful phrases/scripts:**
+- Validating: *"If that had happened to my family, I'd be angry too."*
+- Agreeing with the agreeable part: *"You're right that four hours is too long to wait without an update. I'm sorry that happened."*
+- Redirecting to the need: *"What would help most right now?"*
+- Setting a boundary without escalating: *"I want to keep helping you, and I can't do that if you're shouting at me. Let's take a minute."*
+- Not over-promising: *"I don't know yet, and I'd rather find out than guess."*
+
+### When it is a complaint
+
+- **A complaint is feedback, and treating it as an attack is what makes it a formal one.** Most people complaining want acknowledgement and an explanation, not compensation.
+- **Do not become defensive on behalf of a colleague or the system**, and do not speculate about what someone else did or why — the same rule as open disclosure above.
+- **Escalate early to a senior clinician or the patient liaison / consumer feedback service.** An intern is not the right person to resolve a substantive complaint, and saying so is not a failure.
+- **Tell them the formal pathway exists** — every Australian health service has a complaints or consumer-feedback process, and each state has an independent health complaints commissioner. Offering it signals confidence rather than obstruction.
+- **Document contemporaneously and factually**, in the person's own words where possible, distinguishing fact from your interpretation.
+- **Notify your medical defence organisation early** where a complaint concerns your own care — earlier than feels necessary, not after it escalates.
+
+**Closing:** summarise what was agreed and what happens next, give a named contact, offer a further conversation, and document.
+
+**Common pitfalls / what OSCE mark schemes typically penalise:**
+- Defending, explaining, or correcting before listening
+- Matching the person's tone, or becoming cold and clipped
+- Apologising in a way that concedes fault for something unestablished, **or** refusing to apologise for anything at all — both are failures
+- Offering the complaints process as a way of ending the conversation
+- Failing to establish what the person actually wants
+- Not escalating, and not debriefing afterwards
+
+> [!info] **The part interns most often skip: your own debrief.** Being shouted at is distressing, and the effect on the next patient you see is real. This is a normal part of the work rather than evidence you handled it badly, and services have employee assistance programs and senior colleagues for exactly this.
+
+---
+
 ## Explaining a Medical Error — Open Disclosure
 
 > [!note] Gap-filled from CSV ("Explaining a medical error (e.g. incorrect medication)," Medium yield). Genuinely absent: corpus-wide search returned **zero hits** for open disclosure, adverse event, or apology in this sense — despite open disclosure being a national standard obligation and one of the harder OSCE stations. Verified against the **Australian Open Disclosure Framework** (Australian Commission on Safety and Quality in Health Care, 2026 edition) and Avant's guidance for Australian clinicians on responding when things go wrong, Aug 2026.
