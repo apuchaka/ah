@@ -83,6 +83,32 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 
 ---
 
+## Interpreting Treatment Effects — Absolute vs Relative Risk, and NNT
+
+> [!note] Gap-filled from CSV ("Absolute vs relative risk reduction, NNT," High yield, Public Health/Epidemiology category). Genuinely absent: corpus-wide search returned **zero hits** for NNT, number needed to treat, absolute risk reduction, or confidence interval — despite the project quoting relative risk figures in several entries (HRT's breast cancer risk, endometrial cancer RR) where the absolute/relative distinction is exactly what a patient will ask about. Verified against Australian Prescriber's *Evidence, risk and the patient* and the NHMRC levels of evidence framework, Aug 2026.
+
+**The three numbers, using one worked example throughout.** Suppose an event occurs in **0.2%** of a control group and **0.1%** of a treated group:
+
+- **Absolute risk reduction (ARR)** = control rate − treated rate = **0.1 percentage points**.
+- **Relative risk reduction (RRR)** = ARR ÷ control rate = **50%**.
+- **Number needed to treat (NNT)** = 1 ÷ ARR = 1 ÷ 0.001 = **1,000** patients treated to prevent one event.
+
+> [!danger] **Those three numbers describe the same result, and they do not feel the same.** "Halves your risk" and "one in a thousand benefit" are both true here. **Relative figures are larger and more persuasive precisely because they conceal the baseline**, which is why they dominate drug advertising, media reporting and abstracts — and why an intern quoting an RRR to a patient without the ARR is misleading them while saying something technically correct.
+>
+> The rule that follows: **whenever you are given a relative figure, ask what the baseline risk is.** A 50% reduction in a common event is transformative; the same 50% in a rare one may be worth almost nothing to that individual, while carrying the same side effects and the same cost.
+
+**NNT in practice:**
+- **Lower is better.** An NNT of 10 means treating 10 people to prevent one event; an NNT of 1,000 means treating 1,000.
+- **NNT is meaningless without its time frame and its outcome.** "NNT 20" is uninterpretable; "NNT 20 over 5 years to prevent one non-fatal MI" can be discussed with a patient. Always ask *over what period* and *to prevent what*.
+- **Its counterpart is NNH — number needed to harm.** The decision is the comparison of the two, not the NNT alone: an NNT of 50 against an NNH of 500 is a very different proposition from an NNT of 50 against an NNH of 60.
+- **NNT is not transferable between populations** with different baseline risks. The same treatment has a much lower NNT in a high-risk patient, which is the arithmetic behind **absolute cardiovascular risk assessment** — treating on calculated absolute risk rather than on individual risk factors is a way of directing treatment to the people with the lowest NNT (see [[01_Cardiovascular]] 0.39 Dyslipidaemia and [[19_General_Practice_and_Preventive_Medicine]] Preventive Medicine and Screening in Australian General Practice).
+
+> [!info] **Why this matters for the time-to-benefit reasoning already used elsewhere in this project.** The deprescribing entry says a preventive medicine whose benefit accrues over 5–10 years offers little to a patient whose life expectancy is shorter (see [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing). NNT is the formal version of that argument: the NNT is quoted *over a period*, and if the patient will not live through that period, the benefit does not accrue while the harms are immediate. The two entries are the same reasoning at different levels of formality.
+
+**Confidence intervals, briefly:** a result is reported with a range of values consistent with the data. Two intern-level uses — **a 95% CI for a risk ratio that crosses 1 means no statistically significant difference was demonstrated**, and **a wide CI signals an imprecise estimate**, usually from a small study, even when the point estimate looks impressive.
+
+---
+
 ## Evidence-based medicine — a brief note
 
 > [!note] The "EBM" component of this file's scope is a smaller addition, given the core evidence-based-medicine hierarchy and critical appraisal skills are more naturally taught through worked examples across specific clinical questions than as a standalone abstract framework — flagged here as a topic this file's title covers, without a full treatment, should dedicated EBM content be added in a future pass.
