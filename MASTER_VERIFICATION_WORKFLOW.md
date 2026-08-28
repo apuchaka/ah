@@ -50,7 +50,7 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 |---|---|---|
 | N1 | Geriatrics/Older Persons Health build | ✅ 2026-08-28 — audited all 11 CSV rows, then built 8 topics. See note below. |
 | N6 | GP/Preventive Med/Ethics/Communication build | 🔶 2026-08-28 — all 29 rows audited; 6 topics built. 16 rows remain, allocated but unbuilt — see note below. |
-| N3 | Injury/Poisoning/Envenomation/Environmental build | 🔶 2026-08-28 — audited. Mostly already covered; 2 genuine gaps flagged, not built. |
+| N3 | Injury/Poisoning/Envenomation/Environmental build | ✅ 2026-08-28 — audited; both confirmed gaps (Burns and scalds, Major trauma primary survey) built in `11_09b`, with Steps 5/6/10/18 applied in the same round. |
 | N2 | Public Health/Epidemiology build | 🔶 2026-08-28 — audited; 2 High-yield topics built. 4 rows remain. |
 | N4 | Australian Context of Health build | ✅ 2026-08-28 — audited. **Judgment: 2 of 4 rows need no build** (distributed content is correct architecture); 2 remain, both Low yield. |
 | N5 | Clinical-Process-EBM-Consent-Capacity.md confirmation pass | 🔶 2026-08-28 — capacity confirmed excellent; clinical formulation confirmed absent, not built. |
@@ -129,6 +129,15 @@ Deliberately left rather than thinned. Each is allocated to its destination file
 | **N4** (4 rows) | **See judgment below.** |
 | **N5** (2 rows) | Capacity ✅ confirmed excellent (four-part test, SA legislation, SDM, OPA/SACAT). **Clinical formulation / structured clinical reasoning: genuinely absent**, one incidental hit corpus-wide. |
 
+### N3 built (2026-08-28)
+
+Both confirmed gaps built in `11_09b_Ortho_-_Trauma`, which despite its "Ortho" filename is this project's de facto general trauma file (it already held thoracic, genitourinary, splenic, liver, head and ocular trauma, none orthopaedic). Placement rejected `09_01_Dermatology_-_Dermatological_Emergencies` for burns on the grounds that it covers dermatological *disease* presenting as an emergency, not injury.
+
+- **Burns and Scalds** — ANZCOR 9.1.3, ANZBA referral criteria. Two CSV rows, flagged absent early in the project and confirmed missing twice.
+- **Major Trauma — Primary Survey** — built as a *differential* entry: the generic ABCDE is already complete in `Examination.md` and is explicitly not repeated, so this covers only what trauma changes. **Verified absent before building**, following the Shock lesson.
+
+**Steps 5/6/10/18 applied in the same round**, not deferred. Step 5 found one gap (escharotomy named, not explained). Step 10 found a large sourced disparity in burns — rates 2–3× higher in Aboriginal and Torres Strait Islander children, and **only 34 of 208 caregivers received gold-standard first aid at the scene**, which makes the 3-hour cooling window clinically critical rather than trivia. For trauma, remoteness was stated as a *mechanism* with **no mortality figure asserted**, because none was sourced.
+
 ### N4 — judgment call, not a build
 
 **Two of four rows should not be built, and building them would actively harm the corpus.**
@@ -144,8 +153,6 @@ Deliberately left rather than thinned. Each is allocated to its destination file
 
 | Row | Yield | Goes in | Why not built |
 |---|---|---|---|
-| Burns and scalds (2 rows) | Low | `09_01_Dermatology_-_Dermatological_Emergencies` or a trauma file | Genuine gap; Low yield, deprioritised below the High-yield N2 rows |
-| Major trauma — primary survey | Medium | `11_09b_Ortho_-_Trauma` | Genuine gap |
 | Study design types & bias | Medium | `Clinical-Process-EBM-Consent-Capacity` | Sits beside the two entries built this round |
 | p-values & significance | Medium | `Clinical-Process-EBM-Consent-Capacity` | Same |
 | Screening programme principles | Medium | `19_` (partly present) | Partly covered by the preventive medicine entry |
