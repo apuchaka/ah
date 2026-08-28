@@ -61,7 +61,7 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 > **Phase 2: 3 of 7 items complete** (N1, N3, N4), **3 in progress** (N6, N2, N5), **1 never started** (N7).
 > **Phases 3 and 4: not started** — all 10 mega files, 10 large files and 39 medium/small groups remain ⬜.
 >
-> **→ NEXT ITEM: N6 (continuing)** — **11 of 29 rows** now unbuilt, down from 16. The two rows previously flagged as highest value (open disclosure, mandatory reporting) are **built**. Remaining highest-value: **professional boundaries with a patient**, and **assessment and basic management of pain** (partial — palliative opioids exist, no general assessment or analgesic ladder). All remaining rows stay allocated in the N6 remainder table below.
+> **→ NEXT ITEM: N6 (continuing)** — **8 of 29 rows** unbuilt, down from 11. All four rows previously flagged highest-value are now built (open disclosure, mandatory reporting, professional boundaries, pain). Remaining are the lower-yield GP-discipline rows: **referral to specialities · families in crisis · hospital avoidance · initial GP diagnostic strategy · medication selection**. Two rows need no build (counselling stations — `Communication.md` *is* this; health promotion — folds into the SNAP and preventive entries). **All five remaining buildable rows were re-verified absent this round using the teach-vs-mention check.**
 >
 > After N6: **N2** (4 rows — study design & bias, p-values, screening principles, plus clinical formulation which sits with N5), then **N5**, then **N7**.
 >
@@ -120,20 +120,35 @@ Five CSV rows closed across four commits, prioritising the two named as highest 
 
 **Two findings worth carrying forward.** *Mandatory reporting* was recorded as "partial" because four condition-specific instances existed — but **zero corpus-wide hits for Ahpra or notifiable conduct** meant the duty to report an unsafe **colleague** was absent entirely; "partial" understated it. And *documentation* was **instructed in about a dozen entries** across the project with no entry saying what good documentation consists of — the instruction was everywhere, the content nowhere.
 
+### N6 round 3 built (2026-08-28)
+
+Three rows closed. **Steps 5, 6, 10 and 18 applied during each build rather than deferred** — three prior rounds ended with the same "new content needs a verification pass" caveat, so the pass is now part of the build.
+
+| Topic | Built in | Step 10 outcome |
+|---|---|---|
+| Assessment and Basic Management of Pain | `03a_Anaesthetics_Primer` | **Built** — sourced disparity, incl. the clinician-side "more stoic" belief |
+| Professional Boundaries, and the Inappropriate Patient | `Communication.md` | **Declined** — no sourced disparity; general cultural-safety principle only, labelled as such |
+| Explaining a Safeguarding Referral | `Communication.md` | **Declined** — relevant equity content already sits in the entries this one cross-references |
+
+> [!warning] **The conflation pattern, now confirmed five times.** The root is the same each time: *the corpus can reference something enough to look covered while never containing it.* SNAP was mentioned as a risk factor · sensitivity/specificity was applied to eight tests but never defined · documentation was instructed across a dozen entries but never specified · **"chaperone" appears 8× in `Examination.md`, every instance a procedural line inside an examination sequence, with professional boundaries never taught** · **"raise a safeguarding concern" is instructed in four entries with the conversation never taught anywhere.**
+>
+> **The check that works is not "does this term appear" but "does an entry actually teach this."** Apply it to every remaining row, and to any row this document records as covered.
+
+**Placement override, recorded.** Pain was allocated to `19_` by the remainder table. `19_`'s declared scope is general practice as a discipline and preventive care as a system; pain assessment is neither, and placing it there would repeat the container error corrected earlier in N6. Built in `03a` instead — ANZCA is the Australian college for acute pain medicine, the file is already ANZCA-localised, and it holds regional anaesthesia and postoperative care. **The remainder table's allocations are a starting point, not binding.**
+
+**Terminology finding, not yet propagated:** the Medical Board's revised guidelines use **"observer"** rather than "chaperone". `Examination.md` uses the older term 8 times. Not changed — the claim is snippet-sourced and "chaperone" is superseded rather than wrong. Flagged in the tracker.
+
 ### N6 remainder — allocated but not yet built
 
 Deliberately left rather than thinned. Each is allocated to its destination file by the placement rule above, so the next round does not have to re-decide.
 
 | Row | Yield | Goes in | Class |
 |---|---|---|---|
-| Dealing with an inappropriate patient (boundaries) | Medium | `Communication.md` | absent |
-| Safeguarding — explaining a referral | Medium | `Communication.md` | partial (pathways exist; the conversation does not) |
 | The family, families in crisis, family dysfunction | Medium | `Communication.md` | absent |
 | Discussion/referral to specialities | Medium | `Communication.md` | absent |
 | Hospital avoidance | Medium | `19_…` | absent |
 | Initial diagnostic strategy for common GP presentations | Medium | `19_…` (or `History-Taking` — decide on build) | absent |
 | Key factors in selecting the most appropriate medication | Medium | `19_…` | absent |
-| Assessment and basic management of pain | Medium | `19_…` | partial (palliative opioids exist; no general assessment or analgesic ladder) |
 | Health promotion and patient education | Medium | folds into SNAP/preventive entries | partial |
 | Counselling stations | Medium | — | `Communication.md` *is* this; no build needed |
 | Initial GP investigation strategy overlap | Medium | — | see above |
