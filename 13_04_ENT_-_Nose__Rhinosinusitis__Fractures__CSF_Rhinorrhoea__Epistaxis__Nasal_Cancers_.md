@@ -51,6 +51,27 @@ source: quackquackmed 13.04 Nose - Rhinosinusitis, Nasal fractures, CSF rhinorrh
 - **Types:** SCC (50%), lymphoma (10%), adenocarcinoma, etc.
 - **Mx:** radiotherapy ± radical surgery.
 
+## Allergic Rhinitis (Hay Fever)
+
+> [!note] Gap-filled from CSV ("Allergic Rhinitis (Hayfever)," High yield, Immunology/Allergy/ID category) — genuinely absent as its own entry across the whole project. It appeared only as a listed predisposing factor under Acute rhinosinusitis above, and as one bullet in the atopic-march sequence in [[15_04b_Paeds_-_Asthma_in_Children]] The Atopic Child (Atopic March / Atopic Multimorbidity) — neither of which gives an intern anything to *do*. Verified against the ASCIA Clinical Update: Allergic Rhinitis (2024), Aug 2026.
+
+- **D:** IgE-mediated inflammation of the nasal mucosa on exposure to an inhaled allergen. Distinguished from rhinosinusitis above by the absence of facial pain/pressure and purulent discharge, and by the presence of *itch* — the single most useful discriminating symptom.
+- **Classification (ASCIA/ARIA — it drives treatment choice, so it is worth actually applying):**
+  - **By duration:** *intermittent* = <4 days/week **or** <4 consecutive weeks; *persistent* = ≥4 days/week **and** ≥4 consecutive weeks.
+  - **By severity:** *mild* = normal sleep, no impairment of daily activities, normal work/school performance; *moderate-severe* = any one of these disturbed.
+- **A:** aeroallergens — house dust mite (the dominant perennial allergen in most of Australia), grass/tree/weed pollens (seasonal), animal dander, mould spores.
+- **S/Smx:** sneezing, nasal itch (often with itchy palate, eyes and ears), watery rhinorrhoea, nasal congestion, post-nasal drip. **Signs worth looking for on examination:** pale, boggy, blue-grey inferior turbinates (unlike the erythematous mucosa of infective rhinitis); "allergic shiners" (infraorbital venous congestion); and a transverse nasal crease from the repeated upward wipe of the "allergic salute", which is a genuinely useful sign in children because it indicates chronicity rather than a single acute episode.
+- **Ix:** a clinical diagnosis — no test is needed to start treatment. Skin prick testing or allergen-specific IgE (*why:* identifies the specific trigger, and is only worth doing when the result would change management — i.e. when targeted avoidance is feasible, or when allergen immunotherapy is being considered; *what:* sensitisation to the relevant aeroallergen). **A positive test alone is sensitisation, not disease** — it must correlate with the clinical history, or it will simply generate unnecessary avoidance advice.
+- **Mx:**
+  - **Allergen avoidance** where practical, though for house dust mite specifically the achievable reduction is modest and avoidance alone rarely controls symptoms — say so rather than making it the whole plan.
+  - **Intranasal corticosteroid (INCS) is first-line for persistent or moderate-severe disease** (e.g. mometasone, fluticasone). Two points an intern gets wrong: it must be used **regularly, not as needed** — it works like an asthma preventer and takes several days to reach full effect — and **spray technique matters**: aim away from the septum, do not sniff hard, or the drug lands in the pharynx instead of the mucosa. INCS are safe and effective for long-term use at recommended doses, with minimal systemic absorption and no mucosal atrophy.
+  - **Combined intranasal corticosteroid/antihistamine sprays** are also a first-line option and give the benefits of both, with faster symptom onset than INCS alone.
+  - **Oral non-sedating antihistamines** (cetirizine, loratadine, fexofenadine) for mild or intermittent disease, or as an add-on. **Avoid first-generation sedating antihistamines** — impaired next-day performance and, in children, paradoxical effects; there is no efficacy advantage to offset this.
+  - **Saline nasal irrigation** is a genuinely useful adjunct and is safe in pregnancy and children.
+  - **Refer to a clinical immunology/allergy specialist for allergen immunotherapy** when symptoms are severe or inadequately controlled on optimised topical therapy — immunotherapy reduces both frequency and severity of symptoms and is the only treatment that modifies the underlying disease rather than suppressing symptoms.
+- **Why this matters beyond the nose — "united airway disease":** allergic rhinitis and asthma are upper and lower respiratory manifestations of the *same* inflammatory process, and inhaled aeroallergen entering via the nose contributes to lower airway inflammation. Two practical consequences: treating allergic rhinitis is part of treating asthma (see [[02_Respiratory]] Asthma and [[15_04b_Paeds_-_Asthma_in_Children]] Asthma in children), and a patient presenting with one atopic condition should be asked about the others (see [[09_04_Dermatology_-_Eczema__Psoriasis__Rosacea]] Eczema (atopic dermatitis)).
+- **Complications/associations:** acute and chronic rhinosinusitis (see Rhinosinusitis above), nasal polyps, otitis media with effusion in children (see [[13_01_ENT_-_Otalgia__Otitis_Externa__Otitis_Media__Glue_Ear]] Glue ear (otitis media with effusion / serous otitis media)), and impaired sleep quality with consequent daytime performance effects — the reason the severity classification asks about sleep and school/work at all.
+
 ## Nasal fractures
 
 - **Dx:** new nasal deformity, associated with facial swelling, black eyes.
