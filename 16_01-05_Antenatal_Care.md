@@ -111,7 +111,7 @@ source: quackquackmed 16.01-05 Antenatal Care
 - Discuss screening results, treat anaemia and UTI
 - At each visit: check protein, BP, fundal height
 
-> [!info] NICE visit schedule
+> [!info] NICE visit schedule — **UK schedule, retained for reference only.** Australian antenatal visit scheduling follows RANZCOG and state maternity guidance and differs; **not verified against an Australian source** (see `PENDING_GUIDELINE_CHECKS.md` B32).
 > Visits at <12, 16, 25, 28, 31, 34, 36, 38, 40, 41 weeks (25/31/40/41 only if primip). Verify against Australian shared antenatal care schedules.
 
 - 28w: Hb, Rh antibodies — give anti-D if needed
@@ -420,7 +420,7 @@ DM complicates 5% of pregnancies: 87.5% GDM, 7.5% T1DM, 5% T2DM.
 **Screening (OGTT)**
 - Previous GDM: OGTT ASAP after booking, and at 24–28w
 - Other risk factors: OGTT within 24–28w
-- NICE recommends early self-monitoring of blood glucose
+- NICE recommends early self-monitoring of blood glucose *(UK NICE guidance — **not verified against an Australian source**; see `PENDING_GUIDELINE_CHECKS.md` B32)*
 
 **Dx**: fasting glucose ≥5.6 mmol/L OR 2h-OGTT ≥7.8 mmol/L
 

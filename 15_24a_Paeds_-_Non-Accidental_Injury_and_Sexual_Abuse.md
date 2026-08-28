@@ -9,7 +9,7 @@ source: quackquackmed 15.24 Non-accidental injury, Sexual abuse
 
 - **R:** birth weight <2.5kg, mother <30 years old, unwanted pregnancy, poverty, prematurity, multiple medical conditions, child <2 years old, domestic abuse. Parental factors: substance and alcohol misuse, intellectual disability, history of childhood abuse, mental health problems.
 
-> [!warning] S/Smx suggestive of NAI: child may disclose it themselves; story inconsistent with injuries; repeated attendances at A&E; delayed presentation; child with a frightened, withdrawn appearance ("frozen watchfulness"); bruising; fractures (particularly metaphyseal, posterior rib fractures, or multiple fractures at different stages of healing); torn frenulum (e.g. from forcing a bottle into a child's mouth); burns or scalds; failure to thrive; STIs (e.g. gonorrhoea, trichomonas).
+> [!warning] S/Smx suggestive of NAI: child may disclose it themselves; story inconsistent with injuries; repeated attendances at the Emergency Department; delayed presentation; child with a frightened, withdrawn appearance ("frozen watchfulness"); bruising; fractures (particularly metaphyseal, posterior rib fractures, or multiple fractures at different stages of healing); torn frenulum (e.g. from forcing a bottle into a child's mouth); burns or scalds; failure to thrive; STIs (e.g. gonorrhoea, trichomonas).
 
 ### Investigation of suspected physical abuse
 

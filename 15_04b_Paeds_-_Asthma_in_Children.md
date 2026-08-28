@@ -48,7 +48,7 @@ source: quackquackmed 15.04 Asthma in children
 
 ### Management of mild to moderate attacks
 
-- Bronchodilator therapy — SABA via spacer, 1 puff q30–60s, max 10 puffs. If symptoms not controlled, go to A&E.
+- Bronchodilator therapy — SABA via spacer, 1 puff q30–60s, max 10 puffs. If symptoms not controlled, go to the Emergency Department.
 - Steroid therapy for 3–5 days — dose 1–2mg/kg OD.
 
 ### Management of severe to life-threatening attacks

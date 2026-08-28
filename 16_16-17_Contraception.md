@@ -43,7 +43,7 @@ source: quackquackmed 16.16-17 Contraception
 **Special situations**
 - Vomiting within 2h of taking COCP: repeat dose
 - Antibiotic use: generally OK together; caution only with enzyme-inducing antibiotics (e.g. rifampicin)
-- Check BNF/local formulary for drug interactions
+- Check the **AMH (Australian Medicines Handbook)** or local formulary for drug interactions
 
 ### Missed COCP pills
 

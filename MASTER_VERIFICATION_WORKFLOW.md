@@ -67,7 +67,7 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 >
 > **Corpus: 148 content files.** Grew from 146 this session — `18_Geriatrics_and_Older_Persons_Health.md` and `19_General_Practice_and_Preventive_Medicine.md`. `check_structure.sh` `EXPECTED_CONTENT` is set to 148.
 >
-> **Standing caution carried into the next session:** this document's own "confirmed present" claims have now been **proven wrong twice** — SNAP (N6) and sensitivity/specificity (N2), both from the same conflation of *mentioned in passing* with *built as a topic*. Treat every such claim as unverified until re-read.
+> **Standing caution carried into the next session:** this document's own status claims have now been **proven wrong three times** — SNAP (N6), sensitivity/specificity (N2), and the **Step 17 UK-localisation sweep** (see the Step 17 section). The first two shared a cause: conflating *mentioned in passing* with *built as a topic*. The third has a different cause — a sweep recorded as run, with its result under-counted — which is the point: **three instances across two distinct failure modes makes unreliable self-reporting a property of this document, not a set of isolated errors.** Treat every status claim here — "confirmed present", "confirmed absent", "sweep run", "clean" — as unverified until re-read against the corpus.
 
 **N1 result (2026-08-28).** All 11 CSV rows were audited by reading what each search hit actually contained before building anything — three turned out to be adequately covered already and were deliberately **not** duplicated: capacity assessment (`Clinical-Process`), the cognitive screening tools (`Investigation-Interpretation`), and osteoporosis management (`11_08b`, already verified against the 2024 RACGP/Healthy Bones guideline). Eight topics were built, one commit each:
 
@@ -551,6 +551,18 @@ Every UK-ism found in this project so far (NICE, EarCalm, Otosporin, Debendox, s
 grep -in "NICE\b\|NHS\b\|BNF\b\|A&E\b\|GP surgery\|casualty department\|Royal College of\|British Society\|British National Formulary" *.md
 ```
 
+> [!warning] **This document contradicted itself about Step 17, and both versions were wrong.**
+> The paragraph above says a dedicated whole-project pass has **never** been run. The run-estimate section further down says one **has** — "26 files flagged, 5 spot-checked… 1 genuine leftover UK term found and fixed". Both cannot be true, and the second is the one that was materially wrong: a full re-run of the exact term list above across all 148 content files on 2026-08-28 found **7 further genuine leftovers**, not zero — six patient-facing "go to A&E" instructions (`05_Ophthalmology` ×2, `15_02`, `15_04b`, `15_24a`, `16_10-13`) and one "check BNF/local formulary" (`16_16-17` → AMH). All seven sat in files the earlier sweep had itself flagged.
+>
+> **The re-run's full result**, judged hit by hit rather than replaced mechanically:
+> - **A&E — 6 hits, all genuine leftovers.** Fixed.
+> - **BNF — 1 hit, genuine leftover.** Fixed → AMH.
+> - **NHS — 8 hits, all legitimate.** Every one sits inside a verified `[!info]` box drawing a deliberate AU-vs-UK contrast (e.g. no AAA call-recall programme equivalent; no Medicare cap equivalent to the UK's 1–3 NHS cycles). NHS presence is **not** evidence of a miss here, and an earlier report in this session that said it was has been corrected.
+> - **NICE — legitimate wherever an adjacent Australian source adjudicates it** (`01_Cardiovascular`, `02_Respiratory`, `04_Neurology`, `12_01`, `14_01`, `14_02`, `15_09b`, `16_01-05:245–247`). **Four hits have no such adjudication** and were flagged inline rather than deleted or given a fabricated Australian equivalent — see `PENDING_GUIDELINE_CHECKS.md` **B32**.
+> - **`GP surgery`, `casualty department`, `British Society`, `British National Formulary` — zero hits.** "Royal College of" matched only "Royal Australian and New Zealand College of…" — false positives.
+>
+> **The method lesson.** A grep-based sweep is only as complete as the judgement applied to its output, and this one was recorded by the count of terms *fixed* rather than the count of hits *adjudicated* — so files flagged-but-not-opened were absorbed into a "1 leftover" headline. **Record a sweep by what was examined, not by what was changed.** Step 17 is now recorded as: term list re-run across all 148 files, every hit individually judged, 7 fixed, 4 flagged to B32, the rest confirmed deliberate. That is "clean against this term list" — it is not "clean of UK-isms", because the term list itself is a guess at which UK-isms exist.
+
 Every hit needs individual judgement — some are legitimate (a deliberate historical/comparative note explaining what was corrected, like the ARF/DVLA-vs-Austroads examples), most found this way have been genuine leftover errors. This is broad enough to run as its own dedicated full-project pass rather than folding into a per-group round — see the revised run estimates below.
 
 ---
@@ -713,7 +725,7 @@ Every edit must be individually verified (`grep -c "^## "` before/after, checkpo
 
 Sizes and header counts pulled directly from the files. Four tiers: **10 mega** (>85KB), **10 large** (25–85KB), **31 medium** (10–25KB), **95 small** (<10KB). Each row below is ready to paste as-is (using the in-chat shorthand from "How to use this document" above).
 
-**Step 17 (UK-localisation) has now had one whole-project sweep run against it directly** — 26 files flagged, 5 spot-checked. Result: 1 genuine leftover UK term found and fixed ("A&E" → "Emergency Department (ED)" in `11_05_Ortho_-_Knee_and_Ankle.md`), 4 others confirmed as legitimate, already-verified AU-vs-UK comparison notes, not errors. This means Step 17's marginal cost per group is now genuinely lower than a from-scratch check — but **not zero**: 21 of the 26 flagged files haven't been individually confirmed yet, so when a group containing one of those 26 files comes up, still check its specific hit(s) against the flagged list below rather than assuming it's automatically fine.
+**Step 17 (UK-localisation) has now had one whole-project sweep run against it directly** — 26 files flagged, 5 spot-checked. Result: 1 genuine leftover UK term found and fixed ("A&E" → "Emergency Department (ED)" in `11_05_Ortho_-_Knee_and_Ankle.md`), 4 others confirmed as legitimate — already-verified AU-vs-UK comparison notes, not errors. **The "1 leftover" figure was wrong — see the warning box in the Step 17 section; the 2026-08-28 re-run of the same term list found 7 more genuine leftovers, all in this same flagged file set.** This means Step 17's marginal cost per group is now genuinely lower than a from-scratch check — but **not zero**: 21 of the 26 flagged files haven't been individually confirmed yet, so when a group containing one of those 26 files comes up, still check its specific hit(s) against the flagged list below rather than assuming it's automatically fine.
 
 **Steps 18, 19, and 20 (retrospective depth audit, orphaned-reference check, source-currency audit) are entirely undone anywhere in this project** — no partial credit for these the way Step 17 now has. This genuinely raises the honest per-group estimate versus the previous version of this document, since these three add real new work on top of everything already checked, not lighter cleanup.
 

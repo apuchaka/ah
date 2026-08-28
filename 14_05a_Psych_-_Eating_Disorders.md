@@ -39,7 +39,7 @@ source: quackquackmed 14.05 Eating disorders - Anorexia nervosa, Bulimia nervosa
 - **Ix:** as per anorexia — unlikely to see the same derangements, as nutrition is not as poor as in anorexia.
 - **Mx:**
   - Referral to specialist care.
-  - Adults: NICE recommends a self-help guide first; if not effective, offer CBT.
+  - Adults: NICE recommends a self-help guide first; if not effective, offer CBT. *(UK NICE guidance — **not verified against an Australian source**; see `PENDING_GUIDELINE_CHECKS.md` B32)*
   - Children: offer family therapy.
   - High-dose fluoxetine is licensed for bulimia nervosa, but long-term data is lacking.
 

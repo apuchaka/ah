@@ -96,7 +96,7 @@ Delivery of the placenta.
 **Non-pharmacological**
 - Education on labour process
 - Transcutaneous electrical nerve stimulation (TENS)
-- Water birth (NICE-recommended) — water temperature must be <37.5°C to prevent maternal pyrexia
+- Water birth (NICE-recommended; **not verified against an Australian source**; see `PENDING_GUIDELINE_CHECKS.md` B32) — water temperature must be <37.5°C to prevent maternal pyrexia
 
 **Pharmacological**
 
@@ -197,7 +197,7 @@ Delivery of the placenta.
 
 **R**: fetal growth restriction, SGA, placental insufficiency, congenital malformations.
 
-**Initial advice**: ask mother to lie in left lateral position and focus on fetal movements for 2h; if <10 movements in that period, go to maternal A&E ASAP — requires same-day assessment.
+**Initial advice**: ask mother to lie in left lateral position and focus on fetal movements for 2h; if <10 movements in that period, go to the maternity assessment unit (or ED if none locally) ASAP — requires same-day assessment.
 
 | Gestation | Mx |
 |---|---|
