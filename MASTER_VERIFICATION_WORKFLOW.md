@@ -50,10 +50,10 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 |---|---|---|
 | N1 | Geriatrics/Older Persons Health build | ✅ 2026-08-28 — audited all 11 CSV rows, then built 8 topics. See note below. |
 | N6 | GP/Preventive Med/Ethics/Communication build | 🔶 2026-08-28 — all 29 rows audited; 6 topics built. 16 rows remain, allocated but unbuilt — see note below. |
-| N3 | Injury/Poisoning/Envenomation/Environmental build | ⬜ |
-| N2 | Public Health/Epidemiology build | ⬜ |
-| N4 | Australian Context of Health build | ⬜ |
-| N5 | Clinical-Process-EBM-Consent-Capacity.md confirmation pass | ⬜ |
+| N3 | Injury/Poisoning/Envenomation/Environmental build | 🔶 2026-08-28 — audited. Mostly already covered; 2 genuine gaps flagged, not built. |
+| N2 | Public Health/Epidemiology build | 🔶 2026-08-28 — audited; 2 High-yield topics built. 4 rows remain. |
+| N4 | Australian Context of Health build | ✅ 2026-08-28 — audited. **Judgment: 2 of 4 rows need no build** (distributed content is correct architecture); 2 remain, both Low yield. |
+| N5 | Clinical-Process-EBM-Consent-Capacity.md confirmation pass | 🔶 2026-08-28 — capacity confirmed excellent; clinical formulation confirmed absent, not built. |
 
 **N1 result (2026-08-28).** All 11 CSV rows were audited by reading what each search hit actually contained before building anything — three turned out to be adequately covered already and were deliberately **not** duplicated: capacity assessment (`Clinical-Process`), the cognitive screening tools (`Investigation-Interpretation`), and osteoporosis management (`11_08b`, already verified against the 2024 RACGP/Healthy Bones guideline). Eight topics were built, one commit each:
 
@@ -115,6 +115,43 @@ Deliberately left rather than thinned. Each is allocated to its destination file
 | Health promotion and patient education | Medium | folds into SNAP/preventive entries | partial |
 | Counselling stations | Medium | — | `Communication.md` *is* this; no build needed |
 | Initial GP investigation strategy overlap | Medium | — | see above |
+
+---
+
+**N2–N5 audit result (2026-08-28).** All 22 rows read, not matched.
+
+> [!danger] **Second confirmed instance of this document's own record being wrong.** N2's row instructs a future round to "verify Notifiable Diseases and sensitivity/specificity are genuinely already adequate first." Notifiable diseases **is** adequate. **Sensitivity/specificity was not** — the terms appeared 8 times, every one an *application* to a specific test, with the concepts never defined and PPV/NPV absent entirely. This is the same conflation that produced the false "SNAP is covered" claim in N6: **applied in context ≠ built as a topic**. Two confirmed instances now. **Treat every "confirmed present" claim in this document as unverified until re-read.**
+
+| Item | Audit result |
+|---|---|
+| **N3** (10 rows) | **Mostly already covered.** `Shock` — the row flagged as the most likely gap — is a **full standalone entry** (`01_Cardiovascular` 0.20, four subtypes, each with A/S-Smx/Ix/Mx/P). Adult ALS (`01_Cardiovascular` 0.5), paediatric/newborn (`15_01a`), choking (`13_05b`), overdose (`14a-2`, `03_Gastrointestinal`), head injury (`04_Neurology`), organ trauma (`11_09b`), wounds (`Examination`) all real. **Genuine gaps: Burns/scalds (zero hits — both rows) and a major-trauma primary-survey approach** (organ-specific trauma exists; no ATLS-style structured approach). |
+| **N2** (6 rows) | **1 covered, 5 not.** Notifiable diseases ✅. **Built this round:** diagnostic test characteristics, and ARR/RRR/NNT. **Remaining:** study design & bias, p-values, screening principles (partly in `19_`). |
+| **N4** (4 rows) | **See judgment below.** |
+| **N5** (2 rows) | Capacity ✅ confirmed excellent (four-part test, SA legislation, SDM, OPA/SACAT). **Clinical formulation / structured clinical reasoning: genuinely absent**, one incidental hit corpus-wide. |
+
+### N4 — judgment call, not a build
+
+**Two of four rows should not be built, and building them would actively harm the corpus.**
+
+- **Aboriginal and Torres Strait Islander health issues (Low)** — **189 mentions across 24 files**, condition-specific and actionable (ARF/RHD, CKD, otitis media's painless presentation, AUSDRISK's exclusion, cervical self-collection, aged care from 50, dementia at younger ages, KICA, smoking's closing gap, DFV). This is the *correct* architecture: equity content changes clinical thresholds at the point of care, which is where it belongs. A summary layer would duplicate distributed content and create two things to drift — the same problem caught and fixed with the N6 screening table. **No build.**
+- **Rural general practice issues (Medium)** — distributed across 20 files, plus the remote-discharge box in `18_`. **No build.**
+
+**Two rows are genuine gaps, both Low yield:**
+- **Australian healthcare system** — Medicare/PBS/MBS appear only as incidental references inside disease entries (a PBS restriction, an MBS reform). No entry explains the system. ⬜
+- **Detention / prison / immigration health** — genuinely absent; every apparent hit was "detention" under the Mental Health Act. ⬜
+
+### N2–N5 remainder — allocated, not built
+
+| Row | Yield | Goes in | Why not built |
+|---|---|---|---|
+| Burns and scalds (2 rows) | Low | `09_01_Dermatology_-_Dermatological_Emergencies` or a trauma file | Genuine gap; Low yield, deprioritised below the High-yield N2 rows |
+| Major trauma — primary survey | Medium | `11_09b_Ortho_-_Trauma` | Genuine gap |
+| Study design types & bias | Medium | `Clinical-Process-EBM-Consent-Capacity` | Sits beside the two entries built this round |
+| p-values & significance | Medium | `Clinical-Process-EBM-Consent-Capacity` | Same |
+| Screening programme principles | Medium | `19_` (partly present) | Partly covered by the preventive medicine entry |
+| Clinical formulation / reasoning | Medium | `Clinical-Process-EBM-Consent-Capacity` | Genuine gap |
+| Australian healthcare system | Low | new — no existing file fits | Genuine gap |
+| Detention / prison / immigration | Low | new — no existing file fits | Genuine gap |
 
 ---
 
