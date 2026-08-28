@@ -214,7 +214,7 @@ This is not a marginal issue in Australian practice — **roughly 20–34% of ol
 > **Financial:** unexplained inability to pay for care or medicines, sudden changes to a will or power of attorney, a relative with unusual control over finances, unpaid bills despite adequate income.
 > **Service-related:** missed appointments, non-collection of prescriptions, refusal of services on the patient's behalf by someone else.
 
-> [!note] Differential — none of the features above is specific, and each has innocent explanations that must be genuinely considered rather than dismissed: bruising from anticoagulants, thrombocytopenia or repeated falls (see Falls in Older People above); weight loss from malignancy, depression or dysphagia; pressure injury from immobility despite adequate care; confusion from delirium, dementia or polypharmacy (see Delirium vs Dementia vs Depression in [[04_Neurology]]); and self-neglect, which is genuinely different from neglect by another and calls for a different response.
+> [!note] Differential — none of the features above is specific, and each has innocent explanations that must be genuinely considered rather than dismissed: bruising from anticoagulants, thrombocytopenia or repeated falls (see Falls in Older People above); weight loss from malignancy, depression or dysphagia; pressure injury from immobility despite adequate care; confusion from delirium, dementia or polypharmacy (see [[04_Neurology]] Delirium vs Dementia vs Depression); and self-neglect, which is genuinely different from neglect by another and calls for a different response.
 
 **Assessment:**
 - **Interview the older person alone.** This is the single most important step and the one most often skipped. A carer's insistence on remaining present is itself a red flag; a neutral reason to separate them ("I always examine people privately") is usually enough.
@@ -253,7 +253,7 @@ This is not a marginal issue in Australian practice — **roughly 20–34% of ol
 Medical stability is necessary but not sufficient. The operative question is whether this person can manage in **their** home, which requires knowing what that home is like and what they could do before:
 - **Baseline versus current function.** Compare current ADLs (washing, dressing, toileting, transferring, feeding) and IADLs (shopping, cooking, finances, medications, transport) against their **premorbid** level, not against normal. A patient discharged at a function below their baseline without new support will fail.
 - **Mobility and transfers**, assessed by physiotherapy — including stairs if there are stairs, and specifically whether they can get off a low chair and off the toilet.
-- **Cognition**, which determines whether they can follow the plan at all (see Delirium vs Dementia vs Depression in [[04_Neurology]] — and note that delirium frequently has *not* fully resolved at discharge, so the cognitive assessment made on admission may no longer apply).
+- **Cognition**, which determines whether they can follow the plan at all (see [[04_Neurology]] Delirium vs Dementia vs Depression — and note that delirium frequently has *not* fully resolved at discharge, so the cognitive assessment made on admission may no longer apply).
 - **Continence, nutrition and swallowing.**
 - **Who is at home**, what they can realistically provide, and whether that arrangement is sustainable for them (see Abuse of Older People (Elder Abuse) and Carer Stress above — carer breakdown is both a discharge failure and a safeguarding risk).
 
