@@ -61,7 +61,7 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 > **Phase 2: 3 of 7 items complete** (N1, N3, N4), **3 in progress** (N6, N2, N5), **1 never started** (N7).
 > **Phases 3 and 4: not started** — all 10 mega files, 10 large files and 39 medium/small groups remain ⬜.
 >
-> **→ NEXT ITEM: N6**, the largest remaining Phase 2 item — 16 of 29 rows unbuilt, each already allocated to its destination file in the N6 remainder table below, so the next round can build rather than re-decide placement. The two highest-value remaining rows are **open disclosure / explaining a medical error** and **mandatory reporting as a general skill**.
+> **→ NEXT ITEM: N6 (continuing)** — **11 of 29 rows** now unbuilt, down from 16. The two rows previously flagged as highest value (open disclosure, mandatory reporting) are **built**. Remaining highest-value: **professional boundaries with a patient**, and **assessment and basic management of pain** (partial — palliative opioids exist, no general assessment or analgesic ladder). All remaining rows stay allocated in the N6 remainder table below.
 >
 > After N6: **N2** (4 rows — study design & bias, p-values, screening principles, plus clinical formulation which sits with N5), then **N5**, then **N7**.
 >
@@ -107,21 +107,29 @@ Corpus is now **147 content files**; `check_structure.sh`'s `EXPECTED_CONTENT` w
 
 **All five High-yield gaps are now built.** Corpus is **148 content files**; `EXPECTED_CONTENT` updated in the same commit as the new file.
 
+### N6 round 2 built (2026-08-28)
+
+Five CSV rows closed across four commits, prioritising the two named as highest value:
+
+| Topic | Built in | Rows |
+|---|---|---|
+| Explaining a Medical Error — Open Disclosure | `Communication.md` | Explaining a medical error |
+| Mandatory Reporting — the Overarching Duty | `Clinical-Process-…` | Mandatory reporting (overall skill) |
+| Talking to Angry Patients and Relatives, and Managing Complaints | `Communication.md` | Angry patients; Managing complaints |
+| Documenting in the Medical Notes | `Clinical-Process-…` | Documenting in the medical notes |
+
+**Two findings worth carrying forward.** *Mandatory reporting* was recorded as "partial" because four condition-specific instances existed — but **zero corpus-wide hits for Ahpra or notifiable conduct** meant the duty to report an unsafe **colleague** was absent entirely; "partial" understated it. And *documentation* was **instructed in about a dozen entries** across the project with no entry saying what good documentation consists of — the instruction was everywhere, the content nowhere.
+
 ### N6 remainder — allocated but not yet built
 
 Deliberately left rather than thinned. Each is allocated to its destination file by the placement rule above, so the next round does not have to re-decide.
 
 | Row | Yield | Goes in | Class |
 |---|---|---|---|
-| Explaining a medical error / open disclosure | Medium | `Communication.md` | absent |
-| Managing complaints | Medium | `Communication.md` | absent |
-| Talking to angry patients or relatives | Medium | `Communication.md` | absent |
 | Dealing with an inappropriate patient (boundaries) | Medium | `Communication.md` | absent |
 | Safeguarding — explaining a referral | Medium | `Communication.md` | partial (pathways exist; the conversation does not) |
 | The family, families in crisis, family dysfunction | Medium | `Communication.md` | absent |
 | Discussion/referral to specialities | Medium | `Communication.md` | absent |
-| Documenting in the medical notes | Medium | `Clinical-Process-EBM-Consent-Capacity.md` | absent |
-| Mandatory reporting (overall skill) | Medium | `Clinical-Process-EBM-Consent-Capacity.md` | partial (child + elder instances exist; no general duty entry) |
 | Hospital avoidance | Medium | `19_…` | absent |
 | Initial diagnostic strategy for common GP presentations | Medium | `19_…` (or `History-Taking` — decide on build) | absent |
 | Key factors in selecting the most appropriate medication | Medium | `19_…` | absent |
