@@ -124,6 +124,47 @@ The half that was entirely missing, and the one an intern is least prepared for.
 
 ---
 
+## Choosing a Medicine — Quality Use of Medicines
+
+> [!note] Gap-filled from CSV ("Key factors to consider when selecting the most appropriate medication," Medium yield). Verified absent with the teach-vs-mention check: the corpus contains **hundreds of specific drug choices** across every disease entry, and **no entry teaching how such a choice is made**. Zero hits for drug selection, rational prescribing or comparable phrasing.
+>
+> **Placement overrides the queue's allocation** (which said `19_General_Practice_and_Preventive_Medicine`): prescribing is clinical process, not general-practice discipline or preventive care, and this entry is the therapeutic counterpart to Diagnostic Test Characteristics and Interpreting Treatment Effects below — the same file, the same reasoning applied to treatment rather than diagnosis. Verified against Australia's **National Medicines Policy** Quality Use of Medicines objective and the **National Prescribing Competencies Framework**, Aug 2026.
+
+**Quality Use of Medicines (QUM)** is the Australian framework, and its four words are the actual test: medicines should be used **judiciously, appropriately, safely and effectively**.
+
+### The question sequence
+
+Asking these in order prevents most prescribing errors, because each one can stop the process:
+
+1. **Is a medicine needed at all?** Non-drug options first where they exist — and the honest version of this question is whether the *problem* needs treating, not whether a drug exists for it.
+2. **What am I trying to achieve, and how will I know?** A prescription without a defined endpoint cannot be reviewed, and becomes permanent by default (see [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing, not repeated here).
+3. **Which medicine?** — see the factors below.
+4. **What dose, route, frequency and duration?** Duration is the one most often left blank.
+5. **How will I monitor it, and when will I stop?** **Decide the stopping or review point at the time of starting**, not later.
+
+### Choosing between medicines
+
+**Patient factors:**
+- **Age and physiology** — renal and hepatic function, which change dose rather than only drug choice; frailty (see [[18_Geriatrics_and_Older_Persons_Health]] Frailty).
+- **Pregnancy and breastfeeding.**
+- **Comorbidity and drug–disease interaction** — the drug that suits the condition may be wrong for the patient.
+- **Allergies and previous adverse reactions**, distinguishing true allergy from intolerance, because recording an intolerance as an allergy removes a whole class unnecessarily.
+- **Current medicines and interactions** — and the cumulative burden, not only pairwise interactions.
+- **What the patient can actually manage** — dose frequency, formulation, dexterity, vision, cognition, and whether they can open the packaging.
+
+**Medicine factors:** efficacy for *this* indication, safety and adverse-effect profile, suitability of formulation and frequency, and **cost**.
+
+> [!info] **Cost is a clinical factor, not an administrative one — and the mechanism is worth stating.** A medicine the patient does not fill or takes intermittently because of cost has a real-world efficacy of approximately zero, however good the trial data. So cost affects outcome through adherence, which makes it part of the drug-choice decision rather than something to consider afterwards. Practically: know whether the medicine is **PBS-listed**, whether it requires an **authority**, and what the patient will actually pay.
+
+**Evidence:** what is the **absolute** benefit for a patient like this one, over what period? A drug with an impressive relative risk reduction may offer very little to a low-risk patient (see Interpreting Treatment Effects — Absolute vs Relative Risk, and NNT below, not repeated here).
+
+> [!danger] **Aboriginal and Torres Strait Islander patients — a specific, funded, under-used measure that directly addresses the cost mechanism above.** The **Closing the Gap (CTG) PBS Co-payment Program** reduces or removes the PBS co-payment for eligible Aboriginal and Torres Strait Islander people. Eligibility is broad — **any age, any location, registered with Medicare, self-identifying**, where in the prescriber's opinion the person has or is at risk of chronic disease and would be unlikely to adhere to their regimen without the assistance. Patients who would normally pay the full PBS amount pay the **concessional rate**; concession-card holders pay **nothing**.
+> **The actionable point is that registration is the prescriber's job**, done through Health Professional Online Services, and the programme is under-used because clinicians do not think of it. Given that cost drives non-adherence and non-adherence drives the outcome gap, **failing to register an eligible patient is a clinical omission, not a paperwork one.** Verified against the PBS Closing the Gap Co-payment Program factsheet and Services Australia prescriber guidance, Aug 2026.
+
+> [!tip] The single most useful habit: **write the indication and the intended duration or review date on every prescription you start.** It answers questions 2, 4 and 5 at once, and it is what makes the medicine reviewable by the next person rather than something they inherit and dare not stop.
+
+---
+
 ## Diagnostic Test Characteristics — Sensitivity, Specificity, PPV and NPV
 
 > [!warning] **Correction to this project's own record.** The workflow's N2 entry instructs a future round to "verify Notifiable Diseases and sensitivity/specificity are genuinely already adequate first, don't rebuild what exists." Notifiable diseases *is* adequate (see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia)). **Sensitivity and specificity were not.** The terms appear eight times across the corpus, every one of them an *application* to a specific test — D-dimer's high sensitivity, faecal calprotectin, the Ottawa rules — with the concepts themselves never defined and PPV/NPV never mentioned at all. This is the same failure mode that produced the false "SNAP is covered" claim: **applied in context is not the same as built as a topic.**
