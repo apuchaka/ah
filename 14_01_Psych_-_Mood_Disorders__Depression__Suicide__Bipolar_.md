@@ -143,8 +143,17 @@ source: quackquackmed 14.01 Mood disorders - Depression, Suicide, Bipolar disord
 
 ## Seasonal affective disorder
 
-- Depression predominantly in the winter months.
-- Treat as per depression — do not give sleeping pills; little evidence for light therapy.
+> [!warning] Corrected, Aug 2026 — this entry previously stated "little evidence for light therapy," which is wrong and would lead an intern to dismiss the treatment with the strongest specific evidence base for this condition. Meta-analysis found bright light therapy produces symptom reduction in SAD with effect sizes comparable to antidepressant pharmacotherapy trials, and it is recommended as a first-line treatment. Verified against healthdirect (Australian Government) and the light-therapy meta-analytic literature.
+
+- **D:** recurrent depressive episodes with a consistent seasonal pattern, characteristically in winter with remission in spring/summer. **Not a standalone diagnosis in DSM-5** — it is the *"with seasonal pattern"* specifier applied to major depressive disorder or bipolar disorder, which matters because it means the underlying disorder must be diagnosed and managed on its own terms first (see Depression (Major depressive disorder) above; if there is any history of mania or hypomania, see Bipolar disorder above).
+- **S/Smx:** the core depressive syndrome, but the neurovegetative features often run *opposite* to typical depression — **hypersomnia rather than insomnia, increased appetite with carbohydrate craving and weight gain rather than anorexia and weight loss**, and prominent fatigue/anergia. This reversal is the recognition cue, and is why the reflex to treat the presenting "can't stop sleeping and eating" complaint symptomatically rather than as depression is a trap.
+- **A/P:** reduced winter light exposure disrupting circadian entrainment, with downstream effects on serotonergic and melatonergic signalling.
+- **The Australian context, which changes the pre-test probability:** SAD is **rare in Australia** — it is a condition of high latitudes with short winter days, and Australian latitudes largely do not produce the required light deprivation. Practically, this means a seasonal pattern in an Australian patient warrants a harder look for alternative explanations (a seasonally-recurring psychosocial stressor, seasonal occupational change, comorbid substance use) before settling on SAD, rather than the diagnosis being reached for as soon as a winter pattern is described.
+- **Mx:**
+  - **Bright light therapy** — first-line, alone or combined with other treatments. Typically 2,500–10,000 lux for 30–60 minutes daily, given **in the morning shortly after waking** (timing is part of the mechanism, not a convenience detail — it works by advancing circadian phase). Most patients improve within the first week.
+  - **Treat the underlying depressive disorder** as per Depression (Major depressive disorder) above — antidepressants and psychological therapy remain appropriate, and are not displaced by light therapy.
+  - Encourage outdoor light exposure and regular exercise as genuinely useful adjuncts.
+  - **Do not prescribe hypnotics for the hypersomnia** — the sleep disturbance here is excessive sleep, not insomnia, and sedatives worsen the daytime anergia.
 
 ## Perinatal depression
 
