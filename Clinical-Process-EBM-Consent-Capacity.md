@@ -53,6 +53,36 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 - Parental consent is otherwise required for a child's treatment, with the same general emergency-treatment principles above applying if urgent treatment is needed and a parent/guardian isn't immediately available.
 - Disagreement between parents, or between a Gillick-competent minor and their parents, over a child's treatment can require escalation (senior clinician input, ethics consultation, or ultimately court involvement in genuinely contested or high-stakes cases) — genuinely complex territory beyond the scope of a single consultation, not detailed further here.
 
+## Diagnostic Test Characteristics — Sensitivity, Specificity, PPV and NPV
+
+> [!warning] **Correction to this project's own record.** The workflow's N2 entry instructs a future round to "verify Notifiable Diseases and sensitivity/specificity are genuinely already adequate first, don't rebuild what exists." Notifiable diseases *is* adequate (see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia)). **Sensitivity and specificity were not.** The terms appear eight times across the corpus, every one of them an *application* to a specific test — D-dimer's high sensitivity, faecal calprotectin, the Ottawa rules — with the concepts themselves never defined and PPV/NPV never mentioned at all. This is the same failure mode that produced the false "SNAP is covered" claim: **applied in context is not the same as built as a topic.**
+
+> [!note] Gap-filled from CSV ("Sensitivity, specificity, PPV/NPV interpretation," High yield, Public Health/Epidemiology category). Verified against the RACGP practical guide to statistics for general practice and Australian Prescriber's *Evidence, risk and the patient*, Aug 2026.
+
+**The four measures, and the distinction that carries all the clinical weight:**
+
+| | Question it answers | Fixed or variable? |
+|---|---|---|
+| **Sensitivity** | Of people **with** the disease, what proportion test positive? | A property of the **test** — does not change with population |
+| **Specificity** | Of people **without** the disease, what proportion test negative? | A property of the **test** |
+| **PPV** | Of people who test **positive**, what proportion actually have the disease? | Depends on **prevalence** — changes with the population |
+| **NPV** | Of people who test **negative**, what proportion are genuinely disease-free? | Depends on **prevalence** |
+
+> [!danger] **The single most important consequence, and the reason this belongs in a clinical file rather than a statistics one: PPV falls as prevalence falls, even though the test has not changed.** Order a test in a population where the disease is rare and most of your positives will be false positives — not because the test is bad, but because there were so few true cases available to find. This is the mechanism behind three things already stated elsewhere in this project without their underlying reason:
+> - Why **screening programmes are restricted by age and risk band** rather than offered to everyone (see [[19_General_Practice_and_Preventive_Medicine]] Preventive Medicine and Screening in Australian General Practice).
+> - Why **general practice investigates differently from an emergency department** — the same symptom carries a far lower pre-test probability there (see [[19_General_Practice_and_Preventive_Medicine]] Continuity of Care, and What Makes General Practice Different).
+> - Why **a positive allergy test is sensitisation rather than disease** unless it fits the history (see [[13_04_ENT_-_Nose__Rhinosinusitis__Fractures__CSF_Rhinorrhoea__Epistaxis__Nasal_Cancers_]] Allergic Rhinitis (Hay Fever)).
+
+**The two mnemonics, and what they actually mean:**
+- **SnNout** — a highly **Sen**sitive test, when **N**egative, rules **out**. High sensitivity means few false negatives, so a negative result is trustworthy.
+- **SpPin** — a highly **Sp**ecific test, when **P**ositive, rules **in**. High specificity means few false positives, so a positive result is trustworthy.
+
+**Worked example already in this project:** **D-dimer** is highly sensitive and poorly specific, which is exactly why it functions as a **rule-out** test in a patient with low pre-test probability of VTE and is useless as a rule-in test — see [[Investigation-Interpretation]] Coagulation Screen and D-dimer Interpretation, which states the practical rule; this entry is the reasoning underneath it.
+
+> [!tip] **Pre-test probability is not optional context — it is half the calculation.** A test result does not tell you whether the patient has the disease; it *moves* your estimate from where it already was. This is why clinical decision rules (Wells, Ottawa, Centor) exist: they establish the pre-test probability *before* the test is ordered, so the result can be interpreted rather than merely read. An intern who orders a test without having formed a pre-test probability cannot interpret the answer either way.
+
+---
+
 ## Evidence-based medicine — a brief note
 
 > [!note] The "EBM" component of this file's scope is a smaller addition, given the core evidence-based-medicine hierarchy and critical appraisal skills are more naturally taught through worked examples across specific clinical questions than as a standalone abstract framework — flagged here as a topic this file's title covers, without a full treatment, should dedicated EBM content be added in a future pass.
