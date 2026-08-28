@@ -137,3 +137,52 @@ Frailty should alter clinical decisions rather than merely describe the patient:
   - **Optimise contributing chronic disease**, and correct sensory impairment (vision, hearing), which drives inactivity and social withdrawal.
   - **Early physiotherapist and dietitian involvement** is specifically recommended rather than reserved for failure of advice alone.
 - **Chronic/long-term:** **Comprehensive Geriatric Assessment** — the multidimensional, multidisciplinary assessment (medical, functional, cognitive, psychological, social, environmental) with a coordinated plan, which is the structure that ties together everything in this file. Address social isolation, arrange appropriate community supports, and reassess frailty status annually to track the trajectory rather than assuming it only goes one way.
+
+---
+
+## Polypharmacy and Deprescribing
+
+> [!note] Gap-filled from CSV ("Polypharmacy review / deprescribing in the elderly," High yield). Genuinely absent as content: polypharmacy appeared only as checklist bullets inside [[Communication]] Management of Patients with Multiple Chronic Medical Problems and [[Communication]] Caring for the Elderly in the Community (Dementia, Mobility, Parkinson's, Recurrent Falls) — "review for sedating, anticholinergic, and hypotension-causing medications" — with no method for actually doing it, and no mention of Beers, STOPP/START, the prescribing cascade, or tapering anywhere in the corpus. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition) Parts A "Polypharmacy" and "Deprescribing", and the *Deprescribing in Older People: A Clinical Practice Guideline* summary (MJA, 2026), Aug 2026.
+
+**D:** **polypharmacy** is conventionally defined as the regular use of **five or more medicines**, though the number matters far less than whether each medicine still has a valid indication and a favourable benefit-to-harm balance for *this* patient now. **Deprescribing** is the planned, supervised withdrawal of a medicine that is no longer appropriate, done as a positive clinical act rather than as an omission.
+
+> [!info] The framing that makes this a clinical skill rather than an administrative tidy-up: **deprescribing is part of the prescribing continuum, not the opposite of prescribing.** Most treatment guidelines say when to start a medicine and are silent on when to stop it, so medicines accumulate by default — each one started for a good reason at the time, none ever formally reviewed for whether that reason still holds. This is the 2026 Australian guideline's central point, and it explains why polypharmacy develops in patients whose every individual prescribing decision was defensible.
+
+**Why it matters:** each additional medicine raises the risk of adverse drug events, drug–drug and drug–disease interactions, falls (see Falls in Older People above), delirium (see [[04_Neurology]] Delirium), cognitive impairment, non-adherence, and hospital admission. In an older person with reduced renal and hepatic clearance and reduced physiological reserve (see Frailty above), the dose–harm relationship is shifted relative to a younger patient on the same regimen.
+
+> [!danger] **The prescribing cascade** — the single most important pattern to recognise, because it is invisible unless you look for it. An adverse effect of one drug is misinterpreted as a new medical condition, and a second drug is prescribed to treat it. Classic examples:
+> - **Metoclopramide or an antipsychotic → drug-induced parkinsonism → levodopa** (see [[04_Neurology]] Parkinson's Disease (PD), where drug-induced parkinsonism is already noted as a differential).
+> - **Calcium channel blocker → ankle oedema → a diuretic** (which then causes postural hypotension and falls).
+> - **Anticholinergic → confusion or urinary retention → a cholinesterase inhibitor or a catheter.**
+> - **NSAID → hypertension or dyspepsia → an antihypertensive or a PPI** (see [[03_Gastrointestinal]] Peptic Ulcer Disease).
+>
+> The diagnostic question that breaks the cascade: **"could this new symptom be a side effect of an existing medicine?"** — asked *before* reaching for a new prescription.
+
+### Anticholinergic burden — specifically worth knowing in Australia
+
+Anticholinergic effects are **cumulative across drugs**, so a patient can carry a substantial burden from several individually-innocuous medicines with no single obvious culprit. Contributors include bladder antimuscarinics, sedating antihistamines, tricyclic antidepressants, some antipsychotics, antispasmodics and antiemetics. The consequences in an older person are precisely the ones easily attributed to ageing or dementia instead: confusion, memory impairment, falls, constipation, urinary retention, dry mouth, blurred vision.
+
+This is not a marginal issue in Australian practice — **roughly 20–34% of older Australians use at least one medicine with anticholinergic effects**, and these drugs remain widely prescribed despite being flagged as potentially inappropriate by both the criteria sets below.
+
+### Tools for identifying potentially inappropriate medicines
+
+- **Beers Criteria** (American Geriatrics Society) — a list of medicines generally to be avoided in older people, or avoided in specific conditions.
+- **STOPP** (Screening Tool of Older People's Prescriptions) — medicines to consider stopping.
+- **START** (Screening Tool to Alert to Right Treatment) — the complement, and the half that is routinely forgotten: **older people are also *under*-prescribed** medicines with clear benefit (osteoporosis treatment after a minimal-trauma fracture, anticoagulation in AF, statins where indicated). Deprescribing is about appropriateness in both directions, not simply about reducing the count.
+
+**Australian services that exist to do this properly** and that an intern should know to arrange rather than attempt in a ward round: a **Home Medicines Review (HMR)** for community-dwelling patients and a **Residential Medication Management Review (RMMR)** for those in residential aged care — both accredited-pharmacist-conducted, both government-funded, and both underused.
+
+### Mx — how to actually deprescribe
+
+- **Immediate/acute:** on any admission, take a complete and accurate medication history including over-the-counter medicines, supplements and PRN use, and reconcile it against what the patient is actually taking. Admission is the highest-yield opportunity for review, and also the point at which unintended changes most often occur.
+- **Definitive — a workable sequence:**
+  1. **List every medicine with its indication.** A medicine whose indication nobody can state is the first candidate.
+  2. **Assess benefit versus harm for this patient now** — including the *time to benefit*. A preventive medicine whose benefit accrues over 5–10 years offers little to a patient whose life expectancy is shorter than that, while its harms are immediate.
+  3. **Establish the patient's own priorities** — symptom control and independence often matter more to them than a long-term risk-reduction target (see [[Communication]] Management of Patients with Multiple Chronic Medical Problems).
+  4. **Prioritise** the medicines with the worst harm profile in older people: benzodiazepines and Z-drugs, anticholinergics, antipsychotics, opioids, and the fall-risk-increasing drugs listed under Falls in Older People above.
+  5. **Stop one medicine at a time**, so that any benefit or deterioration is attributable.
+  6. **Taper where withdrawal or rebound is a genuine risk** — benzodiazepines and Z-drugs, opioids, antidepressants, beta-blockers, corticosteroids, antipsychotics, and PPIs (rebound acid hypersecretion). Do **not** stop these abruptly. For benzodiazepines specifically, a workable approach is an initial reduction of around 20–25%, held for 2–4 weeks, then smaller reductions of roughly 5–12.5%, going slower if withdrawal symptoms emerge (see [[14_06a_Psych_-_Drugs_Used_in_Psychiatry]] Benzodiazepines).
+  7. **Monitor and follow up** — document what was stopped and why, tell the patient what to expect and what would warrant restarting, and arrange review. Deprescribing without follow-up is not safer than not deprescribing.
+- **Chronic/long-term:** schedule medication review as a recurring event rather than an incidental one, and record a stop date or review date at the time of *starting* any new medicine — the intervention that prevents the problem rather than correcting it later.
+
+> [!tip] Deprescribing is a shared decision, and forced or abrupt withdrawal is both unsafe and counterproductive. The evidence on what makes it succeed is unglamorous: the patient's trust in the prescriber, a gradual taper, and an explicit agreement that a medicine can be restarted if stopping it turns out to be the wrong call. Framing matters — "let's see whether you still need this" is heard very differently from "I'm taking you off this."
