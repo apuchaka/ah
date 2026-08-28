@@ -61,7 +61,7 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 > **Phase 2: 3 of 7 items complete** (N1, N3, N4), **3 in progress** (N6, N2, N5), **1 never started** (N7).
 > **Phases 3 and 4: not started** — all 10 mega files, 10 large files and 39 medium/small groups remain ⬜.
 >
-> **→ NEXT ITEM: N6 (continuing)** — **8 of 29 rows** unbuilt, down from 11. All four rows previously flagged highest-value are now built (open disclosure, mandatory reporting, professional boundaries, pain). Remaining are the lower-yield GP-discipline rows: **referral to specialities · families in crisis · hospital avoidance · initial GP diagnostic strategy · medication selection**. Two rows need no build (counselling stations — `Communication.md` *is* this; health promotion — folds into the SNAP and preventive entries). **All five remaining buildable rows were re-verified absent this round using the teach-vs-mention check.**
+> **→ NEXT ITEM: N2** — 4 rows (study design & bias, p-values, screening principles, clinical formulation). Then **N5**, then **N7**. **N6 is complete.**
 >
 > After N6: **N2** (4 rows — study design & bias, p-values, screening principles, plus clinical formulation which sits with N5), then **N5**, then **N7**.
 >
@@ -138,64 +138,24 @@ Three rows closed. **Steps 5, 6, 10 and 18 applied during each build rather than
 
 **Terminology finding — since resolved.** The Medical Board's guidelines use **"observer"** rather than "chaperone", confirmed against **section 7.1 "Use of observers"** of the primary guideline. All 8 instances in `Examination.md` updated, and the resolution surfaced a larger gap than the terminology: nothing explained what an observer is *for*, who can act as one, or what happens if the patient declines. Built as `Examination.md` **Observers in Clinical Examination**, with the Professional Boundaries subsection reduced to a cross-reference rather than left as a second copy. **This is the sixth confirmed instance of the referenced-but-never-taught pattern**, and the first found by pulling on a terminology thread rather than by auditing a CSV row — worth noting as a second way in.
 
-### N6 remainder — allocated but not yet built
+### N6 COMPLETE (2026-08-28)
 
-Deliberately left rather than thinned. Each is allocated to its destination file by the placement rule above, so the next round does not have to re-decide.
+All 29 rows resolved: **19 built**, **7 confirmed already covered** in the original audit, **3 needing no build**.
 
-| Row | Yield | Goes in | Class |
-|---|---|---|---|
-| The family, families in crisis, family dysfunction | Medium | `Communication.md` | absent |
-| Discussion/referral to specialities | Medium | `Communication.md` | absent |
-| Hospital avoidance | Medium | `19_…` | absent |
-| Initial diagnostic strategy for common GP presentations | Medium | `19_…` (or `History-Taking` — decide on build) | absent |
-| Key factors in selecting the most appropriate medication | Medium | `19_…` | absent |
-| Health promotion and patient education | Medium | folds into SNAP/preventive entries | partial |
-| Counselling stations | Medium | — | `Communication.md` *is* this; no build needed |
-| Initial GP investigation strategy overlap | Medium | — | see above |
+**Final round built 4 topics, closing 5 rows:**
 
----
+| Topic | Built in | Placement |
+|---|---|---|
+| Choosing a Medicine — Quality Use of Medicines | `Clinical-Process-…` | **override** — prescribing is clinical process, not GP discipline |
+| Referral and Discussion with Other Specialties | `Communication.md` | as allocated |
+| The Family, and Families in Crisis | `Communication.md` | as allocated |
+| Hospital Avoidance and Potentially Preventable Hospitalisations | `19_…` | as allocated |
 
-**N2–N5 audit result (2026-08-28).** All 22 rows read, not matched.
+**Three rows correctly need no build**, and one of these was a live decision this round rather than inherited: *Initial diagnostic strategy for common GP presentations* is **already taught** in Continuity of Care, and What Makes General Practice Different — pre-test probability, watchful waiting, and safety-netting with its three components. Building it again would have been the screening-table error. *Counselling stations* — `Communication.md` **is** that. *Health promotion* — folds into the SNAP and preventive entries.
 
-> [!danger] **Second confirmed instance of this document's own record being wrong.** N2's row instructs a future round to "verify Notifiable Diseases and sensitivity/specificity are genuinely already adequate first." Notifiable diseases **is** adequate. **Sensitivity/specificity was not** — the terms appeared 8 times, every one an *application* to a specific test, with the concepts never defined and PPV/NPV absent entirely. This is the same conflation that produced the false "SNAP is covered" claim in N6: **applied in context ≠ built as a topic**. Two confirmed instances now. **Treat every "confirmed present" claim in this document as unverified until re-read.**
+**Step 10 outcomes across the round:** built for pain, medication choice (Closing the Gap PBS Co-payment Program) and hospital avoidance; **declined for boundaries, safeguarding referral, referral to specialties and families in crisis** — no sourced disparity in any of those, and the relevant equity content already sits in entries they cross-reference. Four declines is the intended behaviour, not a shortfall.
 
-| Item | Audit result |
-|---|---|
-| **N3** (10 rows) | **Mostly already covered.** `Shock` — the row flagged as the most likely gap — is a **full standalone entry** (`01_Cardiovascular` 0.20, four subtypes, each with A/S-Smx/Ix/Mx/P). Adult ALS (`01_Cardiovascular` 0.5), paediatric/newborn (`15_01a`), choking (`13_05b`), overdose (`14a-2`, `03_Gastrointestinal`), head injury (`04_Neurology`), organ trauma (`11_09b`), wounds (`Examination`) all real. **Genuine gaps: Burns/scalds (zero hits — both rows) and a major-trauma primary-survey approach** (organ-specific trauma exists; no ATLS-style structured approach). |
-| **N2** (6 rows) | **1 covered, 5 not.** Notifiable diseases ✅. **Built this round:** diagnostic test characteristics, and ARR/RRR/NNT. **Remaining:** study design & bias, p-values, screening principles (partly in `19_`). |
-| **N4** (4 rows) | **See judgment below.** |
-| **N5** (2 rows) | Capacity ✅ confirmed excellent (four-part test, SA legislation, SDM, OPA/SACAT). **Clinical formulation / structured clinical reasoning: genuinely absent**, one incidental hit corpus-wide. |
-
-### N3 built (2026-08-28)
-
-Both confirmed gaps built in `11_09b_Ortho_-_Trauma`, which despite its "Ortho" filename is this project's de facto general trauma file (it already held thoracic, genitourinary, splenic, liver, head and ocular trauma, none orthopaedic). Placement rejected `09_01_Dermatology_-_Dermatological_Emergencies` for burns on the grounds that it covers dermatological *disease* presenting as an emergency, not injury.
-
-- **Burns and Scalds** — ANZCOR 9.1.3, ANZBA referral criteria. Two CSV rows, flagged absent early in the project and confirmed missing twice.
-- **Major Trauma — Primary Survey** — built as a *differential* entry: the generic ABCDE is already complete in `Examination.md` and is explicitly not repeated, so this covers only what trauma changes. **Verified absent before building**, following the Shock lesson.
-
-**Steps 5/6/10/18 applied in the same round**, not deferred. Step 5 found one gap (escharotomy named, not explained). Step 10 found a large sourced disparity in burns — rates 2–3× higher in Aboriginal and Torres Strait Islander children, and **only 34 of 208 caregivers received gold-standard first aid at the scene**, which makes the 3-hour cooling window clinically critical rather than trivia. For trauma, remoteness was stated as a *mechanism* with **no mortality figure asserted**, because none was sourced.
-
-### N4 — judgment call, not a build
-
-**Two of four rows should not be built, and building them would actively harm the corpus.**
-
-- **Aboriginal and Torres Strait Islander health issues (Low)** — **189 mentions across 24 files**, condition-specific and actionable (ARF/RHD, CKD, otitis media's painless presentation, AUSDRISK's exclusion, cervical self-collection, aged care from 50, dementia at younger ages, KICA, smoking's closing gap, DFV). This is the *correct* architecture: equity content changes clinical thresholds at the point of care, which is where it belongs. A summary layer would duplicate distributed content and create two things to drift — the same problem caught and fixed with the N6 screening table. **No build.**
-- **Rural general practice issues (Medium)** — distributed across 20 files, plus the remote-discharge box in `18_`. **No build.**
-
-**Two rows are genuine gaps, both Low yield:**
-- **Australian healthcare system** — Medicare/PBS/MBS appear only as incidental references inside disease entries (a PBS restriction, an MBS reform). No entry explains the system. ⬜
-- **Detention / prison / immigration health** — genuinely absent; every apparent hit was "detention" under the Mental Health Act. ⬜
-
-### N2–N5 remainder — allocated, not built
-
-| Row | Yield | Goes in | Why not built |
-|---|---|---|---|
-| Study design types & bias | Medium | `Clinical-Process-EBM-Consent-Capacity` | Sits beside the two entries built this round |
-| p-values & significance | Medium | `Clinical-Process-EBM-Consent-Capacity` | Same |
-| Screening programme principles | Medium | `19_` (partly present) | Partly covered by the preventive medicine entry |
-| Clinical formulation / reasoning | Medium | `Clinical-Process-EBM-Consent-Capacity` | Genuine gap |
-| Australian healthcare system | Low | new — no existing file fits | Genuine gap |
-| Detention / prison / immigration | Low | new — no existing file fits | Genuine gap |
+**Two placement overrides** were made across N6, both recorded with reasoning: pain moved from `19_` to `03a`, and medication choice from `19_` to `Clinical-Process`. In both cases `19_`'s declared scope (general practice as a discipline, preventive care as a system) did not fit. **The remainder table's allocations are a starting point, not binding.**
 
 ---
 
