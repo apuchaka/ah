@@ -166,6 +166,17 @@ DIGRAPHS = [
 SPLIT_RE = re.compile(r"\s*(?::|/|,|;|\band\b|\bor\b|\bvs\.?\b|\beg\b|\be\.g\.\b|–|—| - )\s*",
                       re.IGNORECASE)
 
+# Leading/trailing qualifiers a checklist row may carry that the notes' own
+# header omits, or places differently: the CSV says "Acute otitis externa" while
+# the file header is "Otitis externa", and "Acute otitis media and sequelae"
+# while the header is "Otitis media (acute)". Stripping these is safe because
+# the qualified and unqualified names denote the same topic.
+QUALIFIERS = {"acute", "chronic", "benign", "malignant", "primary", "secondary",
+              "congenital", "acquired", "adult", "paediatric", "pediatric",
+              "infantile", "juvenile", "idiopathic", "recurrent", "severe",
+              "common", "simple", "generalised", "generalized", "essential",
+              "childhood", "neonatal", "sequelae", "types", "syndrome"}
+
 # Words carrying no discriminating power for proximity matching.
 STOPWORDS = {"in", "a", "an", "the", "of", "and", "or", "with", "for", "to",
              "on", "by", "from", "is", "as", "at", "vs", "eg", "its", "may",
@@ -350,6 +361,22 @@ def expand_topic(topic):
                     wholes.add("%s %s" % (frag, stripped))
                     wholes.add("%s-%s" % (frag, stripped))
                     wholes.add("%s %s" % (stripped, frag))
+
+    # Strip leading and trailing qualifier words. These go in `wholes`, not
+    # `parts`: "Acute otitis externa" and "Otitis externa" name the same topic,
+    # so a match on the stripped form is full evidence, not partial. Without
+    # this, a row whose notes header omits the qualifier reads as PARTIAL or
+    # MISSING and — worse — the reported file list points at an incidental
+    # mention elsewhere instead of the topic's real home.
+    for w in list(wholes):
+        words = w.split()
+        while len(words) > 1 and words[0].lower().strip("(),") in QUALIFIERS:
+            words = words[1:]
+            wholes.add(" ".join(words))
+        words = w.split()
+        while len(words) > 1 and words[-1].lower().strip("(),") in QUALIFIERS:
+            words = words[:-1]
+            wholes.add(" ".join(words))
 
     def blow_up(seed):
         out = set()
@@ -623,6 +650,13 @@ def self_test():
         ("Benign Positional Paroxysmal Vertigo", "Benign paroxysmal positional vertigo (BPPV)"),
         ("Headache in a child", "persistent headache in any child <4 years old"),
         ("Tredelenburg\u2019s gait", "Trendelenburg's Sign and Gait"),
+        # Leading/trailing qualifier mismatch, found during the P1 (ENT) sweep.
+        # Both reported wrongly before QUALIFIERS stripping was added: the first
+        # matched only by proximity and named the wrong files, the second fell to
+        # PARTIAL and pointed at an incidental mention in Examination.md rather
+        # than its real home in the 13_01 ENT file.
+        ("Acute otitis externa", "## Otitis externa"),
+        ("Acute otitis media and sequelae", "## Otitis media (acute)"),
     ]
     failures = []
     for topic, appears_as in cases:
