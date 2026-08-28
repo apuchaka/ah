@@ -5,7 +5,11 @@ source: built from scratch — CSV category "General Practice, Preventive Med, E
 
 > [!note] Why this file exists. The CSV category "General Practice, Preventive Med, Ethics & Communication" (29 rows) was found by Step 23 to be the **second-largest gap in this project**, and it was never "(NEW)"-tagged, which is why Step 21's first pass missed it. An audit of all 29 rows before building classified them as **7 adequately covered, 6 partially present, 16 genuinely absent** — not the "roughly half covered" previously assumed.
 >
-> The **consultation-skill** rows live in [[Communication]], which is the task-led communication station file: breaking bad news, DNACPR and goals of care, domestic and family violence, motivational interviewing, and clinical handover. This file holds the rows that are about **general practice as a discipline and preventive care as a system** — which no organ-system file owns, and which is why they had no home.
+> **Placement rule applied to all 29 rows, in this order** — a new file was the last resort, not the default:
+> 1. **Consultation skill → [[Communication]]** (the task-led station file): breaking bad news, DNACPR and goals of care, domestic and family violence, motivational interviewing, clinical handover, open disclosure, complaints, angry patients, professional boundaries, explaining a safeguarding referral.
+> 2. **Clinical process / ethics / legal → [[Clinical-Process-EBM-Consent-Capacity]]**: documenting in the medical notes, mandatory reporting as a general duty.
+> 3. **Preventive and screening *content* → the relevant organ-system file**, where it already lives and is already source-verified: bowel screening in [[03_Gastrointestinal]] Colorectal Cancer, cervical in [[17_09_Cervical__Vaginal_and_Endometrial_Cancer]] Cervical cancer screening, cardiovascular risk in [[01_Cardiovascular]], diabetes risk in [[06_Metabolic_Medicine_and_Endocrinology]]. **This file does not restate any of it** — those entries remain authoritative.
+> 4. **This file, only for what fits none of the above:** general practice as a discipline and preventive care as a *system* — the consolidating framework that no single organ file can hold, continuity of care, the features that distinguish general practice, hospital avoidance, and behavioural risk factors spanning all four SNAP domains. Same justification as the five orphan topics in [[18_Geriatrics_and_Older_Persons_Health]]: a genuine cluster that no existing file owns, not a convenient container.
 >
 > Rows confirmed already covered and deliberately **not** duplicated here: breaking bad news, discussing end-of-life care, polypharmacy (see [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing), ICE (applied throughout [[History-Taking]]), fitness to drive (Austroads-verified across [[01_Cardiovascular]], [[04_Neurology]] and others), and palliative care (see [[10_11c_Oncology_-_Palliative_Care_Prescribing]]).
 
@@ -24,15 +28,17 @@ source: built from scratch — CSV category "General Practice, Preventive Med, E
 
 These are population programs with defined eligibility, and an intern is expected to know who is invited and how often.
 
-| Programme | Who | Test | Interval |
-|---|---|---|---|
-| **National Bowel Cancer Screening** | 50–74 invited automatically; **45–49 can request a kit** | Immunochemical faecal occult blood test (iFOBT), done at home | 2-yearly |
-| **BreastScreen Australia** | Women 50–74 invited | Screening mammogram | 2-yearly |
-| **National Cervical Screening** | 25–74 | **HPV test** (not cytology first-line), with **self-collection available to all eligible participants** | 5-yearly |
+| Programme | Eligibility, in brief | Detail lives in |
+|---|---|---|
+| **National Bowel Cancer Screening** | 45–74; **50–74 automatically mailed a kit, 45–49 can request one**; iFOBT, 2-yearly | [[03_Gastrointestinal]] Colorectal Cancer |
+| **BreastScreen Australia** | Women 50–74 invited; screening mammogram, 2-yearly | [[10_12_Oncology_-_Breast]] Breast cancer |
+| **National Cervical Screening** | 25–74; **HPV test** first-line with **self-collection available to all**, 5-yearly, exit test at 70–74 | [[17_09_Cervical__Vaginal_and_Endometrial_Cancer]] Cervical cancer screening |
+
+> [!info] **The right-hand column is the source of truth, not this table.** Each of those entries is independently source-verified and carries the reasoning, the pathway after an abnormal result, and the equity detail. The table exists only to make the three programmes comparable side by side, which is the thing that had no home. Checked for internal consistency against each entry before writing (Step 12) — the bowel figures here match `03_Gastrointestinal` exactly, including the 1 July 2024 eligibility change.
 
 > [!danger] The distinction that gets tested and gets missed clinically: **these programs are for asymptomatic people.** A symptomatic patient is investigated diagnostically, on their symptom, **irrespective of where they sit in the screening schedule** — a patient with rectal bleeding gets colonoscopy, not an iFOBT; a patient with abnormal vaginal bleeding gets a symptomatic co-test and further investigation regardless of when their last cervical screen was due (see [[17_02_Menorrhagia__PMS__Menopause__HRT]] Abnormal Uterine Bleeding — Approach and DDx, not repeated here). Using a screening test to investigate a symptom delays diagnosis and falsely reassures.
 
-**Where the disease-level content lives:** [[03_Gastrointestinal]] Colorectal Cancer, [[10_12_Oncology_-_Breast]] Breast cancer, [[17_09_Cervical__Vaginal_and_Endometrial_Cancer]] Cervical cancer — not repeated here. **Prostate and skin cancer are not population-screened in Australia**; both are shared-decision or risk-based, and offering routine PSA to an unselected asymptomatic man is not the Australian position.
+**Prostate and skin cancer are not population-screened in Australia**; both are shared-decision or risk-based, and offering routine PSA to an unselected asymptomatic man is not the Australian position.
 
 > [!info] **Self-collection for cervical screening is the single most useful equity intervention in this whole area** — it more than doubled participation in under-screened groups, and it is available to every eligible person, not only those who decline a clinician-collected sample. Offer it, rather than waiting to be asked (already established in [[17_09_Cervical__Vaginal_and_Endometrial_Cancer]] Cervical cancer screening).
 
