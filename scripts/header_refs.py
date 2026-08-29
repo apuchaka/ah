@@ -121,23 +121,32 @@ def resolve(cited_text, headers):
     # each header under both forms; the first corpus run reported 40 such
     # citations as NO-MATCH before this was added, all of them correct.
     variants = {}
+    numkeys = {}
     for h in headers:
         variants.setdefault(h, h)
-        stripped = re.sub(r"^\d+(?:\.\d+)*[a-z]?\s+", "", h)
-        if stripped != h:
-            variants.setdefault(stripped, h)
+        m = re.match(r"^(\d+(?:\.\d+)*[a-z]?)\s+", h)
+        if m:
+            variants.setdefault(h[m.end():], h)
+            # The corpus also cites by BARE section number — "[[01_Cardiovascular]]
+            # 0.34.5 for the Austroads timing". The first version indexed only the
+            # full header and the number-stripped name, so every bare-number
+            # citation fell through to NO-MATCH: 20 of the 33 reported by the
+            # first corpus run were this artifact, all of them correct citations.
+            numkeys.setdefault(m.group(1), h)
 
     # 1. EXACT — longest key the text starts with. Longest wins so that
     #    "Cervical cancer screening" is not mis-resolved to "Cervical cancer".
     exact = [k for k in variants if t == k or t.startswith(k)]
+    # Bare-number keys must not swallow a longer number: "0.4" is not a match
+    # for a citation reading "0.40)". Require a non-numeric boundary after it.
+    for k, h in numkeys.items():
+        if t == k or (t.startswith(k) and not t[len(k)].isdigit() and t[len(k)] != "."):
+            exact.append(k)
+            variants.setdefault(k, h)
     if exact:
         best = max(exact, key=len)
         return "EXACT", variants[best], best
     headers = list(variants)
-    exact = []
-    if exact:
-        best = max(exact, key=len)
-        return "EXACT", best, best
 
     # 2. TRUNCATED — a real header starts with the leading words of the text.
     #    Walk the text word by word and keep the longest run that is a strict
@@ -200,6 +209,13 @@ FIXTURES = [
      "EXACT", "the shorter header is itself real — exact, not truncated"),
     (["Continuity of Care, and What Makes General Practice Different"], "Continuity of Care for the",
      "TRUNCATED", "L9: header contains a comma; truncation at the comma"),
+    (["0.34.5 Austroads cardiovascular driving rules (private vehicle standards)", "0.34.4 Antiplatelets"],
+     "0.34.5 for the Austroads timing", "EXACT",
+     "BARE SECTION NUMBER — 20 of the first run's 33 NO-MATCHes were this artifact"),
+    (["0.4 Atrial Fibrillation", "0.40 Something Else"], "0.40), more concerning ventricular",
+     "EXACT", "bare number must not let 0.4 swallow a citation to 0.40"),
+    (["0.4 Atrial Fibrillation"], "0.40), more concerning ventricular", "NO-MATCH",
+     "and with no 0.40 header, 0.4 must NOT claim it either"),
 ]
 
 
