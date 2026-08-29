@@ -661,7 +661,9 @@ Increase monitoring ± check ketones; consume 3L of fluids/24h ± sugary drinks.
 **Mx:**
 - Community, patient alert: oral glucose 10–20g in any form (≈4 jelly babies, 200mL pure fruit juice, 200mL sugary Coke), or quick-acting carb (e.g. Glucogel); some patients may have a Hypokit
 - Hospital, patient alert: quick-acting carb (e.g. Glucogel)
-- Hospital, unable to swallow or unconscious: SC/IM glucagon or IV 20% dextrose
+- Hospital, unable to swallow or unconscious: **glucagon 1mg IM/SC**, or **IV 20% dextrose**
+
+> [!note] **Paediatric hypoglycaemia is a different threshold and a different dose.** [[15_16b_Paeds_-_Diabetes_Mellitus__MODY__DKA]] Hypoglycaemia owns the child-with-diabetes management (**glucagon 500mcg if <8 years or <25kg**; **IV 10% glucose 5mL/kg** rather than 20% dextrose), and [[15_23a_Paeds_-_NEC__Neonatal_Hypoglycaemia__Hypotonia]] Neonatal hypoglycaemia owns the newborn, where there is **no fixed definition and the working figure is <2.6 mmol/L** rather than the <3.3 above.
 
 **Prevention:** patient education on symptoms, encourage frequent monitoring (especially in T1DM), provide a Hypokit (with glucagon).
 
