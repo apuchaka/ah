@@ -12,7 +12,9 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 
 1. **Verify before writing any cross-reference.** Check the target file's exact header text first. Never write a plausible-sounding section name and assume it exists.
 
-2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
+2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, **markdown emphasis inside a word**, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
+   - **The markdown case specifically:** this corpus bolds acronym expansions letter by letter — `**H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets`. A search for `Haemolysis` finds nothing, because the literal text is `**H**aemolysis`. **Whenever a search for an acronym expansion returns zero hits, search again for a distinctive letter-run from the middle of the word** (`aemolysis`) before concluding the expansion is absent. The construction most likely to be searched for is the one least likely to be found.
+   - Also never conclude absence from **truncated** output: a hit that was returned and cut off by a `cut`/`head` limit looks identical to no hit at all. View the full line.
 
 3. **Every automated scan produces false positives.** Verify each hit manually against actual file content before treating it as a gap. Report dismissed artifacts alongside confirmed gaps — the ratio is the main signal of whether the run was careful.
 
