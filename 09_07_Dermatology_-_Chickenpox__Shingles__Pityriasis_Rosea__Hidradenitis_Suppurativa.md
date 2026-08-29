@@ -74,7 +74,14 @@ source: quackquackmed 09.07 Chickenpox, Shingles, Pityriasis rosea, Hidradenitis
 - **A/P:** possibly an autoimmune disease — repeated inflammation occludes the hair follicles and apocrine glands → nodules, abscesses and scarring.
 - **S/Smx:** recurrent, painful and inflamed nodules, especially in the axillae; nodules may rupture, releasing pus. More severe/complicated disease: rope-like scarring, plaques, sinus tracts, contractures, lymphatic obstruction.
 
-> [!info] Hurley classification — 3 classes based on severity.
+> [!info] **Hurley classification — 3 stages, and the distinction that separates them is *sinus tracts and scarring*, not how many lesions there are.**
+> - **Stage I:** single or multiple isolated abscesses/nodules — **no sinus tracts, no scarring**.
+> - **Stage II:** recurrent abscesses, **widely separated** lesions, **with sinus tract formation and scarring**.
+> - **Stage III:** **diffuse or near-diffuse involvement** of an entire area, with multiple interconnected sinus tracts and abscesses.
+>
+> **Why it matters clinically:** Hurley stage is what drives the management ladder below — topical therapy and lifestyle measures at stage I, systemic therapy at stage II, and biologic plus surgical management at stage III. Staging a patient is therefore the step that decides treatment, not a descriptive afterthought.
+>
+> **The three classes were named but never listed** before the G4 round (2026-08-29) — the box announced a count and gave nothing, so the classification could not actually be applied. See `PENDING_GUIDELINE_CHECKS.md` **B54** for the Australian drug-specific questions this raised.
 
 - **Ix:** clinical diagnosis.
 - **DDx:** acne vulgaris (mainly face, upper chest; see [[09_03b_Dermatology_-_Acne_Vulgaris]] Acne vulgaris), follicular pyoderma (should respond rapidly to antibiotics), donovanosis (STI, mainly in regions of sexual contact; see [[08_08_Infectious_Disease_-_Genitourinary_Infections_and_STIs]] Donovanosis (granuloma inguinale)).
