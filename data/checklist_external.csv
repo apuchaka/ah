@@ -1,10 +1,10 @@
 system,condition,verdict,occurrences,first_location,scope_judgement
 Cardiovascular,Malignant hyperthermia,IN A TAUGHT SECTION,4,03a_Anaesthetics_Primer.md#Pre-Operative Assessment,covered - named inside a teaching entry
-Cardiovascular,Heart Failure with Preserved Ejection Fraction,ACRONYM MATCH ONLY,8,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Heart Failure with Preserved Ejection Fraction,ACRONYM MATCH ONLY,6,generated-initialism match only - not evidence of coverage,
 Cardiovascular,Peripheral artery aneurysm,IN A TAUGHT SECTION,1,01_Cardiovascular.md#0.35.9 Popliteal Artery Aneurysm,covered - named inside a teaching entry
 Cardiovascular,Vascular claudication,ABSENT,0,weak-signal:claudication=15,COVERED-SYNONYM: claudication under PAD
 Cardiovascular,Aneurysmal degeneration,IN A TAUGHT SECTION,1,01_Cardiovascular.md#0.35.5 Aortic Dissection,covered - named inside a teaching entry
-Cardiovascular,Blunt Myocardial Injury,ACRONYM MATCH ONLY,72,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Blunt Myocardial Injury,ABSENT,0,weak-signal:Myocardial=16,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Brugada Syndrome,OWNS ENTRY,3,01_Cardiovascular.md#0.18 Brugada Syndrome,covered - owns an entry
 Cardiovascular,Cardiovascular diseases,MENTIONED,1,,named in prose only - not individually verified
 Cardiovascular,Carotid-cavernous fistula,ABSENT,0,weak-signal:cavernous=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -16,7 +16,7 @@ Cardiovascular,LV hypertrophy,IN A TAUGHT SECTION,3,01_Cardiovascular.md#0.23 Hy
 Cardiovascular,Myocarditis,IN A TAUGHT SECTION,17,01_Cardiovascular.md#0.16 Long QT Syndrome,covered - named inside a teaching entry
 Cardiovascular,Patent foramen ovale (PFO),IN A TAUGHT SECTION,1,15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs.md#Ebstein's anomaly,covered - named inside a teaching entry
 Cardiovascular,Reticular veins,MENTIONED,1,,named in prose only - not individually verified
-Cardiovascular,Right Bundle Branch Block,ACRONYM MATCH ONLY,10,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Right Bundle Branch Block,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Saccular aneurysm,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Second Degree AV Block,ABSENT,0,,"COVERED-SYNONYM: 'Mobitz I, Wenckebach' / 'Mobitz II' (l.492-3)"
 Cardiovascular,Sinus Arrest,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -32,7 +32,7 @@ Cardiovascular,Vascular occlusion,ABSENT,0,weak-signal:occlusion=36,UMBRELLA LAB
 Cardiovascular,Venous stasis edema,ABSENT,0,,UMBRELLA LABEL - not a condition an entry could own
 Cardiovascular,Abdominal Aortic Aneurysm (AAA),IN A TAUGHT SECTION,18,01_Cardiovascular.md#0.35.4 Aortic Aneurysm,covered - named inside a teaching entry
 Cardiovascular,Aortic dissection,OWNS ENTRY,14,01_Cardiovascular.md#0.35.5 Aortic Dissection,covered - owns an entry
-Cardiovascular,Double aortic arch,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Double aortic arch,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Hemangioma,OWNS ENTRY,5,15_23b_Paeds_-_Minor_Neonatal_Problems.md#Infantile haemangioma (strawberry naevus),covered - owns an entry
 Cardiovascular,LV aneurysm,MENTIONED,1,,named in prose only - not individually verified
 Cardiovascular,Obstructive Shock,OWNS ENTRY,0,01_Cardiovascular.md#0.20.4 Obstructive shock,covered - owns an entry
@@ -55,16 +55,16 @@ Cardiovascular,Patent ductus arteriosus,OWNS ENTRY,4,15_05_Paeds_-_Acyanotic_Con
 Cardiovascular,Pseudoaneurysm,ABSENT,0,,GAP: zero hits; post-catheterisation femoral pseudoaneurysm is a ward finding
 Cardiovascular,Superficial thrombophlebitis,IN A TAUGHT SECTION,2,01_Cardiovascular.md#0.35.6 Varicose Veins,covered - named inside a teaching entry
 Cardiovascular,Graft thrombosis,ABSENT,0,weak-signal:thrombosis=43,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Cardiovascular,Heart Failure with Reduced Ejection Fraction,ACRONYM MATCH ONLY,18,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Heart Failure with Reduced Ejection Fraction,ABSENT,0,weak-signal:Ejection=13,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Ventricular Fibrillation,OWNS ENTRY,2,01_Cardiovascular.md#0.6 Ventricular Fibrillation,covered - owns an entry
 Cardiovascular,CVD events,IN A TAUGHT SECTION,1,01_Cardiovascular.md#0.39 Dyslipidaemia,covered - named inside a teaching entry
 Cardiovascular,First Degree AV Block,ABSENT,0,,COVERED-SYNONYM: 01_Cardiovascular 'first degree heart block' (l.537)
 Cardiovascular,Mesenteric Ischemia,IN A TAUGHT SECTION,4,03_Gastrointestinal.md#Ischaemic Bowel Disease,covered - named inside a teaching entry
 Cardiovascular,Orthostatic hypotension,IN A TAUGHT SECTION,13,04_Neurology.md#Syncope,covered - named inside a teaching entry
 Cardiovascular,Pericardial Effusion,IN A TAUGHT SECTION,6,01_Cardiovascular.md#0.31 Pericarditis,covered - named inside a teaching entry
-Cardiovascular,Popliteal entrapment syndrome,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Popliteal entrapment syndrome,ABSENT,0,weak-signal:entrapment=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Post-thrombotic syndrome,IN A TAUGHT SECTION,1,01_Cardiovascular.md#0.28 Deep Vein Thrombosis (DVT),covered - named inside a teaching entry
-Cardiovascular,Pre-Excitation Syndromes,ACRONYM MATCH ONLY,8,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Pre-Excitation Syndromes,ABSENT,0,weak-signal:Excitation=6,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Stent fracture,ABSENT,0,weak-signal:fracture=300,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Sudden Cardiac Death,IN A TAUGHT SECTION,9,01_Cardiovascular.md#0.17 Short QT Syndrome,covered - named inside a teaching entry
 Cardiovascular,Myocardial Infarction (MI),IN A TAUGHT SECTION,3,01_Cardiovascular.md#0.1 Acute Coronary Syndrome (ACS),covered - named inside a teaching entry
@@ -72,7 +72,7 @@ Cardiovascular,Pulmonary Regurgitation,MENTIONED,1,,named in prose only - not in
 Cardiovascular,Restrictive Cardiomyopathy,OWNS ENTRY,6,01_Cardiovascular.md#0.41 Restrictive Cardiomyopathy,covered - owns an entry
 Cardiovascular,Carotid stenosis,IN A TAUGHT SECTION,2,04_Neurology.md#Transient Ischaemic Attack (TIA),covered - named inside a teaching entry
 Cardiovascular,Cystic medial necrosis,ABSENT,0,weak-signal:necrosis=51,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Cardiovascular,Left Bundle Branch Block,ACRONYM MATCH ONLY,8,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Left Bundle Branch Block,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Penetrating Aortic Ulcer,ABSENT,0,weak-signal:Penetrating=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Papillary Fibroelastoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Splenic artery aneurysm,ABSENT,0,weak-signal:aneurysm=54,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -87,7 +87,7 @@ Cardiovascular,Buerger's disease (Thromboangiitis Obliterans),ABSENT,0,,"OUT OF 
 Cardiovascular,Cardiogenic Shock,OWNS ENTRY,6,01_Cardiovascular.md#0.20.1 Cardiogenic shock,covered - owns an entry
 Cardiovascular,Leriche Syndrome,OWNS ENTRY,0,01_Cardiovascular.md#0.35.3 Leriche Syndrome,covered - owns an entry
 Cardiovascular,Sinus Bradycardia,MENTIONED,1,,named in prose only - not individually verified
-Cardiovascular,Acute Aortoiliac Occlusion,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Acute Aortoiliac Occlusion,ABSENT,0,weak-signal:Aortoiliac=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Acute Coronary Syndromes,OWNS ENTRY,4,01_Cardiovascular.md#0.1 Acute Coronary Syndrome (ACS),covered - owns an entry
 Cardiovascular,Acute Decompensated Heart Failure,ABSENT,0,weak-signal:Decompensated=14,COVERED-SYNONYM: acute heart failure content
 Cardiovascular,Acute limb ischemia (ALI),IN A TAUGHT SECTION,5,01_Cardiovascular.md#0.35.1 Peripheral Arterial Disease (PAD),covered - named inside a teaching entry
@@ -144,7 +144,7 @@ Cardiovascular,Paradoxical embolism,ABSENT,0,weak-signal:Paradoxical=19,"OUT OF 
 Cardiovascular,Pericardial Disease,IN A TAUGHT SECTION,1,01_Cardiovascular.md#0.41 Restrictive Cardiomyopathy,covered - named inside a teaching entry
 Cardiovascular,Peripartum Cardiomyopathy,ABSENT,0,weak-signal:Cardiomyopathy=30,GAP: zero hits; postpartum breathlessness differential
 Cardiovascular,Peripheral arterial disease (PAD),OWNS ENTRY,39,01_Cardiovascular.md#0.35.1 Peripheral Arterial Disease (PAD),covered - owns an entry
-Cardiovascular,Phlegmasia alba dolens,ACRONYM MATCH ONLY,56,generated-initialism match only - not evidence of coverage,
+Cardiovascular,Phlegmasia alba dolens,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Phlegmasia cerula dolens,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Cardiovascular,Pulmonary stenosis,IN A TAUGHT SECTION,3,15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs.md#Tetralogy of Fallot (ToF),covered - named inside a teaching entry
 Cardiovascular,Raynaud's,IN A TAUGHT SECTION,7,10_02_Haemonc_-_Lymphomas_and_Multiple_Myeloma.md#0.3.1 Other plasma cell disorders,covered - named inside a teaching entry
@@ -317,12 +317,12 @@ Neurology,Neuroma,OWNS ENTRY,2,13_03_ENT_-_Deafness_and_Vertigo_Conditions.md#Ve
 Neurology,Paraneoplastic limbic encephalitis,ABSENT,0,weak-signal:Paraneoplastic=12,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Pilocytic astrocytoma,MENTIONED,1,,named in prose only - not individually verified
 Neurology,Pleomorphic xanthoastrocytoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Neurology,Posterior fossa tumours,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Neurology,Posterior fossa tumours,ABSENT,0,weak-signal:Posterior=98,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Schwannoma,OWNS ENTRY,11,13_03_ENT_-_Deafness_and_Vertigo_Conditions.md#Vestibular schwannoma (acoustic neuroma),covered - owns an entry
 Neurology,Subependymal giant cell astrocytoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Subependymoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Vestibular Schwannoma,OWNS ENTRY,9,13_03_ENT_-_Deafness_and_Vertigo_Conditions.md#Vestibular schwannoma (acoustic neuroma),covered - owns an entry
-Neurology,Anterior Cutaneous Nerve Entrapment Syndrome,ACRONYM MATCH ONLY,32,generated-initialism match only - not evidence of coverage,
+Neurology,Anterior Cutaneous Nerve Entrapment Syndrome,ABSENT,0,weak-signal:Entrapment=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Autonomic Dysreflexia,OWNS ENTRY,2,11_06_Ortho_-_Spinal_Orthopaedics.md#Autonomic dysreflexia,covered - owns an entry
 Neurology,Axillary nerve injury,IN A TAUGHT SECTION,2,11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md#Shoulder dislocation,covered - named inside a teaching entry
 Neurology,Axonotmesis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -331,7 +331,7 @@ Neurology,Brain Injury,IN A TAUGHT SECTION,11,04_Neurology.md#Frontotemporal Lob
 Neurology,Brown-Sequard Syndrome,OWNS ENTRY,1,04_Neurology.md#Brown-Séquard Syndrome,covered - owns an entry
 Neurology,Cavernous sinus fistula,ABSENT,0,weak-signal:Cavernous=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Central Cord Syndrome,ABSENT,0,,"GAP: commonest incomplete cord syndrome; Brown-Sequard owns an entry, this has no mention"
-Neurology,Central Tentorial Herniation,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Neurology,Central Tentorial Herniation,ABSENT,0,weak-signal:Herniation=22,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Cerebellar contusion,MENTIONED,1,,named in prose only - not individually verified
 Neurology,CN IV palsy,IN A TAUGHT SECTION,1,05_Ophthalmology.md#Paralytic Squint,covered - named inside a teaching entry
 Neurology,Duchenne-Erb Palsy,ABSENT,0,weak-signal:Duchenne=6,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -359,14 +359,14 @@ Neurology,Subdural Hematoma,OWNS ENTRY,4,04_Neurology.md#Subdural Haematoma,cove
 Neurology,Subfalcine Herniation,ABSENT,0,,COVERED-SYNONYM: herniation content
 Neurology,Sural nerve injury,IN A TAUGHT SECTION,1,11_05_Ortho_-_Knee_and_Ankle.md#Tendon rupture,covered - named inside a teaching entry
 Neurology,Tonsillar Herniation,ABSENT,0,weak-signal:Herniation=22,COVERED-SYNONYM: herniation content
-Neurology,Ulnar nerve injury,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Neurology,Ulnar nerve injury,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,Upward Herniation,ABSENT,0,weak-signal:Herniation=22,COVERED-SYNONYM: herniation content
 Neurology,Alien hand syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Neurology,Anterior Cord Syndrome,ACRONYM MATCH ONLY,42,generated-initialism match only - not evidence of coverage,
+Neurology,Anterior Cord Syndrome,ABSENT,0,weak-signal:Anterior=108,"GAP: zero hits, hidden behind the ACS collision (acute coronary syndrome, 40 uses). Completes the incomplete-cord-syndrome set with central and posterior, both already queued"
 Neurology,Cerebellar infarction,ABSENT,0,weak-signal:Cerebellar=31,"GAP: posterior circulation stroke presenting as vertigo, the classic miss; no cerebellar stroke content"
 Neurology,Cerebrovascular disease (CVD),IN A TAUGHT SECTION,19,01_Cardiovascular.md#0.39 Dyslipidaemia,covered - named inside a teaching entry
 Neurology,Cerebrovascular events,ABSENT,0,weak-signal:Cerebrovascular=4,UMBRELLA LABEL - not a condition an entry could own
-Neurology,Clumsy hand-dysarthria syndrome,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Neurology,Clumsy hand-dysarthria syndrome,ABSENT,0,weak-signal:dysarthria=12,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Neurology,CN III palsy,IN A TAUGHT SECTION,10,04_Neurology.md#Horner's Syndrome,covered - named inside a teaching entry
 Neurology,Cortical blindness,MENTIONED,1,,named in prose only - not individually verified
 Neurology,Delayed cerebral ischemia,IN A TAUGHT SECTION,1,04_Neurology.md#Subarachnoid Haemorrhage (SAH),covered - named inside a teaching entry
@@ -439,7 +439,7 @@ Dermatology,Melasma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by r
 Dermatology,Acne/Acne Vulgaris,OWNS ENTRY,19,09_03b_Dermatology_-_Acne_Vulgaris.md#Acne vulgaris,covered - owns an entry
 Dermatology,Aquagenic pruritus,MENTIONED,2,,named in prose only - not individually verified
 Dermatology,Asteatotic Dermatitis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Dermatology,Boston-type syndrome,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Dermatology,Boston-type syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Dermatology,Cherry Angioma/Cherry hemangiomas,ABSENT,0,weak-signal:hemangiomas=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Dermatology,Dermatitis,OWNS ENTRY,42,09_04_Dermatology_-_Eczema__Psoriasis__Rosacea.md#Contact Dermatitis (Irritant and Allergic),covered - owns an entry
 Dermatology,Dermatofibroma,OWNS ENTRY,1,09_02_Dermatology_-_Melanocytic_Lesions_and_Mimickers.md#Dermatofibroma,covered - owns an entry
@@ -500,7 +500,7 @@ Dermatology,Marjolin ulcer,IN A TAUGHT SECTION,4,09_02_Dermatology_-_Melanocytic
 Dermatology,Melanoma,OWNS ENTRY,41,09_02_Dermatology_-_Melanocytic_Lesions_and_Mimickers.md#Melanoma,covered - owns an entry
 Dermatology,Nonmelanoma Skin Cancers,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Dermatology,Pilar Cyst,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Dermatology,Sebaceous cell carcinoma,ACRONYM MATCH ONLY,32,generated-initialism match only - not evidence of coverage,
+Dermatology,Sebaceous cell carcinoma,ABSENT,0,weak-signal:Sebaceous=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Dermatology,Skin cancer,IN A TAUGHT SECTION,13,06_Metabolic_Medicine_and_Endocrinology.md#Vitamin D Deficiency,covered - named inside a teaching entry
 Dermatology,Squamous Cell Carcinoma (SCC),OWNS ENTRY,28,09_03a_Dermatology_-_Non-Melanoma_Skin_Cancer.md#Squamous cell carcinoma (SCC),covered - owns an entry
 Dermatology,Occupational acne,ABSENT,0,weak-signal:Occupational=37,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -570,7 +570,7 @@ Endocrine and Metabolic,Thyroid storm,OWNS ENTRY,4,06_Metabolic_Medicine_and_End
 Endocrine and Metabolic,Thyrotoxicosis,OWNS ENTRY,17,06_Metabolic_Medicine_and_Endocrinology.md#Thyroid Storm (Thyrotoxic Crisis),covered - owns an entry
 Endocrine and Metabolic,Toxic Adenoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Endocrine and Metabolic,Toxic Nodular Goitre,IN A TAUGHT SECTION,2,06_Metabolic_Medicine_and_Endocrinology.md#Hyperthyroidism,covered - named inside a teaching entry
-Endocrine and Metabolic,Hungry bone syndrome,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Endocrine and Metabolic,Hungry bone syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Endocrine and Metabolic,Constitutional delay,MENTIONED,1,,named in prose only - not individually verified
 Endocrine and Metabolic,Post-gastric bypass hypoglycemia,ABSENT,0,weak-signal:hypoglycemia=53,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Endocrine and Metabolic,Subacute Thyroiditis,IN A TAUGHT SECTION,1,06_Metabolic_Medicine_and_Endocrinology.md#Hypothyroidism,covered - named inside a teaching entry
@@ -593,7 +593,7 @@ Endocrine and Metabolic,Glycogen Storage Diseases,MENTIONED,1,,named in prose on
 Endocrine and Metabolic,Hereditary Chylomicronemia,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Endocrine and Metabolic,Hurler syndrome,MENTIONED,1,,named in prose only - not individually verified
 Endocrine and Metabolic,Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency,ABSENT,0,weak-signal:dehydrogenase=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Endocrine and Metabolic,Maple syrup urine disease,ACRONYM MATCH ONLY,9,generated-initialism match only - not evidence of coverage,
+Endocrine and Metabolic,Maple syrup urine disease,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Endocrine and Metabolic,Maturity-Onset Diabetes of the Young,OWNS ENTRY,0,15_16b_Paeds_-_Diabetes_Mellitus__MODY__DKA.md#Maturity onset diabetes of the young (MODY),covered - owns an entry
 Endocrine and Metabolic,McArdle disease,IN A TAUGHT SECTION,1,15_17b_Paeds_-_Glycogen_Storage_Disorders__PKU__Lysosomal_Storage_Diseases.md#Glycogen storage disorders,covered - named inside a teaching entry
 Endocrine and Metabolic,Medium chain acyl-CoA dehydrogenase deficiency,ABSENT,0,weak-signal:dehydrogenase=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -734,7 +734,7 @@ Genitourinary and Reproductive,Endometriosis,OWNS ENTRY,15,17_05_PID__Endometrio
 Genitourinary and Reproductive,Fibrocystic breast changes,OWNS ENTRY,0,10_12_Oncology_-_Breast.md#Fibrocystic breast changes,covered - owns an entry
 Genitourinary and Reproductive,Mammary duct ectasia,OWNS ENTRY,1,10_12_Oncology_-_Breast.md#Mammary duct ectasia,covered - owns an entry
 Genitourinary and Reproductive,Ovarian hyperstimulation syndrome,OWNS ENTRY,2,17_06_Subfertility_and_OHSS.md#Ovarian hyperstimulation syndrome (OHSS),covered - owns an entry
-Genitourinary and Reproductive,Ovarian remnant syndrome,ACRONYM MATCH ONLY,3,generated-initialism match only - not evidence of coverage,
+Genitourinary and Reproductive,Ovarian remnant syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Peyronie's Disease,IN A TAUGHT SECTION,2,07_Renal_Medicine_and_Urology.md#Erectile Dysfunction (ED),covered - named inside a teaching entry
 Genitourinary and Reproductive,Pulmonary endometriosis,ABSENT,0,weak-signal:endometriosis=12,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Spermatocele,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -773,7 +773,7 @@ Genitourinary and Reproductive,Adenocarcinoma of the cervix,ABSENT,0,weak-signal
 Genitourinary and Reproductive,Bartholin's gland carcinoma,ABSENT,0,weak-signal:Bartholin=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Borderline ovarian tumour,ABSENT,0,weak-signal:Borderline=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Cervical cancer,OWNS ENTRY,23,17_09_Cervical__Vaginal_and_Endometrial_Cancer.md#Cervical cancer screening,covered - owns an entry
-Genitourinary and Reproductive,Cervical intraepithelial neoplasia,ACRONYM MATCH ONLY,10,generated-initialism match only - not evidence of coverage,
+Genitourinary and Reproductive,Cervical intraepithelial neoplasia,ABSENT,0,weak-signal:intraepithelial=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Choriocarcinoma,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Testicular Cancer,covered - named inside a teaching entry
 Genitourinary and Reproductive,Clear cell ovarian carcinoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Endometrial cancer,OWNS ENTRY,21,17_09_Cervical__Vaginal_and_Endometrial_Cancer.md#Endometrial cancer,covered - owns an entry
@@ -782,7 +782,7 @@ Genitourinary and Reproductive,Endometrial stromal sarcoma,ABSENT,0,weak-signal:
 Genitourinary and Reproductive,Endometrioid ovarian carcinoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Epithelial ovarian cancer,IN A TAUGHT SECTION,1,17_10_Ovarian_Cancer__Cysts_and_Torsion.md#Ovarian cancer,covered - named inside a teaching entry
 Genitourinary and Reproductive,Fibroadenoma,OWNS ENTRY,11,10_12_Oncology_-_Breast.md#Fibroadenoma,covered - owns an entry
-Genitourinary and Reproductive,Granulosa-theca cell tumour,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Genitourinary and Reproductive,Granulosa-theca cell tumour,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Gynecological tumour,ABSENT,0,weak-signal:Gynecological=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Hemorrhagic fibroid,ABSENT,0,weak-signal:Hemorrhagic=25,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Intraductal papilloma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -813,7 +813,7 @@ Genitourinary and Reproductive,Ovarian Torsion,OWNS ENTRY,4,17_10_Ovarian_Cancer
 Genitourinary and Reproductive,Paraphimosis,IN A TAUGHT SECTION,4,07_Renal_Medicine_and_Urology.md#Urinary Retention,covered - named inside a teaching entry
 Genitourinary and Reproductive,Testicular Torsion,OWNS ENTRY,12,07_Renal_Medicine_and_Urology.md#Testicular Torsion,covered - owns an entry
 Genitourinary and Reproductive,Urethral Stricture,IN A TAUGHT SECTION,5,07_Renal_Medicine_and_Urology.md#Urinary Retention,covered - named inside a teaching entry
-Genitourinary and Reproductive,Vaginal inclusion cyst,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Genitourinary and Reproductive,Vaginal inclusion cyst,ABSENT,0,weak-signal:inclusion=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Pelvic congestion syndrome,ABSENT,0,weak-signal:congestion=17,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Priapism,OWNS ENTRY,11,07_Renal_Medicine_and_Urology.md#Priapism,covered - owns an entry
 Genitourinary and Reproductive,Varicocele,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Renal Cell Carcinoma (RCC),covered - named inside a teaching entry
@@ -825,7 +825,7 @@ Gastroenterology,Cirrhosis,OWNS ENTRY,65,03_Gastrointestinal.md#Cirrhosis,covere
 Gastroenterology,Pancreatitis,OWNS ENTRY,47,03_Gastrointestinal.md#Acute Pancreatitis,covered - owns an entry
 Gastroenterology,Autoimmune atrophic gastritis,ABSENT,0,weak-signal:Autoimmune=124,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Autoimmune Hepatitis,OWNS ENTRY,1,03_Gastrointestinal.md#Autoimmune Hepatitis,covered - owns an entry
-Gastroenterology,Autoimmune Liver Disease,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Gastroenterology,Autoimmune Liver Disease,ABSENT,0,weak-signal:Autoimmune=124,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Autoimmune Pancreatitis,ABSENT,0,weak-signal:Pancreatitis=47,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Biliary cirrhosis,IN A TAUGHT SECTION,2,09_02_Dermatology_-_Melanocytic_Lesions_and_Mimickers.md#Pyoderma gangrenosum,covered - named inside a teaching entry
 Gastroenterology,Celiac Disease,OWNS ENTRY,36,03_Gastrointestinal.md#Coeliac Disease,covered - owns an entry
@@ -839,7 +839,7 @@ Gastroenterology,Primary sclerosing cholangitis,OWNS ENTRY,1,03_Gastrointestinal
 Gastroenterology,Chronic constipation,IN A TAUGHT SECTION,5,03_Gastrointestinal.md#Sigmoid and Caecal Volvulus,covered - named inside a teaching entry
 Gastroenterology,Fecal impaction,IN A TAUGHT SECTION,5,03_Gastrointestinal.md#Faecal Incontinence (Adult),covered - named inside a teaching entry
 Gastroenterology,Irritable bowel syndrome,OWNS ENTRY,4,03_Gastrointestinal.md#Irritable Bowel Syndrome (IBS),covered - owns an entry
-Gastroenterology,Amyand's hernia,ACRONYM MATCH ONLY,6,generated-initialism match only - not evidence of coverage,
+Gastroenterology,Amyand's hernia,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Anal atresia,IN A TAUGHT SECTION,1,"15_22b_Paeds_-_Neonatal_Respiratory_Distress_and_Jaundice.md#Aetiologies, risk factors, and pathophysiology",covered - named inside a teaching entry
 Gastroenterology,Biliary atresia,MENTIONED,1,,named in prose only - not individually verified
 Gastroenterology,Caroli disease,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -889,7 +889,7 @@ Gastroenterology,Maldigestion,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (class
 Gastroenterology,Pancreatic insufficiency,IN A TAUGHT SECTION,2,02_Respiratory.md#Cystic Fibrosis,covered - named inside a teaching entry
 Gastroenterology,Incisional hernia,ABSENT,0,weak-signal:Incisional=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Achalasia,IN A TAUGHT SECTION,2,13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md#Dysphagia — approach,covered - named inside a teaching entry
-Gastroenterology,Afferent loop syndrome,ACRONYM MATCH ONLY,15,generated-initialism match only - not evidence of coverage,
+Gastroenterology,Afferent loop syndrome,ABSENT,0,weak-signal:Afferent=9,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Anorectal disease,ABSENT,0,weak-signal:Anorectal=11,UMBRELLA LABEL - not a condition an entry could own
 Gastroenterology,Bezoars,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Blind-loop syndrome,MENTIONED,1,,named in prose only - not individually verified
@@ -975,7 +975,7 @@ Gastroenterology,Colorectal cancer (CRC),OWNS ENTRY,25,03_Gastrointestinal.md#Co
 Gastroenterology,Colorectal Polyps,IN A TAUGHT SECTION,1,10_11b_Oncology_-_Genetic_Cancer_Predisposition_Syndromes.md#Familial adenomatous polyposis (FAP),covered - named inside a teaching entry
 Gastroenterology,Esophageal cancer,IN A TAUGHT SECTION,2,13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md#Dysphagia — approach,covered - named inside a teaching entry
 Gastroenterology,Esophageal obstruction,ABSENT,0,weak-signal:obstruction=174,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Gastroenterology,Gastric adenomatous polyp,ACRONYM MATCH ONLY,640,generated-initialism match only - not evidence of coverage,
+Gastroenterology,Gastric adenomatous polyp,ABSENT,0,weak-signal:adenomatous=3,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Gastrointestinal stromal tumour,ABSENT,0,weak-signal:Gastrointestinal=92,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Hepatic adenoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Intraductal papillary mucinous neoplasm,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1007,7 +1007,7 @@ Gastroenterology,Budd-Chiari syndrome,MENTIONED,2,,named in prose only - not ind
 Gastroenterology,Dieulafoy's lesion,MENTIONED,1,,named in prose only - not individually verified
 Gastroenterology,Diverticular Bleeding,ABSENT,0,weak-signal:Diverticular=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Esophageal varices,IN A TAUGHT SECTION,3,03_Gastrointestinal.md#Alcohol-Related Liver Disease (ArLD),covered - named inside a teaching entry
-Gastroenterology,Gastric Antral Vascular Ectasia,ACRONYM MATCH ONLY,32,generated-initialism match only - not evidence of coverage,
+Gastroenterology,Gastric Antral Vascular Ectasia,ABSENT,0,weak-signal:Vascular=129,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Gastric varices,IN A TAUGHT SECTION,3,03_Gastrointestinal.md#Cirrhosis,covered - named inside a teaching entry
 Gastroenterology,Intestinal ischemia,ABSENT,0,weak-signal:Intestinal=27,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Gastroenterology,Ischaemic Bowel,OWNS ENTRY,1,03_Gastrointestinal.md#Ischaemic Bowel Disease,covered - owns an entry
@@ -1023,7 +1023,7 @@ Gastroenterology,Upper Gastrointestinal Bleeding,ABSENT,0,weak-signal:Gastrointe
 "Haematology, Genetics and Oncology",Immune Thrombocytopenia,OWNS ENTRY,4,10_07_Haemonc_-_Platelet_and_Clotting_Disorders__Neutropaenia.md#Immune thrombocytopenia (ITP),covered - owns an entry
 "Haematology, Genetics and Oncology",Pernicious anemia,IN A TAUGHT SECTION,4,03_Gastrointestinal.md#Autoimmune Hepatitis,covered - named inside a teaching entry
 "Haematology, Genetics and Oncology",Thrombotic thrombocytopenic purpura (TTP),OWNS ENTRY,3,10_05_Haemonc_-_Normocytic_Anaemia_and_Sickle_Cell_Disease.md#Thrombotic thrombocytopaenic purpura (TTP),covered - owns an entry
-"Haematology, Genetics and Oncology",Congenital bleeding disorders,ACRONYM MATCH ONLY,6,generated-initialism match only - not evidence of coverage,
+"Haematology, Genetics and Oncology",Congenital bleeding disorders,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
 "Haematology, Genetics and Oncology",Congenital lymphedema,ABSENT,0,weak-signal:lymphedema=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Dermoid Cyst,IN A TAUGHT SECTION,4,10_11b_Oncology_-_Genetic_Cancer_Predisposition_Syndromes.md#Familial adenomatous polyposis (FAP),covered - named inside a teaching entry
 "Haematology, Genetics and Oncology",Disorders of Sexual Differentiation (DSD),ABSENT,0,weak-signal:Differentiation=9,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1059,7 +1059,7 @@ Gastroenterology,Upper Gastrointestinal Bleeding,ABSENT,0,weak-signal:Gastrointe
 "Haematology, Genetics and Oncology",Hereditary diffuse gastric carcinoma,ABSENT,0,weak-signal:Hereditary=24,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Hereditary Elliptocytosis,IN A TAUGHT SECTION,1,15_14_Paeds_-_Anaemia__Sickle_Cell__Hereditary_Spherocytosis__HSP.md#Hereditary spherocytosis,covered - named inside a teaching entry
 "Haematology, Genetics and Oncology",Hereditary Hemochromatosis,ABSENT,0,weak-signal:Hemochromatosis=18,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-"Haematology, Genetics and Oncology",Hereditary Non-Polyposis Colon Cancer,ACRONYM MATCH ONLY,6,generated-initialism match only - not evidence of coverage,
+"Haematology, Genetics and Oncology",Hereditary Non-Polyposis Colon Cancer,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
 "Haematology, Genetics and Oncology",Hereditary nonpolyposis colorectal cancer,IN A TAUGHT SECTION,1,10_11b_Oncology_-_Genetic_Cancer_Predisposition_Syndromes.md#Lynch syndrome,covered - named inside a teaching entry
 "Haematology, Genetics and Oncology",Hereditary spherocytosis,OWNS ENTRY,11,10_05_Haemonc_-_Normocytic_Anaemia_and_Sickle_Cell_Disease.md#Hereditary spherocytosis,covered - owns an entry
 "Haematology, Genetics and Oncology",Heparin-induced thrombocytopenia with thrombosis (HITT),ABSENT,0,weak-signal:thrombocytopenia=25,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1154,7 +1154,7 @@ Gastroenterology,Upper Gastrointestinal Bleeding,ABSENT,0,weak-signal:Gastrointe
 "Haematology, Genetics and Oncology",Anaplastic thyroid carcinoma,ABSENT,0,weak-signal:Anaplastic=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Angiosarcoma,MENTIONED,2,,named in prose only - not individually verified
 "Haematology, Genetics and Oncology",Astrocytoma,MENTIONED,4,,named in prose only - not individually verified
-"Haematology, Genetics and Oncology",Atypical ductal hyperplasia,ACRONYM MATCH ONLY,30,generated-initialism match only - not evidence of coverage,
+"Haematology, Genetics and Oncology",Atypical ductal hyperplasia,ABSENT,0,weak-signal:hyperplasia=31,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Atypical lobular hyperplasia,ABSENT,0,weak-signal:hyperplasia=31,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Atypical teratoid/rhabdoid tumour,ABSENT,0,weak-signal:Atypical=69,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Bladder Carcinoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1242,7 +1242,7 @@ Gastroenterology,Upper Gastrointestinal Bleeding,ABSENT,0,weak-signal:Gastrointe
 "Haematology, Genetics and Oncology",Metastatic Tumours,ABSENT,0,weak-signal:Metastatic=44,UMBRELLA LABEL - not a condition an entry could own
 "Haematology, Genetics and Oncology",Minor salivary gland tumours,ABSENT,0,weak-signal:salivary=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Haematology, Genetics and Oncology",Monoclonal gammopathy,IN A TAUGHT SECTION,2,04_Neurology.md#Chronic Inflammatory Demyelinating (Poly)Neuropathy (CIDP),covered - named inside a teaching entry
-"Haematology, Genetics and Oncology",Monoclonal Gammopathy of Unknown Significance,ACRONYM MATCH ONLY,8,generated-initialism match only - not evidence of coverage,
+"Haematology, Genetics and Oncology",Monoclonal Gammopathy of Unknown Significance,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
 "Haematology, Genetics and Oncology",Mucoepidermoid carcinoma,MENTIONED,1,,named in prose only - not individually verified
 "Haematology, Genetics and Oncology",Multiple myeloma,OWNS ENTRY,15,10_02_Haemonc_-_Lymphomas_and_Multiple_Myeloma.md#0.3 Multiple myeloma,covered - owns an entry
 "Haematology, Genetics and Oncology",Mycosis Fungoides,MENTIONED,1,,named in prose only - not individually verified
@@ -1332,7 +1332,7 @@ Immunology and Allergy,Rheumatic Fever,OWNS ENTRY,23,01_Cardiovascular.md#0.22 R
 "Toxicology, Environmental and Trauma",Alcohol Intoxication,MENTIONED,1,,named in prose only - not individually verified
 "Toxicology, Environmental and Trauma",Alcohol overdose,ABSENT,0,weak-signal:overdose=19,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Amniotic band disruption sequence,ABSENT,0,weak-signal:disruption=28,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-"Toxicology, Environmental and Trauma",Fetal alcohol spectrum disorder,ACRONYM MATCH ONLY,1,generated-initialism match only - not evidence of coverage,
+"Toxicology, Environmental and Trauma",Fetal alcohol spectrum disorder,ABSENT,0,weak-signal:spectrum=68,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Benzodiazepine intoxication,ABSENT,0,weak-signal:Benzodiazepine=32,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Benzodiazepine overdose,ABSENT,0,weak-signal:Benzodiazepine=32,"GAP - thin: only one flumazenil mention, no entry"
 "Toxicology, Environmental and Trauma",Cannabinoid Hyperemesis Syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1354,7 +1354,7 @@ Immunology and Allergy,Rheumatic Fever,OWNS ENTRY,23,01_Cardiovascular.md#0.22 R
 "Toxicology, Environmental and Trauma",Manganism,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Mercury poisoning,ABSENT,0,weak-signal:poisoning=15,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Methanol Poisoning,ABSENT,0,weak-signal:Poisoning=15,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-"Toxicology, Environmental and Trauma",Paralytic shellfish poisoning,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+"Toxicology, Environmental and Trauma",Paralytic shellfish poisoning,ABSENT,0,weak-signal:Paralytic=6,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Child Abuse,IN A TAUGHT SECTION,9,18_Geriatrics_and_Older_Persons_Health.md#Abuse of Older People (Elder Abuse) and Carer Stress,covered - named inside a teaching entry
 "Toxicology, Environmental and Trauma",Domestic Violence,MENTIONED,3,,named in prose only - not individually verified
 "Toxicology, Environmental and Trauma",Sexual abuse,OWNS ENTRY,17,15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse.md#Sexual abuse,covered - owns an entry
@@ -1370,7 +1370,7 @@ Immunology and Allergy,Rheumatic Fever,OWNS ENTRY,23,01_Cardiovascular.md#0.22 R
 "Toxicology, Environmental and Trauma",Burns,OWNS ENTRY,75,11_09b_Ortho_-_Trauma.md#Burns and Scalds,covered - owns an entry
 "Toxicology, Environmental and Trauma",Carbon monoxide (CO) poisoning,MENTIONED,1,,named in prose only - not individually verified
 "Toxicology, Environmental and Trauma",Caustic ingestion,ABSENT,0,weak-signal:ingestion=18,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-"Toxicology, Environmental and Trauma",Cervical spine trauma,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+"Toxicology, Environmental and Trauma",Cervical spine trauma,ABSENT,0,weak-signal:Cervical=118,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Chemical burn,MENTIONED,1,,named in prose only - not individually verified
 "Toxicology, Environmental and Trauma",Closed fracture,OWNS ENTRY,2,11_01_Ortho_-_Orthopaedic_Emergencies.md#Management of closed fractures,covered - owns an entry
 "Toxicology, Environmental and Trauma",Coal Worker's Pneumoconiosis (CWP),IN A TAUGHT SECTION,2,02_Respiratory.md#Pneumoconioses (Occupational Lung Disease — brief overview),covered - named inside a teaching entry
@@ -1411,7 +1411,7 @@ Immunology and Allergy,Rheumatic Fever,OWNS ENTRY,23,01_Cardiovascular.md#0.22 R
 "Toxicology, Environmental and Trauma",Neurotrauma,ABSENT,0,,UMBRELLA LABEL - not a condition an entry could own
 "Toxicology, Environmental and Trauma",Odontoid fracture,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Olecranon fracture,ABSENT,0,weak-signal:Olecranon=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-"Toxicology, Environmental and Trauma",Orbital Floor Fracture (Blow-out fracture),ACRONYM MATCH ONLY,180,generated-initialism match only - not evidence of coverage,
+"Toxicology, Environmental and Trauma",Orbital Floor Fracture (Blow-out fracture),ABSENT,0,weak-signal:Fracture=300,"GAP: zero hits, hidden behind the OFF collision (the ordinary English word, 85 uses). Blow-out fracture is intern-level ED assessment and pairs with the queued facial-fracture gap"
 "Toxicology, Environmental and Trauma",Pelvic fracture,IN A TAUGHT SECTION,9,07_Renal_Medicine_and_Urology.md#Erectile Dysfunction (ED),covered - named inside a teaching entry
 "Toxicology, Environmental and Trauma",Physeal injury,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 "Toxicology, Environmental and Trauma",Pulmonary contusion,MENTIONED,2,,named in prose only - not individually verified
@@ -1467,7 +1467,7 @@ Psychiatry,Cyclothymia,OWNS ENTRY,4,14_01_Psych_-_Mood_Disorders__Depression__Su
 Psychiatry,Delusional Disorder,ABSENT,0,weak-signal:Delusional=3,GAP: zero hits; a named differential within the psychotic disorders the corpus does teach
 Psychiatry,Dependent Personality Disorder,OWNS ENTRY,0,14_04_Psych_-_Personality_Disorders.md#Dependent personality disorder,covered - owns an entry
 Psychiatry,Depersonalization/Derealization Disorder,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Psychiatry,Disruptive Mood Dysregulation Disorder,ACRONYM MATCH ONLY,5,generated-initialism match only - not evidence of coverage,
+Psychiatry,Disruptive Mood Dysregulation Disorder,ABSENT,0,weak-signal:Dysregulation=7,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Dissociative Amnesia,MENTIONED,1,,named in prose only - not individually verified
 Psychiatry,Dissociative Identity Disorder,MENTIONED,1,,named in prose only - not individually verified
 Psychiatry,Eating Disorders,OWNS ENTRY,17,14_05a_Psych_-_Eating_Disorders.md#Binge-eating disorder,covered - owns an entry
@@ -1513,12 +1513,12 @@ Psychiatry,Schizophrenia,OWNS ENTRY,16,14_03_Psych_-_Psychotic_Disorders_and_Ant
 Psychiatry,Schizophreniform Disorder,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Schizotypal Personality Disorder,OWNS ENTRY,0,14_04_Psych_-_Personality_Disorders.md#Schizotypal personality disorder,covered - owns an entry
 Psychiatry,Selective Mutism,ABSENT,0,weak-signal:Selective=21,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Psychiatry,Separation Anxiety Disorder,ACRONYM MATCH ONLY,3,generated-initialism match only - not evidence of coverage,
+Psychiatry,Separation Anxiety Disorder,ABSENT,0,weak-signal:Separation=12,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Sleep disorders,IN A TAUGHT SECTION,7,"02_Respiratory.md#Sleep Apnoea (Obstructive Sleep Apnoea, OSA)",covered - named inside a teaching entry
 Psychiatry,Sleep paralysis,ABSENT,0,weak-signal:paralysis=29,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Sleep Terrors,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Sleepwalking,ABSENT,0,,GAP: zero hits; see Parasomnias
-Psychiatry,Social Anxiety Disorder,ACRONYM MATCH ONLY,3,generated-initialism match only - not evidence of coverage,
+Psychiatry,Social Anxiety Disorder,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Somatic Symptom Disorder,OWNS ENTRY,3,14_05c_Psych_-_Unexplained_Symptoms__Somatoform__Dissociative__Factitious_Disorders_.md#Somatic symptom disorder (somatisation disorder),covered - owns an entry
 Psychiatry,Somatization Disorder,ABSENT,0,,COVERED-SYNONYM: somatic symptom disorder
 Psychiatry,Somnambulism,ABSENT,0,,GAP: zero hits; see Parasomnias
@@ -1549,7 +1549,7 @@ Psychiatry,Sensory deprivation,ABSENT,0,weak-signal:deprivation=17,"OUT OF SCOPE
 Psychiatry,Post Traumatic Stress Disorder (PTSD),OWNS ENTRY,6,14_02_Psych_-_Anxiety_and_Related_Disorders.md#Post-traumatic stress disorder (PTSD),covered - owns an entry
 Psychiatry,Functional Neurological Symptom Disorder (FNSD),ABSENT,0,weak-signal:Neurological=153,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Psychiatry,Panic Attack,IN A TAUGHT SECTION,3,14_02_Psych_-_Anxiety_and_Related_Disorders.md#Panic disorder,covered - named inside a teaching entry
-Psychiatry,Substance-Induced Psychotic Disorder,ACRONYM MATCH ONLY,3,generated-initialism match only - not evidence of coverage,
+Psychiatry,Substance-Induced Psychotic Disorder,ABSENT,0,weak-signal:Substance=65,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Ankylosing spondylitis (AS),OWNS ENTRY,18,12_02_Rheum_-_Ankylosing_Spondylitis__Gout__Pseudogout__Reactive_Arthritis__Fibromyalgia__PMR__CFS.md#Ankylosing spondylitis,covered - owns an entry
 Rheumatology and Musculoskeletal,Anti-C1q vasculitis,ABSENT,0,weak-signal:vasculitis=70,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Anti-synthetase syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1645,7 +1645,7 @@ Rheumatology and Musculoskeletal,Ehlers-Danlos type VI,ABSENT,0,,"OUT OF SCOPE a
 Rheumatology and Musculoskeletal,Jackson-Weiss syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Joint hypermobility,ABSENT,0,weak-signal:hypermobility=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Adhesive capsulitis,OWNS ENTRY,2,11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md#Adhesive capsulitis (frozen shoulder),covered - owns an entry
-Rheumatology and Musculoskeletal,Aneurysmal bone cyst,ACRONYM MATCH ONLY,20,generated-initialism match only - not evidence of coverage,
+Rheumatology and Musculoskeletal,Aneurysmal bone cyst,ABSENT,0,weak-signal:Aneurysmal=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Avascular necrosis (AVN),OWNS ENTRY,8,11_04_Ortho_-_Hip.md#Avascular necrosis of the hip,covered - owns an entry
 Rheumatology and Musculoskeletal,Capsular contracture,ABSENT,0,weak-signal:contracture=11,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Capsulitis,OWNS ENTRY,2,11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md#Adhesive capsulitis (frozen shoulder),covered - owns an entry
@@ -1659,7 +1659,7 @@ Rheumatology and Musculoskeletal,Frozen shoulder,OWNS ENTRY,1,11_02_Ortho_-_Uppe
 Rheumatology and Musculoskeletal,Ganglion Cyst,ABSENT,0,weak-signal:Ganglion=7,"COVERED-SYNONYM: ganglion, 10 uses"
 Rheumatology and Musculoskeletal,Kyphoscoliosis,IN A TAUGHT SECTION,3,04_Neurology.md#Friedreich's Ataxia,covered - named inside a teaching entry
 Rheumatology and Musculoskeletal,Kyphosis,OWNS ENTRY,5,11_06_Ortho_-_Spinal_Orthopaedics.md#Scheuermann's kyphosis (juvenile kyphosis),covered - owns an entry
-Rheumatology and Musculoskeletal,Ledderhose's disease,ACRONYM MATCH ONLY,1,generated-initialism match only - not evidence of coverage,
+Rheumatology and Musculoskeletal,Ledderhose's disease,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Legg-Calve-Perthes disease,ABSENT,0,,COVERED-SYNONYM: Perthes
 Rheumatology and Musculoskeletal,Musculoskeletal disorders,ABSENT,0,weak-signal:Musculoskeletal=22,UMBRELLA LABEL - not a condition an entry could own
 Rheumatology and Musculoskeletal,Myofascial pain syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1726,7 +1726,7 @@ Rheumatology and Musculoskeletal,Galeazzi fracture,OWNS ENTRY,1,11_02_Ortho_-_Up
 Rheumatology and Musculoskeletal,Gamekeeper's thumb,ABSENT,0,,GAP: zero hits for gamekeeper or skier's thumb
 Rheumatology and Musculoskeletal,Greenstick fracture,ABSENT,0,weak-signal:Greenstick=3,COVERED-SYNONYM: greenstick/torus/buckle content
 Rheumatology and Musculoskeletal,Hangman fracture,ABSENT,0,weak-signal:fracture=300,GAP: zero hits; C2 traumatic spondylolisthesis
-Rheumatology and Musculoskeletal,Heterotopic bone formation,ACRONYM MATCH ONLY,14,generated-initialism match only - not evidence of coverage,
+Rheumatology and Musculoskeletal,Heterotopic bone formation,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Heterotopic ossification,ABSENT,0,weak-signal:ossification=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Rheumatology and Musculoskeletal,Hill-Sachs lesion,ABSENT,0,,"GAP: zero hits, while Bankart is named in the shoulder dislocation content - half of a pair"
 Rheumatology and Musculoskeletal,Hip dislocation,OWNS ENTRY,1,11_04_Ortho_-_Hip.md#Hip dislocation,covered - owns an entry
@@ -1842,7 +1842,7 @@ Systemic and Miscellaneous,Impaction,IN A TAUGHT SECTION,11,03_Gastrointestinal.
 Systemic and Miscellaneous,Iron overload,IN A TAUGHT SECTION,7,03_Gastrointestinal.md#Haemochromatosis,covered - named inside a teaching entry
 Systemic and Miscellaneous,Malnutrition,OWNS ENTRY,17,15_07_Paeds_-_Abdominal_Pain__Neuroblastoma__Coeliac_Disease__Malnutrition__Diarrhoea_and_Vomiting.md#Malnutrition,covered - owns an entry
 Systemic and Miscellaneous,Multi-organ failure,MENTIONED,2,,named in prose only - not individually verified
-Systemic and Miscellaneous,Systemic Inflammatory Response Syndrome,ACRONYM MATCH ONLY,4,generated-initialism match only - not evidence of coverage,
+Systemic and Miscellaneous,Systemic Inflammatory Response Syndrome,ABSENT,0,weak-signal:Inflammatory=190,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Systemic and Miscellaneous,Paraneoplastic Syndrome,IN A TAUGHT SECTION,3,02_Respiratory.md#Small cell lung cancer (SCLC) — 15% of lung cancers,covered - named inside a teaching entry
 Systemic and Miscellaneous,Hemorrhagic shock,IN A TAUGHT SECTION,2,01_Cardiovascular.md#0.20.2 Hypovolaemic shock,covered - named inside a teaching entry
 Systemic and Miscellaneous,Intramural Hematoma,ABSENT,0,weak-signal:Intramural=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1863,7 +1863,7 @@ Systemic and Miscellaneous,Neck of Femur (NOF) Fracture,OWNS ENTRY,6,11_04_Ortho
 Obstetrics,Erythroblastosis fetalis,ABSENT,0,,COVERED-SYNONYM: haemolytic disease of the newborn / anti-D content
 Obstetrics,Rhesus (Rh) Alloimmunization,ABSENT,0,,"COVERED: anti-D and alloimmunisation, 93 uses"
 Obstetrics,Antenatal Depression,IN A TAUGHT SECTION,1,14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_.md#Perinatal depression,covered - named inside a teaching entry
-Obstetrics,Amniotic band syndrome,ACRONYM MATCH ONLY,1,generated-initialism match only - not evidence of coverage,
+Obstetrics,Amniotic band syndrome,ABSENT,0,weak-signal:Amniotic=18,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Obstetrics,Incomplete / Missed / Inevitable Abortion,OWNS ENTRY,102,16_16-17_Contraception.md#Missed COCP pills,covered - owns an entry
 Obstetrics,Vasa Previa,OWNS ENTRY,3,16_10-13_Labour_and_Delivery.md#Vasa praevia,covered - owns an entry
 Obstetrics,Amniotic Fluid Embolism,OWNS ENTRY,0,16_14-15_Obstetric_Emergencies.md#Amniotic fluid embolism,covered - owns an entry
@@ -1896,7 +1896,7 @@ Obstetrics,Intrauterine infections,IN A TAUGHT SECTION,1,16_08-09_Antenatal_and_
 Obstetrics,Septic abortion,ABSENT,0,weak-signal:abortion=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Obstetrics,Postpartum Endometritis (Puerperal Sepsis),MENTIONED,1,,named in prose only - not individually verified
 Obstetrics,Spontaneous abortion,ABSENT,0,weak-signal:Spontaneous=86,"COVERED-SYNONYM: miscarriage, 55 uses"
-Obstetrics,Gestational Diabetes Mellitus,ACRONYM MATCH ONLY,20,generated-initialism match only - not evidence of coverage,
+Obstetrics,Gestational Diabetes Mellitus,ABSENT,0,weak-signal:Gestational=24,"COVERED-SYNONYM: taught as '### Diabetes in pregnancy' 16_01-05:430, with the 28-week 75g OGTT criteria; no matcher reaches this rename"
 Obstetrics,Macrosomia,IN A TAUGHT SECTION,4,16_01-05_Antenatal_Care.md#Diabetes in pregnancy,covered - named inside a teaching entry
 Obstetrics,Gestational trophoblastic disease,OWNS ENTRY,2,17_04_Ectopic_Pregnancy_and_GTD.md#Gestational trophoblastic disease (GTD),covered - owns an entry
 Obstetrics,Gestational trophoblastic neoplasia,IN A TAUGHT SECTION,1,17_04_Ectopic_Pregnancy_and_GTD.md#Gestational trophoblastic disease (GTD),covered - named inside a teaching entry
@@ -1962,7 +1962,7 @@ Paediatrics and Neonatal,Radial Head Subluxation (Nursemaid's Elbow),ABSENT,0,we
 Paediatrics and Neonatal,Supracondylar Humerus Fracture,ABSENT,0,weak-signal:Supracondylar=3,"COVERED-SYNONYM: supracondylar fracture, 4 uses"
 Paediatrics and Neonatal,Perinatal hypoxia,ABSENT,0,weak-signal:Perinatal=42,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Glomerulonephritis,OWNS ENTRY,24,07_Renal_Medicine_and_Urology.md#ANCA-Associated Glomerulonephritis,covered - owns an entry
-Renal and Urology,Goodpasture's disease,ACRONYM MATCH ONLY,1,generated-initialism match only - not evidence of coverage,
+Renal and Urology,Goodpasture's disease,ABSENT,0,weak-signal:Goodpasture=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,IgA nephropathy,IN A TAUGHT SECTION,4,12_04_Rheum_-_Vasculitis.md#Henoch-Schönlein purpura (HSP),covered - named inside a teaching entry
 Renal and Urology,Membranoproliferative glomerulonephritis,ABSENT,0,weak-signal:Membranoproliferative=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Membranous glomerulopathy,ABSENT,0,weak-signal:glomerulopathy=1,"COVERED-SYNONYM: membranous nephropathy, thin"
@@ -1979,13 +1979,13 @@ Renal and Urology,Ureteropelvic Junction (UPJ) Obstruction,ABSENT,0,weak-signal:
 Renal and Urology,Vesicoureteral Reflux (VUR),MENTIONED,2,,named in prose only - not individually verified
 Renal and Urology,Acute urinary retention,IN A TAUGHT SECTION,2,07_Renal_Medicine_and_Urology.md#Urinary Retention,covered - named inside a teaching entry
 Renal and Urology,Analgesic nephropathy,ABSENT,0,weak-signal:nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Renal and Urology,Calcineurin inhibitor nephropathy,ACRONYM MATCH ONLY,10,generated-initialism match only - not evidence of coverage,
+Renal and Urology,Calcineurin inhibitor nephropathy,ABSENT,0,weak-signal:Calcineurin=12,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Neurogenic Bladder,IN A TAUGHT SECTION,6,04_Neurology.md#Diabetic Neuropathy,covered - named inside a teaching entry
 Renal and Urology,Stress incontinence,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Pyelonephritis,covered - named inside a teaching entry
 Renal and Urology,Urinary Retention,OWNS ENTRY,27,07_Renal_Medicine_and_Urology.md#Urinary Retention,covered - owns an entry
 Renal and Urology,Acute interstitial nephritis (AIN),OWNS ENTRY,3,07_Renal_Medicine_and_Urology.md#Acute Interstitial Nephritis,covered - owns an entry
 Renal and Urology,Balkan Nephropathy,ABSENT,0,weak-signal:Nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Renal and Urology,Focal segmental glomerulosclerosis,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Renal and Urology,Focal segmental glomerulosclerosis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Interstitial Cystitis,IN A TAUGHT SECTION,1,17_05_PID__Endometriosis__Fibroids.md#Chronic pelvic pain,covered - named inside a teaching entry
 Renal and Urology,Interstitial Nephritis,OWNS ENTRY,2,07_Renal_Medicine_and_Urology.md#Acute Interstitial Nephritis,covered - owns an entry
 Renal and Urology,Kidney cysts,ABSENT,0,,UMBRELLA LABEL - not a condition an entry could own
@@ -2002,10 +2002,10 @@ Renal and Urology,Tubulointerstitial disease,IN A TAUGHT SECTION,1,06_Metabolic_
 Renal and Urology,Uremia,IN A TAUGHT SECTION,14,01_Cardiovascular.md#0.31 Pericarditis,covered - named inside a teaching entry
 Renal and Urology,Urge incontinence,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Incontinence,covered - named inside a teaching entry
 Renal and Urology,Urinary Incontinence,OWNS ENTRY,16,15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md#Enuresis (urinary incontinence),covered - owns an entry
-Renal and Urology,Contrast-Induced Nephropathy,ACRONYM MATCH ONLY,10,generated-initialism match only - not evidence of coverage,
+Renal and Urology,Contrast-Induced Nephropathy,ABSENT,0,weak-signal:Nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Acute glomerulonephritis,OWNS ENTRY,3,15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md#Acute glomerulonephritis,covered - owns an entry
 Renal and Urology,Cystitis,OWNS ENTRY,20,03_Gastrointestinal.md#Acute Cholecystitis,covered - owns an entry
-Renal and Urology,HIV-associated nephropathy,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+Renal and Urology,HIV-associated nephropathy,ABSENT,0,weak-signal:nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Post-streptococcal glomerulonephritis,OWNS ENTRY,0,15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md#Post-streptococcal glomerulonephritis,covered - owns an entry
 Renal and Urology,Pyelonephritis,OWNS ENTRY,17,07_Renal_Medicine_and_Urology.md#Pyelonephritis,covered - owns an entry
 Renal and Urology,Recurrent Cystitis,ABSENT,0,weak-signal:Recurrent=158,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -2047,7 +2047,7 @@ Renal and Urology,Bladder Trauma,OWNS ENTRY,0,07_Renal_Medicine_and_Urology.md#U
 Renal and Urology,Perineal urethral fistula,ABSENT,0,weak-signal:Perineal=16,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Acute kidney injury (AKI),OWNS ENTRY,60,07_Renal_Medicine_and_Urology.md#Acute Kidney Injury (AKI),covered - owns an entry
 Renal and Urology,Acute tubular necrosis (ATN),OWNS ENTRY,8,07_Renal_Medicine_and_Urology.md#Acute Tubular Necrosis (ATN),covered - owns an entry
-Renal and Urology,Atheroembolic renal disease,ACRONYM MATCH ONLY,18,generated-initialism match only - not evidence of coverage,
+Renal and Urology,Atheroembolic renal disease,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Hypertensive nephrosclerosis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Pre-Renal Azotemia,ABSENT,0,weak-signal:Azotemia=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Renal and Urology,Renal artery stenosis,IN A TAUGHT SECTION,7,01_Cardiovascular.md#0.2 Hypertension,covered - named inside a teaching entry
@@ -2085,7 +2085,7 @@ Respiratory,Acute Fibrinous/Organizing Pneumonia,ABSENT,0,,"OUT OF SCOPE at inte
 Respiratory,Acute Interstitial Pneumonia (AIP),ABSENT,0,weak-signal:Interstitial=32,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Respiratory,Cryptogenic Organizing Pneumonia (COP),IN A TAUGHT SECTION,3,02_Respiratory.md#Community-acquired pneumonia (CAP),covered - named inside a teaching entry
 Respiratory,Desquamative Interstitial Pneumonia (DIP),IN A TAUGHT SECTION,23,01_Cardiovascular.md#0.32 Constrictive Pericarditis,covered - named inside a teaching entry
-Respiratory,Idiopathic Pleuroparenchymal Fibroelastosis (IPPFE),ACRONYM MATCH ONLY,20,generated-initialism match only - not evidence of coverage,
+Respiratory,Idiopathic Pleuroparenchymal Fibroelastosis (IPPFE),ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Respiratory,Idiopathic Pulmonary Fibrosis (IPF),OWNS ENTRY,14,02_Respiratory.md#Idiopathic Pulmonary Fibrosis (IPF),covered - owns an entry
 Respiratory,Interstitial lung disease (ILD),IN A TAUGHT SECTION,9,01_Cardiovascular.md#0.36 Pulmonary Hypertension,covered - named inside a teaching entry
 Respiratory,Interstitial Pneumonia,IN A TAUGHT SECTION,2,02_Respiratory.md#Idiopathic Pulmonary Fibrosis (IPF),covered - named inside a teaching entry
@@ -2118,7 +2118,7 @@ Respiratory,Upper Respiratory Tract Infection (URTI),OWNS ENTRY,26,02_Respirator
 Respiratory,Ventilator-Associated Pneumonia,ABSENT,0,weak-signal:Ventilator=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Respiratory,Primary ciliary dyskinesia,IN A TAUGHT SECTION,2,02_Respiratory.md#Bronchiectasis,covered - named inside a teaching entry
 Respiratory,Neurogenic pulmonary edema,ABSENT,0,weak-signal:Neurogenic=13,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Respiratory,Obesity-hypoventilation syndrome,ACRONYM MATCH ONLY,3,generated-initialism match only - not evidence of coverage,
+Respiratory,Obesity-hypoventilation syndrome,ABSENT,0,weak-signal:hypoventilation=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Respiratory,Respiratory acidosis,OWNS ENTRY,11,06_Metabolic_Medicine_and_Endocrinology.md#Respiratory Acidosis,covered - owns an entry
 Respiratory,Respiratory alkalosis,OWNS ENTRY,8,06_Metabolic_Medicine_and_Endocrinology.md#Respiratory Alkalosis,covered - owns an entry
 Respiratory,Respiratory arrest,IN A TAUGHT SECTION,3,01_Cardiovascular.md#0.20.3 Distributive shock,covered - named inside a teaching entry
@@ -2133,7 +2133,7 @@ Respiratory,Acute Respiratory Distress Syndrome (ARDS),OWNS ENTRY,17,02_Respirat
 Respiratory,Airway Obstruction,OWNS ENTRY,17,13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA.md#Foreign body airway obstruction (choking),covered - owns an entry
 Respiratory,Aspiration pneumonitis,OWNS ENTRY,1,02_Respiratory.md#Aspiration Pneumonia and Pneumonitis,covered - owns an entry
 Respiratory,Benign Asbestos Pleural Effusion (BAPE),ABSENT,0,weak-signal:Asbestos=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Respiratory,Chronic Beryllium Disease,ACRONYM MATCH ONLY,3,generated-initialism match only - not evidence of coverage,
+Respiratory,Chronic Beryllium Disease,ABSENT,0,weak-signal:Beryllium=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Respiratory,Chylothorax,MENTIONED,1,,named in prose only - not individually verified
 Respiratory,Foreign Body Aspiration,ABSENT,0,weak-signal:Aspiration=77,"COVERED-SYNONYM: foreign body content, 27 uses"
 Respiratory,Hemothorax,OWNS ENTRY,11,02_Respiratory.md#Empyema and Haemothorax,covered - owns an entry
@@ -2176,7 +2176,7 @@ ENT and Ophthalmology,Aniridia,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (clas
 ENT and Ophthalmology,Anisometropia,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Astigmatism,IN A TAUGHT SECTION,2,05_Ophthalmology.md#Ametropia (Refractive Error),covered - named inside a teaching entry
 ENT and Ophthalmology,Axenfeld-Rieger syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-ENT and Ophthalmology,Branchial cleft cyst,ACRONYM MATCH ONLY,18,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Branchial cleft cyst,ABSENT,0,weak-signal:Branchial=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Branchial sinus/cleft,OWNS ENTRY,22,15_13b_Paeds_-_Autism_Spectrum_Disorder_and_Cleft_Lip_Palate.md#Cleft lip and palate,covered - owns an entry
 ENT and Ophthalmology,Choanal atresia,IN A TAUGHT SECTION,1,"15_22b_Paeds_-_Neonatal_Respiratory_Distress_and_Jaundice.md#Aetiologies, risk factors, and pathophysiology",covered - named inside a teaching entry
 ENT and Ophthalmology,Cleft palate,IN A TAUGHT SECTION,8,10_03a_Haemonc_-_Primary_Immunodeficiencies.md#DiGeorge syndrome,covered - named inside a teaching entry
@@ -2195,10 +2195,10 @@ ENT and Ophthalmology,Megalocornea,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (
 ENT and Ophthalmology,Microphthalmia,IN A TAUGHT SECTION,4,08_05-06_Infectious_Disease_-_Viral_Infections.md#Rubella (German measles),covered - named inside a teaching entry
 ENT and Ophthalmology,Microtia,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Ossicular malformations,ABSENT,0,weak-signal:malformations=19,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-ENT and Ophthalmology,Pyriform aperture stenosis,ACRONYM MATCH ONLY,54,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Pyriform aperture stenosis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Retinal coloboma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Saccular cyst,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-ENT and Ophthalmology,Semicircular canal dehiscence,ACRONYM MATCH ONLY,10,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Semicircular canal dehiscence,ABSENT,0,weak-signal:Semicircular=3,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Septal deviation/dislocation,OWNS ENTRY,31,11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md#Shoulder dislocation,covered - owns an entry
 ENT and Ophthalmology,Strabismus,OWNS ENTRY,8,05_Ophthalmology.md#Strabismus (Squint),covered - owns an entry
 ENT and Ophthalmology,Subglottic hemangioma,ABSENT,0,weak-signal:Subglottic=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -2259,9 +2259,9 @@ ENT and Ophthalmology,Meniere's disease,OWNS ENTRY,11,13_03_ENT_-_Deafness_and_V
 ENT and Ophthalmology,Mixed Hearing Loss,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Normal tension glaucoma,IN A TAUGHT SECTION,1,05_Ophthalmology.md#Open-Angle Glaucoma,covered - named inside a teaching entry
 ENT and Ophthalmology,Pars planitis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-ENT and Ophthalmology,Patulous Eustachian tube,ACRONYM MATCH ONLY,22,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Patulous Eustachian tube,ABSENT,0,weak-signal:Eustachian=6,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Ranula,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-ENT and Ophthalmology,Recurrent Aphthous Stomatitis,ACRONYM MATCH ONLY,8,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Recurrent Aphthous Stomatitis,ABSENT,0,weak-signal:Stomatitis=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Stapedius muscle spasm,ABSENT,0,weak-signal:Stapedius=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Tight lens syndrome,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Tonsillar hypertrophy,IN A TAUGHT SECTION,1,"02_Respiratory.md#Sleep Apnoea (Obstructive Sleep Apnoea, OSA)",covered - named inside a teaching entry
@@ -2282,7 +2282,7 @@ ENT and Ophthalmology,Dental disease,ABSENT,0,,UMBRELLA LABEL - not a condition 
 ENT and Ophthalmology,Endophthalmitis,OWNS ENTRY,7,05_Ophthalmology.md#Endophthalmitis,covered - owns an entry
 ENT and Ophthalmology,External canal abscess,ABSENT,0,weak-signal:External=63,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Herpes zoster ophthalmicus,IN A TAUGHT SECTION,1,05_Ophthalmology.md#Ophthalmic Shingles,covered - named inside a teaching entry
-ENT and Ophthalmology,Herpes zoster oticus,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Herpes zoster oticus,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Hordeolum (Stye),OWNS ENTRY,6,05_Ophthalmology.md#Stye (Hordeolum) and Chalazion,covered - owns an entry
 ENT and Ophthalmology,HSV Keratitis,IN A TAUGHT SECTION,1,05_Ophthalmology.md#Keratitis,covered - named inside a teaching entry
 ENT and Ophthalmology,Keratitis,OWNS ENTRY,22,05_Ophthalmology.md#Keratitis,covered - owns an entry
@@ -2329,8 +2329,8 @@ ENT and Ophthalmology,Intraocular neoplasm,ABSENT,0,weak-signal:Intraocular=9,"O
 ENT and Ophthalmology,Inverting papilloma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Juvenile nasopharyngeal angiofibroma,ABSENT,0,weak-signal:nasopharyngeal=7,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Leukoplakia,OWNS ENTRY,2,17_07_Vulval_Problems__Genital_Warts_and_Herpes__Vulval_Carcinoma.md#Leukoplakia,covered - owns an entry
-ENT and Ophthalmology,Middle ear neoplasm,ACRONYM MATCH ONLY,104,generated-initialism match only - not evidence of coverage,
-ENT and Ophthalmology,Neoplasm of external canal,ACRONYM MATCH ONLY,2,generated-initialism match only - not evidence of coverage,
+ENT and Ophthalmology,Middle ear neoplasm,ABSENT,0,weak-signal:neoplasm=14,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+ENT and Ophthalmology,Neoplasm of external canal,ABSENT,0,weak-signal:Neoplasm=14,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Pleomorphic adenoma,IN A TAUGHT SECTION,3,13_07b_ENT_-_Salivary_Gland_Problems_and_Xerostomia.md#Salivary gland tumours,covered - named inside a teaching entry
 ENT and Ophthalmology,Salivary gland neoplasm,ABSENT,0,weak-signal:Salivary=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 ENT and Ophthalmology,Uveal melanoma,ABSENT,0,weak-signal:melanoma=43,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -2389,7 +2389,7 @@ Infectious Disease,Bacterial Tracheitis,OWNS ENTRY,0,15_04a_Paeds_-_URTI_and_LRT
 Infectious Disease,Bacteriuria,MENTIONED,6,,named in prose only - not individually verified
 Infectious Disease,Bacteroides fragilis,ABSENT,0,weak-signal:Bacteroides=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Bacteroides infection,ABSENT,0,weak-signal:Bacteroides=1,UMBRELLA LABEL - not a condition an entry could own
-Infectious Disease,Bacteroides melaninogenicus infection,ACRONYM MATCH ONLY,72,generated-initialism match only - not evidence of coverage,
+Infectious Disease,Bacteroides melaninogenicus infection,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Bartonellosis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Blastomycosis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Botulism,OWNS ENTRY,7,08_01-03_Infectious_Disease_-_Bacterial_Infections.md#Botulism,covered - owns an entry
@@ -2445,7 +2445,7 @@ Infectious Disease,Group A Streptococcus,ABSENT,0,weak-signal:Streptococcus=11,"
 Infectious Disease,Group A Streptococcus (GAS) infection,OWNS ENTRY,30,06_Metabolic_Medicine_and_Endocrinology.md#Arterial Blood Gas Reference Values,covered - owns an entry
 Infectious Disease,Group B Streptococcus (GBS) infection,OWNS ENTRY,45,04_Neurology.md#Guillain-Barré Syndrome (GBS),covered - owns an entry
 Infectious Disease,H. pylori infection,IN A TAUGHT SECTION,6,03_Gastrointestinal.md#Peptic Ulcer Disease,covered - named inside a teaching entry
-Infectious Disease,Haemophilus influenzae b disease,ACRONYM MATCH ONLY,18,generated-initialism match only - not evidence of coverage,
+Infectious Disease,Haemophilus influenzae b disease,ABSENT,0,weak-signal:Haemophilus=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Hand-Foot-and-Mouth Disease,OWNS ENTRY,2,"08_05-06_Infectious_Disease_-_Viral_Infections.md#Hand, foot and mouth disease (HFMD)",covered - owns an entry
 Infectious Disease,Hansen's Disease,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Hantavirus pulmonary syndrome,ABSENT,0,weak-signal:Hantavirus=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -2458,7 +2458,7 @@ Infectious Disease,Herpangina,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (class
 Infectious Disease,Herpes infection,ABSENT,0,,UMBRELLA LABEL - not a condition an entry could own
 Infectious Disease,Herpes Simplex Virus,OWNS ENTRY,2,08_05-06_Infectious_Disease_-_Viral_Infections.md#Herpes simplex virus (HSV),covered - owns an entry
 Infectious Disease,Herpes zoster,OWNS ENTRY,8,09_07_Dermatology_-_Chickenpox__Shingles__Pityriasis_Rosea__Hidradenitis_Suppurativa.md#Herpes zoster / shingles,covered - owns an entry
-Infectious Disease,Herpes Zoster Virus,ACRONYM MATCH ONLY,6,generated-initialism match only - not evidence of coverage,
+Infectious Disease,Herpes Zoster Virus,ABSENT,0,,UMBRELLA LABEL - not a condition an entry could own
 Infectious Disease,Herpetic Whitlow,ABSENT,0,weak-signal:Herpetic=6,GAP: zero hits; occupational hand infection with a do-not-incise rule
 Infectious Disease,Histoplasmosis,MENTIONED,2,,named in prose only - not individually verified
 Infectious Disease,HIV/AIDS,OWNS ENTRY,34,"11_09b_Ortho_-_Trauma.md#First aid — the intervention with the best evidence, and the one most often done wrong",covered - owns an entry
@@ -2533,13 +2533,13 @@ Infectious Disease,Septic Shock,IN A TAUGHT SECTION,9,01_Cardiovascular.md#0.20.
 Infectious Disease,Septic thrombophlebitis,ABSENT,0,weak-signal:thrombophlebitis=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Severe acute respiratory syndrome (SARS),OWNS ENTRY,1,08_05-06_Infectious_Disease_-_Viral_Infections.md#COVID-19 (SARS-CoV-2),covered - owns an entry
 Infectious Disease,Severe Sepsis,IN A TAUGHT SECTION,6,02_Respiratory.md#Hospital-acquired pneumonia (HAP),covered - named inside a teaching entry
-Infectious Disease,Sexually Transmitted Infections,ACRONYM MATCH ONLY,152,generated-initialism match only - not evidence of coverage,
+Infectious Disease,Sexually Transmitted Infections,ACRONYM MATCH ONLY,36,generated-initialism match only - not evidence of coverage,
 Infectious Disease,Shigella,IN A TAUGHT SECTION,4,12_02_Rheum_-_Ankylosing_Spondylitis__Gout__Pseudogout__Reactive_Arthritis__Fibromyalgia__PMR__CFS.md#Reactive arthritis,covered - named inside a teaching entry
 Infectious Disease,Shigella dysenteriae,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Shigellosis,MENTIONED,2,,named in prose only - not individually verified
-Infectious Disease,Skull base osteomyelitis,ACRONYM MATCH ONLY,18,generated-initialism match only - not evidence of coverage,
+Infectious Disease,Skull base osteomyelitis,ABSENT,0,weak-signal:osteomyelitis=22,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Smallpox,IN A TAUGHT SECTION,5,08_05-06_Infectious_Disease_-_Viral_Infections.md#Mpox (formerly monkeypox),covered - named inside a teaching entry
-Infectious Disease,Staphylococcal Scalded Skin Syndrome,ACRONYM MATCH ONLY,7,generated-initialism match only - not evidence of coverage,
+Infectious Disease,Staphylococcal Scalded Skin Syndrome,ABSENT,0,weak-signal:Staphylococcal=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Staphylococcal toxic shock syndrome,ABSENT,0,weak-signal:Staphylococcal=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Staphylococcus,OWNS ENTRY,2,08_01-03_Infectious_Disease_-_Bacterial_Infections.md#Staphylococci,covered - owns an entry
 Infectious Disease,Staphylococcus aureus,IN A TAUGHT SECTION,1,09_05_Dermatology_-_Bacterial_Infections_and_Infestations.md#Impetigo,covered - named inside a teaching entry

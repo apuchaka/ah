@@ -1725,3 +1725,46 @@ Three defects were found by hand-verifying the MSK/Rheum fracture eponyms, and *
 > [!warning] **The 75 acronym-only rows are the honest residue.** Each matched the corpus only through a generated initialism. Some are real (GDM, STI, FSGS, MGUS, LBBB — the corpus does use those acronyms); some are collisions. The scan cannot tell which, so it says so instead of guessing in either direction. They are neither counted as coverage nor reported as gaps, and they are the targeted follow-up list.
 
 > [!danger] **The build items from this phase cannot be built in this environment.** The project requires a cited Australian source per topic; egress is blocked for `rch.org.au`, `amc.org.au`, `racgp.org.au`, `tg.org.au` and every other primary source tested this session. Writing thirty clinical entries from recall and citing documents that were never read would put unverified dosing and thresholds into the corpus permanently — the same failure the project already refused when it declined to build `checklist_external.csv` from recall. The gaps stay queued with their named sources.
+
+## Phase 5 Part A — final: acronym corroboration
+
+**Defect 17, and the first in this phase that hid gaps rather than inventing them.** A generated acronym could never produce coverage — it only ever yielded `ACRONYM MATCH ONLY`. But it could lift a genuinely ABSENT condition out of the gap list and bury it among the flagged. A 24-entry blocklist was the wrong instrument and missed nearly everything:
+
+| Acronym | Corpus hits | Generated from | What the corpus actually means |
+|---|---|---|---|
+| `GAP` | 314 | Gastric adenomatous polyp | the ordinary English word |
+| `OFF` | 85 | Orbital Floor Fracture | the ordinary English word |
+| `MEN` | 51 | Middle ear neoplasm | "men", and MEN 1/2 |
+| `ACS` | 40 | **Anterior Cord Syndrome** | acute coronary syndrome |
+| `BMI` `PAD` `SCC` `ADH` `ALS` `PET` `ABC` | 9–36 | various | body mass index, PAD, squamous cell carcinoma, ADH, ALS, PET scan, the ABC mnemonic |
+
+**Anterior cord syndrome is the proof the defect mattered.** Central and posterior cord syndrome were already queued as gaps; the anterior one was equally absent and sat hidden behind the ACS collision for the whole phase.
+
+**The fix is corroboration, not a longer blocklist.** A generated acronym now counts only if a distinctive ≥9-character word from the condition's own name appears in the same section. `STI` beside "transmitted" is the corpus meaning it; `GAP` with no "adenomatous" near it is not. **65 collisions rejected across 16 of 19 systems; 10 corroborated matches remain flagged.**
+
+Two gaps recovered from the flagged pile and queued: **anterior cord syndrome** and **orbital floor (blow-out) fracture**. One condition moved the other way by hand: **gestational diabetes is covered**, taught as `### Diabetes in pregnancy` (`16_01-05:430`) with the 28-week 75g OGTT criteria — a rename no matcher reaches, and a reminder that convention 11 stays unfixable.
+
+| System | n | owns | in a taught entry | prose | flagged | absent | gaps |
+|---|---|---|---|---|---|---|---|
+| Cardiovascular | 170 | 49 | 49 | 15 | 1 | 56 | **4** |
+| Neurology | 222 | 70 | 45 | 21 | 0 | 86 | **7** |
+| Dermatology | 129 | 43 | 26 | 13 | 1 | 46 | **3** |
+| Endocrine and Metabolic | 162 | 56 | 40 | 12 | 0 | 54 | **4** |
+| Genitourinary and Reproductive | 135 | 35 | 36 | 6 | 2 | 56 | **2** |
+| Gastroenterology | 200 | 60 | 45 | 19 | 0 | 76 | **3** |
+| Haematology, Genetics and Oncology | 281 | 98 | 52 | 26 | 4 | 101 | **0** |
+| Immunology and Allergy | 31 | 13 | 7 | 3 | 0 | 8 | **0** |
+| Toxicology, Environmental and Trauma | 108 | 18 | 17 | 19 | 0 | 54 | **7** |
+| Psychiatry | 113 | 42 | 13 | 13 | 0 | 45 | **6** |
+| Rheumatology and Musculoskeletal | 257 | 77 | 35 | 18 | 0 | 127 | **11** |
+| Systemic and Miscellaneous | 53 | 18 | 14 | 4 | 0 | 17 | **0** |
+| Obstetrics | 57 | 23 | 10 | 4 | 0 | 20 | **0** |
+| Geriatrics and Safeguarding | 13 | 3 | 4 | 2 | 0 | 4 | **0** |
+| Paediatrics and Neonatal | 31 | 11 | 7 | 1 | 0 | 12 | **0** |
+| Renal and Urology | 93 | 24 | 26 | 6 | 1 | 36 | **1** |
+| Respiratory | 99 | 31 | 20 | 8 | 0 | 40 | **1** |
+| ENT and Ophthalmology | 219 | 57 | 48 | 14 | 0 | 100 | **2** |
+| Infectious Disease | 212 | 76 | 39 | 20 | 1 | 76 | **2** |
+| **TOTAL** | **2585** | **804** | **533** | **224** | **10** | **1014** | **53** |
+
+The absence count rose from 949 to 1,014 across the corrected runs. That is the honest direction: every correction this phase made moved conditions **out** of false coverage, and the earlier, lower absence counts were the artefact.
