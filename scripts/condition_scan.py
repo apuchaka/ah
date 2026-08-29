@@ -261,9 +261,10 @@ def header_phrase(v, nf=None):
                      else re.escape(t) + r"(?:'s)?(?:es|s)?")
     return re.compile(r"(?<![A-Za-z])" + GAP.join(parts), re.I)
 
-def weak_token(name):
+def weak_token(name, minlen=8):
     core = re.sub(r"\s*\([^)]*\)", " ", name)
-    toks = [t for t in re.split(r"[^A-Za-z]+", core) if len(t) >= 8 and t.lower() not in GENERIC]
+    toks = [t for t in re.split(r"[^A-Za-z]+", core)
+            if len(t) >= minlen and t.lower() not in GENERIC]
     return max(toks, key=len) if toks else None
 
 STOP = {"with","of","the","and","in","to","a","an","for"}
@@ -295,7 +296,29 @@ def initialism(name):
             if a.upper() not in ACRONYM_BLOCK: out.append(a)
     return out
 
-# Specificity constraints on generated initialisms.
+# SPECIFICITY CHECK ON GENERATED INITIALISMS.
+#
+# A blocklist does not scale. Built from the collisions observed at the time,
+# it had 24 entries and still missed every one of these:
+#   GAP 314 hits (the English word) <- Gastric adenomatous polyp
+#   OFF  85 (the English word)      <- Orbital Floor Fracture
+#   MEN  51 (the word, and MEN 1/2) <- Middle ear neoplasm
+#   ACS  40 (acute coronary syndr.) <- Anterior Cord Syndrome
+#   BMI  36 (body mass index)       <- Blunt Myocardial Injury
+#   PAD, SCC, ADH, ALS, PET, ABC ... all colliding with something the corpus
+#   genuinely means.
+# These cannot inflate coverage - a generated acronym only ever yields
+# ACRONYM MATCH ONLY - but they do something nearly as bad: they lift a
+# genuinely ABSENT condition out of the gap list and bury it in the flagged
+# pile. Anterior cord syndrome is the proof. Central and posterior cord
+# syndrome are already queued as gaps; anterior cord syndrome is equally
+# absent and was hidden behind the ACS collision.
+#
+# So an acronym match must now ALSO be corroborated: the same section has to
+# contain a distinctive >=9-character word from the condition's own name.
+# "STI" beside "transmitted" is the corpus meaning it; "GAP" without
+# "adenomatous" anywhere near it is not. A condition with no such word
+# cannot be matched by acronym at all.
 #
 # A four-word floor was tried first and OVER-CORRECTED: it also destroyed the
 # legitimate three-word acronyms the corpus genuinely uses, and "Gestational
@@ -355,7 +378,9 @@ def classify(name, corpus):
     pats  = [phrase(v) for v in variants(name)]
     patsp = [phrase(v, plain) for v in variants(name)]
     patsf = [phrase(v, fold) for v in variants(name)]
-    inits = [phrase(v, plain) for v in initialism(name)]
+    corrob = weak_token(name, 9)
+    inits = ([phrase(v, plain) for v in initialism(name)] if corrob else [])
+    crx = re.compile(re.escape(norm(corrob)), re.I) if corrob else None
     heads = [h for h in (header_phrase(v, f) for v in variants(name)
                          for f in (norm, plain, fold)) if h is not None]
     cols = [collapse(v) for v in variants(name) if len(collapse(v)) >= 8]
@@ -371,7 +396,8 @@ def classify(name, corpus):
                  or sum(len(p.findall(pb)) for p in patsp)
                  or sum(len(p.findall(fb)) for p in patsf))
             if not n: n = sum(cb.count(c) for c in cols)
-            if not n and inits: ahits += sum(len(p.findall(ph)) + len(p.findall(pb)) for p in inits)
+            if not n and inits and (crx.search(nb) or crx.search(nh)):
+                ahits += sum(len(p.findall(ph)) + len(p.findall(pb)) for p in inits)
             if in_h: owns.append(f"{fname}#{header}")
             if n:
                 hits += n

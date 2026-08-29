@@ -61,6 +61,11 @@ GAP = {
  "Hallux valgus":"GAP: zero hits for hallux valgus or bunion",
  "Bunions":"GAP: zero hits; see Hallux valgus",
  "Mallet Finger":"GAP: zero hits; a splinting decision an intern makes in ED",
+ # Gaps that were HIDDEN by generated-acronym collisions until the
+ # corroboration check was added - found by auditing the flagged pile,
+ # not by any absence count
+ "Anterior Cord Syndrome":"GAP: zero hits, hidden behind the ACS collision (acute coronary syndrome, 40 uses). Completes the incomplete-cord-syndrome set with central and posterior, both already queued",
+ "Orbital Floor Fracture (Blow-out fracture)":"GAP: zero hits, hidden behind the OFF collision (the ordinary English word, 85 uses). Blow-out fracture is intern-level ED assessment and pairs with the queued facial-fracture gap",
  # musculoskeletal eponyms - hand-verified in the targeted eponym pass
  "Bennett's fracture":"GAP: zero hits; intra-articular base-of-thumb-metacarpal fracture, and the corpus owns entries for Colles, Smith, Barton, Monteggia, Galeazzi and Boxer",
  "Rolando fracture":"GAP: zero hits; the comminuted counterpart of Bennett, same asymmetry",
@@ -150,6 +155,7 @@ SYN = {
  "Ureteral Stones":"COVERED-SYNONYM: ureteric stone / renal colic",
  "Membranous glomerulopathy":"COVERED-SYNONYM: membranous nephropathy, thin",
  "Compartment syndrome":"COVERED: 15 uses",
+ "Gestational Diabetes Mellitus":"COVERED-SYNONYM: taught as '### Diabetes in pregnancy' 16_01-05:430, with the 28-week 75g OGTT criteria; no matcher reaches this rename",
  # WITHDRAWN GAPS. Both were queued as build items and both were wrong: the
  # corpus writes "Baker cyst" without the possessive, and my tokeniser split
  # "Baker's" into ["baker","s"] and then demanded the apostrophe. Recorded as
