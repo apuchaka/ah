@@ -33,7 +33,7 @@ source: quackquackmed 17.08 Vaginal Discharge, Urinary Incontinence, Pelvic Orga
 **Ix**: microscopy of wet mount shows mobile trophozoites.
 
 > [!info] Verified against the WA Health "Quick guide to STI and BBV management" (2026 edition), Aug 2026 — **the dosing below already matches current Australian practice exactly** (metronidazole 2g single dose, or 400mg BD for 7 days) — no correction needed.
-> **Mx**: PO metronidazole 5–7 days, or one-off 2g dose.
+> **Mx**: **PO metronidazole 400mg BD for 7 days, or a one-off 2g dose** — the dose is now stated here rather than only in the box above, which named it while the line beneath said just "5–7 days".
 
 ### Chlamydia trachomatis
 

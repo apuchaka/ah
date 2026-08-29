@@ -75,7 +75,7 @@ A **window period** is the interval between exposure and the point at which a te
 
 - **S/Smx:** vaginal discharge — offensive, yellow/green, frothy. Vulvovaginitis with "strawberry cervix". pH >4.5. In males — often asymptomatic or urethritis.
 - **Ix:** microscopy of wet mount shows motile trophozoites.
-- **Mx:** PO metronidazole 5–7 days, or a one-off 2g dose.
+- **Mx:** **PO metronidazole 400mg BD for 7 days, or a one-off 2g dose** — the multi-day option's dose was previously missing here and stated only inside a verification box in [[17_08_Vaginal_Discharge__Urinary_Incontinence__Pelvic_Organ_Prolapse]] Trichomonas vaginalis (WA Health, 2026). Treat sexual partners.
 
 ## Chancroid
 
