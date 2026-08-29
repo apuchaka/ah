@@ -58,10 +58,18 @@ GAP = {
  "Pancreatic pseudocyst":"GAP: zero hits; a named complication of the pancreatitis the corpus teaches",
  "Intra-abdominal abscess":"GAP: zero hits; a named complication of appendicitis and diverticulitis, both taught",
  # musculoskeletal
- "Baker's cyst":"GAP: zero hits; common, and its rupture mimics DVT which the corpus does teach",
  "Hallux valgus":"GAP: zero hits for hallux valgus or bunion",
  "Bunions":"GAP: zero hits; see Hallux valgus",
  "Mallet Finger":"GAP: zero hits; a splinting decision an intern makes in ED",
+ # musculoskeletal eponyms - hand-verified in the targeted eponym pass
+ "Bennett's fracture":"GAP: zero hits; intra-articular base-of-thumb-metacarpal fracture, and the corpus owns entries for Colles, Smith, Barton, Monteggia, Galeazzi and Boxer",
+ "Rolando fracture":"GAP: zero hits; the comminuted counterpart of Bennett, same asymmetry",
+ "Lisfranc fracture":"GAP: zero hits; midfoot injury classically missed on plain films, and the corpus owns a metatarsal fracture entry",
+ "Gamekeeper's thumb":"GAP: zero hits for gamekeeper or skier's thumb",
+ "Stener lesion":"GAP: zero hits; the finding that makes a gamekeeper's thumb surgical",
+ "Hill-Sachs lesion":"GAP: zero hits, while Bankart is named in the shoulder dislocation content - half of a pair",
+ "Jefferson fracture":"GAP: zero hits; C1 burst fracture",
+ "Hangman fracture":"GAP: zero hits; C2 traumatic spondylolisthesis",
  # ENT and ophthalmology
  "Retropharyngeal abscess":"GAP: zero hits; paediatric airway emergency, and the corpus teaches peritonsillar abscess",
  "Keratoconus":"GAP: zero hits; commonest corneal ectasia, presents in young adults",
@@ -128,7 +136,6 @@ SYN = {
  "Coxa plana":"COVERED-SYNONYM: Perthes",
  "Greenstick fracture":"COVERED-SYNONYM: greenstick/torus/buckle content",
  "Torus fracture":"COVERED-SYNONYM: greenstick/torus/buckle content",
- "Popliteal cyst":"GAP: zero hits; same gap as Baker's cyst, its other name",
  "Necrotizing Fasciitis":"COVERED-SYNONYM: necrotising fasciitis (AU spelling), 14 uses",
  "Human papillomavirus":"COVERED-SYNONYM: HPV, 38 uses",
  "Trichomoniasis":"COVERED-SYNONYM: trichomonas, 5 uses",
@@ -143,6 +150,16 @@ SYN = {
  "Ureteral Stones":"COVERED-SYNONYM: ureteric stone / renal colic",
  "Membranous glomerulopathy":"COVERED-SYNONYM: membranous nephropathy, thin",
  "Compartment syndrome":"COVERED: 15 uses",
+ # WITHDRAWN GAPS. Both were queued as build items and both were wrong: the
+ # corpus writes "Baker cyst" without the possessive, and my tokeniser split
+ # "Baker's" into ["baker","s"] and then demanded the apostrophe. Recorded as
+ # withdrawn rather than deleted - a false gap that reached the tracker is
+ # worth keeping visible.
+ "Baker's cyst":"COVERED - GAP WITHDRAWN: 11_05_Ortho_-_Knee_and_Ankle 'Baker cyst' (l.27), under the Bursitis & cysts of the knee entry",
+ "Popliteal cyst":"COVERED - GAP WITHDRAWN: same entry as Baker cyst, its other name",
+ "Boxer's fracture":"COVERED: owns an entry, 11_03_Ortho_-_Hand_and_Foot '### Boxer fracture' (l.57)",
+ "Acromioclavicular joint pathology":"COVERED: owns an entry, 11_02_Ortho_-_Upper_Limb '### Acromioclavicular joint injury' (l.48)",
+ "Achilles tendon rupture":"COVERED: 11_05_Ortho_-_Knee_and_Ankle '## Achilles tendon' (l.96) with the Simmonds-Thompson calf-squeeze test",
  # cardiovascular and neurology synonyms verified in the per-system passes
  "First Degree AV Block":"COVERED-SYNONYM: 01_Cardiovascular 'first degree heart block' (l.537)",
  "Second Degree AV Block":"COVERED-SYNONYM: 'Mobitz I, Wenckebach' / 'Mobitz II' (l.492-3)",

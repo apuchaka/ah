@@ -195,6 +195,15 @@ GENERIC = {"syndrome","disease","disorder","chronic","acute","primary","secondar
 def phrase(v, nf=None):
     nf = nf or norm
     toks = [t for t in re.split(r"[^A-Za-z0-9]+", nf(v)) if t]
+    # CONVENTION 14. Splitting on non-letters turns "Boxer's fracture" into
+    # ["boxer","s","fracture"], so the pattern demanded an apostrophe-s that
+    # the corpus omits - and "### Boxer fracture", a section the corpus owns,
+    # read ABSENT. The bug is invisible whenever BOTH sides use the
+    # possessive (Smith's, Colles'), which is why it survived twelve other
+    # conventions: it only fires on the half of the eponyms where the corpus
+    # drops the apostrophe. A bare "s" between two real tokens is dropped.
+    toks = [t for i, t in enumerate(toks)
+            if not (t == "s" and 0 < i < len(toks) - 1)]
     if not toks: return re.compile(r"(?!x)x")
     def stem(t):
         # -ies is not always a plural. "scabies" -> "scaby" made scabies read
@@ -211,6 +220,47 @@ def phrase(v, nf=None):
     body = GAP.join(re.escape(stem(t)) + r"(?:'s)?(?:es|s)?" for t in toks)
     return re.compile(r"(?<![A-Za-z])" + body + r"(?![A-Za-z])", re.I)
 
+QUALIFIER = {"rupture","injury","injuries","pathology","disease","syndrome",
+             "disorder","infection","infections","lesion","tear","fracture",
+             "deficiency","carcinoma","cancer","tumour","tumor","defect"}
+
+def header_phrase(v, nf=None):
+    """A LOOSER pattern used ONLY against section headers.
+
+    CONVENTION 16, found by the canary test rather than by another absence
+    count. The corpus names a thing with a different final word, or a
+    different derivation of the same stem:
+        "Achilles tendon RUPTURE"          vs  "## Achilles tendon"
+        "Acromioclavicular joint PATHOLOGY" vs "### Acromioclavicular joint injury"
+        "DermatophytOSES"                   vs  "Dermatophyte infections"
+    Two allowances, both deliberately confined to headers, where a match is
+    anchored by the corpus having chosen the words as a section title:
+      1. a trailing generic qualifier may be dropped, provided >=2 tokens
+         remain - so "Bennett's fracture" cannot decay to "Bennett".
+      2. tokens of >=8 characters may match on a shared 8-character prefix,
+         which is what lets dermatophytoses reach dermatophyte without
+         inventing a suffix table.
+    Neither allowance is applied to body prose, because there is no title to
+    anchor it and "ovarian cancer" would decay to "ovarian".
+    """
+    nf = nf or norm
+    toks = [t for t in re.split(r"[^A-Za-z0-9]+", nf(v)) if t]
+    toks = [t for i, t in enumerate(toks) if not (t == "s" and 0 < i < len(toks) - 1)]
+    if len(toks) > 2 and toks[-1] in QUALIFIER: toks = toks[:-1]
+    if len(toks) == 1:
+        # A single token has no neighbours to anchor it, so the prefix must be
+        # longer: 10 characters, not 8. At 8, "pneumonia" (9 chars) would
+        # reach "pneumonitis", which is a different disease. At 10,
+        # "dermatophytoses" still reaches "dermatophyte" and pneumonia is out
+        # of range entirely.
+        if len(toks[0]) < 10: return None
+        return re.compile(r"(?<![A-Za-z])" + re.escape(toks[0][:10]) + r"[A-Za-z]*", re.I)
+    parts = []
+    for t in toks:
+        parts.append(re.escape(t[:8]) + r"[A-Za-z]*" if len(t) >= 8
+                     else re.escape(t) + r"(?:'s)?(?:es|s)?")
+    return re.compile(r"(?<![A-Za-z])" + GAP.join(parts), re.I)
+
 def weak_token(name):
     core = re.sub(r"\s*\([^)]*\)", " ", name)
     toks = [t for t in re.split(r"[^A-Za-z]+", core) if len(t) >= 8 and t.lower() not in GENERIC]
@@ -220,15 +270,43 @@ STOP = {"with","of","the","and","in","to","a","an","for"}
 TAIL = {"syndrome","disease","block","disorder","defect","tumour","tumor"}
 
 def initialism(name):
-    """Mechanically derived from the condition's own words - not recalled."""
+    """Mechanically derived from the condition's own words - not recalled.
+
+    CONVENTION 15, and the most damaging one because it manufactures COVERAGE
+    rather than absence. "Clay-shoveler fracture" generates "CSF" and matched
+    04_Neurology's CSF Interpretation section 78 times, scoring OWNS ENTRY for
+    a fracture the corpus has never mentioned. Across the 2,585-row list the
+    generator also produces DVT, TIA, MCL, AKI, CKD, SAH and ARDS.
+    A generated initialism is therefore no longer treated as evidence of
+    coverage. It is matched separately, and a condition whose ONLY evidence is
+    a generated acronym gets its own verdict - ACRONYM MATCH ONLY - so it
+    reads as unresolved rather than as covered. Every other convention in this
+    file inflated the absence count, which is the safe direction to be wrong;
+    this one inflated the covered count, which is not.
+    """
     core = re.sub(r"\s*\([^)]*\)", " ", name)
     words = [w for w in re.split(r"[^A-Za-z]+", core) if w]
     words = [w for w in words if w.lower() not in STOP]
     out = []
     for drop_tail in (False, True):
         ws = words[:-1] if (drop_tail and words and words[-1].lower() in TAIL) else words
-        if len(ws) >= 3: out.append("".join(w[0] for w in ws))
+        if len(ws) >= 4:                      # specificity floor, see below
+            a = "".join(w[0] for w in ws)
+            if a.upper() not in ACRONYM_BLOCK: out.append(a)
     return out
+
+# Specificity constraints on generated initialisms, belt and braces with the
+# ACRONYM MATCH ONLY verdict:
+#   - four source words minimum. Every collision actually observed in the
+#     2,585-row list was three letters (CSF, DVT, TIA, MCL, AKI, CKD, SAH),
+#     because three-letter strings are where clinical acronym space is dense.
+#   - an explicit blocklist for the longer ones that still collide.
+# A generated acronym can now only ever produce the ACRONYM MATCH ONLY
+# verdict, never OWNS ENTRY or MENTIONED, so a collision that slips both
+# constraints still cannot be reported as coverage.
+ACRONYM_BLOCK = {"ARDS","AKI","CKD","CSF","DVT","TIA","MCL","ACL","PCL","LCL",
+                 "COPD","SAH","ICH","GCS","NSTEMI","STEMI","PPROM","HELLP",
+                 "IUGR","PPHN","VACTERL","CHARGE","MERRF","MELAS"}
 
 def load():
     root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
@@ -263,25 +341,29 @@ def variants(name):
     # slash alternatives: "Seborrhea/Seborrheic Dermatitis"
     if "/" in name and "(" not in name:
         v += [p.strip() for p in name.split("/") if len(p.strip()) > 3]
-    v += initialism(name)
     return [x for x in dict.fromkeys(v) if len(x) > 2]
 
 def classify(name, corpus):
     pats  = [phrase(v) for v in variants(name)]
     patsp = [phrase(v, plain) for v in variants(name)]
     patsf = [phrase(v, fold) for v in variants(name)]
+    inits = [phrase(v, plain) for v in initialism(name)]
+    heads = [h for h in (header_phrase(v, f) for v in variants(name)
+                         for f in (norm, plain, fold)) if h is not None]
     cols = [collapse(v) for v in variants(name) if len(collapse(v)) >= 8]
     wk = weak_token(name)
     weak = re.compile(r"(?<![A-Za-z])" + re.escape(norm(wk)) + r"", re.I) if wk else None
-    owns = []; taught = []; hits = 0; wsig = 0
+    owns = []; taught = []; hits = 0; wsig = 0; ahits = 0
     for fname, parts in corpus:
         for header, nh, ph, fh, ch, nb, pb, fb, cb, is_taught in parts:
             in_h = (any(p.search(nh) for p in pats) or any(p.search(ph) for p in patsp)
-                    or any(p.search(fh) for p in patsf) or any(c in ch for c in cols))
+                    or any(p.search(fh) for p in patsf) or any(c in ch for c in cols)
+                    or any(p.search(nh) or p.search(ph) or p.search(fh) for p in heads))
             n = (sum(len(p.findall(nb)) for p in pats)
                  or sum(len(p.findall(pb)) for p in patsp)
                  or sum(len(p.findall(fb)) for p in patsf))
             if not n: n = sum(cb.count(c) for c in cols)
+            if not n and inits: ahits += sum(len(p.findall(ph)) + len(p.findall(pb)) for p in inits)
             if in_h: owns.append(f"{fname}#{header}")
             if n:
                 hits += n
@@ -290,6 +372,7 @@ def classify(name, corpus):
     if owns: return "OWNS ENTRY", hits, owns[0]
     if taught: return "IN A TAUGHT SECTION", hits, taught[0]
     if hits: return "MENTIONED", hits, ""
+    if ahits: return "ACRONYM MATCH ONLY", ahits, "generated-initialism match only - not evidence of coverage"
     return "ABSENT", 0, (f"weak-signal:{wk}={wsig}" if wsig else "")
 
 def run(system, names, corpus, writer):
