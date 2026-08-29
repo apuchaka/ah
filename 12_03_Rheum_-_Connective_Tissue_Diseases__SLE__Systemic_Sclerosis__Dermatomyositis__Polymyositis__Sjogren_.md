@@ -34,7 +34,8 @@ source: quackquackmed 12.03 Rheumatic conditions with skin problems - SLE, Lupus
 > - **Class V:** diffuse membranous GN.
 > - **Class VI:** sclerosing GN.
 
-- **Mx:** treat hypertension. Initial therapy for Class III and IV — glucocorticoids + mycophenolate or cyclophosphamide. Subsequent therapy — mycophenolate, azathioprine.
+- **Mx:** **hydroxychloroquine for all patients with lupus nephritis unless contraindicated** — foundational rather than optional, and the piece most easily missed because it is not the immunosuppressant. Treat hypertension (RAS blockade). Initial therapy for Class III and IV — glucocorticoids + mycophenolate or cyclophosphamide. Subsequent therapy — mycophenolate, azathioprine.
+  - The hydroxychloroquine recommendation was added to [[07_Renal_Medicine_and_Urology]] Lupus Nephritis when that entry was updated against the **KDIGO 2024 Lupus Nephritis Guideline**, and **was not carried across to here** — found by the pairs audit (2026-08-29). That entry owns the full KDIGO regimen and the induction/maintenance detail.
 - **P:** can result in end-stage kidney disease requiring transplant. Monitor with urine dipstick to check for proteinuria.
 
 ## Systemic sclerosis (scleroderma)
