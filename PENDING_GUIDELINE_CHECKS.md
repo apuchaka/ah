@@ -354,3 +354,11 @@ concussive, and the four parasomnia rows are one item each.
 | S3-6 | **Type 2 (hypercapnic) respiratory failure** — 2 hits vs 29 for respiratory failure generally. Thin. | eTG Respiratory | ⬜ |
 | S3-7 | **Neuromuscular respiratory failure — THIN, not absent.** FVC 29 uses, myasthenic crisis 6, but `vital capacity` never appears near GBS or myasthenia. The corpus has the measurement and the diseases and does not connect them. | eTG Neurology | ⬜ |
 | FUTURE | **Exam-strategy reference file** — "Zero-Context methodology" and "Distractor Elimination Rules" from Source 3 are MCQ technique, not clinical content. Out of scope for Phase 5; recorded as a candidate separate project. | — | 💡 |
+| P5-E1 | **Straight leg raise** — zero hits, in a corpus teaching sciatica, lumbar radiculopathy and cauda equina. Technique and interpretation. | RACGP; standard MSK examination texts | ⬜ |
+| P5-E2 | **McMurray's test** — zero hits, in a knee file whose first header is "ligament and meniscal injuries". | RACGP; MSK examination texts | ⬜ |
+| P5-E3 | **Lachman's, anterior and posterior drawer, pivot shift** — knee ligament examination. Lachman and anterior drawer are named in one table cell with no technique; posterior drawer and pivot shift absent. | MSK examination texts | ⬜ |
+| P5-E4 | **Spurling's, cervical distraction, FABER/Patrick's** — cervical and hip/SI special tests, all absent. Note the one "distraction test" hit is paediatric audiology, a different procedure. | MSK examination texts | ⬜ |
+| P5-E5 | **Finkelstein's and femoral stretch** — named only, no technique or interpretation. | MSK examination texts | ⬜ |
+| P5-E6 | **PROM confirmation tests — nitrazine, ferning, fetal fibronectin** — all zero hits, in a corpus that teaches PROM and PPROM. The condition without its diagnostic test. | RANZCOG | ⬜ |
+| P5-E7 | **FeNa, plasma metanephrines, SPEP** — 1-2 hits each, against taught conditions (AKI pre-renal vs ATN, phaeochromocytoma, myeloma). Thin. | eTG; RCPA | ⬜ |
+| P5-E-METHOD | **METHOD LIMITATION: Phase 5 never enumerated investigations.** Conditions, scales, drugs and procedures were each enumerated exhaustively; a fifth axis was never named until now. Recorded because the same omission may hide further axes. | — | ⚠️ |

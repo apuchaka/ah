@@ -1,0 +1,263 @@
+Brain Natriuretic Peptide
+NT-proBNP
+Lipid Profile
+ApoB
+Lipoprotein(a)
+Troponin
+CK-MB
+CSF Analysis
+Beta-transferrin
+Electromyography
+Nerve Conduction Studies
+Intracranial Pressure Monitoring
+Wound Culture and Sensitivity
+24-hour Urine Copper
+8 AM Cortisol
+24-hour Urine Free Cortisol
+Salivary Cortisol
+Short Synacthen Test
+Dexamethasone Suppression Test
+Ammonia
+Testosterone
+DHEAS
+Androstenedione
+Calcitonin
+Carnitine Levels
+Serum Calcium
+Serum Phosphate
+Serum Magnesium
+Fasting Blood Glucose
+HbA1c
+Oral Glucose Tolerance Test
+Homocysteine
+Insulin-like Growth Factor 1
+Plasma Free Metanephrines
+Methylmalonic Acid
+Parathyroid Hormone
+Plasma Amino Acid Screen
+Prolactin Level
+Radioactive Iodine Uptake
+Aldosterone-to-Renin Ratio
+Plasma Renin Activity
+Serum Albumin
+Thyroid Function Tests
+Thyroid Antibodies
+Thyroid Ultrasound
+Vitamin B12 Level
+Cervical culture
+Gonorrhoea Screening
+Follicle Stimulating Hormone
+Inhibin
+24-hour pH Monitoring
+Anorectal Manometry
+Anoscopy
+Anti-Liver Kidney Microsomal Antibody
+Barium Enema
+Barium Swallow
+Coeliac Serology
+Anti-tTG IgA
+Colonoscopy
+CT Colonography
+CT Enterography
+D-Xylose Test
+Diagnostic Paracentesis
+Double Balloon Enteroscopy
+Endorectal Ultrasound
+Endoscopic Retrograde Cholangiopancreatography
+Oesophageal Manometry
+Endoscopic Ultrasound
+FibroScan
+Transient Elastography
+Flexible Sigmoidoscopy
+Serum Gastrin
+Gastrografin
+Gastroscopy
+Urea Breath Test
+Rapid Urease Test
+Liver Biopsy
+Liver Function Tests
+Magnetic Resonance Cholangiopancreatography
+MR Enterography
+Amylase
+Lipase
+Faecal Elastase
+Pentagastrin Stimulation Test
+Percutaneous Transhepatic Cholangiography
+Secretin Stimulation Test
+Serum Ceruloplasmin
+Small Bowel Biopsy
+Faecal Occult Blood Test
+Stool Culture
+Faecal Calprotectin
+Wireless Capsule Endoscopy
+ADAMTS13 Activity
+Anti-Intrinsic Factor Antibodies
+Beta-2 Microglobulin
+Bone Marrow Aspirate and Trephine
+Lymph Node Excisional Biopsy
+Breast MRI
+Full Blood Count
+Reticulocyte count
+Peripheral blood film
+Coagulation Profile
+D-Dimer
+Serum Erythropoietin
+Factor VIII Assay
+Flow Cytometry
+Glucose-6-Phosphate Dehydrogenase Screen
+Karyotype
+FISH
+HFE Testing
+Haptoglobin
+Haemoglobin Electrophoresis
+Direct Antiglobulin Test
+Iron Studies
+Ferritin
+Transferrin Saturation
+Cervical Screening Test
+Low-Dose CT Screening
+Osmotic Fragility Test
+Red Blood Cell Folate
+Ristocetin Cofactor Activity
+Schilling Test
+Serotonin Release Assay
+Serum Protein Electrophoresis
+Serum Free Light Chains
+Sickle Cell Solubility Test
+Perls Iron Stain
+Alpha-fetoprotein
+CA 19-9
+CA-125
+Carcinoembryonic Antigen
+Von Willebrand Factor Antigen
+Skin Prick Test
+ANCA
+Anti-Parietal Cell Antibodies
+Antiphospholipid Panel
+Lupus Anticoagulant
+Anti-Streptolysin O Titre
+Antinuclear Antibody
+Anti-Scl-70
+Myositis antibodies
+Indirect Antiglobulin Test
+Heparin-Induced Thrombocytopenia Antibody Assay
+Anti-Mitochondrial Antibody
+Smooth Muscle Antibody
+Lymphoscintigraphy
+Immunofixation
+Quantitative Immunoglobulins
+Complement C3
+CD4 Count
+Rheumatoid Factor
+Western Blot
+Bacillus cereus Culture
+Blood Cultures
+Clostridioides difficile Toxin
+Campylobacter Stool Culture
+Beta-D-Glucan
+Carbapenemase-Producing Enterobacteriaceae Screening
+Cryptosporidium Stool Antigen
+Dark Field Microscopy
+Hydatid Serology
+Giardia Stool Antigen
+Gram Stain
+Hepatitis Serology
+HBsAg
+Anti-HCV
+HIV Antibody Antigen Screen
+HIV Viral Load
+India-Ink Stain
+KOH Preparation
+Monospot
+Nasopharyngeal Swab
+Multiplex Respiratory PCR
+Parvovirus B19 Serology
+Rubella IgG
+Varicella IgG
+Slit Skin Smear
+Chlamydia Screening
+Syphilis Serology
+RPR
+Treponema pallidum Particle Agglutination
+Mantoux Test
+Interferon-Gamma Release Assay
+Viral Culture
+Wet Mount
+Alkaline Phosphatase
+Arterial Blood Gas
+Venous Blood Gas
+Lactate
+Gallium Scan
+Incisional Biopsy
+C-Reactive Protein
+Erythrocyte Sedimentation Rate
+Lactate Dehydrogenase
+Anti-dsDNA
+Anti-Sm
+Anti-GBM Antibodies
+Adams Forward Bend Test
+Anterior Drawer Test
+Anti-Cyclic Citrullinated Peptide
+Anti-Centromere Antibodies
+Arthrocentesis
+Arthroscopy
+DEXA Scan
+Bone Scan
+Cervical Spine X-Ray
+Spurlings Test
+Creatine Kinase
+Cervical Distraction Test
+FABER Test
+Femoral Stretch Test
+Finkelsteins Test
+Grind Test
+HLA-B27
+Lachman Test
+Modified Schober Test
+Muscle Biopsy
+Pelvic X-Ray
+Pivot Shift Test
+Posterior Drawer Test
+Straight Leg Raise
+Synovial Fluid Analysis
+Temporal Artery Biopsy
+Thompson Test
+Simmonds Test
+TLICS Classification
+Trendelenburg Test
+Amniocentesis
+Biophysical Profile
+Chorionic Villus Sampling
+Cordocentesis
+Ferning Test
+Fetal Fibronectin
+Fetal Scalp Blood Sampling
+Kleihauer-Betke Test
+Nitrazine Test
+Cardiotocography
+Nuchal Translucency
+Non-Invasive Prenatal Testing
+Comprehensive Geriatric Assessment
+Clinical Frailty Scale
+Elder Abuse Suspicion Index
+Short Physical Performance Battery
+Pulmonary Function Tests
+Spirometry
+Methacholine Challenge
+Pulse Oximetry
+Sputum Culture
+Sweat Chloride Test
+Ventilation-Perfusion Scan
+Polysomnography
+Serum Osmolality
+Urine Osmolality
+Urine Anion Gap
+Fractional Excretion of Sodium
+Estimated Glomerular Filtration Rate
+Serum Uric Acid
+Urinalysis
+Urine Albumin-to-Creatinine Ratio
+Urine Cytology
+Urine Protein Electrophoresis
+Urodynamic Studies
+Uroflowmetry

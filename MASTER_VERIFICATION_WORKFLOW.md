@@ -1815,3 +1815,46 @@ Three of four predictions were already covered. Consistent with this session's p
 ### Explicitly out of scope, recorded not folded in
 
 **"Zero-Context methodology" and "Distractor Elimination Rules" are MCQ exam technique, not clinical content**, and are not counted as corpus gaps. Noted as a candidate **future project — an exam-strategy reference file**, separate from Phase 5.
+
+## Phase 5 Part E — investigations and special tests (a gap in the METHOD, not just the corpus)
+
+> [!danger] **Phase 5 enumerated conditions, scales, drugs and procedures — and never investigations.** That is a hole in the method itself, not a corpus finding. Four axes were checked exhaustively and a fifth was never named. It is recorded here as a method limitation because the same omission could hide other axes (anatomy? emergency algorithms? communication scenarios?).
+
+**Enumeration source:** an investigations/special-tests list, 263 items, saved as `data/conditions_21_investigations.txt`.
+
+**Result: 20 own an entry · 95 in a taught section · 16 prose · 4 acronym-only · 128 absent by scan.** Hand-verification collapses that 128 dramatically — **most are abbreviation variants, not gaps.**
+
+### The laboratory list is almost entirely covered, under abbreviations
+
+The scan's ABSENT list is dominated by spelled-out names the corpus writes as acronyms. Verified by hand: LFTs **67** uses · B12 **71** · IGRA/Quantiferon **65** · chlamydia **55** · PTH **47** · phosphate **23** · magnesium **23** · urine ACR **22** · C. difficile **15** · LDH **13** · G6PD **13** · CTG **9** · VBG **8** · Coombs/antiglobulin **7** · IGF-1 **7** · renin **7** · Kleihauer **6** · V/Q **5**. None of these is a gap.
+
+**Genuinely thin or absent in the laboratory group (4):**
+
+| Test | Hits | Why it matters |
+|---|---|---|
+| **Nitrazine / ferning / fetal fibronectin** | **0** | The tests that confirm **prelabour rupture of membranes** — a condition the corpus teaches. The diagnosis without its diagnostic test |
+| Fractional excretion of sodium (FeNa) | 1 | Pre-renal vs ATN in AKI, both taught |
+| Plasma metanephrines | 1 | Phaeochromocytoma is taught |
+| Serum protein electrophoresis | 2 | Myeloma is taught |
+
+### The physical special tests are the real gap, and they cluster
+
+This is where a test-based lens finds what a condition-based lens cannot.
+
+**Adequate — technique and interpretation both given (4):** Simmonds-Thompson calf-squeeze (`11_05:110`) · Schober's (`12_02:13`) · Trendelenburg (`Examination.md:642`, own section) · Adam's forward bend (`Examination.md:628`, own section).
+
+**Named only — the test is cited as positive/negative with no technique and no interpretation (4):** **Lachman's** and **anterior drawer** (a single table cell, "positive anterior drawer & Lachman's test") · **femoral stretch** (one row of a dermatome table) · **Finkelstein's** ("teapot test positive", no method).
+
+**Absent entirely (9):** **straight leg raise** · **McMurray's** · posterior drawer · pivot shift · **FABER/Patrick's** · **Spurling's** · cervical distraction · grind test · TLICS.
+
+> [!warning] **Two of those absences are the asymmetric-silence pattern again, and they are the highest-yield findings of this pass.**
+> - **Straight leg raise: zero hits**, in a corpus that teaches sciatica, lumbar radiculopathy and cauda equina. The condition is taught; the bedside test that identifies it is not written down anywhere.
+> - **McMurray's: zero hits**, in a corpus whose knee file opens with "Knee — ligament and meniscal injuries". Same shape.
+>
+> Both are tests an intern is expected to perform and describe in an OSCE.
+
+**A false positive worth recording:** "distraction test" returns one hit, but it is **paediatric audiology distraction testing** in `13_03_ENT` — a completely different procedure. The cervical distraction test is absent.
+
+### Confirming the Simmonds-Thompson premise
+
+Checked with `git log -S`: the Simmonds-Thompson description traces to the **initial upload commit**, not to any commit from this session. It is **original corpus content that the earlier eponym check found**, not content this session built. Re-flagging it as absent would have been wrong, and it is correctly scored ADEQUATE here.
