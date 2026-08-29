@@ -263,7 +263,7 @@ concussive, and the four parasomnia rows are one item each.
 | P5-A17 | **Gender dysphoria** — zero hits; respectful and competent care is intern-level | RACGP; AusPATH standards | ⬜ |
 | P5-A18 | **Delusional disorder** — a named differential within the psychotic disorders already taught | RANZCP | ⬜ |
 | P5-A19 | **Parasomnias** — sleepwalking, night terrors; zero hits, paediatric sleep is GP-level | RCH Melbourne | ⬜ |
-| P5-A20 | **Paronychia and felon** — zero hits; hand infections with a drainage decision | eTG Antibiotic | ⬜ |
+| P5-A20 | ~~**Paronychia and felon**~~ **BUILT 2026-08-29** in `09_05_Dermatology_-_Bacterial_Infections_and_Infestations.md` from cross-verified snippets (AAFP 2017, StatPearls, Merck, Melbourne Hand Surgery). **Still to confirm against eTG Antibiotic:** the AU first-line oral agent and course length — no numeric course length was stated in the entry because only one source gave one (7–10 days), below the three-source bar for a numeric. | eTG Antibiotic | 🟨 |
 | P5-A21 | **Nappy rash** — zero hits; compounds the queued nystatin gap P5-C7 | RCH Melbourne | ⬜ |
 | P5-A22 | **Gilbert's syndrome** — commonest benign cause of isolated raised bilirubin | eTG / RCPA | ⬜ |
 | P5-A23 | **Pancreatic pseudocyst and intra-abdominal abscess** — named complications of pancreatitis, appendicitis and diverticulitis, all taught | eTG Gastrointestinal | ⬜ |

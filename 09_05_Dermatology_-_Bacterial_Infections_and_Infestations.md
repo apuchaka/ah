@@ -30,6 +30,34 @@ source: quackquackmed 09.05 Dermatological infections - Impetigo, Folliculitis, 
 - **Ix:** clinical diagnosis; consider viral skin swab, skin scraping for microbiology.
 - **Mx:** uncomplicated folliculitis — usually self-limiting; conservative treatment (antibacterial soaps, loose clothing, cool dry environment, careful shaving). Recurrent infectious folliculitis — PO antibiotic therapy guided by swabs (± flucloxacillin).
 
+## Paronychia and felon (acute hand infections)
+
+> [!warning] **Snippet-sourced — primary source not read.** Written from cross-verified search snippets (AAFP 2017 review, StatPearls, Merck Manual Professional, Melbourne Hand Surgery) because every Australian primary source is blocked by this environment's network egress proxy. **Antibiotic choice below follows the AU convention used elsewhere in this corpus (flucloxacillin first-line for staphylococcal skin infection); confirm against eTG Antibiotic before relying on it.** Tracked in `PENDING_GUIDELINE_CHECKS.md`.
+
+Two closed-space fingertip infections that an intern is expected to recognise and separate, because the drainage decision differs and a missed felon destroys the pulp.
+
+### Acute paronychia
+
+- **D:** infection of the nail fold (the soft tissue bordering the nail plate).
+- **R:** nail biting, manicure, hangnail, thumb sucking in children, occupational wet work.
+- **A/P:** most commonly *S. aureus*; breach of the seal between nail fold and nail plate lets organisms into the potential space.
+- **S/Smx:** painful, red, swollen nail fold; pus may be visible tracking under the fold; the nail plate itself is initially normal.
+- **Ix:** clinical. Swab pus if drained, particularly where MRSA is a consideration.
+- **Mx:**
+  - **No abscess:** warm or antiseptic soaks several times daily plus a topical antibacterial. Most resolve without oral antibiotics.
+  - **Fluctuant or visible pus:** drainage is the treatment. Pus is released by lifting the nail fold off the nail plate with a blunt instrument or blade edge — **a skin incision is usually not required**, which is the point most often got wrong.
+  - **Oral antibiotics are not needed if drainage is adequate**, unless the patient is immunocompromised or there is surrounding cellulitis.
+
+### Felon
+
+- **D:** infection of the closed pulp space of the fingertip.
+- **A/P:** usually *S. aureus*, entering through a puncture. The pulp is divided into compartments by fibrous septa running from skin to periosteum, so pus cannot decompress — pressure rises within a closed space.
+- **S/Smx:** severe, throbbing, **tense** fingertip pain with a swollen pulp; pain out of proportion to visible signs is characteristic.
+- **Mx:** **prompt incision and drainage, dividing the fibrous septa** — a superficial incision that does not release the compartments will not drain it — plus oral antibiotics with staphylococcal cover.
+- **Cx:** the reason it cannot wait — untreated, the closed-space pressure progresses to osteomyelitis of the distal phalanx, flexor tenosynovitis, or pulp necrosis.
+
+> [!danger] **A felon is not a big paronychia.** Paronychia sits in the nail fold and is usually released without cutting skin; a felon sits in a septated closed space and needs the septa divided. Treating a felon as a paronychia leaves the compartments undrained.
+
 ## Cellulitis & erysipelas
 
 > [!note] Full entry consolidated into [[08_09_Infectious_Disease_-_Miscellaneous]] Cellulitis, not duplicated here — that entry now incorporates the risk factors, erysipelas distinction, and full Ix/Mx detail (including the AU-specific purulent/non-purulent drug choice and Eron classification) from both this file's original content and the Infectious Disease file's, merged into a single authoritative version. Cross-referenced here as this is also a core dermatology topic, but kept as a single-source entry to avoid drift between two independently-maintained copies of the same disease.
