@@ -270,9 +270,18 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **The generalisable rule:** *two entries can both be individually correct and still leave the reader worse off than one.* Silence in one and speech in the other is as much a defect as contradiction, and only comparison finds it.
 
-> [!todo] **Queued for Phase 4 close: a dedicated GBS consistency check.**
+> [!done] **The GBS consistency check — RUN 2026-08-29 at Phase 4 close. Found three more defects.**
 > **Two GBS defects in two different files in one session** — L5 found the drug named without its dose (`08_01-03` pointing at `16_06-07`, which owns the regimen), and G40 found the UK "universal screening not routine" position asserted as fact directly under a box saying Australia permits either strategy. Two independent defects in one topic is a pattern, not a coincidence, and both fixes were local to the file in hand.
 >
+> **RESULT — the check was justified. Three further defects, in three files that had not been touched by the two earlier GBS fixes:**
+> - **`16_01-05` listed Group B Strep under "do NOT offer routinely"** — the UK position, and *the same defect corrected in `08_01-03` earlier in the session*, surviving in a different file. **The correction did not propagate.** This is the third independent GBS defect and the second instance of this exact claim.
+> - **`08_01-03` named vancomycin** as the penicillin-anaphylaxis alternative; the Safer Care Victoria-verified owner says **clindamycin**. A wrong drug on the severe-allergy pathway, inside a sentence that correctly deferred to the owner for everything else.
+> - **The `≥4 hour` IAP timing was absent from the owner entry** — stated only in the file that defers to it. Timing is what makes the prophylaxis work.
+>
+> **The lesson, and it is about the check rather than about GBS:** two defects in one topic justified a dedicated sweep, and the sweep found three more — including one that was a *re-occurrence of a defect already fixed once*. **A per-topic sweep after two independent defects in that topic is worth running as a rule**, because the second defect indicates the topic was built from a source the corpus has not fully localised, not that two errors happened to coincide.
+>
+> Also found: **GBS is a two-meaning acronym** (Guillain-Barré / Group B Streptococcus) used in **both** senses inside `04_Neurology` alone — the organism at line 505, the syndrome defined at 1345. Second such collision after **PID**.
+
 > **When Phase 4 closes, check GBS everywhere it appears** — not just the two locations already fixed. Every file mentioning GBS, intrapartum antibiotic prophylaxis, or early/late-onset neonatal GBS disease, checked against each other for: screening strategy, the risk-factor list, the IAP timing (≥4h before birth), the benzylpenicillin regimen and its allergy alternatives, and which file is stated to own which. Known sites so far: `08_01-03`, `16_06-07`, `15_22a`, `16_01-05`.
 
 > [!tip] **The partition check — does a classification's own boundaries actually divide what it claims to?**
