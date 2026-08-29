@@ -96,7 +96,7 @@ source: quackquackmed 04 Neurology
 
 ## Temporal Arteritis (Giant Cell Arteritis)
 
-> [!note] For further detail, see Giant Cell Arteritis under Rheumatology — this section covers only the headache aspect.
+> [!note] For further detail, see [[12_04_Rheum_-_Vasculitis]] Giant cell arteritis (GCA) — this section covers only the headache aspect.
 
 **R:** >50–60yo, F>M, ?family history
 
@@ -104,7 +104,7 @@ source: quackquackmed 04 Neurology
 
 **Ix:** ↑ESR (*why:* a sensitive but non-specific inflammatory marker, and the key first-line screening test given how time-critical this diagnosis is — visual loss can be sudden and irreversible; *what:* typically markedly elevated). Temporal artery biopsy to confirm (*why:* the definitive diagnostic test; *what:* may require >1 biopsy due to skip lesions, so a single negative biopsy doesn't fully exclude the diagnosis if clinical suspicion remains high).
 
-> [!warning] Cross-reference to Rheumatology for full Mx (urgent high-dose steroids should not be delayed for biopsy confirmation given the risk of irreversible visual loss) — not repeated here per the source's own note above.
+> [!warning] **[[12_04_Rheum_-_Vasculitis]] Giant cell arteritis (GCA) owns the full Mx and the steroid doses** — urgent high-dose steroids should not be delayed for biopsy confirmation, given the risk of irreversible visual loss, and biopsy stays positive for 1–2 weeks after steroids are started. Not repeated here.
 
 ---
 
