@@ -13,8 +13,8 @@ source: quackquackmed 15.04 Asthma in children
 
 ### Management in children <5 years old
 
-1. Newly diagnosed asthma: SABA.
-2. Newly diagnosed asthma with ≥3 weeks of symptoms or night-time waking: SABA + 8-week trial of moderate dose ICS. After 8 weeks, stop ICS and monitor response — if symptoms don't resolve, reconsider the diagnosis; if symptoms restart within 4 weeks of stopping ICS, restart at low-dose maintenance; if symptoms restart after 4 weeks, repeat the 8-week trial of moderate dose ICS.
+1. Newly diagnosed asthma: **SABA (short-acting beta-2 agonist** — salbutamol, the blue reliever puffer**)**.
+2. Newly diagnosed asthma with ≥3 weeks of symptoms or night-time waking: SABA + 8-week trial of moderate dose **ICS (inhaled corticosteroid** — the preventer**)**. After 8 weeks, stop ICS and monitor response — if symptoms don't resolve, reconsider the diagnosis; if symptoms restart within 4 weeks of stopping ICS, restart at low-dose maintenance; if symptoms restart after 4 weeks, repeat the 8-week trial of moderate dose ICS.
 3. SABA + low dose ICS + leukotriene receptor antagonist (LTRA).
 4. Stop LTRA, refer to an asthma specialist.
 
