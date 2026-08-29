@@ -10,7 +10,8 @@ source: quackquackmed 15.04 Respiratory disorders - URTI and LRTI in children
 - Caused by parainfluenza virus, RSV, measles, etc.
 - Usually <6 years old; peak at 6 months to 3 years. More common in autumn.
 - **S/Smx:** stridor, barking cough (worse at night), fever, coryzal symptoms.
-- Westley Croup Score used to stratify into mild, moderate, and severe. Moderate-severe: audible stridor at rest; ↑coughing frequency.
+- **Severity is stratified as mild / moderate / severe** — moderate-to-severe is marked by **stridor audible at rest**, chest wall recession at rest, and a distressed or lethargic child. The graded feature table is owned by [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] Croup (laryngo-tracheo-bronchitis), verified there against RCH Melbourne, NSW ACI and Queensland Children's Health.
+  - This line previously read "**Westley Croup Score** used to stratify". The Westley score is a **different instrument** — five scored components (conscious level, cyanosis, stridor, air entry, retractions) — and it is **named nowhere else in this corpus and defined nowhere at all**, so a reader sent to it had no way to apply it, and the severity table they would actually reach is not the Westley score. Australian paediatric guidelines stratify croup on the clinical feature table rather than a numeric score. Corrected by the G23 round, 2026-08-29.
 - Admit if moderate-severe, <6 months old, known airway abnormality (e.g. laryngomalacia), or uncertainty about diagnosis.
 - **Ix:** clinical. CXR may show a "steeple sign" on PA view.
 - **Mx:** single dose of PO dexamethasone (0.15mg/kg) to all children regardless of severity. Emergencies: high flow O2 and nebulised adrenaline. *(Dose owner: [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] Croup (laryngo-tracheo-bronchitis), verified there against RCH Melbourne, NSW ACI and Queensland Children's Health — check there rather than here if the two ever differ.)*

@@ -28,6 +28,7 @@ source: quackquackmed 13.05 Stridor, Croup, Acute epiglottitis, Laryngomalacia, 
 | Chest wall recession | None or mild | Present at rest | Marked |
 | General behaviour | Happy, eating & drinking, playing | Can be placated, interested in surroundings | Significant distress, lethargic or restless |
 
+- **Ix:** clinical — imaging is not required to diagnose croup. Where a CXR is taken for another reason, the PA view may show the **"steeple sign"** (subglottic narrowing). Carried here by the G23 round (2026-08-29): this entry owns croup and did not mention the sign, while the epiglottitis entry below correctly warns that the steeple sign belongs to croup rather than epiglottitis — the caveat existed without the fact it refers to.
 - **Mx:**
   - Admit any child with moderate to severe croup, or if <6 months old, known airway abnormality, or uncertainty about diagnosis.
   - Regardless of severity, single dose of PO dexamethasone (0.15mg/kg) — alternative: prednisolone (1mg/kg).
