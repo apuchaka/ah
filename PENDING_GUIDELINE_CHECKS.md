@@ -239,3 +239,41 @@ Australian source before it is written, per the project's content-build rule.
 > here rather than dropped. The 25 ABSENT leaves were hand-checked (4 of the
 > original 28 were scan artifacts); the 148 ADEQUATE were not, and carry the
 > same proxy caveat in the other direction.
+
+### Section E (continued) — Phase 5 Part A condition gaps
+
+From the 2,585-condition external enumeration (`data/checklist_external.csv`).
+Deduplicated: Baker's/popliteal cyst, hallux valgus/bunions, concussion/post-
+concussive, and the four parasomnia rows are one item each.
+
+| ID | Gap | Source needed | Status |
+|---|---|---|---|
+| P5-A5 | **Serum phosphate disorders** — hypo- and hyperphosphataemia, and **refeeding syndrome** as the presentation an intern meets them in. The one electrolyte with no entry in a corpus teaching all the others | eTG; ANZ refeeding guidance; local electrolyte replacement protocols | ⬜ |
+| P5-A6 | **Hypermagnesaemia** — absent while hypomagnesaemia has 13 uses | eTG | ⬜ |
+| P5-A7 | **Concussion and post-concussive syndrome** — zero hits against 28 head-injury uses; return-to-work and return-to-sport advice | AMSSM / Australian concussion in sport position statement; NSW Health | ⬜ |
+| P5-A8 | **Central and posterior cord syndrome** — Brown-Sequard owns an entry; these have no mention | eTG / spinal injury guidance | ⬜ |
+| P5-A9 | **Cerebellar infarction** — posterior circulation stroke presenting as vertigo | Stroke Foundation Clinical Guidelines | ⬜ |
+| P5-A10 | **Neurologically determined death** — brain-death determination and organ donation; compounds P5-D4 | ANZICS Statement on Death and Organ Donation | ⬜ |
+| P5-A11 | **TCA overdose** — sodium bicarbonate for QRS widening; zero hits | eTG Toxicology; Austin Health poisons info | ⬜ |
+| P5-A12 | **Heat stroke and heat exhaustion** — zero hits; core Australian ED presentation | eTG; state heat-health guidance | ⬜ |
+| P5-A13 | **Facial fractures incl. Le Fort** — zero hits | eTG / RACS trauma guidance | ⬜ |
+| P5-A14 | **Benzodiazepine overdose** — one flumazenil mention, no entry | eTG Toxicology | ⬜ |
+| P5-A15 | **Alcoholic ketoacidosis** — raised-anion-gap differential distinct from DKA | eTG | ⬜ |
+| P5-A16 | **Adjustment disorder** — zero hits; among the commonest general-hospital psychiatric diagnoses | RANZCP; DSM-5-TR | ⬜ |
+| P5-A17 | **Gender dysphoria** — zero hits; respectful and competent care is intern-level | RACGP; AusPATH standards | ⬜ |
+| P5-A18 | **Delusional disorder** — a named differential within the psychotic disorders already taught | RANZCP | ⬜ |
+| P5-A19 | **Parasomnias** — sleepwalking, night terrors; zero hits, paediatric sleep is GP-level | RCH Melbourne | ⬜ |
+| P5-A20 | **Paronychia and felon** — zero hits; hand infections with a drainage decision | eTG Antibiotic | ⬜ |
+| P5-A21 | **Nappy rash** — zero hits; compounds the queued nystatin gap P5-C7 | RCH Melbourne | ⬜ |
+| P5-A22 | **Gilbert's syndrome** — commonest benign cause of isolated raised bilirubin | eTG / RCPA | ⬜ |
+| P5-A23 | **Pancreatic pseudocyst and intra-abdominal abscess** — named complications of pancreatitis, appendicitis and diverticulitis, all taught | eTG Gastrointestinal | ⬜ |
+| P5-A24 | **Baker's cyst** — common, and its rupture mimics the DVT the corpus does teach | RACGP | ⬜ |
+| P5-A25 | **Hallux valgus and mallet finger** — zero hits; ED and GP splinting/referral decisions | RACGP | ⬜ |
+| P5-A26 | **Retropharyngeal abscess** — paediatric airway emergency; peritonsillar abscess is taught | RCH Melbourne; eTG | ⬜ |
+| P5-A27 | **Keratoconus** — commonest corneal ectasia, presents in young adults | RANZCO | ⬜ |
+| P5-A28 | **Herpetic whitlow and lymphangitis** — occupational hand infection with a do-not-incise rule; ascending streaking in cellulitis | eTG Antibiotic | ⬜ |
+| P5-A29 | **Solitary pulmonary nodule** — the incidental-finding pathway | Lung Foundation Australia / RANZCR | ⬜ |
+| P5-A30 | **Peripartum cardiomyopathy, pseudoaneurysm, multifocal atrial tachycardia, coronary vasospasm** — the cardiovascular four | eTG; Heart Foundation | ⬜ |
+| P5-A31 | **Premature ejaculation and epispadias** — each the unnamed half of a pair the corpus half-teaches (erectile dysfunction, hypospadias) | RACGP | ⬜ |
+
+> [!warning] **Residual, not cleared.** 788 of the 929 absent conditions were classified out of scope **by rule, not individually verified**, and the 215 prose-only rows were not read. Both are open work in the same sense as the 103 drug leaves above.
