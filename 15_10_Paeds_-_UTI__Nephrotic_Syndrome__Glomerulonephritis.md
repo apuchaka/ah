@@ -41,7 +41,9 @@ source: quackquackmed 15.10 Renal and urological disorders - UTI, Nephrotic synd
 
 ## Nephrotic syndrome
 
-> [!info] Defined by the presence of: (1) proteinuria (>3.5g per 24h); (2) hypoalbuminaemia (<30g/L); (3) peripheral oedema. Not a single disease, but a syndrome caused by several renal diseases.
+> [!info] Defined by the presence of: (1) heavy proteinuria; (2) hypoalbuminaemia (<30g/L); (3) peripheral oedema. Not a single disease, but a syndrome caused by several renal diseases.
+>
+> [!danger] **The proteinuria threshold here was "> 3.5g per 24h" — the adult figure, in the paediatric entry.** It is an **absolute** quantity, so it does not scale: a 15kg child in florid nephrotic syndrome will never excrete 3.5g in a day, and applying this number to a child excludes the diagnosis it is supposed to define. Paediatric nephrotic-range proteinuria is **indexed to body size** — expressed per square metre per hour, or as a urine protein:creatinine ratio on a spot sample — rather than as an absolute daily mass. **The specific Australian paediatric threshold is not stated here because it has not been verified** — see `PENDING_GUIDELINE_CHECKS.md` **B64**. The absolute figure has been removed rather than replaced. Found by the G26 round, 2026-08-29; the adult entry is [[07_Renal_Medicine_and_Urology]] Nephritic vs Nephrotic Syndrome.
 
 ### Aetiology
 
