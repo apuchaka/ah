@@ -296,6 +296,52 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
 
+## Phase 5 REDO — the original Part C was wrong
+
+> [!danger] **Part C reported "nothing to build". That was a false negative caused by its own method, and the user caught it by checking their own knowledge against the report rather than by anything in the report.**
+> The suffix regex (`-pril -olol -azole -mab …`) **structurally cannot reach any class without a shared suffix.** Antipsychotics, GTN/nitrates, aminoglycosides and macrolides were never in the search space — not checked and passed. Re-run with therapeutic-category enumeration scaffolded on the Medical Board specialty list, reading whole entries instead of a ±260-character window:
+
+| Finding | Evidence |
+|---|---|
+| **Macrolides** | azithromycin 45 + clarithromycin 24 + erythromycin 21 = **106 uses, no section, and zero mechanism / QT / interaction content anywhere.** The one interaction mention is a CYP3A4 note inside a respiratory entry |
+| **GTN / nitrates** | **31 uses, no section.** The only contraindication content is aortic stenosis and HOCM — **the PDE5-inhibitor interaction that causes fatal hypotension is absent entirely**, as is mechanism and tolerance |
+| **Aminoglycosides / vancomycin** | gentamicin 15 + vancomycin 20. Toxicity appears as one antibiogram table row; monitoring appears only in a neonatal context in `16_06-07`. **No entry teaches therapeutic drug monitoring**, which is a core intern task |
+| **Antifungals** | 30 uses, no mechanism or toxicity content anywhere |
+| **Syringe driver / CSCI** | **absent entirely** despite a palliative prescribing file |
+
+**Dismissed on verification — the wider net's false positives, as expected:** *Local anaesthetic systemic toxicity* (70 "uses" were the English word **"last"**; Intralipid is present) · *Antiplatelets* (**two** dedicated headers my drug-name pattern missed) · *Statins* (myopathy in `04_Neurology`, LFT monitoring in `01_CV` — distributed, not absent) · *Naloxone* (full dosing ladder in `14a-1`) · *Antipsychotics* (`14_03` has EPSE, NMS, hyperprolactinaemia, clozapine monitoring — real depth) · *Opioid conversion* (`10_11c` owns "Conversion between opioids").
+
+## Phase 5 REDO — Parts B and D
+
+**Part D's new check found a gap class the original could not produce.** The original could only find procedures the corpus *mentions* and under-explains. Enumerating what an intern must perform **first**, then checking the corpus, finds procedures never mentioned **at all**:
+
+| Never mentioned once | Near-absent (<3 uses, no section) |
+|---|---|
+| Venepuncture · Local anaesthetic infiltration · ECG recording and lead placement | **Death certification/verification (1)** · **Prescribing on the national inpatient chart (2)** · **Blood transfusion bedside checks (2)** |
+
+Death certification and NIMC prescribing are among the most-performed intern tasks and map to specialties this corpus never had a category for.
+
+**Part B's predicted second cluster exists, and it is the ward scales.** Radiology reporting systems were the known cluster (10 of 11 still absent). The new one: **geriatrics 0/6, rehabilitation 0/3, palliative 0/3, ICU 0/4** — Braden/Waterlow/Norton, Katz/Lawton, 4AT, Barthel, modified Rankin, PPS/AKPS, CAM-ICU, RASS.
+
+> [!warning] **Method defects found inside the redo itself — three, all mine.**
+> - **Substring matching cannot cross an interposed word.** "Amsterdam criteria" reported absent while the corpus carries **Amsterdam II criteria**, which I built this session. Fixed with ordered-token matching.
+> - **Two matchers disagreed** (RECIST, Paris system flipping between passes) — resolved by hand-verification, not by trusting either. "Paris system" present was **"com*paris*on"**.
+> - **A token-proximity matcher timed out** at two minutes and was abandoned rather than shipped.
+>
+> **Part A's 38-specialty pass was NOT completed.** The conditions redo ran the original 50-item list plus verification only. Specialty-by-specialty enumeration across the full Medical Board list — and the low-coverage specialties specifically (Addiction, Occupational, Sport and exercise, Sexual health, Rehabilitation, Clinical genetics, Nuclear medicine, Medical administration) — remains open. Recorded rather than quietly dropped.
+
+| Item | Source | Status |
+|---|---|---|
+| **P5-C1** | **Macrolides** — mechanism, QT prolongation, CYP3A4 interactions, and the azithro/clarithro/erythro distinction. 106 uses, no entry | ⬜ |
+| **P5-C2** | **GTN / nitrates** — mechanism, indications, tolerance, and the **absolute PDE5-inhibitor contraindication** | ⬜ |
+| **P5-C3** | **Aminoglycosides and vancomycin** — therapeutic drug monitoring as an intern task: trough timing, nephro/ototoxicity, renal dose adjustment | ⬜ |
+| **P5-C4** | **Antifungals** — fluconazole/amphotericin mechanism, hepatotoxicity, interactions | ⬜ |
+| **P5-D4** | **Death certification and verification of death** — 1 use corpus-wide; a legal document every intern completes, often unsupervised | ⬜ |
+| **P5-D5** | **Prescribing on the National Inpatient Medication Chart** — 2 uses; the most-performed intern task | ⬜ |
+| **P5-D6** | **Blood transfusion administration and bedside checks** — 2 uses; fatal if wrong | ⬜ |
+| **P5-D7** | **Venepuncture, IV cannulation, LA infiltration, ECG lead placement** — never mentioned or ≤4 uses | ⬜ |
+| **P5-B5** | **Ward assessment scales cluster** — pressure risk (Braden/Waterlow/Norton), ADL (Katz/Lawton), delirium (4AT/CAM-ICU), stroke outcome (modified Rankin), palliative performance (PPS/AKPS) | ⬜ |
+
 ## Phase 5 — CSV-blind gaps
 
 Everything through Phase 4 was checked against `checklist.csv`. Anything never entered into that CSV was invisible to all of it. Phase 5 looks for those gaps with four separately-sourced checks.
