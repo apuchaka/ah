@@ -1297,14 +1297,20 @@ Three, all mine, all found before the results were reported:
 
 | Item | Source | Status |
 |---|---|---|
-| **P5-C10** | **Antivenoms** — snake and other Australian envenomation: pressure-immobilisation, when to give antivenom, premedication, serum sickness. Absent entirely | ⬜ |
-| **P5-C11** | **H2 antagonists** — where they still sit relative to PPIs; absent entirely | ⬜ |
-| **P5-C12** | **Decongestants** — oral and intranasal, and rhinitis medicamentosa; absent entirely | ⬜ |
-| **P5-C13** | **Bulk-forming laxatives** — the one laxative leaf of five with no coverage | ⬜ |
-| **P5-C14** | **CGRP antagonists** — PBS-listed migraine prophylaxis; absent | ⬜ |
-| **P5-C15** | **Carbapenems** — mechanism and the stewardship/ESBL rationale in one place | ⬜ |
-| **P5-C16** | **TNF-alpha antagonists** — pre-treatment TB and hepatitis B screening, infection risk while on treatment | ⬜ |
-| **P5-C17** | **Antimycobacterials** — the four-drug regimen's toxicity and monitoring profile in the entry that teaches the regimen | ⬜ |
+> [!note] **Status for these eight lives in `PENDING_GUIDELINE_CHECKS.md`, not here.** They were written up in this
+> narrative and then queued in the tracker, leaving two copies of each ID with independent status markers — so a
+> build could tick one and leave the other reading as unstarted. The tracker is the single source of truth for build
+> status; the rows below are kept as the narrative record of what the fourth pass found, with their status cells
+> pointing at the tracker rather than asserting one.
+
+| **P5-C10** | **Antivenoms** — snake and other Australian envenomation: pressure-immobilisation, when to give antivenom, premedication, serum sickness. Absent entirely | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C11** | **H2 antagonists** — where they still sit relative to PPIs; absent entirely | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C12** | **Decongestants** — oral and intranasal, and rhinitis medicamentosa; absent entirely | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C13** | **Bulk-forming laxatives** — the one laxative leaf of five with no coverage | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C14** | **CGRP antagonists** — PBS-listed migraine prophylaxis; absent | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C15** | **Carbapenems** — mechanism and the stewardship/ESBL rationale in one place | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C16** | **TNF-alpha antagonists** — pre-treatment TB and hepatitis B screening, infection risk while on treatment | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
+| **P5-C17** | **Antimycobacterials** — the four-drug regimen's toxicity and monitoring profile in the entry that teaches the regimen | → tracked in `PENDING_GUIDELINE_CHECKS.md` |
 
 ### Complete result — all 276 leaf subclasses
 

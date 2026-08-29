@@ -267,7 +267,7 @@ concussive, and the four parasomnia rows are one item each.
 | P5-A21 | **Nappy rash** — zero hits; compounds the queued nystatin gap P5-C7 | RCH Melbourne | ⬜ |
 | P5-A22 | ~~**Gilbert's syndrome**~~ **BUILT 2026-08-29** in `03_Gastrointestinal.md` from cross-verified snippets (J Hepatology 2023, StatPearls, World J Hepatology). **Open:** prevalence figure omitted (single source, 2–13%, too wide); the paracetamol-toxicity association is recorded as DISPUTED and needs a primary source to settle either way. | eTG / RCPA | 🟨 |
 | P5-A23 | **Pancreatic pseudocyst and intra-abdominal abscess** — named complications of pancreatitis, appendicitis and diverticulitis, all taught | eTG Gastrointestinal | ⬜ |
-| P5-A24 | **Baker's cyst** — common, and its rupture mimics the DVT the corpus does teach | RACGP | ⬜ |
+| P5-A24 | ~~**Baker's cyst**~~ **CLOSED — FALSE GAP, WITHDRAWN.** The corpus has `Baker cyst` at `11_05_Ortho_-_Knee_and_Ankle.md:27` under the Bursitis & cysts of the knee entry. It read as absent only because the matcher split "Baker's" into [baker, s] and then demanded an apostrophe the corpus omits. Recorded rather than deleted: a false gap that reached the build queue is worth keeping visible. Popliteal cyst, its other name, is the same entry. | — | ✅ |
 | P5-A25 | **Hallux valgus and mallet finger** — zero hits; ED and GP splinting/referral decisions | RACGP | ⬜ |
 | P5-A26 | **Retropharyngeal abscess** — paediatric airway emergency; peritonsillar abscess is taught | RCH Melbourne; eTG | ⬜ |
 | P5-A27 | **Keratoconus** — commonest corneal ectasia, presents in young adults | RANZCO | ⬜ |
@@ -362,3 +362,11 @@ concussive, and the four parasomnia rows are one item each.
 | P5-E6 | **PROM confirmation tests — nitrazine, ferning, fetal fibronectin** — all zero hits, in a corpus that teaches PROM and PPROM. The condition without its diagnostic test. | RANZCOG | ⬜ |
 | P5-E7 | **FeNa, plasma metanephrines, SPEP** — 1-2 hits each, against taught conditions (AKI pre-renal vs ATN, phaeochromocytoma, myeloma). Thin. | eTG; RCPA | ⬜ |
 | P5-E-METHOD | **METHOD LIMITATION: Phase 5 never enumerated investigations.** Conditions, scales, drugs and procedures were each enumerated exhaustively; a fifth axis was never named until now. Recorded because the same omission may hide further axes. | — | ⚠️ |
+
+> [!important] **This file is the single source of truth for build-item status.**
+> `MASTER_VERIFICATION_WORKFLOW.md` records what each pass *found* — its narrative
+> and its evidence. It does not carry build status. Eight Part C items (P5-C10 to
+> C17) previously existed in both files with independent status markers, so a
+> completed build could tick one copy and leave the other reading as unstarted.
+> The workflow rows now point here instead. **When adding a build item, add it
+> here and only here.**
