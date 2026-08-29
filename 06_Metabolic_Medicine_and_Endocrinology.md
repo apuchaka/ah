@@ -683,6 +683,8 @@ Increase monitoring ± check ketones; consume 3L of fluids/24h ± sugary drinks.
 
 > [!info] Water deprivation test — method: patient stops drinking water and empties bladder, then hourly urine and plasma osmolalities are measured.
 
+> [!info] **DDAVP is desmopressin — a synthetic analogue of ADH — and that is the entire logic of the test below.** The water deprivation test first asks whether the patient can concentrate urine at all; **giving DDAVP then asks *why not*.** If the kidney concentrates once external ADH is supplied, the problem was a **lack of ADH** (cranial DI). If it still cannot concentrate despite adequate ADH being present, the kidney is **not responding** (nephrogenic DI). The post-DDAVP column is not an extra data point — it is the step that separates the two diagnoses, and reading the table without knowing that makes the last column look arbitrary.
+
 | | Starting plasma osm | Final urine osm | Post-DDAVP urine osm |
 |---|---|---|---|
 | Normal | Normal | >600 | >600 |
