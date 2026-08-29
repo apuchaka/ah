@@ -19,11 +19,14 @@ source: quackquackmed 09.01 Dermatological emergencies
 >
 > | Dose | Applies to |
 > |---|---|
+> | **0.1–0.15 mg** (0.1–0.15 mL) | **<7.5 kg / <6 months** |
 > | **0.15 mg** (0.15 mL) | 7.5–20 kg **and** ≤5 years |
 > | **0.3 mg** (0.3 mL) | >20 kg **and** ≥5 years |
 > | **0.5 mg** (0.5 mL) | >50 kg **and** ≥12 years — **the adult dose** |
 >
 > **Note these are weight *and* age criteria together, not age bands.** Older teaching used a simple three-tier age split (6 months–6 years / 6–12 years / >12 years); current ASCIA guidance is weight-led with an age qualifier, and a small 13-year-old or a large 4-year-old is dosed on the combination rather than on birthday alone.
+>
+> **The <7.5 kg row was added during the dose-table unit-and-progression sweep (2026-08-29): the table stopped at 7.5 kg, so a reader following the pointer here for an infant reached a table that did not cover them.** The figure is the one the corpus already held in [[01_Cardiovascular]] Shock (the **Anaphylactic shock** sub-entry); note it sits above what this box's own **0.01 mg/kg** rule would give for a <7.5 kg infant (<75 mcg), because a minimum practical volume is drawn rather than a strictly weight-calculated one — **the exact Australian figure for this band is unverified against ASCIA** (see `PENDING_GUIDELINE_CHECKS.md` **B50**).
 >
 > **This box was added during the L3 seam audit (2026-08-29) because the number was not here.** [[15_01b_Paeds_-_Anaphylaxis]] pointed to *this* entry "for the exact current thresholds already verified there" and this entry carried no dose at all — a circular cross-reference, for the most time-critical drug dose in the corpus, between two entries that were both individually ASCIA-verified. See `PENDING_GUIDELINE_CHECKS.md` **B43**.
 
