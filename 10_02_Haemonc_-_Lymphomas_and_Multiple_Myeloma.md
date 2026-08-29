@@ -15,12 +15,17 @@ source: quackquackmed 10.02 Haematological cancers - Lymphomas, Multiple myeloma
 - **Ix:** excisional node biopsy; CT-TAP for staging/PET; serology (HIV, EBV); other bloods.
 
 > [!info] Staging — Ann Arbor system (used for both NHL and Hodgkin lymphoma)
-> 1. One node affected.
-> 2. ≥1 node affected on the same side of the diaphragm.
-> 3. Nodes affected on both sides of the diaphragm.
-> 4. Extranodal involvement (e.g. spleen, bone marrow, CNS).
+> **The unit is a lymph node *region*, not an individual node** — this is what makes the stages mutually exclusive, and it is the single easiest thing to get wrong.
+> 1. **One** lymph node region (or a single extralymphatic site).
+> 2. **≥2** lymph node regions, **all on the same side** of the diaphragm.
+> 3. Lymph node regions on **both sides** of the diaphragm.
+> 4. **Diffuse or disseminated involvement of one or more extralymphatic organs** (e.g. bone marrow, liver, lung), with or without nodal disease.
 >
-> Suffix: A = absence of B-symptoms; B = presence of B-symptoms (e.g. stage 3B, stage 1A).
+> Suffix: **A** = absence of B-symptoms; **B** = presence of B-symptoms (e.g. stage 3B, stage 1A). **S** = splenic involvement; **E** = a single contiguous extranodal site.
+>
+> **The spleen is lymphatic tissue, not an extranodal organ** — splenic involvement is recorded with the **S** suffix and does *not* by itself make the disease stage 4.
+>
+> **Corrected in the G5 round (2026-08-29).** The box previously read "One node affected" for stage 1 and "≥1 node affected on the same side of the diaphragm" for stage 2 — which made **stage 1 a subset of stage 2**, so the stages did not partition. It also gave the spleen as an example of the extranodal involvement defining stage 4. Both were visible from the box alone, without any source. See `PENDING_GUIDELINE_CHECKS.md` **B53**.
 
 - **Mx:** depends on subtype. All patients should be offered flu and pneumococcal vaccines. Patients with neutropaenia may require antibiotic prophylaxis.
 - **Complications:** bone marrow infiltration (→ pancytopaenic symptoms); SVC obstruction; metastases; spinal cord compression.
