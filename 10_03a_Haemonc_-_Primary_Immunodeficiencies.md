@@ -68,7 +68,7 @@ source: quackquackmed 10.03 Primary immunodeficiencies
 > - **C**left palate
 > - **H**ypocalcaemia, secondary to parathyroid aplasia → tetany
 
-- Velocardiofacial syndrome is a similar condition.
+- **Velocardiofacial syndrome is not a similar condition — it is the same condition.** Both are manifestations of the same **22q11.2 deletion**, described separately in the historical literature before the shared genetic basis was known, which is why current practice increasingly uses **22q11.2 deletion syndrome** as the umbrella term. Corrected by the pairs audit (2026-08-29): [[15_21a_Paeds_-_Microdeletion_Syndromes__Cri_du_Chat__DiGeorge__Williams_]] DiGeorge syndrome already stated it correctly as "aka velocardiofacial syndrome", and that entry owns the phenotype beyond the immune features (TBX1 mechanism, prognosis, the intellectual disability/autism/ADHD associations).
 - **Ix:** FISH testing or chromosomal microarray for the 22q11.2 deletion (*why:* the definitive diagnostic test, confirming the specific genetic deletion directly; *what:* confirms the deletion in the majority of clinically-suspected cases). Serum calcium and PTH (*why:* screens for the hypocalcaemia component of the mnemonic above, directly relevant given this can present acutely as neonatal tetany/seizures — often the presenting feature prompting the diagnostic work-up; *what:* low calcium with low or inappropriately normal PTH, reflecting parathyroid aplasia). Lymphocyte subset analysis (*why:* quantifies the degree of T-cell deficiency, given the clinical severity spans a spectrum from mild (partial DiGeorge) to severe/complete athymia, directly informing management intensity and live vaccine safety; *what:* low T-cell count/function correlating with the degree of thymic hypoplasia). Echocardiogram (*why:* screens for the cardiac defects in the mnemonic above, given these are common and clinically significant; *what:* identifies conotruncal cardiac abnormalities such as tetralogy of Fallot or interrupted aortic arch, which are classically associated with this deletion).
 
 ### Job syndrome (Hyper-IgE syndrome)
@@ -87,7 +87,7 @@ source: quackquackmed 10.03 Primary immunodeficiencies
 
 ### Severe combined immunodeficiency (SCID)
 
-*(see 15.15 for more)*
+*(fuller entry: [[15_15b_Paeds_-_Primary_Immunodeficiencies_and_SCID]] Severe combined immunodeficiency (SCID))*
 
 - Several types, including X-linked recessive defective IL-2 receptor, and autosomal recessive adenosine deaminase deficiency.
 - **S/Smx:** failure to thrive; chronic diarrhoea; thrush; recurrent viral, bacterial, fungal and protozoal infections.
