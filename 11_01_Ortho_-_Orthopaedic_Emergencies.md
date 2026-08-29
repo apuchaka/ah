@@ -72,6 +72,7 @@ source: quackquackmed 11.01 Orthopaedic emergencies
 ## Spinal cord compression
 
 - **A:** trauma, vertebral fracture, intervertebral disc herniation, tumours, infection.
+  - **Where the cause is malignant, the fuller entry is [[04_Neurology]] Malignant Spinal Cord Compression (MSCC)** — it owns the oncological presentation, including the back pain that precedes neurological signs by weeks and the UMN pattern that distinguishes cord compression from cauda equina syndrome. This entry covers cord compression from any cause; not repeated there.
 - **S/Smx:**
   - Sensory: change in sensation below the affected level.
 
