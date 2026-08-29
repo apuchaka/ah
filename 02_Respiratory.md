@@ -461,7 +461,14 @@ Caused by organisms that cannot be cultured normally or detected by Gram stain.
 > **Mx tiering:** this is the **definitive/chronic** treatment course — active TB doesn't have a separate "immediate" pharmacological tier beyond starting this regimen promptly on diagnosis; the immediate priority alongside starting treatment is infection control (isolation/airborne precautions until deemed non-infectious) and mandatory notification to the state/territory public health unit (TB is a notifiable disease in Australia).
 
 ### Mx of latent TB
-Rifampicin + isoniazid for 3 months, OR isoniazid alone for 6 months.
+
+> [!danger] **Correction, found by the verification-box scope audit in M8 (2026-08-29).** This entry previously gave **"rifampicin + isoniazid for 3 months, OR isoniazid alone for 6 months"** — the first of those is the **UK (3HR) regimen** and is not the standard Australian option.
+>
+> **The Australian regimens** are **isoniazid daily for 6–9 months (6–9H)** or **rifampicin monotherapy daily for 4 months (4R)** — rifampicin *alone*, not combined, and for **4** months rather than 3. The shorter **3HP** regimen (isoniazid + rifapentine weekly for 12 weeks) is established internationally and has been used in some Australian services, but check local availability before quoting it as standard. See `PENDING_GUIDELINE_CHECKS.md` **B38**.
+>
+> **How it survived, and it is the second instance of this shape this session.** The verification box above covers the **active-TB RIPE regimen** — it says "no material dosing/duration difference identified" — and that statement is about RIPE. **Latent TB is a different regimen** and was never in the box's scope, but it sits directly beneath it under the same heading structure, so it inherits the box's apparent authority. This is the same failure as the paediatric adrenaline timing in `15_01a`: a box that is accurate about what it names, silent about what it does not, and read as covering the block.
+
+**Mx:** **isoniazid daily for 6–9 months (6–9H)**, or **rifampicin monotherapy daily for 4 months (4R)** — with **pyridoxine (B6)** alongside any isoniazid-containing regimen, as for active TB above.
 
 ### Drug adverse effects
 | Drug | Adverse effects |
