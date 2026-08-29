@@ -195,3 +195,47 @@ Several primary Australian sources are **blocked by this environment's network e
   the exam"; others are notes correctly describing permanent jurisdictional
   variation, where the check is that the description is still accurate. The
   distinction is in each row's wording, not in its status marker.
+
+---
+
+## Section E — Phase 5 build items awaiting an Australian source
+
+Content gaps found by the Phase 5 fourth pass (all 276 leaf subclasses of the
+AMH therapeutic classification, `scripts/drug_classes.py`). These are **build**
+items, not currency checks: the content does not exist yet. Each needs a cited
+Australian source before it is written, per the project's content-build rule.
+
+| ID | Gap | Source needed | Status |
+|---|---|---|---|
+| P5-C10 | **Antivenoms — snake and other Australian envenomation.** Zero hits for `antivenom` in 148 files. Pressure-immobilisation, indications for antivenom, premedication, serum sickness | eTG Toxicology and Toxinology; Australian Snakebite Project / CSL antivenom product information | ⬜ |
+| P5-C11 | **H2 antagonists.** Absent entirely — no ranitidine, famotidine, nizatidine or class name — while PPIs are well covered | eTG Gastrointestinal; AMH | ⬜ |
+| P5-C12 | **Decongestants, oral and intranasal**, and rhinitis medicamentosa on prolonged topical use | eTG Respiratory / ENT; ASCIA allergic rhinitis (egress-blocked, see Section D) | ⬜ |
+| P5-C13 | **Bulk-forming laxatives.** The one laxative leaf of five with no coverage — an asymmetric silence inside a class the corpus otherwise teaches | eTG Gastrointestinal | ⬜ |
+| P5-C14 | **CGRP antagonists** for migraine prophylaxis — now PBS-listed, absent entirely | PBS listing criteria; Therapeutic Guidelines Neurology | ⬜ |
+| P5-C15 | **Carbapenems** — mechanism and the ESBL / last-line stewardship rationale in one entry. 16 uses, dose and caution only | eTG Antibiotic; national antimicrobial stewardship guidance | ⬜ |
+| P5-C16 | **TNF-alpha antagonists** — pre-treatment TB and hepatitis B screening, and infection risk on treatment. 21 uses, no entry carries the screening | eTG Rheumatology; ARA (Australian Rheumatology Association) position statements | ⬜ |
+| P5-C17 | **Antimycobacterials** — the four-drug TB regimen's toxicity and monitoring profile, in the entry that teaches the regimen | National Tuberculosis Advisory Committee guidelines; eTG Antibiotic | ⬜ |
+
+### Residual work this pass did NOT clear
+
+> [!warning] **103 leaf subclasses — the 93 THIN and 10 NAMED ONLY — have not been individually hand-verified. They are open work, not a clean result.**
+>
+> The scan behind them scores four dimensions by keyword proxy, and the
+> mechanism proxy is **confirmed to produce false negatives**: ocular
+> anticholinergics scored NAMED ONLY against a line that explains the
+> mechanism correctly in plain clinical English — *"cycloplegics (dilate the
+> pupil, relieving pain and photophobia, and preventing posterior
+> synechiae)"* — because not one word in it belongs to mechanism vocabulary.
+> The same failure can be hiding anywhere in the other 102.
+>
+> So each of the 103 is one of three things and the scan cannot tell them
+> apart: a genuine depth gap, a proxy false negative like the one above, or a
+> class correctly left thin because it sits above the intern ceiling.
+> **Deciding which requires reading the entry.** Until that happens, no THIN
+> or NAMED ONLY verdict from the fourth pass may be cited as either a gap or
+> as coverage.
+>
+> Deferred deliberately for a future session under usage constraints — recorded
+> here rather than dropped. The 25 ABSENT leaves were hand-checked (4 of the
+> original 28 were scan artifacts); the 148 ADEQUATE were not, and carry the
+> same proxy caveat in the other direction.
