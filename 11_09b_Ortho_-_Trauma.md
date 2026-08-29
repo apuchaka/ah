@@ -82,7 +82,7 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 
 > [!info] **The counter-intuitive point, and the reason it matters: a painless burn is a worse burn.** Loss of sensation means full-thickness destruction of the dermis including its nerve endings, so pain is inversely related to depth at the severe end. An intern reassured by a patient not complaining of pain has the finding exactly backwards.
 
-**TBSA estimation:**
+**TBSA (total body surface area) estimation** — the percentage of the body burned, and the number the whole fluid calculation is built on:
 - **Rule of Nines (adults):** head 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18%, perineum 1%.
 - **The patient's own palm including fingers ≈ 1% TBSA** — the most practical tool for small or patchy burns.
 - **Do not count superficial (erythema-only) burns** in TBSA. Including sunburn-type erythema is a common error that inflates the calculation and leads to over-resuscitation.
