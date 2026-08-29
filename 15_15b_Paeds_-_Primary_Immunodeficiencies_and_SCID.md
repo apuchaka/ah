@@ -11,7 +11,7 @@ source: quackquackmed 15.15 Primary immunodeficiencies, Severe combined immunode
   - Usually present after the first months of life, due to early protection from maternal antibodies.
   - Present with recurrent infections — e.g. ≥2× pneumonia per year; ≥2× meningitis/sepsis ever.
   - Faltering growth.
-  - Family history of PID/consanguinity.
+  - Family history of **PID (primary immunodeficiency** — note this abbreviation means **pelvic inflammatory disease** elsewhere in the corpus, e.g. in the paediatric abdominal pain differential**)**/consanguinity.
   - Unusual pathogens in unusual locations.
   - Persistent candidiasis.
   - Non-healing wounds.

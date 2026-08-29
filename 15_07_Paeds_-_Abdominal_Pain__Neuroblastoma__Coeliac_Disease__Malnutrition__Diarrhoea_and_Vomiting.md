@@ -6,7 +6,7 @@ source: quackquackmed 15.07 GI disorders - Abdominal pain DDx, Neuroblastoma, Co
 ## Abdominal pain — differential diagnosis
 
 > [!info] Acute abdominal pain
-> Appendicitis; gastroenteritis; viral illness (e.g. URTI) associated with mesenteric adenitis; constipation; UTI; intussusception; torted testis in boys; in older girls — consider menses, ovarian cyst, ovarian torsion, PID, ectopic pregnancy.
+> Appendicitis; gastroenteritis; viral illness (e.g. URTI) associated with mesenteric adenitis; constipation; UTI; intussusception; torted testis in boys; in older girls — consider menses, ovarian cyst, ovarian torsion, **PID (pelvic inflammatory disease)**, ectopic pregnancy.
 
 > [!info] Recurrent abdominal pain
 > ≥10% of children >5 years old suffer recurrent abdominal pain, with no organic cause in 90%. Carries a 4× increased risk of psychological problems in adult life.
