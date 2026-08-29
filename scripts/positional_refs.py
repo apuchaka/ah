@@ -117,6 +117,60 @@ STRUCTURAL_RE = re.compile(
     r"\b(?P<struct>%s)\s+(?P<pos>%s)\b" % ("|".join(STRUCTURES), POSITIONAL), re.I
 )
 
+# TIER C: a NAMED referent — "See Kellgren-Lawrence grading above".
+#
+# Added 2026-08-29 (G14) after this scan MISSED the simplest possible instance
+# of the class it exists for: 12_01 said "See Kellgren-Lawrence grading above"
+# while the K-L grading box sat 21 lines BELOW. Tier A needs an AU/UK
+# qualifier and there is none; Tier B needs a structural noun and "grading" is
+# not one. So a named, checkable, wrong reference fell through both.
+#
+# The resolution here is stronger than either other tier, because a proper
+# name can simply be searched for: the direction is checkable, not guessed.
+#   MISDIRECTED  the name appears ONLY in the opposite direction. A defect.
+#   OK           the name appears in the direction claimed.
+#   UNRESOLVED   the name appears nowhere else in the file.
+NAMED_RE = re.compile(
+    r"\b(?:[Ss]ee|[Pp]er|[Ff]rom|[Ii]n)\s+(?P<name>(?:the\s+)?[A-Z][\w'’-]*"
+    r"(?:[- ][A-Za-z][\w'’-]*){0,3})\s+(?P<pos>%s)\b" % POSITIONAL
+)
+# Words that start a sentence but are not a referent name.
+NAMED_STOP = {"the", "this", "that", "these", "those", "it", "there", "note",
+              "table", "list", "box", "section", "entry", "figures", "doses"}
+
+
+def resolve_named(lines, idx, name, pos):
+    """Does `name` actually appear in the direction the sentence claims?"""
+    key = re.sub(r"^the\s+", "", name, flags=re.I).strip()
+    head = key.split()[0]
+    if head.lower() in NAMED_STOP or len(head) < 4:
+        return None
+    # Match the FULL name, not just its head word.
+    #
+    # The first version matched on the head alone, so "see Anterior Uveitis
+    # above" resolved OK against an unrelated "Anterior ischaemic optic
+    # neuropathy" 19 lines up, while the real Anterior Uveitis section sat 242
+    # lines BELOW. A false OK is the one outcome this scan must not produce, so
+    # the full name decides; the head is used only to detect that SOME related
+    # text exists, which downgrades to UNRESOLVED rather than claiming OK.
+    # Allow a parenthetical gloss between the words of the name, so
+    # "Kellgren-Lawrence grading" still matches "Kellgren-Lawrence (K-L)
+    # grading" — the corpus routinely introduces an acronym mid-name.
+    sep = r"[\s\-]+(?:\([^)]{0,24}\)[\s\-]*)?(?:\*\*)?"
+    full = re.compile(r"\b" + sep.join(re.escape(w) for w in key.split()), re.I)
+    before = any(full.search(l) for l in lines[:idx])
+    after = any(full.search(l) for l in lines[idx + 1:])
+    if not before and not after:
+        hx = re.compile(re.escape(head), re.I)
+        if any(hx.search(l) for l in lines[:idx] + lines[idx + 1:]):
+            return "UNRESOLVED", key
+    claimed_before = pos.lower() == "above"
+    if (claimed_before and before) or (not claimed_before and after):
+        return "OK", key
+    if (claimed_before and after) or (not claimed_before and before):
+        return "MISDIRECTED", key
+    return "UNRESOLVED", key
+
 
 def nearest_qualifiers(line):
     """Yield one match per positional word, using the NEAREST qualifier to it.
@@ -241,7 +295,7 @@ def resolve_structural(lines, idx, struct, pos):
 
 
 def scan(files):
-    tier_a, tier_b = [], []
+    tier_a, tier_b, tier_c = [], [], []
     for f in files:
         lines = f["lines"]
         for i, line in enumerate(lines):
@@ -258,7 +312,14 @@ def scan(files):
                     continue  # already covered, more precisely, by tier A
                 verdict, scope = resolve_structural(lines, i, struct, pos)
                 tier_b.append((f["name"], i + 1, struct, pos, verdict, scope, line.strip()))
-    return tier_a, tier_b
+            for m in NAMED_RE.finditer(line):
+                if QUALIFIED_RE.search(line) or STRUCTURAL_RE.search(line):
+                    continue  # covered more precisely by tier A or B
+                r = resolve_named(lines, i, m.group("name"), m.group("pos"))
+                if r:
+                    tier_c.append((f["name"], i + 1, r[1], m.group("pos"),
+                                   r[0], None, line.strip()))
+    return tier_a, tier_b, tier_c
 
 
 # ---------------------------------------------------------------------------
@@ -327,6 +388,42 @@ Treat if <80yo AND target organ damage.
 ]
 
 
+# Tier C fixtures: (label, text, lineno, expected verdict).
+# The first is THE case this scan missed in the live corpus on 2026-08-29 —
+# a scan must carry the instance that defeated it.
+NAMED_FIXTURES = [
+    ("K-L: 'see X above' where X is 21 lines BELOW — the missed case",
+     """## Osteoarthritis (OA)
+### OA of the knee
+- See Kellgren-Lawrence grading above (not repeated here) for the scale.
+
+### OA of the hand
+> [!note] **Kellgren-Lawrence (K-L) grading** is the standard radiographic scale:
+> - Grade 1: doubtful narrowing.
+""", 3, "MISDIRECTED"),
+    ("correct: 'see X above' and X really is above",
+     """> [!note] **Kellgren-Lawrence (K-L) grading** is the standard scale.
+- See Kellgren-Lawrence grading above for the scale.
+""", 2, "OK"),
+    ("Anterior Uveitis: head word matches an UNRELATED entry above",
+     """## Sudden Vision Loss
+| Anterior ischaemic optic neuropathy | Acute glaucoma |
+- See Anterior Uveitis above for the detail.
+
+## Anterior Uveitis
+- **D:** inflammation of the uveal tract.
+""", 3, "MISDIRECTED"),
+    ("named referent absent from the file entirely",
+     """## Ankle
+- See Ottawa rules above for the imaging decision.
+""", 2, "UNRESOLVED"),
+    ("must not fire on a structural noun — that is tier B's job",
+     """## Thing
+- See the table above for the doses.
+""", 2, None),
+]
+
+
 def self_test(_files=None):
     passed = failed = 0
     print("SELF-TEST — inline fixtures (see note in source)")
@@ -354,6 +451,22 @@ def self_test(_files=None):
         else:
             print("  ok    %-58s %s" % (label[:58], v))
             passed += 1
+    print("\n  TIER C — named referents")
+    for label, text, lineno, expect in NAMED_FIXTURES:
+        lines = text.split("\n")
+        idx = lineno - 1
+        got = None
+        for m in NAMED_RE.finditer(lines[idx]):
+            if QUALIFIED_RE.search(lines[idx]) or STRUCTURAL_RE.search(lines[idx]):
+                continue
+            r = resolve_named(lines, idx, m.group("name"), m.group("pos"))
+            if r:
+                got = r[0]
+                break
+        ok = got == expect
+        print("  %-5s %-58s %s" % ("ok" if ok else "FAIL", label[:58], got))
+        passed, failed = passed + ok, failed + (not ok)
+
     print("\n  %d passed, %d failed" % (passed, failed))
     return failed
 
@@ -369,7 +482,7 @@ def main():
         sys.exit(1 if self_test() else 0)
     files = load_files(args.file)
 
-    tier_a, tier_b = scan(files)
+    tier_a, tier_b, tier_c = scan(files)
 
     print("=" * 78)
     print(" positional_refs.py — %d content files" % len(files))
@@ -402,6 +515,21 @@ def main():
             print("        %s" % (r[6][:150]))
     elif b_str:
         print("  Re-run with --all to list the %d unresolved." % len(b_str))
+
+    c_bad = [r for r in tier_c if r[4] == "MISDIRECTED"]
+    c_unres = [r for r in tier_c if r[4] == "UNRESOLVED"]
+    print("\nTIER C — named referents (%d found)" % len(tier_c))
+    print("  MISDIRECTED — the name appears ONLY in the opposite direction: %d" % len(c_bad))
+    for r in c_bad:
+        print("     %s:%d  '%s ... %s'" % (r[0], r[1], r[2], r[3]))
+        print("        %s" % (r[6][:150]))
+    print("  UNRESOLVED — the name appears nowhere else in the file: %d" % len(c_unres))
+    if args.all:
+        for r in c_unres:
+            print("     %s:%d  '%s ... %s'" % (r[0], r[1], r[2], r[3]))
+            print("        %s" % (r[6][:150]))
+    elif c_unres:
+        print("  Re-run with --all to list them.")
 
     print("\n" + "-" * 78)
     print("Reminder: STRANDED is a candidate, not a finding. Read the file before")

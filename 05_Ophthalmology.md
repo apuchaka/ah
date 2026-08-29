@@ -31,10 +31,10 @@ source: quackquackmed 05 Ophthalmology
 
 | Painful, vision often affected (urgent) | Painful, vision usually preserved | Painless, vision preserved |
 |---|---|---|
-| Acute angle-closure glaucoma (see Angle-Closure Glaucoma above) | Corneal abrasion (see below) | Subconjunctival haemorrhage (see below) |
-| Anterior uveitis (see Anterior Uveitis above) | Episcleritis (see Episcleritis and Scleritis above) | Conjunctivitis, most cases (see Conjunctivitis above) |
-| Scleritis (see Episcleritis and Scleritis above) | Blepharitis (see Blepharitis above) | Dry eye / blepharitis-associated redness |
-| Keratitis, incl. microbial (see Keratitis above) | | |
+| Acute angle-closure glaucoma (see Angle-Closure Glaucoma below) | Corneal abrasion (see below) | Subconjunctival haemorrhage (see below) |
+| Anterior uveitis (see Anterior Uveitis below) | Episcleritis (see Episcleritis and Scleritis below) | Conjunctivitis, most cases (see Conjunctivitis below) |
+| Scleritis (see Episcleritis and Scleritis below) | Blepharitis (see Blepharitis below) | Dry eye / blepharitis-associated redness |
+| Keratitis, incl. microbial (see Keratitis below) | | |
 | Endophthalmitis (see below) | | |
 
 **Red flags warranting same-day/urgent ophthalmology review regardless of which category above:** reduced visual acuity, severe pain, photophobia, a fixed/irregular/poorly-reactive pupil, corneal opacity or visible infiltrate, hypopyon, recent intraocular surgery (endophthalmitis risk — see below), contact lens wear with pain (higher risk of severe microbial keratitis, including *Pseudomonas* and acanthamoeba — see Keratitis above), and any history of trauma.
@@ -84,7 +84,7 @@ source: quackquackmed 05 Ophthalmology
 
 **D:** severe inflammation of the intraocular fluids (aqueous and/or vitreous humour), almost always infective in origin — a genuine ophthalmic emergency given the risk of rapid, permanent vision loss.
 
-**R:** recent intraocular surgery (particularly cataract surgery — the most common precipitant, see Cataracts above), penetrating eye trauma, endogenous spread from a systemic infection/bacteraemia (less common, but relevant in immunocompromised or septic patients), pre-existing keratitis progressing to deeper involvement (see Keratitis above).
+**R:** recent intraocular surgery (particularly cataract surgery — the most common precipitant, see Cataracts below), penetrating eye trauma, endogenous spread from a systemic infection/bacteraemia (less common, but relevant in immunocompromised or septic patients), pre-existing keratitis progressing to deeper involvement (see Keratitis below).
 
 **S/Smx:** rapid onset (hours to days) of severe eye pain, marked redness, significantly reduced visual acuity, hypopyon, lid swelling; systemic symptoms may be present if the source is endogenous/septic.
 
@@ -348,7 +348,7 @@ source: quackquackmed 05 Ophthalmology
 **Mx:**
 - **Immediate/acute:** same-day referral to eye specialist; stop wearing contact lenses; topical antibiotics (typically quinolones) started empirically pending culture results, given the sight-threatening potential of delayed treatment; cycloplegic for pain relief (e.g. cyclopentolate).
 - **Definitive:** targeted therapy once the causative organism is identified from corneal scraping — antifungals for fungal keratitis, specific anti-amoebic therapy for acanthamoeba (a notably difficult-to-treat organism, hence the emphasis on prevention via contact lens hygiene above), aciclovir-based therapy for HSV keratitis.
-- **Chronic/long-term:** address modifiable risk factors (contact lens hygiene — see Contact Lens Care above) to prevent recurrence, particularly relevant given how much of the risk factor profile is behaviour-modifiable.
+- **Chronic/long-term:** address modifiable risk factors (contact lens hygiene — see Contact Lens Care below) to prevent recurrence, particularly relevant given how much of the risk factor profile is behaviour-modifiable.
 
 **P:** corneal scarring, perforation, endophthalmitis, visual loss.
 
