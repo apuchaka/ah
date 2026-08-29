@@ -1,0 +1,254 @@
+Aminoglycosides
+Ansamycins
+Bisbiguanide Antiseptics
+Carbacephem
+Carbapenems
+Cephalosporins (1st Gen)
+Cephalosporins (2nd Gen)
+Cephalosporins (3rd Gen)
+Cephalosporins (4th Gen)
+Cephalosporins (5th Gen)
+Drugs against mycobacteria
+Glycopeptides
+Lincosamides(Bs)
+Lipopeptide
+Macrolides(Bs)
+Metronidazole
+Monobactams
+Nitrofurans
+Oxazolidinones(Bs)
+Penicillin combinations
+Penicillins (Narrow/Broad Spectrum)
+Pleuromutilin antibiotics
+Polypeptides
+Quinolones / Fluoroquinolones
+Sulfonamides(Bs)
+Tetracyclines(Bs)
+Interferons (Antiviral / Antineoplastic)
+Antimalarials / DMARDs
+H1 Antagonists (1st Gen)
+Herbal / Botanical Supplements
+Mu-Opioid Receptor Agonists (Full)
+Opioid Analgesics (Strong / Full Agonists)
+Opioid Analgesics (Weak / Atypical)
+Mu-Opioid Receptor Agonists (Partial)
+Inhalational Anesthetics (Gases)
+Inhalational Anesthetics (Volatiles)
+Intravenous Anesthetics (GABA-A Modulators)
+Intravenous Anesthetics (NMDA Antagonists)
+Local Anesthetics (Amides)
+Local Anesthetics (Esters)
+Parasympatholytics / Vagolytics
+Muscarinic Antagonists (General)
+Anticholinergics (Muscarinic Antagonists)
+ICD (Implantable Cardioverter Defibrillator)
+Alpha-Blockers (Non-selective)
+Antiarrhythmics (Class Ia)
+Antiarrhythmics (Class Ib)
+Antiarrhythmics (Class Ic)
+Antiarrhythmics (Class III)
+Beta-1 Adrenergic Agonists
+Beta-Blockers (Cardioselective / Beta-1)
+Beta-Blockers (Mixed Alpha/Beta)
+Beta-Blockers (Non-selective)
+Beta-Blockers (with ISA)
+Bile Acid Sequestrants
+Calcium Channel Blockers (DHP)
+Calcium Channel Blockers (Non-DHP)
+Cardiac Glycosides
+Cardioversion (Medical Procedure)
+Cholesterol Absorption Inhibitors
+Direct Arteriolar Vasodilators
+Fibrates (PPAR-alpha Agonists)
+HMG-CoA Reductase Inhibitors
+Nitrates & NO Donors
+PCSK9 Inhibitors
+Phosphodiesterase 3 (PDE3) Inhibitors
+Purinergic Agonists
+Alpha-2 Adrenergic Agonists (Central)
+Dopamine, Beta-1, and Alpha-1 Agonists
+Non-selective Beta Agonists
+Vasodilators (Potassium Channel Openers)
+Alpha-1 Adrenergic Agonists
+Alpha-1 Selective Blockers
+Calcium Channel Blockers (Cerebrovascular)
+Thrombolytics (Plasminogen Activators)
+Essential Fatty Acids
+Nicotinic Acid (Vitamin B3)
+Endothelin Receptor Antagonists
+Prostacyclin Analogs
+Soluble Guanylate Cyclase (sGC) Stimulators
+ACE Inhibitors
+Angiotensin II Receptor Blockers (ARBs)
+Mixed Adrenergic Agonists (Norepinephrine)
+Mixed Adrenergic Agonists (Epinephrine)
+Electrolytes
+Fluids
+Antimitotics (Topical)
+Contact Sensitizers (Topical Immunotherapy)
+Glucocorticoids (Topical)
+Keratolytics
+PDE-4 Inhibitors (Topical)
+Retinoids (Systemic)
+Retinoids (Topical RAR Agonists)
+Skin Protectants / Astringents
+Toll-like Receptor 7 (TLR7) Agonists
+Topical Antibacterials (Cell Wall / Membrane Disruptors)
+Topical Antibacterials (Oxidizing Agents)
+Topical Antibacterials (RNA Synthetase Inhibitors)
+Topical Antifungals (Pyridones)
+Topical Antiseborrheics / Cytostatics
+Topical Calcineurin Inhibitors
+Vitamin D Analogs (Topical)
+Caustics / Astringents
+Topical Antibacterials (Aminoglycosides)
+Topical Antifungals (Triazoles/Imidazoles)
+Chemical Coagulants / Protein Precipitants
+Biguanides (AMPK Activators)
+Calcimimetics
+DPP-4 Inhibitors
+GLP-1 Receptor Agonists
+Insulins (Intermediate-Acting)
+Insulins (Long-Acting)
+Insulins (Rapid-Acting)
+Meglitinides
+Mineralocorticoids
+Sulfonylureas
+Synthetic Thyroid Hormones
+Thiazolidinediones (PPAR-gamma Agonists)
+Thioamides (Thyroid Peroxidase Inhibitors)
+Tyrosine Hydroxylase Inhibitors
+SGLT2 Inhibitors
+Insulins (Short-Acting)
+Alpha-Blockers (Non-selective, Irreversible)
+Alpha-Glucosidase Inhibitors
+Synthetic Androgens / Anabolic Steroids
+Vasopressin (V1/V2) Receptor Agonists
+Vitamin D & Analogs
+Calcium Salts / Supplements
+Parathyroid Hormone (PTH) Analogs
+RANK Ligand (RANKL) Inhibitors
+Sclerostin Inhibitors
+Glucagon Receptor Agonists
+Simple Carbohydrates
+Essential Minerals
+Topical Antibacterials (DNA Gyrase Inhibitors)
+Guanylate Cyclase-C Agonists
+Intestinal Chloride Channel Activators
+NHE3 Inhibitors
+Proton Pump Inhibitors (PPIs)
+Serotonin (5-HT4) Receptor Agonists
+Alpha-1 Blockers (Uroselective)
+5-Alpha-Reductase Inhibitors
+Antiandrogens (Receptor Antagonists)
+Hormone Replacement Therapy (Estrogen/Progestin)
+Combined Oral Contraceptives (Estrogen/Progestin)
+Progestins
+SERMs (Selective Estrogen Receptor Modulators)
+G-CSF (Colony-Stimulating)
+Low Molecular Weight Heparins (LMWHs)
+P-selectin Inhibitors
+Anticoagulants (Factor Xa Inhibitors)
+Anticoagulants (Vitamin K Antagonists)
+Antiplatelets (COX Inhibitors)
+Antiplatelets (P2Y12 Inhibitors)
+Megakaryocyte Maturation Inhibitors (PDE3 Inhibitors)
+Erythropoiesis-Stimulating Agents
+Interleukin-12/23 (IL-12/23) Inhibitors
+Interleukin-17 (IL-17) Receptor Antagonists
+Interleukin-17 (IL-17A/F) Inhibitors
+Interleukin-17A (IL-17A) Inhibitors
+Interleukin-23 (IL-23) Inhibitors
+Intravenous Immunoglobulins (IVIG)
+Janus Kinase (JAK) 1 Inhibitors
+Tyrosine Kinase 2 (TYK2) Inhibitors
+Glucocorticoids (Systemic)
+TNF-Alpha Inhibitors
+Calcineurin Inhibitors
+mTOR Inhibitors
+Polyclonal Antibodies (T-cell Depleting)
+Bisphosphonates (Osteoclast Inhibitors)
+Purinergic (Adenosine) Antagonists
+Vasopressin Receptor Antagonists (Vaptans)
+Acetylcholinesterase Inhibitors (Central)
+ALS Therapies (Apoptosis / ER Stress Inhibitors)
+ALS Therapies (Free Radical Scavengers)
+ALS Therapies (Glutamate Antagonists)
+Anticonvulsants (Broad Spectrum)
+Anticonvulsants (GABA Reuptake / Transaminase Inhibitors)
+Anticonvulsants (SV2A Ligands)
+Anticonvulsants (T-Type Calcium Channel Blockers)
+Anticonvulsants (VGCC Blockers / Gabapentinoids)
+Anticonvulsants (Voltage-Gated Sodium Channel Blockers)
+Barbiturates (GABA-A Modulators)
+DOPA Decarboxylase Inhibitors
+Dopamine Agonists (Non-Ergot)
+Dopamine Precursors
+GHB Receptor / GABA-B Agonists
+Dopamine Agonists (Ergot Derivatives)
+Benzodiazepines (GABA-A Modulators)
+CGRP Antagonists (Monoclonal Antibodies)
+Ergot Alkaloids (5-HT Agonists)
+MAO-B Inhibitors
+Migraine Therapies (Calcium Channel Blockers)
+MS Therapies (Anti-CD20 Monoclonal Antibodies)
+MS Therapies (Anti-VLA-4 Monoclonal Antibodies)
+MS Therapies (Immunomodulators / Pyrimidine Synthesis Inhibitors)
+MS Therapies (Interferons)
+MS Therapies (S1P Modulators)
+Muscarinic Antagonists (Central)
+NMDA Receptor Antagonists
+Triptans (5-HT1B/1D Agonists)
+Muscle Relaxants (Neurotoxins)
+Interferons (MS Therapies)
+MS Therapies (Myelin Decoys)
+Muscle Relaxants (GABA-B Agonists)
+Acetylcholinesterase Inhibitors (Peripheral)
+Fat-Soluble Vitamins
+Iron Supplements
+Water-Soluble Vitamins
+Antimetabolites (Pyrimidine Analogues)
+Cytotoxic Antibiotics (DNA Intercalators)
+VEGF Inhibitors (Systemic / Intravitreal)
+Antimetabolites (Folate Antagonists)
+Vesicants (Chemotherapy Extravasation Context)
+External Fixation (Surgical Procedure)
+Arthroplasty (Surgical & Perioperative Med Mgt)
+Azapirones (5-HT1A Partial Agonists)
+Aldehyde Dehydrogenase Inhibitors
+MAOIs (Irreversible, Non-selective)
+MAOIs (Reversible, MAO-A Selective)
+Mood Stabilizers (Cationic Salts)
+NaSSAs (Noradrenergic & Specific Serotonergic Antidepressants)
+NDRIs (Norepinephrine-Dopamine Reuptake Inhibitors)
+Psychedelics (5-HT2A Agonists)
+Serotonin Modulators and Stimulators
+SSRIs (Selective Serotonin Reuptake Inhibitors)
+nAChR Agonists
+nAChR Partial Agonists
+NMDA Receptor Modulators
+H1 Antagonists (Sedative/Anticholinergic)
+Botanical Extracts / Antioxidants
+CNS Stimulants (NDRIs)
+SNRIs (Serotonin-Norepinephrine Reuptake Inhibitors)
+Tricyclic Antidepressants (TCAs)
+Wake-Promoting Agents (Atypical Dopamine Reuptake Inhibitors)
+Orexin Receptor Antagonists
+Pineal Hormones
+SARIs (Serotonin Antag / Reuptake Inhib)
+Monoamine Releasing Agents / Empathogens
+Phosphodiesterase Inhibitors (Non-selective / Spasmolytics)
+Short-Acting Beta-2 Agonists (SABA)
+Mast Cell Stabilizers
+Diuretics (Loop)
+Diuretics (Thiazide-like)
+Diuretics (K-Sparing / Aldose Antag)
+COX-2 Selective NSAIDs
+Non-Selective NSAIDs
+Xanthine Oxidase Inhibitors
+Chelating Agents
+Specific Reversal Agents / Antidotes
+Local Anesthetics (VG Na+ Blockers)
+Iron Chelating Agents
+Mu-Opioid Receptor Antagonists
+Carotid Endarterectomy (CEA) (Surgical)
