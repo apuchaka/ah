@@ -236,6 +236,10 @@ Secondary to portal hypertension causing distension of oesophageal veins → inc
 
 **Mx:**
 - **Immediate/acute:** ABCDE + resuscitation; correct clotting (FFP, platelets); terlipressin (2nd line: octreotide); prophylactic antibiotics (quinolones — reduces mortality and rebleeding, given the high infection risk in this setting); endoscopy ± band ligation, Sengstaken-Blakemore tube if uncontrolled, TIPSS if bleeding cannot be controlled otherwise.
+
+> [!info] **TIPSS — what it is, since the corpus prescribes it without ever saying.** **TIPSS = transjugular intrahepatic portosystemic shunt**: a stent placed via the jugular vein through the liver, connecting the portal to the hepatic venous system. *The mechanism:* it decompresses the portal system directly, which is why it works for variceal bleeding and for diuretic-resistant ascites where drug therapy addresses the consequences rather than the pressure.
+>
+> **Its cost is the same mechanism running the other way.** Portal blood now bypasses the liver, so it is no longer detoxified — **encephalopathy is the characteristic complication**, occurring in a substantial minority, and it is worse in patients who already have poor hepatic reserve. That is the link back to the severity scores above: a high Child-Pugh or MELD makes TIPSS both more likely to be needed and more likely to be tolerated badly, which is why the decision sits with hepatology rather than with the admitting team.
 - **Definitive:** endoscopic band ligation to eradicate varices once the acute bleed is controlled.
 - **Chronic/long-term (prophylaxis, primary and secondary):** non-selective β-blocker (e.g. propranolol), endoscopic variceal band ligation programme, TIPSS for refractory cases.
 
@@ -435,7 +439,18 @@ Hepatitis E — faecal-oral route, especially contaminated water. Usually self-l
 
 ### Liver disease severity scoring
 > [!info] Child-Pugh score — bilirubin, albumin, prothrombin time, encephalopathy, ascites
-> [!info] MELD formula — bilirubin, creatinine, INR
+> [!info] **MELD** (Model for End-stage Liver Disease) — bilirubin, creatinine, INR
+
+> [!danger] **What these two scores are for, and why there are two of them.** This section previously listed the variables of each and nothing else — which tells a reader what to add up but not what the answer means or when either score changes anything.
+>
+> **Neither score guides day-to-day management.** Both answer the question *how much liver reserve does this patient have*, and they are used at decision points: **can this patient survive an intervention**, and **where do they sit for transplant**.
+>
+> - **Child-Pugh** grades cirrhosis **A, B or C** (increasing severity). Its main use at intern level is **procedural and surgical risk** — a Child-Pugh C patient facing elective surgery is a fundamentally different proposition from a Child-Pugh A one — and it appears in specific thresholds elsewhere in this file, such as SBP prophylaxis.
+> - **MELD** is a continuous score predicting **short-term mortality**, and it is what **transplant allocation** is based on.
+>
+> **Why both survive, which is the useful part:** Child-Pugh contains **two subjective items** — the grade of encephalopathy and the amount of ascites — so two clinicians can score the same patient differently. **MELD is entirely objective laboratory values**, which is precisely why it, and not Child-Pugh, is used to allocate a scarce resource. When a score has to be defensible between centres, subjectivity is disqualifying.
+>
+> *Intern-level takeaway:* you will not calculate these often, but you should recognise when one is being quoted and what decision it is attached to — and know that a rising MELD in a patient with cirrhosis is a reason to ask whether they are known to a transplant service, not just a worse number.
 
 ---
 
