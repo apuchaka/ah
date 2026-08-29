@@ -1240,7 +1240,7 @@ Three, all mine, all found before the results were reported:
 | **P5-C7** | **Nystatin** — absent entirely; topical antifungal for oral and nappy candidiasis, both intern-level | ⬜ |
 | **P5-C8** | **Albendazole / mebendazole** — threadworm dosing, absent; a GP-level paediatric presentation | ⬜ |
 | **P5-B6** | **BI-RADS, PI-RADS, TI-RADS, Lung-RADS** — what the number means when it appears on a report an intern is handed. The other 12 RADS systems are correctly out of scope | ⬜ |
-| **P5-C9** | **The ten non-antimicrobial therapeutic classes were never enumerated.** Cardiovascular, respiratory, CNS, endocrine, GI, renal, haematological, musculoskeletal, dermatological, ophthalmic. Blocked on AMH/BNF egress, not judged clean | ⬜ |
+| **P5-C9** | ~~The ten non-antimicrobial therapeutic classes were never enumerated.~~ **CLOSED — SUPERSEDED, not built.** Written during the third pass, when only antimicrobials could be enumerated. The AMH therapeutic classification supplied afterwards covers all 21 top-level classes including these ten, and the fourth pass walked all **276 leaf subclasses** (`scripts/drug_classes.py`, commit `3e543ef`) — that pass is where the SGLT2, GLP-1, PCSK9, triptan, CGRP, TNF-alpha and xanthine-oxidase findings came from. The enumeration is now saved as `data/amh_276_leaf_classification.txt` rather than living only inside the script. **Nothing further to do under this ID.** | ✅ |
 | **P5-A4** | **Part A's 38-specialty enumeration still has not happened** — third pass, same blocker, recorded again rather than dropped | ⬜ |
 | **P5-D8** | **Part D's 38-specialty enumeration still has not happened** — AMC prevocational framework PDF is egress-blocked | ⬜ |
 
