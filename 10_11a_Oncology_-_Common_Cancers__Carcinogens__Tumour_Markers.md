@@ -80,7 +80,7 @@ source: quackquackmed 10.11 Common cancers, Carcinogens, Tumour markers
 
 ## TNM Staging — What It Actually Means
 
-> [!note] Gap-filled — "TNM" is referenced by name throughout this project's individual cancer entries (e.g. colorectal cancer's "feeds into the Dukes'/TNM staging," and staging discussions in breast, biliary, and pancreatic cancer elsewhere in this project) but the framework itself was never actually explained anywhere — the same pattern already addressed for MMSE/MoCA (see [[Investigation-Interpretation]] Cognitive Screening Tools) and Notifiable Diseases (see [[08_09_Infectious_Disease_-_Miscellaneous]] Notifiable Diseases in Australia) elsewhere in this project: a concept load-bearing throughout existing content, never itself explained.
+> [!note] Gap-filled — "TNM" is referenced by name throughout this project's individual cancer entries (e.g. colorectal cancer's "feeds into the Dukes'/TNM staging," and staging discussions in breast, biliary, and pancreatic cancer elsewhere in this project) but the framework itself was never actually explained anywhere — the same pattern already addressed for MMSE/MoCA (see [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS) Tools) and Notifiable Diseases (see [[08_09_Infectious_Disease_-_Miscellaneous]] Notifiable Diseases in Australia) elsewhere in this project: a concept load-bearing throughout existing content, never itself explained.
 
 **The core system:** TNM is the internationally standardised framework (maintained jointly by the UICC and AJCC) for describing the anatomical extent of most solid tumours — three independent components combine to describe a cancer's extent, which then map onto an overall numbered stage (I–IV) used for prognosis and treatment planning.
 
@@ -103,7 +103,7 @@ source: quackquackmed 10.11 Common cancers, Carcinogens, Tumour markers
 
 ## ECOG Performance Status
 
-> [!note] Gap-filled — genuinely absent everywhere despite being fundamental to oncology treatment decisions; phrases already used elsewhere in this project like "fit patients" vs "frailer/older patients" for AML chemotherapy intensity (see [[10_01_Haemonc_-_Leukaemias_and_Myeloproliferative_Disorders]] Acute myeloid leukaemia, not repeated here) are effectively describing ECOG performance status without ever naming or defining the actual scoring system.
+> [!note] Gap-filled — genuinely absent everywhere despite being fundamental to oncology treatment decisions; phrases already used elsewhere in this project like "fit patients" vs "frailer/older patients" for AML chemotherapy intensity (see [[10_01_Haemonc_-_Leukaemias_and_Myeloproliferative_Disorders]] Acute myeloid leukaemia (AML), not repeated here) are effectively describing ECOG performance status without ever naming or defining the actual scoring system.
 
 **The core purpose:** a simple, widely-used 0–4 scale (developed by the Eastern Cooperative Oncology Group) describing a cancer patient's functional status and ability to tolerate treatment — genuinely one of the most commonly used tools in oncology for standardising communication about a patient's fitness for a given therapy, and for comparing outcomes across clinical trial populations.
 

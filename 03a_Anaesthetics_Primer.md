@@ -20,7 +20,7 @@ source: quackquackmed 03a Primer on Anaesthetics
 > [!tip] Airway assessment — mnemonic "LEMON"
 > **L**ook externally (abnormal neck, large tongue, dental issues); **E**valuate 3-3-2 (3 fingers between teeth, 2 between hyoid and mentum, 2 between hyoid and thyroid); **M**allampati score; **O**bstruction/obesity; **N**eck mobility (reduced in trauma, elderly)
 >
-> See [[Examination]] Pre-Anaesthetic Assessment for the full step-by-step examination sequence and how to present these findings back to an examiner.
+> See [[Examination]] Pre-Anaesthetic Assessment (Airway + Fitness for Anaesthesia) for the full step-by-step examination sequence and how to present these findings back to an examiner.
 
 ### Induction of GA
 
@@ -327,4 +327,4 @@ Injection of anaesthetic (e.g. LA, opioids) into the epidural or subarachnoid sp
 **Chronic/long-term:**
 - Chronic post-surgical pain — a recognised complication of many procedure types, more likely with nerve injury during surgery, poorly controlled acute post-op pain, and certain procedure types (e.g. thoracotomy, hernia repair, amputation)
 - Hypertrophic/keloid scarring
-- Adhesions (following abdominal/pelvic surgery) — can cause chronic pain, subfertility, or later present as small bowel obstruction (see [[03_Gastrointestinal]] Small Bowel Obstruction)
+- Adhesions (following abdominal/pelvic surgery) — can cause chronic pain, subfertility, or later present as small bowel obstruction (see [[03_Gastrointestinal]] Small Bowel Obstruction (SBO))

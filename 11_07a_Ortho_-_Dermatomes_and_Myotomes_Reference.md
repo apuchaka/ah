@@ -33,7 +33,7 @@ source: quackquackmed 11.07 Dermatomes, Myotomes, and reflexes reference
 
 ## Upper limb nerve roots — sensory, motor, and reflexes
 
-> [!note] Gap-filled — genuinely absent despite the equivalent Lower limb table below already existing, and despite cervical radiculopathy (see [[11_06_Ortho_-_Spinal_Orthopaedics]] Cervical spondylosis, not repeated here) being specifically an upper-limb nerve root presentation — the exact scenario this table is most needed for.
+> [!note] Gap-filled — genuinely absent despite the equivalent Lower limb table below already existing, and despite cervical radiculopathy (see [[11_06_Ortho_-_Spinal_Orthopaedics]] Cervical spondylosis (degenerative cervical spine disease / degenerative disc disease), not repeated here) being specifically an upper-limb nerve root presentation — the exact scenario this table is most needed for.
 
 | Root | Sensory loss | Motor weakness | Reflexes | Special test |
 |---|---|---|---|---|

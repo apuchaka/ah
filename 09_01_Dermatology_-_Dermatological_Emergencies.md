@@ -49,7 +49,7 @@ source: quackquackmed 09.01 Dermatological emergencies
 
 ## Cutaneous Drug Eruptions (Overview and Spectrum)
 
-> [!note] Gap-filled — drug eruptions were completely absent from this project despite being frequently mentioned as a differential elsewhere (e.g. within [[09_04_Dermatology_-_Eczema__Psoriasis__Rosacea]] Contact Dermatitis and the Pruritus differential in [[09_08_Dermatology_-_Miscellaneous]]), and despite SJS/TEN below being one of the most severe forms on this same spectrum. This entry gives the overview and the milder end of the spectrum; SJS/TEN below covers the most severe end in full detail.
+> [!note] Gap-filled — drug eruptions were completely absent from this project despite being frequently mentioned as a differential elsewhere (e.g. within [[09_04_Dermatology_-_Eczema__Psoriasis__Rosacea]] Contact Dermatitis (Irritant and Allergic) and the Pruritus differential in [[09_08_Dermatology_-_Miscellaneous]]), and despite SJS/TEN below being one of the most severe forms on this same spectrum. This entry gives the overview and the milder end of the spectrum; SJS/TEN below covers the most severe end in full detail.
 
 **The core principle: drug eruptions span a genuine spectrum from benign and self-limiting to life-threatening**, and recognising which end of the spectrum a given presentation sits on is the most important clinical skill here — not simply recognising "this is a drug rash."
 
@@ -131,7 +131,7 @@ source: quackquackmed 09.01 Dermatological emergencies
 
 ## Necrotising fasciitis
 
-> [!note] Full entry consolidated into [[08_09_Infectious_Disease_-_Miscellaneous]] Necrotising Fasciitis, not duplicated here — that entry now incorporates the classification, red-flag features, finger test, and Ix/Mx detail from both this file's original content and the Infectious Disease file's, merged into a single authoritative version. Cross-referenced here as this is also a dermatological emergency in its own right, but kept as a single-source entry to avoid drift between two independently-maintained copies of the same disease.
+> [!note] Full entry consolidated into [[08_09_Infectious_Disease_-_Miscellaneous]] Necrotising fasciitis, not duplicated here — that entry now incorporates the classification, red-flag features, finger test, and Ix/Mx detail from both this file's original content and the Infectious Disease file's, merged into a single authoritative version. Cross-referenced here as this is also a dermatological emergency in its own right, but kept as a single-source entry to avoid drift between two independently-maintained copies of the same disease.
 
 ## Cutaneous vasculitis
 

@@ -163,7 +163,7 @@ source: quackquackmed 05 Ophthalmology
 **Ix:** fundoscopy (*why:* the key diagnostic finding; *what:* the classic cherry-red spot — a pale, oedematous retina with the fovea appearing relatively red due to the underlying choroidal circulation showing through the thinner foveal retina). Given this is genuinely equivalent to a retinal stroke, the same urgent stroke-style work-up applies once suspected — screening for the embolic/arteritic source (carotid imaging, ECG/echo for cardioembolic sources, ESR/CRP and temporal artery assessment if GCA is a possibility given the very different urgent Mx pathway — see [[04_Neurology]] Temporal Arteritis/Giant Cell Arteritis, covered under the headache section there) is essential, not optional, given the systemic vascular risk this reveals.
 
 **Mx:**
-- **Immediate/acute:** this is an ophthalmic and vascular emergency — treat as a stroke-equivalent event; intra-arterial thrombolysis has been used but with mixed results and is not routinely recommended; if GCA is suspected as the cause, do not delay high-dose steroids pending biopsy confirmation, given the risk of bilateral involvement/other vascular complications (see [[04_Neurology]] Temporal Arteritis for the urgency principle, which applies equally here).
+- **Immediate/acute:** this is an ophthalmic and vascular emergency — treat as a stroke-equivalent event; intra-arterial thrombolysis has been used but with mixed results and is not routinely recommended; if GCA is suspected as the cause, do not delay high-dose steroids pending biopsy confirmation, given the risk of bilateral involvement/other vascular complications (see [[04_Neurology]] Temporal Arteritis (Giant Cell Arteritis) for the urgency principle, which applies equally here).
 - **Definitive:** treat underlying conditions (manage the embolic source, GCA if present).
 - **Chronic/long-term:** secondary vascular risk factor management, given this event signals the same systemic vascular risk as any other embolic/atherosclerotic event.
 
@@ -177,11 +177,11 @@ source: quackquackmed 05 Ophthalmology
 
 **Giant Cell Arteritis-related AION:** primarily due to occlusion of the posterior ciliary artery (branch of the ophthalmic artery). Temporary visual loss = amaurosis fugax. Permanent visual loss is the most feared complication of temporal arteritis and may develop suddenly. Diplopia may also result from involvement of any part of the oculomotor system (e.g. cranial nerves). Associated with headache (85%), jaw claudication (65%), temporal artery tenderness, PMR features (50%), systemic symptoms.
 
-**Ix:** ESR/CRP and temporal artery biopsy for the arteritic (GCA) subtype (*why:* confirms/excludes GCA as the cause, which fundamentally changes both urgency and treatment duration compared to non-arteritic AION; *what:* markedly elevated inflammatory markers support GCA — see [[04_Neurology]] Temporal Arteritis for the fuller Ix detail already built there, not repeated here). Non-arteritic AION is more of a diagnosis of exclusion based on the clinical picture and absence of GCA features/markers.
+**Ix:** ESR/CRP and temporal artery biopsy for the arteritic (GCA) subtype (*why:* confirms/excludes GCA as the cause, which fundamentally changes both urgency and treatment duration compared to non-arteritic AION; *what:* markedly elevated inflammatory markers support GCA — see [[04_Neurology]] Temporal Arteritis (Giant Cell Arteritis) for the fuller Ix detail already built there, not repeated here). Non-arteritic AION is more of a diagnosis of exclusion based on the clinical picture and absence of GCA features/markers.
 
 **Mx:**
 - **Immediate/acute (arteritic/GCA-related):** high-dose steroids started immediately on clinical suspicion — do not wait for biopsy confirmation, given the risk of rapid, irreversible bilateral visual loss.
-- **Chronic/long-term:** taper over 4–6 weeks (for GCA-related AION) — though note that GCA more broadly often requires a much longer overall steroid course than this specific taper figure suggests; see [[04_Neurology]] Temporal Arteritis for the broader GCA Mx context.
+- **Chronic/long-term:** taper over 4–6 weeks (for GCA-related AION) — though note that GCA more broadly often requires a much longer overall steroid course than this specific taper figure suggests; see [[04_Neurology]] Temporal Arteritis (Giant Cell Arteritis) for the broader GCA Mx context.
 - **Non-arteritic AION:** no proven effective treatment beyond addressing vascular risk factors — the emphasis is on cardiovascular risk factor management rather than a specific ophthalmic intervention, given the ischaemic/vascular mechanism.
 
 ---
@@ -221,8 +221,8 @@ source: quackquackmed 05 Ophthalmology
 **Ix:** MRI brain, orbits with contrast (*why:* the key diagnostic and prognostic test — confirms the diagnosis and, critically, the number of white-matter lesions present is the strongest predictor of subsequent MS risk (see Prognosis below); *what:* may show optic nerve enhancement and white-matter lesions elsewhere in the brain, feeding directly into the MS-risk stratification below).
 
 **Mx:**
-- **Immediate/acute:** high-dose steroids, taper over 4–6 weeks — shortens the duration of the acute episode though doesn't clearly alter long-term visual outcome (a similar pattern to the general principle noted for MS relapse Mx in [[04_Neurology]] Multiple Sclerosis).
-- **Chronic/long-term:** given the significant MS-conversion risk with multiple white-matter lesions (below), ongoing neurology follow-up and monitoring is warranted rather than treating this as a purely ophthalmic, self-contained event — see [[04_Neurology]] Multiple Sclerosis for the disease-level content this may evolve into.
+- **Immediate/acute:** high-dose steroids, taper over 4–6 weeks — shortens the duration of the acute episode though doesn't clearly alter long-term visual outcome (a similar pattern to the general principle noted for MS relapse Mx in [[04_Neurology]] Multiple Sclerosis (MS)).
+- **Chronic/long-term:** given the significant MS-conversion risk with multiple white-matter lesions (below), ongoing neurology follow-up and monitoring is warranted rather than treating this as a purely ophthalmic, self-contained event — see [[04_Neurology]] Multiple Sclerosis (MS) for the disease-level content this may evolve into.
 
 **P:** if >3 white-matter lesions present, 5-year risk of developing multiple sclerosis is ~50%.
 

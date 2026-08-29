@@ -70,13 +70,13 @@ source: quackquackmed 10.09 Hereditary angioedema, Hyposplenism, Splenomegaly, T
 
 **Fatigue — genuinely one of the broadest presenting complaints in medicine, worth organising by system:**
 - **Haematological:** anaemia of any cause (see the cross-reference above, not repeated here).
-- **Endocrine/metabolic:** hypothyroidism, diabetes (poor control or, conversely, hypoglycaemia), adrenal insufficiency (see [[06_Metabolic_Medicine_and_Endocrinology]] Addison's Disease, not repeated here).
+- **Endocrine/metabolic:** hypothyroidism, diabetes (poor control or, conversely, hypoglycaemia), adrenal insufficiency (see [[06_Metabolic_Medicine_and_Endocrinology]] Addison's Disease (Primary Adrenal Insufficiency), not repeated here).
 - **Cardiorespiratory:** heart failure, COPD, obstructive sleep apnoea (via poor sleep quality — see [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] for the adult OSA entry, not repeated here).
 - **Infective/inflammatory:** any chronic or subacute infection, malignancy (including as a genuinely important red flag alongside other B-symptoms — weight loss, night sweats), chronic inflammatory/autoimmune disease.
 - **Psychiatric:** depression, anxiety, and other mental health conditions are genuinely common causes of fatigue and should be actively screened for rather than only considered once organic causes are excluded — see [[14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_]] Depression (Major depressive disorder), not repeated here.
 - **Sleep-related:** poor sleep quality/quantity from any cause, including but not limited to OSA above — see [[14_05b_Psych_-_Insomnia]], not repeated here.
 - **Medication-related:** a genuinely easy-to-overlook cause — sedating medications, beta-blockers, and many others can cause fatigue as a side effect, making medication review a routine part of the work-up rather than an afterthought.
-- **Renal/hepatic:** CKD (via anaemia, uraemia, and the disease process itself — see [[07_Renal_Medicine_and_Urology]] Chronic Kidney Disease, not repeated here) and chronic liver disease.
+- **Renal/hepatic:** CKD (via anaemia, uraemia, and the disease process itself — see [[07_Renal_Medicine_and_Urology]] Chronic Kidney Disease (CKD), not repeated here) and chronic liver disease.
 
 **Ix — guided by the history/examination and red flags, not a reflexive standard panel:** FBC (anaemia), TFTs, U&Es/LFTs (renal/hepatic causes), fasting glucose/HbA1c, and further targeted investigation guided by specific findings — inflammatory markers, autoimmune screen, or malignancy work-up where the clinical picture supports it, rather than ordered by default for every presentation of fatigue.
 

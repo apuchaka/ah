@@ -16,7 +16,7 @@ source: quackquackmed 09.07 Chickenpox, Shingles, Pityriasis rosea, Hidradenitis
 - **Mx:**
   - **Immediate/acute:** supportive — keep cool, trim nails, calamine lotion; at-risk patients (immunocompromised, pregnant, neonates, or severe disease) — PO/IV antiviral therapy, given within 72h of onset for maximum benefit.
   - **Definitive:** school exclusion until lesions have crusted over, matching the infectious period described above.
-  - **Chronic/long-term:** monitor for and manage the complications above (secondary bacterial infection, pneumonia, neurological sequelae) if they develop; varicella vaccination is part of the routine National Immunisation Program schedule for prevention in future — see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Vaccination Schedule for the AU-specific timing, not repeated here.
+  - **Chronic/long-term:** monitor for and manage the complications above (secondary bacterial infection, pneumonia, neurological sequelae) if they develop; varicella vaccination is part of the routine National Immunisation Program schedule for prevention in future — see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Vaccination Schedule (Australia — National Immunisation Program) for the AU-specific timing, not repeated here.
 
 ### Post-exposure prophylaxis (PEP)
 
@@ -48,7 +48,7 @@ source: quackquackmed 09.07 Chickenpox, Shingles, Pityriasis rosea, Hidradenitis
 - **Mx:**
   - **Immediate/acute:** antivirals within 72h of onset (aciclovir, famciclovir, valaciclovir) — benefits include ↓incidence of post-herpetic neuralgia, especially in older people, making early recognition and prompt treatment genuinely time-sensitive; analgesia — paracetamol & NSAIDs, neuropathic agents (e.g. amitriptyline, gabapentin/pregabalin) given the neuropathic nature of the pain; PO corticosteroids in the first 2 weeks if immunocompetent, for symptom control (does not reduce post-herpetic neuralgia risk, a distinct point worth knowing from the antiviral benefit above).
   - **Definitive:** advise patients they are potentially contagious to non-immune contacts (via direct contact with vesicle fluid, not respiratory spread the way primary varicella is) — avoid pregnant women and immunosuppressed people until vesicles have crusted over (usually 5–7 days following onset); covering lesions reduces transmission risk.
-  - **Chronic/long-term:** manage post-herpetic neuralgia if it develops (neuropathic agents, specialist pain referral if refractory); shingles (zoster) vaccination is available for prevention in eligible age/risk groups — see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Vaccination Schedule for the AU-specific eligibility and funding detail (including the earlier funded age for Aboriginal and Torres Strait Islander people), not repeated here.
+  - **Chronic/long-term:** manage post-herpetic neuralgia if it develops (neuropathic agents, specialist pain referral if refractory); shingles (zoster) vaccination is available for prevention in eligible age/risk groups — see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Vaccination Schedule (Australia — National Immunisation Program) for the AU-specific eligibility and funding detail (including the earlier funded age for Aboriginal and Torres Strait Islander people), not repeated here.
 - **Complications:** post-herpetic neuralgia (5–30%, resolves within ~6 months, may be longer); ophthalmic involvement; Ramsay Hunt syndrome (ear lesions and facial paralysis).
 
 *(See also [[05_Ophthalmology]] Ophthalmic Shingles)*
