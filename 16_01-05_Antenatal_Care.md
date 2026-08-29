@@ -3,7 +3,11 @@ block: Obstetrics
 source: quackquackmed 16.01-05 Antenatal Care
 ---
 
-> [!info] Localised for Australia — all thresholds, drug regimens, and guidance in this file verified against current Australian sources (NHMRC, National Blood Authority, Queensland Clinical Guidelines, SA Health, Australian Government Pregnancy Care Guidelines), Aug 2026. Several genuine corrections were needed (anti-D dosing, HG medication first-line pattern, LMWH neuraxial timing); several other figures were confirmed to already match Australian practice exactly. See individual entries below for detail.
+> [!info] **Localisation status — read the scope, not the headline.** A substantial Australian localisation pass was run on this file against NHMRC, the National Blood Authority, Queensland Clinical Guidelines, SA Health and the Australian Government Pregnancy Care Guidelines, Aug 2026. Genuine corrections were made (anti-D dosing, HG medication first-line pattern, LMWH neuraxial timing) and several other figures were confirmed to match Australian practice exactly. **The per-entry boxes below are the record of what was actually checked** — each names its source and what it covers.
+>
+> **This box previously read "all thresholds, drug regimens, and guidance in this file verified", and that was wrong.** Two items in this file are explicitly **not** verified against an Australian source and say so at the point they appear — the **NICE antenatal visit schedule** and **early self-monitoring of blood glucose** (both `PENDING_GUIDELINE_CHECKS.md` **B32**). A blanket claim above them contradicted the flags below it.
+>
+> **Corrected during L2 (2026-08-29), and the cause is worth recording:** the two "not verified" flags were added earlier in this same session by the Step 17 re-run, and **whoever added them — me — did not check whether a file-level box claimed the opposite.** This is the strongest form of the partial-verification-box pattern found so far, because the word was *all*. **Treat no file-level box in this corpus as covering every figure beneath it; the per-entry boxes are the record.**
 
 ## Pre-pregnancy counselling
 
