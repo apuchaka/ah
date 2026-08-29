@@ -256,6 +256,14 @@ L1–L10 ✅. **G40–G43 ✅ 2026-08-29** — taken first, ahead of G1–G39, b
 | G42 | ✅ **DIC expanded at its point of use** in the non-blanching-rash differential (owned by `10_05`, which a reader working through a purpuric rash has no reason to be in). Phyllodes tumour box **correctly scoped** — names StatPearls/NCCN honestly and does not claim Australian verification; recorded as **B51** for provenance, not as a defect |
 | G43 | ✅ Scoring-tool arithmetic clean: **Eron** 4/4 · **Durack-Street** "four categories"/4 · **Rockwood** "I to VI"/6 · **ECOG** 0–4 + the 5 note · **Centor** 4 criteria/threshold 3–4 · **Gartland** I–III, no count claimed. NIP schedule cross-checked against its own prose (ATSI 50/50/60 vs general 70/65/75 — matches exactly); the Hib ⚠️ resolves to the B47 warning as intended |
 
+> [!todo] **Queued for Phase 4 close: a dedicated GBS consistency check.**
+> **Two GBS defects in two different files in one session** — L5 found the drug named without its dose (`08_01-03` pointing at `16_06-07`, which owns the regimen), and G40 found the UK "universal screening not routine" position asserted as fact directly under a box saying Australia permits either strategy. Two independent defects in one topic is a pattern, not a coincidence, and both fixes were local to the file in hand.
+>
+> **When Phase 4 closes, check GBS everywhere it appears** — not just the two locations already fixed. Every file mentioning GBS, intrapartum antibiotic prophylaxis, or early/late-onset neonatal GBS disease, checked against each other for: screening strategy, the risk-factor list, the IAP timing (≥4h before birth), the benzylpenicillin regimen and its allergy alternatives, and which file is stated to own which. Known sites so far: `08_01-03`, `16_06-07`, `15_22a`, `16_01-05`.
+
+> [!danger] **Standing rule — never conclude absence from a truncated grep.**
+> A search that returns the right hit but is cut off before you read it carries the same risk as a search that returns nothing, and it is more dangerous because it *looks* like evidence. **View the full line before concluding anything is missing.** Twice in the G40–G43 round I called content absent from output that contained it, cut off by my own character limit; both would have been "fixed" by duplicating content already present. This is CLAUDE.md rule 2 in its inverted form and the rule as written does not cover it.
+
 > [!tip] **Two near-misses worth more than the findings — both were my own truncated reads.**
 > I twice concluded content was absent from output that *contained it*, cut off by a `cut -c1-180`/`-280`: the FMT mortality-reduction evidence (inside the ASID box) and the necrotising-fasciitis finger test (inside the Ix line). Both would have been reported as gaps and "fixed" by duplicating content that was already there.
 >
