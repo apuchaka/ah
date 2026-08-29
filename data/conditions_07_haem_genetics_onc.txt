@@ -1,0 +1,281 @@
+Sickle cell trait
+Autoimmune hemolytic anemia
+Idiopathic thrombocytopenic purpura (ITP)
+Immune Thrombocytopenia
+Pernicious anemia
+Thrombotic thrombocytopenic purpura (TTP)
+Congenital bleeding disorders
+Congenital lymphedema
+Dermoid Cyst
+Disorders of Sexual Differentiation (DSD)
+Hamartoma
+Agranulocytosis
+Anemia of Chronic Disease
+Aplastic anemia
+BRCA1 mutation
+BRCA2 mutation
+Carney triad
+Clotting disorder
+Coagulation Defects
+Cowden syndrome
+Dyskeratosis congenita
+Erdheim-Chester disease
+Factor V Leiden
+Factor XI Deficiency
+Familial adenomatous polyposis
+Familial Colon Cancer Syndromes
+Familial Mediterranean Fever
+Familial Medullary Thyroid Cancer
+Fanconi anemia
+Fragile X syndrome
+Gardner's syndrome
+Gaucher's Disease
+Genetic/congenital disease
+Glanzmann's thrombasthenia
+Glucose-6-Phosphate Dehydrogenase Deficiency
+Gorlin syndrome
+Hemophilia A
+Hemophilia B
+Hereditary Breast and Ovarian Cancer Syndrome
+Hereditary diffuse gastric carcinoma
+Hereditary Elliptocytosis
+Hereditary Hemochromatosis
+Hereditary Non-Polyposis Colon Cancer
+Hereditary nonpolyposis colorectal cancer
+Hereditary spherocytosis
+Heparin-induced thrombocytopenia with thrombosis (HITT)
+Idiopathic Myelofibrosis
+Rosai-Dorfman disease
+Transfusion reaction
+Febrile Neutropenia
+Reactive lymphadenopathy
+Alpha-1 Antitrypsin Deficiency
+Antithrombin deficiency
+Apert's syndrome
+Autosomal recessive polycystic kidney disease
+BCR-ABL transcript
+Beckwith-Wiedemann syndrome
+Bernard Soulier syndrome
+Bloom's syndrome
+Cri Du Chat syndrome
+DiGeorge syndrome
+Down Syndrome
+Down's syndrome
+Edwards syndrome
+Klinefelter Syndrome
+Li-Fraumeni syndrome
+Lynch Syndrome
+Milroy disease
+Mucopolysaccharidoses
+Myotonic dystrophy
+Neurofibromatosis
+Neurofibromatosis type 1
+Neurofibromatosis Type 2
+Niemann-Pick disease
+Noonan Syndrome
+Oculocutaneous Albinism
+Patau syndrome
+Peutz-Jegher syndrome
+Peutz-Jeghers Syndrome
+Pfeiffer's syndrome
+Potocki-Lupski syndrome
+Prader-Willi
+Prader-Willi syndrome
+Protein C deficiency
+Protein S deficiency
+Prothrombin 20210A variant
+Prothrombin mutation
+Saethre-Chotzen syndrome
+Shwachman-Diamond syndrome
+Sickle cell
+Sickle Cell Disease
+Tangier Disease
+Tay Sachs Disease
+Thalassemia
+Trisomy 13
+Trisomy 18
+Trisomy 21
+Tuberous Sclerosis
+Turcot syndrome
+Turner Syndrome
+Turner's syndrome
+Vascular Ehlers-Danlos Syndrome
+Von Hippel-Lindau disease
+von Hippel-Lindau Syndrome
+von Willebrand Disease
+Zellweger syndrome
+Anemia
+Folate Deficiency
+Folate Deficiency Anemia
+Hemolytic Anemia
+Hypofibrinogenemia
+Iron deficiency
+Iron Deficiency Anemia
+Leukemoid Reaction
+Leukopenia
+Macrocytic Anemia
+Megaloblastic Anemia
+Methemoglobinemia
+Microcytic Anemia
+Normocytic Anemia
+Physiologic anemia
+Sideroblastic Anemia
+Thrombocytopenia
+Thrombocytosis
+Tumour lysis syndrome
+Acute Lymphoblastic Leukemia
+Acute Myeloid Leukemia
+Adenocarcinoma
+Adenocarcinoma of lung
+Adenosarcoma
+Adult Diffuse Gliomas
+Advanced adenomas
+Advanced cancer
+Anaplastic large cell lymphoma
+Anaplastic thyroid carcinoma
+Angiosarcoma
+Astrocytoma
+Atypical ductal hyperplasia
+Atypical lobular hyperplasia
+Atypical teratoid/rhabdoid tumour
+Bladder Carcinoma
+Bone metastases
+Brain tumor
+Brain tumour
+Breast cancer
+Breast implant-associated anaplastic large cell lymphoma (BIA-ALCL)
+Bronchial Carcinoid Tumour
+Bronchogenic carcinoma
+Burkitt's lymphoma
+Cancer
+Carcinoma in situ (CIS)
+Carcinoma of the gallbladder
+Carcinoma of the Renal Pelvis and Ureter
+Cardiac tumour
+Cecal tumour
+Cerebellar hemangioblastoma
+Cerebral Tumour
+Cholangiocarcinoma
+Chondrosarcoma
+Chordoma
+Chronic Lymphocytic Leukemia
+Chronic Myeloid Leukemia
+CLL
+Colorectal carcinoma
+Cystadenocarcinoma
+Cystadenoma
+Drop-metastases
+Ductal carcinoma in situ
+Duodenal cancer
+Dysembryoplastic neuroepithelial tumour
+Dysgerminoma
+Dysplasia
+Embryonal carcinoma
+Embryonal Cell Carcinoma
+Ependymoma
+Erythrocytosis
+Esophageal carcinoma
+Essential Thrombocythemia
+Esthesioneuroblastoma
+Ewing sarcoma
+Ewing's sarcoma
+Fibroma
+Fibrosarcoma
+Follicular thyroid carcinoma
+Gastric Carcinoma
+Germinoma
+Giant cell tumour
+Glioblastoma Multiforme
+Glioma
+Hemangioblastoma
+Hepatocarcinoma
+Hepatocellular carcinoma
+Histiocytic sarcoma
+Hodgkin Lymphoma
+Hodgkin's Lymphoma
+Hürthle cell carcinoma
+Immature teratoma
+Inflammatory breast carcinoma
+Invasive ductal carcinoma
+Invasive lobular carcinoma
+Kaposi Sarcoma
+Klatskin tumour
+Krukenberg tumour
+Langerhans cell histiocytosis
+Large cell carcinoma
+Leiomyosarcoma
+Leukemia
+Lobular carcinoma in situ
+Lung cancer
+Lung malignancy
+Lymphoma
+Lymphoplasmacytic Lymphoma
+Malignant melanoma of anal canal
+Malignant pelvic tumours
+Mantle cell lymphoma
+Marjolin's ulcer
+Mediastinal Masses
+Medulloblastoma
+Meningeal melanoma
+Merkel cell carcinoma
+Mesothelioma
+Metastatic disease
+Metastatic Tumours
+Minor salivary gland tumours
+Monoclonal gammopathy
+Monoclonal Gammopathy of Unknown Significance
+Mucoepidermoid carcinoma
+Multiple myeloma
+Mycosis Fungoides
+Myelodysplastic Syndromes
+Myeloproliferative disease
+Myeloproliferative disorders
+Myeloproliferative Neoplasms
+Nasopharyngeal carcinoma
+Neoplasms
+Neuroblastoma
+Neurofibroma
+Non-Hodgkin Lymphoma
+Non-Seminomatous Germ Cell Tumour (NSGCT)
+Non-Small Cell Lung Cancer
+Oligodendroglioma
+Oncocytoma
+Optic glioma
+Osteosarcoma
+Ovarian cancer
+Ovarian tumour
+Paraganglioma
+Pineoblastoma
+Pineocytoma
+Plasmacytoma
+Polycythemia
+Polycythemia rubra vera
+Polycythemia Vera
+Primary Central Nervous System Lymphoma
+Prostate Cancer
+Pseudomyxoma peritonei
+Pulmonary Neoplasm
+Reticulum cell sarcoma
+Retinoblastoma
+Rhabdomyoma
+Rhabdomyosarcoma
+Sarcoma
+Sezary Syndrome
+Small cell lung cancer
+Soft tissue sarcoma
+Teratoma
+Thymoma
+Tumour
+Hematoma
+Bleeding disorder
+Disseminated intravascular coagulation (DIC)
+Hypercoagulable Disorders
+Hypercoagulable states
+Hyperviscosity
+Hyperviscosity Syndrome
+Microangiopathic Hemolytic Anemia
+Thrombotic microangiopathy
+Paroxysmal Nocturnal Hemoglobinuria (PNH)
+Severe Combined Immunodeficiency (SCID)
+Malignant Spinal Cord Compression
+Waldenström Macroglobulinemia

@@ -1,0 +1,212 @@
+Acanthamoeba
+Acquired Immunodeficiency Syndrome (AIDS)
+African sleeping sickness
+Amebiasis
+Amoebiasis
+Amoebic liver abscess
+Anthrax
+Ascariasis
+Aspergilloma
+Aspergillus
+Astrovirus
+Atypical mycobacteria
+Bacteremia
+Bacterial Tracheitis
+Bacteriuria
+Bacteroides fragilis
+Bacteroides infection
+Bacteroides melaninogenicus infection
+Bartonellosis
+Blastomycosis
+Botulism
+Brucellosis
+C. difficile Toxin Assay
+Campylobacter jejuni
+Candida
+Candida albicans infection
+Candidiasis
+Cat Scratch Disease
+Cat scratch fever
+Chagas disease
+Chancroid
+Chicken pox (Varicella)
+Chikungunya
+Chlamydial conjunctivitis
+Cholera
+Clostridioides difficile infection
+Clostridium difficile associated disease (CDAD)
+CMV
+Coccidiomycosis
+Common Cold
+Congenital rubella syndrome
+COVID-19
+Cryptococcus
+Cryptosporidiosis
+Cyclospora
+Cyclosporiasis
+Cysticercosis
+Cytomegalovirus
+Dengue fever
+Diabetic Foot Infections
+Diphtheria
+Disseminated Gonococcal Infection
+Drug-resistant TB
+Ebola virus disease
+Echinococcus multilocularis infection
+Eikenella corrodens infection
+Elephantiasis
+Entamoeba histolytica
+Epstein-Barr Virus (EBV)
+Erythema Infectiosum
+Escherichia coli
+Escherichia coli O157:H7 infection
+Filariasis
+Generalized Tetanus
+Giardiasis
+Gonococcal arthritis
+Gonococcal Urethritis
+Gonococcemia
+Graft infection
+Group A Streptococcus
+Group A Streptococcus (GAS) infection
+Group B Streptococcus (GBS) infection
+H. pylori infection
+Haemophilus influenzae b disease
+Hand-Foot-and-Mouth Disease
+Hansen's Disease
+Hantavirus pulmonary syndrome
+Hepatitis A
+Hepatitis B
+Hepatitis C
+Hepatitis D
+Hepatitis E
+Herpangina
+Herpes infection
+Herpes Simplex Virus
+Herpes zoster
+Herpes Zoster Virus
+Herpetic Whitlow
+Histoplasmosis
+HIV/AIDS
+Hookworm
+HSV-1 / HSV-2 infection
+Human papillomavirus
+Hydatid cyst
+Hydatid disease
+Infectious mononucleosis
+Influenza
+Japanese encephalitis
+Klebsiella infection
+Lassa Fever
+Legionellosis
+Leishmaniasis
+Leprosy
+Listeria monocytogenes
+Listeriosis
+Loiasis
+Lyme disease
+Lymphangitis
+Malaria
+Marburg MS
+Marburg virus disease
+Measles
+Meningococcal disease
+Meningococcemia
+Middle East respiratory syndrome (MERS)
+Mononucleosis
+MRSA
+Mumps
+Mycobacterium
+Mycobacterium avium intracellulare
+Necrotizing Fasciitis
+Neurosyphilis
+Nocardia
+Non-Gonococcal Urethritis
+Norovirus
+Onchocerciasis
+Paratyphoid fever
+Parvovirus B19
+Parvovirus B19 infection
+Pasteurella multocida infection
+Pelvic tuberculosis
+Pertussis (whooping cough)
+Pinworms
+Plague
+Pneumococcal disease
+Pneumocystis carinii
+Poliomyelitis (Polio)
+Proteus
+Proteus infection
+Pseudomonas aeruginosa infection
+Pseudomonas infection
+Psittacosis/Ornithosis
+Q Fever
+Rabies
+Ramsay Hunt syndrome
+River blindness
+Rocky Mountain Spotted Fever
+Roseola
+Rotavirus
+Rubella
+Salmonella
+Salmonella enteritidis
+Salmonella typhi
+Salmonellosis
+Scarlet fever
+Schistosomiasis
+Sepsis
+Septic Shock
+Septic thrombophlebitis
+Severe acute respiratory syndrome (SARS)
+Severe Sepsis
+Sexually Transmitted Infections
+Shigella
+Shigella dysenteriae
+Shigellosis
+Skull base osteomyelitis
+Smallpox
+Staphylococcal Scalded Skin Syndrome
+Staphylococcal toxic shock syndrome
+Staphylococcus
+Staphylococcus aureus
+Staphylococcus aureus infection
+Strep Pharyngitis
+Streptococcus
+Streptococcus viridans infection
+Strongyloidiasis
+Subacute sclerosing panencephalitis
+Subcutaneous Fungal Infections
+Superficial Fungal Infections
+Surgical infections
+Surgical site infection
+Syphilis
+Taeniasis
+Tapeworm
+Tertiary syphilis
+Tetanus
+Tick Typhus
+Toxic Shock Syndrome
+Toxocara
+Toxoplasma gondii infection
+Toxoplasmosis
+Treponema pallidum
+Trichinosis
+Trichomoniasis
+Trypanosoma cruzi
+Tuberculosis (TB)
+Tularemia
+Tungiasis
+Typhoid fever
+Varicella-zoster
+Vibrio cholerae
+VRE
+West Nile infection
+West Nile Virus
+West Nile Virus illness
+Whipworm
+Yellow fever
+Yersinia infection
+Yersiniosis
+Zika virus disease
+Surgical Site Infection (SSI)
+Vertebral Osteomyelitis

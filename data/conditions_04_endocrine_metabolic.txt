@@ -1,0 +1,162 @@
+Alcoholic Ketoacidosis
+Autoimmune thyroid disease
+Graves' disease
+Hashimoto's thyroiditis
+Latent Autoimmune Diabetes in Adults
+Painless Thyroiditis
+Primary Adrenocortical Insufficiency
+Thyroiditis
+Type 1 Diabetes Mellitus
+Congenital Adrenal Hyperplasia (CAH)
+Lingual thyroid
+Acromegaly
+Acute adrenal insufficiency
+Addisonian crisis
+Adrenal insufficiency
+Central Diabetes Insipidus
+Cushing's Syndrome
+Delayed puberty
+Diabetes insipidus
+Gigantism
+Growth Hormone Deficiency
+Hyperandrogenism
+Hypergonadotropic Hypogonadism
+Hyperparathyroidism
+Hyperprolactinemia
+Hyperthyroidism
+Hypogonadotropic Hypogonadism
+Hypoparathyroidism
+Hypopituitarism
+Hypothalamic dysfunction
+Hypothyroidism
+Myxedema
+Myxedema Coma
+Non-Toxic Goitre
+Osteitis fibrosa cystica
+Panhypopituitarism
+Primary Aldosteronism
+Primary hyperaldosteronism
+Primary hyperparathyroidism
+Secondary Adrenocortical Insufficiency
+Secondary Aldosteronism
+Secondary hyperparathyroidism
+Syndrome of inappropriate antidiuretic hormone
+Tertiary Hyperparathyroidism
+Testosterone Deficiency
+Thyroid Nodules
+Thyroid storm
+Thyrotoxicosis
+Toxic Adenoma
+Toxic Nodular Goitre
+Hungry bone syndrome
+Constitutional delay
+Post-gastric bypass hypoglycemia
+Subacute Thyroiditis
+Alkaptonuria
+Andersen disease
+Androgen insensitivity syndrome
+Androgen resistance
+ApoC2 deficiency
+Cori disease
+Crigler-Najjar Syndrome
+Fabry's Disease
+Familial Combined Hyperlipidemia
+Familial Hypercholesterolemia
+Familial Hypoalphalipoproteinemia
+Familial Hypocalciuric Hypercalcemia
+Familial lipoprotein lipase deficiency
+Galactosemia
+Gaucher disease
+Glycogen Storage Diseases
+Hereditary Chylomicronemia
+Hurler syndrome
+Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency
+Maple syrup urine disease
+Maturity-Onset Diabetes of the Young
+McArdle disease
+Medium chain acyl-CoA dehydrogenase deficiency
+Multiple endocrine neoplasia
+Multiple Endocrine Neoplasia Type 1
+Multiple Endocrine Neoplasia Type 2A
+Multiple Endocrine Neoplasia Type 2B
+Ornithine transcarbamylase deficiency
+Phenylketonuria (PKU)
+Polygenic Familial Hypercholesterolemia
+Pompe disease
+Porphyria
+Propionic acidemia
+X-linked adrenoleukodystrophy
+Acute intermittent porphyria
+Calciphylaxis
+Dehydration
+Diabetes
+Diabetic Ketoacidosis
+Dyslipidemia
+Fluid imbalances
+Hyperammonemia
+Hypercalcemia
+Hyperglycemia
+Hyperhomocysteinemia
+Hyperkalemia
+Hyperlipidemia
+Hypermagnesemia
+Hypernatremia
+Hyperosmolar Hyperglycemic State
+Hyperphosphatemia
+Hypertriglyceridemia
+Hyperuricemia
+Hypocalcemia
+Hypocholesterolemia
+Hypoglycemia
+Hypokalemia
+Hypomagnesemia
+Hyponatremia
+Hypophosphatemia
+Impaired Fasting Glucose
+Impaired Glucose Tolerance
+Ketoacidosis
+Lactic acidosis
+Metabolic acidosis
+Metabolic alkalosis
+Metabolic Syndrome
+Nutritional deficiency
+Obesity
+Osteomalacia
+Pellagra
+Pre-Diabetes
+Rickets
+Scurvy
+Sick Euthyroid Syndrome
+Type 2 Diabetes Mellitus
+Tyrosinemia
+Under-Nutrition
+Very long chain acyl-CoA dehydrogenase deficiency
+Vitamin A deficiency
+Vitamin B deficiency
+Vitamin B1 deficiency
+Vitamin B12 Deficiency
+Vitamin K Deficiency
+von Gierke disease
+Zinc deficiency
+Adrenal incidentaloma
+Adrenocortical carcinoma
+Aldosteronoma
+Cushing's disease
+Gastrinoma
+Glucagonoma
+Insulinoma
+Macroadenoma
+Medullary thyroid carcinoma
+Microadenoma
+Papillary Thyroid Carcinoma
+Parathyroid adenoma
+Pheochromocytoma
+Pituitary adenoma
+Pituitary Thyrotropinoma
+Prolactinoma
+Thyroid Malignancies
+VIPoma
+Diabetic ulcer
+Pituitary apoplexy
+Sheehan's syndrome
+Diabetic Foot Ulcer

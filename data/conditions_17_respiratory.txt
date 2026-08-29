@@ -1,0 +1,99 @@
+Allergic bronchopulmonary aspergillosis
+Asthma
+Bird breeder's lung
+Chronic Eosinophilic Pneumonia
+Farmer's lung
+Humidifier lung
+Hypersensitivity pneumonitis
+Laryngeal edema
+Lymphocytic Organizing Pneumonia (LIP)
+Pulmonary Vasculitis
+Sauna taker's lung
+Acute Asthma Exacerbation
+Bronchogenic cyst
+Congenital diaphragmatic hernia
+Laryngeal atresia
+Lung hypoplasia
+Pulmonary hypoplasia
+Respiratory distress syndrome
+Tracheomalacia
+Chronic Bronchitis
+COPD
+Emphysema
+Hypoventilation Syndromes
+Metalworking fluid lung
+Pneumoconiosis
+Respiratory Bronchiolitis Related ILD
+Atelectasis
+Acute Fibrinous/Organizing Pneumonia
+Acute Interstitial Pneumonia (AIP)
+Cryptogenic Organizing Pneumonia (COP)
+Desquamative Interstitial Pneumonia (DIP)
+Idiopathic Pleuroparenchymal Fibroelastosis (IPPFE)
+Idiopathic Pulmonary Fibrosis (IPF)
+Interstitial lung disease (ILD)
+Interstitial Pneumonia
+Non-specific Interstitial Pneumonia (NSIP)
+Pulmonary Langerhans cell histiocytosis
+Sleep apnea (OSA)
+Sleep-Disordered Breathing
+Sleep-Related Hypoventilation
+Transfusion-related acute lung injury
+Acute epiglottitis
+Acute Exacerbation of COPD
+Acute laryngitis
+Aspiration pneumonia
+Bronchitis
+Bronchopneumonia
+Croup
+Empyema
+Epiglottitis
+Laryngotracheobronchitis
+Lobar Pneumonia
+Lung abscess
+Mediastinitis
+Mycoplasma pneumonia
+Parapneumonic effusion
+Pleuritis
+Pneumocystis pneumonia (PCP)
+Pneumonia
+Tracheitis
+Upper Respiratory Tract Infection (URTI)
+Ventilator-Associated Pneumonia
+Primary ciliary dyskinesia
+Neurogenic pulmonary edema
+Obesity-hypoventilation syndrome
+Respiratory acidosis
+Respiratory alkalosis
+Respiratory arrest
+Respiratory failure
+Pancoast syndrome/tumour
+Solitary pulmonary nodule
+Squamous cell carcinoma of lung
+Bronchiectasis
+Silicosis
+Acute Lung Injury (ALI)
+Acute Respiratory Distress Syndrome (ARDS)
+Airway Obstruction
+Aspiration pneumonitis
+Benign Asbestos Pleural Effusion (BAPE)
+Chronic Beryllium Disease
+Chylothorax
+Foreign Body Aspiration
+Hemothorax
+Intubation granuloma
+Massive Hemothorax
+Open Pneumothorax
+Pneumomediastinum
+Pneumothorax
+Tension Pneumothorax
+Tracheal granulation
+Urinothorax
+Acute Chest Syndrome
+Pleural Effusion
+Pulmonary Arterial Hypertension
+Pulmonary Capillary Hemangiomatosis
+Pulmonary Edema
+Pulmonary Embolism (PE)
+Pulmonary vascular endothelialitis
+Pulmonary Veno-occlusive Disease (PVOD)

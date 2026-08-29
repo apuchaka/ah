@@ -1,0 +1,108 @@
+Alcohol Intoxication
+Alcohol overdose
+Amniotic band disruption sequence
+Fetal alcohol spectrum disorder
+Benzodiazepine intoxication
+Benzodiazepine overdose
+Cannabinoid Hyperemesis Syndrome
+Cocaine Toxicity
+Digoxin Toxicity
+Drug fever
+Neuroleptic Malignant Syndrome
+Opioid Overdose
+Salicylate Overdose
+TCA Overdose
+Acetaminophen Overdose
+Adverse drug reaction
+Food poisoning
+Heat Exhaustion
+Heat Stroke
+Hypothermia
+Lead poisoning
+Lead toxicity
+Manganism
+Mercury poisoning
+Methanol Poisoning
+Paralytic shellfish poisoning
+Child Abuse
+Domestic Violence
+Sexual abuse
+Shaken baby syndrome
+Ankle fracture
+Arterial transection
+Asbestosis
+Avulsion
+Barotrauma
+Basal Skull Fracture
+Bladder Rupture
+Burn Injuries
+Burns
+Carbon monoxide (CO) poisoning
+Caustic ingestion
+Cervical spine trauma
+Chemical burn
+Closed fracture
+Coal Worker's Pneumoconiosis (CWP)
+Concussion
+Contrecoup injury
+Contusion
+Coup injury
+Crush injuries
+Cyanide Poisoning
+Decompression sickness
+Diffuse Axonal Injury
+Drowning
+Electrical burn
+Epidural Hematoma
+Erb's palsy
+Esophageal Rupture
+Ethmoid fracture
+Ethylene Glycol Poisoning
+External laryngeal trauma
+Facial Fractures
+Fat embolism syndrome
+Flail Chest
+Frostbite
+Gangrene
+Groin hematoma
+Head trauma
+Human Bites
+Inhalation injury
+Lacerations
+Laryngeal fracture
+Le Fort I (Guerin fracture)
+Le Fort II (Pyramidal fracture)
+Le Fort III (Craniofacial disjunction)
+Lid laceration
+Mild Traumatic Brain Injury
+Monteggia fracture
+Nasal Fracture
+Neurotrauma
+Odontoid fracture
+Olecranon fracture
+Orbital Floor Fracture (Blow-out fracture)
+Pelvic fracture
+Physeal injury
+Pulmonary contusion
+Puncture wounds
+Radiation burn
+Renal Contusion
+Renal Trauma
+Rib fracture
+Ruptured Diaphragm
+Skull Fracture
+Splenic rupture
+Splenic trauma
+Sunburn
+Temporal bone trauma
+Thermal burn
+Traumatic Auricular Hematoma (Cauliflower Ear)
+Traumatic Brain Injury
+Traumatic perforation
+Urethral Injuries
+Zygomatic Fracture
+Anticholinergic Toxicity
+Lithium Toxicity
+Organophosphate Poisoning (Cholinergic Toxicity)
+Serotonin Syndrome
+Snake Envenomation / Spider Bite

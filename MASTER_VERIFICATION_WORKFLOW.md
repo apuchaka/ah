@@ -1588,3 +1588,95 @@ Verdict is the **best single entry**; `(corpus adequate)` marks a leaf whose fac
 | 274 | 21 Miscellaneous | Specialised drugs | **THIN *(corpus adequate)*** | 6 | dose+contra  <<ASSEMBLED>> |
 | 275 | 21 Miscellaneous | Blood products | **ADEQUATE** | 36 | dose+harm+contra |
 | 276 | 21 Miscellaneous | Immunoglobulins | **ADEQUATE** | 86 | dose+harm+contra |
+
+## Phase 5 Part A — 2,585 conditions against an external list
+
+**Enumeration source:** a ~2,585-condition list supplied by the user, ordered in organ-system blocks and transcribed verbatim into `data/conditions_01..19_*.txt`. This is the enumeration Part A was blocked on for three passes. `data/checklist_external.csv` — declined twice before, because building it from recall would have made a fabricated baseline permanent — now exists and holds a verdict for every one of the 2,585.
+
+**Teach-vs-mention lens.** Four verdicts, from structure rather than keyword density: **OWNS ENTRY** (names a `##`/`###` header), **IN A TAUGHT SECTION** (named inside a section carrying >=2 of the corpus's D:/R:/S-Smx:/Ix:/Mx: markers), **MENTIONED** (prose only), **ABSENT**.
+
+| System | n | owns | in a taught entry | prose only | absent | genuine gaps |
+|---|---|---|---|---|---|---|
+| Cardiovascular | 170 | 49 | 60 | 13 | 44 | **4** |
+| Neurology | 222 | 72 | 49 | 22 | 73 | **6** |
+| Dermatology | 129 | 43 | 28 | 13 | 42 | **3** |
+| Endocrine and Metabolic | 162 | 57 | 43 | 10 | 48 | **4** |
+| Genitourinary and Reproductive | 135 | 37 | 37 | 7 | 52 | **2** |
+| Gastroenterology | 200 | 59 | 50 | 17 | 71 | **3** |
+| Haematology, Genetics and Oncology | 281 | 94 | 61 | 24 | 102 | **0** |
+| Immunology and Allergy | 31 | 14 | 6 | 3 | 8 | **0** |
+| Toxicology, Environmental and Trauma | 108 | 17 | 19 | 21 | 45 | **6** |
+| Psychiatry | 113 | 43 | 18 | 10 | 36 | **6** |
+| Rheumatology and Musculoskeletal | 257 | 75 | 32 | 18 | 127 | **5** |
+| Systemic and Miscellaneous | 53 | 18 | 18 | 2 | 15 | **0** |
+| Obstetrics | 57 | 23 | 11 | 5 | 18 | **0** |
+| Geriatrics and Safeguarding | 13 | 3 | 4 | 2 | 4 | **0** |
+| Paediatrics and Neonatal | 31 | 10 | 8 | 1 | 12 | **0** |
+| Renal and Urology | 93 | 26 | 30 | 7 | 29 | **1** |
+| Respiratory | 99 | 32 | 23 | 7 | 36 | **1** |
+| ENT and Ophthalmology | 219 | 60 | 53 | 13 | 91 | **2** |
+| Infectious Disease | 212 | 72 | 48 | 20 | 70 | **2** |
+| **TOTAL** | **2585** | **804** | **598** | **215** | **923** | **45** |
+
+### Thirteen naming conventions the supplied list does not share with the corpus
+
+The first cardiovascular run reported 77 of 170 conditions ABSENT. Almost none were. Each convention below was found by disbelieving a plausible-looking count, never by foresight, and each would have silently inflated the absence rate across all nineteen systems:
+
+1. **US vs Australian spelling** — ischemia/ischaemia, edema/oedema, tumor/tumour. 2. **Acronyms** — LBBB, HFrEF, WPW; now derived mechanically from the condition's own words. 3. **Plurals.** 4. **Interposed words** — "coarctation of **the** aorta", 22 uses. 5. **Possessives** — Eisenmenger**'s**. 6. **A fix that created its own failure** — an `-es` stripper turned `valves` into `valv`, unable to match `valve`. 7. **Ordinals** — "Second Degree" vs "2nd degree"; all three AV blocks read ABSENT against a section teaching all three. 8. **Internal hyphenation** — `post-herpetic`; fixed generally by collapsing both sides to letters-only. 9. **Diacritics** — Brown-Sequard, which does not merely appear but **owns an entry**. 10. **-ies plurals** — `radiculopathies`. 11. **Dropped qualifiers — NOT FIXED**; "Lambert-Eaton **myasthenic** syndrome" cannot match "Lambert-Eaton syndrome" without matching almost anything. 12. **-ies that is not a plural** — `scabies` stemmed to `scaby` and read ABSENT in a corpus that prescribes permethrin for it. 13. **Spelling folding is substring surgery and cannot be made safe** — `gastroesophageal` contains `oesophag` and folded to `gastresophageal`, so GORD read ABSENT under two successive fixes. Resolved by giving up on one canonical form: every condition is now tried against three normalisations plus a letters-only collapse, and a hit in any counts.
+
+> [!danger] **The teach-vs-mention lens was dead for the entire first full run, and that is the most serious defect in this phase.**
+> `MARKER` required the literal `**` of the corpus's bold markers, but `load()` strips markdown *before* splitting into sections. It therefore matched **nothing, in all 148 files**. The IN A TAUGHT SECTION verdict could never fire; every condition sitting inside a real teaching entry was silently demoted to MENTIONED, while the scan reported confident-looking counts. **Cardiovascular and Neurology were reported to the user under it.**
+> It was caught only because a summary table showed a column of nineteen zeroes. ABSENT and OWNS ENTRY were unaffected, so no gap was missed — what was lost was the entire ability to tell teaching from passing mention, which is the distinction the scan exists to draw. 598 conditions now hold that verdict.
+
+> [!warning] **Two further defects of my own, recorded because they were nearly shipped.**
+> **The scan went quadratic and timed out** at two systems, recomputing collapsed forms per condition per section; an earlier phase abandoned a matcher for exactly this rather than shipping it. **The CSV had no idempotence guard** — a stale background run landed after a foreground re-run and neurology silently carried 444 rows for 222 conditions, with nothing in the file to show it.
+
+### Six systems returned zero gaps, and that was treated as a signal
+
+Haematology/Genetics/Oncology, Immunology, Systemic, Obstetrics, Geriatrics and Paediatrics produced no gaps. A clean result from a method that has failed three times is not evidence of a clean corpus, so each was re-attacked by hand-grepping its absent list for aliases. **Two of them were not clean at all** — Endocrine and Genitourinary had been in this group, and hand-grepping found six gaps between them including the phosphate finding below. The remaining six survive the check: their absences are single-gene disorders, dysmorphology syndromes and non-endemic infections, and the intern-relevant candidates (wound dehiscence, G6PD, haemochromatosis, protein C/S, HIT, anti-D, IUGR, miscarriage, NEC, supracondylar fracture) are all present under Australian names.
+
+### The pattern the gaps share
+
+Most are not missing topics. They are **the unnamed half of a set the corpus otherwise teaches** — the same shape as the bulk-forming laxative and the incomplete cord syndromes:
+
+- **Serum phosphate has no entry at all**, in a corpus that teaches hyper- and hypo- natraemia, kalaemia and calcaemia and hypomagnesaemia. Refeeding syndrome, where an intern meets it, has two passing mentions and no entry. **Hypermagnesaemia** is absent while hypomagnesaemia has 13 uses.
+- **Central and posterior cord syndrome** absent while Brown-Sequard owns an entry.
+- **Epispadias** absent while hypospadias is covered.
+- **Concussion appears zero times** against 28 uses of "head injury".
+- **Erectile dysfunction covered, premature ejaculation absent.**
+
+### An independent confirmation worth recording
+
+The external list rediscovered **posterior urethral valves** — a gap the earlier corpus-first pass found and queued as **P5-A1**. Two methods with no shared machinery reached the same finding. That is the only evidence so far that this phase's method detects real gaps rather than artefacts of its own construction.
+
+### Honesty about what was NOT individually verified
+
+929 conditions came back ABSENT. **45 gap rows and 85 covered-by-synonym rows were hand-grepped**, with hit counts recorded in the CSV. The remaining **788 are classified out-of-scope by rule, not by individual verification** — named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders. That rule is a judgement applied at scale and it will be wrong somewhere. It is recorded as a rule so a later round can attack the rule rather than re-derive 788 decisions. The 215 MENTIONED rows were also not individually read.
+
+### Genuine intern-level gaps by system
+
+**Cardiovascular** — Coronary Vasospasm · Multifocal Atrial Tachycardia · Peripartum Cardiomyopathy · Pseudoaneurysm
+
+**Neurology** — Central Cord Syndrome · Cerebellar infarction · Neurologically Determined Death · Parasomnias · Post-concussive syndrome · Posterior Cord Syndrome
+
+**Dermatology** — Diaper Rash · Felon · Paronychia
+
+**Endocrine and Metabolic** — Alcoholic Ketoacidosis · Hypermagnesemia · Hyperphosphatemia · Hypophosphatemia
+
+**Genitourinary and Reproductive** — Epispadias · Premature Ejaculation
+
+**Gastroenterology** — Gilbert's Syndrome · Intra-abdominal abscess · Pancreatic pseudocyst
+
+**Toxicology, Environmental and Trauma** — Benzodiazepine overdose · Concussion · Facial Fractures · Heat Exhaustion · Heat Stroke · TCA Overdose
+
+**Psychiatry** — Adjustment Disorder · Delusional Disorder · Gender Dysphoria · Night Terrors · Sleepwalking · Somnambulism
+
+**Rheumatology and Musculoskeletal** — Baker's cyst · Bunions · Hallux valgus · Mallet Finger · Popliteal cyst
+
+**Renal and Urology** — Posterior Urethral Valves
+
+**Respiratory** — Solitary pulmonary nodule
+
+**ENT and Ophthalmology** — Keratoconus · Retropharyngeal abscess
+
+**Infectious Disease** — Herpetic Whitlow · Lymphangitis

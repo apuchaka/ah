@@ -1,0 +1,129 @@
+Alopecia Areata
+Atopic Dermatitis/Eczema
+Bullous Pemphigoid
+Contact Dermatitis
+Dermatitis Herpetiformis
+Pemphigus Vulgaris
+Photosensitivity Reaction
+Psoriasis
+Pyoderma Gangrenosum
+Stevens-Johnson Syndrome
+Subacute cutaneous SLE
+Toxic Epidermal Necrolysis
+Urticaria
+Vitiligo
+Diaper Rash
+Dyshidrotic Dermatitis
+Erythema Multiforme
+Erythema Nodosum
+Keratoderma blennorrhagica
+Lichen Planus
+Lichen sclerosus
+Lupus pernio
+Morphea
+Nummular Dermatitis
+Lichen Simplex Chronicus
+Becker's Nevus
+Blue Nevus
+Congenital Nevomelanocytic Nevi
+Dermal Melanocytosis
+Epidermal/Epidermoid Cyst
+Giant congenital nevus
+Milium
+Nevus Flammeus
+Nevus sebaceous of Jadassohn
+Nevus Simplex
+Speckled Lentiginous Nevus
+Acute Generalized Exanthematous Pustulosis
+Anagen Effluvium
+Seborrheic Keratosis
+Senile Purpura
+Solar Lentigo
+Exanthematous Drug Reaction
+Fixed Drug Eruption
+Hypertrichosis
+Melasma
+Acne/Acne Vulgaris
+Aquagenic pruritus
+Asteatotic Dermatitis
+Boston-type syndrome
+Cherry Angioma/Cherry hemangiomas
+Dermatitis
+Dermatofibroma
+Perioral Dermatitis
+Pigmentation disorders
+Primary Hyperhidrosis
+Rosacea
+Seborrhea/Seborrheic Dermatitis
+Skin Tags
+Subcutaneous spheroids
+Telogen Effluvium
+Hidradenitis Suppurativa
+Angular cheilitis
+Bed Bugs
+Bowenoid papulosis
+Cellulitis
+Cutaneous Anthrax
+Cutaneous Larva Migrans
+Cutaneous Leishmaniasis
+Dermatophytoses
+Erysipelas
+Felon
+Folliculitis
+Furuncles
+Impetigo
+Lice
+Molluscum contagiosum
+Onychomycosis/Tinea Unguium
+Paronychia
+Pityriasis Rosea
+Pityriasis Versicolor
+Scabies
+Skin Abscess
+Tinea Barbae
+Tinea Capitis
+Tinea Corporis
+Tinea Cruris
+Tinea Manuum
+Tinea Pedis
+Warts
+Androgenetic Alopecia
+Xeroderma Pigmentosum
+Epidermolysis Bullosa
+Ichthyosis Vulgaris
+Necrobiosis lipoidica diabeticorum
+Porphyria Cutanea Tarda
+Xanthelasma
+Xanthoma
+Actinic Keratoses
+Atypical Nevus/Dysplastic nevus
+Basal cell carcinoma
+Bowen's disease
+Juvenile xanthogranuloma
+Keratoacanthoma
+Lentigo maligna
+Lipoma
+Marjolin ulcer
+Melanoma
+Nonmelanoma Skin Cancers
+Pilar Cyst
+Sebaceous cell carcinoma
+Skin cancer
+Squamous Cell Carcinoma (SCC)
+Occupational acne
+Corns
+Hypertrophic scar
+Keloid scar
+Onychogryphosis
+Pilonidal Cyst
+Pressure ulcer/injuries
+Pyogenic Granuloma
+Scar
+Spread scar
+Subungual hematoma
+Ulcers
+Cutaneous gangrene
+Lipodermatosclerosis
+Perniosis
+Stasis Dermatitis/Varicose eczema
+Venous / Arterial Ulcer

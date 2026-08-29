@@ -1,0 +1,257 @@
+Ankylosing spondylitis (AS)
+Anti-C1q vasculitis
+Anti-synthetase syndrome
+Antiphospholipid antibody syndrome (APS)
+Collagen disorders
+Connective tissue disease
+CREST syndrome
+Cryoglobulinemic vasculitis
+Eosinophilic granulomatosis and polyangiitis (EGPA)
+Felty syndrome
+Felty's syndrome
+Giant cell arteritis (GCA)
+Granulomatosis with polyangiitis (GPA)
+Inclusion body myositis (IBM)
+Jaccoud's arthritis
+Juvenile rheumatoid arthritis
+Linear scleroderma
+Mixed connective tissue disease (MCTD)
+Myositis
+Necrotizing autoimmune myositis (NAM)
+Peripheral Arthritis
+Polymyalgia rheumatica (PMR)
+Polymyositis (PM)
+Progressive Systemic Sclerosis
+Psoriatic arthritis (PsA)
+Relapsing polychondritis
+Rheumatoid arthritis (RA)
+Rheumatoid nodule
+Sacroiliitis
+Temporal arteritis
+Brachysyndactyly
+Cleft hand
+Club foot
+Congenital talipes equinovarus
+Craniosynostosis
+Developmental dysplasia of the hip
+Limb anomalies
+Longitudinal absence (phocomelia)
+Macrodactyly
+Madelung's deformity
+Malocclusion
+Pectus carinatum
+Pectus excavatum
+Poland syndrome
+Polydactyly
+Radial deficiency (radial club hand)
+Symbrachydactyly
+Syndactyly
+Thumb hypoplasia
+Transverse absence (congenital amputation)
+Ulnar club hand
+Vertebral dysgenesis
+Achilles tendonitis
+Atlantoaxial subluxation
+Atypical femoral fracture
+Baker's cyst
+Bicep tendinosis
+Bunions
+Cervical arthritis
+Cervical Disc Syndrome
+Cervical spondylosis
+Claw toe
+Compression fracture
+De Quervain's Tenosynovitis
+Degenerative disc disease
+Disc herniation
+Epicondylitis
+Femoroacetabular impingement
+Flexor tenosynovitis
+Hallux valgus
+Hammer toe
+Lumbar Disc Syndrome
+Lumbar Spinal Stenosis
+Mallet toe
+Neuropathic arthropathy (Charcot joint)
+Osteoarthritis (OA)
+Osteophyte
+Patellofemoral syndrome
+Plantar fasciitis
+Popliteal cyst
+Rectus diastasis
+Rotator cuff disease
+Slipped capital femoral epiphysis
+Spinal stenosis
+Spondylolisthesis
+Spondylosis
+Temporomandibular Joint Disease
+Trigger Finger/Thumb (Stenosing Tenosynovitis)
+Duchenne muscular dystrophy
+Ehlers-Danlos
+Ehlers-Danlos type IV syndrome
+Ehlers-Danlos type VI
+Jackson-Weiss syndrome
+Joint hypermobility
+Adhesive capsulitis
+Aneurysmal bone cyst
+Avascular necrosis (AVN)
+Capsular contracture
+Capsulitis
+Carpal tunnel syndrome
+Costochondritis
+Coxa plana
+Cubital tunnel syndrome
+Dupuytren's Contracture
+Fibromyalgia
+Frozen shoulder
+Ganglion Cyst
+Kyphoscoliosis
+Kyphosis
+Ledderhose's disease
+Legg-Calve-Perthes disease
+Musculoskeletal disorders
+Myofascial pain syndrome
+Ossification of the posterior longitudinal ligament
+Osteochondritis dissecans
+Scoliosis
+Unicameral bone cyst
+Grisel's syndrome
+Reactive arthritis (ReA)
+Septic arthritis
+Osteomyelitis
+Achondroplasia
+Becker muscular dystrophy
+Classical Ehlers-Danlos Syndrome
+Crouzon's syndrome
+Primary hypertrophic osteoarthropathy
+Skeletal dysplasia
+McArdle's disease
+Muscular dystrophies
+Gout
+Juvenile cheiroarthropathy
+Osteopenia
+Osteoporosis
+Paget's disease
+Paget's Disease of Bone
+Pseudogout (CPPD)
+Rhabdomyolysis
+Tophi
+Enchondroma
+Fibrous cortical defect
+Osteoblastoma
+Osteochondroma
+Osteoid osteoma
+Osteomas
+Pathologic fracture
+Achilles tendon rupture
+Acromioclavicular joint pathology
+AO Spine upper cervical spine injury classification
+Bankart lesion
+Bennett's fracture
+Boxer's fracture
+Bursitis
+Burst fracture
+Butterfly fracture
+Calcaneal fracture
+Chondral defect
+Clavicle fracture
+Clay-shoveler fracture
+Collateral ligament tear
+Colles' fracture
+Comminuted fracture
+Compartment syndrome
+Cruciate ligament tear
+Distal femoral fracture
+Distal humeral fracture
+Distraction fracture
+Elbow dislocation
+Facet fracture
+Femoral diaphysis fracture
+Femoral neck fracture
+Fracture
+Fractures of the Spine
+Galeazzi fracture
+Gamekeeper's thumb
+Greenstick fracture
+Hangman fracture
+Heterotopic bone formation
+Heterotopic ossification
+Hill-Sachs lesion
+Hip dislocation
+Humeral shaft fracture
+Intertrochanteric fracture
+Intra-articular fracture
+Jefferson fracture
+Knee dislocation
+Lateral collateral ligament tear
+Lisfranc fracture
+Mallet Finger
+Mandibular Fracture
+McMurray's test
+Medial collateral ligament tear
+Medial tibial stress syndrome
+Meniscal tear
+Metatarsal fracture
+Myositis ossificans
+Nightstick fracture
+Oblique fracture
+Open fracture
+Osgood-Schlatter disease
+Patellar dislocation
+Patellar fracture
+Patellar tendon rupture
+Posterior cruciate ligament tear
+Proximal humeral fracture
+Quadriceps tendon rupture
+Radial head fracture
+Radius shaft fracture
+Rectus sheath hematoma
+Rolando fracture
+Scaphoid fracture
+Segmental fracture
+Shoulder dislocation
+SLAP lesion
+Smith's fracture
+Spiral fracture
+Spondylolysis
+Sprain
+Stener lesion
+Strain
+Stress fracture
+Subluxation
+Subtrochanteric fracture
+Supracondylar fracture
+Talar fracture
+Tendinitis
+Thoracic outlet syndrome
+Tibial plateau fracture
+Tibial shaft fracture
+Torus fracture
+Translational fracture
+Transverse fracture
+Ulna shaft fracture
+Vertebral compression fractures
+Volkmann's contracture
+Volkmann's ischemic contracture
+Whiplash-Associated Disorders
+Arthritis
+Arthritis of the hip
+Ankle ligamentous injury
+Anterior cruciate ligament tear
+Anterior Shoulder Dislocation
+Anaphylactic Shock
+Anaphylaxis
+Behcet's Disease
+Caplan's syndrome
+Dermatomyositis (DMM)
+DRESS Syndrome
+Enteropathic arthritis (EA)
+Heerfordt-Waldenstrom syndrome
+Henoch-Schonlein Purpura
+IgA vasculitis
+Lofgren's syndrome
+Lupus
+Microangiopathic polyangiitis (MPA)
+Microscopic polyangiitis
+Polyarteritis nodosa (PAN)
+Sarcoidosis

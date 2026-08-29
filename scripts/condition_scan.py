@@ -97,7 +97,21 @@ import re, glob, os, csv, sys, unicodedata
 META = {"CLAUDE.md","CLAUDE_CODE_PROMPT.md","COWORK_HANDOFF.md",
         "MASTER_VERIFICATION_WORKFLOW.md","PENDING_GUIDELINE_CHECKS.md",
         "PHASE_EXECUTION_WORKFLOW.md","RECOMMENDED_WORKFLOW.md"}
-MARKER = re.compile(r"^\s*[>\-\*]*\s*\*\*(D|R|S/Smx|S&Smx|Smx|Hx|Ix|Mx|Dx|Cx)\b", re.M)
+# NOTE, and it is the important one in this file.
+# This pattern originally required the literal `**` of the corpus's bold
+# markers (`**Mx:**`). But load() calls strip_md() BEFORE splitting into
+# sections, so by the time MARKER ran the asterisks were already gone and it
+# matched NOTHING - in all 148 files. The consequence was silent and total:
+# the IN A TAUGHT SECTION verdict could never fire, every condition that sits
+# inside a real teaching entry was demoted to MENTIONED, and the whole
+# teach-vs-mention distinction the scan exists to draw was inert while
+# reporting confident-looking counts. Cardiovascular and Neurology were
+# reported to the user under it before it was found.
+# It was found only because a summary table showed a column of nineteen
+# zeroes - the kind of too-clean result that is a signal, not a reassurance.
+# ABSENT and OWNS ENTRY verdicts were unaffected, so no gap was missed; what
+# was lost was the ability to tell teaching from passing mention.
+MARKER = re.compile(r"^\s*[>\-]*\s*(D|R|S/Smx|S&Smx|Smx|Hx|Ix|Mx|Dx|Cx)\s*:", re.M)
 HEADER = re.compile(r"^#{2,4}\s+(.+)$", re.M)
 
 def strip_md(t):
@@ -108,39 +122,88 @@ def collapse(t):
     """Letters and digits only - defeats hyphen/space/compound differences."""
     return re.sub(r"[^a-z0-9]+", "", norm(t))
 
-def norm(t):
-    """Collapse AU/US spelling so neither can hide from the other."""
+def plain(t):
+    """Accent- and ordinal-normalised, but WITHOUT spelling folding.
+
+    Spelling folding is substring surgery and it cannot be made safe: whatever
+    stem list is used, some word will contain a stem across a morpheme
+    boundary. "gastroesophageal" contains "oesophag" and folds to
+    "gastresophageal", while "gastro-oesophageal" folds to "gastro-esophageal"
+    - so GORD, which the corpus teaches in 28 places, read ABSENT twice in a
+    row under two different fixes. So the matcher no longer bets on one
+    normalisation: every condition is tried against BOTH the folded and the
+    unfolded form of every section, and a hit in either counts.
+    """
     t = unicodedata.normalize("NFKD", t)
-    t = "".join(c for c in t if not unicodedata.combining(c))
-    t = t.lower()
-    t = t.replace("\u00e6", "ae")
-    t = re.sub(r"ae|oe", "e", t)
-    t = re.sub(r"our\b", "or", t)
-    t = t.replace("our", "or")
-    # Convention 7, found the same way as the other six: the list writes
-    # "Second Degree AV Block", the corpus writes "2nd degree". All three
-    # AV-block rows read ABSENT against a section that teaches all three.
+    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
     for w, d in (("first","1st"),("second","2nd"),("third","3rd"),
                  ("fourth","4th"),("fifth","5th")):
         t = re.sub(r"\b" + d + r"\b", w, t)
     return t
+
+def fold(t):
+    """plain() plus a blanket ae/oe -> e collapse.
+
+    This is the crude fold that norm() replaced, kept as a THIRD form rather
+    than a substitute. Replacing it was itself a regression: the explicit
+    stem list has no entry for praevia/previa, so "Placenta Previa" read
+    ABSENT against a corpus that teaches placenta praevia. Crude and precise
+    fold each catch what the other misses, and since a hit in any form counts,
+    keeping all three only adds matches - it can never hide one.
+    """
+    return re.sub(r"ae|oe", "e", plain(t))
+
+def norm(t):
+    """Fold AU/US spelling so neither can hide from the other.
+
+    An earlier version did this by collapsing every "ae"/"oe" to "e". That is
+    too blunt and it corrupted words where o and e meet across a morpheme
+    boundary: "gastroesophageal" became "gastresophageal" while the corpus's
+    "gastro-oesophageal" became "gastro-esophageal", so GORD - which the
+    corpus plainly teaches - read ABSENT. Blanket letter surgery cannot tell
+    a digraph from an adjacency, so the mapping is now an explicit, auditable
+    list of AU->US stems instead.
+    """
+    t = unicodedata.normalize("NFKD", t)
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    t = t.lower()
+    for au, us in (("haem","hem"),("oesophag","esophag"),("oedem","edem"),
+                   ("coeliac","celiac"),("anaemi","anemi"),("ischaem","ischem"),
+                   ("leukaem","leukem"),("paediatr","pediatr"),("gynaec","gynec"),
+                   ("diarrhoea","diarrhea"),("orrhoea","orrhea"),("oestrogen","estrogen"),
+                   ("foetal","fetal"),("anaesthe","anesthe"),("aemia","emia"),
+                   ("aemic","emic"),("gonorrhoea","gonorrhea"),("faec","fec"),
+                   ("oedip","edip"),("orthopaed","orthoped"),("caesar","cesar")):
+        t = t.replace(au, us)
+    t = t.replace("gerd", "gord")   # the one AU/US acronym split that matters here
+    t = re.sub(r"our\b", "or", t)
+    t = t.replace("tumour", "tumor").replace("colour", "color").replace("behaviour", "behavior")
+    # The list writes "Second Degree AV Block"; the corpus writes "2nd degree".
+    for w, d in (("first","1st"),("second","2nd"),("third","3rd"),
+                 ("fourth","4th"),("fifth","5th")):
+        t = re.sub(r"\b" + d + r"\b", w, t)
+    return t
+
+NOT_PLURAL = {"scabies","rabies","caries","species","facies","series","ascites",
+              "herpes","diabetes","measles","mumps","syphilis","psoriasis"}
 
 GAP = r"[^A-Za-z]+(?:(?:the|of|a|an|with|and)[^A-Za-z]+){0,2}"
 GENERIC = {"syndrome","disease","disorder","chronic","acute","primary","secondary",
            "congenital","idiopathic","malignant","benign","severe","failure",
            "infection","tumour","tumor","cancer","carcinoma","deficiency"}
 
-def phrase(v):
-    toks = [t for t in re.split(r"[^A-Za-z0-9]+", norm(v)) if t]
+def phrase(v, nf=None):
+    nf = nf or norm
+    toks = [t for t in re.split(r"[^A-Za-z0-9]+", nf(v)) if t]
     if not toks: return re.compile(r"(?!x)x")
-    # Singularise each token before allowing an optional plural, so a plural
-    # in the list ("Bicuspid aortic valveS") still matches a singular in the
-    # corpus. Allowing only a trailing s made the match one-directional.
     def stem(t):
+        # -ies is not always a plural. "scabies" -> "scaby" made scabies read
+        # ABSENT in a corpus that prescribes permethrin for it.
+        if t in NOT_PLURAL: return t
+        if len(t) > 4 and t.endswith("ies"): return t[:-3] + "y"
         # -es is only the plural marker after s/x/z/ch/sh. Stripping it
         # blindly turned "valves" into "valv", which then could not match
         # "valve" - a fix that created the failure it was written to remove.
-        if len(t) > 4 and t.endswith("ies"): return t[:-3] + "y"
         if len(t) > 4 and t.endswith("es") and re.search(r"(s|x|z|ch|sh)es$", t):
             return t[:-2]
         if len(t) > 3 and t.endswith("s") and not t.endswith("ss"): return t[:-1]
@@ -183,7 +246,8 @@ def load():
         # quadratic in (sections x conditions) and it timed out at two
         # systems; the earlier phase abandoned a matcher for the same reason
         # rather than shipping it, so it is fixed here instead.
-        prepped = [(h, norm(h), collapse(h), norm(b), collapse(b),
+        prepped = [(h, norm(h), plain(h), fold(h), collapse(h),
+                    norm(b), plain(b), fold(b), collapse(b),
                     len(MARKER.findall(b)) >= 2) for h, b in parts]
         out.append((os.path.basename(f), prepped))
     return out
@@ -203,15 +267,20 @@ def variants(name):
     return [x for x in dict.fromkeys(v) if len(x) > 2]
 
 def classify(name, corpus):
-    pats = [phrase(v) for v in variants(name)]
+    pats  = [phrase(v) for v in variants(name)]
+    patsp = [phrase(v, plain) for v in variants(name)]
+    patsf = [phrase(v, fold) for v in variants(name)]
     cols = [collapse(v) for v in variants(name) if len(collapse(v)) >= 8]
     wk = weak_token(name)
     weak = re.compile(r"(?<![A-Za-z])" + re.escape(norm(wk)) + r"", re.I) if wk else None
     owns = []; taught = []; hits = 0; wsig = 0
     for fname, parts in corpus:
-        for header, nh, ch, nb, cb, is_taught in parts:
-            in_h = any(p.search(nh) for p in pats) or any(c in ch for c in cols)
-            n = sum(len(p.findall(nb)) for p in pats)
+        for header, nh, ph, fh, ch, nb, pb, fb, cb, is_taught in parts:
+            in_h = (any(p.search(nh) for p in pats) or any(p.search(ph) for p in patsp)
+                    or any(p.search(fh) for p in patsf) or any(c in ch for c in cols))
+            n = (sum(len(p.findall(nb)) for p in pats)
+                 or sum(len(p.findall(pb)) for p in patsp)
+                 or sum(len(p.findall(fb)) for p in patsf))
             if not n: n = sum(cb.count(c) for c in cols)
             if in_h: owns.append(f"{fname}#{header}")
             if n:

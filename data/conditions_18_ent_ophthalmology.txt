@@ -1,0 +1,219 @@
+Allergic conjunctivitis
+Anterior uveitis
+Atopic conjunctivitis
+Autoimmune inner ear disease
+Giant papillary conjunctivitis
+Intermediate uveitis
+Iritis / Iridocyclitis
+Keratoconjunctivitis sicca
+Nasal polyps
+Optic neuritis
+Orbital Apex Syndrome
+Papillitis
+Posterior uveitis
+Rhinitis
+Scleritis
+Scleromalacia perforans
+Thyroid eye disease
+Uveitis
+Vernal conjunctivitis
+Aniridia
+Anisometropia
+Astigmatism
+Axenfeld-Rieger syndrome
+Branchial cleft cyst
+Branchial sinus/cleft
+Choanal atresia
+Cleft palate
+Congenital Glaucoma
+Duane's syndrome
+Esotropia
+Exotropia
+Hyperopia
+Infantile cataracts
+Laryngeal cleft
+Laryngeal web
+Laryngocele
+Laryngomalacia
+Lens coloboma
+Megalocornea
+Microphthalmia
+Microtia
+Ossicular malformations
+Pyriform aperture stenosis
+Retinal coloboma
+Saccular cyst
+Semicircular canal dehiscence
+Septal deviation/dislocation
+Strabismus
+Subglottic hemangioma
+Subglottic stenosis
+Thyroglossal cyst / duct cyst
+Thyroglossal duct cyst
+Age-related macular degeneration
+Angle-closure Glaucoma
+Blepharochalasis
+Bull's eye maculopathy
+Cataracts
+Conductive Hearing Loss
+Deafness
+Dermatochalasis
+Ectropion
+Glaucoma
+Hearing Impairment
+Keratoconus
+Limbal stem cell deficiency
+Ocular hypertension
+Open-angle Glaucoma
+Optic Neuropathy
+Ototoxic drug exposure
+Pinguecula
+Posterior vitreous detachment
+Presbycusis
+Presbyopia
+Pseudoexfoliation glaucoma
+Pseudoexfoliation syndrome
+Pterygium
+Retinal detachment
+Retinal toxicity
+Sensorineural Hearing Loss
+Vortex keratopathy
+Secondary angle-closure glaucoma
+Secondary open-angle glaucoma
+Acute Angle Closure Glaucoma
+Adenoid hypertrophy
+Adie's Tonic Pupil
+Atrophic rhinitis
+Benign Paroxysmal Positional Vertigo
+Cerumen impaction
+Chalazion
+Cholesteatoma
+Chronic laryngitis
+Coats disease
+Cystoid macular edema
+Eagle syndrome
+Endolymphatic Hydrops
+Episcleritis
+Eustachian tube dysfunction
+Idiopathic sudden sensorineural hearing loss
+Intraoperative floppy iris syndrome
+Keratosis obturans
+Laryngopharyngeal reflux
+Lingual tonsil hypertrophy
+Meniere's disease
+Mixed Hearing Loss
+Normal tension glaucoma
+Pars planitis
+Patulous Eustachian tube
+Ranula
+Recurrent Aphthous Stomatitis
+Stapedius muscle spasm
+Tight lens syndrome
+Tonsillar hypertrophy
+Trichiasis
+Vasomotor rhinitis
+Vocal cord palsy/paralysis
+Steroid-induced glaucoma
+Acute otitis media
+Bacterial conjunctivitis
+Blepharitis
+Chorioretinitis
+Conjunctivitis
+Corneal ulcer
+Dacryoadenitis
+Dacryocystitis
+Dental abscess
+Dental disease
+Endophthalmitis
+External canal abscess
+Herpes zoster ophthalmicus
+Herpes zoster oticus
+Hordeolum (Stye)
+HSV Keratitis
+Keratitis
+Labyrinthitis
+Laryngeal papillomas
+Ludwig's angina
+Malignant otitis externa
+Mastoiditis
+Myringitis
+Orbital cellulitis
+Otitis Externa
+Otitis Media
+Parapharyngeal abscess
+Perichondritis
+Peritonsillar Abscess
+Preseptal cellulitis
+Retropharyngeal abscess
+Rhinosinusitis / Sinusitis
+Septal abscess / Hematoma
+Sialadenitis
+Stomatitis
+Tonsillitis / Quinsy
+Tympanosclerosis
+Viral conjunctivitis
+Sinusitis
+Auditory neuropathy
+Corneal dystrophy
+Ectopia lentis
+Myopia
+Otosclerosis
+Pigment dispersion syndrome
+Pigmentary glaucoma
+Retinitis pigmentosa
+Band keratopathy
+Diabetic retinopathy
+Glossitis
+Keratomalacia
+Sialolithiasis
+Xerophthalmia
+Acoustic Neuroma
+Endolymphatic sac tumour
+Glomus tumours (Jugulare/Tympanicum)
+Intraocular neoplasm
+Inverting papilloma
+Juvenile nasopharyngeal angiofibroma
+Leukoplakia
+Middle ear neoplasm
+Neoplasm of external canal
+Pleomorphic adenoma
+Salivary gland neoplasm
+Uveal melanoma
+Warthin's tumour
+Otitis Media with Effusion
+Postmeningitis hearing loss
+Auricular pseudocyst
+Corneal abrasion
+Dislocated lens
+Foreign body in ear
+Globe rupture
+Hyphema
+Hypoglobus
+Intraocular foreign body
+Iridodialysis
+Lens detachment (Ectopia lentis)
+Noise-induced hearing loss
+Ossicular discontinuity
+Perilymph fistula
+Recurrent erosions
+Retrobulbar hemorrhage
+Sialocele
+Superior Orbital Fissure Syndrome
+Tympanic membrane perforation
+Vocal cord nodules/polyps
+Anterior ischemic optic neuropathy
+Macular edema
+Neovascular glaucoma
+Ocular ischemic syndrome
+Posterior ischemic optic neuropathy
+Retinal artery/vein occlusion
+Subconjunctival hemorrhage
+Vitreous hemorrhage
+Macular Hole
+Papilledema
+Squamous Cell Carcinoma (SCC) of the Head and Neck
+Nasal Foreign Body
+Amaurosis Fugax
+Central Retinal Artery Occlusion (CRAO)
+Epistaxis (Anterior vs. Posterior)
+Hypertensive Retinopathy
