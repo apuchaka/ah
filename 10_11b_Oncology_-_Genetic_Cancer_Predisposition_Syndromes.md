@@ -30,12 +30,13 @@ source: quackquackmed 10.11 Genetic conditions predisposing to cancer
 
 - **D:** also known as hereditary non-polyposis colorectal cancer syndrome — a predisposition to developing colorectal cancer (and endometrial cancer). Autosomal dominant.
 
-> [!info] Amsterdam criteria (to help identify patients at high risk)
-> - ≥3 family members with a confirmed diagnosis of a Lynch syndrome-related cancer (colorectal, endometrial, small bowel, ureter, or renal pelvis).
-> - ≥1 is a first-degree relative of the other two.
-> - ≥2 successive affected generations.
-> - ≥1 colon cancers diagnosed at <50 years old.
-> - Familial adenomatous polyposis has been excluded.
+> [!info] **Amsterdam II criteria** (to help identify patients at high risk) — the "3-2-1 rule"
+> - **3** — ≥3 family members with a confirmed diagnosis of a Lynch syndrome-related cancer (colorectal, endometrial, small bowel, ureter, or renal pelvis), **one a first-degree relative of the other two**.
+> - **2** — ≥2 successive affected generations.
+> - **1** — **≥1 of those cancers** diagnosed at <50 years old.
+> - Familial adenomatous polyposis excluded in any colorectal cases.
+>
+> **The cancer list and the age criterion must match, and previously did not:** this box carried the Amsterdam **II** cancer list (which added endometrial, small bowel, ureter and renal pelvis) while the age criterion still read "≥1 **colon** cancers diagnosed at <50" — the older Amsterdam **I** wording, which was colorectal-only. A family meeting Amsterdam II through, say, three endometrial cancers would have failed the age criterion as written. Corrected in the G1 round (2026-08-29). See `PENDING_GUIDELINE_CHECKS.md` **B52**.
 
 - **Ix:** tumour testing on any diagnosed colorectal or endometrial cancer — microsatellite instability (MSI) testing and/or immunohistochemistry for mismatch repair (MMR) protein expression (*why:* Lynch syndrome is caused by inherited defects in DNA mismatch repair genes, so tumours characteristically show MSI-high status or loss of specific MMR protein staining — this is now routinely performed on colorectal/endometrial cancers as an initial screen to identify patients who should proceed to germline testing, rather than relying on family history criteria (like Amsterdam, above) alone, given family history-based criteria miss a meaningful proportion of cases; *what:* MSI-high status or absent staining for a specific MMR protein (MLH1, MSH2, MSH6, or PMS2) points toward the specific gene likely affected, directly guiding germline testing). Germline genetic testing for the specific MMR gene (*why:* confirms the diagnosis definitively and identifies the specific mutation for cascade testing of at-risk relatives; *what:* identifies the causative germline mutation, with genetic counselling before and after testing given the significant implications, per the same general principle established for BRCA testing above).
 - **Risk management:** e.g. colonoscopy starting at age 20, repeated every 1–2 years; colectomy if surveillance measures are not possible.
