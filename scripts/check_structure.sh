@@ -218,6 +218,42 @@ if [ "$XDUP" -gt 0 ] && [ "$QUIET" -eq 0 ]; then
 fi
 
 # ---------------------------------------------------------------------------
+# Step 1c-bis — cross-file duplicates that Step 1c cannot see
+#
+# Added 2026-08-29 (G10-G17). Step 1c matches `^## ` exactly and
+# case-sensitively, so it missed a full duplicate pair:
+#
+#   04_Neurology.md      ### Cauda Equina Syndrome
+#   11_01_Ortho_...md    ### Cauda equina syndrome
+#
+# Two complete entries for one surgical emergency, in two files, neither
+# pointing at the other — invisible on two counts at once: the header level
+# (### not ##) and the letter case. CLAUDE.md rule 2 says to check
+# case-sensitivity before concluding something is absent; that applies to the
+# scans themselves, not only to manual greps.
+# ---------------------------------------------------------------------------
+echo
+echo "--- Step 1c-bis: cross-file duplicate '##'/'###' headers, case-insensitive ---"
+echo "    INFO. Catches pairs Step 1c misses on header level or letter case."
+grep -h '^###\{0,1\} ' "${CONTENT[@]}" \
+  | sed 's/^#\{2,3\} //; s/[[:space:]]*$//' \
+  | tr '[:upper:]' '[:lower:]' | sort | uniq -d > "$TMP/xdup_ci.txt"
+comm -13 <(sed 's/.*/\L&/' "$TMP/xdup.txt" | sort) "$TMP/xdup_ci.txt" > "$TMP/xdup_all.txt"
+# Generic STRUCTURAL sub-headers repeat across files by design — every entry
+# has a Management section. They are not topic duplicates and drown the signal.
+grep -vxE 'management|complications|investigation|investigations|investigation and management|screening|causes|ix|mx|dx|prevention|prognosis|preparation|epidemiology|aetiology|pathophysiology|ddx by location|risk factors|examination|history|treatment|follow-up|referral' \
+  "$TMP/xdup_all.txt" > "$TMP/xdup_new.txt" || true
+XDUPCI=$(wc -l < "$TMP/xdup_new.txt" | tr -d ' ')
+echo "additional TOPIC pairs not already reported by Step 1c: $XDUPCI"
+echo "    (generic structural sub-headers such as Management/Complications filtered out)"
+if [ "$XDUPCI" -gt 0 ] && [ "$QUIET" -eq 0 ]; then
+  while IFS= read -r h; do
+    echo "  \"$h\""
+    grep -il "^#\{2,3\} ${h}[[:space:]]*$" "${CONTENT[@]}" 2>/dev/null | sed 's/^/      /'
+  done < "$TMP/xdup_new.txt"
+fi
+
+# ---------------------------------------------------------------------------
 # Step 1d — wikilink resolution
 # ---------------------------------------------------------------------------
 echo
