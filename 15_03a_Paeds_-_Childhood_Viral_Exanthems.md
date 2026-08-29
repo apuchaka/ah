@@ -47,7 +47,7 @@ source: quackquackmed 15.03 Childhood viral exanthems - Measles, Mumps, Rubella,
 - **S/Smx:** mild fever; rose-red rash on cheeks — peaks after a week, heat triggers the rash. Once the rash appears, the child is not infectious — no need to exclude from school.
 - Can suppress erythropoiesis (aplastic crisis) — serious if RBC lifespan is already short, e.g. sickle cell disease.
 - **Dx:** IgM (PCR if immunocompromised).
-- **Mx:** supportive. If aplastic crisis — transfusion and IVIG.
+- **Mx:** supportive. If aplastic crisis — transfusion and **IVIG (intravenous immunoglobulin)**.
 
 ## Hand, foot and mouth disease (HFMD)
 

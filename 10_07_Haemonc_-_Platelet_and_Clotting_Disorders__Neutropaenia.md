@@ -16,7 +16,7 @@ source: quackquackmed 10.07 Platelet disorders, Clotting factor disorders (haemo
 - **S/Smx:** can be asymptomatic, picked up on bloods; petechiae, purpura; bleeding (e.g. epistaxis); rarely, catastrophic bleeding (e.g. intracranial haemorrhage).
 - **Ix:** FBC — isolated platelets <100 ×10⁹/L with no other abnormality. Bone marrow examination only if atypical features (e.g. splenomegaly) or failure to respond to treatment.
 - **Mx:**
-  - Life/organ-threatening bleed — IVIG + prednisolone + platelet transfusion.
+  - Life/organ-threatening bleed — **IVIG (intravenous immunoglobulin** — here an immunomodulator, not passive protection; see [[04_Neurology]] Guillain-Barré Syndrome (GBS) for what it is doing and [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Passive Immunisation — Immunoglobulin After an Exposure for the contrast**)** + prednisolone + platelet transfusion.
   - Platelets <30 or bleeding — prednisolone ± IVIG.
   - Mild with no other risk factors — consider observation. In children, 80% resolve within 6 months with or without treatment. In adults, only 5–10% resolve — monitor.
   - Advise avoiding activities that may result in trauma, e.g. contact sports.

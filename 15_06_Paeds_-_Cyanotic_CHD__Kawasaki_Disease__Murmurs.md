@@ -82,7 +82,7 @@ source: quackquackmed 15.06 Cardiovascular disorders - Tetralogy of Fallot, TGA,
 - **Ix:** clinical diagnosis. Following diagnosis, patients will need echos to look for coronary artery aneurysms.
 - **Mx:**
   - High-dose aspirin — 80–100mg/kg/day PO given in 4 divided doses for 24–72h after fever stops (up to 14 days), then 3–5mg/kg PO OD for 6–8 weeks.
-  - IVIG.
+  - **IVIG (intravenous immunoglobulin)** — high-dose, acting as an immunomodulator rather than as passive protection, and given to reduce the risk of coronary artery aneurysms rather than to treat an infection (see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Passive Immunisation — Immunoglobulin After an Exposure for the distinction).
   - Echo — if coronary artery aneurysms are spotted, refer to paediatric cardiology.
 
 > [!danger] Complications: coronary artery aneurysms. Highest risk in those who do not receive IVIG within 10 days of fever onset, and patients who have persistent fever and inflammation despite treatment.

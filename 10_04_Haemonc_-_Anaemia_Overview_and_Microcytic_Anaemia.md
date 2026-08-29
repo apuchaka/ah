@@ -103,7 +103,7 @@ source: quackquackmed 10.04 Anaemia - DDx overview, iron studies, microcytic ana
 > - Platelets <50 ×10⁹/L
 > - Neutrophils <1.5 ×10⁹/L
 
-- **Mx:** if not severe, monitoring ± steroids or IVIG may be sufficient. If severe or congenital, patients may need a stem cell transplant.
+- **Mx:** if not severe, monitoring ± steroids or **IVIG (intravenous immunoglobulin)** may be sufficient. If severe or congenital, patients may need a stem cell transplant.
 
 ## Anaemia of chronic kidney disease
 
