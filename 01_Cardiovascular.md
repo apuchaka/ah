@@ -715,9 +715,9 @@ Systemic IgE-mediated hypersensitivity — massive mast cell degranulation → i
 > - **>50 kg and ≥12 years: 0.5 mL (500 mcg)** — the adult dose
 > - **>20 kg and ≥5 years: 0.3 mL (300 mcg)**
 > - **7.5–20 kg and ≤5 years: 0.15 mL (150 mcg)**
+> - **<7.5 kg / <6 months: 0.1–0.15 mL (100–150 mcg)** — unverified, see `PENDING_GUIDELINE_CHECKS.md` **B50**
 >
 > Overall rule: **0.01 mg/kg up to a maximum of 0.5 mg**. See [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis for the full entry, and [[15_01b_Paeds_-_Anaphylaxis]] for the paediatric-specific observation criteria — the ASCIA correction from age bands to weight-and-age was made in that file and had not been carried across to here.
-> - <6mo: 0.1–0.15 mL (100–150 mcg)
 > - Repeat every 5 min if necessary
 > - IM injection into anterolateral thigh (if using an Epipen — count "3 elephants")
 > - If refractory after 2 doses of IM adrenaline, consider IV adrenaline infusion (expert only)
