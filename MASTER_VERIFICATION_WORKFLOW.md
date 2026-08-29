@@ -60,7 +60,8 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 > **Phase 1 (P1–P6): complete.** All six categories fully pulled and audited.
 > **Phase 2: complete — all 7 items (N1–N7).**
 > **Phase 3 (M1–M10): complete 2026-08-29** — all ten largest files. What it found is not what a 'verification pass' on already-worked files was expected to find: **four content errors with clinical consequence** (paediatric adrenaline timing, the UK 3HR latent-TB regimen, anti-VEGF given as an infusion, and cognitive cutoffs applied without their validity caveat), plus **five terms defined nowhere in the corpus despite heavy use** (IVIG, MELD, TIPSS, DDAVP, MPAA).
-> **Phase 4: not started** — 10 large files and 39 medium/small groups remain ⬜.
+> **Phase 4 — large-file tier (L1–L10): complete 2026-08-29.** 39 medium/small groups remain ⬜.
+> **What the L tier found is a different shape from Phase 3's.** Almost nothing was wrong *inside* an entry. The defects were **between** entries: a topic named in one file with its management in another and nothing joining them (hyposplenism, GBS); a threshold in one file with its validity caveat in another (Centor/ARF); two schedules disagreeing (NIP); a scoring tool whose components did not sum (ORBIT, Alvarado); and ~20 cross-references pointing at plausible-but-wrong header names. **The medicine was sound; the seams leaked.**
 >
 > **→ NEXT ITEM: Phase 4.** No Phase 2 work remains. Two Low-yield rows from N4 were deliberately left unbuilt (recorded in the N4 result below as a judgment, not an omission).
 >
@@ -819,8 +820,8 @@ Run the listed number, then reassess — if a run comes back with genuinely noth
 | L6 | `verify: 03a_Anaesthetics_Primer.md` | ✅ 2026-08-29 | Clean. File-level box points to the per-entry boxes (correct pattern). Dexamethasone doses across 5 files confirmed as **different indications**, not a conflict. |
 | L7 | `verify: 11_02_Ortho_-_Upper_Limb…` | ✅ 2026-08-29 | **The recorded AC-joint gap is closed** — full Rockwood I–VI grading with S/Smx, Ix and grade-split Mx. Zero verification boxes, zero positional refs. Clean. Previously flagged as a real gap by Step 24 |
 | L8 | `verify: 16_10-13_Labour_and_Delivery.md` | ✅ 2026-08-29 | Clean on the classification-completeness check: perineal tears carry all four degrees **with 3a/3b/3c subdivisions**; caesarean urgency Category 1–4 present and its box is honestly labelled *Partially verified*. Oxytocin 10 IU (PPH) vs 20 IU (umbilical vein, retained placenta) confirmed as different indications. |
-| L9 | `verify: Communication.md, Clinical-Process-EBM-Consent-Capacity.md` | 5 | Never a primary target |
-| L10 | `verify: 10_11a_Oncology_-_Common_Cancers__Carcinogens__Tumour_Markers.md, 10_12_Oncology_-_Breast.md` | 3 | Extensive prior work |
+| L9 | `verify: Communication.md, Clinical-Process-…` | ✅ 2026-08-29 | **~20 truncated cross-references fixed** in the two files carrying most of this session's original writing — a systematic habit of dropping a header's parenthetical suffix, plus two references to a `Consent` section in `03a` that **does not exist**. 63 references checked against the real header index. Both `Verified` boxes narrowly scoped to a single statute each. Record retention confirmed single-owner. ISBAR 5/5. |
+| L10 | `verify: 10_11a_Oncology…, 10_12_Breast` | ✅ 2026-08-29 | Clean. ECOG 0–4 complete with grade 5 correctly flagged as research-context; TNM entry **states its own scope limit** (criteria are cancer-specific, left to the disease entries) — the one-owner pattern done right. BreastScreen eligibility: `19_` states it but names `10_12` as source of truth. Both boxes narrowly scoped. |
 
 ### Medium + small, grouped by category
 
