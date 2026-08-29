@@ -3,6 +3,12 @@ block: Haematology and Oncology
 source: quackquackmed 10.10 Emergencies - Neutropenic sepsis, Tumour lysis syndrome, SVC obstruction
 ---
 
+> [!warning] **This file is named for oncological emergencies and covers three of them — neutropenic sepsis, tumour lysis syndrome, and SVC obstruction. Two more are owned elsewhere and were not pointed at from here at all** (added in the G9 round, 2026-08-29):
+> - **Malignant spinal cord compression** — [[04_Neurology]] Malignant Spinal Cord Compression (MSCC), which owns it in full, including the UMN-pattern distinction from cauda equina syndrome. (A separate, broader entry on non-malignant cord compression from trauma, disc or infection sits in [[11_01_Ortho_-_Orthopaedic_Emergencies]] Spinal cord compression.)
+> - **Hypercalcaemia of malignancy** — [[06_Metabolic_Medicine_and_Endocrinology]] Hypercalcaemia, which owns the CHIMPANZEES differential, the PTH-dependent/independent split that separates malignancy from hyperparathyroidism, and the fluid and zoledronic acid figures.
+>
+> Neither is repeated here: **one owner for the numbers, pointers from everywhere else.** The point of this note is that a reader revising "oncological emergencies" from the file of that name was getting three of five, with nothing indicating the other two existed.
+
 ## Neutropenic sepsis
 
 - **D:** medical emergency — presence of fever in a neutropenic patient (aka febrile neutropaenia).
