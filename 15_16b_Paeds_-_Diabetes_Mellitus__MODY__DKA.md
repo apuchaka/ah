@@ -79,7 +79,15 @@ source: quackquackmed 15.16 Diabetes mellitus, MODY, Diabetic ketoacidosis in ch
   - K replacement: if K >5.5, none. If K 3.5–5.5, 40mmol/L. If <3.5, senior review.
 - Formal investigations: weight, FBC, U&Es, lab glucose, Ca, infection screen.
 - Start IV insulin only after 1–2h of fluids. DO NOT give an insulin bolus — start a fast-acting insulin infusion at 0.1U/kg/h.
-- Once BG <14, start 10% dextrose infusion at 125mL/h in addition to the 0.9% NaCl regimen.
+- Once BG <14, add glucose to the fluids so the insulin infusion can continue without causing hypoglycaemia.
+
+> [!danger] **The rate previously stated here was "10% dextrose infusion at 125mL/h" — an absolute, adult-sized fixed rate in a paediatric protocol, and it has NOT been corrected because the right figure is not verified.**
+>
+> **Why it is flagged rather than followed:** 125 mL/h does not scale. For a 50kg adolescent it is roughly maintenance; for a 10kg toddler it is several times maintenance — **in the condition where fluid overload is the mechanism of the complication that kills, cerebral oedema.** It is the same shape as the maintenance-fluid error corrected in the box below (`4mL/kg/h` where the band is a fixed `40 mL/h`), in the same entry.
+>
+> **What Australian paediatric protocols generally do instead:** change the running bag to a glucose-containing fluid at the **already-calculated weight-based rate**, rather than starting a second fixed-rate infusion alongside it. The total fluid rate is the thing under control in paediatric DKA, so adding an independent infusion is the part that does not fit.
+>
+> **Do not use a number from this line.** Take the rate from the current SA Health or Queensland Children's Health paediatric DKA guideline. See `PENDING_GUIDELINE_CHECKS.md` **B49**. Flagged in content by the G29 round, 2026-08-29 — it had been recorded in the tracker only, where a reader working from this entry would never meet it.
 
 > [!info] Fluid calculation reference
 > - Maintenance requirements (**reduced** DKA rates, not standard maintenance): <10kg — **2 mL/kg/h**; 10–40kg — **1 mL/kg/h**; **>40kg — 40 mL/h as a FIXED rate, not per kilogram.**
