@@ -746,7 +746,7 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **Mx:**
 - **Definitive (no acute tier — chronic dietary management):** strict, lifelong gluten-free diet — the only effective treatment, and highly effective when adhered to.
-- **Chronic/long-term:** immunisations — pneumococcal vaccine every 5 years (due to hyposplenism — increased susceptibility to encapsulated organisms) + yearly influenza vaccine; monitor for and correct nutritional deficiencies (iron, B12, folate, vitamin D, calcium); bone density monitoring given osteoporosis risk; dietitian involvement for practical gluten-free diet support and to monitor adherence, especially where symptoms persist despite diagnosis (non-adherence is the most common reason for persistent symptoms).
+- **Chronic/long-term:** immunisations — pneumococcal vaccine every 5 years (due to hyposplenism — and see [[08_09_Infectious_Disease_-_Miscellaneous]] Post-splenectomy sepsis for the fuller asplenia/hyposplenia regimen, which applies here too and includes meningococcal and Hib cover plus antibiotic prophylaxis — increased susceptibility to encapsulated organisms) + yearly influenza vaccine; monitor for and correct nutritional deficiencies (iron, B12, folate, vitamin D, calcium); bone density monitoring given osteoporosis risk; dietitian involvement for practical gluten-free diet support and to monitor adherence, especially where symptoms persist despite diagnosis (non-adherence is the most common reason for persistent symptoms).
 
 **P:** good — 90% complete, lasting symptom resolution on gluten-free diet; <1% refractory.
 

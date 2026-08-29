@@ -19,6 +19,12 @@ source: quackquackmed 10.09 Hereditary angioedema, Hyposplenism, Splenomegaly, T
 - **Causes:** splenectomy; sickle cell disease (can cause splenomegaly, but hyposplenism is more common); coeliac disease; Graves' disease; SLE; amyloid deposits.
 - **Ix:** blood films — Howell-Jolly bodies, siderocytes (RBCs containing non-haemoglobin iron, usually removed by the spleen).
 
+> [!danger] **Mx — and the reason this entry previously stopped at Ix is worth naming.** Hyposplenism was built here as a *finding* (definition, causes, blood film) with **no management at all**, while the full, Australian-verified prophylaxis regimen sits in [[08_09_Infectious_Disease_-_Miscellaneous]] Post-splenectomy sepsis. Nothing connected them, so a reader arriving at the topic by name met the diagnosis and never the thing that matters.
+>
+> **Functional hyposplenism carries the same risk as surgical asplenia.** *The mechanism:* the spleen clears encapsulated organisms opsonised by antibody, and coeliac disease, sickle cell disease and the other causes above impair that function whether or not the organ is present. **Overwhelming post-splenectomy infection (OPSI) is not confined to people who have had a splenectomy** — the "post-splenectomy" framing of the entry that carries the regimen should not be read as excluding these patients.
+>
+> **Management is prophylaxis, and it has three parts** — vaccination (pneumococcal, Hib, meningococcal ACWY *and* B, annual influenza), long-term antibiotic prophylaxis, and a written emergency plan with antibiotics kept at home. **The doses, timing and duration are set out and source-verified in [[08_09_Infectious_Disease_-_Miscellaneous]] Post-splenectomy sepsis and are not repeated here** — including the correction that penicillin V 500mg BD, which appears in older teaching, is double the correct prophylactic dose.
+
 ## Splenomegaly
 
 - **D:** increased size ± function of the spleen.
