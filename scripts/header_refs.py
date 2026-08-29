@@ -167,6 +167,58 @@ def resolve(cited_text, headers):
     return "NO-MATCH", None, " ".join(tw[:6])
 
 
+# ---------------------------------------------------------------------------
+# CONTAINMENT CLAIMS — "the **Kellgren-Lawrence (K-L) grading** box under
+# Investigations below".
+#
+# Added 2026-08-29, after the L9 rule was broken again in the G14 round by a
+# claim no scan could see. The first version of this check tested whether the
+# named section EXISTS — and would NOT have caught that error, because "OA of
+# the knee" is a real header in that file. The claim was about CONTAINMENT:
+# which section the box actually sits under. That is the thing to check.
+#
+# So: find the callout that contains the named thing, walk up to its enclosing
+# header, and compare that against the section the sentence claims. Unlike a
+# reminder to "grep the target first", this runs whether or not anyone
+# remembers the rule.
+CONTAIN_RE = re.compile(
+    r"\*\*(?P<thing>[^*]{3,60}?)\*\*\s+(?:box|table|note|entry)\s+"
+    r"(?:under|in|within)\s+(?:the\s+)?"
+    r"(?P<sect>[A-Z][\w'’\-()/]*(?:\s+[A-Za-z][\w'’\-()/]*){0,5}?)"
+    r"(?=\s+(?:below|above|section|entry|$|[,.;(]))"
+)
+
+
+def enclosing_header(lines, idx):
+    for j in range(idx, -1, -1):
+        m = HEADER_RE.match(lines[j])
+        if m and m.group(1).strip():
+            return m.group(1).strip()
+    return None
+
+
+def scan_bare(paths, index):
+    """Does the named thing actually sit under the section claimed?"""
+    out = []
+    for p in paths:
+        lines = open(p, encoding="utf-8").read().split("\n")
+        for i, line in enumerate(lines):
+            for m in CONTAIN_RE.finditer(line):
+                thing, sect = m.group("thing").strip(), m.group("sect").strip()
+                key = re.sub(r"\s+", " ", thing).lower()
+                # where does the thing itself live? (a callout line, not this one)
+                homes = [j for j, l in enumerate(lines)
+                         if j != i and l.lstrip().startswith(">") and key in l.lower()]
+                if not homes:
+                    out.append((os.path.basename(p), i + 1, thing, sect, "NOT-FOUND"))
+                    continue
+                actual = enclosing_header(lines, homes[0])
+                a = re.sub(r"^\d+(?:\.\d+)*[a-z]?\s+", "", actual or "").lower()
+                if a != sect.lower() and not a.startswith(sect.lower()):
+                    out.append((os.path.basename(p), i + 1, thing, sect, actual))
+    return out
+
+
 def scan(paths, index):
     out = []
     for p in paths:
@@ -262,6 +314,13 @@ def main():
             print("       cited: %s" % r[4])
             if r[5]:
                 print("       real : %s" % r[5])
+    bare = scan_bare(targets, index)
+    print("\nCONTAINMENT CLAIMS — '**X** box under Y' where X does not sit"
+          "\n  under Y: %d" % len(bare))
+    for b in bare:
+        print("   %s:%d  %r claimed under %r — actually under %r"
+              % (b[0][:40], b[1], b[2][:40], b[3], b[4]))
+
     ok = [r for r in rows if r[2] == "EXACT"]
     print("\nEXACT: %d" % len(ok))
     if args.all:
