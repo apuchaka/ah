@@ -246,8 +246,22 @@ All 29 rows resolved: **19 built**, **7 confirmed already covered** in the origi
 | M9 | 05_Ophthalmology.md | ✅ 2026-08-29 — **anti-VEGF route corrected** (intravitreal injection, not infusion) with the VEGF mechanism added; **stye/chalazion built** — the only MISSING candidate the CSV produced, and genuine. Both verification boxes audited and honestly scoped. |
 | M10 | Investigation-Interpretation.md | ✅ 2026-08-29 — the predicted shape found: the status box verifies **approach** and is silent on **numbers**, in a file of reference ranges and cutoffs. Box rewritten to state its own limits. **Cognitive-cutoff validity caveat built** (education/literacy/language; MMSE and MoCA not validated for many Aboriginal and Torres Strait Islander patients — KICA). Troponin confirmed exemplary. |
 
-### Phase 4 — large files (L1–L10), then medium/small (G1–G39)
-All ⬜ — see the full grouping table further down this document for exact file lists and copy-paste prompts. Work L1→L10, then G1→G39.
+### Phase 4 — large files (L1–L10), then medium/small (G1–G45)
+L1–L10 ✅. **G40–G43 ✅ 2026-08-29** — taken first, ahead of G1–G39, because they were the files found to be in no queue row at all and therefore genuinely unaudited. G1–G39 ⬜. **G44–G45 ⬜**, added by the same reconciliation. See the grouping table further down for exact file lists.
+
+| Row | Result |
+|---|---|
+| G40 | ✅ **The GBS screening block contradicted its own verification box** — the bullets opened "Universal screening not routine for all" (the UK NICE position, asserted flatly) directly under a RANZCOG-verified box saying Australia permits either universal or risk-factor screening. **Fifth partial-verification-box instance.** Rewritten to lead with both strategies; pointer added from `16_06-07`, which owns the dosing and was silent on screening. `MOA` (4×) checked and **dismissed** — it labels toxin mechanisms, genuinely distinct from `A/P`, and normalising it would have destroyed a real distinction |
+| G41 | ✅ **NRTI and NNRTI expanded and given mechanisms** — the HIV drug-class table's own "Mechanism" column gave side effects only for those two rows, in the file that owns HIV drug classes, where the stated Australian first-line is "2 NRTIs + 1 INSTI". The least-explained row was the backbone of first-line therapy. Cellulitis and necrotising fasciitis both confirmed as **clean pointer stubs** in `09_05`/`09_01` — the model one-owner pattern |
+| G42 | ✅ **DIC expanded at its point of use** in the non-blanching-rash differential (owned by `10_05`, which a reader working through a purpuric rash has no reason to be in). Phyllodes tumour box **correctly scoped** — names StatPearls/NCCN honestly and does not claim Australian verification; recorded as **B51** for provenance, not as a defect |
+| G43 | ✅ Scoring-tool arithmetic clean: **Eron** 4/4 · **Durack-Street** "four categories"/4 · **Rockwood** "I to VI"/6 · **ECOG** 0–4 + the 5 note · **Centor** 4 criteria/threshold 3–4 · **Gartland** I–III, no count claimed. NIP schedule cross-checked against its own prose (ATSI 50/50/60 vs general 70/65/75 — matches exactly); the Hib ⚠️ resolves to the B47 warning as intended |
+
+> [!tip] **Two near-misses worth more than the findings — both were my own truncated reads.**
+> I twice concluded content was absent from output that *contained it*, cut off by a `cut -c1-180`/`-280`: the FMT mortality-reduction evidence (inside the ASID box) and the necrotising-fasciitis finger test (inside the Ix line). Both would have been reported as gaps and "fixed" by duplicating content that was already there.
+>
+> This is **"zero grep hits is not proof of absence" in its inverted form**: the hit was returned and I truncated it away. The rule as written guards against a search that finds nothing. It does not guard against a search that finds the right line and a reader who cannot see the end of it. **Widen the cut before concluding absence from any grep whose output was truncated.**
+
+
 
 ---
 
