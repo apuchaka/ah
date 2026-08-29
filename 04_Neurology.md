@@ -15,7 +15,7 @@ source: quackquackmed 04 Neurology
 
 **S/Smx:** headache lasting 4–72h, unilateral location, pulsatile quality, moderate-severe pain, aggravated by (or causes avoidance of) usual activity, ± nausea/vomiting, photophobia, phonophobia, ± association with menses in women, ± aura (25% — visual symptoms e.g. scotoma).
 
-**Ix:** clinical diagnosis (*why:* migraine is diagnosed on history alone using established criteria — Ix is reserved for excluding a secondary cause when red flags are present, not for confirming migraine itself; *what:* diagnosis rests on the S/Smx pattern above meeting ICHD criteria). Exclude red flag symptoms (see "Other Headache Causes" section below for the full SNOOP4 red-flag list) — imaging (CT/MRI) only if red flags present, not for typical migraine.
+**Ix:** clinical diagnosis (*why:* migraine is diagnosed on history alone using established criteria — Ix is reserved for excluding a secondary cause when red flags are present, not for confirming migraine itself; *what:* diagnosis rests on the S/Smx pattern above meeting **ICHD (International Classification of Headache Disorders)** criteria — the formal diagnostic classification, applied to the symptom pattern rather than requiring any test). Exclude red flag symptoms (see "Other Headache Causes" section below for the full SNOOP4 red-flag list) — imaging (CT/MRI) only if red flags present, not for typical migraine.
 
 **Mx:**
 
