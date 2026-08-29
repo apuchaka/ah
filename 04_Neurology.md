@@ -502,7 +502,7 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 **R:** ↑age, crowding, exposure history, ↓immunity, brain defects (e.g. AV defects), cochlear implants, sickle cell disease
 
 > [!info] Causative organisms by age
-> 0–3mo: GBS, *E. coli*, *L. monocytogenes* | 3mo–6y: *N. meningitidis*, *S. pneumoniae*, *H. influenzae* | 6–60y: *N. meningitidis*, *S. pneumoniae* | >60y: *S. pneumoniae*, *N. meningitidis*, *L. monocytogenes* | Immunosuppressed: *L. monocytogenes*
+> 0–3mo: **Group B Streptococcus** (*S. agalactiae* — note this file also uses **GBS** for **Guillain-Barré syndrome**, so the organism is spelled out here), *E. coli*, *L. monocytogenes* | 3mo–6y: *N. meningitidis*, *S. pneumoniae*, *H. influenzae* | 6–60y: *N. meningitidis*, *S. pneumoniae* | >60y: *S. pneumoniae*, *N. meningitidis*, *L. monocytogenes* | Immunosuppressed: *L. monocytogenes*
 
 **P:** haematogenous or direct contiguous spread → rapid multiplication in the subarachnoid space → bacterial components in CSF trigger inflammation → influx of WCC → cerebral oedema, ↑ICP → damage, death.
 
