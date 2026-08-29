@@ -1,0 +1,170 @@
+Malignant hyperthermia
+Heart Failure with Preserved Ejection Fraction
+Peripheral artery aneurysm
+Vascular claudication
+Aneurysmal degeneration
+Blunt Myocardial Injury
+Brugada Syndrome
+Cardiovascular diseases
+Carotid-cavernous fistula
+Coronary artery disease (CAD)
+Fusiform aneurysm
+Left Ventricular Noncompaction Cardiomyopathy
+Loeffler's Endocarditis
+LV hypertrophy
+Myocarditis
+Patent foramen ovale (PFO)
+Reticular veins
+Right Bundle Branch Block
+Saccular aneurysm
+Second Degree AV Block
+Sinus Arrest
+Stable Angina
+Tetralogy of Fallot
+Valvular heart disease
+Valvular incompetence
+Aortic stenosis
+Aortic Tear
+Macrocystic lymphatic malformation
+Microcystic lymphatic malformation
+Vascular occlusion
+Venous stasis edema
+Abdominal Aortic Aneurysm (AAA)
+Aortic dissection
+Double aortic arch
+Hemangioma
+LV aneurysm
+Obstructive Shock
+Peripheral vascular disease (PVD)
+Superior vena cava syndrome
+Supraventricular Tachycardia
+Takayasu's arteritis
+Third Degree AV Block
+Deep vein thrombosis (DVT)
+Hemodynamic shock
+Hypertension (HTN)
+Lymphedema tarda
+Unstable Angina
+Varicose veins
+Venous Thromboembolism
+Fibromuscular dysplasia
+Long QT Syndrome
+Mitral Stenosis
+Patent ductus arteriosus
+Pseudoaneurysm
+Superficial thrombophlebitis
+Graft thrombosis
+Heart Failure with Reduced Ejection Fraction
+Ventricular Fibrillation
+CVD events
+First Degree AV Block
+Mesenteric Ischemia
+Orthostatic hypotension
+Pericardial Effusion
+Popliteal entrapment syndrome
+Post-thrombotic syndrome
+Pre-Excitation Syndromes
+Stent fracture
+Sudden Cardiac Death
+Myocardial Infarction (MI)
+Pulmonary Regurgitation
+Restrictive Cardiomyopathy
+Carotid stenosis
+Cystic medial necrosis
+Left Bundle Branch Block
+Penetrating Aortic Ulcer
+Papillary Fibroelastoma
+Splenic artery aneurysm
+Thoracic Aortic Aneurysm (TAA)
+Mycotic aneurysm
+Pericarditis
+Subclavian Steal Syndrome
+Tricuspid Stenosis
+Cardiac Arrest
+Arterial insufficiency
+Buerger's disease (Thromboangiitis Obliterans)
+Cardiogenic Shock
+Leriche Syndrome
+Sinus Bradycardia
+Acute Aortoiliac Occlusion
+Acute Coronary Syndromes
+Acute Decompensated Heart Failure
+Acute limb ischemia (ALI)
+Aortic Regurgitation
+Arrhythmias
+Arterial Disease
+Arterial thrombosis
+Arterial ulcer
+Arteriovenous fistulae
+Arteriovenous Malformations
+Atheroembolism
+Atherosclerosis
+Atrial Fibrillation
+Atrial Flutter
+Atrial septal defect
+Bicuspid aortic valves
+Bradyarrhythmias
+Cardiac embolism
+Cardiac Infections
+Cardiac Tamponade
+Cardiovascular toxicity
+Carotid artery dissection
+Cavernous Malformations
+Chronic limb threatening ischemia (CLTI)
+Chronic thromboembolic pulmonary hypertension
+Coarctation of aorta
+Congenital heart block
+Congenital heart disease
+Constrictive Pericarditis
+Coronary Vasospasm
+Dilated Cardiomyopathy
+Distributive Shock
+Dressler's syndrome
+Eisenmenger syndrome
+Heart disease
+High-Output Heart Failure
+Hypertensive Emergency
+Hypertensive Urgency
+Hypertrophic Cardiomyopathy
+Hypovolemic Shock
+Idiopathic pulmonary arterial hypertension
+Infarction
+Infective endocarditis (IE)
+Innominate artery compression
+Left pulmonary artery sling
+Lymphedema praecox
+Malignant hypertension
+Mitral Regurgitation
+Mitral Valve Prolapse
+Multifocal Atrial Tachycardia
+Myxoma
+NSTEMI
+Paradoxical embolism
+Pericardial Disease
+Peripartum Cardiomyopathy
+Peripheral arterial disease (PAD)
+Phlegmasia alba dolens
+Phlegmasia cerula dolens
+Pulmonary stenosis
+Raynaud's
+Rheumatic valve disease
+Sinoatrial Block
+Sinus Tachycardia
+STEMI
+Syndrome X
+Thromboembolism
+Torsades de Pointes
+Transfusion-associated circulatory overload
+Tricuspid Regurgitation
+Vascular ring
+Vasovagal syncope
+Venous claudication
+Venous Disease
+Venous hypertension
+Venous insufficiency
+Venous ulcer
+Ventricular septal defect
+Ventricular Tachycardia
+Wolff-Parkinson-White Syndrome
+Takotsubo Cardiomyopathy (Stress Cardiomyopathy)
+Cor Pulmonale

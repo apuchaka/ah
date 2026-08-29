@@ -1,0 +1,171 @@
+system,condition,verdict,occurrences,first_location,scope_judgement
+Cardiovascular,Malignant hyperthermia,MENTIONED,4,,
+Cardiovascular,Heart Failure with Preserved Ejection Fraction,MENTIONED,4,,
+Cardiovascular,Peripheral artery aneurysm,MENTIONED,3,,
+Cardiovascular,Vascular claudication,ABSENT,0,weak-signal:claudication=15,COVERED-SYNONYM: claudication under PAD
+Cardiovascular,Aneurysmal degeneration,MENTIONED,1,,
+Cardiovascular,Blunt Myocardial Injury,MENTIONED,36,,
+Cardiovascular,Brugada Syndrome,OWNS ENTRY,3,01_Cardiovascular.md#0.18 Brugada Syndrome,covered - owns an entry
+Cardiovascular,Cardiovascular diseases,MENTIONED,1,,
+Cardiovascular,Carotid-cavernous fistula,ABSENT,0,weak-signal:cavernous=5,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Coronary artery disease (CAD),MENTIONED,15,,
+Cardiovascular,Fusiform aneurysm,ABSENT,0,weak-signal:Fusiform=2,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Left Ventricular Noncompaction Cardiomyopathy,ABSENT,0,weak-signal:Cardiomyopathy=30,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Loeffler's Endocarditis,ABSENT,0,weak-signal:Endocarditis=35,OUT OF SCOPE at intern/RMO level
+Cardiovascular,LV hypertrophy,MENTIONED,3,,
+Cardiovascular,Myocarditis,MENTIONED,17,,
+Cardiovascular,Patent foramen ovale (PFO),MENTIONED,1,,
+Cardiovascular,Reticular veins,MENTIONED,1,,
+Cardiovascular,Right Bundle Branch Block,MENTIONED,10,,
+Cardiovascular,Saccular aneurysm,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Second Degree AV Block,ABSENT,0,,"COVERED-SYNONYM: 01_Cardiovascular '2nd degree Type 1 (Mobitz I, Wenckebach)' / 'Mobitz II' (l.492-3)"
+Cardiovascular,Sinus Arrest,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Stable Angina,MENTIONED,4,,
+Cardiovascular,Tetralogy of Fallot,OWNS ENTRY,8,15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs.md#Tetralogy of Fallot (ToF),covered - owns an entry
+Cardiovascular,Valvular heart disease,OWNS ENTRY,4,01_Cardiovascular.md#0.21 Valvular Heart Disease,covered - owns an entry
+Cardiovascular,Valvular incompetence,MENTIONED,1,,
+Cardiovascular,Aortic stenosis,MENTIONED,19,,
+Cardiovascular,Aortic Tear,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Macrocystic lymphatic malformation,MENTIONED,1,,
+Cardiovascular,Microcystic lymphatic malformation,ABSENT,0,weak-signal:malformation=38,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Vascular occlusion,ABSENT,0,weak-signal:occlusion=36,UMBRELLA LABEL
+Cardiovascular,Venous stasis edema,ABSENT,0,,UMBRELLA LABEL: covered under venous insufficiency
+Cardiovascular,Abdominal Aortic Aneurysm (AAA),MENTIONED,18,,
+Cardiovascular,Aortic dissection,OWNS ENTRY,14,01_Cardiovascular.md#0.35.5 Aortic Dissection,covered - owns an entry
+Cardiovascular,Double aortic arch,MENTIONED,2,,
+Cardiovascular,Hemangioma,OWNS ENTRY,5,15_23b_Paeds_-_Minor_Neonatal_Problems.md#Infantile haemangioma (strawberry naevus),covered - owns an entry
+Cardiovascular,LV aneurysm,MENTIONED,1,,
+Cardiovascular,Obstructive Shock,OWNS ENTRY,0,01_Cardiovascular.md#0.20.4 Obstructive shock,covered - owns an entry
+Cardiovascular,Peripheral vascular disease (PVD),MENTIONED,19,,
+Cardiovascular,Superior vena cava syndrome,MENTIONED,22,,
+Cardiovascular,Supraventricular Tachycardia,OWNS ENTRY,0,01_Cardiovascular.md#0.9.1 Supraventricular tachycardia (SVT),covered - owns an entry
+Cardiovascular,Takayasu's arteritis,OWNS ENTRY,1,12_04_Rheum_-_Vasculitis.md#Takayasu's arteritis,covered - owns an entry
+Cardiovascular,Third Degree AV Block,MENTIONED,1,,
+Cardiovascular,Deep vein thrombosis (DVT),OWNS ENTRY,92,01_Cardiovascular.md#0.28 Deep Vein Thrombosis (DVT),covered - owns an entry
+Cardiovascular,Hemodynamic shock,ABSENT,0,weak-signal:Hemodynamic=33,UMBRELLA LABEL: shock types each covered
+Cardiovascular,Hypertension (HTN),OWNS ENTRY,211,01_Cardiovascular.md#0.2 Hypertension,covered - owns an entry
+Cardiovascular,Lymphedema tarda,ABSENT,0,weak-signal:Lymphedema=5,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Unstable Angina,OWNS ENTRY,4,01_Cardiovascular.md#0.1.5 Mx – Chronic/long-term: unstable angina & secondary prevention (lifelong),covered - owns an entry
+Cardiovascular,Varicose veins,OWNS ENTRY,9,01_Cardiovascular.md#0.35.6 Varicose Veins,covered - owns an entry
+Cardiovascular,Venous Thromboembolism,OWNS ENTRY,0,10_06b_Haemonc_-_Thrombophilia__APS__Thrombocytosis__Methaemoglobinaemia.md#Postpartum venous thromboembolism (VTE),covered - owns an entry
+Cardiovascular,Fibromuscular dysplasia,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Long QT Syndrome,OWNS ENTRY,2,01_Cardiovascular.md#0.16 Long QT Syndrome,covered - owns an entry
+Cardiovascular,Mitral Stenosis,MENTIONED,12,,
+Cardiovascular,Patent ductus arteriosus,OWNS ENTRY,13,15_05_Paeds_-_Acyanotic_Congenital_Heart_Disease.md#Patent ductus arteriosus (PDA),covered - owns an entry
+Cardiovascular,Pseudoaneurysm,ABSENT,0,,GAP - intern relevant: post-catheterisation femoral pseudoaneurysm; zero hits
+Cardiovascular,Superficial thrombophlebitis,MENTIONED,2,,
+Cardiovascular,Graft thrombosis,ABSENT,0,weak-signal:thrombosis=43,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Heart Failure with Reduced Ejection Fraction,MENTIONED,9,,
+Cardiovascular,Ventricular Fibrillation,OWNS ENTRY,2,01_Cardiovascular.md#0.6 Ventricular Fibrillation,covered - owns an entry
+Cardiovascular,CVD events,ABSENT,0,,UMBRELLA LABEL
+Cardiovascular,First Degree AV Block,ABSENT,0,,COVERED-SYNONYM: 01_Cardiovascular 'first degree heart block' (l.537)
+Cardiovascular,Mesenteric Ischemia,MENTIONED,4,,
+Cardiovascular,Orthostatic hypotension,MENTIONED,13,,
+Cardiovascular,Pericardial Effusion,MENTIONED,6,,
+Cardiovascular,Popliteal entrapment syndrome,MENTIONED,4,,
+Cardiovascular,Post-thrombotic syndrome,MENTIONED,1,,
+Cardiovascular,Pre-Excitation Syndromes,MENTIONED,4,,
+Cardiovascular,Stent fracture,ABSENT,0,weak-signal:fracture=300,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Sudden Cardiac Death,MENTIONED,14,,
+Cardiovascular,Myocardial Infarction (MI),MENTIONED,3,,
+Cardiovascular,Pulmonary Regurgitation,MENTIONED,1,,
+Cardiovascular,Restrictive Cardiomyopathy,OWNS ENTRY,6,01_Cardiovascular.md#0.41 Restrictive Cardiomyopathy,covered - owns an entry
+Cardiovascular,Carotid stenosis,MENTIONED,2,,
+Cardiovascular,Cystic medial necrosis,ABSENT,0,weak-signal:necrosis=51,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Left Bundle Branch Block,MENTIONED,8,,
+Cardiovascular,Penetrating Aortic Ulcer,ABSENT,0,weak-signal:Penetrating=4,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Papillary Fibroelastoma,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Splenic artery aneurysm,ABSENT,0,weak-signal:aneurysm=54,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Thoracic Aortic Aneurysm (TAA),ABSENT,0,weak-signal:Thoracic=25,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Mycotic aneurysm,MENTIONED,1,,
+Cardiovascular,Pericarditis,OWNS ENTRY,25,01_Cardiovascular.md#0.31 Pericarditis,covered - owns an entry
+Cardiovascular,Subclavian Steal Syndrome,OWNS ENTRY,5,09_01_Dermatology_-_Dermatological_Emergencies.md#Staph scalded skin syndrome (SSSS),covered - owns an entry
+Cardiovascular,Tricuspid Stenosis,ABSENT,0,weak-signal:Tricuspid=12,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Cardiac Arrest,MENTIONED,16,,
+Cardiovascular,Arterial insufficiency,MENTIONED,5,,
+Cardiovascular,Buerger's disease (Thromboangiitis Obliterans),ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Cardiogenic Shock,OWNS ENTRY,6,01_Cardiovascular.md#0.20.1 Cardiogenic shock,covered - owns an entry
+Cardiovascular,Leriche Syndrome,OWNS ENTRY,0,01_Cardiovascular.md#0.35.3 Leriche Syndrome,covered - owns an entry
+Cardiovascular,Sinus Bradycardia,MENTIONED,1,,
+Cardiovascular,Acute Aortoiliac Occlusion,MENTIONED,1,,
+Cardiovascular,Acute Coronary Syndromes,OWNS ENTRY,44,01_Cardiovascular.md#0.1 Acute Coronary Syndrome (ACS),covered - owns an entry
+Cardiovascular,Acute Decompensated Heart Failure,ABSENT,0,weak-signal:Decompensated=14,COVERED-SYNONYM: acute heart failure content
+Cardiovascular,Acute limb ischemia (ALI),MENTIONED,5,,
+Cardiovascular,Aortic Regurgitation,MENTIONED,12,,
+Cardiovascular,Arrhythmias,MENTIONED,68,,
+Cardiovascular,Arterial Disease,OWNS ENTRY,17,01_Cardiovascular.md#0.35.1 Peripheral Arterial Disease (PAD),covered - owns an entry
+Cardiovascular,Arterial thrombosis,MENTIONED,3,,
+Cardiovascular,Arterial ulcer,MENTIONED,1,,
+Cardiovascular,Arteriovenous fistulae,ABSENT,0,weak-signal:Arteriovenous=4,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Arteriovenous Malformations,MENTIONED,1,,
+Cardiovascular,Atheroembolism,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Atherosclerosis,MENTIONED,9,,
+Cardiovascular,Atrial Fibrillation,OWNS ENTRY,5,01_Cardiovascular.md#0.4 Atrial Fibrillation,covered - owns an entry
+Cardiovascular,Atrial Flutter,OWNS ENTRY,3,01_Cardiovascular.md#0.19 Atrial Flutter,covered - owns an entry
+Cardiovascular,Atrial septal defect,OWNS ENTRY,22,15_05_Paeds_-_Acyanotic_Congenital_Heart_Disease.md#Atrial septal defect (ASD),covered - owns an entry
+Cardiovascular,Bicuspid aortic valves,MENTIONED,5,,
+Cardiovascular,Bradyarrhythmias,MENTIONED,4,,
+Cardiovascular,Cardiac embolism,ABSENT,0,weak-signal:embolism=13,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Cardiac Infections,ABSENT,0,weak-signal:Infections=134,"UMBRELLA LABEL: endocarditis, myocarditis and pericarditis each own an entry"
+Cardiovascular,Cardiac Tamponade,OWNS ENTRY,12,01_Cardiovascular.md#0.33 Cardiac Tamponade,covered - owns an entry
+Cardiovascular,Cardiovascular toxicity,ABSENT,0,weak-signal:Cardiovascular=176,UMBRELLA LABEL
+Cardiovascular,Carotid artery dissection,MENTIONED,8,,
+Cardiovascular,Cavernous Malformations,ABSENT,0,weak-signal:Malformations=19,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Chronic limb threatening ischemia (CLTI),ABSENT,0,weak-signal:threatening=65,COVERED-SYNONYM: 'critical limb ischaemia'
+Cardiovascular,Chronic thromboembolic pulmonary hypertension,MENTIONED,2,,
+Cardiovascular,Coarctation of aorta,OWNS ENTRY,9,01_Cardiovascular.md#0.37 Congenital Heart Disease (incl. Coarctation of the Aorta),covered - owns an entry
+Cardiovascular,Congenital heart block,MENTIONED,7,,
+Cardiovascular,Congenital heart disease,OWNS ENTRY,19,01_Cardiovascular.md#0.37 Congenital Heart Disease (incl. Coarctation of the Aorta),covered - owns an entry
+Cardiovascular,Constrictive Pericarditis,OWNS ENTRY,6,01_Cardiovascular.md#0.32 Constrictive Pericarditis,covered - owns an entry
+Cardiovascular,Coronary Vasospasm,ABSENT,0,weak-signal:Vasospasm=5,"GAP - intern relevant: Prinzmetal, an ACS mimic; vasospasm appears only in neuro/obstetric contexts"
+Cardiovascular,Dilated Cardiomyopathy,OWNS ENTRY,5,01_Cardiovascular.md#0.25 Dilated Cardiomyopathy,covered - owns an entry
+Cardiovascular,Distributive Shock,OWNS ENTRY,0,01_Cardiovascular.md#0.20.3 Distributive shock,covered - owns an entry
+Cardiovascular,Dressler's syndrome,MENTIONED,3,,
+Cardiovascular,Eisenmenger syndrome,OWNS ENTRY,2,15_05_Paeds_-_Acyanotic_Congenital_Heart_Disease.md#Eisenmenger's syndrome,covered - owns an entry
+Cardiovascular,Heart disease,OWNS ENTRY,63,01_Cardiovascular.md#0.3 Ischaemic Heart Disease,covered - owns an entry
+Cardiovascular,High-Output Heart Failure,OWNS ENTRY,0,01_Cardiovascular.md#0.27.2 High output heart failure,covered - owns an entry
+Cardiovascular,Hypertensive Emergency,MENTIONED,4,,
+Cardiovascular,Hypertensive Urgency,MENTIONED,1,,
+Cardiovascular,Hypertrophic Cardiomyopathy,MENTIONED,1,,
+Cardiovascular,Hypovolemic Shock,OWNS ENTRY,8,01_Cardiovascular.md#0.20.2 Hypovolaemic shock,covered - owns an entry
+Cardiovascular,Idiopathic pulmonary arterial hypertension,ABSENT,0,weak-signal:hypertension=129,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Infarction,MENTIONED,25,,
+Cardiovascular,Infective endocarditis (IE),OWNS ENTRY,13,01_Cardiovascular.md#0.30 Infective Endocarditis,covered - owns an entry
+Cardiovascular,Innominate artery compression,ABSENT,0,weak-signal:compression=118,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Left pulmonary artery sling,ABSENT,0,weak-signal:pulmonary=135,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Lymphedema praecox,ABSENT,0,weak-signal:Lymphedema=5,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Malignant hypertension,MENTIONED,5,,
+Cardiovascular,Mitral Regurgitation,MENTIONED,7,,
+Cardiovascular,Mitral Valve Prolapse,MENTIONED,3,,
+Cardiovascular,Multifocal Atrial Tachycardia,ABSENT,0,weak-signal:Tachycardia=44,GAP - intern relevant: ECG differential in COPD; zero hits
+Cardiovascular,Myxoma,MENTIONED,1,,
+Cardiovascular,NSTEMI,OWNS ENTRY,4,01_Cardiovascular.md#0.1.4 Mx – Definitive (NSTEMI),covered - owns an entry
+Cardiovascular,Paradoxical embolism,ABSENT,0,weak-signal:Paradoxical=19,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Pericardial Disease,MENTIONED,1,,
+Cardiovascular,Peripartum Cardiomyopathy,ABSENT,0,weak-signal:Cardiomyopathy=30,GAP - intern relevant: postpartum breathlessness differential; zero hits
+Cardiovascular,Peripheral arterial disease (PAD),OWNS ENTRY,66,01_Cardiovascular.md#0.35.1 Peripheral Arterial Disease (PAD),covered - owns an entry
+Cardiovascular,Phlegmasia alba dolens,OWNS ENTRY,27,01_Cardiovascular.md#0.35.1 Peripheral Arterial Disease (PAD),covered - owns an entry
+Cardiovascular,Phlegmasia cerula dolens,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Pulmonary stenosis,MENTIONED,3,,
+Cardiovascular,Raynaud's,MENTIONED,7,,
+Cardiovascular,Rheumatic valve disease,ABSENT,0,weak-signal:Rheumatic=41,"COVERED-SYNONYM: 'rheumatic heart disease', 01_Cardiovascular"
+Cardiovascular,Sinoatrial Block,ABSENT,0,,OUT OF SCOPE at intern/RMO level
+Cardiovascular,Sinus Tachycardia,MENTIONED,6,,
+Cardiovascular,STEMI,OWNS ENTRY,19,01_Cardiovascular.md#0.1.3 Mx – Definitive (STEMI),covered - owns an entry
+Cardiovascular,Syndrome X,MENTIONED,2,,
+Cardiovascular,Thromboembolism,OWNS ENTRY,6,10_06b_Haemonc_-_Thrombophilia__APS__Thrombocytosis__Methaemoglobinaemia.md#Postpartum Infection and Thromboembolism,covered - owns an entry
+Cardiovascular,Torsades de Pointes,MENTIONED,6,,
+Cardiovascular,Transfusion-associated circulatory overload,MENTIONED,3,,
+Cardiovascular,Tricuspid Regurgitation,MENTIONED,3,,
+Cardiovascular,Vascular ring,MENTIONED,1,,
+Cardiovascular,Vasovagal syncope,MENTIONED,2,,
+Cardiovascular,Venous claudication,ABSENT,0,weak-signal:claudication=15,COVERED-SYNONYM: claudication under PAD
+Cardiovascular,Venous Disease,ABSENT,0,,UMBRELLA LABEL: venous insufficiency and venous ulcer covered
+Cardiovascular,Venous hypertension,ABSENT,0,weak-signal:hypertension=129,UMBRELLA LABEL: mechanism of covered venous insufficiency
+Cardiovascular,Venous insufficiency,OWNS ENTRY,5,01_Cardiovascular.md#0.35.7 Chronic Venous Insufficiency — skin changes,covered - owns an entry
+Cardiovascular,Venous ulcer,MENTIONED,5,,
+Cardiovascular,Ventricular septal defect,OWNS ENTRY,15,15_05_Paeds_-_Acyanotic_Congenital_Heart_Disease.md#Ventricular septal defect (VSD),covered - owns an entry
+Cardiovascular,Ventricular Tachycardia,OWNS ENTRY,0,01_Cardiovascular.md#0.7 Ventricular Tachycardia,covered - owns an entry
+Cardiovascular,Wolff-Parkinson-White Syndrome,OWNS ENTRY,12,01_Cardiovascular.md#0.13 Wolff-Parkinson-White (WPW) Syndrome,covered - owns an entry
+Cardiovascular,Takotsubo Cardiomyopathy (Stress Cardiomyopathy),OWNS ENTRY,3,01_Cardiovascular.md#0.26 Takotsubo Cardiomyopathy,covered - owns an entry
+Cardiovascular,Cor Pulmonale,OWNS ENTRY,10,01_Cardiovascular.md#0.27.3 Cor pulmonale,covered - owns an entry
