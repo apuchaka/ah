@@ -967,7 +967,7 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **R:** ↑age, family history, genetic syndromes (e.g. Lynch syndrome), inflammatory bowel disease (especially pancolitis and left-sided colitis), obesity
 
-> [!danger] Red flags — 2-week-wait referral
+> [!danger] Red flags — urgent specialist referral
 > Altered bowel habits, rectal bleeding of any kind, abdominal pain and discomfort, unexplained weight loss, anaemia (any new iron-deficiency anaemia in an elderly patient is a red flag), bowel obstruction
 
 > [!info] Verified against the National Bowel Cancer Screening Program (Australian Government Department of Health), Aug 2026 — Australia's program differs materially from the UK figures this entry previously carried; the Australian figures are stated here on their own terms.
@@ -980,7 +980,11 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **Mx:**
 - **Immediate/acute** (presenting with obstruction/perforation): manage as per LBO/perforation pathways above — resuscitation, urgent surgery.
-- **Definitive:** patients meeting any red flag → 2-week-wait referral. Resection is the mainstay:
+> [!info] **Why this no longer says "2-week-wait" (Step 17, 2026-08-29).** **"2-week-wait" is a UK NHS pathway name**, not an Australian one, and it appeared five times across three files in this corpus. Australia's equivalent is the **Optimal Care Pathway** for each tumour stream (Cancer Australia), with referral urgency set by the pathway and by state-based criteria rather than by a single national two-week rule — see [[10_12_Oncology_-_Breast]], where this contrast is already verified and spelled out for breast cancer.
+>
+> **The clinical behaviour is unchanged** — a red flag still means urgent referral, and the red-flag lists themselves are not UK-specific. What was wrong was naming a UK administrative pathway as though it were the local one, which sends a reader looking for a referral route that does not exist here. **Do not substitute a specific Australian timeframe** without checking the relevant Optimal Care Pathway (see `PENDING_GUIDELINE_CHECKS.md` B39).
+
+- **Definitive:** patients meeting any red flag → **urgent specialist referral** (see the box below on the Australian framing). Resection is the mainstay:
   - Caecal, ascending, or proximal transverse colon tumour → right hemicolectomy
   - Distal transverse, descending colon tumour → left hemicolectomy
   - Sigmoid colon → high anterior resection (preserves part of the rectum)
@@ -1048,7 +1052,7 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **S/Smx:** heartburn (especially after meals), dyspepsia, regurgitation, cough (especially at night when lying down), halitosis, globus sensation, enamel erosion, bloating
 
-> [!danger] Red flags requiring urgent 2-week-wait referral: dysphagia, haematemesis, melaena, persistent vomiting, weight loss, anaemia
+> [!danger] Red flags requiring **urgent specialist referral**: dysphagia, haematemesis, melaena, persistent vomiting, weight loss, anaemia
 
 **Ix:** GORD is a clinical diagnosis; PPI trial first (*why:* a therapeutic trial is both pragmatic first-line management and diagnostically supportive — symptom improvement supports the diagnosis; *what:* symptom response supports GORD). ± pH monitoring (*why:* used when the diagnosis is uncertain or symptoms persist despite treatment, to objectively quantify acid exposure; *what:* quantifies reflux episodes/acid exposure time), oesophageal manometry (*why:* assesses motility, particularly before considering anti-reflux surgery or when a motility disorder is suspected as an alternative/contributing diagnosis; *what:* assesses LOS pressure and peristalsis), barium swallow (*why:* screens for structural abnormalities (hiatus hernia, stricture) though largely superseded by endoscopy for most indications; *what:* may show reflux, hiatus hernia, or stricture), OGD (*why:* see indications below — used selectively, not for every GORD presentation; *what:* may show oesophagitis, Barrett's oesophagus, or be normal despite symptoms).
 

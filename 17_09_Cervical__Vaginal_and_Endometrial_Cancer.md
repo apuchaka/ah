@@ -31,7 +31,7 @@ source: quackquackmed 17.09 Cervical Cancer, Vaginal Cancer, Endometrial Cancer
   - CIN II or III: refer for large loop excision of the transformation zone (LLETZ)
 - Moderate dyskaryosis with CIN being treated: repeat smear in 6 months as test of cure
 
-> [!danger] If cervical cancer is detected on smear: refer for colposcopy via 2-week-wait pathway.
+> [!danger] If cervical cancer is detected on smear: **refer urgently for colposcopy** — via the National Cervical Screening Program pathway, which specifies the referral timeframe.
 
 - Inadequate sample: repeat in 3 months; if 2 consecutive inadequate samples, refer for colposcopy
 
@@ -95,7 +95,7 @@ source: quackquackmed 17.09 Cervical Cancer, Vaginal Cancer, Endometrial Cancer
 - Vaginal discharge — not common
 
 > [!danger] Red flag
-> ≥55yo with postmenopausal bleeding → 2-week-wait referral to gynaecology.
+> ≥55yo with postmenopausal bleeding → **urgent referral to gynaecology**.
 
 **Ix**: transvaginal US (normal endometrial thickness <4mm has a -ve predictive value); hysteroscopy with endometrial biopsy.
 
