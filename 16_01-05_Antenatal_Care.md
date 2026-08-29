@@ -239,8 +239,14 @@ source: quackquackmed 16.01-05 Antenatal Care
 
 **Anti-D in pregnancy (Rh-negative mothers)**
 - Blood sample before 28w to check for antibodies
-- Give 500 units at 28w and 34w
-- Use 250 units before 20w gestation, 500 units after 20w, when significant transplacental haemorrhage may have occurred
+- **Give 625 IU at 28w and 34w** for routine antenatal prophylaxis
+- For a sensitising event: **250 IU before 13 weeks; 625 IU from 13 weeks onward** — from 20w, quantify the fetomaternal haemorrhage with a Kleihauer test, as a large bleed needs additional dosing
+
+> [!danger] **Corrected 2026-08-29 — this block contradicted the verified Dosing block ~18 lines above it, inside the same entry.** It read **"give 500 units at 28w and 34w"** and **"250 units before 20w, 500 units after 20w"** — the second of which is the *exact* figure the verification box at the top of this entry says "understates the correct Australian second/third-trimester dose". **The box announced the correction; the correction reached only the Dosing block and not this one.**
+>
+> The gestational boundary also differed: this block used **20 weeks**, the NBA-verified figures use **13 weeks**. A reader working from here gave 500 units where the Australian dose is 625 IU, and used the wrong threshold to choose between doses.
+>
+> **Seventh instance of the partial-verification-box pattern, and a new variant: the un-propagated correction happening *inside the entry the correction was made in*.** Every previous instance was a box silent about content beneath it; this is a box that spoke, and was not listened to eighteen lines later. See `PENDING_GUIDELINE_CHECKS.md` **B61**, which also flags the postnatal dose.
 
 ---
 
