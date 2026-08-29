@@ -287,6 +287,21 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
 
+> [!danger] **The single most repeated error in this session is my own search shape, not the corpus.**
+> Four near-misses, all 2026-08-29, all the same structure: **a search returned nothing, or nothing useful, and I read that as evidence about the corpus rather than about the query.**
+>
+> | What I nearly reported | Why the search failed |
+> |---|---|
+> | FMT mortality evidence absent | the hit was returned and **truncated** by my own `cut -c1-180` |
+> | necrotising fasciitis finger test absent | same — inside a line my `-c1-280` cut off |
+> | HELLP never expanded | the text is `**H**aemolysis`; **markdown split the word** |
+> | no anti-D dose anywhere in the corpus | doses sat on separate bullet lines that **do not contain the string** `anti-D`; my pattern required the number within 90 chars of it |
+> | 12_01 had no `###` headers | `awk '/^#{2,4} /'` — **interval expressions are off by default**, so a broken pattern matched nothing |
+>
+> Every one would have been "fixed" by adding content that was already there. **The corpus has not once been wrong in this way; the query has, five times.**
+>
+> **The rule:** when a search returns zero or an unexpectedly thin result, the first hypothesis is that the *search* is wrong — wrong pattern, wrong tool, truncated output, markup in the middle of the word, or the fact living on a line that does not contain the search term. Vary the query before believing it.
+
 > [!danger] **Search artifact — markdown emphasis splits words and defeats plain-text greps.**
 > Found 2026-08-29 (G34). `grep -i "haemolysis, elevated"` returned **zero hits** for HELLP across the corpus, and the expansion was sitting there in plain sight:
 >
