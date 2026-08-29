@@ -66,6 +66,8 @@ source: quackquackmed 15.06 Cardiovascular disorders - Tetralogy of Fallot, TGA,
 
 ## Kawasaki disease
 
+*Historically called mucocutaneous lymph node syndrome; that term is not used in current Australian practice and is recorded here only so the entry is findable under it.*
+
 - **D:** systemic vasculitis that occurs almost exclusively in childhood.
 - **R:** Asian ancestry (especially Japanese), age 3 months to 4 years.
 - **A:** possible infection in a susceptible host. **P:** arterial vasculitis and remodelling.
