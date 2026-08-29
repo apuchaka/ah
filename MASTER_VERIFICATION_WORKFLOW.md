@@ -58,10 +58,11 @@ Each of these is a "next" on its own: pull the full row list, spot-check the mos
 
 > [!info] **State of play as at 2026-08-28 (end of session).**
 > **Phase 1 (P1–P6): complete.** All six categories fully pulled and audited.
-> **Phase 2: complete — all 7 items (N1–N7).** N2, N5 and N7 closed this round; N6 closed the round before.
-> **Phases 3 and 4: not started** — all 10 mega files, 10 large files and 39 medium/small groups remain ⬜.
+> **Phase 2: complete — all 7 items (N1–N7).**
+> **Phase 3 (M1–M10): complete 2026-08-29** — all ten largest files. What it found is not what a 'verification pass' on already-worked files was expected to find: **four content errors with clinical consequence** (paediatric adrenaline timing, the UK 3HR latent-TB regimen, anti-VEGF given as an infusion, and cognitive cutoffs applied without their validity caveat), plus **five terms defined nowhere in the corpus despite heavy use** (IVIG, MELD, TIPSS, DDAVP, MPAA).
+> **Phase 4: not started** — 10 large files and 39 medium/small groups remain ⬜.
 >
-> **→ NEXT ITEM: Phase 3.** No Phase 2 work remains. Two Low-yield rows from N4 were deliberately left unbuilt (recorded in the N4 result below as a judgment, not an omission).
+> **→ NEXT ITEM: Phase 4.** No Phase 2 work remains. Two Low-yield rows from N4 were deliberately left unbuilt (recorded in the N4 result below as a judgment, not an omission).
 >
 > **What "Phase 2 complete" means, stated carefully given this document's record.** Every CSV row in the seven Phase 2 categories has been read against the corpus with the teach-vs-mention lens, and every genuine gap has been built or explicitly declined with a reason. It does **not** mean the seven categories are verified complete — Steps 18–20 have still never been run against most of this content, and each new technique this project has invented has found something the previous ones could not.
 >
@@ -213,8 +214,8 @@ All 29 rows resolved: **19 built**, **7 confirmed already covered** in the origi
 | M6 | Examination.md | ✅ 2026-08-29 — verification-box scope audit: only one `Verified` box exists and it is the **correct pattern**, stating its own scope limit. HINTS confirmed built to the standard the scoring-tool entries elsewhere needed fixing to reach. One consistency fix (a DNACPR citation my own M-round fix had failed to propagate). |
 | M7 | History-Taking.md | ✅ 2026-08-29 — **carries zero verification boxes**, which is accurate rather than a gap: its content is technique, not guideline-dependent fact. Acronym check clean. CHECK A/B hits all expected for a history file (a history gathers, it does not diagnose or manage). |
 | M8 | 02_Respiratory.md | ✅ 2026-08-29 — **second partial-verification-box instance**: the latent TB regimen was the UK 3HR, sitting under a box that verifies only active-TB RIPE. Corrected to 6–9H / 4R (B38). Asthma and ethambutol boxes audited and dismissed with reasons. |
-| M9 | 05_Ophthalmology.md | ⬜ |
-| M10 | Investigation-Interpretation.md | 🔶 (received real work via M1's CT Head find) |
+| M9 | 05_Ophthalmology.md | ✅ 2026-08-29 — **anti-VEGF route corrected** (intravitreal injection, not infusion) with the VEGF mechanism added; **stye/chalazion built** — the only MISSING candidate the CSV produced, and genuine. Both verification boxes audited and honestly scoped. |
+| M10 | Investigation-Interpretation.md | ✅ 2026-08-29 — the predicted shape found: the status box verifies **approach** and is silent on **numbers**, in a file of reference ranges and cutoffs. Box rewritten to state its own limits. **Cognitive-cutoff validity caveat built** (education/literacy/language; MMSE and MoCA not validated for many Aboriginal and Torres Strait Islander patients — KICA). Troponin confirmed exemplary. |
 
 ### Phase 4 — large files (L1–L10), then medium/small (G1–G39)
 All ⬜ — see the full grouping table further down this document for exact file lists and copy-paste prompts. Work L1→L10, then G1→G39.
