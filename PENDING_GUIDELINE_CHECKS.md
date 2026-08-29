@@ -285,15 +285,29 @@ concussive, and the four parasomnia rows are one item each.
 > name. These 23 have none, so acronym matching was disabled for them and they
 > fell to ABSENT **by construction, not by evidence**:
 >
-> Afferent loop syndrome · Amniotic band syndrome · Amyand's hernia ·
-> **Anterior Cord Syndrome** · Boston-type syndrome · Cervical spine trauma ·
-> Double aortic arch · Fetal alcohol spectrum disorder · Gastric Antral
-> Vascular Ectasia · **Heart Failure with Reduced Ejection Fraction** ·
-> Herpes Zoster Virus · Herpes zoster oticus · Hungry bone syndrome ·
-> **Left Bundle Branch Block** · Maple syrup urine disease · Middle ear
-> neoplasm · Neoplasm of external canal · **Orbital Floor Fracture** ·
-> Ovarian remnant syndrome · Pyriform aperture stenosis · **Right Bundle
-> Branch Block** · Social Anxiety Disorder · Ulnar nerve injury
+> 1. Afferent loop syndrome
+> 2. Amniotic band syndrome
+> 3. Amyand's hernia
+> 4. **Anterior Cord Syndrome**
+> 5. Boston-type syndrome
+> 6. Cervical spine trauma
+> 7. Double aortic arch
+> 8. Fetal alcohol spectrum disorder
+> 9. Gastric Antral Vascular Ectasia
+> 10. **Heart Failure with Reduced Ejection Fraction**
+> 11. Herpes Zoster Virus
+> 12. Herpes zoster oticus
+> 13. Hungry bone syndrome
+> 14. **Left Bundle Branch Block**
+> 15. Maple syrup urine disease
+> 16. Middle ear neoplasm
+> 17. Neoplasm of external canal
+> 18. **Orbital Floor Fracture (Blow-out fracture)**
+> 19. Ovarian remnant syndrome
+> 20. Pyriform aperture stenosis
+> 21. **Right Bundle Branch Block**
+> 22. Social Anxiety Disorder
+> 23. Ulnar nerve injury
 >
 > The bolded ones have since been hand-checked by other means and are known:
 > the bundle branch blocks and HFrEF are covered; anterior cord syndrome and
