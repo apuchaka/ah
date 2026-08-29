@@ -20,11 +20,13 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 
 4. **Scans also produce false negatives.** A template-completeness scan keyed on the presence of an S/Smx line cannot detect entries that lack one entirely. Build scans defensively and assume blind spots exist. If you find one, fix the scan and re-run affected items before continuing.
 
-5. **One fix at a time, one commit each.** After each fix: confirm no duplicate headers introduced, confirm all cross-references resolve. Commit with a descriptive message before moving on. Never batch unverified edits.
+5. **In any paediatric entry, treat every absolute quantity as suspect.** Confirmed four times (2026-08-29): DKA maintenance fluid, DKA dextrose rate, paediatric nephrotic proteinuria, and the adrenaline band that stopped at 7.5kg. For any `g`, `mg`, `mL`, `mL/h` or `g/24h` figure in a paediatric file, **ask what it does at 10kg and at 50kg.** The correct paediatric forms are per-kg, per-m², per-age-band, or per-kg with an absolute cap — the corpus does this well where it does it at all (`40mg/kg (≤2g)`, `60mg/m²/day (max 80mg)`, the ASCIA and ANZCOR bands). **The defect is always an absolute figure standing alone**, because a number that is right for an adult survives being copied — nothing about it looks wrong in isolation. This applies to every round, not only paediatric ones: adult files carry paediatric content too.
 
-6. **Stop and report if you discover a limitation in your own method mid-run.** Do not continue applying a scan you've realised is flawed. This is more important than completing the phase.
+6. **One fix at a time, one commit each.** After each fix: confirm no duplicate headers introduced, confirm all cross-references resolve. Commit with a descriptive message before moving on. Never batch unverified edits.
 
-7. **Report honestly.** "Clean against everything currently known to check for" — never "verified complete." This project's history is that every completeness claim was later disproven by a new technique.
+7. **Stop and report if you discover a limitation in your own method mid-run.** Do not continue applying a scan you've realised is flawed. This is more important than completing the phase.
+
+8. **Report honestly.** "Clean against everything currently known to check for" — never "verified complete." This project's history is that every completeness claim was later disproven by a new technique.
 
 ## Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
