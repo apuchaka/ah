@@ -75,3 +75,5 @@ source: quackquackmed 15.11 Renal and urological disorders - Phimosis, Cryptorch
 - **Mx:** supportive (fluids, blood transfusion, dialysis).
 
 > [!danger] Antibiotics NOT recommended. Plasma exchange only in severe cases not associated with diarrhoea.
+
+> [!note] The adult/haematology entry is [[10_05_Haemonc_-_Normocytic_Anaemia_and_Sickle_Cell_Disease]] Haemolytic uraemic syndrome (HUS), which also lists the non-STEC causes (pneumococcal infection, HIV, SLE, drugs, cancer) relevant outside childhood.

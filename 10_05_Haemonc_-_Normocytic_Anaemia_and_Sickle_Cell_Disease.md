@@ -122,7 +122,10 @@ source: quackquackmed 10.05 Normocytic anaemia (non-haemolytic and haemolytic), 
 
 > [!danger] No role for antibiotics in HUS.
 
-- **Mx:** supportive (fluids, transfusion).
+- **Mx:** supportive — **fluids, blood transfusion, and dialysis where the AKI requires it** (AKI is one third of the defining triad, so renal replacement is part of standard supportive care, not an exception). **Plasma exchange only in severe cases not associated with diarrhoea.**
+- **Typical vs atypical — the distinction that changes management:** the diarrhoea-associated, Shiga-toxin form above is **typical** HUS. **Atypical HUS** arises from dysregulation of the complement cascade (often familial), is not diarrhoea-associated, and is the form in which complement-directed therapy is relevant — so "no diarrhoeal prodrome" is the clue that should prompt asking which type this is.
+
+> [!note] [[15_11_Paeds_-_Urological_and_Renal_Anomalies__Wilms_Tumour__HUS]] Haemolytic uraemic syndrome (HUS) covers the paediatric presentation, where 90% of cases occur. The two entries agree on the triad, the Coombs-negative film findings and the no-antibiotics rule; dialysis, plasma exchange and the atypical form were carried into this entry from there during the pairs audit (2026-08-29).
 
 ### Disseminated intravascular coagulation (DIC)
 
