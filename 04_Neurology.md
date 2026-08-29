@@ -834,7 +834,9 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 
 ## Anticonvulsants / Antiepileptics
 
-> [!info] Verified — the adverse effect profiles, mechanisms, and monitoring principles below (LFT/FBC monitoring for valproate/carbamazepine, trough-level monitoring for phenytoin, Stevens-Johnson risk for lamotrigine/carbamazepine, CYP450 induction effects) are pharmacological properties of the drugs themselves, not jurisdiction-specific prescribing conventions — no change needed. The drug names/classes are all standard AMH/eTG choices in Australian practice. See the Seizures and Epilepsy section above for the AU-specific nuance on sodium valproate prescribing in women of childbearing potential (Australia has not adopted the UK's 2024 mandatory pregnancy-prevention-programme requirement, though the same underlying teratogenicity caution applies) — not repeated here.
+> [!danger] **This box previously claimed the mechanisms below were verified and needed no change. One of them was wrong.** Levetiracetam was described as a "?Ca channel blocker"; its actual target is **SV2A**, corrected below and confirmed across PNAS, StatPearls, NCBI Jasper's *Basic Mechanisms of the Epilepsies*, the Keppra product label and DrugBank. The question mark in the original was itself a signal that the source was unsure, and the verification box sitting above it is what would stop a reader checking. **Treat the remaining mechanisms here as spot-checked, not audited.**
+>
+> [!info] Verified — the adverse effect profiles and monitoring principles below (LFT/FBC monitoring for valproate/carbamazepine, trough-level monitoring for phenytoin, Stevens-Johnson risk for lamotrigine/carbamazepine, CYP450 induction effects) are pharmacological properties of the drugs themselves, not jurisdiction-specific prescribing conventions — no change needed. The drug names/classes are all standard AMH/eTG choices in Australian practice. See the Seizures and Epilepsy section above for the AU-specific nuance on sodium valproate prescribing in women of childbearing potential (Australia has not adopted the UK's 2024 mandatory pregnancy-prevention-programme requirement, though the same underlying teratogenicity caution applies) — not repeated here.
 
 **Sodium valproate:** modulates voltage-gated Na channels (binds inactivated Na channel, use-dependent blocking action).
 - AE: CYP450 inhibitor, teratogenic (neural tube defects), liver damage, pancreatitis, GI upset, weight gain, hair loss (may regrow curly), tremor, ataxia, thrombocytopenia, hyponatraemia
@@ -844,7 +846,7 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 
 **Lamotrigine:** Na channel blocker. AE: Stevens-Johnson syndrome. Monitoring: no specific requirements.
 
-**Levetiracetam:** ?Ca channel blocker. AE: blood dyscrasias, QT prolongation. Monitoring: no specific requirements.
+**Levetiracetam:** binds **synaptic vesicle protein 2A (SV2A)**, reducing the rate of calcium-dependent vesicular neurotransmitter release. It is **not** a calcium-channel blocker — SV2A is a distinct and unique target, which is why levetiracetam's interaction profile differs from the sodium-channel agents above (no CYP450 induction, few interactions). AE: blood dyscrasias, QT prolongation, and **behavioural and mood disturbance — irritability, agitation, low mood** — which is the adverse effect most likely to prompt a change of agent in practice. Monitoring: no specific requirements.
 
 **Carbamazepine:** binds voltage-gated Na channels, increases refractory period.
 - AE: P450 enzyme inducer (auto-inducer — may increase clearance of itself; seizures may return 3–4 weeks after starting/increasing dose, needing titration until this stops), dizziness, ataxia, drowsiness, headache, visual disturbances (especially diplopia), Stevens-Johnson syndrome, leukopenia, agranulocytosis, hyponatraemia (secondary to SIADH)
