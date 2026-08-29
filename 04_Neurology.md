@@ -1611,6 +1611,28 @@ Primary injuries divided into focal or diffuse.
 - Dorsal columns — ipsilateral loss of proprioception and vibration sensation
 - Lateral spinothalamic tract — contralateral loss of pain and temperature sensation
 
+### Central, Anterior and Posterior Cord Syndromes
+
+> [!warning] **Snippet-sourced — primary source not read.** Cross-verified across StatPearls, AANS, Cleveland Clinic, AMBOSS and Wheeless' Textbook of Orthopaedics; Australian primary sources are egress-blocked. Tracked in `PENDING_GUIDELINE_CHECKS.md`.
+
+Brown-Séquard above is one of four incomplete cord syndromes. The other three complete the set, and each is defined by **which tracts the lesion spares**, not by the level.
+
+**Central cord syndrome — the commonest incomplete cord injury, and the one an intern will actually see.**
+- **Mechanism:** cervical **hyperextension**, classically a **low-energy fall in an older person with pre-existing cervical stenosis** — often with no fracture on imaging. Hyperextension buckles the ligamentum flavum inwards, compressing a cord already in a narrowed canal.
+- **S/Smx:** weakness **worse in the arms than the legs** — the defining feature — with variable sensory loss and bladder dysfunction. Distal upper limb (hand) function is typically worst affected.
+- **Why it gets missed:** the mechanism is trivial, the imaging may show no fracture, and the patient is elderly. A fall with new arm-predominant weakness is the presentation to recognise.
+
+**Anterior cord syndrome — anterior two-thirds of the cord.**
+- **Tracts:** corticospinal and spinothalamic lost; **dorsal columns spared**.
+- **S/Smx:** bilateral loss of motor function, pain and temperature below the level, with **preserved proprioception, vibration and fine touch** — the sparing is the diagnostic clue.
+- **Prognosis:** the **worst of the cord syndromes**. Recovery evident and progressive within the first 24 hours is the favourable sign; absent sacral pinprick or temperature sensation after 24 hours predicts poor functional recovery.
+
+**Posterior cord syndrome — dorsal columns.**
+- **S/Smx:** loss of **proprioception and vibration** below the lesion, producing **sensory ataxia** and loss of balance, with pain and temperature preserved.
+- Rare compared with the other three.
+
+> [!tip] **Read the set by what is spared.** Anterior cord spares the dorsal columns (position sense intact, everything else lost); posterior cord loses only the dorsal columns; central cord is arm-worse-than-leg; Brown-Séquard is ipsilateral motor and proprioception with contralateral pain and temperature.
+
 ### Subacute Combined Degeneration of the Spinal Cord
 
 **D:** demyelination of the lateral and posterior columns of the spinal cord.
