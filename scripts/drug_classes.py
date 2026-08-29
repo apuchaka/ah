@@ -112,6 +112,16 @@ LEAVES = [
 ("7 Blood and electrolytes","Thrombolytics","alteplase|tenecteplase|streptokinase|thrombolysis|thrombolytic"),
 ("7 Blood and electrolytes","Other drugs affecting haemostasis","tranexamic|desmopressin|\\bDDAVP\\b|factor VIII|factor IX|fibrinogen concentrate"),
 ("7 Blood and electrolytes","Drugs for reversing anticoagulation","protamine|phytomenadione|vitamin K|idarucizumab|andexanet|Prothrombinex|prothrombin complex"),
+# SOURCE DEFECT, FIXED HERE SO IT CANNOT PROPAGATE.
+# The AMH appendix lists "Drugs for anaemias" TWICE under class 7 — once with
+# subclasses (erythropoietin agonists / other drugs for anaemias) and once
+# bare, immediately after. The bare repeat carries no subclasses and no
+# distinct membership; it is a transcription artifact of the source, not a
+# real class. It is deduplicated to the two leaves below, which is why this
+# class contributes 16 leaves and not 17. A supplied enumeration is not
+# automatically internally coherent: the partition check applies to it too.
+# The assertion at the foot of this file makes a future re-transcription that
+# reinstates the duplicate fail loudly instead of silently inflating a count.
 ("7 Blood and electrolytes","Erythropoietin agonists","epoetin|darbepoetin|erythropoietin"),
 ("7 Blood and electrolytes","Other drugs for anaemias","ferrous|iron polymaltose|ferric carboxymaltose|folic acid|hydroxocobalamin|cyanocobalamin|\\bB12\\b"),
 ("7 Blood and electrolytes","Drugs that chelate iron","desferrioxamine|deferasirox|deferiprone|iron chelation"),
@@ -309,6 +319,10 @@ LEAVES = [
 ("21 Miscellaneous","Blood products","packed red|fresh frozen plasma|\\bFFP\\b|platelet transfusion|cryoprecipitate|albumin.{0,20}(infusion|4%|20%)|red cell transfusion"),
 ("21 Miscellaneous","Immunoglobulins","immunoglobulin|\\bIVIg\\b|\\bVZIG\\b|\\bHBIG\\b|tetanus immunoglobulin"),
 ]
+
+_seen = [(t, l) for t, l, _ in LEAVES]
+assert len(_seen) == len(set(_seen)), \
+    f"duplicate leaf in the enumeration: {[k for k in set(_seen) if _seen.count(k) > 1]}"
 
 MECH = re.compile(r"mechanism|inhibit|agonist|antagonist|blocks?\b|receptor|bacteriocid|bactericid|bacteriostat|cell wall|ribosom|beta.?lactam|β.?lactam|DNA gyrase|folate|ergosterol|protein synthesis|binds|acts on|transpeptid|topoisomerase|reverse transcript|reduces? (production|synthesis)|increases? (excretion|uptake)|vasodilat|works by", re.I)
 DOSE = re.compile(r"\d+\s*(mg|g|micrograms|mcg|units|IU|mL|%)\b|\bmg/kg\b|\bBD\b|\bTDS\b|\bQID\b|\bnocte\b|\bPRN\b|\bIV\b|\bIM\b|\bsubcut|\boral(ly)?\b|\bdaily\b|\btitrat", re.I)
