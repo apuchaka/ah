@@ -762,9 +762,18 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **P:** obstruction + bacterial growth → increased pressure and distension.
 
-> [!info] Alvarado score
-> Migration of abdominal pain (=1, localises to RIF after 24–48h as parietal peritoneum becomes involved; worse on movement/coughing — "hop test" in children); Anorexia (=1); Nausea (=1); Tenderness in RLQ (=2); Rebound pain (=1); Fever >37.3°C (=1); Leucocytosis (=1); Left shift of WBC/neutrophil predominance (=1)
-> Score ≥9 in males or ≥10 in females — very likely appendicitis
+> [!info] **Alvarado score (MANTRELS) — 10 points**
+> **Migration** of pain to the RIF (1) · **Anorexia** (1) · **Nausea**/vomiting (1) · **Tenderness** in the RLQ (**2**) · **Rebound** pain (1) · **Elevated** temperature >37.3°C (1) · **Leucocytosis** (**2**) · **Shift** to the left / neutrophil predominance (1).
+>
+> *The two weighted items are RLQ tenderness and leucocytosis, at 2 points each; the other six score 1.*
+>
+> **Interpretation:** **1–4** appendicitis unlikely · **5–6** compatible · **7–8** probable · **9–10** very probable.
+
+> [!warning] **Two corrections made during the duplicate-pair audit (2026-08-29).** This box previously scored **leucocytosis as 1**, which made the itemised components total **9** — while the same box then gave a threshold of **"≥10 in females"**, a score the list as written could not reach. Leucocytosis is worth **2**, and the total is **10**.
+>
+> The "**≥9 in males or ≥10 in females**" rule was also not the Alvarado interpretation; it is a garbled rendering of the standard **9–10 "very probable"** band, presented as a sex-specific cut-off that the score does not have.
+>
+> **The clinically useful point, which the original threshold obscured:** Alvarado is far better at **ruling out** than ruling in. A cut-point of **<5 has ~99% sensitivity** for excluding appendicitis, while the ≥7 "rule-in" cut-point performs **poorly for specificity, and worst in men (~57%)**. Use it to decide who can be safely observed or discharged, not to decide who goes to theatre. See `PENDING_GUIDELINE_CHECKS.md` **B45**.
 
 **Other signs:** Rovsing's sign (palpating LLQ causes RLQ pain), psoas sign (pain on hip extension if retrocaecal appendix), guarding and rigidity.
 

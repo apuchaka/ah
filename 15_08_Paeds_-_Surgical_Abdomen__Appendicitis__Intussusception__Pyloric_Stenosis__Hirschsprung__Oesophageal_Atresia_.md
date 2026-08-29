@@ -19,7 +19,7 @@ source: quackquackmed 15.08 GI disorders - Appendicitis, Intussusception, Pylori
 - **Dx/Ix:** establish IV access. If ↓BP/septic, catheterise + fluid balance. Request FBC (Hb, WCC), U&Es, CRP. Diagnosis can be clinical — in children, US first; US in females where pelvic organ pathology is suspected; CT scan only if inconclusive.
 - **Mx:** appendectomy (usually laparoscopic). Prophylactic IV antibiotics. Patients with perforated appendicitis require copious abdominal lavage. Conservative management with antibiotics only is possible, depending on the surgeon.
 
-*(See [[03_Gastrointestinal]] Appendicitis for the fuller adult-context entry, including the AIR score detail and non-operative antibiotic-alone management trade-offs, not repeated here.)*
+*(See [[03_Gastrointestinal]] Appendicitis for the fuller adult-context entry, including the **Alvarado** score and its interpretation — note the two files use **different** scores: AIR here, Alvarado there and non-operative antibiotic-alone management trade-offs, not repeated here.)*
 
 ## Intussusception
 
