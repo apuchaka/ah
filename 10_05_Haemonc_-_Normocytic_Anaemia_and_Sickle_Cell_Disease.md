@@ -39,7 +39,9 @@ source: quackquackmed 10.05 Normocytic anaemia (non-haemolytic and haemolytic), 
 ### Long-term (preventative) management
 
 - Hydroxyurea (↑HbF to prevent painful episodes).
-- Prophylactic penicillin if frequent pneumococcal infections (lifelong) — erythromycin if penicillin allergic.
+- **Prophylactic penicillin from around 3 months of age until at least 5 years**, continued longer (or lifelong) in those with increased infection risk such as prior invasive pneumococcal disease or post-splenectomy — erythromycin if penicillin-allergic.
+
+> [!warning] **Corrected during the duplicate-pair audit (2026-08-29).** This line previously read "prophylactic penicillin **if frequent pneumococcal infections** (lifelong)", which makes routine infant prophylaxis sound like a response to recurrent infection. It is not — it is **started in infancy in every child with sickle cell disease, before any infection has occurred**, because functional hyposplenism develops early and the risk it mitigates is fulminant pneumococcal sepsis. [[15_14_Paeds_-_Anaemia__Sickle_Cell__Hereditary_Spherocytosis__HSP]] Sickle cell disease already stated the correct schedule (3 months to 5 years); the two entries disagreed and this one was wrong. See `PENDING_GUIDELINE_CHECKS.md` **B44**.
 - Folic acid supplementation if deficient and poor diet.
 - Pneumococcal polysaccharide vaccine every 5 years (due to hyposplenism) — **but vaccination is only one of three parts**, and the current Australian regimen also includes Hib, meningococcal ACWY **and** B, annual influenza, plus long-term antibiotic prophylaxis and a written emergency plan: see [[08_09_Infectious_Disease_-_Miscellaneous]] Post-splenectomy sepsis for the full source-verified regimen, which applies to functional hyposplenism as it does after splenectomy.
 

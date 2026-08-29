@@ -49,7 +49,7 @@ source: quackquackmed 15.14 Haem-onc disorders - Anaemia, Iron deficiency, Sickl
 ## Sickle cell disease
 
 - **D:** autosomal recessive condition that causes sickle-shaped RBCs.
-- **R:** family history — if both parents are carriers, the child has a 1 in 4 chance. African descent — 10% of UK Afro-Caribbeans are carriers.
+- **R:** family history — if both parents are carriers, the child has a 1 in 4 chance. African, Caribbean, Middle Eastern, Mediterranean, Indian and South-East Asian ancestry. *(A UK carrier-prevalence figure previously quoted here has been removed — it was a UK population statistic in an Australian corpus, and Australia's affected population arises largely through migration, so a UK denominator does not transfer. Ancestry matters for the index of suspicion; a specific Australian carrier rate should not be quoted without a source.)*
 - **A:** valine replaces glutamic acid in the β-globin chain → Hb polymerises within the RBC, forming long, stiff fibres of Hb tetramers.
 - **P:** triggered by hypoxia and acidosis → vaso-occlusion in small vessels and hypercoagulability. Sickle RBCs are more prone to haemolysis → anaemia. Symptoms only show after ~6 months, as HbF is present until then and can compensate.
 
