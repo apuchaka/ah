@@ -78,7 +78,8 @@ source: quackquackmed 15.01 Paediatric life support, Newborn life support, Intra
 
 ### Prematurity
 
-- Preterm infants = <32 weeks gestation. Require stabilisation and help with temperature regulation, feeding, and respiration.
+- **Preterm = born before 37 weeks** gestation (term is 37–41 weeks). The commonly used sub-bands are **very preterm <32 weeks** and **extreme prematurity <28 weeks** — this entry previously gave **<32 weeks as the definition of preterm**, which is the very-preterm band, not the definition. Corrected by the pairs audit (2026-08-29); [[16_08-09_Antenatal_and_Perinatal_Problems]] Prematurity had it right and owns the risk factors and the complications table.
+- Require stabilisation and help with temperature regulation, feeding, and respiration.
 
 ### APGAR score (at 1, 5 ± 10 minutes of age)
 
