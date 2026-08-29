@@ -277,3 +277,50 @@ concussive, and the four parasomnia rows are one item each.
 | P5-A31 | **Premature ejaculation and epispadias** — each the unnamed half of a pair the corpus half-teaches (erectile dysfunction, hypospadias) | RACGP | ⬜ |
 
 > [!warning] **Residual, not cleared.** 788 of the 929 absent conditions were classified out of scope **by rule, not individually verified**, and the 215 prose-only rows were not read. Both are open work in the same sense as the 103 drug leaves above.
+
+### Section E (continued) — two unresolved categories from the acronym audit
+
+> [!warning] **23 conditions were never actually checked. They are NOT confirmed absent.**
+> The corroboration test requires a ≥9-character word in the condition's own
+> name. These 23 have none, so acronym matching was disabled for them and they
+> fell to ABSENT **by construction, not by evidence**:
+>
+> Afferent loop syndrome · Amniotic band syndrome · Amyand's hernia ·
+> **Anterior Cord Syndrome** · Boston-type syndrome · Cervical spine trauma ·
+> Double aortic arch · Fetal alcohol spectrum disorder · Gastric Antral
+> Vascular Ectasia · **Heart Failure with Reduced Ejection Fraction** ·
+> Herpes Zoster Virus · Herpes zoster oticus · Hungry bone syndrome ·
+> **Left Bundle Branch Block** · Maple syrup urine disease · Middle ear
+> neoplasm · Neoplasm of external canal · **Orbital Floor Fracture** ·
+> Ovarian remnant syndrome · Pyriform aperture stenosis · **Right Bundle
+> Branch Block** · Social Anxiety Disorder · Ulnar nerve injury
+>
+> The bolded ones have since been hand-checked by other means and are known:
+> the bundle branch blocks and HFrEF are covered; anterior cord syndrome and
+> orbital floor fracture are genuine gaps, both queued. **The other 18 have no
+> verdict anyone should trust.** The 9-character threshold is doing two jobs —
+> collision precision, and an implicit "is this name testable" filter — and it
+> is only fit for the first.
+>
+> **Resolution path** (deliberately deferred, not dropped): either a second
+> corroboration signal that does not depend on word length — co-occurrence of
+> two short tokens, or the file's own subject area — or 18 manual greps.
+> Logged as a known residual rather than resolved now, because Parts C, E, F
+> and G of Phase 5 are still unstarted and this is its own small project.
+
+> [!danger] **A systematic blind spot in the corroboration test, found by the audit.**
+> Corroboration fails whenever **the corpus uses an acronym exclusively and
+> never spells the term out** — there is then no word that can possibly
+> co-occur. It produced three false absences out of only four suspects
+> examined:
+>
+> | Condition | Truth | Why the test failed |
+> |---|---|---|
+> | Staphylococcal Scalded Skin Syndrome | **owns an entry** at `09_01:116` | corpus writes "Staph", never "Staphylococcal" |
+> | Focal segmental glomerulosclerosis | covered, `07_Renal:195` + `15_10:51` | corpus only ever writes FSGS |
+> | Cervical intraepithelial neoplasia | taught, `17_09:30-31` with the LLETZ rule | corpus only ever writes CIN |
+>
+> This is the mirror image of the collision problem: the collision fix
+> assumed a spelled-out form exists to corroborate against. Where the corpus
+> is acronym-only, the fix inverts and manufactures absence. **Any ABSENT
+> verdict on a condition the corpus would naturally abbreviate is suspect.**

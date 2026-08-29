@@ -155,6 +155,26 @@ SYN = {
  "Ureteral Stones":"COVERED-SYNONYM: ureteric stone / renal colic",
  "Membranous glomerulopathy":"COVERED-SYNONYM: membranous nephropathy, thin",
  "Compartment syndrome":"COVERED: 15 uses",
+ # --- Hand-resolution of the 14 acronym rows (survivors + suspect rejections).
+ # THREE FALSE SURVIVORS: the acronym meant something else entirely.
+ "Congenital bleeding disorders":"UMBRELLA - FALSE SURVIVOR: the corpus's CBD is corticobasal degeneration (04_Neurology:442) and common bile duct (03_Gastrointestinal). Corroborated only on the generic word 'disorders'. The concept is covered by its members - haemophilia A/B and vWD in 10_07",
+ "Autosomal recessive polycystic kidney disease":"ABSENT - FALSE SURVIVOR: 07_Renal:170 teaches autosomal DOMINANT PKD; the recessive form has no mention. Out of scope at intern level (paediatric nephrology)",
+ "Vaginal Intraepithelial Neoplasia":"ABSENT - FALSE SURVIVOR: VIN in this corpus is VULVAL intraepithelial neoplasia (17_07:81). VaIN has no mention - and a grep for 'VaIN' matches only 'de QuerVAIN's'. Out of scope at intern level",
+ # THREE FALSE REJECTIONS: covered, but the corpus uses the acronym and never
+ # spells the term out, so no corroborating word could ever co-occur.
+ "Staphylococcal Scalded Skin Syndrome":"COVERED - FALSE REJECTION: owns an entry, '## Staph scalded skin syndrome (SSSS)' 09_01:116. Rejected because the corpus writes 'Staph', never 'Staphylococcal'",
+ "Focal segmental glomerulosclerosis":"COVERED - FALSE REJECTION: 07_Renal:195 and 15_10:51. Rejected because the corpus only ever writes FSGS, never 'glomerulosclerosis'",
+ "Cervical intraepithelial neoplasia":"COVERED - FALSE REJECTION: 17_09:30-31 teaches CIN I/II/III with the LLETZ referral rule. Rejected because the corpus only ever writes CIN",
+ # CONFIRMED CORRECT
+ "Acute Generalized Exanthematous Pustulosis":"COVERED: 09_01:75 names it with its recognisable features and states explicitly that it is not detailed further - a deliberate scope decision, not an omission",
+ "Heart Failure with Preserved Ejection Fraction":"COVERED: 01_Cardiovascular:938 classifies HF by ejection fraction; HFpEF/HFrEF named at :1457",
+ "Hereditary Non-Polyposis Colon Cancer":"COVERED: 17_09:87 'Hereditary non-polyposis colorectal carcinoma (HNPCC/Lynch syndrome)', plus 03_GI and 17_10",
+ "Monoclonal Gammopathy of Unknown Significance":"COVERED: 10_02:84 and 04_Neurology:1383. The list says 'Unknown', the corpus says 'undetermined' - which is why the name match failed",
+ "Nephrogenic Diabetes Insipidus":"COVERED: 06_Metabolic:697, a row in the diabetes insipidus differential table",
+ "Vulvar Intraepithelial Neoplasia":"COVERED: owns an entry, 17_07:81 '## Vulval intraepithelial neoplasia (VIN)'. US 'vulvar' vs AU 'vulval' is why the name match failed",
+ "Systemic Inflammatory Response Syndrome":"ABSENT - CORRECTLY: the corpus's two SIRS hits are the aged-care Serious Incident Response Scheme. The syndrome is genuinely absent, and defensibly so - qSOFA is taught at 08_09:155 and Sepsis-3 has superseded the SIRS criteria",
+ "Contrast-Induced Nephropathy":"ABSENT - CORRECTLY: zero hits for contrast nephropathy in any wording",
+ "Calcineurin inhibitor nephropathy":"ABSENT - CORRECTLY: calcineurin inhibitors appear in 07_Renal:141 immunosuppression, but not their nephrotoxicity as a named condition. Out of scope at intern level",
  "Gestational Diabetes Mellitus":"COVERED-SYNONYM: taught as '### Diabetes in pregnancy' 16_01-05:430, with the 28-week 75g OGTT criteria; no matcher reaches this rename",
  # WITHDRAWN GAPS. Both were queued as build items and both were wrong: the
  # corpus writes "Baker cyst" without the possessive, and my tokeniser split

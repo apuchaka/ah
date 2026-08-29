@@ -773,7 +773,7 @@ Genitourinary and Reproductive,Adenocarcinoma of the cervix,ABSENT,0,weak-signal
 Genitourinary and Reproductive,Bartholin's gland carcinoma,ABSENT,0,weak-signal:Bartholin=2,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Borderline ovarian tumour,ABSENT,0,weak-signal:Borderline=8,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Cervical cancer,OWNS ENTRY,23,17_09_Cervical__Vaginal_and_Endometrial_Cancer.md#Cervical cancer screening,covered - owns an entry
-Genitourinary and Reproductive,Cervical intraepithelial neoplasia,ABSENT,0,weak-signal:intraepithelial=5,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+Genitourinary and Reproductive,Cervical intraepithelial neoplasia,ABSENT,0,weak-signal:intraepithelial=5,COVERED - FALSE REJECTION: 17_09:30-31 teaches CIN I/II/III with the LLETZ referral rule. Rejected because the corpus only ever writes CIN
 Genitourinary and Reproductive,Choriocarcinoma,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Testicular Cancer,covered - named inside a teaching entry
 Genitourinary and Reproductive,Clear cell ovarian carcinoma,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Genitourinary and Reproductive,Endometrial cancer,OWNS ENTRY,21,17_09_Cervical__Vaginal_and_Endometrial_Cancer.md#Endometrial cancer,covered - owns an entry
@@ -1842,7 +1842,7 @@ Systemic and Miscellaneous,Impaction,IN A TAUGHT SECTION,11,03_Gastrointestinal.
 Systemic and Miscellaneous,Iron overload,IN A TAUGHT SECTION,7,03_Gastrointestinal.md#Haemochromatosis,covered - named inside a teaching entry
 Systemic and Miscellaneous,Malnutrition,OWNS ENTRY,17,15_07_Paeds_-_Abdominal_Pain__Neuroblastoma__Coeliac_Disease__Malnutrition__Diarrhoea_and_Vomiting.md#Malnutrition,covered - owns an entry
 Systemic and Miscellaneous,Multi-organ failure,MENTIONED,2,,named in prose only - not individually verified
-Systemic and Miscellaneous,Systemic Inflammatory Response Syndrome,ABSENT,0,weak-signal:Inflammatory=190,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+Systemic and Miscellaneous,Systemic Inflammatory Response Syndrome,ABSENT,0,weak-signal:Inflammatory=190,"ABSENT - CORRECTLY: the corpus's two SIRS hits are the aged-care Serious Incident Response Scheme. The syndrome is genuinely absent, and defensibly so - qSOFA is taught at 08_09:155 and Sepsis-3 has superseded the SIRS criteria"
 Systemic and Miscellaneous,Paraneoplastic Syndrome,IN A TAUGHT SECTION,3,02_Respiratory.md#Small cell lung cancer (SCLC) — 15% of lung cancers,covered - named inside a teaching entry
 Systemic and Miscellaneous,Hemorrhagic shock,IN A TAUGHT SECTION,2,01_Cardiovascular.md#0.20.2 Hypovolaemic shock,covered - named inside a teaching entry
 Systemic and Miscellaneous,Intramural Hematoma,ABSENT,0,weak-signal:Intramural=1,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -1979,13 +1979,13 @@ Renal and Urology,Ureteropelvic Junction (UPJ) Obstruction,ABSENT,0,weak-signal:
 Renal and Urology,Vesicoureteral Reflux (VUR),MENTIONED,2,,named in prose only - not individually verified
 Renal and Urology,Acute urinary retention,IN A TAUGHT SECTION,2,07_Renal_Medicine_and_Urology.md#Urinary Retention,covered - named inside a teaching entry
 Renal and Urology,Analgesic nephropathy,ABSENT,0,weak-signal:nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Renal and Urology,Calcineurin inhibitor nephropathy,ABSENT,0,weak-signal:Calcineurin=12,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+Renal and Urology,Calcineurin inhibitor nephropathy,ABSENT,0,weak-signal:Calcineurin=12,"ABSENT - CORRECTLY: calcineurin inhibitors appear in 07_Renal:141 immunosuppression, but not their nephrotoxicity as a named condition. Out of scope at intern level"
 Renal and Urology,Neurogenic Bladder,IN A TAUGHT SECTION,6,04_Neurology.md#Diabetic Neuropathy,covered - named inside a teaching entry
 Renal and Urology,Stress incontinence,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Pyelonephritis,covered - named inside a teaching entry
 Renal and Urology,Urinary Retention,OWNS ENTRY,27,07_Renal_Medicine_and_Urology.md#Urinary Retention,covered - owns an entry
 Renal and Urology,Acute interstitial nephritis (AIN),OWNS ENTRY,3,07_Renal_Medicine_and_Urology.md#Acute Interstitial Nephritis,covered - owns an entry
 Renal and Urology,Balkan Nephropathy,ABSENT,0,weak-signal:Nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
-Renal and Urology,Focal segmental glomerulosclerosis,ABSENT,0,,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+Renal and Urology,Focal segmental glomerulosclerosis,ABSENT,0,,"COVERED - FALSE REJECTION: 07_Renal:195 and 15_10:51. Rejected because the corpus only ever writes FSGS, never 'glomerulosclerosis'"
 Renal and Urology,Interstitial Cystitis,IN A TAUGHT SECTION,1,17_05_PID__Endometriosis__Fibroids.md#Chronic pelvic pain,covered - named inside a teaching entry
 Renal and Urology,Interstitial Nephritis,OWNS ENTRY,2,07_Renal_Medicine_and_Urology.md#Acute Interstitial Nephritis,covered - owns an entry
 Renal and Urology,Kidney cysts,ABSENT,0,,UMBRELLA LABEL - not a condition an entry could own
@@ -2002,7 +2002,7 @@ Renal and Urology,Tubulointerstitial disease,IN A TAUGHT SECTION,1,06_Metabolic_
 Renal and Urology,Uremia,IN A TAUGHT SECTION,14,01_Cardiovascular.md#0.31 Pericarditis,covered - named inside a teaching entry
 Renal and Urology,Urge incontinence,IN A TAUGHT SECTION,6,07_Renal_Medicine_and_Urology.md#Incontinence,covered - named inside a teaching entry
 Renal and Urology,Urinary Incontinence,OWNS ENTRY,16,15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md#Enuresis (urinary incontinence),covered - owns an entry
-Renal and Urology,Contrast-Induced Nephropathy,ABSENT,0,weak-signal:Nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+Renal and Urology,Contrast-Induced Nephropathy,ABSENT,0,weak-signal:Nephropathy=20,ABSENT - CORRECTLY: zero hits for contrast nephropathy in any wording
 Renal and Urology,Acute glomerulonephritis,OWNS ENTRY,3,15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md#Acute glomerulonephritis,covered - owns an entry
 Renal and Urology,Cystitis,OWNS ENTRY,20,03_Gastrointestinal.md#Acute Cholecystitis,covered - owns an entry
 Renal and Urology,HIV-associated nephropathy,ABSENT,0,weak-signal:nephropathy=20,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
@@ -2539,7 +2539,7 @@ Infectious Disease,Shigella dysenteriae,ABSENT,0,,"OUT OF SCOPE at intern/RMO le
 Infectious Disease,Shigellosis,MENTIONED,2,,named in prose only - not individually verified
 Infectious Disease,Skull base osteomyelitis,ABSENT,0,weak-signal:osteomyelitis=22,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Smallpox,IN A TAUGHT SECTION,5,08_05-06_Infectious_Disease_-_Viral_Infections.md#Mpox (formerly monkeypox),covered - named inside a teaching entry
-Infectious Disease,Staphylococcal Scalded Skin Syndrome,ABSENT,0,weak-signal:Staphylococcal=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
+Infectious Disease,Staphylococcal Scalded Skin Syndrome,ABSENT,0,weak-signal:Staphylococcal=4,"COVERED - FALSE REJECTION: owns an entry, '## Staph scalded skin syndrome (SSSS)' 09_01:116. Rejected because the corpus writes 'Staph', never 'Staphylococcal'"
 Infectious Disease,Staphylococcal toxic shock syndrome,ABSENT,0,weak-signal:Staphylococcal=4,"OUT OF SCOPE at intern/RMO level (classified by rule, not individually verified - named fracture patterns and eponyms, tumour subtypes, congenital dysmorphology, non-endemic tropical infection, single-gene disorders)"
 Infectious Disease,Staphylococcus,OWNS ENTRY,2,08_01-03_Infectious_Disease_-_Bacterial_Infections.md#Staphylococci,covered - owns an entry
 Infectious Disease,Staphylococcus aureus,IN A TAUGHT SECTION,1,09_05_Dermatology_-_Bacterial_Infections_and_Infestations.md#Impetigo,covered - named inside a teaching entry
