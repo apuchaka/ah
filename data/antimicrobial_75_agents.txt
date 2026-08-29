@@ -1,0 +1,81 @@
+# Antimicrobial taxonomy - 75 named agents across 20 groups
+# Source: the taxonomy supplied in the requesting prompt, expanded to
+# named agents. NOT an AMH or BNF extract - both are subscription-gated.
+# Checked by scripts/drug_depth.py; results in commit e99f87d.
+# Format: <group> | <agent>
+
+  1. Penicillins | benzylpenicillin (penicillin G)
+  2. Penicillins | phenoxymethylpenicillin (penicillin V)
+  3. Penicillins | benzathine benzylpenicillin
+  4. Penicillins | procaine penicillin
+  5. Penicillins | flucloxacillin (antistaphylococcal)
+  6. Penicillins | amoxicillin / ampicillin
+  7. Penicillins | amoxicillin-clavulanate
+  8. Penicillins | piperacillin-tazobactam
+  9. Cephalosporins | 1st gen — cefalexin
+ 10. Cephalosporins | 1st gen — cefazolin
+ 11. Cephalosporins | 2nd gen — cefuroxime
+ 12. Cephalosporins | 2nd gen — cefoxitin
+ 13. Cephalosporins | 3rd gen — ceftriaxone / cefotaxime
+ 14. Cephalosporins | 3rd gen antipseudomonal — ceftazidime
+ 15. Cephalosporins | 4th/5th gen — cefepime, ceftaroline
+ 16. Carbapenems/monobactam | meropenem / imipenem / ertapenem
+ 17. Carbapenems/monobactam | aztreonam
+ 18. Macrolides | azithromycin
+ 19. Macrolides | roxithromycin
+ 20. Macrolides | clarithromycin
+ 21. Macrolides | erythromycin
+ 22. Tetracyclines | doxycycline
+ 23. Tetracyclines | minocycline
+ 24. Tetracyclines | tetracycline / tigecycline
+ 25. Aminoglycosides | gentamicin
+ 26. Aminoglycosides | tobramycin
+ 27. Aminoglycosides | amikacin
+ 28. Glycopeptides/lipopeptides | vancomycin
+ 29. Glycopeptides/lipopeptides | teicoplanin
+ 30. Glycopeptides/lipopeptides | daptomycin
+ 31. Fluoroquinolones | ciprofloxacin
+ 32. Fluoroquinolones | norfloxacin
+ 33. Fluoroquinolones | moxifloxacin
+ 34. Fluoroquinolones | levofloxacin / ofloxacin
+ 35. Sulfonamides/DHFR | trimethoprim
+ 36. Sulfonamides/DHFR | trimethoprim-sulfamethoxazole (co-trimoxazole)
+ 37. Nitroimidazoles | metronidazole
+ 38. Nitroimidazoles | tinidazole
+ 39. Lincosamides | clindamycin
+ 40. Lincosamides | lincomycin
+ 41. Other antibacterial | nitrofurantoin
+ 42. Other antibacterial | fosfomycin
+ 43. Other antibacterial | linezolid
+ 44. Other antibacterial | rifampicin
+ 45. Other antibacterial | chloramphenicol
+ 46. Other antibacterial | colistin / polymyxin
+ 47. Antifungal — azoles | fluconazole
+ 48. Antifungal — azoles | itraconazole
+ 49. Antifungal — azoles | voriconazole / posaconazole
+ 50. Antifungal — azoles | clotrimazole / miconazole (topical)
+ 51. Antifungal — azoles | ketoconazole
+ 52. Antifungal — other | terbinafine (allylamine)
+ 53. Antifungal — other | nystatin / amphotericin B (polyenes)
+ 54. Antifungal — other | caspofungin / anidulafungin (echinocandins)
+ 55. Antifungal — other | griseofulvin
+ 56. Antiviral — herpes family | aciclovir
+ 57. Antiviral — herpes family | valaciclovir
+ 58. Antiviral — herpes family | famciclovir
+ 59. Antiviral — herpes family | ganciclovir / valganciclovir (CMV)
+ 60. Antiviral — influenza | oseltamivir
+ 61. Antiviral — influenza | zanamivir
+ 62. Antiviral — HIV/hepatitis | tenofovir
+ 63. Antiviral — HIV/hepatitis | emtricitabine / lamivudine
+ 64. Antiviral — HIV/hepatitis | dolutegravir / raltegravir (integrase inhibitors)
+ 65. Antiviral — HIV/hepatitis | entecavir (hep B)
+ 66. Antiviral — HIV/hepatitis | sofosbuvir / DAA (hep C)
+ 67. Antituberculous | isoniazid
+ 68. Antituberculous | rifampicin (TB regimen role)
+ 69. Antituberculous | pyrazinamide
+ 70. Antituberculous | ethambutol
+ 71. Antiparasitic | ivermectin
+ 72. Antiparasitic | permethrin
+ 73. Antiparasitic | albendazole / mebendazole
+ 74. Antiparasitic | praziquantel
+ 75. Antiparasitic | artemether-lumefantrine / atovaquone-proguanil (malaria)

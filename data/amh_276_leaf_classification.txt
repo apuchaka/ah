@@ -1,0 +1,282 @@
+# AMH therapeutic classification - 21 top-level classes, 276 leaf subclasses
+# Source: SA Medicines Formulary Framework, Appendix 1: Therapeutic Classes
+# of Medicines (AMH), supplied in full by the user.
+# Checked in full by scripts/drug_classes.py; results in commit 3e543ef.
+# Format: <top-level class> | <leaf subclass>
+
+  1. 1 Allergy and anaphylaxis | Sympathomimetics (anaphylaxis)
+  2. 1 Allergy and anaphylaxis | Sedating antihistamines
+  3. 1 Allergy and anaphylaxis | Less sedating antihistamines
+  4. 2 Anaesthetics | IV general anaesthetics
+  5. 2 Anaesthetics | Inhaled anaesthetics
+  6. 2 Anaesthetics | Non-depolarising neuromuscular blockers
+  7. 2 Anaesthetics | Depolarising neuromuscular blockers
+  8. 2 Anaesthetics | Alpha2 and imidazoline agonists
+  9. 2 Anaesthetics | Opioids (anaesthesia)
+ 10. 2 Anaesthetics | Anticholinergics (anaesthesia)
+ 11. 2 Anaesthetics | Drugs for reversing neuromuscular blockade
+ 12. 2 Anaesthetics | Local anaesthetics
+ 13. 3 Analgesics | Non-opioid analgesics
+ 14. 3 Analgesics | Opioid analgesics
+ 15. 4 Antidotes and antivenoms | Gastrointestinal decontaminants
+ 16. 4 Antidotes and antivenoms | Antidotes
+ 17. 4 Antidotes and antivenoms | Snake antivenoms
+ 18. 4 Antidotes and antivenoms | Other antivenoms
+ 19. 5 Anti-infectives | Aminoglycosides
+ 20. 5 Anti-infectives | Carbapenems
+ 21. 5 Anti-infectives | Cephalosporins
+ 22. 5 Anti-infectives | Glycopeptides
+ 23. 5 Anti-infectives | Lincosamides
+ 24. 5 Anti-infectives | Macrolides
+ 25. 5 Anti-infectives | Penicillins
+ 26. 5 Anti-infectives | Quinolones
+ 27. 5 Anti-infectives | Rifamycins
+ 28. 5 Anti-infectives | Tetracyclines
+ 29. 5 Anti-infectives | Antimycobacterials
+ 30. 5 Anti-infectives | Other antibacterials
+ 31. 5 Anti-infectives | Azoles (antifungal)
+ 32. 5 Anti-infectives | Echinocandins
+ 33. 5 Anti-infectives | Other antifungals
+ 34. 5 Anti-infectives | Guanine analogues (antiviral)
+ 35. 5 Anti-infectives | Neuraminidase inhibitors
+ 36. 5 Anti-infectives | Antivirals for viral hepatitis
+ 37. 5 Anti-infectives | Other antivirals
+ 38. 5 Anti-infectives | NRTIs
+ 39. 5 Anti-infectives | NNRTIs
+ 40. 5 Anti-infectives | HIV-Protease inhibitors
+ 41. 5 Anti-infectives | Integrase inhibitors
+ 42. 5 Anti-infectives | Other antiretrovirals
+ 43. 5 Anti-infectives | Antimalarials
+ 44. 5 Anti-infectives | Other antiprotozoals
+ 45. 5 Anti-infectives | Benzimidazoles (anthelmintic)
+ 46. 5 Anti-infectives | Other anthelmintics
+ 47. 6 Cardiovascular | Aldosterone antagonists
+ 48. 6 Cardiovascular | Loop diuretics
+ 49. 6 Cardiovascular | Sympathomimetics (cardiovascular)
+ 50. 6 Cardiovascular | Other drugs for heart failure
+ 51. 6 Cardiovascular | Nitrates
+ 52. 6 Cardiovascular | Other antianginal drugs
+ 53. 6 Cardiovascular | Thiazide and related diuretics
+ 54. 6 Cardiovascular | Other diuretics
+ 55. 6 Cardiovascular | ACE inhibitors
+ 56. 6 Cardiovascular | Sartans
+ 57. 6 Cardiovascular | Calcium channel blockers
+ 58. 6 Cardiovascular | Beta-blockers
+ 59. 6 Cardiovascular | Other antihypertensives
+ 60. 6 Cardiovascular | Antiarrhythmics
+ 61. 6 Cardiovascular | Statins
+ 62. 6 Cardiovascular | Fibrates
+ 63. 6 Cardiovascular | PCSK9 inhibitors
+ 64. 6 Cardiovascular | Other drugs for dyslipidaemia
+ 65. 6 Cardiovascular | Prostacyclins
+ 66. 6 Cardiovascular | Endothelin antagonists
+ 67. 6 Cardiovascular | PDE5 inhibitors (cardiovascular)
+ 68. 6 Cardiovascular | Other drugs for pulmonary hypertension
+ 69. 6 Cardiovascular | Drugs for peripheral vascular disease
+ 70. 6 Cardiovascular | Drugs for orthostatic hypotension
+ 71. 7 Blood and electrolytes | Heparins
+ 72. 7 Blood and electrolytes | Vitamin K antagonists
+ 73. 7 Blood and electrolytes | Direct thrombin inhibitors
+ 74. 7 Blood and electrolytes | Factor Xa inhibitors
+ 75. 7 Blood and electrolytes | Glycoprotein IIb/IIIa inhibitors
+ 76. 7 Blood and electrolytes | Thienopyridines
+ 77. 7 Blood and electrolytes | Other antiplatelet drugs
+ 78. 7 Blood and electrolytes | Thrombolytics
+ 79. 7 Blood and electrolytes | Other drugs affecting haemostasis
+ 80. 7 Blood and electrolytes | Drugs for reversing anticoagulation
+ 81. 7 Blood and electrolytes | Erythropoietin agonists
+ 82. 7 Blood and electrolytes | Other drugs for anaemias
+ 83. 7 Blood and electrolytes | Drugs that chelate iron
+ 84. 7 Blood and electrolytes | Drugs for potassium imbalance
+ 85. 7 Blood and electrolytes | Phosphate binders
+ 86. 7 Blood and electrolytes | Other drugs for electrolyte imbalance
+ 87. 8 Dermatological | Corticosteroids (skin)
+ 88. 8 Dermatological | Tars
+ 89. 8 Dermatological | Other drugs for eczema
+ 90. 8 Dermatological | Immunosuppressants (psoriasis)
+ 91. 8 Dermatological | Other drugs for psoriasis
+ 92. 8 Dermatological | Retinoids (skin)
+ 93. 8 Dermatological | Retinoids (oral)
+ 94. 8 Dermatological | Other drugs for acne
+ 95. 8 Dermatological | Azoles (skin)
+ 96. 8 Dermatological | Other antifungals (skin)
+ 97. 8 Dermatological | Antibacterials (skin)
+ 98. 8 Dermatological | Antivirals (skin)
+ 99. 8 Dermatological | Scabicides and pediculicides
+100. 8 Dermatological | Drugs for warts
+101. 8 Dermatological | Drugs for actinic keratoses
+102. 8 Dermatological | Drugs for alopecia
+103. 8 Dermatological | Other dermatological drugs
+104. 9 Ear, nose and throat | Antibacterials (ear)
+105. 9 Ear, nose and throat | Corticosteroids with anti-infectives (ear)
+106. 9 Ear, nose and throat | Antiseptics (ear)
+107. 9 Ear, nose and throat | Cerumenolytics
+108. 9 Ear, nose and throat | Drugs for vestibular disorders
+109. 9 Ear, nose and throat | Oral decongestants
+110. 9 Ear, nose and throat | Intranasal decongestants
+111. 9 Ear, nose and throat | Corticosteroids (intranasal)
+112. 9 Ear, nose and throat | Antihistamines (intranasal)
+113. 9 Ear, nose and throat | Other drugs for rhinitis and sinusitis
+114. 9 Ear, nose and throat | Drugs for other nasal conditions
+115. 9 Ear, nose and throat | Drugs for mouth and throat conditions
+116. 10 Endocrine | Sulfonylureas
+117. 10 Endocrine | Dipeptidyl peptidase-4 inhibitors
+118. 10 Endocrine | Glucagon-like peptide-1 analogues
+119. 10 Endocrine | Sodium-glucose co-transporter 2 inhibitors
+120. 10 Endocrine | Other drugs for diabetes
+121. 10 Endocrine | Drugs for hypoglycaemia
+122. 10 Endocrine | Thyroid hormones
+123. 10 Endocrine | Antithyroid drugs
+124. 10 Endocrine | Other drugs for thyroid disorders
+125. 10 Endocrine | Bisphosphonates
+126. 10 Endocrine | Vitamin D
+127. 10 Endocrine | Other drugs affecting bone
+128. 10 Endocrine | Corticosteroids (adrenal insufficiency)
+129. 10 Endocrine | Gonadotrophin-releasing hormone agonists
+130. 10 Endocrine | Other drugs for infertility
+131. 10 Endocrine | Androgens
+132. 10 Endocrine | Antidiuretic hormone agonists and antagonists
+133. 10 Endocrine | Growth hormone
+134. 10 Endocrine | Nonselective alpha-blockers
+135. 10 Endocrine | Somatostatin analogues
+136. 11 Eye | Aminoglycosides (eye)
+137. 11 Eye | Quinolones (eye)
+138. 11 Eye | Other antibacterials (eye)
+139. 11 Eye | Antivirals (eye)
+140. 11 Eye | Beta-blockers (eye)
+141. 11 Eye | Prostaglandin analogues (eye)
+142. 11 Eye | Alpha2 agonists (eye)
+143. 11 Eye | Carbonic anhydrase inhibitors
+144. 11 Eye | Other drugs for glaucoma
+145. 11 Eye | Vasoconstrictors (eye)
+146. 11 Eye | Antihistamines (eye)
+147. 11 Eye | Mast cell stabilisers
+148. 11 Eye | NSAIDs (eye)
+149. 11 Eye | Corticosteroids (eye)
+150. 11 Eye | Other drugs for allergic eye conditions
+151. 11 Eye | Drugs for dry eyes
+152. 11 Eye | Anticholinergics (eye)
+153. 11 Eye | Other drugs for mydriasis
+154. 11 Eye | Local anaesthetics (eye)
+155. 12 Gastrointestinal | Antacids
+156. 12 Gastrointestinal | H2 antagonists
+157. 12 Gastrointestinal | Proton pump inhibitors
+158. 12 Gastrointestinal | Other drugs for ulcers
+159. 12 Gastrointestinal | Drugs affecting gastrointestinal motility
+160. 12 Gastrointestinal | Dopamine antagonists (antiemetic)
+161. 12 Gastrointestinal | 5HT3 antagonists
+162. 12 Gastrointestinal | Substance P antagonists
+163. 12 Gastrointestinal | Other drugs for nausea and vomiting
+164. 12 Gastrointestinal | Stool softeners
+165. 12 Gastrointestinal | Stimulant laxatives
+166. 12 Gastrointestinal | Osmotic laxatives
+167. 12 Gastrointestinal | Other laxatives
+168. 12 Gastrointestinal | Opioid antidiarrhoeals
+169. 12 Gastrointestinal | Other drugs for diarrhoea
+170. 12 Gastrointestinal | Corticosteroids (gastrointestinal)
+171. 12 Gastrointestinal | 5-Aminosalicylates
+172. 12 Gastrointestinal | Other drugs for inflammatory bowel disease
+173. 12 Gastrointestinal | Drugs for perianal disorders
+174. 12 Gastrointestinal | Other gastrointestinal drugs
+175. 13 Genitourinary | Anticholinergics (genitourinary)
+176. 13 Genitourinary | Other drugs for urinary incontinence
+177. 13 Genitourinary | Selective alpha-blockers (genitourinary)
+178. 13 Genitourinary | 5-Alpha-reductase inhibitors
+179. 13 Genitourinary | Phosphodiesterase 5 inhibitors
+180. 13 Genitourinary | Other drugs for sexual dysfunction
+181. 13 Genitourinary | Urinary alkalinisers and acidifiers
+182. 13 Genitourinary | Drugs for kidney stones
+183. 13 Genitourinary | Bladder instillations
+184. 14 Immunomodulators and antineoplastics | Alkylating agents
+185. 14 Immunomodulators and antineoplastics | Anthracyclines
+186. 14 Immunomodulators and antineoplastics | Antimetabolites
+187. 14 Immunomodulators and antineoplastics | Platinum compounds
+188. 14 Immunomodulators and antineoplastics | Taxanes
+189. 14 Immunomodulators and antineoplastics | Topoisomerase I inhibitors
+190. 14 Immunomodulators and antineoplastics | Vinca alkaloids
+191. 14 Immunomodulators and antineoplastics | Other cytotoxic antineoplastics
+192. 14 Immunomodulators and antineoplastics | Antineoplastic antibodies
+193. 14 Immunomodulators and antineoplastics | Kinase inhibitors
+194. 14 Immunomodulators and antineoplastics | Thalidomide analogues
+195. 14 Immunomodulators and antineoplastics | Other non-cytotoxic antineoplastics
+196. 14 Immunomodulators and antineoplastics | Anti-androgens
+197. 14 Immunomodulators and antineoplastics | Aromatase inhibitors
+198. 14 Immunomodulators and antineoplastics | GnRH agonists (oncology)
+199. 14 Immunomodulators and antineoplastics | Selective oestrogen receptor modulators
+200. 14 Immunomodulators and antineoplastics | Other hormonal antineoplastics
+201. 14 Immunomodulators and antineoplastics | Colony stimulating factors
+202. 14 Immunomodulators and antineoplastics | Other drugs used with antineoplastics
+203. 14 Immunomodulators and antineoplastics | Calcineurin inhibitors
+204. 14 Immunomodulators and antineoplastics | Corticosteroids (immunosuppressant)
+205. 14 Immunomodulators and antineoplastics | Immunosuppressant antibodies
+206. 14 Immunomodulators and antineoplastics | mTOR inhibitors
+207. 14 Immunomodulators and antineoplastics | Other immunosuppressants
+208. 14 Immunomodulators and antineoplastics | Interferons
+209. 15 Neurological | Barbiturates
+210. 15 Neurological | Benzodiazepines (neurology)
+211. 15 Neurological | Other antiepileptics
+212. 15 Neurological | Dopamine agonists (parkinsonism)
+213. 15 Neurological | Anticholinergics (parkinsonism)
+214. 15 Neurological | Monoamine oxidase type B inhibitors
+215. 15 Neurological | Other drugs for Parkinson's disease
+216. 15 Neurological | Triptans
+217. 15 Neurological | Calcitonin gene-related peptide antagonists
+218. 15 Neurological | Other drugs to prevent migraine
+219. 15 Neurological | Anticholinesterases in Alzheimer's disease
+220. 15 Neurological | Other drugs for Alzheimer's disease
+221. 15 Neurological | Drugs for multiple sclerosis
+222. 15 Neurological | Anticholinesterases in myasthenia gravis
+223. 15 Neurological | Drugs for other neurological conditions
+224. 16 Obstetric and gynaecological | Combined oral contraceptives
+225. 16 Obstetric and gynaecological | Progestogens
+226. 16 Obstetric and gynaecological | Other combined contraceptives
+227. 16 Obstetric and gynaecological | Intrauterine devices
+228. 16 Obstetric and gynaecological | Hormone replacement therapy
+229. 16 Obstetric and gynaecological | Drugs for heavy menstrual bleeding
+230. 16 Obstetric and gynaecological | Drugs for endometriosis
+231. 16 Obstetric and gynaecological | Drugs for preterm labour
+232. 16 Obstetric and gynaecological | Drugs in pre-eclampsia and eclampsia
+233. 16 Obstetric and gynaecological | Oxytocic drugs
+234. 16 Obstetric and gynaecological | Prostaglandins
+235. 16 Obstetric and gynaecological | Other drugs used in obstetrics
+236. 16 Obstetric and gynaecological | Drugs affecting lactation
+237. 16 Obstetric and gynaecological | Azoles (vaginal)
+238. 16 Obstetric and gynaecological | Other vaginal anti-infectives
+239. 16 Obstetric and gynaecological | Drugs for menstrual symptoms
+240. 17 Psychotropic | Monoamine oxidase inhibitors
+241. 17 Psychotropic | Selective serotonin reuptake inhibitors
+242. 17 Psychotropic | Tricyclic antidepressants
+243. 17 Psychotropic | Serotonin and noradrenaline reuptake inhibitors
+244. 17 Psychotropic | Other antidepressants
+245. 17 Psychotropic | Antipsychotics
+246. 17 Psychotropic | Drugs for bipolar disorder
+247. 17 Psychotropic | Benzodiazepines
+248. 17 Psychotropic | Non-amphetamine psychostimulants
+249. 17 Psychotropic | Orexin receptor antagonists
+250. 17 Psychotropic | Other drugs for anxiety and sleep disorders
+251. 17 Psychotropic | Psychostimulants
+252. 17 Psychotropic | Other drugs for attention deficit hyperactivity disorder
+253. 17 Psychotropic | Drugs for alcohol dependence
+254. 17 Psychotropic | Drugs for nicotine dependence
+255. 17 Psychotropic | Drugs for opioid dependence
+256. 17 Psychotropic | Other psychotropic drugs
+257. 18 Respiratory | Beta2 agonists
+258. 18 Respiratory | Anticholinergics (inhaled)
+259. 18 Respiratory | Theophyllines
+260. 18 Respiratory | Corticosteroids (inhaled)
+261. 18 Respiratory | Other drugs for asthma
+262. 18 Respiratory | Opioid cough suppressants
+263. 18 Respiratory | Mucolytics
+264. 18 Respiratory | Drugs used in cystic fibrosis
+265. 18 Respiratory | Pulmonary surfactants
+266. 18 Respiratory | Other respiratory drugs
+267. 19 Rheumatological | TNF-alpha antagonists
+268. 19 Rheumatological | Immunosuppressants (rheumatology)
+269. 19 Rheumatological | Other immunomodulating drugs
+270. 19 Rheumatological | Xanthine oxidase inhibitors
+271. 19 Rheumatological | Other drugs for gout
+272. 19 Rheumatological | NSAIDs
+273. 20 Vaccines | Vaccines
+274. 21 Miscellaneous | Specialised drugs
+275. 21 Miscellaneous | Blood products
+276. 21 Miscellaneous | Immunoglobulins
