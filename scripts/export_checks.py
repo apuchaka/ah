@@ -81,22 +81,47 @@ MANUAL = {
 
 HIGH = re.compile(r"dose|dosing|mg|mcg|IU|mL|threshold|rate|infusion|regimen|anaphylax|adrenaline|DKA|cerebral oedema|sensitis|anti-D|resuscitat|emergen", re.I)
 
-rows=[]
-for l in io.open('PENDING_GUIDELINE_CHECKS.md',encoding='utf-8'):
-    if not re.match(r"^\|\s*[AB]\d+\s*\|", l): continue
-    p=[c.strip() for c in l.strip().strip('|').split('|')]
-    if len(p)<4 or '⬜' not in p[-1]: continue
-    body=" | ".join(p[2:-1])
-    hits=[n for n,pat in SRC if re.search(pat, body)]
-    src = sorted(set(hits) | set(MANUAL.get(p[0], [])))
-    rows.append({"id":p[0],"files":p[1],"body":body,
-                 "src":src or ["Unassigned — read the row to route it"],
-                 "hi":bool(HIGH.search(body))})
+TRACKER = "PENDING_GUIDELINE_CHECKS.md"
 
-groups={}
-for r in rows:
-    for s in r["src"]: groups.setdefault(s,[]).append(r)
-order=sorted(groups, key=lambda k:(-len(groups[k]), k))
+
+def load_rows(tracker=TRACKER):
+    """Every OPEN (⬜) tracker row, with its routed source(s) and dose flag.
+
+    Shared with scripts/export_obsidian.py so the two exports cannot drift —
+    the routing and dose-flagging logic lives here once.
+    """
+    rows = []
+    for l in io.open(tracker, encoding="utf-8"):
+        if not re.match(r"^\|\s*[AB]\d+\s*\|", l): continue
+        p=[c.strip() for c in l.strip().strip('|').split('|')]
+        if len(p)<4 or '⬜' not in p[-1]: continue
+        body=" | ".join(p[2:-1])
+        hits=[n for n,pat in SRC if re.search(pat, body)]
+        src = sorted(set(hits) | set(MANUAL.get(p[0], [])))
+        rows.append({"id":p[0],"files":p[1],"body":body,
+                     "src":src or ["Unassigned — read the row to route it"],
+                     "hi":bool(HIGH.search(body))})
+
+    return rows
+
+
+def group_rows(rows):
+    """source name -> [rows]. A row naming several sources appears under each."""
+    groups = {}
+    for r in rows:
+        for s in r["src"]:
+            groups.setdefault(s, []).append(r)
+    return groups
+
+
+def priority_order(groups):
+    """Sources ordered largest-first — the order both exports present."""
+    return sorted(groups, key=lambda k: (-len(groups[k]), k))
+
+
+rows = load_rows()
+groups = group_rows(rows)
+order = priority_order(groups)
 
 def md(t):
     t=html.escape(t)
@@ -213,13 +238,14 @@ Rows marked <em>dose or threshold</em> carry a number that changes what a patien
 Where a row says a figure was <em>removed rather than replaced</em>, the corpus now states no number at that point, so the entry is safe to read but incomplete until checked.</footer>
 </div>
 """
-_ap = argparse.ArgumentParser()
-_ap.add_argument("--out", default="guideline-checks.html")
-_args = _ap.parse_args()
-io.open(_args.out, "w", encoding="utf-8").write(page)
-_unrouted = [r["id"] for r in rows if r["src"] == ["Unassigned — read the row to route it"]]
-if _unrouted:
-    print("WARNING: %d row(s) matched no source and are not in MANUAL: %s"
-          % (len(_unrouted), ", ".join(_unrouted)))
-print("rows: %d | sources: %d | dose/threshold: %d" % (len(rows), len(secs), nhi))
-print("wrote", _args.out)
+if __name__ == "__main__":
+    _ap = argparse.ArgumentParser()
+    _ap.add_argument("--out", default="guideline-checks.html")
+    _args = _ap.parse_args()
+    io.open(_args.out, "w", encoding="utf-8").write(page)
+    _unrouted = [r["id"] for r in rows if r["src"] == ["Unassigned — read the row to route it"]]
+    if _unrouted:
+        print("WARNING: %d row(s) matched no source and are not in MANUAL: %s"
+              % (len(_unrouted), ", ".join(_unrouted)))
+    print("rows: %d | sources: %d | dose/threshold: %d" % (len(rows), len(secs), nhi))
+    print("wrote", _args.out)
