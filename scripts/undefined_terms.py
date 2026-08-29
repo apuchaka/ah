@@ -110,8 +110,6 @@ def definitional_sites(term, files):
         # inline at their main use site; none matched header/bold/callout/"X is".
         # Expansion-then-acronym is unambiguous, so it is matched directly:
         #   "pancreatic enzyme replacement therapy (PERT)"
-        ("expansion",   re.compile(
-            r"[A-Za-z][\w'’/-]*(?:[ /-][A-Za-z][\w'’/-]*){1,7}\s*\(\s*%s\s*\)" % t)),
     ]
     sites = []
     for f in files:
@@ -122,7 +120,7 @@ def definitional_sites(term, files):
                 sites.append((f["name"], kind, line))
                 break
         else:
-            hit = acronym_expansion(term, f["raw"])
+            hit = expansion_site(term, f["raw"])
             if hit:
                 sites.append((f["name"], "expansion", hit))
     return sites
@@ -137,19 +135,65 @@ def definitional_sites(term, files):
 _EXPANSION_STOP = {"a", "an", "the", "of", "and", "or", "in", "for", "to", "with"}
 
 
-def acronym_expansion(term, raw, threshold=0.6):
-    letters = set(re.sub(r"[^A-Za-z]", "", term).upper())
-    if len(letters) < 2:
+def expansion_site(term, raw):
+    """Line number where `term` is glossed by a parenthetical, either way round.
+
+    Both directions are ANCHORED on the term, which is rare, then look at a
+    bounded window beside it. The first version instead searched for a generic
+    run of 1-7 words followed by "(TERM)", which backtracks catastrophically on
+    non-matching prose and took the full-corpus run from seconds to over eight
+    minutes. Anchor on the rare token, never on the common one.
+
+    Both directions ALSO apply the initial-overlap test. The first version
+    applied it only to acronym-then-parenthetical, on the assumption that
+    "words (ACRONYM)" is unambiguous. It is not: the corpus contains
+    "Tuberculous meningitis (CNS)" and "haemodynamic changes (HTN)", where the
+    parenthetical is a category label, not an expansion. Both were wrongly
+    dismissed until this test was applied in both directions.
+    """
+    letters = _acronym_letters(term)
+    if not letters:
         return None
+    # expansion-then-acronym: "pancreatic enzyme replacement therapy (PERT)"
+    for m in re.finditer(r"\(\s*%s\s*\)" % re.escape(term), raw):
+        before = raw[max(0, m.start() - 120):m.start()].rsplit("\n", 1)[-1]
+        words = _content_words(before)[-len(letters):]
+        if _initials_cover(words, letters):
+            return raw.count("\n", 0, m.start()) + 1
+    # acronym-then-expansion: "CT-TAP (chest/abdomen/pelvis)"
     for m in re.finditer(r"\b%s\b\s*\(([^)\n]{3,70})\)" % re.escape(term), raw):
-        words = [w for w in re.split(r"[\s/,-]+", m.group(1))
-                 if w and w.lower() not in _EXPANSION_STOP and w[0].isalpha()]
-        if not words:
-            continue
-        covered = sum(1 for w in words if w[0].upper() in letters)
-        if covered / len(words) >= threshold:
+        if _initials_cover(_content_words(m.group(1)), letters):
             return raw.count("\n", 0, m.start()) + 1
     return None
+
+
+# Words that carry no initial worth matching against an acronym's letters.
+_EXPANSION_STOP = {"a", "an", "the", "of", "and", "or", "in", "for", "to", "with", "see"}
+
+
+def _acronym_letters(term):
+    letters = set(re.sub(r"[^A-Za-z]", "", term).upper())
+    return letters if len(letters) >= 2 else set()
+
+
+def _content_words(text):
+    return [w for w in re.split(r"[\s/,()\[\]-]+", text)
+            if w and w[0].isalpha() and w.lower() not in _EXPANSION_STOP]
+
+
+def _initials_cover(words, letters, threshold=0.6):
+    """True if enough of `words` start with a letter the acronym contains.
+
+    Deliberately loose about ORDER and about unmatched acronym letters, so that
+    "CT-TAP (chest/abdomen/pelvis)" passes. Tight about the reverse: a
+    parenthetical whose words mostly do NOT correspond to the acronym's letters
+    is a qualifier, not an expansion -- "MART (moderate dose ICS)" fails, which
+    is what keeps a real gap visible.
+    """
+    if not words:
+        return False
+    covered = sum(1 for w in words if w[0].upper() in letters)
+    return covered / len(words) >= threshold
 
 
 def candidate_terms(files, min_uses):
