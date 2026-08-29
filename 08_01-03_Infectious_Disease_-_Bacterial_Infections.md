@@ -65,7 +65,7 @@ source: quackquackmed 08.01-08.03 Bacterial infections
 - **Ix:** culture of throat swab (Loeffler's media) (*why:* the key diagnostic test; *what:* confirms *C. diphtheriae*, though treatment shouldn't wait for culture confirmation if the clinical picture — membrane, bull neck — is convincing, given the toxin-mediated complications develop early).
 - **Mx:**
   - **Immediate/acute:** diphtheria antitoxin — the priority, given it neutralises circulating (not yet cell-bound) toxin, similarly time-critical to botulism antitoxin above; airway assessment/management given the membrane can cause obstruction.
-  - **Definitive:** IM penicillin (or erythromycin) to eradicate the organism and halt further toxin production; isolation and contact tracing given this is a notifiable, highly transmissible disease.
+  - **Definitive:** IM penicillin (or erythromycin) to eradicate the organism and halt further toxin production; isolation and contact tracing given this is a notifiable, highly transmissible disease. **Antitoxin and antibiotic are both given — they are not alternatives.** The only antitoxin dose in the corpus (10–30k U IM) sits in [[15_04a_Paeds_-_URTI_and_LRTI]] Diphtheria and is unverified; see `PENDING_GUIDELINE_CHECKS.md` **B57**.
 
 ## Escherichia coli
 

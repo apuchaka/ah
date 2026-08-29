@@ -42,7 +42,8 @@ source: quackquackmed 15.04 Respiratory disorders - URTI and LRTI in children
 - Risk: visitors to Eastern Europe, Russia, Asia; homeless/refugee status; unimmunised; age 3–6; "asocial" families.
 - **S/Smx:** sore throat with a "diphtheric membrane" (grey pseudomembrane on the posterior pharyngeal wall); bulky cervical lymphadenopathy ("bull neck"); polyneuritis (often starts with cranial nerves); heart block, can cause shock — if ↑HR out of proportion to fever, suspect myocarditis.
 - **Ix:** culture of throat swab (Loeffler's media).
-- **Mx:** diphtheria antitoxin (10–30k U IM) or 7 days of oral erythromycin suspension before swab results are known.
+- **Mx:** diphtheria antitoxin (10–30k U IM) **plus** 7 days of oral erythromycin suspension, both started before swab results are known — **not either/or.** The two do different jobs: **antitoxin neutralises circulating toxin that has not yet bound to cells**, which is why it is time-critical, while **the antibiotic eradicates the organism and stops further toxin being produced**. Giving only one leaves the other job undone.
+  - Corrected from "or" by the pairs audit (2026-08-29): [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Diphtheria already had the sequence right (antitoxin immediate, antibiotic definitive) and this entry framed them as alternatives. The **antitoxin dose is stated only here** and is unverified — see `PENDING_GUIDELINE_CHECKS.md` **B57**.
 
 ### Stridor — differential diagnosis
 
