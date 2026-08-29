@@ -422,6 +422,24 @@ source: quackquackmed 05 Ophthalmology
 
 ---
 
+## Stye (Hordeolum) and Chalazion
+
+> [!note] Gap-filled from CSV ("Eyelid disorders," Ophthalmology category, Low yield) — the **only** MISSING candidate the Ophthalmology cross-check produced, and a genuine one: blepharitis and entropion/ectropion are both built below and above, but the two commonest eyelid lumps were absent entirely. Low yield, so built compactly.
+
+| | **Stye (hordeolum)** | **Chalazion** |
+|---|---|---|
+| **What it is** | **Acute infection** of an eyelash follicle (external) or a meibomian gland (internal) | **Sterile granuloma** from a blocked meibomian gland — the blockage, not an infection |
+| **S/Smx** | Painful, red, tender lump at the lid margin; points and often discharges | **Painless** (or mildly uncomfortable), firm, rubbery lump in the lid *body* rather than at the margin |
+| **Mx** | Warm compresses; lid hygiene. Antibiotics are **not** routinely needed — topical only if there is associated conjunctivitis or spreading infection | Warm compresses and massage; most resolve over weeks to months. Persistent or cosmetically troubling lesions → ophthalmology for incision and curettage |
+
+> [!tip] **The distinction that decides management is pain and position.** Painful and at the margin → stye, infective, settles quickly. Painless and in the lid body → chalazion, a blocked gland, slow. The common error is treating a chalazion with antibiotics, which does nothing because there is no infection to treat.
+
+> [!danger] **The one that is not either of these.** A recurrent lesion **at the same site**, one that distorts the lid margin, or one with **loss of eyelashes**, needs specialist assessment for **sebaceous gland carcinoma**, which characteristically masquerades as a recurrent chalazion. Recurrence at the same spot is the flag — not the first episode.
+
+**Cross-reference:** see Blepharitis above for the chronic lid-margin inflammation that predisposes to both, not repeated here.
+
+---
+
 ## Entropion and Ectropion
 
 **Entropion:** in-turning of (usually the lower) eyelid → eyelashes irritate the cornea. >40yo. Mx: taping the eyelid, botulinum toxin injection, surgery.
@@ -515,7 +533,13 @@ source: quackquackmed 05 Ophthalmology
 **Ix:** OCT to visualise the macula (*why:* the key modern imaging test, directly visualising retinal layers and identifying fluid/oedema characteristic of wet AMD; *what:* identifies sub-/intra-retinal fluid in wet AMD, drusen and retinal thinning in dry AMD). Slit-lamp microscopy (*why:* assesses for pigmentary, exudative, or haemorrhagic retinal changes as part of the clinical exam; *what:* may show these changes directly). Colour fundus photography (*why:* provides an objective baseline to track progression over time, particularly useful for monitoring dry AMD; *what:* documents drusen distribution/macular appearance for future comparison). Fluorescein angiography if neovascular AMD suspected (*why:* identifies and characterises the choroidal neovascular membrane, directly guiding anti-VEGF treatment decisions; *what:* leakage pattern confirms and localises active neovascularisation). Indocyanine green angiography (*why:* visualises the choroidal circulation specifically, complementing fluorescein angiography particularly for certain neovascular patterns; *what:* identifies choroidal vascular abnormalities not always well seen on fluorescein angiography alone).
 
 **Mx:**
-- **Immediate/acute (wet AMD specifically):** anti-VEGF started within 2 months of diagnosis (e.g. bevacizumab, administered every 4 weeks via infusion) — genuinely time-sensitive given the rapid vision loss wet AMD can cause if untreated.
+- **Immediate/acute (wet AMD specifically):** **anti-VEGF** started within 2 months of diagnosis, given by **intravitreal injection** roughly every 4 weeks initially — genuinely time-sensitive given the rapid vision loss wet AMD can cause if untreated.
+
+> [!danger] **Route correction (M9, 2026-08-29): anti-VEGF for wet AMD is an intravitreal *injection*, not an infusion.** The entry previously said "administered every 4 weeks via infusion". Bevacizumab is given intravenously in oncology, which is likely where the error came from — but in the eye the drug is injected directly into the vitreous, and describing it as an infusion would have a candidate explain the wrong procedure to a patient facing a needle into their eye.
+>
+> **VEGF = vascular endothelial growth factor**, and the mechanism is the whole reason this treatment works: wet AMD *is* abnormal choroidal neovascularisation, VEGF is the signal driving that new vessel growth, so blocking VEGF addresses the cause rather than the consequence. That is also why it must be repeated — the drug is cleared and the stimulus returns.
+>
+> **In Australian practice, ranibizumab and aflibercept are the PBS-listed intravitreal agents; bevacizumab is used off-label** and is not the default example to quote. See `PENDING_GUIDELINE_CHECKS.md` **B40**.
 - **Definitive/chronic (dry AMD):** zinc + multivitamins (decreases progression) — a disease-modifying rather than curative intervention, aimed at slowing rather than reversing the degenerative process.
 - **Chronic/long-term:** laser photocoagulation as an alternative/adjunct option in select cases.
 
