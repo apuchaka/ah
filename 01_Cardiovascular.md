@@ -706,10 +706,12 @@ Systemic IgE-mediated hypersensitivity — massive mast cell degranulation → i
 **Mx:**
 - **Immediate/acute:**
 
-> [!danger] Adrenaline 1:1000 IM injection
-> - Adults and >12yo: 0.5 mL (500 mcg)
-> - 6–12yo: 0.3 mL (300 mcg)
-> - 6mo–6yo: 0.15 mL (150 mcg)
+> [!danger] **Adrenaline 1:1000 IM injection — ASCIA weight-and-age criteria** (corrected during the L3 seam audit; this box previously gave the superseded pure age-band split)
+> - **>50 kg and ≥12 years: 0.5 mL (500 mcg)** — the adult dose
+> - **>20 kg and ≥5 years: 0.3 mL (300 mcg)**
+> - **7.5–20 kg and ≤5 years: 0.15 mL (150 mcg)**
+>
+> Overall rule: **0.01 mg/kg up to a maximum of 0.5 mg**. See [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis for the full entry, and [[15_01b_Paeds_-_Anaphylaxis]] for the paediatric-specific observation criteria — the ASCIA correction from age bands to weight-and-age was made in that file and had not been carried across to here.
 > - <6mo: 0.1–0.15 mL (100–150 mcg)
 > - Repeat every 5 min if necessary
 > - IM injection into anterolateral thigh (if using an Epipen — count "3 elephants")

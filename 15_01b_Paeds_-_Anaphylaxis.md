@@ -10,7 +10,7 @@ source: quackquackmed 15.01 Anaphylaxis in children
 - **Dx:** sudden onset, life-threatening problem involving airway, breathing, or circulation, and in ~80% skin changes.
 - Once suspected, the chief priority is IM adrenaline — strength 1:1000. Best site is the anterolateral aspect of the middle third of the thigh.
 
-> [!info] Verified against current ASCIA (Australasian Society of Clinical Immunology and Allergy) Acute Management of Anaphylaxis guidelines, Aug 2026 — **IM adrenaline dosing is weight-based in current Australian guidance, not the simple 3-tier age-band split previously in this note**: 150mcg for approximately 7.5–20kg, 300mcg for ≥20kg, stepping up to 300mcg or 500mcg from around 12 years old/>50kg — see [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis for the exact current thresholds already verified there, not repeated here. Repeat every 5 minutes if inadequate response, consistent with the original note.
+> [!info] Verified against current ASCIA (Australasian Society of Clinical Immunology and Allergy) Acute Management of Anaphylaxis guidelines, Aug 2026 — **IM adrenaline dosing is weight-based in current Australian guidance, not the simple 3-tier age-band split previously in this note**: 150mcg for approximately 7.5–20kg, 300mcg for ≥20kg, stepping up to 300mcg or 500mcg from around 12 years old/>50kg — the full ASCIA dose table (weight **and** age criteria, 0.01 mg/kg to a maximum of 0.5 mg) is set out in [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis. Repeat every 5 minutes if inadequate response, consistent with the original note.
 
 ### Refractory anaphylaxis
 
