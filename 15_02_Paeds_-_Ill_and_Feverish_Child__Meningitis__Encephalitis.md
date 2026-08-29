@@ -29,7 +29,7 @@ source: quackquackmed 15.02 The ill and feverish child, Meningitis, Encephalitis
 
 - If herpes simplex encephalitis is suspected, give IV aciclovir.
 - If >3 months old with confirmed bacterial meningitis, give IV corticosteroids.
-- Children with fever >5 days should be assessed by a paediatrician for Kawasaki disease.
+- Children with fever >5 days should be assessed by a paediatrician for Kawasaki disease (see [[15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs]] Kawasaki disease).
 
 ## Meningitis
 

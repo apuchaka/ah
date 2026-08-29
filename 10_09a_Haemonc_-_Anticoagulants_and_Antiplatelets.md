@@ -64,7 +64,7 @@ source: quackquackmed 10.09 Anticoagulants, Antiplatelets, Tranexamic acid
 - **MOA:** blocks COX1 and COX2 enzymes → ↓prostaglandin, prostacyclin, and thromboxane synthesis → ↓platelet aggregation.
 - **Indications:** first line for ischaemic heart disease (ACS prevention).
 
-> [!danger] Contraindicated in children <16 years old due to risk of Reye's syndrome — except in Kawasaki disease.
+> [!danger] Contraindicated in children <16 years old due to risk of Reye's syndrome — except in Kawasaki disease (see [[15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs]] Kawasaki disease).
 
 - **SE:** as per NSAIDs; also potentiates the effects of oral hypoglycaemics, warfarin, steroids.
 

@@ -15,7 +15,7 @@ source: quackquackmed 12.04 Vasculitis - GPA, EGPA, GCA, Takayasu, Microscopic p
 
 > [!info] Classification by vessel size
 > - **Large-vessel:** Takayasu's arteritis; giant cell arteritis.
-> - **Medium-vessel:** polyarteritis nodosa; Kawasaki disease.
+> - **Medium-vessel:** polyarteritis nodosa; Kawasaki disease (see [[15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs]] Kawasaki disease).
 > - **Small-vessel:** granulomatosis with polyangiitis (Wegener's); microscopic polyangiitis; eosinophilic granulomatosis with polyangiitis (Churg-Strauss); cryoglobulinaemic vasculitis; Henoch-Schönlein purpura; leukocytoclastic angiitis.
 > - **Variable-vessel:** Cogan syndrome; Behçet's disease.
 > - **Single-organ:** cutaneous leukocytoclastic angiitis; cutaneous arteritis; primary CNS vasculitis; isolated aortitis.
@@ -103,7 +103,7 @@ source: quackquackmed 12.04 Vasculitis - GPA, EGPA, GCA, Takayasu, Microscopic p
 - **Ix:** pANCA positive in 50–75%, cANCA positive in 40%.
 - **Mx:** the same general ANCA-associated vasculitis treatment approach as GPA above (corticosteroids + cyclophosphamide or rituximab for remission induction in severe/organ-threatening disease, given microscopic polyangiitis shares the same small-vessel ANCA-associated mechanism, distinguished from GPA mainly by the absence of granulomatous inflammation and upper respiratory tract involvement) — not repeated here; plasma exchange may be considered for severe renal involvement or pulmonary haemorrhage, analogous to its use in GPA.
 
-## Henoch-Schönlein purpura (HSP)
+## Henoch-Schönlein purpura (HSP, IgA vasculitis)
 
 - **D:** IgA-mediated small vessel vasculitis. Associated with IgA nephropathy.
 - **S/Smx:** palpable purpuric rash (+ localised oedema) over the buttocks and extensor surfaces of the arms and legs; abdominal pain; polyarthritis; ± IgA nephropathy (haematuria, AKI).

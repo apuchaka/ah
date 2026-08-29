@@ -95,4 +95,4 @@ source: quackquackmed 15.14 Haem-onc disorders - Anaemia, Iron deficiency, Sickl
 - **P:** abdominal pain usually settles within a few days. Patients without kidney involvement can recover in 4–6 weeks. 1/3 of patients recur within 9 months (more common in older patients, generally milder). Very rarely, ESRD (5%).
 - **Complications:** intussusception, massive GI bleeds, AKI (rare).
 
-*(See [[12_04_Rheum_-_Vasculitis]] Henoch-Schönlein purpura (HSP) for the broader vasculitis classification this fits into, not repeated here.)*
+*(See [[12_04_Rheum_-_Vasculitis]] Henoch-Schönlein purpura (HSP, IgA vasculitis) for the broader vasculitis classification this fits into, not repeated here.)*

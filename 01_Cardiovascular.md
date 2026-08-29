@@ -1258,7 +1258,7 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 
 > [!info] Verified — 12-month DAPT duration post-ACS/PCI is standard in Australian cardiac society guidance as well as international (ESC/ACC) guidelines; no change needed to the table above.
 
-**Aspirin:** MOA — irreversible COX1/2 inhibitor. Do not use in <16yo (risk of Reye's syndrome, except in Kawasaki disease). Continue aspirin through CABG.
+**Aspirin:** MOA — irreversible COX1/2 inhibitor. Do not use in <16yo (risk of Reye's syndrome, except in Kawasaki disease — see [[15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs]] Kawasaki disease). Continue aspirin through CABG.
 
 > [!info] Verified against ANZCA/2022 CHEST guideline evidence (cross-referenced from [[03a_Anaesthetics_Primer]] Pre-op instructions, where this was independently researched) — resolving the earlier open flag here: current evidence-based perioperative practice increasingly favours **continuing** aspirin through elective non-cardiac surgery by default, rather than a fixed pre-op cessation window. This is a genuine shift from the older British Society for Haematology-style "stop 3 days before" advice — the low bleeding-risk increment from continuing aspirin is generally judged not to outweigh the thrombotic risk of stopping it, for most elective non-cardiac procedures. High-bleeding-risk procedures (e.g. neurosurgery, some ophthalmic surgery) remain an exception where surgeon/anaesthetist-specific guidance should be followed. See [[03a_Anaesthetics_Primer]] Pre-op instructions for the fuller perioperative antiplatelet/anticoagulant picture (DOACs, warfarin, P2Y12 inhibitors) — not repeated here to avoid the two files drifting out of sync again.
 
