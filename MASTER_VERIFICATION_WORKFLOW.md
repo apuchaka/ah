@@ -163,7 +163,7 @@ Three rows closed. **Steps 5, 6, 10 and 18 applied during each build rather than
 >
 > **The two real gaps were of a kind this scan cannot find, and that is the durable lesson.** It asks *"is this term defined **anywhere** in the corpus?"* — not *"is it defined **where the reader meets it**?"* MART was expanded only in the paediatric file while the adult entry carries the primary asthma content; VZIG was expanded at one of its three use sites. Both were found by **reading the use sites**, not by the scan, and both would be dismissed by it today. **A term dismissed by `undefined_terms.py` may still be undefined in the file a reader actually opens.** Until a per-file mode exists, the substitute is manual: when a term recurs across files, check the file that owns the topic, not just whether some file somewhere glosses it.
 
-> [!warning] **A fifth proven-wrong status claim, and a failure mode with a new shape: the PARTIAL verification box.** Found in the M2 propagation check, 2026-08-29.
+> [!warning] **The PARTIAL verification box — now confirmed twice, in unrelated files.** Found in the M2 propagation check and again in the M8 scope audit, 2026-08-29. **The second instance settles that this is a pattern, not a one-off:** `02_Respiratory` gave the **UK 3HR latent-TB regimen** underneath a box verifying the **active-TB RIPE** regimen — accurate about RIPE, silent about latent TB, and read as covering both.
 >
 > `15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md` opens with *"Verified against current ANZCOR Guideline 12.2 — Paediatric Advanced Life Support… the core drug doses and defibrillation energy below already exactly match current ANZCOR recommendations."* **That statement is true.** The doses do match, exactly. But the algorithm table underneath it gave adrenaline **after the 3rd shock**, which is UK/ERC practice — **ANZCOR gives the first dose after the 2nd**, in children as in adults. The box verified the *doses* and not the *timing*, in a table containing both.
 >
@@ -210,9 +210,9 @@ All 29 rows resolved: **19 built**, **7 confirmed already covered** in the origi
 | M3 | 03_Gastrointestinal.md | ✅ 2026-08-29 — liver severity scores given their interpretation (the section was two lists of variables); **MELD and TIPSS defined for the first time in the corpus**. |
 | M4 | 06_Metabolic_Medicine_and_Endocrinology.md | ✅ 2026-08-29 — **DDAVP defined** and the water deprivation test given its logic. ABPI confirmed adequately built in `01_Cardiovascular` §0.35.2. |
 | M5 | 07_Renal_Medicine_and_Urology.md | ✅ 2026-08-29 — **MPAA expanded** at first use in the KDIGO lupus nephritis regimen (a drug name, not a label). |
-| M6 | Examination.md | 🔶 (received real work via M1's Newborn Exam find) |
-| M7 | History-Taking.md | ⬜ |
-| M8 | 02_Respiratory.md | ⬜ |
+| M6 | Examination.md | ✅ 2026-08-29 — verification-box scope audit: only one `Verified` box exists and it is the **correct pattern**, stating its own scope limit. HINTS confirmed built to the standard the scoring-tool entries elsewhere needed fixing to reach. One consistency fix (a DNACPR citation my own M-round fix had failed to propagate). |
+| M7 | History-Taking.md | ✅ 2026-08-29 — **carries zero verification boxes**, which is accurate rather than a gap: its content is technique, not guideline-dependent fact. Acronym check clean. CHECK A/B hits all expected for a history file (a history gathers, it does not diagnose or manage). |
+| M8 | 02_Respiratory.md | ✅ 2026-08-29 — **second partial-verification-box instance**: the latent TB regimen was the UK 3HR, sitting under a box that verifies only active-TB RIPE. Corrected to 6–9H / 4R (B38). Asthma and ethambutol boxes audited and dismissed with reasons. |
 | M9 | 05_Ophthalmology.md | ⬜ |
 | M10 | Investigation-Interpretation.md | 🔶 (received real work via M1's CT Head find) |
 
