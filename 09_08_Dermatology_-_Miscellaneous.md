@@ -74,6 +74,8 @@ source: quackquackmed 09.08 Miscellaneous - Pemphigus, Bullous pemphigoid, Insec
 - **Mx:**
   - **Immediate/acute (symptomatic disease):** potent topical corticosteroids first-line for skin lesions — see [[09_04_Dermatology_-_Eczema__Psoriasis__Rosacea]] Steroid Creams for the general potency/duration principles, not repeated here; topical corticosteroids or calcineurin inhibitors for oral disease specifically.
   - **Definitive:** the condition is often self-limiting over 1–2 years for cutaneous disease, though oral and nail disease can be more persistent/chronic; more extensive or refractory disease may need phototherapy or systemic immunosuppression (e.g. oral corticosteroids, retinoids) under specialist guidance.
+
+> [!note] See [[17_07_Vulval_Problems__Genital_Warts_and_Herpes__Vulval_Carcinoma]] Lichen planus for the **vulvovaginal** form, which differs in ways that change management: it is **painful and erosive** rather than itchy, and it **scars** — so treatment there includes graded dilators to prevent adhesions and stenosis, not topical steroid alone.
   - **Chronic/long-term:** oral lichen planus specifically carries a small but recognised risk of malignant transformation to oral squamous cell carcinoma, warranting periodic monitoring/review — a genuinely important long-term surveillance point distinct from the generally benign course of cutaneous disease alone.
 
 ## Insect bites

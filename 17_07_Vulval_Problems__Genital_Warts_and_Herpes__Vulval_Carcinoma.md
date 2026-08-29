@@ -60,7 +60,9 @@ source: quackquackmed 17.07 Vulval Problems, Genital Warts and Herpes, Vulval Ca
 
 **Mx**: topical potent corticosteroid; tacrolimus.
 
-> [!tip] American College of O&G recommends graded vaginal dilators alongside treatment to prevent vaginal adhesions and stenosis.
+> [!tip] **Graded vaginal dilators alongside topical treatment**, to prevent the adhesions and stenosis that erosive vulvovaginal lichen planus can cause — the scarring is the outcome that matters long-term, and treating the inflammation without addressing it can leave a structurally narrowed vagina after the disease is controlled. *(This recommendation is attributed to **ACOG, a United States college**; no equivalent RANZCOG statement was identified. The practice is standard and not jurisdictionally contentious, but the attribution is US and is labelled as such rather than presented as the local position.)*
+
+> [!note] See [[09_08_Dermatology_-_Miscellaneous]] Lichen planus for the cutaneous form — the "6 Ps" morphology, distribution and natural history (often self-limiting over 1–2 years) — which this vulvovaginal entry does not repeat. Note the two differ in emphasis for a real reason: cutaneous disease is typically **itchy**, while the vulval/oral form is characteristically **painful and erosive**, and it is the erosive form that scars.
 
 ---
 
