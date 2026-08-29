@@ -174,6 +174,16 @@ Three rows closed. **Steps 5, 6, 10 and 18 applied during each build rather than
 >
 > **The rule this produces: a verification box must say what it did NOT check.** Every existing "Verified against…" box in this corpus should be read as covering only the dimension it names — dose, or threshold, or sequence, or eligibility — and never the whole block beneath it. There are roughly a hundred such boxes and this is not a scannable property: a box's scope is a matter of what its author had in mind. **Where a box sits above a table, check each column independently.**
 
+> [!info] **Same-topic-different-heading sweep — the seam the pair check cannot see (2026-08-29).**
+> `check_structure.sh` pairs files by identical `##` headers. **Topics split across files under *different* headings are invisible to it**, and that is where two of Phase 4's findings lived: the **two NIP vaccination schedules** (`08_01-03` vs `15_24b`, two discrepancies) and **Centor** (an `###` section in `08_01-03` vs a callout in `13_05a`, the ARF caveat present in only one).
+>
+> **Three further candidates were checked by hand and are clean** — recorded so they are not re-done:
+> - **`08_04` antibiogram vs the disease files' regimens** — no conflict, because `08_04` makes *no* empirical first-line claims. Its box says explicitly that the chart tells you what a drug *can* cover, not what to prescribe. **This is the model scoped box in the corpus.**
+> - **Obstetric emergencies split across `16_14-15` and `16_10-13`** — deliberate and coherent: praevia/accreta/vasa in the labour file, abruption in the emergencies file, with the distinguishing box (painless praevia vs painful abruption) sited in the praevia entry where the differential actually arises, and cross-referenced across.
+> - **Palliative prescribing (`10_11c`) vs pain (`03a`)** — no conflict: `03a` names opioid classes and the WHO ladder but gives **no doses or conversions**, deferring to `10_11c`, which owns them behind an explicit "figures are illustrative only" danger box.
+>
+> **The generalisable rule:** where two files could reasonably own a topic, the safe pattern is **one owner for the numbers and pointers from everywhere else** — which all three of these do, and which the anaphylaxis pair did not.
+
 > [!warning] **The conflation pattern, now confirmed eight times.** The root is the same each time: *the corpus can reference something enough to look covered while never containing it.* SNAP was mentioned as a risk factor · sensitivity/specificity was applied to eight tests but never defined · documentation was instructed across a dozen entries but never specified · **"chaperone" appears 8× in `Examination.md`, every instance a procedural line inside an examination sequence, with professional boundaries never taught** · **"raise a safeguarding concern" is instructed in four entries with the conversation never taught anywhere** · **"refer to X" appears in over a hundred entries with the how-to nowhere** · **six immunoglobulin products are prescribed with doses and deadlines — VZIG, anti-D, tetanus, rabies, RhD, normal — while *passive immunisation* had zero corpus hits, so nothing said what class of thing they are or why the time windows exist** (found 2026-08-29 in the abbreviation triage) · **the STI check: `08_08` builds thirteen organisms in detail, and "offer testing for other STIs" / "comprehensive STI screen" / "STI screen (as indicated)" is instructed across four files, while nothing anywhere specified what an STI screen consists of** (N7, 2026-08-28 — the clearest instance yet, because the depth of the surrounding organism entries is exactly what made the absence invisible).
 >
 > **The check that works is not "does this term appear" but "does an entry actually teach this."** Apply it to every remaining row, and to any row this document records as covered.
@@ -801,11 +811,11 @@ Run the listed number, then reassess — if a run comes back with genuinely noth
 
 | # | Prompt | Est. runs | Why |
 |---|---|---|---|
-| L1 | `verify: 08_09_Infectious_Disease_-_Miscellaneous.md` | 3 | Extensive prior work |
-| L2 | `verify: 16_01-05_Antenatal_Care.md` | 4 | Moderate prior work |
-| L3 | `verify: 09_08_Dermatology_-_Miscellaneous.md` | 3 | Extensive prior work |
-| L4 | `verify: 08_01-03_Infectious_Disease_-_Bacterial_Infections.md, 08_04_Infectious_Disease_-_Antibiogram.md` | 3 | Extensive prior work |
-| L5 | `verify: 08_05-06_Infectious_Disease_-_Viral_Infections.md, 08_10_Infectious_Disease_-_Diarrhoea_DDx_and_Gastroenteritis.md` | 3 | Extensive prior work |
+| L1 | `verify: 08_09_…` | ✅ 2026-08-29 | **Hyposplenism had no Mx at all** in the file that owns it (`10_09b`) while the verified regimen sat in `08_09` under a splenectomy framing. Built + routed. |
+| L2 | `verify: 16_01-05_Antenatal_Care.md` | ✅ 2026-08-29 | **Blanket "all … verified" box contradicted two "not verified" flags in its own file** — flags I had added. Fixed; all 13 file-level localisation boxes swept, this was the only one claiming everything. |
+| L3 | `verify: 09_08_…` | ✅ 2026-08-29 | File itself clean (no verification boxes, no positional refs). Its seam was not: triggered the **duplicate-pair consistency sweep**, which found the anaphylaxis circular reference (B43). |
+| L4 | `verify: 08_01-03_…, 08_04_Antibiogram` | ✅ 2026-08-29 | **Two NIP schedules disagreed** (meningococcal Year 7 vs Year 10 — fixed; Hib 12 vs 18 months — flagged, B47). `08_04`'s box recorded as the **model** for scoped verification. |
+| L5 | `verify: 08_05-06_…, 08_10_…` | ✅ 2026-08-29 | **Centor given as a bare rule with no ARF caveat** in the ID file while `13_05a` carried the caveat (B48) — highest-equity-stakes seam found. Acronym-component check run corpus-wide: no further arithmetic defects. |
 | L6 | `verify: 03a_Anaesthetics_Primer.md` | 3 | Extensive prior work |
 | L7 | `verify: 11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md` | 4 | Step 24 confirmed a real gap here (AC joint injury under-developed) — reclassified from "extensive" |
 | L8 | `verify: 16_10-13_Labour_and_Delivery.md` | 4 | Moderate prior work |
