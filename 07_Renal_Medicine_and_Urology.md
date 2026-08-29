@@ -57,6 +57,14 @@ source: quackquackmed 07 Renal Medicine & Urology
 **By GFR (6 grades):**
 | Grade | GFR |
 |---|---|
+> [!danger] **Before using any of the numbers below: eGFR is an estimate with conditions attached, and the corpus states the number in four files without stating them anywhere.** Added after the M10 audit found the same shape in the cognitive screening cutoffs — a threshold quoted in one place, its validity caveat in another or in none.
+>
+> **eGFR assumes creatinine is at steady state, so it is invalid in AKI.** *The mechanism:* the equations infer filtration from a creatinine that is presumed stable. In an evolving AKI, creatinine is still rising and lags behind the true fall in filtration — so the reported eGFR **overestimates function, and does so most when the patient is deteriorating fastest.** This is the trap worth carrying: the AKI staging above and the CKD G-staging below are in the same file, and **an eGFR reported during an AKI does not stage anything.** AKI is staged on creatinine change and urine output, which is why those criteria exist separately.
+>
+> **It is also inaccurate at extremes of muscle mass**, because creatinine comes from muscle. It **over**estimates function in someone with little muscle — the frail older patient, an amputee, someone with a spinal cord injury or advanced cirrhosis — and **under**estimates it in a very muscular person. The frail-elderly case is the one that matters most in practice: a "normal" eGFR in a small, sarcopenic 85-year-old can conceal genuinely impaired clearance, which is a **drug-dosing** problem before it is a staging one.
+>
+> **Practical consequence:** for renally-cleared drugs with a narrow margin, dose off the number the product information specifies (often creatinine clearance, not eGFR) and treat eGFR as a screening and staging tool rather than a dosing one — and never dose off an eGFR taken during an unstable creatinine.
+
 | G1 | >90 mL/min with evidence of kidney damage (histopathology, imaging, or lab findings) |
 | G2 | 60–89 mL/min |
 | G3a | 45–59 mL/min |

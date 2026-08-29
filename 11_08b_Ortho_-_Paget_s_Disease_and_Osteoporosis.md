@@ -56,4 +56,12 @@ source: quackquackmed 11.08 Paget's disease of the bone, Osteoporosis, Bisphosph
 - **AE:** oesophageal reactions; osteonecrosis of the jaw; atypical stress fractures (alendronate); acute phase response (fever, myalgia); hypocalcaemia (usually clinically unimportant).
 - **Counselling:** swallow whole with plenty of water on an empty stomach ≥30 minutes before breakfast; sit/stand upright for ≥30 minutes after taking the medicine.
 - Correct vitamin D deficiency before giving a bisphosphonate.
-- **Stop bisphosphonates at 5 years if:** patient <75 years old, femoral neck T-score >-2.5, and low risk according to FRAX/NOGG.
+- **Stop bisphosphonates at 5 years if:** patient <75 years old, femoral neck T-score >−2.5, and low fracture risk on reassessment (the criteria for a drug holiday; reassess rather than stop indefinitely).
+
+> [!warning] **Two corrections here, both found by the reference-value audit that followed M10 (2026-08-29).**
+>
+> **1. "NOGG" was a UK guideline body.** The National Osteoporosis Guideline Group is **UK**, and its risk thresholds are not the Australian ones — the Australian position is the 2024 RACGP/Healthy Bones Australia guideline already verified above. Removed. It is also a **Step 17 miss**: "NOGG" was not on the UK-localisation term list, which is the second time this session a UK body has survived because the term list did not name it (the first was "2-week-wait"). The list is a starting point, not a checklist.
+>
+> **2. FRAX is country-calibrated, and the thresholds above only mean what they say on the Australian model.** *The mechanism:* FRAX converts risk factors into an absolute 10-year probability using **country-specific fracture and mortality data**, so the same inputs produce different outputs depending on which country's model is selected. **A FRAX run on the wrong country setting gives a number that looks valid and is not comparable to the ≥10% MOF referral threshold above.** Select Australia explicitly. This is the same class of caveat as the cognitive screening cutoffs in [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS) — **a threshold carries its derivation population with it**, and this file quoted FRAX thresholds four times without saying so.
+>
+> Note the box above verified the **DXA referral threshold and the drug-choice logic** against the Australian guideline. It did not cover this line, which sits well below it — the partial-verification-box pattern, now found for the third time this session.
