@@ -198,12 +198,14 @@ Symptoms brought on by abstinence in an alcohol-dependent person; characterised 
 - Seizures — peak incidence at 36h
 - Delirium tremens — peak incidence at 48–72h (coarse tremor, confusion, delusions, auditory/visual hallucinations, fever, ↑HR)
 
-> [!info] Withdrawal severity scoring
-> **Glasgow Modified Alcohol Withdrawal Scale (GMAWS)** — 0, 1, or 2 points for each of: tremor, sweating, hallucinations, orientation, agitation.
-> **Clinical Institute Withdrawal Assessment for Alcohol, revised (CIWA-Ar)** — more detailed, max 67 points; probably better for delirium tremens.
+> [!info] **Withdrawal severity scoring — the Australian instruments first.**
+> **Clinical Institute Withdrawal Assessment for Alcohol, revised (CIWA-Ar)** — the most widely used tool in Australian practice, published as a standard chart by SA Health, WA Health and NSW Health. 10 items, max 67 points. **<10 mild · 10–20 moderate · >20 severe**, with monitoring frequency escalating accordingly (at least 4-hourly above 10; 1–2 hourly above 20).
+> **Alcohol Withdrawal Scale (AWS)** — the other instrument named in NSW Health guidance, used interchangeably with CIWA-Ar depending on the service's own chart.
+>
+> *(The **Glasgow Modified Alcohol Withdrawal Scale (GMAWS)** — 0–2 points each for tremor, sweating, hallucinations, orientation, agitation — is a **UK/NHS Scotland** tool and previously led this box. It does not appear in Australian guidance; retained here only so the abbreviation is recognisable if met in UK-sourced material. **Score with CIWA-Ar or AWS, whichever your service's chart uses.** See `PENDING_GUIDELINE_CHECKS.md` B42.)*
 
 > [!info] Verified against NSW Health/WA Mental Health Commission alcohol withdrawal guidelines and DACAS, Aug 2026 — Australian practice differs in a few specifics from the UK regimen this entry previously carried; the Australian regimen is stated here on its own terms.
-> **Mx if GMAWS ≥2 or CIWA-Ar ≥10 (Immediate/acute tier — this condition doesn't have a separate definitive/chronic pharmacological tier beyond the withdrawal episode itself, though relapse-prevention pharmacotherapy is covered under chronic ArLD Mx above):**
+> **Mx if CIWA-Ar ≥10 (or the equivalent trigger on your service's AWS chart) (Immediate/acute tier — this condition doesn't have a separate definitive/chronic pharmacological tier beyond the withdrawal episode itself, though relapse-prevention pharmacotherapy is covered under chronic ArLD Mx above):**
 > - Admit under medicine if complex withdrawal (DT, seizures, etc.)
 > - **Diazepam is the benzodiazepine of choice in Australia** — chlordiazepoxide is not registered/available in Australia, so don't reach for it as first-line the way UK sources do; a typical regimen is diazepam 10–20mg 6-hourly, tapering over 5–7 days (community/ambulatory setting) or a loading-dose/symptom-triggered regimen guided by CIWA-Ar in hospital. Lorazepam preferred if significant liver impairment (less dependent on hepatic metabolism); phenobarbitone or antipsychotics (e.g. olanzapine) considered as adjuncts for severe/refractory agitation, not carbamazepine as a routine alternative.
 > - Thiamine — IV/IM thiamine (typically 300mg) to prevent/treat Wernicke's/Korsakoff syndrome; Australia doesn't use the UK's "Pabrinex" branded product — just prescribe thiamine directly, higher parenteral doses for treatment of suspected Wernicke's, oral maintenance thereafter (e.g. 100mg tds).
