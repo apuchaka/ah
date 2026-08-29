@@ -380,7 +380,7 @@ Similar phenotype to pseudohypoparathyroidism, but normal biochemistry.
 
 > [!note] Gap-filled from CSV ("Pituitary disorders," High yield) — not covered as its own entity in the source notes, despite Prolactinoma and Acromegaly above both being pituitary conditions; this entry covers the broader syndrome of anterior/posterior pituitary hormone deficiency, plus the acute emergency (pituitary apoplexy) that can precipitate it.
 
-**D:** deficiency of one or more anterior pituitary hormones (partial or panhypopituitarism), ± posterior pituitary (ADH) deficiency causing central diabetes insipidus (see Diabetes Insipidus above).
+**D:** deficiency of one or more anterior pituitary hormones (partial or panhypopituitarism), ± posterior pituitary (ADH) deficiency causing central diabetes insipidus (see Diabetes Insipidus below).
 
 **A:** pituitary macroadenoma (most common — via direct destruction or compression of normal pituitary tissue, including non-functioning adenomas causing mass effect as noted above), pituitary apoplexy (see below), Sheehan syndrome (postpartum pituitary infarction following major obstetric haemorrhage), radiotherapy, traumatic brain injury, infiltrative disease (sarcoidosis, haemochromatosis, lymphocytic hypophysitis — the latter particularly associated with pregnancy/postpartum and with immune checkpoint inhibitor cancer therapy), surgery, congenital causes.
 
@@ -389,7 +389,7 @@ Similar phenotype to pseudohypoparathyroidism, but normal biochemistry.
 - **GH deficiency:** fatigue, reduced muscle mass, central adiposity (adults) — often subtle/non-specific in adults, more obviously growth failure in children
 - **TSH deficiency (secondary hypothyroidism):** as for primary hypothyroidism above, but note **TSH itself may be normal or even mildly elevated** despite true deficiency, since the defect is central — free T4 is the more reliable test (see Ix below)
 - **ACTH deficiency (secondary adrenal insufficiency):** similar to Addison's disease above, but **critically, without hyperpigmentation** (since ACTH itself, not just cortisol, drives skin pigmentation via its melanocyte-stimulating shared precursor — the absence of this sign is a useful distinguishing feature from primary adrenal insufficiency) and **without the mineralocorticoid deficiency** seen in primary Addison's (aldosterone regulation is largely independent of ACTH, being primarily driven by the renin-angiotensin system) — so hyperkalaemia is much less prominent than in primary adrenal insufficiency
-- **ADH deficiency:** central diabetes insipidus (see Diabetes Insipidus above)
+- **ADH deficiency:** central diabetes insipidus (see Diabetes Insipidus below)
 - **Mass effect (if due to a macroadenoma):** headache, visual field defects (classically bitemporal hemianopia — see [[04_Neurology]] and [[05_Ophthalmology]] for the fuller localising detail on this finding, not repeated here)
 
 **Ix:** anterior pituitary hormone panel — LH, FSH, GH/IGF-1, TSH + free T4, ACTH + cortisol (9am cortisol or short synacthen test, as for Addison's above) (*why:* systematically screens each axis, since deficiencies can be partial and axis-specific rather than uniformly panhypopituitary; *what:* low peripheral hormone levels with an inappropriately low/normal (rather than elevated) central pituitary hormone — this "inappropriately normal" pattern is the hallmark of a central/secondary problem, distinguishing it from primary end-organ failure where the pituitary hormone would be appropriately elevated). MRI pituitary (*why:* identifies a structural cause — macroadenoma, apoplexy, infiltrative changes — once the biochemical pattern confirms hypopituitarism; *what:* may show a mass lesion, pituitary infarction/haemorrhage, or an empty/small sella).
@@ -467,7 +467,7 @@ Similar phenotype to pseudohypoparathyroidism, but normal biochemistry.
 **Microvascular:**
 - Eye — diabetic retinopathy, cataracts, glaucoma (see [[05_Ophthalmology]] Diabetic Retinopathy, Cataracts, and Open-Angle Glaucoma for the full AU-verified disease-level detail on each, not repeated here)
 - Kidney — diabetic nephropathy → CKD
-- Neuropathy — peripheral neuropathy (glove and stocking pattern), contributes to extremity issues (see Diabetic Foot above for how this and the macrovascular extremity complications combine into a distinct clinical entity)
+- Neuropathy — peripheral neuropathy (glove and stocking pattern), contributes to extremity issues (see Diabetic Foot below for how this and the macrovascular extremity complications combine into a distinct clinical entity)
 
 ### Diabetic Foot
 
