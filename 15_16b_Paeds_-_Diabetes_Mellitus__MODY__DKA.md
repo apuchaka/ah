@@ -78,7 +78,13 @@ source: quackquackmed 15.16 Diabetes mellitus, MODY, Diabetic ketoacidosis in ch
 - Once BG <14, start 10% dextrose infusion at 125mL/h in addition to the 0.9% NaCl regimen.
 
 > [!info] Fluid calculation reference
-> - Maintenance requirements: <10kg — 2mL/kg/h; 10–40kg — 1mL/kg/h; >40kg — 4mL/kg/h.
+> - Maintenance requirements (**reduced** DKA rates, not standard maintenance): <10kg — **2 mL/kg/h**; 10–40kg — **1 mL/kg/h**; **>40kg — 40 mL/h as a FIXED rate, not per kilogram.**
+
+> [!danger] **Unit correction (2026-08-29) — this table previously read ">40kg — 4mL/kg/h", which is per-kilogram and wrong.** For a 50kg adolescent that gives **200 mL/h instead of 40 mL/h — five times the correct maintenance rate**, in the one condition where fluid overload is the mechanism of the complication that kills: **cerebral oedema**.
+>
+> **The error was visible without any source.** The three bands read 2 → 1 → **4** mL/kg/h as weight *increases*, which inverts the normal relationship — per-kilogram maintenance always falls as weight rises. A rate that goes down, down, then up by fourfold is not a clinical threshold, it is a unit change: the third band is **mL/hour**, not mL/kg/hour. Re-verified against the **SA Health Paediatric Clinical Practice Guideline for DKA in Children**, which this file's own verification box already cites. See `PENDING_GUIDELINE_CHECKS.md` **B49**.
+>
+> **How it survived:** the box above states the overall protocol was verified against SA Health and Queensland Children's Health guidance, and the *protocol* is right — fluids before insulin, no insulin bolus, correction over 48 hours, rates lower than APLS. The **unit inside the fluid table** was not what that box checked. Fourth instance this session of a verification box being accurate about what it names and silent about what sits beneath it.
 > - Deficit — estimate from pH: pH >7.1 = 5% dehydration; pH <7.1 = 10% dehydration.
 > - Hourly rate = (48h maintenance + deficit − boluses given in excess of 20mL/kg) ÷ 48.
 > - 40mmol of K for every 1L of NaCl given.
