@@ -60,7 +60,7 @@ source: quackquackmed 15.02 The ill and feverish child, Meningitis, Encephalitis
 3. **Fluids:** treatment of shock.
 4. **Cerebral monitoring:** mechanical ventilation if respiratory impairment.
 5. **Public health notification** and antibiotic prophylaxis of contacts — ciprofloxacin.
-- If ↑ICP: treat with hypertonic saline or mannitol; discuss with paediatric ITU.
+- If ↑ICP: treat with hypertonic saline or mannitol; discuss with paediatric ICU.
 
 ### Giving IM benzylpenicillin before hospital admission
 

@@ -95,7 +95,7 @@ source: quackquackmed 09.01 Dermatological emergencies
   - Mucosal involvement.
   - Systemic symptoms: fever, arthralgia.
 - **Ix:** skin biopsy is key to diagnosis; blood cultures to rule out toxic shock and scalded skin syndromes; FBC, blood glucose, U&Es (incl Mg, PO4, bicarb), ESR, CRP, LFT; ABG; CXR; coagulation studies (rule out DIC); skin swab for secondary infection.
-- **Mx:** admit ± burns unit/ITU. Find and remove the causative agent. Supportive care + careful wound care (treat as a 2nd degree burn). Fluid management, pain management.
+- **Mx:** admit ± burns unit/ICU. Find and remove the causative agent. Supportive care + careful wound care (treat as a 2nd degree burn). Fluid management, pain management.
 - **P:** worse if >50 years old, high TBSA, not managed in a burns centre, sepsis + antibiotic use, pulmonary issues. Higher mortality in children also.
 
 ## Eczema herpeticum

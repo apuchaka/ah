@@ -264,7 +264,7 @@ Delivery of the placenta.
 
 **Risks to mother**
 - Frequent: persistent wound/abdominal discomfort (may last months), ↑risk of repeat CS, readmission, haemorrhage, infection (wound, endometritis)
-- Serious: emergency hysterectomy, further surgery (e.g. curettage for retained placental tissue), ITU admission, thromboembolic disease, bladder/ureteric injury, death (1:12,000)
+- Serious: emergency hysterectomy, further surgery (e.g. curettage for retained placental tissue), ICU admission, thromboembolic disease, bladder/ureteric injury, death (1:12,000)
 - Future pregnancies: ↑uterine rupture risk, ↑antepartum stillbirth risk, ↑placenta praevia/accreta risk
 
 **Risks to baby**: lacerations (1–2:100).

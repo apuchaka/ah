@@ -503,7 +503,7 @@ DM complicates 5% of pregnancies: 87.5% GDM, 7.5% T1DM, 5% T2DM.
 - Rare but serious; abdominal pain, jaundice, headache, vomiting ± thrombocytopenia, pancreatitis
 - Associated with pre-eclampsia in 30–60%
 - Complications: coma, death
-- Mx in HDU/ITU — supportive; expedite delivery
+- Mx in HDU/ICU — supportive; expedite delivery
 
 > [!danger] Epidural/regional anaesthesia contraindicated in acute fatty liver of pregnancy.
 

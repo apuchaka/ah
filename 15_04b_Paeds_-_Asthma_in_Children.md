@@ -54,7 +54,7 @@ source: quackquackmed 15.04 Asthma in children
 ### Management of severe to life-threatening attacks
 
 - As above + sit up, high flow O2.
-- Get senior input ASAP ± ITU.
+- Get senior input ASAP ± ICU.
 - Consider one IV dose of magnesium sulfate 40mg/kg over 20 minutes (≤2g) if poor response to nebulisers.
 - Consider IV salbutamol over 10 minutes ± infusion (1–2mcg/kg/min), or aminophylline (5mg/kg IV over 20 minutes).
 - Salbutamol nebulisers continuously until improving, then increase intervals.

@@ -82,7 +82,7 @@ source: quackquackmed 14a Substance misuse - recreational drug profiles
 
 > [!danger] Long-term effects: vitamin B12 deficiency → subacute combined degeneration of the spinal cord & anaemia. Also psychological issues, and direct harm from inhaling gas — lung damage, barotrauma, frostbite.
 
-- **Mx:** according to symptoms. Agitation — if reassurance fails, benzodiazepine. Psychosis — may require antipsychotics. Massive ingestions may require ITU care (e.g. intubation & ventilation).
+- **Mx:** according to symptoms. Agitation — if reassurance fails, benzodiazepine. Psychosis — may require antipsychotics. Massive ingestions may require ICU care (e.g. intubation & ventilation).
 
 ## Opioid misuse
 

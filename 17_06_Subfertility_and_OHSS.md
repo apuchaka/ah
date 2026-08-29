@@ -108,6 +108,6 @@ source: quackquackmed 17.06 Subfertility, Ovarian Hyperstimulation Syndrome
 **Mx**
 - **Mild/moderate**: outpatient treatment — analgesia (avoid NSAIDs); avoid strenuous activity/intercourse (ovarian torsion risk); continue progesterone luteal support, avoid hCG; review by assisted conception unit every 2–3 days
 - **Severe**: may need admission — daily bloods, strict fluid balance, daily assessment of ascites/weight/legs, thromboprophylaxis (stockings, LMWH), paracentesis for ascites ± IV albumin replacement
-- **Critical**: admit ASAP + senior help + consider ITU
+- **Critical**: admit ASAP + senior help + consider ICU
 
 *See male subfertility, section 17.05.*

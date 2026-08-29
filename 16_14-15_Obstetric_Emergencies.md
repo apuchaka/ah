@@ -29,7 +29,7 @@ source: quackquackmed 16.14-15 Obstetric emergencies
 - Managed similarly to sepsis in any other patient
 - Sepsis is associated with preterm labour — alert neonatal unit
 - If chorioamnionitis suspected: expedite delivery
-- Lower threshold for ITU transfer
+- Lower threshold for ICU transfer
 - In labour: continuous fetal monitoring recommended; avoid spinal/epidural analgesia — use GA for C-section
 
 ---
@@ -226,7 +226,7 @@ source: quackquackmed 16.14-15 Obstetric emergencies
 **S/smx**: dyspnoea, chest pain, hypoxia, respiratory arrest → ARDS (may be first sign); hypotension; fetal distress; seizures (20%); ↓consciousness; cardiac arrest. Almost all develop DIC within 48h.
 
 **Mx**
-- Prevent death from respiratory failure: high-flow 100% O2; call anaesthetist ASAP (intubation/ventilation may be necessary); transfer to ITU ASAP
+- Prevent death from respiratory failure: high-flow 100% O2; call anaesthetist ASAP (intubation/ventilation may be necessary); transfer to ICU ASAP
 - CPR if indicated; deliver baby via C-section (aids maternal resuscitation)
 - Monitor for fetal distress
 - If hypotensive: IV fluids, dobutamine; pulmonary artery catheterisation to guide Mx; after initial hypotension corrected, give only maintenance fluid required (avoid pulmonary oedema from ARDS)
