@@ -55,7 +55,8 @@ source: quackquackmed 15.07 GI disorders - Abdominal pain DDx, Neuroblastoma, Co
 - **D:** enteropathy induced by gluten (found in wheat, barley, rye).
 - **S/Smx:** classically presents between 6–24 months, after introduction of gluten to the diet. Diarrhoea, anorexia, abdominal pain and distention, faltering growth ± anaemia. Signs are less obvious in older children — a higher level of suspicion is required.
 - Associated with other autoimmune disorders, including T1DM, thyroid disease, JIA; also Down syndrome and Turner syndrome.
-- **Ix:** as per adult investigations.
+- **Ix:** as per [[03_Gastrointestinal]] Coeliac Disease — IgA-tTG plus total IgA, then duodenal biopsy; not repeated here.
+  - **The one point that must not be lost in the hand-off: the child has to stay on a gluten-containing diet for ≥6 weeks before testing, or the serology is falsely negative.** This matters more in children than adults because parents frequently start a gluten-free diet before presenting, and the test then reassures wrongly. The warning was in the adult entry only, and this line pointed at "adult investigations" with no link. Fixed by the G25 round, 2026-08-29.
 - **Mx:** dietary exclusion of gluten. Consider other DDx of malabsorption.
 
 *(See [[03_Gastrointestinal]] Coeliac Disease for the adult presentation.)*
