@@ -606,7 +606,7 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 > [!info] Clinical stages
 > (1) Localised muscle/bone pain (2) Radicular pain and paraesthesias (3) Muscle weakness, sensory loss, sphincter dysfunction (4) Paralysis
 
-**S/Smx:** classic triad of focal back pain, fever, and neurological deficit present in only 10%.
+**S/Smx:** classic triad of focal back pain, fever, and neurological deficit present in only 10%. **The usual organism is *S. aureus*** — named in [[08_09_Infectious_Disease_-_Miscellaneous]] Spinal epidural abscess and absent here until the pairs audit (2026-08-29); that entry owns the antimicrobial approach.
 
 **Ix:** bloods (FBC, CRP/ESR) (*why:* supports the inflammatory diagnosis and can be trended; *what:* elevated inflammatory markers). Blood cultures (*why:* identifies the causative organism, especially relevant given the frequent haematogenous source; *what:* often positive, most commonly *S. aureus*). MRI spine (*why:* the definitive diagnostic and localising test — essential for surgical planning and to assess the degree of cord/root compression; *what:* epidural collection with cord/root compression, extent defining the urgency of surgical intervention).
 
