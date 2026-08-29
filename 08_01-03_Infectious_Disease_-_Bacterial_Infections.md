@@ -295,6 +295,14 @@ source: quackquackmed 08.01-08.03 Bacterial infections
 >
 > Treat if 3–4 criteria met (32–56% of these isolate Strep).
 
+> [!danger] **This rule does not apply unmodified to patients at high risk of acute rheumatic fever — added by the L5 seam audit (2026-08-29), because this entry gave the threshold with no caveat while another file carried the caveat with no threshold.**
+>
+> **Centor and FeverPAIN were developed and validated in low-rheumatic-fever-risk populations.** They estimate the probability of *bacterial* pharyngitis to guide general antibiotic benefit — **they were never designed to estimate rheumatic fever risk**, and a patient can score low on Centor while still needing antibiotics to prevent a first or recurrent episode of ARF.
+>
+> **For Aboriginal and Torres Strait Islander patients, particularly in rural and remote northern and central Australia** — where ARF and rheumatic heart disease occur at among the highest documented rates in the world — **high ARF risk is an independent indication to treat, not a modifier of the score.** Applying "3–4 criteria" as written to that population means withholding antibiotics from the patients in whom untreated GAS pharyngitis carries the gravest consequence.
+>
+> The full caveat, its reasoning and the pointer to current Australian ARF/RHD guidance are in [[13_05a_ENT_-_Sore_Throat_and_Tonsillitis]] Sore throat (pharyngitis, tonsillitis, laryngitis) — not repeated here. See [[01_Cardiovascular]] 0.22 Rheumatic Fever and 0.22a Rheumatic Heart Disease (RHD) for the downstream disease this treatment prevents.
+
 ### Group B Strep (*Streptococcus agalactiae*)
 
 - Mother-to-child transmission; 20–40% of mothers carry GBS in bowel flora.
