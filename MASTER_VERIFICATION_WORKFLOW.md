@@ -1768,3 +1768,50 @@ Two gaps recovered from the flagged pile and queued: **anterior cord syndrome** 
 | **TOTAL** | **2585** | **804** | **533** | **224** | **10** | **1014** | **53** |
 
 The absence count rose from 949 to 1,014 across the corrected runs. That is the honest direction: every correction this phase made moved conditions **out** of false coverage, and the earlier, lower absence counts were the artefact.
+
+## Phase 5 — Source 3 cross-check (presentation-based lens)
+
+**Enumeration source:** an AMC-style exam-prep document grouping conditions by **clinical presentation** rather than organ system — 94 sub-items across 7 groupings (emergency medicine, sepsis phenotypes, shock phenotypes, respiratory failure, acid-base, electrolytes/dehydration, toxicological and allergic emergencies). Saved as `data/conditions_20_presentation_based.txt`.
+
+**Result: 33 own an entry · 10 in a taught section · 7 prose · 44 absent by scan → 6 genuine gaps after hand-verification.**
+
+The premise held. A presentation-based lens does surface things an organ-system list misses — but not the ones predicted, and the biggest finding was not on the flagged list at all.
+
+### The finding that matters: Australian envenomation is absent in a stronger sense than previously recorded
+
+P5-C10 already recorded antivenoms as absent. This pass shows the gap is **wider than antivenom**:
+
+| Search | Hits |
+|---|---|
+| `snakebite` / `snake bite` | **0** |
+| `redback` / `funnel-web` | **0** |
+| **`pressure immobilisation`** | **0** |
+| `antivenom` / `envenom` | 3 — **and all three are incidental** |
+
+The three hits are a build-queue note in a workflow document, a "Gap-filled from CSV" annotation about *burns*, and a serum-sickness aside in dermatology. **No clinical content on envenomation exists anywhere in 148 files.**
+
+**Pressure immobilisation bandaging is the single highest-yield Australian first-aid intervention in this domain and has zero mentions.** For an Australian intern corpus that is the most consequential absence found in Phase 5 so far. P5-C10 is upgraded accordingly.
+
+### The user's four flagged "between-category" predictions — three were already covered
+
+Checked exactly as specified:
+
+- **Toxic Shock Syndrome** — present (4 uses). Thin but not absent.
+- **Adrenal (Addisonian) crisis as a shock phenotype** — present in `06_Metabolic` including the danger box on carrying injectable hydrocortisone. Covered as a crisis, not only as Addison's disease.
+- **Neuromuscular respiratory failure** — **partially covered, and the unifying concept is the gap.** FVC appears 29 times and myasthenic crisis 6, but `vital capacity` never appears near GBS or myasthenia: the corpus has the measurement and the diseases and does not connect them. Logged as thin, not absent.
+- **Australian envenomation** — confirmed absent, and worse than recorded (above).
+
+Three of four predictions were already covered. Consistent with this session's pattern: a predicted gap is not a gap until checked.
+
+### Genuine gaps this lens surfaced that Part A did not
+
+1. **Envenomation, including pressure immobilisation** — see above.
+2. **Toxidromes as a diagnostic framework.** "Toxidrome" appears 4 times, only for opioid and serotonin/NMS. **Anticholinergic toxidrome: 0. Cholinergic/organophosphate: 1. Sympathomimetic: 6, almost all in cardiovascular drug contexts.** The corpus teaches two toxidromes and neither the framework nor the other three.
+3. **Organophosphate poisoning** — 1 use, pralidoxime 1 use. Rural and agricultural Australian relevance.
+4. **Beta-blocker and calcium-channel-blocker overdose** — 1 use, and **high-dose insulin euglycaemic therapy and glucagon-for-overdose: 0 hits.** The specific antidote strategy is absent.
+5. **Fascia iliaca block** — 0 hits, in a corpus that covers neck-of-femur fracture. An intern-performed analgesic block.
+6. **Type 2 (hypercapnic) respiratory failure** — 2 hits. Thin against 29 for respiratory failure generally.
+
+### Explicitly out of scope, recorded not folded in
+
+**"Zero-Context methodology" and "Distractor Elimination Rules" are MCQ exam technique, not clinical content**, and are not counted as corpus gaps. Noted as a candidate **future project — an exam-strategy reference file**, separate from Phase 5.

@@ -1,0 +1,94 @@
+Basic Life Support
+Intermediate Life Support
+Advanced Life Support
+Advanced Cardiac Life Support
+ABCDEFG algorithm
+Adult resuscitation
+Paediatric resuscitation
+Neonatal resuscitation
+Tachycardia
+Bradycardia
+Allergic reaction
+Anaphylaxis
+Acute abdominal pain
+Acute asthma
+Burns
+Minor head injury
+Major head injury
+Adult diabetic ketoacidosis
+Paediatric diabetic ketoacidosis
+Electrical injury
+Epistaxis
+Acute severe headache
+Acute pulmonary oedema
+Acute renal colic
+Status epilepticus
+Syncope
+Tonsillitis
+Quinsy
+Fascia iliaca block
+Adult analgesia
+Paediatric analgesia
+Mechanical ventilation
+Procedural sedation
+Intubation
+Meningococcal sepsis
+Neutropenic sepsis
+Urosepsis
+Gram-negative septic shock
+Biliary sepsis
+Ascending cholangitis
+Toxic shock syndrome
+Adult sepsis
+Paediatric sepsis
+Adrenal crisis
+Addisonian crisis
+Cardiogenic shock
+Acute left ventricular failure
+Massive pulmonary embolism
+Cardiac tamponade
+Hypovolaemic shock
+Distributive shock
+Obstructive shock
+Type 1 respiratory failure
+Type 2 respiratory failure
+Acute exacerbation of COPD
+Acute cardiogenic pulmonary oedema
+Severe community-acquired pneumonia
+Acute respiratory distress syndrome
+Opioid-induced respiratory depression
+Neuromuscular respiratory failure
+High anion gap metabolic acidosis
+Lactic acidosis
+Normal anion gap metabolic acidosis
+Metabolic alkalosis
+Mixed acid-base disorder
+Salicylate toxicity
+Hyponatraemia
+Hypernatraemia
+Hypokalaemia
+Hyperkalaemia
+Hypercalcaemia
+Hypocalcaemia
+Hypomagnesaemia
+Isotonic dehydration
+Hyperosmolar hyperglycaemic state
+Third-spacing
+Paracetamol overdose
+Anticholinergic toxidrome
+Serotonin toxicity
+Sympathomimetic toxidrome
+Opioid toxicity
+Australian elapid snakebite
+Brown snake envenomation
+Tiger snake envenomation
+Redback spider bite
+Funnel-web spider bite
+Toxic alcohol poisoning
+Methanol poisoning
+Ethylene glycol poisoning
+Cholinergic toxidrome
+Organophosphate poisoning
+Angioedema
+Beta-blocker overdose
+Calcium channel blocker overdose
