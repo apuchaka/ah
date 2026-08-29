@@ -48,7 +48,10 @@ META_FILES = {"CLAUDE.md","CLAUDE_CODE_PROMPT.md","COWORK_HANDOFF.md",
  "MASTER_VERIFICATION_WORKFLOW.md","PENDING_GUIDELINE_CHECKS.md",
  "PHASE_EXECUTION_WORKFLOW.md","RECOMMENDED_WORKFLOW.md"}
 BOX = re.compile(r">\s*\[!\w+\]")
-VERIFIED = re.compile(r"Verified|verified|Localis|localis")
+# "Localis" alone matches "localising sign" — an explanatory box making no
+# verification claim at all (04_Neurology Bell's palsy). Require the
+# localisation *status* wording the corpus actually uses.
+VERIFIED = re.compile(r"\bVerified\b|\bverified\b|Localis(?:ed|ation) (?:for|status)", re.I)
 NUM = re.compile(r"\b\d+(?:\.\d+)?\s*(?:mg|mcg|g|mL|L|IU|units?|%|mmol|mmHg|"
                  r"g/L|mmol/L|hours?|h|days?|weeks?|months?|years?|min)\b", re.I)
 
