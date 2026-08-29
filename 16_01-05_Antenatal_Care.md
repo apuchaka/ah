@@ -279,7 +279,13 @@ source: quackquackmed 16.01-05 Antenatal Care
 
 **Screen depending on history**: placenta praevia, psychiatric illness, sickle cell disease, Tay-Sachs disease, thalassaemia.
 
-**Do NOT offer routinely**: bacterial vaginosis, chlamydia, CMV, fragile X, hepatitis C, Group B Strep, toxoplasmosis.
+**Do NOT offer routinely**: bacterial vaginosis, chlamydia, CMV, fragile X, hepatitis C, toxoplasmosis.
+
+> [!danger] **Group B Strep was in the "do not offer routinely" list above and has been removed — that is the UK position, not the Australian one.**
+>
+> Australian guidance (RANZCOG and the Australian Government Pregnancy Care Guidelines) **explicitly permits either** universal culture-based screening at 35–37 weeks **or** a risk-factor-based approach, with the choice left to the individual maternity service. Listing GBS as "not routinely offered" states one of the two permitted strategies as though it were the national position, and it is the strategy that misses the colonised woman with no risk factors.
+>
+> **The same defect was corrected in [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Group B Strep (*Streptococcus agalactiae*) earlier this session and did not propagate here** — found by the dedicated GBS consistency check run at Phase 4 close (2026-08-29), which existed precisely because two independent GBS defects had already appeared in two different files. That entry owns the screening-strategy question; [[16_06-07_Ante-Perinatal_Infections]] Group B Streptococcus (GBS) owns the intrapartum antibiotic regimen.
 
 ---
 
