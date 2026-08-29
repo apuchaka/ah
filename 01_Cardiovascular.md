@@ -276,10 +276,20 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 > [!info] ORBIT bleeding score
 > Age ≥75yo = 1 | Bleeding Hx (GI bleed, ICH, haemorrhagic stroke) = 2 | GFR <60 mL/min = 1 | Treatment with antiplatelets = 1
 
+> [!danger] **What the two scores are *for* — the components above are not the useful part, and the way they are read wrongly is predictable.** The corpus lists both scores' points and, until now, never said what to do with the answer.
+>
+> **CHA₂DS₂-VASc estimates stroke risk and it decides whether to anticoagulate.** Higher score, higher annual stroke risk, stronger indication.
+>
+> **ORBIT estimates bleeding risk and it does *not* decide whether to anticoagulate.** *The mechanism of the error:* a high bleeding score and a high stroke score usually occur in the **same patient** — age, hypertension, prior vascular events and renal impairment all load both — so using the bleeding score as a veto systematically withholds anticoagulation from the people with most to gain. A stroke prevented is generally a worse event avoided than the bleed risked.
+>
+> **What the bleeding score is actually for: identifying what you can modify.** Uncontrolled hypertension, concurrent antiplatelets without a current indication, NSAIDs, hazardous alcohol use, and a correctable anaemia are the actionable items. Score it, fix what is fixable, then anticoagulate anyway unless there is an absolute contraindication — and record that reasoning, because the decision looks wrong to anyone reading the numbers alone.
+
 **Anticoagulation:** all patients — use CHA₂DS₂-VASc for stroke risk and ORBIT for bleeding risk.
-- If score ≥1 (male) or ≥2 (female): DOAC indefinitely
+- **CHA₂DS₂-VASc** ≥1 (male) or ≥2 (female): DOAC indefinitely. *(This threshold is the stroke score, not the bleeding score above it.)*
 - Warfarin only if mechanical heart valves or severe mitral stenosis
 - DOAC/warfarin also indicated for stroke/TIA + AF
+
+> [!info] **Why DOAC-vs-warfarin is not only a clinical question (Step 10).** Warfarin requires **regular INR monitoring**; DOACs do not. For a patient a long way from a pathology service, that difference decides whether the drug is actually takeable — the monitoring burden, not the drug, is what fails. This is a specific, practical reason the DOAC-first position matters more for patients at distance from services than the guideline text alone suggests, and it is worth naming when the mechanical-valve/mitral-stenosis exception forces warfarin: that patient needs a monitoring plan built around where they live, not a standard clinic schedule.
 
 **Complications:** stroke/TIA (5x increased risk vs non-AF), bradycardia, hypotension, heart failure, death. Amiodarone carries risk of thyroid dysfunction.
 
