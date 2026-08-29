@@ -1347,6 +1347,20 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 - **Immediate/acute:** IVIG or plasma exchange first-line (equally effective, choice often based on availability/patient factors — no added benefit to combining them); supportive Mx is critical given the risk of respiratory failure — regular FVC monitoring, VTE prophylaxis (given the immobility/dysautonomia risk), mechanical ventilation PRN if respiratory muscles become involved.
 - **Chronic/long-term:** rehabilitation once the acute phase plateaus and recovery begins — physiotherapy/occupational therapy given the potential for prolonged recovery even in patients with a good ultimate prognosis.
 
+> [!danger] **Why the monitoring is FVC and not oximetry — the single most important thing to understand about neuromuscular weakness, and the error is being reassured.** **FVC = forced vital capacity**, the volume a patient can breathe out in one maximal effort. Here it is measured serially at the bedside, which is a different use from the FEV1/FVC *ratio* used to classify obstructive vs restrictive lung disease (see [[Investigation-Interpretation]] Spirometry and Peak Flow).
+>
+> *The mechanism:* in GBS and myasthenia **the lungs are normal** — it is the respiratory *pump* that is failing. Gas exchange across a healthy alveolar membrane stays efficient right up until the bellows give out, so **oxygen saturation and CO₂ stay normal until immediately before the patient decompensates**, and then both change abruptly. A patient who is tiring, using accessory muscles and unable to complete a sentence, with saturations of 98%, is not reassuring — the saturation is measuring the wrong organ.
+>
+> **What to do instead:** serial FVC, at defined intervals, with the trend recorded. It falls progressively and gives hours of warning that the numbers everyone looks at do not. The commonly taught escalation trigger is the **"20/30/40 rule"** — VC below ~20 mL/kg, maximal inspiratory pressure below 30 cmH₂O, maximal expiratory pressure below 40 — prompting ICU review for likely intubation. Treat the figures as the trigger for a conversation with ICU, not a threshold to wait for: **a falling trend matters more than any single value**, and intubation in this setting is planned, not emergent, if the trend is being watched.
+>
+> Also watch for the bedside signs that precede any number: inability to count aloud to 20 in one breath, a weak cough (which predicts failure to clear secretions), and bulbar weakness — the last of which threatens the airway independently of the FVC.
+
+> [!info] **IVIG — what it is, and why its use here is not the same as the immunoglobulin given after an exposure.** **IVIG = intravenous immunoglobulin**, pooled human antibody given by infusion. The corpus uses the abbreviation in eight files and had never expanded it.
+>
+> The distinction matters because the *reason* for giving it differs completely. In post-exposure use — VZIG, tetanus or rabies immunoglobulin, anti-D — the antibody is **targeted at one thing and does the work directly** (see [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Passive Immunisation — Immunoglobulin After an Exposure). In GBS, CIDP, myasthenic crisis, ITP and Kawasaki disease, **high-dose IVIG is an immunomodulator**: the point is not what the antibodies bind, it is that a large load of pooled immunoglobulin dampens the patient's own autoantibody-driven attack. Hence the dose is far larger, the indication is autoimmune rather than infective, and there is no "window" to meet.
+>
+> *The practical consequence for an intern:* IVIG here is a **treatment**, not a prophylaxis, so it is not time-critical in the same way — but it is a blood product, so it carries the same consent, documentation and traceability requirements (see [[10_08_Haemonc_-_Blood_Products_and_Transfusion]]), and supply is limited enough that it is usually authorised rather than simply ordered.
+
 **P:** 85% good functional recovery. Negative prognostic factors: severe weakness, rapid onset, ↑age, muscle wasting, electrically inexcitable nerves, preceding diarrhoeal illness.
 
 > [!note] Miller-Fisher syndrome — subset of GBS with ophthalmoplegia, ataxia, and areflexia; usually descending paralysis.
@@ -1394,7 +1408,7 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 
 **Mx (Class IV–V):** combination of both above.
 
-**Mx of myasthenic crisis:** (1) serial FVC ± mechanical ventilation, (2) plasmapheresis or IVIG, (3) supportive care, remove trigger.
+**Mx of myasthenic crisis:** (1) serial FVC ± mechanical ventilation, (2) plasmapheresis or IVIG, (3) supportive care, remove trigger. **The FVC monitoring and the IVIG here are the same as in GBS** — see the two boxes under Guillain-Barré Syndrome above for why oximetry misleads in neuromuscular respiratory failure, and for what IVIG is doing, not repeated here.
 
 > [!note] Myasthenic crisis = acute worsening of symptoms, often triggered by stressors — can lead to respiratory failure.
 
