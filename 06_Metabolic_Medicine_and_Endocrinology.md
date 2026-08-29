@@ -613,6 +613,8 @@ Increase monitoring ± check ketones; consume 3L of fluids/24h ± sugary drinks.
 
 **Complications:** ARDS, AKI, gastric stasis, VTE, arrhythmias (secondary to hyper/hypokalaemia), cerebral oedema and hypoglycaemia (iatrogenic — children/young adults especially vulnerable to cerebral oedema after fluid resuscitation, requiring 1:1 monitoring).
 
+> [!warning] **This entry is the adult protocol. Do not apply it to a child.** [[15_16b_Paeds_-_Diabetes_Mellitus__MODY__DKA]] Diabetic ketoacidosis (DKA) owns the paediatric protocol, and it differs in the ways that matter for the cerebral oedema risk named just above: **deficit replaced over 48 hours**, **reduced maintenance rates** (lower than APLS), **insulin started only after 1–2 hours of fluids and never as a bolus**, and dextrose started at a **BG <14 with 10% dextrose** rather than the ~15 mmol/L and D5 above. Weight-banded fluid figures live there, not here.
+
 ---
 
 ## Hyperosmolar Hyperglycaemic State (HHS)
