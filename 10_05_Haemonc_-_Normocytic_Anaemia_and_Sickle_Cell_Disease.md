@@ -63,6 +63,9 @@ source: quackquackmed 10.05 Normocytic anaemia (non-haemolytic and haemolytic), 
 - **Dx:** clinical, based on history and labs.
 - **Mx:** acute crisis — supportive ± blood transfusion. Long-term — folate replacement, splenectomy.
 
+> [!warning] **Splenectomy is recommended above and neither hereditary spherocytosis entry said what follows it.** Asplenia carries a lifelong risk of overwhelming sepsis from encapsulated organisms, and the preparation is time-sensitive: **vaccination should be given before an elective splenectomy, not after.** [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hyposplenism owns the vaccination and prophylaxis schedule, and [[08_09_Infectious_Disease_-_Miscellaneous]] Post-splenectomy sepsis owns the acute presentation. Added by the pairs audit (2026-08-29).
+
+
 ### G6PD deficiency
 
 - Enzyme deficiency (X-linked recessive), more common in Mediterranean and African populations.

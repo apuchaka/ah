@@ -46,6 +46,9 @@ source: quackquackmed 15.14 Haem-onc disorders - Anaemia, Iron deficiency, Sickl
   - Acute haemolytic crisis: supportive ± transfusion PRN.
   - Long term: folate replacement; splenectomy ± cholecystectomy if gallstones are an issue.
 
+> [!warning] **Splenectomy is recommended above and neither hereditary spherocytosis entry said what follows it.** Asplenia carries a lifelong risk of overwhelming sepsis from encapsulated organisms, and the preparation is time-sensitive: **vaccination should be given before an elective splenectomy, not after.** [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hyposplenism owns the vaccination and prophylaxis schedule, and [[08_09_Infectious_Disease_-_Miscellaneous]] Post-splenectomy sepsis owns the acute presentation. Added by the pairs audit (2026-08-29).
+
+
 ## Sickle cell disease
 
 - **D:** autosomal recessive condition that causes sickle-shaped RBCs.
