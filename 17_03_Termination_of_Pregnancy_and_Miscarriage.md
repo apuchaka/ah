@@ -52,7 +52,9 @@ source: quackquackmed 17.03 Termination of Pregnancy, Miscarriage
 
 > [!note] If born after 24w, the dead fetus is considered a stillbirth and must be registered. If signs of life, a death certificate is required.
 
-**Before TOP**: offer counselling + support; US to confirm gestation and identify non-viable/ectopic pregnancy; screen for STIs; give antibiotic prophylaxis if surgical option used; discuss contraception; if ≥10w, do Rhesus testing and give anti-D prophylaxis if Rh-negative (dose depends on gestation).
+**Before TOP**: offer counselling + support; US to confirm gestation and identify non-viable/ectopic pregnancy; screen for STIs; give antibiotic prophylaxis if surgical option used; discuss contraception; do Rhesus testing and give anti-D prophylaxis if Rh-negative (**250 IU before 13 weeks, 625 IU from 13 weeks** — owned by [[16_01-05_Antenatal_Care]] Use of anti-D).
+
+> [!warning] **The gestational threshold for anti-D after termination is unresolved between the two entries.** This entry said **"if ≥10w"**; the owner entry says give it to **all** having surgical or medical terminations, with no gestational floor. Both positions exist in real guidance — the argument for a floor is that a very early *medical* termination with no instrumentation carries minimal fetomaternal haemorrhage risk — so this is a genuine question rather than a transcription slip. **The threshold has been removed here rather than asserted either way**, because omitting anti-D when it is indicated causes sensitisation that only surfaces in a *later* pregnancy, and is untraceable by then. See `PENDING_GUIDELINE_CHECKS.md` **B62**. Found by the G37 confirmation pass, 2026-08-29.
 
 **Complications of TOP**
 - Failed TOP <1:100 (medical failure rate higher than surgical)
