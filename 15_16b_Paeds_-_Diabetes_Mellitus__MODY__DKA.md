@@ -30,6 +30,8 @@ source: quackquackmed 15.16 Diabetes mellitus, MODY, Diabetic ketoacidosis in ch
 
 ### Hypoglycaemia
 
+> [!warning] **This entry treats hypoglycaemia without ever defining it.** No blood glucose threshold is stated anywhere in it — a reader has nothing to act on except the symptoms. The corpus holds **<3.3 mmol/L** for adults ([[06_Metabolic_Medicine_and_Endocrinology]] Hypoglycaemia) and **<2.6 mmol/L** for newborns ([[15_23a_Paeds_-_NEC__Neonatal_Hypoglycaemia__Hypotonia]] Neonatal hypoglycaemia, which notes there is no fixed definition), and **neither of those is the figure for a child with diabetes**. Reading the adult number across is the error this box exists to prevent. **The paediatric threshold is not stated here because it has not been verified against an Australian source** — see `PENDING_GUIDELINE_CHECKS.md` **B55**. Added by the pairs audit, 2026-08-29.
+
 - **S/Smx:** weakness, dizziness, shaking, palpitations, sweating, anxiety, hunger, vomiting; headache, confusion, blurred vision, lethargy, coma, convulsions. Behavioural changes: agitation, irritability.
 - **Mx:**
   - 10–20g of fast-acting glucose by mouth + complex carbs. If not possible, give oral glucose gel — 1 teaspoon of sugar moistened with water under the tongue every 10–12 minutes if nothing else available.
