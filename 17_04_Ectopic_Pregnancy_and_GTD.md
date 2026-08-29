@@ -17,6 +17,8 @@ source: quackquackmed 17.04 Ectopic Pregnancy, Gestational Trophoblastic Disease
 
 **S/smx**
 - History of amenorrhoea — symptoms generally appear 6–8w after last normal menstrual period
+
+> [!warning] **Ectopic pregnancy is a sensitising event — give anti-D to Rh-negative women.** This entry did not mention it, while the molar pregnancy entry below in this same file does. [[16_01-05_Antenatal_Care]] Use of anti-D owns the doses (**250 IU before 13 weeks**, 625 IU from 13 weeks) and names ectopic pregnancy explicitly among the indications. Added by the G37 round, 2026-08-29.
 - Abdominal pain (tubal spasm) — constant and classically unilateral
 - Vaginal bleeding — less than normal period, dark brown
 - Peritoneal bleeding (2° ruptured ectopic) may present as shoulder tip pain, or pain on defecation/urination

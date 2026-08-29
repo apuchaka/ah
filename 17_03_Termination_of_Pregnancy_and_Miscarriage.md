@@ -94,6 +94,7 @@ source: quackquackmed 17.03 Termination of Pregnancy, Miscarriage
   - >50% drop in 48h suggests failing pregnancy → refer for early pregnancy assessment service review within 24h
   - Rise ≥50% in 48h suggests possible ongoing pregnancy
 - Other bloods (FBC, Rhesus, antibodies) or vaginal swab as clinically indicated
+  - **Rhesus status is checked here and this entry never said what to do with it.** Rh-negative women need **anti-D** where the miscarriage is managed surgically or medically, or where a spontaneous miscarriage requires evacuation — but **anti-D is *not* recommended for threatened miscarriage before 12 weeks**, which is the distinction that decides the common case. Doses and the full indication list are owned by [[16_01-05_Antenatal_Care]] Use of anti-D. Added by the G37 round, 2026-08-29.
 
 ### Mx — 3 approaches
 
