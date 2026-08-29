@@ -1243,3 +1243,348 @@ Three, all mine, all found before the results were reported:
 | **P5-C9** | **The ten non-antimicrobial therapeutic classes were never enumerated.** Cardiovascular, respiratory, CNS, endocrine, GI, renal, haematological, musculoskeletal, dermatological, ophthalmic. Blocked on AMH/BNF egress, not judged clean | ⬜ |
 | **P5-A4** | **Part A's 38-specialty enumeration still has not happened** — third pass, same blocker, recorded again rather than dropped | ⬜ |
 | **P5-D8** | **Part D's 38-specialty enumeration still has not happened** — AMC prevocational framework PDF is egress-blocked | ⬜ |
+
+## Phase 5 FOURTH PASS — every leaf subclass of the AMH therapeutic classification
+
+**Enumeration source:** *South Australian Medicines Formulary Framework*, Appendix 1 — Therapeutic Classes of Medicines (AMH), supplied in full by the user. This is the first drug enumeration in Phase 5 that **this project did not build itself**. 21 top-level classes expanded to their **276 bottom-level (leaf) subclasses**, each checked, each reported. Scan: `scripts/drug_classes.py`.
+
+**Entry-level result (best single paragraph, not the union): 148 ADEQUATE · 93 THIN · 10 NAMED ONLY · 25 ABSENT.**
+
+> [!warning] **What is still recall-based, stated before the findings.** The source names the **classes**; it does not name their **member drugs**. Mapping each leaf to the drugs that populate it is mine. So a leaf can only be found present through a drug I thought to list — the same weakness as every earlier pass, now confined to one layer instead of the whole list. It is smaller, not gone.
+>
+> **The source's own defect:** "Drugs for anaemias" appears **twice** under class 7, once with subclasses and once bare. Counted once. A supplied enumeration is not automatically internally coherent — the partition check applies to it too.
+
+### Scan defects found by running it (rule 7), before the numbers were used
+
+- **Four ABSENT verdicts were scan artifacts, found by hand-checking all 28.** `sodium cromogl**i**cate` (the Australian spelling; the pattern had *cromoglycate*) · `steroid **eye** drops` (the pattern demanded "steroid drops") · eye antibacterials matched drug-then-eye only, so `chloramphenicol eye drops` scored while the same construction for other agents did not · ocular antihistamines. Fixed and re-run: **28 ABSENT → 25**. Ratio: **4 dismissed, 24 confirmed.**
+- **The mechanism proxy detects pharmacological register, not explanation.** Anticholinergics (eye) scored NAMED ONLY against a line that explains the mechanism perfectly in plain clinical English — *"cycloplegics (dilate the pupil, relieving pain and photophobia, and preventing posterior synechiae)"*. No word in it is mechanism-vocabulary. **Every NAMED ONLY and THIN verdict in this table may be this failure rather than a gap**, which is why none is queued without being read first.
+- **46 leaves split corpus-ADEQUATE / entry-THIN** — the fact exists somewhere but no single entry teaches it. Marked `(corpus adequate)` in the table.
+
+### The twelve priority classes, reported first
+
+| # | Leaf | Entry verdict | Reading |
+|---|---|---|---|
+| 20 | **Carbapenems** | THIN *(corpus adequate)* | 16 uses; dose and caution present, **no mechanism or the ESBL/last-line stewardship point in any one entry** |
+| 22 | Glycopeptides | ADEQUATE | vancomycin carries it; teicoplanin thin, correctly |
+| 27 | Rifamycins | ADEQUATE | mechanism, harm, interactions all present |
+| 29 | **Antimycobacterials** | THIN *(corpus adequate)* | 25 uses; mechanism and dose in one entry, **the toxicity profile that drives intern monitoring is elsewhere** |
+| 38–42 | **Antiretrovirals — all four subclasses + other** | ADEQUATE ×5 | NRTI, NNRTI, protease, integrase, other all carry ≥3 dimensions in a single entry. **The predicted gap is not there.** |
+| 63 | PCSK9 inhibitors | ADEQUATE | mech+dose+harm |
+| 118 | GLP-1 analogues | ADEQUATE | |
+| 119 | SGLT2 inhibitors | ADEQUATE | all four dimensions — euglycaemic DKA content is doing the work |
+| 216 | Triptans | ADEQUATE | |
+| 217 | **CGRP antagonists** | **ABSENT** | zero hits for erenumab, fremanezumab, galcanezumab, rimegepant or "CGRP" |
+| 267 | **TNF-alpha antagonists** | THIN *(corpus adequate)* | 21 uses; **no single entry carries the pre-treatment TB/hepatitis screening and infection risk** — the part an intern acts on |
+| 270 | Xanthine oxidase inhibitors | ADEQUATE | allopurinol well covered |
+
+**Nine of twelve came back adequate.** The antiretroviral prediction was wrong in the corpus's favour, and that is worth stating as plainly as the gaps.
+
+### The 25 ABSENT leaves, judged against the intern ceiling
+
+**Genuine gaps at intern level (5):**
+
+| Leaf | Why it matters |
+|---|---|
+| **Snake antivenoms** and **other antivenoms** | Zero hits for `antivenom` anywhere in 148 files. Australian envenomation is core ED intern work and the pressure-immobilisation/antivenom pathway is examinable |
+| **H2 antagonists** | Zero hits for ranitidine, famotidine, nizatidine or the class name. PPIs are covered; the alternative class is not named once |
+| **Oral and intranasal decongestants** | Zero for pseudoephedrine, oxymetazoline. Rebound rhinitis medicamentosa is a standard teaching point |
+| **Other laxatives (bulk-forming)** | Zero for psyllium, ispaghula, Metamucil. The other four laxative leaves are covered; this one is not — an asymmetric silence inside a class the corpus otherwise teaches |
+| **CGRP antagonists** | Now PBS-listed migraine prophylaxis; the other migraine leaves are adequate |
+
+**Correctly absent at intern level (20):** echinocandins · other dermatological drugs · ear antiseptics · intranasal antihistamines · nonselective alpha-blockers · six ophthalmic leaves (eye aminoglycosides, eye quinolones, ocular antivirals, ocular vasoconstrictors, ocular NSAIDs, mydriatics, ocular local anaesthetics — the glaucoma and allergic-eye leaves *are* covered) · drugs for kidney stones · other hormonal antineoplastics · other vaginal anti-infectives · non-amphetamine psychostimulants · orexin antagonists · opioid cough suppressants. An intern recognises these; they do not prescribe them unsupervised.
+
+### New build items
+
+| Item | Source | Status |
+|---|---|---|
+| **P5-C10** | **Antivenoms** — snake and other Australian envenomation: pressure-immobilisation, when to give antivenom, premedication, serum sickness. Absent entirely | ⬜ |
+| **P5-C11** | **H2 antagonists** — where they still sit relative to PPIs; absent entirely | ⬜ |
+| **P5-C12** | **Decongestants** — oral and intranasal, and rhinitis medicamentosa; absent entirely | ⬜ |
+| **P5-C13** | **Bulk-forming laxatives** — the one laxative leaf of five with no coverage | ⬜ |
+| **P5-C14** | **CGRP antagonists** — PBS-listed migraine prophylaxis; absent | ⬜ |
+| **P5-C15** | **Carbapenems** — mechanism and the stewardship/ESBL rationale in one place | ⬜ |
+| **P5-C16** | **TNF-alpha antagonists** — pre-treatment TB and hepatitis B screening, infection risk while on treatment | ⬜ |
+| **P5-C17** | **Antimycobacterials** — the four-drug regimen's toxicity and monitoring profile in the entry that teaches the regimen | ⬜ |
+
+### Complete result — all 276 leaf subclasses
+
+Verdict is the **best single entry**; `(corpus adequate)` marks a leaf whose facts exist but are scattered across entries.
+
+| # | AMH class | Leaf subclass | Verdict | Paragraphs | Dimensions in that entry |
+|---|---|---|---|---|---|
+|   1 | 1 Allergy and anaphylaxis | Sympathomimetics (anaphylaxis) | **ADEQUATE** | 66 | mech+dose+harm+contra |
+|   2 | 1 Allergy and anaphylaxis | Sedating antihistamines | **ADEQUATE** | 5 | dose+harm+contra |
+|   3 | 1 Allergy and anaphylaxis | Less sedating antihistamines | **THIN** | 3 | dose+contra |
+|   4 | 2 Anaesthetics | IV general anaesthetics | **THIN *(corpus adequate)*** | 8 | harm+contra  <<ASSEMBLED>> |
+|   5 | 2 Anaesthetics | Inhaled anaesthetics | **ADEQUATE** | 10 | mech+dose+harm |
+|   6 | 2 Anaesthetics | Non-depolarising neuromuscular blockers | **THIN** | 1 | contra |
+|   7 | 2 Anaesthetics | Depolarising neuromuscular blockers | **ADEQUATE** | 3 | mech+dose+harm |
+|   8 | 2 Anaesthetics | Alpha2 and imidazoline agonists | **THIN** | 3 | dose |
+|   9 | 2 Anaesthetics | Opioids (anaesthesia) | **ADEQUATE** | 8 | dose+harm+contra |
+|  10 | 2 Anaesthetics | Anticholinergics (anaesthesia) | **ADEQUATE** | 16 | dose+harm+contra |
+|  11 | 2 Anaesthetics | Drugs for reversing neuromuscular blockade | **ADEQUATE** | 2 | mech+harm+contra |
+|  12 | 2 Anaesthetics | Local anaesthetics | **ADEQUATE** | 22 | mech+dose+contra |
+|  13 | 3 Analgesics | Non-opioid analgesics | **ADEQUATE** | 92 | mech+dose+harm+contra |
+|  14 | 3 Analgesics | Opioid analgesics | **ADEQUATE** | 55 | dose+harm+contra |
+|  15 | 4 Antidotes and antivenoms | Gastrointestinal decontaminants | **ADEQUATE** | 2 | mech+dose+contra |
+|  16 | 4 Antidotes and antivenoms | Antidotes | **ADEQUATE** | 29 | mech+dose+harm+contra |
+|  17 | 4 Antidotes and antivenoms | Snake antivenoms | **ABSENT** | 0 | — |
+|  18 | 4 Antidotes and antivenoms | Other antivenoms | **ABSENT** | 0 | — |
+|  19 | 5 Anti-infectives | Aminoglycosides | **ADEQUATE** | 25 | dose+harm+contra |
+|  20 | 5 Anti-infectives | Carbapenems | **THIN *(corpus adequate)*** | 16 | dose+contra  <<ASSEMBLED>> |
+|  21 | 5 Anti-infectives | Cephalosporins | **ADEQUATE** | 89 | mech+dose+contra |
+|  22 | 5 Anti-infectives | Glycopeptides | **ADEQUATE** | 24 | mech+harm+contra |
+|  23 | 5 Anti-infectives | Lincosamides | **THIN *(corpus adequate)*** | 21 | dose+contra  <<ASSEMBLED>> |
+|  24 | 5 Anti-infectives | Macrolides | **ADEQUATE** | 107 | mech+dose+harm+contra |
+|  25 | 5 Anti-infectives | Penicillins | **ADEQUATE** | 157 | mech+dose+contra |
+|  26 | 5 Anti-infectives | Quinolones | **ADEQUATE** | 56 | mech+dose+contra |
+|  27 | 5 Anti-infectives | Rifamycins | **ADEQUATE** | 25 | mech+harm+contra |
+|  28 | 5 Anti-infectives | Tetracyclines | **ADEQUATE** | 56 | mech+harm+contra |
+|  29 | 5 Anti-infectives | Antimycobacterials | **THIN *(corpus adequate)*** | 25 | mech+dose  <<ASSEMBLED>> |
+|  30 | 5 Anti-infectives | Other antibacterials | **ADEQUATE** | 78 | mech+dose+contra |
+|  31 | 5 Anti-infectives | Azoles (antifungal) | **ADEQUATE** | 23 | dose+harm+contra |
+|  32 | 5 Anti-infectives | Echinocandins | **ABSENT** | 0 | — |
+|  33 | 5 Anti-infectives | Other antifungals | **ADEQUATE** | 11 | dose+harm+contra |
+|  34 | 5 Anti-infectives | Guanine analogues (antiviral) | **ADEQUATE** | 36 | dose+harm+contra |
+|  35 | 5 Anti-infectives | Neuraminidase inhibitors | **THIN** | 6 | mech+contra |
+|  36 | 5 Anti-infectives | Antivirals for viral hepatitis | **THIN** | 4 | dose |
+|  37 | 5 Anti-infectives | Other antivirals | **ADEQUATE** | 9 | mech+dose+contra |
+|  38 | 5 Anti-infectives | NRTIs | **ADEQUATE** | 12 | mech+harm+contra |
+|  39 | 5 Anti-infectives | NNRTIs | **ADEQUATE** | 3 | mech+harm+contra |
+|  40 | 5 Anti-infectives | HIV-Protease inhibitors | **ADEQUATE** | 9 | mech+dose+contra |
+|  41 | 5 Anti-infectives | Integrase inhibitors | **ADEQUATE** | 9 | mech+harm+contra |
+|  42 | 5 Anti-infectives | Other antiretrovirals | **ADEQUATE** | 4 | mech+harm+contra |
+|  43 | 5 Anti-infectives | Antimalarials | **ADEQUATE** | 21 | mech+dose+contra |
+|  44 | 5 Anti-infectives | Other antiprotozoals | **ADEQUATE** | 50 | mech+dose+harm |
+|  45 | 5 Anti-infectives | Benzimidazoles (anthelmintic) | **THIN** | 4 | dose+harm |
+|  46 | 5 Anti-infectives | Other anthelmintics | **THIN *(corpus adequate)*** | 15 | dose+harm  <<ASSEMBLED>> |
+|  47 | 6 Cardiovascular | Aldosterone antagonists | **ADEQUATE** | 12 | mech+dose+harm+contra |
+|  48 | 6 Cardiovascular | Loop diuretics | **ADEQUATE** | 21 | mech+dose+harm+contra |
+|  49 | 6 Cardiovascular | Sympathomimetics (cardiovascular) | **ADEQUATE** | 28 | mech+dose+harm |
+|  50 | 6 Cardiovascular | Other drugs for heart failure | **ADEQUATE** | 21 | mech+dose+harm+contra |
+|  51 | 6 Cardiovascular | Nitrates | **ADEQUATE** | 31 | mech+dose+harm+contra |
+|  52 | 6 Cardiovascular | Other antianginal drugs | **ADEQUATE** | 3 | mech+dose+contra |
+|  53 | 6 Cardiovascular | Thiazide and related diuretics | **THIN *(corpus adequate)*** | 19 | mech+harm  <<ASSEMBLED>> |
+|  54 | 6 Cardiovascular | Other diuretics | **ADEQUATE** | 12 | mech+dose+harm+contra |
+|  55 | 6 Cardiovascular | ACE inhibitors | **ADEQUATE** | 39 | mech+dose+harm+contra |
+|  56 | 6 Cardiovascular | Sartans | **ADEQUATE** | 16 | mech+dose+harm+contra |
+|  57 | 6 Cardiovascular | Calcium channel blockers | **ADEQUATE** | 36 | mech+dose+harm+contra |
+|  58 | 6 Cardiovascular | Beta-blockers | **ADEQUATE** | 50 | mech+dose+harm+contra |
+|  59 | 6 Cardiovascular | Other antihypertensives | **ADEQUATE** | 10 | mech+dose+harm+contra |
+|  60 | 6 Cardiovascular | Antiarrhythmics | **ADEQUATE** | 61 | mech+dose+harm+contra |
+|  61 | 6 Cardiovascular | Statins | **ADEQUATE** | 58 | mech+dose+harm+contra |
+|  62 | 6 Cardiovascular | Fibrates | **ADEQUATE** | 2 | mech+dose+harm |
+|  63 | 6 Cardiovascular | PCSK9 inhibitors | **ADEQUATE** | 2 | mech+dose+harm |
+|  64 | 6 Cardiovascular | Other drugs for dyslipidaemia | **ADEQUATE** | 8 | mech+dose+harm |
+|  65 | 6 Cardiovascular | Prostacyclins | **THIN** | 4 | mech+contra |
+|  66 | 6 Cardiovascular | Endothelin antagonists | **THIN** | 6 | mech+contra |
+|  67 | 6 Cardiovascular | PDE5 inhibitors (cardiovascular) | **ADEQUATE** | 9 | mech+dose+contra |
+|  68 | 6 Cardiovascular | Other drugs for pulmonary hypertension | **THIN *(corpus adequate)*** | 13 | harm+contra  <<ASSEMBLED>> |
+|  69 | 6 Cardiovascular | Drugs for peripheral vascular disease | **THIN** | 1 | contra |
+|  70 | 6 Cardiovascular | Drugs for orthostatic hypotension | **ADEQUATE** | 22 | mech+harm+contra |
+|  71 | 7 Blood and electrolytes | Heparins | **ADEQUATE** | 26 | mech+dose+contra |
+|  72 | 7 Blood and electrolytes | Vitamin K antagonists | **ADEQUATE** | 54 | mech+dose+contra |
+|  73 | 7 Blood and electrolytes | Direct thrombin inhibitors | **ADEQUATE** | 8 | mech+dose+harm+contra |
+|  74 | 7 Blood and electrolytes | Factor Xa inhibitors | **ADEQUATE** | 20 | mech+dose+harm |
+|  75 | 7 Blood and electrolytes | Glycoprotein IIb/IIIa inhibitors | **ADEQUATE** | 3 | mech+dose+harm |
+|  76 | 7 Blood and electrolytes | Thienopyridines | **ADEQUATE** | 21 | mech+dose+harm |
+|  77 | 7 Blood and electrolytes | Other antiplatelet drugs | **ADEQUATE** | 100 | mech+dose+harm+contra |
+|  78 | 7 Blood and electrolytes | Thrombolytics | **THIN *(corpus adequate)*** | 21 | harm+contra  <<ASSEMBLED>> |
+|  79 | 7 Blood and electrolytes | Other drugs affecting haemostasis | **ADEQUATE** | 40 | mech+dose+harm |
+|  80 | 7 Blood and electrolytes | Drugs for reversing anticoagulation | **ADEQUATE** | 34 | dose+harm+contra |
+|  81 | 7 Blood and electrolytes | Erythropoietin agonists | **THIN *(corpus adequate)*** | 7 | dose+contra  <<ASSEMBLED>> |
+|  82 | 7 Blood and electrolytes | Other drugs for anaemias | **ADEQUATE** | 87 | mech+dose+contra |
+|  83 | 7 Blood and electrolytes | Drugs that chelate iron | **ADEQUATE** | 7 | mech+dose+contra |
+|  84 | 7 Blood and electrolytes | Drugs for potassium imbalance | **ADEQUATE** | 11 | mech+dose+harm+contra |
+|  85 | 7 Blood and electrolytes | Phosphate binders | **THIN *(corpus adequate)*** | 5 | dose+harm  <<ASSEMBLED>> |
+|  86 | 7 Blood and electrolytes | Other drugs for electrolyte imbalance | **ADEQUATE** | 28 | mech+dose+harm+contra |
+|  87 | 8 Dermatological | Corticosteroids (skin) | **ADEQUATE** | 44 | mech+dose+contra |
+|  88 | 8 Dermatological | Tars | **THIN** | 4 | dose |
+|  89 | 8 Dermatological | Other drugs for eczema | **ADEQUATE** | 27 | mech+dose+contra |
+|  90 | 8 Dermatological | Immunosuppressants (psoriasis) | **ADEQUATE** | 50 | mech+dose+contra |
+|  91 | 8 Dermatological | Other drugs for psoriasis | **ADEQUATE** | 10 | dose+harm+contra |
+|  92 | 8 Dermatological | Retinoids (skin) | **THIN *(corpus adequate)*** | 12 | dose+harm  <<ASSEMBLED>> |
+|  93 | 8 Dermatological | Retinoids (oral) | **THIN *(corpus adequate)*** | 12 | dose+harm  <<ASSEMBLED>> |
+|  94 | 8 Dermatological | Other drugs for acne | **THIN** | 5 | dose+contra |
+|  95 | 8 Dermatological | Azoles (skin) | **ADEQUATE** | 12 | dose+harm+contra |
+|  96 | 8 Dermatological | Other antifungals (skin) | **ADEQUATE** | 6 | dose+harm+contra |
+|  97 | 8 Dermatological | Antibacterials (skin) | **THIN** | 14 | dose+contra |
+|  98 | 8 Dermatological | Antivirals (skin) | **THIN** | 1 | dose+contra |
+|  99 | 8 Dermatological | Scabicides and pediculicides | **ADEQUATE** | 39 | dose+harm+contra |
+| 100 | 8 Dermatological | Drugs for warts | **ADEQUATE** | 18 | dose+harm+contra |
+| 101 | 8 Dermatological | Drugs for actinic keratoses | **ADEQUATE** | 17 | dose+harm+contra |
+| 102 | 8 Dermatological | Drugs for alopecia | **THIN *(corpus adequate)*** | 23 | mech+dose  <<ASSEMBLED>> |
+| 103 | 8 Dermatological | Other dermatological drugs | **ABSENT** | 0 | — |
+| 104 | 9 Ear, nose and throat | Antibacterials (ear) | **ADEQUATE** | 5 | dose+harm+contra |
+| 105 | 9 Ear, nose and throat | Corticosteroids with anti-infectives (ear) | **ADEQUATE** | 4 | dose+harm+contra |
+| 106 | 9 Ear, nose and throat | Antiseptics (ear) | **ABSENT** | 0 | — |
+| 107 | 9 Ear, nose and throat | Cerumenolytics | **NAMED ONLY** | 2 | — |
+| 108 | 9 Ear, nose and throat | Drugs for vestibular disorders | **ADEQUATE** | 12 | dose+harm+contra |
+| 109 | 9 Ear, nose and throat | Oral decongestants | **ABSENT** | 0 | — |
+| 110 | 9 Ear, nose and throat | Intranasal decongestants | **ABSENT** | 0 | — |
+| 111 | 9 Ear, nose and throat | Corticosteroids (intranasal) | **THIN *(corpus adequate)*** | 8 | dose+contra  <<ASSEMBLED>> |
+| 112 | 9 Ear, nose and throat | Antihistamines (intranasal) | **ABSENT** | 0 | — |
+| 113 | 9 Ear, nose and throat | Other drugs for rhinitis and sinusitis | **THIN** | 4 | dose+contra |
+| 114 | 9 Ear, nose and throat | Drugs for other nasal conditions | **ADEQUATE** | 17 | dose+harm+contra |
+| 115 | 9 Ear, nose and throat | Drugs for mouth and throat conditions | **THIN *(corpus adequate)*** | 2 | harm+contra  <<ASSEMBLED>> |
+| 116 | 10 Endocrine | Sulfonylureas | **ADEQUATE** | 20 | mech+harm+contra |
+| 117 | 10 Endocrine | Dipeptidyl peptidase-4 inhibitors | **THIN *(corpus adequate)*** | 4 | mech+contra  <<ASSEMBLED>> |
+| 118 | 10 Endocrine | Glucagon-like peptide-1 analogues | **ADEQUATE** | 9 | mech+harm+contra |
+| 119 | 10 Endocrine | Sodium-glucose co-transporter 2 inhibitors | **ADEQUATE** | 12 | mech+dose+harm+contra |
+| 120 | 10 Endocrine | Other drugs for diabetes | **ADEQUATE** | 170 | mech+dose+harm+contra |
+| 121 | 10 Endocrine | Drugs for hypoglycaemia | **ADEQUATE** | 81 | mech+dose+harm+contra |
+| 122 | 10 Endocrine | Thyroid hormones | **ADEQUATE** | 17 | dose+harm+contra |
+| 123 | 10 Endocrine | Antithyroid drugs | **ADEQUATE** | 17 | mech+dose+harm+contra |
+| 124 | 10 Endocrine | Other drugs for thyroid disorders | **ADEQUATE** | 10 | mech+dose+harm+contra |
+| 125 | 10 Endocrine | Bisphosphonates | **ADEQUATE** | 29 | dose+harm+contra |
+| 126 | 10 Endocrine | Vitamin D | **ADEQUATE** | 78 | dose+harm+contra |
+| 127 | 10 Endocrine | Other drugs affecting bone | **ADEQUATE** | 12 | dose+harm+contra |
+| 128 | 10 Endocrine | Corticosteroids (adrenal insufficiency) | **ADEQUATE** | 89 | mech+dose+harm+contra |
+| 129 | 10 Endocrine | Gonadotrophin-releasing hormone agonists | **ADEQUATE** | 10 | mech+dose+harm |
+| 130 | 10 Endocrine | Other drugs for infertility | **ADEQUATE** | 39 | dose+harm+contra |
+| 131 | 10 Endocrine | Androgens | **THIN *(corpus adequate)*** | 17 | mech+dose  <<ASSEMBLED>> |
+| 132 | 10 Endocrine | Antidiuretic hormone agonists and antagonists | **THIN *(corpus adequate)*** | 19 | mech+harm  <<ASSEMBLED>> |
+| 133 | 10 Endocrine | Growth hormone | **THIN** | 4 | mech |
+| 134 | 10 Endocrine | Nonselective alpha-blockers | **ABSENT** | 0 | — |
+| 135 | 10 Endocrine | Somatostatin analogues | **ADEQUATE** | 7 | mech+dose+harm+contra |
+| 136 | 11 Eye | Aminoglycosides (eye) | **ABSENT** | 0 | — |
+| 137 | 11 Eye | Quinolones (eye) | **ABSENT** | 0 | — |
+| 138 | 11 Eye | Other antibacterials (eye) | **THIN *(corpus adequate)*** | 6 | contra  <<ASSEMBLED>> |
+| 139 | 11 Eye | Antivirals (eye) | **ABSENT** | 0 | — |
+| 140 | 11 Eye | Beta-blockers (eye) | **THIN *(corpus adequate)*** | 2 | mech+contra  <<ASSEMBLED>> |
+| 141 | 11 Eye | Prostaglandin analogues (eye) | **THIN** | 3 | mech+contra |
+| 142 | 11 Eye | Alpha2 agonists (eye) | **THIN *(corpus adequate)*** | 4 | mech+contra  <<ASSEMBLED>> |
+| 143 | 11 Eye | Carbonic anhydrase inhibitors | **ADEQUATE** | 14 | mech+dose+harm+contra |
+| 144 | 11 Eye | Other drugs for glaucoma | **THIN *(corpus adequate)*** | 4 | mech+contra  <<ASSEMBLED>> |
+| 145 | 11 Eye | Vasoconstrictors (eye) | **ABSENT** | 0 | — |
+| 146 | 11 Eye | Antihistamines (eye) | **THIN** | 1 | contra |
+| 147 | 11 Eye | Mast cell stabilisers | **THIN** | 2 | contra |
+| 148 | 11 Eye | NSAIDs (eye) | **ABSENT** | 0 | — |
+| 149 | 11 Eye | Corticosteroids (eye) | **THIN** | 2 | dose+contra |
+| 150 | 11 Eye | Other drugs for allergic eye conditions | **THIN** | 3 | harm+contra |
+| 151 | 11 Eye | Drugs for dry eyes | **THIN *(corpus adequate)*** | 17 | dose+harm  <<ASSEMBLED>> |
+| 152 | 11 Eye | Anticholinergics (eye) | **NAMED ONLY** | 3 | — |
+| 153 | 11 Eye | Other drugs for mydriasis | **ABSENT** | 0 | — |
+| 154 | 11 Eye | Local anaesthetics (eye) | **ABSENT** | 0 | — |
+| 155 | 12 Gastrointestinal | Antacids | **ADEQUATE** | 7 | mech+harm+contra |
+| 156 | 12 Gastrointestinal | H2 antagonists | **ABSENT** | 0 | — |
+| 157 | 12 Gastrointestinal | Proton pump inhibitors | **THIN *(corpus adequate)*** | 2 | dose+contra  <<ASSEMBLED>> |
+| 158 | 12 Gastrointestinal | Other drugs for ulcers | **THIN *(corpus adequate)*** | 8 | dose+harm  <<ASSEMBLED>> |
+| 159 | 12 Gastrointestinal | Drugs affecting gastrointestinal motility | **ADEQUATE** | 22 | dose+harm+contra |
+| 160 | 12 Gastrointestinal | Dopamine antagonists (antiemetic) | **ADEQUATE** | 22 | mech+dose+harm |
+| 161 | 12 Gastrointestinal | 5HT3 antagonists | **ADEQUATE** | 11 | dose+harm+contra |
+| 162 | 12 Gastrointestinal | Substance P antagonists | **THIN** | 2 | harm+contra |
+| 163 | 12 Gastrointestinal | Other drugs for nausea and vomiting | **ADEQUATE** | 14 | mech+dose+harm |
+| 164 | 12 Gastrointestinal | Stool softeners | **NAMED ONLY** | 1 | — |
+| 165 | 12 Gastrointestinal | Stimulant laxatives | **ADEQUATE** | 1 | mech+harm+contra |
+| 166 | 12 Gastrointestinal | Osmotic laxatives | **THIN *(corpus adequate)*** | 7 | dose+contra  <<ASSEMBLED>> |
+| 167 | 12 Gastrointestinal | Other laxatives | **ABSENT** | 0 | — |
+| 168 | 12 Gastrointestinal | Opioid antidiarrhoeals | **THIN *(corpus adequate)*** | 4 | dose+contra  <<ASSEMBLED>> |
+| 169 | 12 Gastrointestinal | Other drugs for diarrhoea | **ADEQUATE** | 3 | mech+dose+harm |
+| 170 | 12 Gastrointestinal | Corticosteroids (gastrointestinal) | **THIN** | 5 | contra |
+| 171 | 12 Gastrointestinal | 5-Aminosalicylates | **ADEQUATE** | 21 | dose+harm+contra |
+| 172 | 12 Gastrointestinal | Other drugs for inflammatory bowel disease | **ADEQUATE** | 40 | mech+dose+contra |
+| 173 | 12 Gastrointestinal | Drugs for perianal disorders | **THIN** | 25 | contra |
+| 174 | 12 Gastrointestinal | Other gastrointestinal drugs | **ADEQUATE** | 9 | dose+harm+contra |
+| 175 | 13 Genitourinary | Anticholinergics (genitourinary) | **THIN** | 7 | mech+harm |
+| 176 | 13 Genitourinary | Other drugs for urinary incontinence | **THIN** | 2 | mech+harm |
+| 177 | 13 Genitourinary | Selective alpha-blockers (genitourinary) | **THIN *(corpus adequate)*** | 2 | harm+contra  <<ASSEMBLED>> |
+| 178 | 13 Genitourinary | 5-Alpha-reductase inhibitors | **THIN *(corpus adequate)*** | 3 | mech+dose  <<ASSEMBLED>> |
+| 179 | 13 Genitourinary | Phosphodiesterase 5 inhibitors | **ADEQUATE** | 12 | mech+dose+contra |
+| 180 | 13 Genitourinary | Other drugs for sexual dysfunction | **THIN *(corpus adequate)*** | 12 | harm+contra  <<ASSEMBLED>> |
+| 181 | 13 Genitourinary | Urinary alkalinisers and acidifiers | **ADEQUATE** | 3 | mech+dose+harm+contra |
+| 182 | 13 Genitourinary | Drugs for kidney stones | **ABSENT** | 0 | — |
+| 183 | 13 Genitourinary | Bladder instillations | **NAMED ONLY** | 1 | — |
+| 184 | 14 Immunomodulators and antineoplastics | Alkylating agents | **ADEQUATE** | 12 | mech+dose+contra |
+| 185 | 14 Immunomodulators and antineoplastics | Anthracyclines | **THIN** | 2 | harm |
+| 186 | 14 Immunomodulators and antineoplastics | Antimetabolites | **ADEQUATE** | 37 | dose+harm+contra |
+| 187 | 14 Immunomodulators and antineoplastics | Platinum compounds | **THIN** | 3 | dose |
+| 188 | 14 Immunomodulators and antineoplastics | Taxanes | **THIN** | 1 | mech |
+| 189 | 14 Immunomodulators and antineoplastics | Topoisomerase I inhibitors | **THIN** | 1 | mech+contra |
+| 190 | 14 Immunomodulators and antineoplastics | Vinca alkaloids | **NAMED ONLY** | 1 | — |
+| 191 | 14 Immunomodulators and antineoplastics | Other cytotoxic antineoplastics | **NAMED ONLY** | 1 | — |
+| 192 | 14 Immunomodulators and antineoplastics | Antineoplastic antibodies | **THIN *(corpus adequate)*** | 14 | mech+contra  <<ASSEMBLED>> |
+| 193 | 14 Immunomodulators and antineoplastics | Kinase inhibitors | **THIN** | 5 | mech+harm |
+| 194 | 14 Immunomodulators and antineoplastics | Thalidomide analogues | **THIN** | 1 | harm |
+| 195 | 14 Immunomodulators and antineoplastics | Other non-cytotoxic antineoplastics | **THIN** | 3 | harm |
+| 196 | 14 Immunomodulators and antineoplastics | Anti-androgens | **THIN *(corpus adequate)*** | 10 | dose+harm  <<ASSEMBLED>> |
+| 197 | 14 Immunomodulators and antineoplastics | Aromatase inhibitors | **THIN** | 2 | mech |
+| 198 | 14 Immunomodulators and antineoplastics | GnRH agonists (oncology) | **THIN** | 1 | mech |
+| 199 | 14 Immunomodulators and antineoplastics | Selective oestrogen receptor modulators | **ADEQUATE** | 7 | dose+harm+contra |
+| 200 | 14 Immunomodulators and antineoplastics | Other hormonal antineoplastics | **ABSENT** | 0 | — |
+| 201 | 14 Immunomodulators and antineoplastics | Colony stimulating factors | **NAMED ONLY** | 3 | — |
+| 202 | 14 Immunomodulators and antineoplastics | Other drugs used with antineoplastics | **THIN *(corpus adequate)*** | 3 | harm+contra  <<ASSEMBLED>> |
+| 203 | 14 Immunomodulators and antineoplastics | Calcineurin inhibitors | **ADEQUATE** | 36 | mech+dose+harm+contra |
+| 204 | 14 Immunomodulators and antineoplastics | Corticosteroids (immunosuppressant) | **ADEQUATE** | 60 | mech+dose+harm+contra |
+| 205 | 14 Immunomodulators and antineoplastics | Immunosuppressant antibodies | **THIN** | 1 | mech+harm |
+| 206 | 14 Immunomodulators and antineoplastics | mTOR inhibitors | **THIN** | 3 | mech |
+| 207 | 14 Immunomodulators and antineoplastics | Other immunosuppressants | **ADEQUATE** | 25 | mech+dose+contra |
+| 208 | 14 Immunomodulators and antineoplastics | Interferons | **THIN *(corpus adequate)*** | 5 | dose  <<ASSEMBLED>> |
+| 209 | 15 Neurological | Barbiturates | **THIN *(corpus adequate)*** | 8 | dose+harm  <<ASSEMBLED>> |
+| 210 | 15 Neurological | Benzodiazepines (neurology) | **ADEQUATE** | 30 | dose+harm+contra |
+| 211 | 15 Neurological | Other antiepileptics | **ADEQUATE** | 116 | dose+harm+contra |
+| 212 | 15 Neurological | Dopamine agonists (parkinsonism) | **ADEQUATE** | 15 | mech+dose+harm+contra |
+| 213 | 15 Neurological | Anticholinergics (parkinsonism) | **THIN** | 2 | dose |
+| 214 | 15 Neurological | Monoamine oxidase type B inhibitors | **ADEQUATE** | 5 | mech+dose+contra |
+| 215 | 15 Neurological | Other drugs for Parkinson's disease | **ADEQUATE** | 20 | mech+dose+harm |
+| 216 | 15 Neurological | Triptans | **ADEQUATE** | 10 | dose+harm+contra |
+| 217 | 15 Neurological | Calcitonin gene-related peptide antagonists | **ABSENT** | 0 | — |
+| 218 | 15 Neurological | Other drugs to prevent migraine | **ADEQUATE** | 4 | dose+harm+contra |
+| 219 | 15 Neurological | Anticholinesterases in Alzheimer's disease | **ADEQUATE** | 13 | mech+harm+contra |
+| 220 | 15 Neurological | Other drugs for Alzheimer's disease | **THIN** | 4 | mech+contra |
+| 221 | 15 Neurological | Drugs for multiple sclerosis | **ADEQUATE** | 11 | mech+dose+contra |
+| 222 | 15 Neurological | Anticholinesterases in myasthenia gravis | **THIN** | 2 | dose+contra |
+| 223 | 15 Neurological | Drugs for other neurological conditions | **THIN *(corpus adequate)*** | 19 | mech+harm  <<ASSEMBLED>> |
+| 224 | 16 Obstetric and gynaecological | Combined oral contraceptives | **ADEQUATE** | 45 | mech+dose+contra |
+| 225 | 16 Obstetric and gynaecological | Progestogens | **THIN *(corpus adequate)*** | 27 | harm+contra  <<ASSEMBLED>> |
+| 226 | 16 Obstetric and gynaecological | Other combined contraceptives | **THIN** | 2 | mech |
+| 227 | 16 Obstetric and gynaecological | Intrauterine devices | **THIN *(corpus adequate)*** | 20 | harm+contra  <<ASSEMBLED>> |
+| 228 | 16 Obstetric and gynaecological | Hormone replacement therapy | **ADEQUATE** | 26 | mech+dose+contra |
+| 229 | 16 Obstetric and gynaecological | Drugs for heavy menstrual bleeding | **ADEQUATE** | 8 | dose+harm+contra |
+| 230 | 16 Obstetric and gynaecological | Drugs for endometriosis | **THIN** | 16 | contra |
+| 231 | 16 Obstetric and gynaecological | Drugs for preterm labour | **THIN** | 2 | dose+contra |
+| 232 | 16 Obstetric and gynaecological | Drugs in pre-eclampsia and eclampsia | **ADEQUATE** | 25 | mech+dose+harm+contra |
+| 233 | 16 Obstetric and gynaecological | Oxytocic drugs | **THIN *(corpus adequate)*** | 17 | dose+harm  <<ASSEMBLED>> |
+| 234 | 16 Obstetric and gynaecological | Prostaglandins | **THIN *(corpus adequate)*** | 16 | dose+harm  <<ASSEMBLED>> |
+| 235 | 16 Obstetric and gynaecological | Other drugs used in obstetrics | **ADEQUATE** | 84 | mech+dose+harm+contra |
+| 236 | 16 Obstetric and gynaecological | Drugs affecting lactation | **ADEQUATE** | 10 | mech+dose+harm+contra |
+| 237 | 16 Obstetric and gynaecological | Azoles (vaginal) | **THIN** | 2 | dose+contra |
+| 238 | 16 Obstetric and gynaecological | Other vaginal anti-infectives | **ABSENT** | 0 | — |
+| 239 | 16 Obstetric and gynaecological | Drugs for menstrual symptoms | **ADEQUATE** | 10 | dose+harm+contra |
+| 240 | 17 Psychotropic | Monoamine oxidase inhibitors | **ADEQUATE** | 3 | mech+dose+harm |
+| 241 | 17 Psychotropic | Selective serotonin reuptake inhibitors | **ADEQUATE** | 45 | mech+dose+harm |
+| 242 | 17 Psychotropic | Tricyclic antidepressants | **ADEQUATE** | 26 | dose+harm+contra |
+| 243 | 17 Psychotropic | Serotonin and noradrenaline reuptake inhibitors | **ADEQUATE** | 14 | mech+dose+harm |
+| 244 | 17 Psychotropic | Other antidepressants | **THIN** | 5 | harm+contra |
+| 245 | 17 Psychotropic | Antipsychotics | **ADEQUATE** | 86 | mech+dose+harm |
+| 246 | 17 Psychotropic | Drugs for bipolar disorder | **ADEQUATE** | 30 | dose+harm+contra |
+| 247 | 17 Psychotropic | Benzodiazepines | **ADEQUATE** | 56 | mech+dose+contra |
+| 248 | 17 Psychotropic | Non-amphetamine psychostimulants | **ABSENT** | 0 | — |
+| 249 | 17 Psychotropic | Orexin receptor antagonists | **ABSENT** | 0 | — |
+| 250 | 17 Psychotropic | Other drugs for anxiety and sleep disorders | **THIN** | 4 | contra |
+| 251 | 17 Psychotropic | Psychostimulants | **ADEQUATE** | 4 | dose+harm+contra |
+| 252 | 17 Psychotropic | Other drugs for attention deficit hyperactivity disorder | **ADEQUATE** | 1 | dose+harm+contra |
+| 253 | 17 Psychotropic | Drugs for alcohol dependence | **ADEQUATE** | 5 | mech+harm+contra |
+| 254 | 17 Psychotropic | Drugs for nicotine dependence | **THIN** | 7 | contra |
+| 255 | 17 Psychotropic | Drugs for opioid dependence | **ADEQUATE** | 7 | mech+dose+harm+contra |
+| 256 | 17 Psychotropic | Other psychotropic drugs | **ADEQUATE** | 24 | dose+harm+contra |
+| 257 | 18 Respiratory | Beta2 agonists | **ADEQUATE** | 69 | mech+dose+harm+contra |
+| 258 | 18 Respiratory | Anticholinergics (inhaled) | **THIN *(corpus adequate)*** | 20 | mech+dose  <<ASSEMBLED>> |
+| 259 | 18 Respiratory | Theophyllines | **THIN *(corpus adequate)*** | 5 | mech+dose  <<ASSEMBLED>> |
+| 260 | 18 Respiratory | Corticosteroids (inhaled) | **THIN *(corpus adequate)*** | 48 | dose+contra  <<ASSEMBLED>> |
+| 261 | 18 Respiratory | Other drugs for asthma | **THIN** | 2 | mech+harm |
+| 262 | 18 Respiratory | Opioid cough suppressants | **ABSENT** | 0 | — |
+| 263 | 18 Respiratory | Mucolytics | **ADEQUATE** | 5 | mech+dose+contra |
+| 264 | 18 Respiratory | Drugs used in cystic fibrosis | **NAMED ONLY** | 17 | — |
+| 265 | 18 Respiratory | Pulmonary surfactants | **NAMED ONLY** | 2 | — |
+| 266 | 18 Respiratory | Other respiratory drugs | **NAMED ONLY** | 2 | — |
+| 267 | 19 Rheumatological | TNF-alpha antagonists | **THIN *(corpus adequate)*** | 21 | mech+dose  <<ASSEMBLED>> |
+| 268 | 19 Rheumatological | Immunosuppressants (rheumatology) | **ADEQUATE** | 65 | mech+dose+contra |
+| 269 | 19 Rheumatological | Other immunomodulating drugs | **THIN *(corpus adequate)*** | 11 | dose+contra  <<ASSEMBLED>> |
+| 270 | 19 Rheumatological | Xanthine oxidase inhibitors | **ADEQUATE** | 15 | mech+dose+contra |
+| 271 | 19 Rheumatological | Other drugs for gout | **ADEQUATE** | 10 | mech+dose+harm+contra |
+| 272 | 19 Rheumatological | NSAIDs | **ADEQUATE** | 98 | mech+dose+harm+contra |
+| 273 | 20 Vaccines | Vaccines | **ADEQUATE** | 214 | mech+dose+harm+contra |
+| 274 | 21 Miscellaneous | Specialised drugs | **THIN *(corpus adequate)*** | 6 | dose+contra  <<ASSEMBLED>> |
+| 275 | 21 Miscellaneous | Blood products | **ADEQUATE** | 36 | dose+harm+contra |
+| 276 | 21 Miscellaneous | Immunoglobulins | **ADEQUATE** | 86 | dose+harm+contra |
