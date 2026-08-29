@@ -1533,6 +1533,33 @@ Invasive ICP monitoring: catheter placed into the lateral ventricles to monitor 
 - **Immediate/acute:** repeated LP to temporarily reduce ICP — provides rapid symptomatic relief while definitive Mx takes effect.
 - **Definitive/chronic:** carbonic anhydrase inhibitors (e.g. acetazolamide, topiramate — not in pregnancy, teratogenic) — MOA: decreased CSF production; long-term weight loss (a genuinely disease-modifying intervention given the strong obesity association, not just symptomatic); surgery (e.g. optic nerve sheath fenestration or CSF shunting) for vision-threatening or refractory disease.
 
+### Concussion and Post-Concussive Syndrome
+
+> [!warning] **Snippet-sourced — primary source not read.** Cross-verified across the AIS/Sports Medicine Australia *Concussion and Brain Health Position Statement 2024*, the *Australian Concussion Guidelines for Youth and Community Sport*, the ASC concussion portal and SMA's Graded Return to Play resource. These are the **Australian** guidelines — this entry is not built on overseas advice. Tracked in `PENDING_GUIDELINE_CHECKS.md`.
+
+- **D:** a traumatic brain injury caused by biomechanical force, producing a transient disturbance of brain function. **Diagnosis is clinical** — imaging is normal by definition, so a normal CT does not exclude it. Loss of consciousness is **not** required.
+- **S/Smx:** headache, dizziness, nausea, "pressure in the head", visual disturbance; cognitive — feeling slowed, difficulty concentrating, amnesia for the event; emotional lability; sleep disturbance.
+- **Ix:** CT head is for excluding structural injury per the head-injury algorithm above, not for diagnosing concussion.
+- **Mx — the part an intern actually delivers, and the reason this entry exists:**
+  - **Initial relative rest for 24–48 hours**, then graded reintroduction of light activity provided it does not cause significant, sustained symptom worsening. Prolonged complete rest is no longer advised.
+  - **Return to learn/work before return to sport.** Graded return to school or work — reduced hours, modified environment — comes first.
+  - **Graded Return to Play is stepwise and sequential**; symptoms recurring at a step means dropping back a step.
+
+> [!danger] **The Australian minimum stand-down periods — the numbers to know.** For youth (under 19) and community sport:
+> - **At least 14 days symptom-free at rest** before returning to contact or collision **training**.
+> - **A minimum of 21 days from the concussion** before returning to competitive contact or collision **sport**.
+>
+> **The 14 days runs from the day the player becomes symptom-free, not from the day of injury** — this is the single most commonly misapplied point, and it means the total time off is usually longer than 21 days.
+>
+> Endorsed across 30 Australian sports including the AFL. All three figures above were confirmed across three independent sources.
+
+> [!warning] **Disagreement, flagged rather than resolved.** The adult (≥19) elite/professional exemption — permitted only with access to an advanced healthcare setting — is stated inconsistently across sources: one gives a **minimum 12 days** before return to play, another **symptom-free for at least 10 days**. These are not the same rule. **Confirm against the SMA position statement itself before quoting an adult figure.** The youth and community figures above are not affected.
+
+**Post-concussive syndrome**
+- **D:** persistence of concussive symptoms beyond the expected recovery window. Most concussive symptoms settle within **10–14 days**.
+- **S/Smx:** persistent headache, dizziness, fatigue, poor concentration and memory, irritability, low mood, sleep disturbance.
+- **Mx:** symptom-targeted and multidisciplinary — graded activity, vestibular and cervical physiotherapy where relevant, sleep and mood management, and review of analgesia to avoid medication-overuse headache. Persistent symptoms warrant specialist review rather than continued watchful waiting.
+
 ### Head Injury
 
 Primary injuries divided into focal or diffuse.
