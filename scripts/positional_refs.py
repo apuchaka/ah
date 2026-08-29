@@ -49,6 +49,12 @@ KNOWN LIMITATIONS — read before treating a hit as a gap
     approach set out previously", "see the discussion of this in the preceding
     section" carry no positional keyword this matches. This is the same class of
     blind spot the scan exists to fix, one level up.
+  * **Tier C can mistake a SIBLING REFERENCE for the referent.** `02_Respiratory`
+    line 114 says "per the COPD-X framework above"; the COPD-X box really is
+    above, at line 103, but the literal phrase "COPD-X framework" next occurs
+    at line 143 — another reference, not the target. The scan reports
+    MISDIRECTED. Read every hit: the question is where the CONTENT is, not
+    where the phrase recurs.
   * **Tier A depends on the qualifier being a word.** "the figures below" with
     no qualifier is unresolvable mechanically — it lands in Tier B, where the
     check is weak.

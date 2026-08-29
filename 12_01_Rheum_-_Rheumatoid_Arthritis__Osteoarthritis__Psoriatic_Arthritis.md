@@ -100,7 +100,7 @@ source: quackquackmed 12.01 Rheumatoid arthritis, Osteoarthritis, Psoriatic arth
 - Pain with activity, worse at the end of the day; medial compartment most commonly affected given it bears more load than the lateral compartment; ± crepitus, effusion, quadriceps wasting in advanced disease.
 - Varus (bow-legged) deformity is a common late finding, reflecting the medial compartment's predominant involvement.
 - Oxford Knee Score used to assess severity — the same 12-item, patient-reported structure as the Oxford Hip Score above (scored 0–48, higher = better function), not repeated here.
-- See Kellgren-Lawrence grading above (not repeated here) for the radiographic severity scale most commonly applied to this joint specifically.
+- See the **Kellgren-Lawrence (K-L) grading** box under Investigations below (not repeated here) for the radiographic severity scale most commonly applied to this joint specifically.
 
 ### OA of the hand
 
