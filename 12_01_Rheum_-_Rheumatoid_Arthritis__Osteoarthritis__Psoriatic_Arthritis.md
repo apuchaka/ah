@@ -20,7 +20,7 @@ source: quackquackmed 12.01 Rheumatoid arthritis, Osteoarthritis, Psoriatic arth
 > - **A simple way to remember which is which**: in boutonnière, the finger pokes through the "buttonhole" created by the ruptured central slip — the PIP flexes through the gap while the DIP is pulled into extension by the displaced lateral bands.
   - Other pattern: relapsing/remitting monoarthritis of different large joints (palindromic rheumatism).
 - **Dx:** clinical + lab confirmation.
-  - Rheumatology screen: rheumatoid factor (RF, 70% positive), anti-CCP (90–95% positive).
+  - Rheumatology screen: rheumatoid factor (RF, 70% positive), **anti-CCP (anti-cyclic citrullinated peptide antibody)** (90–95% positive) — **anti-CCP is the more specific of the two**: RF is also positive in Sjögren's, SLE, chronic infection and healthy older people, so a positive anti-CCP is what makes the diagnosis convincing, while RF alone does not.
   - X-rays of hands & feet — a standard, internationally-consistent diagnostic step (not a UK/NICE-specific recommendation), including in Australian practice: early — loss of joint space, juxta-articular osteoporosis, soft-tissue swelling; later — periarticular erosions, subluxation.
 
 > [!info] 2010 American College of Rheumatology / European League Against Rheumatism (ACR/EULAR) classification criteria — jointly developed, not an ACR-only tool (corrected attribution)
