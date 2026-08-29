@@ -419,4 +419,6 @@ Delivery of the placenta.
 
 **Mx**: admit + refer to perinatal psychiatry team or psychiatric liaison; ideally specialist mother and baby unit if possible.
 
-**P**: 25–50% risk of recurrence in following pregnancies.
+**P**: risk of recurrence in a following pregnancy is high — **published estimates range roughly 25–50%, and [[14_03_Psych_-_Psychotic_Disorders_and_Antipsychotics]] Postpartum (Puerperal) Psychosis states >50%.** The two entries gave different figures for the same fact; neither has been resolved against an Australian source — see `PENDING_GUIDELINE_CHECKS.md` **B59**. Either way it is the single strongest risk factor and the reason pre-conception perinatal psychiatry planning is offered.
+
+> [!note] **A prior history of bipolar disorder is the other major risk factor** (~30% risk of a postpartum episode), and postpartum psychosis is increasingly understood as sitting within the bipolar spectrum — the aetiological link this entry did not carry. [[14_03_Psych_-_Psychotic_Disorders_and_Antipsychotics]] Postpartum (Puerperal) Psychosis owns the full entry, including the organic causes to exclude (postpartum sepsis, significant blood loss, eclampsia-related complications) and **PANDA**, the Australian perinatal mental health helpline. Linked by the G35 round, 2026-08-29.
