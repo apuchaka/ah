@@ -78,6 +78,8 @@ source: quackquackmed 15.04 Respiratory disorders - URTI and LRTI in children
 - **Mx of mild pneumonia:** likely viral — discharge with supportive treatment and safety-netting.
 - **Medical Mx:** amoxicillin; + macrolide if no response, or if mycoplasma or chlamydia suspected. If associated with influenza, use co-amoxiclav.
 
+> [!note] The **adult** entry is [[02_Respiratory]] Pneumonia, which owns the CAP severity assessment (Australian Therapeutic Guidelines favour clinical red flags over CURB-65, though CURB-65 and SMART-COP are both recognised) and the severity-tiered Australian regimens. **Amoxicillin first-line is common to both**; the adult entry's warning against co-amoxiclav applies to *severe CAP as a default*, not to the post-influenza indication above, where staphylococcal cover is the reason for it.
+
 ### Whooping cough (pertussis)
 
 > [!tip] Aka the "cough of 100 days".
