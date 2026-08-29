@@ -29,8 +29,14 @@ source: quackquackmed 15.01 Paediatric life support, Newborn life support, Intra
 | | Shockable (VF or pulseless VT) | Non-shockable (PEA or asystole) |
 |---|---|---|
 | Action | 1 shock (4J/kg), resume CPR for 2 min | Resume CPR for 2 min |
-| Adrenaline | After 3rd shock, give adrenaline 10mcg/kg IV/IO; repeat on alternate cycles | Give adrenaline ASAP; repeat on alternate cycles until ROSC |
+| Adrenaline | **After the 2nd shock**, give adrenaline 10mcg/kg IV/IO; repeat on alternate cycles (~every 4 min) | Give adrenaline ASAP; repeat on alternate cycles until ROSC |
 | Amiodarone | After 3rd shock, give amiodarone bolus 5mg/kg IV/IO; repeat once more after 5th shock (or later if relapse) | — |
+
+> [!danger] **Correction — adrenaline timing, found by the propagation check in the M2 round (2026-08-29).** This table previously said adrenaline **after the 3rd shock**, which is **UK/ERC practice, not ANZCOR**. **ANZCOR gives the first adrenaline dose after the SECOND shock in a shockable rhythm** — in children as in adults. Re-verified against ANZCOR paediatric guidance directly, not carried across from the adult file (see `PENDING_GUIDELINE_CHECKS.md` B37).
+>
+> **How it survived, which is the part worth noting.** [[01_Cardiovascular]] already carried this exact correction — its resuscitation box says adrenaline after the 2nd shock, "not the 3rd, as in UK/ERC practice", and calls it *"a high-stakes correction (drug timing in cardiac arrest)"*. It was never carried across to the paediatric file. Worse, **the verification box at the top of this file states the drug doses were checked against ANZCOR Guideline 12.2 and match** — and they do. The **timing was not checked**, and a reader has no way to tell that the box covers one dimension of the table and not the other.
+>
+> **Only the adrenaline timing has been changed.** Amiodarone after the 3rd shock is retained as written, because that is what the adult ANZCOR sequence uses and the paediatric shock number was **not** independently confirmed — propagating an unverified second change would repeat the error in the other direction.
 
 - Call the resus team (1 minute of CPR first if alone).
 - Use the ABCDE approach; control oxygenation and ventilation; investigate + treat the precipitating cause; temperature control.
