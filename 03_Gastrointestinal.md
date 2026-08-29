@@ -263,6 +263,26 @@ Acute episodes of inflammation.
 
 ---
 
+## Gilbert's Syndrome
+
+> [!warning] **Snippet-sourced — primary source not read.** Cross-verified across the *Journal of Hepatology* 2023 review, StatPearls and the *World Journal of Hepatology*; Australian primary sources are egress-blocked. Tracked in `PENDING_GUIDELINE_CHECKS.md`.
+
+- **D:** benign inherited reduction in hepatic bilirubin conjugation, producing mild **isolated unconjugated** hyperbilirubinaemia with no haemolysis and no structural liver disease.
+- **A/P:** reduced activity of the enzyme (UGT1A1) that glucuronidates bilirubin. Conjugation is impaired, not absent — which is what separates it from Crigler-Najjar.
+- **S/Smx:** usually **none**. Typically found incidentally on routine bloods, or noticed as mild scleral icterus appearing during **fasting, intercurrent febrile illness, dehydration, or physical stress** — the states that transiently increase the bilirubin load or reduce conjugation.
+- **Ix — this is the point for an intern.** The finding is an isolated raised bilirubin with **normal ALT, ALP, GGT and normal FBC/film/reticulocytes**. The job is to establish that pattern, not to order a genetic test:
+  - **Unconjugated** fraction predominates.
+  - **No haemolysis** — normal reticulocytes, haptoglobin, LDH, blood film.
+  - **Normal liver enzymes and synthetic function.**
+  - **Neither liver biopsy nor UGT1A1 genotyping is required for routine diagnosis.** Genotyping is reserved for distinguishing Crigler-Najjar type 2, or before drugs cleared by that enzyme.
+  - The old provocation tests — fasting, nicotinic acid, phenobarbitone, rifampicin — are **obsolete** and should not be ordered.
+- **Mx:** none required. The value of making the diagnosis is **stopping the workup** — it prevents a well young adult being investigated repeatedly for an abnormal LFT that is a normal variant for them, and it explains jaundice appearing at times of illness.
+- **Why it still matters clinically:** it is a **drug-metabolism flag**. Reduced UGT1A1 activity predicts severe diarrhoea and neutropenia with **irinotecan**, and the same allele is relevant to dosing of other drugs cleared by that route.
+
+> [!note] **Disputed, and flagged rather than resolved:** whether Gilbert's syndrome increases susceptibility to **paracetamol** toxicity. Sources conflict — paracetamol is not conjugated by UGT1A1 itself, but some patients have reduced activity of related enzymes, and the published groups are heterogeneous. Do not teach a paracetamol interaction as established; confirm against a primary source before relying on it either way.
+
+> [!warning] **No prevalence figure is stated here.** The one source that gave one quoted a range of 2–13%, which is too wide to be useful and stands alone — below the three-source bar this round set for any numeric.
+
 ## Wilson's Disease
 
 **D:** autosomal recessive disorder of excessive copper deposition.
