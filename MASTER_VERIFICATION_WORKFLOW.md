@@ -287,6 +287,16 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
 
+> [!tip] **The adult-figure-in-a-paediatric-entry check (G22–G33, 2026-08-29).**
+> Three instances now, and the third was found by looking for the shape deliberately rather than stumbling on it:
+> - **DKA maintenance fluid** — `>40kg — 4mL/kg/h` where the band is a fixed `40 mL/h` (five-fold over-infusion).
+> - **Nephrotic syndrome** — proteinuria defined as `>3.5g per 24h` in the *paediatric* entry. An absolute daily mass does not scale: a small child in florid nephrotic syndrome cannot reach it, so the threshold **excludes the diagnosis it defines**.
+> - **DKA dextrose** — `10% dextrose infusion at 125mL/h`, an adult-sized fixed rate (B49).
+>
+> **The check:** in any paediatric file, treat every **absolute** quantity (g, mg, mL, mL/h, g/24h) as suspect until shown otherwise, and ask what it does at 10kg and at 50kg. The correct paediatric forms are per-kg, per-m², per-age-band, or **per-kg with an absolute cap** — and the corpus does this well where it does it at all: `magnesium sulfate 40mg/kg (≤2g)`, `prednisolone 60mg/m²/day (max 80mg)`, the ASCIA and ANZCOR age bands. The defect is always an absolute figure standing *alone*.
+>
+> **Where it comes from:** these entries were written from adult sources, and a number that is right for an adult survives the copy because nothing about it looks wrong in isolation. Only asking "what does this do to a toddler" exposes it.
+
 > [!danger] **The single most repeated error in this session is my own search shape, not the corpus.**
 > Four near-misses, all 2026-08-29, all the same structure: **a search returned nothing, or nothing useful, and I read that as evidence about the corpus rather than about the query.**
 >
