@@ -262,6 +262,18 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **When Phase 4 closes, check GBS everywhere it appears** — not just the two locations already fixed. Every file mentioning GBS, intrapartum antibiotic prophylaxis, or early/late-onset neonatal GBS disease, checked against each other for: screening strategy, the risk-factor list, the IAP timing (≥4h before birth), the benzylpenicillin regimen and its allergy alternatives, and which file is stated to own which. Known sites so far: `08_01-03`, `16_06-07`, `15_22a`, `16_01-05`.
 
+> [!tip] **The partition check — does a classification's own boundaries actually divide what it claims to?**
+> Generalised from the **Ann Arbor** find (G5, 2026-08-29), where stage 1 read "One node affected" and stage 2 "≥1 node affected on the same side of the diaphragm": **stage 1 was a strict subset of stage 2.** The stages did not partition, and nothing external was needed to see it.
+>
+> This is the same check that caught ORBIT and Alvarado on arithmetic, but it **is not limited to numeric tools**. Apply it to any staging, grading, or classification system:
+> - **Do the categories overlap?** Can one case satisfy two of them? (Ann Arbor 1 and 2.)
+> - **Do they exhaust the space?** Is there a case that fits none of them?
+> - **Is the unit consistent across categories?** Ann Arbor's real unit is a lymph node *region*; the box switched to individual *nodes* and the boundaries collapsed.
+> - **Do the parts match the whole they are drawn from?** The **Amsterdam** criteria paired the version II cancer list with version I's colorectal-only age rule — internally incoherent across two editions of the same tool.
+> - **Does a box that names a count deliver it?** The **Hurley** box announced "3 classes" and listed none.
+>
+> **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
+
 > [!danger] **Standing rule — never conclude absence from a truncated grep.**
 > A search that returns the right hit but is cut off before you read it carries the same risk as a search that returns nothing, and it is more dangerous because it *looks* like evidence. **View the full line before concluding anything is missing.** Twice in the G40–G43 round I called content absent from output that contained it, cut off by my own character limit; both would have been "fixed" by duplicating content already present. This is CLAUDE.md rule 2 in its inverted form and the rule as written does not cover it.
 
