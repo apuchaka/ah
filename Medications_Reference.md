@@ -32,6 +32,38 @@ against a primary source — tracked in `PENDING_GUIDELINE_CHECKS.md`.
 
 ## Cardiovascular
 
+### Antiarrhythmics — the Vaughan-Williams classification
+
+> [!warning] **Snippet-sourced — primary source not read.** Cross-verified across the MSD Manual Professional table, StatPearls, CV Pharmacology and LITFL; the CAST/flecainide material additionally across *Heart Rhythm* and Drugs.com. Australian primary sources are egress-blocked. Tracked in `PENDING_GUIDELINE_CHECKS.md`.
+
+**Why this entry exists.** The corpus prescribes amiodarone, sotalol, flecainide, digoxin, verapamil and diltiazem across several files, but the phrase "Vaughan-Williams" and the class labels appear **nowhere** — zero hits corpus-wide. The classification is what makes the drug choice reasoned rather than memorised, and it is examinable.
+
+The classification is by **effect on the cardiac action potential**.
+
+| Class | Target | Effect | Examples |
+|---|---|---|---|
+| **Ia** | Fast Na⁺ channels — moderate block | ↑ QRS, ↑ QT | quinidine, procainamide, disopyramide |
+| **Ib** | Fast Na⁺ channels — weak block | little QRS change | lignocaine, mexiletine, phenytoin |
+| **Ic** | Fast Na⁺ channels — strong block | marked ↑ QRS | **flecainide**, propafenone |
+| **II** | β-adrenoceptors | ↓ AV conduction, ↓ rate | metoprolol, atenolol, propranolol, esmolol |
+| **III** | K⁺ efflux | ↑ action potential duration, ↑ QT | **amiodarone**, **sotalol**, ibutilide, dofetilide |
+| **IV** | L-type Ca²⁺ channels (AV node) | ↓ AV conduction | **verapamil**, **diltiazem** |
+
+> [!danger] **The one that kills: class Ic in structural heart disease.** Flecainide is **contraindicated in prior MI, significant structural heart disease including HFrEF, and ventricular arrhythmia with congenital heart disease.** This is not a theoretical caution — the **CAST** trial was stopped because post-MI patients with ventricular ectopy given flecainide died *more often than placebo*. Stable coronary disease, LV hypertrophy and even mild valvular disease are all treated as high-risk settings. **Before flecainide, the question is always "is the heart structurally normal?"**
+>
+> Mechanistically the risk follows from the class: strong sodium-channel block widens QRS, and the block is **rate-dependent**, so it worsens exactly when the heart speeds up or becomes ischaemic.
+
+> [!note] **The classification leaks, and knowing that is part of knowing it.** Several agents act across classes — **amiodarone is nominally class III but also has sodium-channel, calcium-channel and beta-blocking activity**, which is why its side-effect profile is unlike any other antiarrhythmic. Sotalol is class III *and* a non-selective beta-blocker. Treat the class as a first approximation, not a complete description.
+
+> [!info] **Digoxin and adenosine sit outside Vaughan-Williams entirely** — digoxin acts via Na⁺/K⁺-ATPase inhibition and vagal tone, adenosine via A1 receptors causing transient AV block. A classification that has no slot for two of the drugs an intern actually gives is worth recognising as incomplete.
+
+**Cross-references — clinical context lives in the disease files, not here:**
+- Atrial fibrillation rate and rhythm control → [[01_Cardiovascular]] Atrial Fibrillation
+- Adenosine in SVT, and its mechanism → [[01_Cardiovascular]]
+- Amiodarone's thyroid effects → [[06_Metabolic_Medicine_and_Endocrinology]]
+
+**Source disagreement:** none encountered. No dose is stated in this entry — the class table is mechanism-level, and Australian dosing for individual agents needs eTG.
+
 ## Endocrine
 
 ## Neurological

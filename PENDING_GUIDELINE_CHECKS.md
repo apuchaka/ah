@@ -338,3 +338,9 @@ concussive, and the four parasomnia rows are one item each.
 > assumed a spelled-out form exists to corroborate against. Where the corpus
 > is acronym-only, the fix inverts and manufactures absence. **Any ABSENT
 > verdict on a condition the corpus would naturally abbreviate is suspect.**
+
+### Section F — Medications_Reference.md build log (branch `medications-reference-build`)
+
+| ID | Entry | Source standard met | Status |
+|---|---|---|---|
+| MR-1 | **Antiarrhythmics — Vaughan-Williams classification.** Zero corpus hits for the classification despite the corpus prescribing amiodarone, sotalol, flecainide, verapamil and diltiazem. Built from MSD Manual, StatPearls, CV Pharmacology, LITFL; CAST/flecainide contraindication additionally from *Heart Rhythm* and Drugs.com. No numerics asserted (mechanism-level table only). **Confirm against eTG Cardiovascular.** | ✅ 2 non-numeric sources exceeded | 🟨 |
