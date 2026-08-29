@@ -57,6 +57,8 @@ source: quackquackmed 15.03 Childhood viral exanthems - Measles, Mumps, Rubella,
 
 ## Roseola infantum (exanthem subitum)
 
+*Also called sixth disease — the sixth of the classic numbered childhood exanthems, tabulated in [[08_05-06_Infectious_Disease_-_Viral_Infections]] under the numbered exanthems. Recorded here so the entry is findable under that name.*
+
 - Human herpesvirus 6 (HHV-6). Incubates 5–15 days, usually affects children age 6 months to 2 years.
 - **S/Smx:** high fever lasting ~3–5 days; maculopapular rash follows the fever; Nagayama spots/ulcers (papular enanthem on the uvula and soft palate); febrile convulsions in ~10–15%; diarrhoea and cough also commonly seen. Rare cause of encephalitis or focal gliosis on MRI — febrile fits tend to occur after the fever.
 - **Mx:** supportive. No need to exclude from school.
