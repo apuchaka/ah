@@ -1680,3 +1680,48 @@ The external list rediscovered **posterior urethral valves** — a gap the earli
 **ENT and Ophthalmology** — Keratoconus · Retropharyngeal abscess
 
 **Infectious Disease** — Herpetic Whitlow · Lymphangitis
+
+## Phase 5 Part A — matcher corrected, all 19 systems re-run
+
+Three defects were found by hand-verifying the MSK/Rheum fracture eponyms, and **two of them manufactured coverage rather than absence** — the dangerous direction, and the first defects in this phase to do so.
+
+| # | Defect | Effect |
+|---|---|---|
+| 14 | **Possessive splitting.** `"Boxer's fracture"` tokenised to `[boxer, s, fracture]` and demanded an apostrophe the corpus omits | `### Boxer fracture`, a section the corpus owns, read ABSENT. Invisible whenever *both* sides use the possessive (Smith's, Colles'), which is why twelve earlier conventions never surfaced it |
+| 15 | **Generated-acronym collision.** `"Clay-shoveler fracture"` produced `CSF` | Matched `04_Neurology#CSF Interpretation` 78 times and scored **OWNS ENTRY** for a fracture the corpus has never mentioned. The generator also emits DVT, TIA, MCL, AKI, CKD, SAH, ARDS |
+| 16 | **Different final word or stem derivation** — found by the canary test, not by an absence count | `## Achilles tendon` vs "Achilles tendon **rupture**"; `### Acromioclavicular joint **injury**` vs "…**pathology**"; `Dermatophyt**e** infections` vs "Dermatophyt**oses**" |
+
+**A fix that over-corrected, caught in the diff rather than shipped.** Requiring four source words for a generated acronym also destroyed the legitimate three-word ones: *Gestational Diabetes Mellitus* and *Sexually Transmitted Infections* both came back ABSENT, and both are plainly taught. Suppressing a true positive to kill a false one is not a fix — it moves the error into the direction that merely looks safer. The floor is back at three words; the real safeguard is that a generated acronym can now **only** produce the new `ACRONYM MATCH ONLY` verdict, never coverage.
+
+**Validation before the re-run** (`scripts/test_condition_scan.py`, 14/14). Regression cases are the three that exposed the defects. Canary cases come from *other* systems with *other* conventions — paediatric eponyms, dermatology `-oses` pluralisation, obstetric US/AU spelling — because a matcher proven only on the pattern that last broke it is not proven. The canary caught defect 16, which neither known bug explained. First run 11/14, second 13/14, third 14/14. An over-match probe then confirmed four newly-covered single-token conditions are genuinely present rather than manufactured.
+
+### Effect on previously reported verdicts
+
+**79 covered verdicts across 16 of 19 systems were revised downward** — 75 to `ACRONYM MATCH ONLY` (flagged, unresolved) and 4 to ABSENT. **23 absences were revised upward** to covered, 9 in MSK/Rheum alone. No system was unaffected in both directions; only Immunology, Geriatrics and Paediatrics were untouched.
+
+| System | n | owns | in a taught entry | prose | acronym-only (flagged) | absent |
+|---|---|---|---|---|---|---|
+| Cardiovascular | 170 | 49 | 49 | 15 | 10 | 47 |
+| Neurology | 222 | 70 | 45 | 21 | 6 | 80 |
+| Dermatology | 129 | 43 | 26 | 13 | 3 | 44 |
+| Endocrine and Metabolic | 162 | 56 | 40 | 12 | 2 | 52 |
+| Genitourinary and Reproductive | 135 | 35 | 36 | 6 | 6 | 52 |
+| Gastroenterology | 200 | 60 | 45 | 19 | 5 | 71 |
+| Haematology, Genetics and Oncology | 281 | 98 | 52 | 26 | 5 | 100 |
+| Immunology and Allergy | 31 | 13 | 7 | 3 | 0 | 8 |
+| Toxicology, Environmental and Trauma | 108 | 18 | 17 | 19 | 4 | 50 |
+| Psychiatry | 113 | 42 | 13 | 13 | 4 | 41 |
+| Rheumatology and Musculoskeletal | 257 | 77 | 35 | 18 | 3 | 124 |
+| Systemic and Miscellaneous | 53 | 18 | 14 | 4 | 1 | 16 |
+| Obstetrics | 57 | 23 | 10 | 4 | 2 | 18 |
+| Geriatrics and Safeguarding | 13 | 3 | 4 | 2 | 0 | 4 |
+| Paediatrics and Neonatal | 31 | 11 | 7 | 1 | 0 | 12 |
+| Renal and Urology | 93 | 24 | 26 | 6 | 7 | 30 |
+| Respiratory | 99 | 31 | 20 | 8 | 3 | 37 |
+| ENT and Ophthalmology | 219 | 57 | 48 | 14 | 8 | 92 |
+| Infectious Disease | 212 | 76 | 39 | 20 | 6 | 71 |
+| **TOTAL** | **2585** | **804** | **533** | **224** | **75** | **949** |
+
+> [!warning] **The 75 acronym-only rows are the honest residue.** Each matched the corpus only through a generated initialism. Some are real (GDM, STI, FSGS, MGUS, LBBB — the corpus does use those acronyms); some are collisions. The scan cannot tell which, so it says so instead of guessing in either direction. They are neither counted as coverage nor reported as gaps, and they are the targeted follow-up list.
+
+> [!danger] **The build items from this phase cannot be built in this environment.** The project requires a cited Australian source per topic; egress is blocked for `rch.org.au`, `amc.org.au`, `racgp.org.au`, `tg.org.au` and every other primary source tested this session. Writing thirty clinical entries from recall and citing documents that were never read would put unverified dosing and thresholds into the corpus permanently — the same failure the project already refused when it declined to build `checklist_external.csv` from recall. The gaps stay queued with their named sources.

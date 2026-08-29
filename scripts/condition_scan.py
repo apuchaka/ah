@@ -290,17 +290,25 @@ def initialism(name):
     out = []
     for drop_tail in (False, True):
         ws = words[:-1] if (drop_tail and words and words[-1].lower() in TAIL) else words
-        if len(ws) >= 4:                      # specificity floor, see below
+        if len(ws) >= 3:                      # see the note below on this floor
             a = "".join(w[0] for w in ws)
             if a.upper() not in ACRONYM_BLOCK: out.append(a)
     return out
 
-# Specificity constraints on generated initialisms, belt and braces with the
-# ACRONYM MATCH ONLY verdict:
-#   - four source words minimum. Every collision actually observed in the
-#     2,585-row list was three letters (CSF, DVT, TIA, MCL, AKI, CKD, SAH),
-#     because three-letter strings are where clinical acronym space is dense.
-#   - an explicit blocklist for the longer ones that still collide.
+# Specificity constraints on generated initialisms.
+#
+# A four-word floor was tried first and OVER-CORRECTED: it also destroyed the
+# legitimate three-word acronyms the corpus genuinely uses, and "Gestational
+# Diabetes Mellitus" and "Sexually Transmitted Infections" - both plainly
+# taught - came back ABSENT. Suppressing a true positive to kill a false one
+# is not a fix, it just moves the error into the safer-looking direction.
+#
+# The real safeguard is the ACRONYM MATCH ONLY verdict, not the floor: a
+# generated acronym can never produce coverage, only a flag meaning "an
+# acronym matched, go look". So the floor is back at three words and the
+# blocklist carries the collisions actually observed. GDM, STI and FSGS now
+# land in ACRONYM MATCH ONLY - unresolved and visible - rather than being
+# silently counted either way.
 # A generated acronym can now only ever produce the ACRONYM MATCH ONLY
 # verdict, never OWNS ENTRY or MENTIONED, so a collision that slips both
 # constraints still cannot be reported as coverage.
