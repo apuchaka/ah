@@ -172,9 +172,9 @@ source: quackquackmed 08.05-08.06 Viral infections
 
 | Class | Examples | Mechanism / notes |
 |---|---|---|
-| Entry inhibitors | Maraviroc (binds CCR5), Enfuvirtide (binds gp41) | Prevent HIV1 entering immune cells |
-| NRTI | Zidovudine, lamivudine, tenofovir | General SE: peripheral neuropathy |
-| NNRTI | Nevirapine, efavirenz | SE: P450 induction, rashes |
+| Entry inhibitors | Maraviroc (binds CCR5), Enfuvirtide (binds gp41) | Prevent HIV-1 entering immune cells |
+| **Nucleoside/nucleotide reverse transcriptase inhibitors (NRTI)** | Zidovudine, lamivudine, tenofovir | **Faulty nucleoside analogues — reverse transcriptase incorporates them into the growing viral DNA chain, and because they lack the 3'-OH group the next nucleotide needs, the chain simply stops there.** The backbone of Australian first-line therapy (2 NRTIs + 1 INSTI). General SE: peripheral neuropathy |
+| **Non-nucleoside reverse transcriptase inhibitors (NNRTI)** | Nevirapine, efavirenz | **Bind reverse transcriptase at a site away from where it does its work, deforming the enzyme so it functions poorly — not incorporated into the DNA chain, which is the whole difference from the NRTIs above.** SE: P450 induction, rashes |
 | Protease inhibitors (PI) | Indinavir, nelfinavir, ritonavir | SE: DM, hyperlipidaemia, buffalo hump, central obesity. Indinavir: renal stones, asymptomatic ↑bilirubin. Ritonavir: potent P450 inhibitor |
 | **Integrase inhibitors (INSTI)** | **Dolutegravir, bictegravir, raltegravir, elvitegravir** | Block integration of viral genome into host DNA — **current first-line class in Australia**, per the Mx note above |
 
