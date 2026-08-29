@@ -296,6 +296,17 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
 
+> [!warning] **Coverage audit, 2026-08-29 — what generalising twelve defect categories actually showed.**
+> Ten of the twelve had only ever been applied where some other check happened to surface an instance. Generalising them produced **three genuine findings and one instructive null**:
+> - **ITU used 10× across 9 files** — the UK term for ICU, surviving a Step 17 sweep recorded as complete and then re-run in full. Found by re-running `undefined_terms.py` after the G-tier, not by any term list. **Fourth instance of a "confirmed complete" record being wrong.**
+> - **Adult hyperkalaemia doses under a box claiming paediatric validity** (`06_Metabolic`) — found by running CLAUDE.md rule 5 corpus-wide for the first time; it had only ever been applied to `15_*` files.
+> - **Nine named tools never enumerated anywhere** — seven dismissed on reading (components given inline in prose), two built (ICHD, Burch-Wartofsky).
+> - **The instructive null: `box_scope.py` flagged 55 boxes and all 55 were legitimate.** A numeric proxy cannot see this defect, because every real instance turned on a *non-numeric* claim. Recorded in the script so a clean run is never read as absence.
+>
+> **Two categories remain structurally open, and are documented risk rather than oversight:**
+> - **Same-topic pairs under different wording.** `check_structure.sh` Step 1c-bis matches identical header text, case-folded. "Temporal Arteritis (Giant Cell Arteritis)" vs "Giant cell arteritis (GCA)" is invisible to it and was found by hand. Closing this needs synonym clustering over the ~77 conditions with entries in more than one file — tractable, not attempted.
+> - **Asymmetric silence.** No detector is possible: the defect is one entry being *silent* where its counterpart speaks, which has no textual signature. Roughly 30 pairs have been manually read for it. The remaining surface includes every *related-entry* pair that is not a same-topic pair at all — ectopic/miscarriage, where anti-D was found — and that surface is unbounded.
+
 > [!tip] **The adult-figure-in-a-paediatric-entry check (G22–G33, 2026-08-29).**
 > Three instances now, and the third was found by looking for the shape deliberately rather than stumbling on it:
 > - **DKA maintenance fluid** — `>40kg — 4mL/kg/h` where the band is a fixed `40 mL/h` (five-fold over-infusion).

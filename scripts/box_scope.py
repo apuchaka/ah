@@ -39,6 +39,28 @@ KNOWN LIMITATIONS — this over-surfaces by design
   * Figures are matched as literal strings, so "500 units" and "500units"
     match but "0.5g" and "500mg" do not.
 
+RESULT OF THE FIRST FULL READ (2026-08-29) — read this before using it
+----------------------------------------------------------------------
+All 55 hits were read and **all 55 were dismissed as scope-legitimate.** Zero
+genuine defects. The flagged figures were durations, intervals, ages and
+thresholds sitting under boxes that name a guideline, a drug class or a
+pathway rather than quoting each number — which is how a verification box
+normally and correctly works.
+
+**The proxy does not capture the defect.** Every genuine partial-verification-box
+instance found this session turned on a NON-numeric claim:
+  * a UK latent-TB regimen under a box verifying active-TB RIPE;
+  * a UK screening position under a box verifying the screening *structure*;
+  * a UK college attribution under a file-level "Localised for Australia";
+  * adult hyperkalaemia doses under a box claiming *paediatric* validity —
+    found by the CLAUDE.md rule 5 sweep, not by this script.
+
+Keep it as a cheap re-runnable guard against the one shape it can see (a box
+that quotes doses sitting above different doses), and do not read a clean run
+as evidence the pattern is absent. The manual substitute is the only thing
+that has ever worked: read what a box claims, then read what sits beneath it,
+and ask what the box did NOT say.
+
 Usage:  scripts/box_scope.py [--all]
 Exit status: 0 always — this reports, it does not gate.
 """
