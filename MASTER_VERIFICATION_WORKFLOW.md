@@ -1110,3 +1110,136 @@ Only state a file range is complete if:
 - The final comprehensive sweep (Step 12) came back clean.
 
 If a technique hasn't been tried yet on a given range, or a check was done superficially in an earlier round, say so — "good" should mean genuinely exhausted, not "nothing new happened to turn up this time."
+
+## Phase 5 THIRD PASS — enumerate first, then check every item
+
+> [!danger] **The enumeration bar was met for one part out of four. That is the headline, and it is stated before any finding.**
+> The rule for this pass was: build a numbered, complete enumeration from an **authoritative external source** before any corpus-checking, then report a result for **every** numbered item. Three of the four parts could not clear the first half of that rule.
+>
+> | Part | Enumeration source attempted | Outcome |
+> |---|---|---|
+> | **C — medications** | AMH / BNF therapeutic classification | **Blocked.** WebSearch returns a result stating the complete AMH chapter breakdown is subscription-gated; `WebFetch` to `amc.org.au` returns `EGRESS_BLOCKED`. **Antimicrobials only** were enumerable, from the taxonomy supplied in the request itself — expanded to 75 named agents. **The other ten therapeutic classes (cardiovascular, respiratory, CNS, endocrine, GI, renal, haematological, musculoskeletal, dermatological, ophthalmic) received no third-pass enumeration.** |
+> | **B — scales** | 38 specialty searches | **One family enumerated externally**, the RADS reporting systems (16, from a 2025 *Insights into Imaging* review). The other 37 specialties did not get an enumeration pass. |
+> | **A — conditions** | 38 specialty searches + textbook index | **Not attempted this pass.** The second-pass finding stands: the sources are egress-blocked and the enumeration did not happen. Nothing has changed to make it achievable. |
+> | **D — procedures** | AMC prevocational framework | **Blocked.** `amc.org.au/wp-content/.../Guide-to-Prevocational-Training…pdf` returns `EGRESS_BLOCKED`; the search snippet says explicitly the procedural list is not in the snippet and requires the document. |
+>
+> **The largest enumeration actually achieved is 75 antimicrobial agents + 16 RADS systems = 91 items, all checked, all reported.** Everything else on this pass is unenumerated and must not be read as cleared.
+
+### The scan's own defects, found by running it (rule 7)
+
+Three, all mine, all found before the results were reported:
+
+- **Union scoring hid the defect it was meant to find.** The first version scored the union of every paragraph naming a drug corpus-wide — so an agent could score ADEQUATE with mechanism in one file, a dose in a second and monitoring in a third, while **no single entry teaches it**. That is the character-window flaw inverted. Fixed: every agent now carries two verdicts, `corpus` (union) and `entry` (best single paragraph). **17 of 75 split.**
+- **The scan counted its own workflow document as corpus.** `MASTER_VERIFICATION_WORKFLOW.md` and `PENDING_GUIDELINE_CHECKS.md` *name* drugs while describing the gaps in them. A scan reading them reports coverage it created itself. Meta files are now excluded by name.
+- **A keyword proxy is not the concept.** Macrolides score `harm+contra` off generic "diarrhoea"/"avoid"/"allergy" text in entries that merely prescribe them. **Verified by hand: the corpus carries zero QT-prolongation content for any macrolide** — the second-pass finding stands and the new scan disagreeing with it is the scan being wrong. **ADEQUATE from this scan means "nothing this scan can see is missing." It does not clear an item.**
+
+### Part C — enumeration (75 antimicrobial agents)
+
+**Source, stated honestly:** the taxonomy supplied in the request (penicillins / cephalosporins by generation / macrolides / tetracyclines / aminoglycosides / glycopeptides / fluoroquinolones / sulfonamides / nitroimidazoles / lincosamides / antifungals by subclass / antivirals by target), expanded to named agents. **This is not an extract of the AMH or the BNF** — those are subscription-gated. Scan: `scripts/drug_depth.py`.
+
+**Result: 46 ADEQUATE · 16 THIN · 5 NAMED ONLY · 8 ABSENT.**
+
+| # | Agent | Group | Uses | Verdict | Dimensions found |
+|---|---|---|---|---|---|
+| 1 | benzylpenicillin (penicillin G) | Penicillins | 22 | ADEQUATE / entry THIN | dose+harm+contra |
+| 2 | phenoxymethylpenicillin (penicillin V) | Penicillins | 11 | ADEQUATE | mech+dose+harm+contra |
+| 3 | benzathine benzylpenicillin | Penicillins | 7 | ADEQUATE / entry THIN | dose+harm+contra |
+| 4 | procaine penicillin | Penicillins | 0 | ABSENT | - |
+| 5 | flucloxacillin (antistaphylococcal) | Penicillins | 21 | ADEQUATE | mech+dose+harm+contra |
+| 6 | amoxicillin / ampicillin | Penicillins | 46 | ADEQUATE | mech+dose+harm+contra |
+| 7 | amoxicillin-clavulanate | Penicillins | 11 | ADEQUATE | mech+dose+harm+contra |
+| 8 | piperacillin-tazobactam | Penicillins | 21 | ADEQUATE / entry THIN | mech+dose+harm+contra |
+| 9 | 1st gen — cefalexin | Cephalosporins | 7 | ADEQUATE | mech+dose+contra |
+| 10 | 1st gen — cefazolin | Cephalosporins | 8 | ADEQUATE | dose+harm+contra |
+| 11 | 2nd gen — cefuroxime | Cephalosporins | 7 | ADEQUATE | mech+dose+contra |
+| 12 | 2nd gen — cefoxitin | Cephalosporins | 0 | ABSENT | - |
+| 13 | 3rd gen — ceftriaxone / cefotaxime | Cephalosporins | 50 | ADEQUATE | mech+dose+harm+contra |
+| 14 | 3rd gen antipseudomonal — ceftazidime | Cephalosporins | 3 | ADEQUATE / entry THIN | mech+dose+contra |
+| 15 | 4th/5th gen — cefepime, ceftaroline | Cephalosporins | 5 | ADEQUATE / entry THIN | mech+dose+contra |
+| 16 | meropenem / imipenem / ertapenem | Carbapenems/monobactam | 14 | ADEQUATE / entry THIN | mech+dose+harm+contra |
+| 17 | aztreonam | Carbapenems/monobactam | 1 | NAMED ONLY | - |
+| 18 | azithromycin | Macrolides | 45 | ADEQUATE | mech+dose+harm+contra |
+| 19 | roxithromycin | Macrolides | 1 | THIN | dose+contra |
+| 20 | clarithromycin | Macrolides | 24 | ADEQUATE / entry THIN | dose+harm+contra |
+| 21 | erythromycin | Macrolides | 21 | ADEQUATE / entry THIN | mech+dose+harm+contra |
+| 22 | doxycycline | Tetracyclines | 42 | ADEQUATE | mech+dose+harm+contra |
+| 23 | minocycline | Tetracyclines | 0 | ABSENT | - |
+| 24 | tetracycline / tigecycline | Tetracyclines | 5 | THIN | dose+contra |
+| 25 | gentamicin | Aminoglycosides | 15 | ADEQUATE / entry THIN | dose+harm+contra |
+| 26 | tobramycin | Aminoglycosides | 2 | NAMED ONLY | - |
+| 27 | amikacin | Aminoglycosides | 0 | ABSENT | - |
+| 28 | vancomycin | Glycopeptides/lipopeptides | 20 | ADEQUATE | mech+dose+harm+contra |
+| 29 | teicoplanin | Glycopeptides/lipopeptides | 4 | THIN | dose+contra |
+| 30 | daptomycin | Glycopeptides/lipopeptides | 1 | NAMED ONLY | - |
+| 31 | ciprofloxacin | Fluoroquinolones | 21 | ADEQUATE | mech+dose+harm+contra |
+| 32 | norfloxacin | Fluoroquinolones | 1 | THIN | dose |
+| 33 | moxifloxacin | Fluoroquinolones | 3 | THIN | mech+contra |
+| 34 | levofloxacin / ofloxacin | Fluoroquinolones | 25 | ADEQUATE | mech+dose+harm+contra |
+| 35 | trimethoprim | Sulfonamides/DHFR | 18 | ADEQUATE | mech+dose+harm+contra |
+| 36 | trimethoprim-sulfamethoxazole (co-trimoxazole) | Sulfonamides/DHFR | 12 | ADEQUATE | mech+dose+harm+contra |
+| 37 | metronidazole | Nitroimidazoles | 41 | ADEQUATE | mech+dose+harm+contra |
+| 38 | tinidazole | Nitroimidazoles | 0 | ABSENT | - |
+| 39 | clindamycin | Lincosamides | 21 | ADEQUATE | mech+dose+harm+contra |
+| 40 | lincomycin | Lincosamides | 0 | ABSENT | - |
+| 41 | nitrofurantoin | Other antibacterial | 7 | ADEQUATE | mech+dose+contra |
+| 42 | fosfomycin | Other antibacterial | 2 | ADEQUATE | mech+dose+contra |
+| 43 | linezolid | Other antibacterial | 3 | THIN | dose+contra |
+| 44 | rifampicin | Other antibacterial | 21 | ADEQUATE | mech+dose+harm+contra |
+| 45 | chloramphenicol | Other antibacterial | 6 | ADEQUATE / entry THIN | dose+harm+contra |
+| 46 | colistin / polymyxin | Other antibacterial | 0 | ABSENT | - |
+| 47 | fluconazole | Antifungal — azoles | 7 | THIN | dose+contra |
+| 48 | itraconazole | Antifungal — azoles | 3 | ADEQUATE | dose+harm+contra |
+| 49 | voriconazole / posaconazole | Antifungal — azoles | 1 | NAMED ONLY | - |
+| 50 | clotrimazole / miconazole (topical) | Antifungal — azoles | 5 | ADEQUATE | dose+harm+contra |
+| 51 | ketoconazole | Antifungal — azoles | 7 | ADEQUATE / entry THIN | mech+dose+harm+contra |
+| 52 | terbinafine (allylamine) | Antifungal — other | 4 | ADEQUATE | dose+harm+contra |
+| 53 | nystatin / amphotericin B (polyenes) | Antifungal — other | 4 | THIN | harm |
+| 54 | caspofungin / anidulafungin (echinocandins) | Antifungal — other | 0 | ABSENT | - |
+| 55 | griseofulvin | Antifungal — other | 2 | ADEQUATE | dose+harm+contra |
+| 56 | aciclovir | Antiviral — herpes family | 32 | ADEQUATE | dose+harm+contra |
+| 57 | valaciclovir | Antiviral — herpes family | 2 | THIN | harm+contra |
+| 58 | famciclovir | Antiviral — herpes family | 2 | ADEQUATE / entry THIN | dose+harm+contra |
+| 59 | ganciclovir / valganciclovir (CMV) | Antiviral — herpes family | 2 | THIN | dose+harm |
+| 60 | oseltamivir | Antiviral — influenza | 3 | THIN | mech+contra |
+| 61 | zanamivir | Antiviral — influenza | 3 | THIN | mech+contra |
+| 62 | tenofovir | Antiviral — HIV/hepatitis | 4 | ADEQUATE | mech+dose+harm+contra |
+| 63 | emtricitabine / lamivudine | Antiviral — HIV/hepatitis | 2 | ADEQUATE | mech+dose+harm+contra |
+| 64 | dolutegravir / raltegravir (integrase inhibitors) | Antiviral — HIV/hepatitis | 6 | ADEQUATE | mech+harm+contra |
+| 65 | entecavir (hep B) | Antiviral — HIV/hepatitis | 1 | THIN | dose |
+| 66 | sofosbuvir / DAA (hep C) | Antiviral — HIV/hepatitis | 1 | THIN | harm |
+| 67 | isoniazid | Antituberculous | 16 | ADEQUATE / entry THIN | mech+dose+harm+contra |
+| 68 | rifampicin (TB regimen role) | Antituberculous | 21 | ADEQUATE | mech+dose+harm+contra |
+| 69 | pyrazinamide | Antituberculous | 3 | ADEQUATE / entry THIN | mech+harm+contra |
+| 70 | ethambutol | Antituberculous | 3 | ADEQUATE / entry THIN | mech+harm+contra |
+| 71 | ivermectin | Antiparasitic | 14 | ADEQUATE / entry THIN | dose+harm+contra |
+| 72 | permethrin | Antiparasitic | 7 | ADEQUATE / entry THIN | dose+harm+contra |
+| 73 | albendazole / mebendazole | Antiparasitic | 4 | THIN | harm |
+| 74 | praziquantel | Antiparasitic | 1 | NAMED ONLY | - |
+| 75 | artemether-lumefantrine / atovaquone-proguanil (malaria) | Antiparasitic | 2 | THIN | dose+harm |
+
+**All 8 ABSENT re-verified against markdown emphasis stripping** (rule 2): `procaine|cefoxitin|minocyclin|amikacin|tinidazol|lincomycin|colistin|polymyxin|fungin|echinocandin` — zero hits with `[*_`]` removed. The single "procaine" hit is **procaine the local anaesthetic** in `03a_Anaesthetics_Primer.md:123`, not procaine penicillin.
+
+> [!warning] **Three absences were hidden inside lumped rows** — a defect of the enumeration's own granularity, not of the corpus. Items 15, 49 and 53 pair an agent that is present with one that is not: **ceftaroline (0), posaconazole (0) and nystatin (0)** are each absent while their row-mate (cefepime 5, voriconazole 1, amphotericin 5) is present. Lumping two agents in one numbered item makes an absence unreportable. Recorded rather than silently merged.
+
+**Judged against the intern/RMO ceiling (Step 18), the 8 absences and 5 named-only split cleanly:** procaine penicillin, cefoxitin, minocycline, amikacin, tinidazole, lincomycin, colistin, echinocandins, ceftaroline, posaconazole, aztreonam, daptomycin, tobramycin, praziquantel are **correctly absent or correctly named-only** — an intern recognises them, does not prescribe them. **Nystatin is the one absence that is not** — topical oral/nappy candidiasis is intern work and the corpus prescribes for candidiasis elsewhere.
+
+**The THIN results that matter at intern level**, and are queued below: **the influenza antivirals** (oseltamivir/zanamivir — mechanism and contraindication only, no Australian dosing or the 48-hour window), **valaciclovir/famciclovir dosing** (aciclovir is ADEQUATE; its two oral alternatives are not), and **albendazole/mebendazole** (threadworm is a GP-level presentation; `harm` only, no dose).
+
+### Part B — RADS reporting systems (16, externally enumerated)
+
+**Source:** *RADS ALPHABET: news and tips for young and general radiologists*, Insights into Imaging (2025) — the only complete named list this pass could reach.
+
+**Result: 16 of 16 ABSENT.** BI-RADS · Bone-RADS · C-RADS · CAD-RADS · LI-RADS · Lung-RADS · MET-RADS-P · MY-RADS · NI-RADS · Node-RADS · O-RADS · ONCO-RADS · PI-RADS · ST-RADS · TI-RADS · VI-RADS — all zero hits with emphasis stripped and hyphen/space variants allowed.
+
+**Twelve of the sixteen are correctly absent** (subspecialist reporting systems an intern never uses). **Four are not**, because an intern reads reports that carry them and is asked what the number means: **BI-RADS** (breast lump workup), **PI-RADS** (prostate MRI), **TI-RADS** (thyroid nodule), **Lung-RADS** (lung screening). This narrows the second pass's "10 of 11 absent" to a specific, defensible four.
+
+| Item | Source | Status |
+|---|---|---|
+| **P5-C5** | **Influenza antivirals** — oseltamivir/zanamivir Australian dosing, the 48-hour treatment window, and who is eligible. Mechanism and contraindication present, dose absent | ⬜ |
+| **P5-C6** | **Valaciclovir and famciclovir dosing** — aciclovir is fully covered; its two oral alternatives carry no dose | ⬜ |
+| **P5-C7** | **Nystatin** — absent entirely; topical antifungal for oral and nappy candidiasis, both intern-level | ⬜ |
+| **P5-C8** | **Albendazole / mebendazole** — threadworm dosing, absent; a GP-level paediatric presentation | ⬜ |
+| **P5-B6** | **BI-RADS, PI-RADS, TI-RADS, Lung-RADS** — what the number means when it appears on a report an intern is handed. The other 12 RADS systems are correctly out of scope | ⬜ |
+| **P5-C9** | **The ten non-antimicrobial therapeutic classes were never enumerated.** Cardiovascular, respiratory, CNS, endocrine, GI, renal, haematological, musculoskeletal, dermatological, ophthalmic. Blocked on AMH/BNF egress, not judged clean | ⬜ |
+| **P5-A4** | **Part A's 38-specialty enumeration still has not happened** — third pass, same blocker, recorded again rather than dropped | ⬜ |
+| **P5-D8** | **Part D's 38-specialty enumeration still has not happened** — AMC prevocational framework PDF is egress-blocked | ⬜ |
