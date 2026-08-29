@@ -86,7 +86,7 @@ Right hemidiaphragm normally sits slightly higher than left. Look for free air u
 **Systematic approach:**
 1. Check the FEV1/FVC ratio first — this is the primary determinant of obstructive vs restrictive pattern.
    - **Obstructive** (FEV1/FVC <0.7, or below the lower limit of normal): FEV1 reduced more than FVC. See [[02_Respiratory]] Asthma (reversible) and COPD (fixed) for the key differential — bronchodilator reversibility testing (FEV1 improves ≥12% and ≥200mL) distinguishes them.
-   - **Restrictive** (FEV1/FVC normal or increased, but both FEV1 and FVC reduced): see [[02_Respiratory]] IPF, Sarcoidosis, and the pneumoconioses for the interstitial/fibrotic causes; also consider extrapulmonary causes (chest wall deformity, neuromuscular weakness, severe obesity) not covered in this respiratory-focused file.
+   - **Restrictive** (FEV1/FVC normal or increased, but both FEV1 and FVC reduced): see [[02_Respiratory]] Idiopathic Pulmonary Fibrosis (IPF), Sarcoidosis, and the pneumoconioses for the interstitial/fibrotic causes; also consider extrapulmonary causes (chest wall deformity, neuromuscular weakness, severe obesity) not covered in this respiratory-focused file.
 2. Check the degree of reduction against predicted values (age/sex/height-adjusted) to grade severity (e.g. GOLD staging for COPD — see [[02_Respiratory]] COPD).
 3. Peak expiratory flow rate (PEFR) is a simpler, more portable measure primarily used for asthma monitoring (diurnal variability, response to treatment) rather than diagnosis — see [[02_Respiratory]] Asthma for the PEFR-based severity classification in acute exacerbations.
 
