@@ -252,7 +252,7 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 
 **Ix:** ECG (*why:* diagnostic — confirms the rhythm and rules out other arrhythmias; *what:* absent P waves, irregularly irregular narrow-complex rhythm). Bloods — FBC (*why:* screens for infection/anaemia as precipitants; *what:* may show leukocytosis if sepsis-driven), clotting profile (*why:* baseline before anticoagulation; *what:* baseline INR/APTT), U&E incl. Mg (*why:* electrolyte disturbance is a common precipitant and needs correction; *what:* hypokalaemia/hypomagnesaemia may be found), TFT (*why:* thyrotoxicosis is a classic reversible precipitant of AF; *what:* may show hyperthyroidism).
 
-**Mx — haemodynamically unstable** (SBP <90, HR >150, syncope, chest pain): electrical cardioversion under ALS algorithm
+**Mx — haemodynamically unstable** (SBP <90, HR >150, syncope, chest pain): electrical cardioversion under the **ALS (Advanced Life Support)** algorithm
 
 **Mx — stable, onset <48h:**
 - Rate control: β-blocker or CCB ± digoxin
@@ -928,7 +928,7 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 
 ## 0.27 Chronic Heart Failure
 
-**D:** Dysfunction of the left ventricle resulting in insufficient delivery of blood to vital organs. HFpEF (EF >50%) and HFrEF (EF <40%).
+**D:** Dysfunction of the left ventricle resulting in insufficient delivery of blood to vital organs. Classified by ejection fraction: **HFrEF** (reduced, EF <40%), **HFmrEF** (mildly reduced, EF 40–49%) and **HFpEF** (preserved, EF ≥50%). The middle band matters — it is not a gap in the definitions, and those patients are managed closer to HFrEF than the older two-way split implied.
 
 > [!info] NYHA classification
 > I: symptoms do not affect daily activities
