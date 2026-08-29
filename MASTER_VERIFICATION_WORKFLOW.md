@@ -888,6 +888,8 @@ Run the listed number, then reassess — if a run comes back with genuinely noth
 | G41 | `verify: 08_05-06_Infectious_Disease_-_Viral_Infections.md, 08_09_Infectious_Disease_-_Miscellaneous.md, 08_10_Infectious_Disease_-_Diarrhoea_DDx_and_Gastroenteritis.md` | **0** | **Added 2026-08-29 — was in no queue row at all.** 08_09 is 42 KB and owns the returned-traveller and sepsis frameworks that four other files cite |
 | G42 | `verify: 09_08_Dermatology_-_Miscellaneous.md, 10_11a_Oncology_-_Common_Cancers__Carcinogens__Tumour_Markers.md, 10_12_Oncology_-_Breast.md` | **0** | **Added 2026-08-29 — was in no queue row at all.** 09_08 is 36 KB and owns the non-blanching-rash content the fever red-flag box points at |
 | G43 | `verify: 11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md` | **0** | **Added 2026-08-29 — was in no queue row at all.** The only orthopaedic file omitted from G10–G13, which cover 11_01 and 11_03–11_10 |
+| G44 | `verify: 18_Geriatrics_and_Older_Persons_Health.md` | **0 (verify)** | **Added 2026-08-29.** Reachable only through **N1**, a *build* row naming the topic rather than the file, so 49 KB of content has been built and never given a file-level verification pass |
+| G45 | `verify: 19_General_Practice_and_Preventive_Medicine.md` | **0 (verify)** | **Added 2026-08-29.** Same shape as G44 — reachable only through **N6**, a build row. Also holds the 16 N6 rows recorded as allocated but unbuilt |
 
 ### New content required (Step 21 finding) — not verification, genuine build-from-scratch
 
