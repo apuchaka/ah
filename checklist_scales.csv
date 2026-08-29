@@ -1,0 +1,20 @@
+﻿System,Specialty,Corpus status,Verdict,Note
+Bethesda (thyroid cytology),Pathology,ABSENT,QUEUE — P5-B1,"Thyroid nodules built in 06_Metabolic, which says histology is needed to exclude malignancy but never grades the FNA. Bethesda I–VI is what decides repeat-FNA vs lobectomy vs total thyroidectomy."
+BI-RADS,Radiology,ABSENT,QUEUE — P5-B2,Breast imaging and the triple test built in 10_12; BI-RADS is how every mammogram/US report an intern reads is worded.
+Fleischner criteria,Radiology,ABSENT,QUEUE — P5-B3,No solitary/incidental pulmonary nodule entry anywhere. The commonest incidental finding an intern must action.
+Pressure injury staging + risk scales (Braden/Waterlow/Norton),Nursing/Geriatrics,ABSENT,QUEUE — P5-B4,Pressure area content exists in 11_07b; staging and the ward risk scales do not. Used on every inpatient.
+Bosniak (renal cyst),Radiology,ABSENT,FLAG — read before queuing,Renal cyst content exists in 07_Renal. Grades incidental cysts; arguably above intern depth ceiling (Step 18).
+LI-RADS / PI-RADS / TI-RADS / Lung-RADS,Radiology,ABSENT,FLAG — read before queuing,Same family as BI-RADS. Build only if the corpus has the matching disease entry; PI-RADS is partly covered by the Likert MRI scale already in 07_Renal.
+"Paris / Milan systems (urine, salivary cytology)",Pathology,ABSENT,DISMISS,No matching disease entry at intern depth; specialist reporting systems.
+Nottingham grade / Clark level,Pathology,ABSENT,DISMISS,"Breslow IS present for melanoma, which is the intern-relevant one; Clark level is superseded."
+Lugano,Pathology/Oncology,ABSENT,TRACKED (B53),Already recorded: the corpus teaches Ann Arbor; whether AU practice now stages by Lugano is an open source question.
+HAS-BLED,Cardiology,ABSENT,DISMISS — deliberate,"The corpus uses ORBIT for AF bleeding risk and explains it in depth. A choice, not a gap."
+Forrester,Cardiology,ABSENT,DISMISS,"Haemodynamic subsets; ICU-level, above the Step 18 ceiling."
+BODE index,Respiratory,ABSENT,DISMISS,Prognostic index for COPD; specialist use.
+Ranson / Glasgow-Imrie / Atlanta,Gastro,ABSENT (naming),DISMISS — artifact,"The corpus uses the 'Glasgow score' for pancreatitis severity, which IS Glasgow-Imrie. A naming variant, not a gap."
+Wayne (thyrotoxicosis),Endocrine,ABSENT,DISMISS,Superseded by biochemical diagnosis.
+Karnofsky,Oncology,ABSENT,DISMISS,"ECOG is present and explained; Karnofsky is the alternative scale, redundant at intern level."
+Hunt and Hess,Neuro,ABSENT,FLAG — read before queuing,SAH grading. The corpus has SAH; grading may be worth one line.
+CHA₂DS₂-VASc,Cardiology,PRESENT,OK,Found only after folding Unicode subscripts — a plain grep missed it. See the method note.
+RECIST / Rai / Binet / Killip / O-RADS,Multiple,PRESENT,OK,All reported absent by the first (byte-matching) pass and present on re-check.
+"ORBIT, Alvarado, Ann Arbor, Amsterdam, Hurley, Westley",Multiple,PRESENT — corrected,DONE,Internal-coherence errors found and fixed earlier this session.

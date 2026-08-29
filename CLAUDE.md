@@ -1,7 +1,7 @@
 # Project Rules — Grind Time Intern Exam Notes
 
 ## What this project is
-Intern-level medical exam notes for Australian AMC-standard exams (MCQ 27 Sept 2026, OSCE 1 Nov, second MCQ 8 Nov). 148 content .md files, checklist.csv (872-row master topic checklist, 24 categories), and MASTER_VERIFICATION_WORKFLOW.md (the 26-step method and work queue).
+Intern-level medical exam notes for Australian AMC-standard exams (MCQ 27 Sept 2026, OSCE 1 Nov, second MCQ 8 Nov). 148 content .md files, checklist.csv (872-row master topic checklist, 24 categories), **checklist_scales.csv** (Phase 5 — named clinical scales and reporting systems, with a verdict per system), and MASTER_VERIFICATION_WORKFLOW.md (the 26-step method and work queue). **All future work checks both CSVs.** A third, `checklist_external.csv`, was specified for Phase 5 Part A and **deliberately not created** — see the Phase 5 note in the workflow: the primary sources were egress-blocked and a snippet-and-recall baseline would have made a fabricated standard permanent.
 
 Read MASTER_VERIFICATION_WORKFLOW.md before any work. Read checklist.csv with `encoding='utf-8-sig'` — plain utf-8 breaks the first column header.
 

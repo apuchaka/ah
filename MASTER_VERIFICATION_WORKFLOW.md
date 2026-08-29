@@ -296,6 +296,38 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
 
+## Phase 5 — CSV-blind gaps
+
+Everything through Phase 4 was checked against `checklist.csv`. Anything never entered into that CSV was invisible to all of it. Phase 5 looks for those gaps with four separately-sourced checks.
+
+> [!danger] **Part A could not be built as specified — egress, not judgement.**
+> Part A required extracting topic lists from three independent authoritative sources. **`WebFetch` is blocked for every domain tested** — `amc.org.au`, `medicalboard.gov.au`, `tg.org.au`, `racgp.org.au`, `health.gov.au`, even `en.wikipedia.org` — and direct `curl` returns 403 CONNECT for all of them. Only `WebSearch` snippets are reachable.
+>
+> **The narrow-search yield test (3 searches) failed:** AMC snippets describe a *competency* framework, not named conditions; a cardiology search returned an **American** College of Cardiology list and RACP **advanced** (specialist) training, with the result itself stating intern-level Australian lists were unavailable; the ANU "Essential topics" page is a **library resource guide**, not a topic list.
+>
+> **`checklist_external.csv` was therefore NOT created.** Building it from snippets plus recall and committing it as a permanent artifact that all future work checks against would make a fabricated baseline permanent — every later round would validate against it. That is worse than not having it.
+>
+> **What was done instead**, per the method agreed mid-run: candidates from domain knowledge of standard Australian intern curricula, checked **corpus-first**, with snippets used only to corroborate. **50 named conditions and congenital anomalies checked; 2 genuinely absent** (posterior urethral valves, craniosynostosis) and 5 thin. The corpus is far more complete against this axis than the premise assumed — which is itself the finding.
+
+| Item | Source | Status |
+|---|---|---|
+| **P5-A1** | Posterior urethral valves — commonest cause of bladder outlet obstruction in male infants; absent entirely (only adult prostatic obstruction in `07_Renal`). Antenatal hydronephrosis, its usual presentation, is also absent from `15_11` and `16_01-05` | ⬜ |
+| **P5-A2** | Craniosynostosis — absent. `04_Neurology`'s "suture fusion" is about infant skulls accommodating raised ICP, a different concept | ⬜ |
+| **P5-B1** | Bethesda thyroid cytology — `06_Metabolic` says a nodule "requires histology to exclude malignancy" and never grades the FNA. Bethesda I–VI decides repeat-FNA vs lobectomy vs thyroidectomy | ⬜ |
+| **P5-B2** | BI-RADS — the triple test is built in `10_12`; BI-RADS is how every breast imaging report is worded | ⬜ |
+| **P5-B3** | Fleischner criteria / incidental pulmonary nodule — no entry at all; the commonest incidental finding an intern must action | ⬜ |
+| **P5-B4** | Pressure injury staging and ward risk scales (Braden/Waterlow/Norton) — pressure area content exists in `11_07b`, staging and risk scoring do not | ⬜ |
+| **P5-D1** | **Biopsy as a procedure — the largest single gap found.** Ten biopsy types are named across the corpus (core, punch, excisional, FNA, liver, renal, bone marrow, endometrial, skin, temporal artery) and **only temporal artery is taught**. The rest are bare instructions | ⬜ |
+| **P5-D2** | Intern-performed procedures missing technique/consent: **NG tube insertion** (10 uses, no indication or technique), **urinary catheterisation** (4 uses, nothing but complications), **joint aspiration** (interpretation taught, procedure not) | ⬜ |
+| **P5-D3** | **Chest drain** (10 uses) and **cricothyroidotomy** (3) — named as management steps, never explained. Recognition and escalation are the intern-level content | ⬜ |
+
+> [!tip] **What Phase 5's method showed about the earlier phases.**
+> Parts B, C and D are corpus-first depth audits and need no egress; they found the real material. The shape that recurs: **the corpus teaches investigations as *decisions* and not as *procedures*.** It says when to aspirate a joint and what the crystals mean, and never how the aspirate is taken or what it risks. For investigations an intern orders that is correct; for the ones an intern personally performs it is a gap.
+>
+> **Two method defects surfaced during Phase 5 itself, both mine:**
+> - **Part B's first pass used `grep` with `.` wildcards and reported `CHA₂DS₂-VASc` absent.** `.` matches a *byte*, and `₂` is three bytes in UTF-8 — so the check written *for* CLAUDE.md rule 2's Unicode case was defeated by it. Re-run in Python with subscripts folded: **34 absences dropped to 25; 9 were byte-matching artifacts.**
+> - **Part C's first pass reported penicillin as taught without contraindications** across 49 uses. Penicillin allergy is in fact taught with substitution pathways in five files; the ±260-character window was too narrow. Dismissed.
+
 > [!warning] **Coverage audit, 2026-08-29 — what generalising twelve defect categories actually showed.**
 > Ten of the twelve had only ever been applied where some other check happened to surface an instance. Generalising them produced **three genuine findings and one instructive null**:
 > - **ITU used 10× across 9 files** — the UK term for ICU, surviving a Step 17 sweep recorded as complete and then re-run in full. Found by re-running `undefined_terms.py` after the G-tier, not by any term list. **Fourth instance of a "confirmed complete" record being wrong.**
