@@ -879,13 +879,13 @@ Hyperchloraemic metabolic acidosis + normal serum anion gap and hypokalaemia (ex
 > **Mx — mnemonic "C BIG K DROP":** Stop offending drugs first.
 > - **C**alcium gluconate: 30mL of 10% CaGlu IV over 5 min; repeat every 10 min until ECG normalises — **adult dose**
 > - **B**eta-agonists: 10mg nebulised salbutamol — **adult dose**
->
-> [!danger] **The box above states these doses are consistent with Australian *paediatric and adult* critical care sources. The figures in this box are absolute adult doses and do not scale.** A child needs a weight-based calcium gluconate dose and an age-based salbutamol dose; giving 30mL of 10% calcium gluconate to a small child is a large overdose of calcium. **Do not read these figures across to a child** — take paediatric hyperkalaemia doses from the RCH Melbourne guideline the box itself cites. Found by the corpus-wide paediatric-absolute sweep (CLAUDE.md rule 5) run at the coverage audit, 2026-08-29; see `PENDING_GUIDELINE_CHECKS.md` **B65**.
 > - **I**nsulin & **G**lucose: 10U Actrapid insulin + 50mL 50% glucose (25g) over 15–30 min into a large vein (do NOT give 50% glucose if hyperglycaemic) — monitor VBG every 2h; monitor BGC at 0, 15, 30, 60, 90 min, then 2, 3, 4, 6, 8, and 12h (delayed hypoglycaemia is frequently reported)
 > - If volume deplete: IV 0.9% NaCl 500–1000mL
 > - If volume overloaded: IV furosemide 50mg
 > - If pH <7.3, bicarbonate <20: 500mL 1.26% sodium bicarbonate over 1h
 > - Monitor urine output; refer urgently to renal team — consider haemodialysis ± K-sequestering agents
+>
+> [!danger] **The box above states these doses are consistent with Australian *paediatric and adult* critical care sources. The figures in this box are absolute adult doses and do not scale.** A child needs a weight-based calcium gluconate dose and an age-based salbutamol dose; giving 30mL of 10% calcium gluconate to a small child is a large overdose of calcium. **Do not read these figures across to a child** — take paediatric hyperkalaemia doses from the RCH Melbourne guideline the box itself cites. Found by the corpus-wide paediatric-absolute sweep (CLAUDE.md rule 5) run at the coverage audit, 2026-08-29; see `PENDING_GUIDELINE_CHECKS.md` **B65**.
 
 ### Hypokalaemia
 
