@@ -802,7 +802,7 @@ Children 6 months to 5 years old, ~3% of children; occurs early in a viral infec
 > Linked and summarised by the G27 round (2026-08-29). Both entries agree on the ~3% incidence and the seizure description.
 
 ### Alcohol Withdrawal Seizures
-Peak incidence ~36h after last drink.
+Peak incidence ~36h after last drink — **one point on a withdrawal timeline, not an isolated event.** **Delirium tremens peaks later, at 48–72h**, and is the phase that carries the mortality, so a patient who has had a withdrawal seizure at 36h is heading into the higher-risk window rather than past it. The full timeline, the CIWA-Ar/AWS severity scoring and the AU-verified regimen are owned by [[03_Gastrointestinal]] Alcohol withdrawal. Carried here by the G21 round (2026-08-29): this entry gave the seizure timing alone.
 > [!info] Verified against NSW Health/WA Mental Health Commission alcohol withdrawal guidelines (cross-referenced from the earlier localisation of this same content in [[03_Gastrointestinal]] Alcohol withdrawal), Aug 2026 — **diazepam is the benzodiazepine of choice in Australia; chlordiazepoxide is not registered/available in Australia**, so don't reach for it as an equal-first-line option the way the UK-sourced note does. See [[03_Gastrointestinal]] Alcohol-Related Liver Disease (ArLD) → Alcohol withdrawal for the fuller AU-specific regimen (diazepam dosing/tapering, thiamine dosing) — not repeated here.
 
 ### Status Epilepticus
