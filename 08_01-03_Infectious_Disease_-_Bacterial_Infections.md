@@ -326,7 +326,7 @@ source: quackquackmed 08.01-08.03 Bacterial infections
 | 6 months | Diphtheria/tetanus/pertussis/hep B/polio/Hib (hexavalent) |
 | 6 months–<5yo | Influenza — annual, 2 doses ≥4 weeks apart in the first year if <9yo, then annual single dose |
 | 12 months | Meningococcal ACWY, MMR, pneumococcal |
-| 18 months | Hib, MMR + varicella (combined), diphtheria/tetanus/pertussis |
+| 18 months | **Hib** ⚠️ *(see note below)*, MMR + varicella (combined), diphtheria/tetanus/pertussis |
 | 4 years | Diphtheria/tetanus/pertussis/polio |
 | 12–13 years (Year 7) | **HPV — single dose** (Gardasil 9; catch-up available to age 25 if missed), diphtheria/tetanus/pertussis booster |
 | 14–16 years (Year 10) | Meningococcal ACWY booster |
@@ -336,6 +336,8 @@ source: quackquackmed 08.01-08.03 Bacterial infections
 | 75+ | RSV |
 | 50+ (Aboriginal and Torres Strait Islander) | Pneumococcal, shingles (2 doses) — **funded from an earlier age than the general population**, reflecting higher risk |
 | 60+ (Aboriginal and Torres Strait Islander) | RSV |
+
+> [!warning] **Hib booster timing is unresolved between this schedule and the one in [[15_24b_Paeds_-_Screening__SIDS__Vaccination_Schedule]].** This table places the Hib booster at **18 months**; that file places it at **12 months**. One is wrong; the NIP schedule could not be reached to settle it (`health.gov.au` egress-blocked). **Correct both files together once checked** — `PENDING_GUIDELINE_CHECKS.md` **B47**. The adolescent meningococcal timing, which also differed, has been resolved in favour of this table (14–16 years / Year 10).
 
 > [!note] A genuinely important, distinctive feature of the Australian schedule: several vaccines are funded **from a younger age specifically for Aboriginal and Torres Strait Islander people** (e.g. pneumococcal and shingles from 50, RSV from 60, versus 70/65/75 respectively for the general population) — reflecting a specific, deliberate equity-focused design feature of the NIP, not present in the UK schedule and worth knowing as a distinctly Australian element in its own right. Additional NIP-funded vaccines exist for people with specified medical risk conditions (e.g. asplenia, immunocompromise) at various ages — not reproduced in full here given the complexity; refer to the Australian Immunisation Handbook for the complete risk-condition-specific schedule. State/territory health departments may also fund additional vaccines beyond the national list.
 

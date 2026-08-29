@@ -41,12 +41,21 @@ source: quackquackmed 15.24 Screening schedule, Sudden infant death syndrome, Va
 | 2 months | Hexavalent (diphtheria, tetanus, pertussis, hepatitis B, polio, Hib) — 1st dose; Pneumococcal conjugate — 1st dose; Rotavirus — 1st dose |
 | 4 months | Hexavalent — 2nd dose; Pneumococcal conjugate — 2nd dose; Rotavirus — 2nd dose |
 | 6 months | Hexavalent — 3rd dose (note: some state schedules give only 2 primary hexavalent doses with the 3rd as part of the 6-month point — check current state guidance); Pneumococcal conjugate — 3rd dose in some schedules |
-| 12 months | MMR — 1st dose; Meningococcal ACWY — 1st dose; Pneumococcal conjugate — booster; Hib — booster (4th dose) |
+| 12 months | MMR — 1st dose; Meningococcal ACWY — 1st dose; Pneumococcal conjugate — booster; Hib — booster (4th dose) ⚠️ *(see the note below — the two schedules in this corpus place the Hib booster differently)* |
 | 18 months | MMR-Varicella (combined 2nd MMR dose + varicella); DTPa booster |
 | 4 years | DTPa-IPV booster (diphtheria, tetanus, pertussis, polio) |
-| 12–13 years (school-based program) | HPV — single dose (Australia moved to a single-dose HPV schedule); dTpa booster (diphtheria, tetanus, pertussis); Meningococcal ACWY booster |
+| 12–13 years (Year 7, school-based) | HPV — single dose (Australia moved to a single-dose HPV schedule); dTpa booster (diphtheria, tetanus, pertussis) |
+| 14–16 years (Year 10, school-based) | **Meningococcal ACWY booster** |
 | 6 months – <5 years | Influenza — annual, free on the NIP given the seriousness of influenza in young children |
 | 28–36 weeks' gestation (maternal, in pregnancy) | RSV vaccine (maternal, protects the newborn from birth) — free on the NIP |
+
+> [!warning] **Two schedule discrepancies found by the L4 seam audit (2026-08-29); one fixed, one open.**
+>
+> **Fixed — the adolescent meningococcal dose.** This table previously placed the **Meningococcal ACWY booster in the Year 7 (12–13) school program**. The adolescent NIP dose is at **14–16 years (Year 10)**, with catch-up from 15. Year 7 carries HPV and dTpa. [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Vaccination Schedule (Australia — National Immunisation Program) had this right and the two files disagreed.
+>
+> **Open — the Hib booster.** This table gives the Hib booster at **12 months**; the schedule in `08_01-03` gives it at **18 months**. **One of them is wrong and it has not been resolved here**, because the NIP schedule itself could not be reached (`health.gov.au` is egress-blocked). Both places are now marked. **Check the current NIP schedule and correct both files together** — see `PENDING_GUIDELINE_CHECKS.md` **B47**.
+>
+> These two schedules exist in different files with **different headings**, so the corpus's duplicate-header check cannot see them as a pair. They should be read together and kept in step.
 
 > [!info] RSV protection for infants not covered by the maternal vaccine — nirsevimab (a long-acting monoclonal antibody given directly to the baby) is available through **state and territory programs** rather than the national NIP schedule, so availability/funding varies by jurisdiction; check current local program.
 > Meningococcal B vaccine is not part of the standard national schedule above (nationally funded only for Aboriginal and Torres Strait Islander children with specified medical risk conditions) — some states fund it more broadly for all infants outside the NIP; check current state guidance if this is relevant to a specific patient.
