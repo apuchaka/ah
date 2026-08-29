@@ -816,9 +816,9 @@ Run the listed number, then reassess — if a run comes back with genuinely noth
 | L3 | `verify: 09_08_…` | ✅ 2026-08-29 | File itself clean (no verification boxes, no positional refs). Its seam was not: triggered the **duplicate-pair consistency sweep**, which found the anaphylaxis circular reference (B43). |
 | L4 | `verify: 08_01-03_…, 08_04_Antibiogram` | ✅ 2026-08-29 | **Two NIP schedules disagreed** (meningococcal Year 7 vs Year 10 — fixed; Hib 12 vs 18 months — flagged, B47). `08_04`'s box recorded as the **model** for scoped verification. |
 | L5 | `verify: 08_05-06_…, 08_10_…` | ✅ 2026-08-29 | **Centor given as a bare rule with no ARF caveat** in the ID file while `13_05a` carried the caveat (B48) — highest-equity-stakes seam found. Acronym-component check run corpus-wide: no further arithmetic defects. |
-| L6 | `verify: 03a_Anaesthetics_Primer.md` | 3 | Extensive prior work |
-| L7 | `verify: 11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_.md` | 4 | Step 24 confirmed a real gap here (AC joint injury under-developed) — reclassified from "extensive" |
-| L8 | `verify: 16_10-13_Labour_and_Delivery.md` | 4 | Moderate prior work |
+| L6 | `verify: 03a_Anaesthetics_Primer.md` | ✅ 2026-08-29 | Clean. File-level box points to the per-entry boxes (correct pattern). Dexamethasone doses across 5 files confirmed as **different indications**, not a conflict. |
+| L7 | `verify: 11_02_Ortho_-_Upper_Limb…` | ✅ 2026-08-29 | **The recorded AC-joint gap is closed** — full Rockwood I–VI grading with S/Smx, Ix and grade-split Mx. Zero verification boxes, zero positional refs. Clean. Previously flagged as a real gap by Step 24 |
+| L8 | `verify: 16_10-13_Labour_and_Delivery.md` | ✅ 2026-08-29 | Clean on the classification-completeness check: perineal tears carry all four degrees **with 3a/3b/3c subdivisions**; caesarean urgency Category 1–4 present and its box is honestly labelled *Partially verified*. Oxytocin 10 IU (PPH) vs 20 IU (umbilical vein, retained placenta) confirmed as different indications. |
 | L9 | `verify: Communication.md, Clinical-Process-EBM-Consent-Capacity.md` | 5 | Never a primary target |
 | L10 | `verify: 10_11a_Oncology_-_Common_Cancers__Carcinogens__Tumour_Markers.md, 10_12_Oncology_-_Breast.md` | 3 | Extensive prior work |
 

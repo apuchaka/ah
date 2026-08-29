@@ -13,7 +13,7 @@ source: quackquackmed 15.04 Respiratory disorders - URTI and LRTI in children
 - Westley Croup Score used to stratify into mild, moderate, and severe. Moderate-severe: audible stridor at rest; ↑coughing frequency.
 - Admit if moderate-severe, <6 months old, known airway abnormality (e.g. laryngomalacia), or uncertainty about diagnosis.
 - **Ix:** clinical. CXR may show a "steeple sign" on PA view.
-- **Mx:** single dose of PO dexamethasone (0.15mg/kg) to all children regardless of severity. Emergencies: high flow O2 and nebulised adrenaline.
+- **Mx:** single dose of PO dexamethasone (0.15mg/kg) to all children regardless of severity. Emergencies: high flow O2 and nebulised adrenaline. *(Dose owner: [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] Croup (laryngo-tracheo-bronchitis), verified there against RCH Melbourne, NSW ACI and Queensland Children's Health — check there rather than here if the two ever differ.)*
 
 ### Acute epiglottitis
 
