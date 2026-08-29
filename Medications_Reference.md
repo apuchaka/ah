@@ -64,6 +64,35 @@ The classification is by **effect on the cardiac action potential**.
 
 **Source disagreement:** none encountered. No dose is stated in this entry — the class table is mechanism-level, and Australian dosing for individual agents needs eTG.
 
+### Beta-blockers — selectivity, and why the choice is not interchangeable
+
+> [!warning] **Snippet-sourced — primary source not read.** Cross-verified across *Current Medical Research and Opinion* 2024 (two separate reviews), bpac<sup>nz</sup>, AAFP and the OHSU Drug Class Review. Australian primary sources are egress-blocked. Tracked in `PENDING_GUIDELINE_CHECKS.md`.
+
+**Why this entry exists.** The corpus prescribes metoprolol, atenolol, bisoprolol, carvedilol, propranolol and labetalol, and warns to avoid beta-blockers in asthma — but the words **"cardioselective"** and **"intrinsic sympathomimetic activity"** appear **zero times** corpus-wide. The warning is there without the property that generates it.
+
+| Group | Agents | Property that matters |
+|---|---|---|
+| **β1-selective (cardioselective)** | bisoprolol, metoprolol, atenolol, nebivolol | Less β2 blockade, so less bronchoconstriction |
+| **Non-selective** | propranolol, timolol, sotalol | Block β2 as well — bronchospasm risk |
+| **Mixed α/β** | **carvedilol**, **labetalol** | Also block α1 → additional vasodilatation and reduced peripheral resistance |
+| **With ISA** | pindolol | Partially *stimulates* while blocking → less bradycardia |
+
+> [!danger] **Cardioselectivity is dose-dependent, not absolute — this is the point most often missed.** β1-selective agents block β2 as the dose rises. **Atenolol is the weakest of the "cardioselective" group** and blocks roughly a quarter of β2 receptors at its higher recommended dose; bisoprolol and nebivolol are the most selective. In a controlled COPD comparison at maximum recommended doses, **atenolol increased airway resistance while bisoprolol did not.**
+>
+> So "cardioselective" is a reason to choose bisoprolol over propranolol in a patient with airways disease — **not** a reason to treat any β1 agent as safe at any dose.
+
+> [!danger] **Only three beta-blockers have mortality evidence in heart failure with reduced ejection fraction: carvedilol, bisoprolol, and metoprolol *succinate* (extended-release).** This is a class where the agents are **not** interchangeable, and the salt matters — metoprolol **tartrate** is not the formulation with the HFrEF evidence. In the COMET trial carvedilol reduced mortality compared with metoprolol tartrate.
+
+**Reading the group in one line:** selectivity decides the airways question, α-blockade decides the vasodilator question, ISA is a curiosity you should recognise but rarely prescribe, and heart failure has its own three-drug list that overrides all of the above.
+
+**Cross-references — clinical context lives in the disease files:**
+- Heart failure management and the four pillars → [[01_Cardiovascular]] Heart Failure
+- Beta-blockers in asthma and COPD → [[02_Respiratory]]
+- Beta-blocker overdose and glucagon → [[03a_Anaesthetics_Primer]] / toxicology content
+- Timolol eye drops and their systemic absorption → [[05_Ophthalmology]] Glaucoma and Anti-Glaucoma Medications
+
+**Source disagreement:** none material. **No doses stated** — target doses for the three HFrEF agents are exactly the kind of AU-specific numeric that needs eTG or the Heart Foundation, and no three agreeing sources were obtained.
+
 ## Endocrine
 
 ## Neurological
