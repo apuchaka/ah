@@ -96,7 +96,9 @@ source: quackquackmed 15.02 The ill and feverish child, Meningitis, Encephalitis
 
 - **Ix:** LP — CSF opening pressure, protein, lactate, glucose, MC&S, PCR (HSV, VZV, enteroviruses ± EBV, etc). Bloods including NH4, serology & HIV. Stool culture. Nose/throat swab (respiratory PCR). Urine (mumps). MRI or CT. EEG may help distinguish psychiatric from organic causes.
 - **Mx:** start triple therapy with ceftriaxone, clarithromycin, and aciclovir while the cause is being determined.
-  - HSV: IV aciclovir for 14–21 days, then repeat LP to confirm CSF is HSV-negative. Do not routinely use corticosteroids.
+  - HSV: **IV aciclovir 10mg/kg every 8 hours** for 14–21 days, then repeat LP to confirm CSF is HSV-negative. Do not routinely use corticosteroids. (Dose added by the pairs audit, 2026-08-29 — see `PENDING_GUIDELINE_CHECKS.md` **B56**; paediatric dosing is age-dependent and must be checked.)
+
+> [!note] The adult entry is [[04_Neurology]] Encephalitis, which owns the formal diagnostic criteria (1 major + ≥3 minor).
   - Neurological sequelae are common.
 
 *(See [[04_Neurology]] Encephalitis for the fuller adult presentation and Ix/Mx detail, not repeated here.)*
