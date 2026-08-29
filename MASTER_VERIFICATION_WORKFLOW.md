@@ -287,6 +287,15 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 >
 > **Run it before checking any source.** A classification that does not cohere with itself is wrong regardless of what the guideline says, and the failure is usually cheaper to see from the inside.
 
+> [!danger] **Search artifact — markdown emphasis splits words and defeats plain-text greps.**
+> Found 2026-08-29 (G34). `grep -i "haemolysis, elevated"` returned **zero hits** for HELLP across the corpus, and the expansion was sitting there in plain sight:
+>
+>     **= H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets.
+>
+> The literal text is `**H**aemolysis` — the `**` markers fall *inside* the word, so no substring search for the word can match it. This corpus uses letter-by-letter bolding for every acronym expansion it spells out, which is precisely the construction most likely to be searched for and least likely to be found.
+>
+> **This is CLAUDE.md rule 2 with a fourth cause.** Case, Unicode and hyphenation were already listed; **markup inside a term** belongs beside them. Before concluding an acronym is unexpanded, search for a single distinctive letter-run (`aemolysis`), or read the entry.
+
 > [!danger] **Standing rule — never conclude absence from a truncated grep.**
 > A search that returns the right hit but is cut off before you read it carries the same risk as a search that returns nothing, and it is more dangerous because it *looks* like evidence. **View the full line before concluding anything is missing.** Twice in the G40–G43 round I called content absent from output that contained it, cut off by my own character limit; both would have been "fixed" by duplicating content already present. This is CLAUDE.md rule 2 in its inverted form and the rule as written does not cover it.
 
