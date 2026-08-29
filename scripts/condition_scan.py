@@ -60,6 +60,22 @@ none were. The causes, in order of damage:
      disbelieving a plausible-looking ABSENT count rather than by foresight.
      Assume a seventh convention exists that this run did not find.
 
+  8. INTERNAL HYPHENATION. "Postherpetic neuralgia" missed "post-herpetic
+     neuralgia" (6 uses): the corpus compounds where the list does not, and
+     token splitting cannot see across that. Fixed generally rather than
+     per-case: when the token match fails, both sides are collapsed to
+     letters-only and compared again, so hyphen, space and closed-compound
+     forms all reduce to the same string.
+  9. DIACRITICS. "Brown-Sequard" missed "Brown-Sequard" written with an
+     accented e. Accents are now folded before matching.
+ 10. -IES PLURALS. "Radiculopathies" stemmed to "Radiculopathie" and matched
+     nothing, while "radiculopathy" appears 7 times.
+ 11. EXTRA QUALIFIER WORDS - NOT FIXED. "Lambert-Eaton myasthenic syndrome"
+     does not match "Lambert-Eaton syndrome": the gap tolerates inserted
+     stopwords, not a dropped clinical adjective. Tolerating arbitrary
+     dropped words would match almost anything, so this stays a known
+     false-absence source; the weak-signal probe is what catches it.
+
   5. AN ACRONYM THE GENERATOR CANNOT REACH. "Arteriovenous Malformations"
      yields "AM", never "AVM", because the initialism is built from
      whitespace-separated words and the corpus's acronym splits inside one.
@@ -88,8 +104,14 @@ def strip_md(t):
     t = t.replace("\u2019","'").replace("\u2018","'")
     return re.sub(r"[*_`]", "", t)
 
+def collapse(t):
+    """Letters and digits only - defeats hyphen/space/compound differences."""
+    return re.sub(r"[^a-z0-9]+", "", norm(t))
+
 def norm(t):
     """Collapse AU/US spelling so neither can hide from the other."""
+    t = unicodedata.normalize("NFKD", t)
+    t = "".join(c for c in t if not unicodedata.combining(c))
     t = t.lower()
     t = t.replace("\u00e6", "ae")
     t = re.sub(r"ae|oe", "e", t)
@@ -118,6 +140,7 @@ def phrase(v):
         # -es is only the plural marker after s/x/z/ch/sh. Stripping it
         # blindly turned "valves" into "valv", which then could not match
         # "valve" - a fix that created the failure it was written to remove.
+        if len(t) > 4 and t.endswith("ies"): return t[:-3] + "y"
         if len(t) > 4 and t.endswith("es") and re.search(r"(s|x|z|ch|sh)es$", t):
             return t[:-2]
         if len(t) > 3 and t.endswith("s") and not t.endswith("ss"): return t[:-1]
@@ -155,7 +178,14 @@ def load():
         for m in HEADER.finditer(raw):
             parts.append((cur, raw[last:m.start()])); cur = m.group(1).strip(); last = m.end()
         parts.append((cur, raw[last:]))
-        out.append((os.path.basename(f), parts))
+        # Precompute the normalised and collapsed forms ONCE per section.
+        # Computing them inside the per-condition loop made the scan
+        # quadratic in (sections x conditions) and it timed out at two
+        # systems; the earlier phase abandoned a matcher for the same reason
+        # rather than shipping it, so it is fixed here instead.
+        prepped = [(h, norm(h), collapse(h), norm(b), collapse(b),
+                    len(MARKER.findall(b)) >= 2) for h, b in parts]
+        out.append((os.path.basename(f), prepped))
     return out
 
 def variants(name):
@@ -174,18 +204,19 @@ def variants(name):
 
 def classify(name, corpus):
     pats = [phrase(v) for v in variants(name)]
+    cols = [collapse(v) for v in variants(name) if len(collapse(v)) >= 8]
     wk = weak_token(name)
     weak = re.compile(r"(?<![A-Za-z])" + re.escape(norm(wk)) + r"", re.I) if wk else None
     owns = []; taught = []; hits = 0; wsig = 0
     for fname, parts in corpus:
-        for header, body in parts:
-            nh, nb = norm(header), norm(body)
-            in_h = any(p.search(nh) for p in pats)
+        for header, nh, ch, nb, cb, is_taught in parts:
+            in_h = any(p.search(nh) for p in pats) or any(c in ch for c in cols)
             n = sum(len(p.findall(nb)) for p in pats)
+            if not n: n = sum(cb.count(c) for c in cols)
             if in_h: owns.append(f"{fname}#{header}")
             if n:
                 hits += n
-                if len(MARKER.findall(body)) >= 2: taught.append(f"{fname}#{header}")
+                if is_taught: taught.append(f"{fname}#{header}")
             if weak is not None: wsig += len(weak.findall(nb))
     if owns: return "OWNS ENTRY", hits, owns[0]
     if taught: return "IN A TAUGHT SECTION", hits, taught[0]
