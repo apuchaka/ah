@@ -45,4 +45,4 @@ source: quackquackmed 15.12 Brain tumours in children
 
 - Consider in children presenting with back or neck pain, gait abnormality, focal weakness, or scoliosis. Rare.
 
-*(See [[04_Neurology]] Brain Tumours and Brain Lesion Localisation for more on brain tumours and localisation symptoms in adults, not repeated here.)*
+*(See [[04_Neurology]] Brain Tumours and Brain Lesion Localisation for more on brain tumours and localisation symptoms in adults, not repeated here. For the adult spinal tumour presentation and its management, see [[11_01_Ortho_-_Orthopaedic_Emergencies]] Spinal tumours.)*

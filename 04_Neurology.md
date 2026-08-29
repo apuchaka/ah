@@ -920,6 +920,8 @@ Peak incidence ~36h after last drink.
 
 **Vestibular schwannoma:** see entry under ENT.
 
+> [!note] This entry covers **adult** brain tumours. The paediatric tumours are a different set — [[15_12b_Paeds_-_Brain_Tumours]] Brain tumours owns medulloblastoma, brainstem astrocytoma and the rest, organised by location. Added by the pairs audit (2026-08-29).
+
 **Pilocytic astrocytoma:** malignancy of the astrocytes ("pilocytic" = hair-like). Most common brain cancer in children, usually slow-growing, good prognosis. Histology: Rosenthal fibres (corkscrew eosinophilic bundle). Mx: resection is usually curative.
 
 **Medulloblastoma:** most common malignant brain tumour in children, very aggressive. Arises and spreads from the fourth ventricle; can spread to the whole CNS. Histology: small round cells with high nuclear-to-cytoplasm ratio, very invasive.
@@ -1554,6 +1556,8 @@ Primary injuries divided into focal or diffuse.
 **R:** large central disc prolapse (most common cause), spinal stenosis, spinal trauma, spinal tumour (primary or metastatic), spinal epidural abscess/haematoma, ankylosing spondylitis, post-surgical/iatrogenic.
 
 **A/P:** mechanical compression of multiple lumbosacral nerve roots simultaneously within the narrow confines of the spinal canal below the conus medullaris.
+
+> [!note] [[11_01_Ortho_-_Orthopaedic_Emergencies]] Cauda equina syndrome carries a second full entry, consistent with this one. Linked by the pairs audit (2026-08-29).
 
 **S/Smx:**
 > [!danger] Red flag symptoms — ask directly, since patients may not volunteer these
