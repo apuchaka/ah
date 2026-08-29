@@ -45,7 +45,9 @@ source: quackquackmed 13.05 Stridor, Croup, Acute epiglottitis, Laryngomalacia, 
 
 > [!danger] If suspected, DO NOT examine the throat or distress the patient — risk of precipitating complete airway obstruction.
 
-- **Mx:** O2 + keep the patient upright. Immediate senior involvement (ENT, anaesthetics) — endotracheal intubation may be needed. IV antibiotics to resolve.
+- **Mx:** O2 + keep the patient upright. Immediate senior involvement (ENT, anaesthetics) — endotracheal intubation may be needed. **IV antibiotics — a third-generation cephalosporin (cefotaxime or ceftriaxone)**, carried here from [[15_04a_Paeds_-_URTI_and_LRTI]] Acute epiglottitis during the pairs audit (2026-08-29), where it was the only one of the corpus's three epiglottitis entries to name the drug at all.
+
+> [!note] **Three entries cover acute epiglottitis and none referenced any other.** This is the fullest and owns the clinical detail; [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Acute epiglottitis covers it in the bacterial-infection context and [[15_04a_Paeds_-_URTI_and_LRTI]] Acute epiglottitis in the paediatric URTI context. All three agree on organism, presentation, the thumb sign and the do-not-examine-the-throat rule; only the antibiotic was in one place.
 
 ## Foreign body airway obstruction (choking)
 

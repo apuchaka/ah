@@ -27,6 +27,8 @@ source: quackquackmed 15.04 Respiratory disorders - URTI and LRTI in children
 - May require inhalation anaesthesia and then endotracheal intubation to protect the airway.
 - **Mx:** antibiotics (cefotaxime, ceftriaxone).
 
+> [!note] Fuller entry: [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] Acute epiglottitis, which owns the clinical detail. Not repeated here.
+
 ### Bacterial tracheitis
 
 - Defined by the presence of thick mucopurulent exudate and tracheal mucosal sloughing not cleared by coughing. Risks occluding the airway.

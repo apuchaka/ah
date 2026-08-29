@@ -116,6 +116,8 @@ source: quackquackmed 08.01-08.03 Bacterial infections
 
 > [!danger] Do NOT examine the throat in suspected epiglottitis — risk of precipitating complete airway obstruction. Get immediate senior help ± endotracheal intubation. Give supplemental O2 and IV antibiotics.
 
+> [!note] Fuller entry, including the organism list and the antibiotic choice: [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] Acute epiglottitis. Not repeated here.
+
 ## Clostridioides difficile
 
 - **A/P:** Gram +ve rod, anaerobic, spore-forming, toxin-producing. Associated with hospitalisation / nursing home residence.
