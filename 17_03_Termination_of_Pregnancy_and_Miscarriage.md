@@ -27,7 +27,7 @@ source: quackquackmed 17.03 Termination of Pregnancy, Miscarriage
 > Beyond each state's threshold, the general pattern (not universal) is that two medical practitioners must agree the termination is appropriate on specified grounds (risk to physical/mental health, fetal anomaly) — but the specific grounds, documentation, and any additional requirements (e.g. approved-facility requirements, mandatory considerations) differ by jurisdiction and should be checked directly rather than assumed uniform.
 
 **General points relevant across jurisdictions**
-- If patient <16yo presents for TOP: standard principles of consent for minors apply — see [[Clinical-Process-EBM-Consent-Capacity]] Gillick competence, not repeated here; specific parental involvement requirements vary by state.
+- If patient <16yo presents for TOP: standard principles of consent for minors apply — see [[Clinical-Process-EBM-Consent-Capacity]] Consent and children, where Gillick competence is set out, not repeated here; specific parental involvement requirements vary by state.
 - Safe access zones (typically 150m) around clinics, prohibiting protest/harassment, are in place in most jurisdictions.
 
 ### Medical/drug options

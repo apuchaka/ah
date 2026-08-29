@@ -124,7 +124,7 @@ source: quackquackmed 08.09 Miscellaneous infections
 
 ## Approach to Fever in the Returned Traveller
 
-> [!note] Gap-filled from CSV ("Return traveller fever," Medium yield) — the individual travel-related diseases (Malaria, Dengue fever, Yellow fever, Enteric fever/typhoid, Leptospirosis, Schistosomiasis, Trypanosomiasis) are all built across this project's Infectious Disease files, and the history-taking approach is already established in [[History-Taking]] Travel history (within the Fever/Suspected Infection entry) — this entry adds the organising framework that ties the differential together, given incubation period is genuinely one of the most useful ways to narrow it. Not repeated here: the individual disease-level Ix/Mx detail, or the history-taking questions themselves.
+> [!note] Gap-filled from CSV ("Return traveller fever," Medium yield) — the individual travel-related diseases (Malaria, Dengue fever, Yellow fever, Enteric fever/typhoid, Leptospirosis, Schistosomiasis, Trypanosomiasis) are all built across this project's Infectious Disease files, and the history-taking approach is already established in [[History-Taking]] Fever and Suspected Infection (the travel-history block within itected Infection entry) — this entry adds the organising framework that ties the differential together, given incubation period is genuinely one of the most useful ways to narrow it. Not repeated here: the individual disease-level Ix/Mx detail, or the history-taking questions themselves.
 
 **The single most important principle, worth stating before any framework: malaria must be actively excluded in any febrile returned traveller from an endemic area, regardless of how mild the presentation looks or how unlikely malaria seems** — falciparum malaria can deteriorate rapidly and unpredictably, and this exclusion should happen early rather than only after other causes have been worked through.
 
@@ -141,7 +141,7 @@ source: quackquackmed 08.09 Miscellaneous infections
 
 **Practical points beyond the incubation-period framework:**
 - **Non-travel causes remain part of the differential** — a returned traveller can still have a completely unrelated, locally-acquired cause of fever, and travel history shouldn't crowd out the standard differential entirely, particularly if the timeline or exposure pattern doesn't fit a travel-related cause.
-- **Specific exposures narrow the differential further than destination alone** — freshwater swimming (schistosomiasis, leptospirosis), animal contact (brucellosis, rabies exposure), insect/tick bites, sexual contact, food and water sources, and healthcare contact abroad (antimicrobial-resistant organism risk) — see [[History-Taking]] Travel history for the specific questions that elicit these, not repeated here.
+- **Specific exposures narrow the differential further than destination alone** — freshwater swimming (schistosomiasis, leptospirosis), animal contact (brucellosis, rabies exposure), insect/tick bites, sexual contact, food and water sources, and healthcare contact abroad (antimicrobial-resistant organism risk) — see [[History-Taking]] Fever and Suspected Infection for the travel-history questions that elicit these, not repeated here.
 - **Malaria prophylaxis adherence doesn't exclude malaria** — no chemoprophylaxis regimen is 100% effective, and poor adherence is common; malaria should still be actively tested for (thick and thin blood films, or rapid antigen testing) in a febrile returned traveller from an endemic area regardless of reported prophylaxis use.
 
 ## Sepsis

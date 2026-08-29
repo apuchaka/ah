@@ -46,7 +46,7 @@ Right hemidiaphragm normally sits slightly higher than left. Look for free air u
 
 ### Common patterns worth recognising at a glance (cross-referenced, not re-explained here)
 - Batwing/bilateral perihilar shadowing + Kerley B lines + effusions → pulmonary oedema, see [[01_Cardiovascular]] Chronic Heart Failure
-- "Ground glass" + "honeycombing" → pulmonary fibrosis, see [[02_Respiratory]] IPF
+- "Ground glass" + "honeycombing" → pulmonary fibrosis, see [[02_Respiratory]] Idiopathic Pulmonary Fibrosis (IPF)
 - Bilateral hilar lymphadenopathy → sarcoidosis (see [[02_Respiratory]] Sarcoidosis) as a leading differential, though also consider TB/lymphoma
 - Upper lobe cavitation → TB, see [[02_Respiratory]] Tuberculosis
 - Widened mediastinum → aortic dissection, see [[01_Cardiovascular]] Aortic Dissection (though a normal CXR doesn't exclude it)
@@ -215,9 +215,9 @@ Right hemidiaphragm normally sits slightly higher than left. Look for free air u
 1. **Serum-ascites albumin gradient (SAAG)** — the key first step, having largely replaced the older transudate/exudate protein-based split used for pleural fluid: SAAG = serum albumin − ascitic albumin.
    - **SAAG ≥11g/L** — portal hypertension is the cause (cirrhosis, heart failure, Budd-Chiari, hepatic/portal vein thrombosis) — see [[03_Gastrointestinal]] Cirrhosis and Ascites (under Alcohol-Related Liver Disease).
    - **SAAG <11g/L** — non-portal-hypertensive cause (malignancy, TB peritonitis, pancreatic ascites, nephrotic syndrome).
-2. **Neutrophil count — screens for SBP specifically:** >250 cells/µL is diagnostic of SBP regardless of culture result — see [[03_Gastrointestinal]] Spontaneous Bacterial Peritonitis (under Alcohol-Related Liver Disease) for the full Mx once this threshold is met. This is the single most important number to check in any diagnostic ascitic tap in a cirrhotic patient, given how easily SBP can present subtly.
+2. **Neutrophil count — screens for SBP specifically:** >250 cells/µL is diagnostic of SBP regardless of culture result — see [[03_Gastrointestinal]] Spontaneous bacterial peritonitis (SBP) (under Alcohol-Related Liver Disease) for the full Mx once this threshold is met. This is the single most important number to check in any diagnostic ascitic tap in a cirrhotic patient, given how easily SBP can present subtly.
 3. **Culture** — often negative even with a diagnostic neutrophil count (treat on the neutrophil count, not the culture result) — bedside inoculation of culture bottles improves yield compared to sending fluid in a plain container.
-4. **Additional tests as clinically indicated:** total protein (low ascitic protein <15g/L identifies patients at higher SBP risk who may warrant prophylactic antibiotics — see [[03_Gastrointestinal]] Spontaneous Bacterial Peritonitis prophylaxis criteria), cytology if malignancy suspected, amylase if pancreatic ascites suspected, triglycerides if chylous ascites suspected.
+4. **Additional tests as clinically indicated:** total protein (low ascitic protein <15g/L identifies patients at higher SBP risk who may warrant prophylactic antibiotics — see [[03_Gastrointestinal]] Spontaneous bacterial peritonitis (SBP) for the prophylaxis criteria), cytology if malignancy suspected, amylase if pancreatic ascites suspected, triglycerides if chylous ascites suspected.
 
 **Pitfalls:**
 - Don't rely on the older transudate/exudate protein-only classification for ascites the way it's still used for pleural fluid — SAAG is the better-validated and more clinically useful split for ascitic fluid specifically.
@@ -505,7 +505,7 @@ Right hemidiaphragm normally sits slightly higher than left. Look for free air u
 
 ## Cognitive Screening Tools (MMSE, MoCA, AMTS)
 
-> [!note] Gap-filled — these tools are referenced by name repeatedly throughout [[04_Neurology]] (Vascular Dementia, Alzheimer's Disease, frontotemporal dementia, and Delirium all cite MMSE as their cognitive-testing Ix), and in [[Examination]] Cognition, but none of these citations actually explain what the tools test or how to interpret a score — this entry fills that gap. Scoped specifically to the tools themselves, not the broader Geriatrics assessment context (falls risk, frailty, polypharmacy), which sits outside a not-yet-uploaded category.
+> [!note] Gap-filled — these tools are referenced by name repeatedly throughout [[04_Neurology]] (Vascular Dementia, Alzheimer's Disease, frontotemporal dementia, and Delirium all cite MMSE as their cognitive-testing Ix), and in [[Examination]] Mental State Examination (MSE), but none of these citations actually explain what the tools test or how to interpret a score — this entry fills that gap. Scoped specifically to the tools themselves, not the broader Geriatrics assessment context (falls risk, frailty, polypharmacy), which sits outside a not-yet-uploaded category.
 
 **The core practical distinction — these are screening tools, not diagnostic tests.** A score below or above a given cutoff raises or lowers suspicion of cognitive impairment; it does not itself diagnose a specific dementia subtype or exclude significant pathology, particularly at the milder end of impairment. All are influenced by the patient's baseline education level and cultural/language background, which should be factored into interpretation rather than applying a single fixed cutoff blindly to every patient.
 

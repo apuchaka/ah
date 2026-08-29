@@ -21,7 +21,7 @@ source: quackquackmed 11.01 Orthopaedic emergencies
 
 - **P:** delayed or inadequate treatment can cause irreversible joint destruction and fatality.
 
-> [!note] See also [[11_10_Ortho_-_Paediatric_Orthopaedics]] Kocher criteria for diagnosis of septic arthritis, for paediatric septic arthritis.
+> [!note] See also [[11_10_Ortho_-_Paediatric_Orthopaedics]] Septic arthritis vs transient synovitis, where the Kocher criteria for diagnosis of septic arthritis, for paediatric septic arthritis.
 
 ### Septic arthritis of a replaced joint
 
