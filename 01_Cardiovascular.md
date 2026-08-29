@@ -273,8 +273,13 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 > [!info] CHA₂DS₂-VASc score
 > Age 65–74yo = 1, ≥75yo = 2 | Sex: Male = 0, Female = 1 | Heart failure = 1 | Hypertension = 1 | Stroke/TIA/VTE = 2 | Vascular disease (prior MI, PAD) = 1 | Diabetes = 1
 
-> [!info] ORBIT bleeding score
-> Age ≥75yo = 1 | Bleeding Hx (GI bleed, ICH, haemorrhagic stroke) = 2 | GFR <60 mL/min = 1 | Treatment with antiplatelets = 1
+> [!info] **ORBIT bleeding score — 5 components, maximum 7**
+> **O**lder age ≥75 (**1**) · **R**educed haemoglobin/haematocrit, or history of anaemia (**2**) · **B**leeding history — GI bleed, ICH, haemorrhagic stroke (**2**) · **I**nsufficient renal function, eGFR <60 (**1**) · **T**reatment with an antiplatelet (**1**).
+> *The acronym is the component list. Low 0–2 · Medium 3 · High ≥4.*
+
+> [!warning] **Correction found by the scoring-tool arithmetic check (2026-08-29).** This box previously listed **four** components summing to 5, and omitted **reduced haemoglobin/anaemia** — which is not a minor omission: it is one of the two 2-point items and, in the derivation study, **the component most strongly associated with major bleeding**. A score built from the remaining four understates risk in exactly the patients the tool exists to identify.
+>
+> The check that caught it needs no source: **the acronym has five letters and the box listed four.** Noted also that I wrote the interpretation box below this one in an earlier round, advising that a "correctable anaemia" is among the modifiable bleeding risks — without noticing that anaemia was a *scored component* that had been dropped from the list two lines above. See `PENDING_GUIDELINE_CHECKS.md` **B46**.
 
 > [!danger] **What the two scores are *for* — the components above are not the useful part, and the way they are read wrongly is predictable.** The corpus lists both scores' points and, until now, never said what to do with the answer.
 >
