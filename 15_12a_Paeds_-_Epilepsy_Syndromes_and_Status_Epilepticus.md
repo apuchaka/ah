@@ -47,7 +47,7 @@ source: quackquackmed 15.12 Neurological disorders - Epilepsy syndromes, Status 
 ## Febrile seizures/convulsions
 
 - = single tonic-clonic, symmetrical generalised seizure lasting <15 minutes, occurring as temperature rises rapidly in a febrile illness in a normally developing child, occurring only once in 24h.
-- 3% of children have ≥1 febrile seizure; positive family history is common.
+- 3% of children have ≥1 febrile seizure; positive family history is common. **Age range 6 months to 5 years** — carried from [[04_Neurology]] Febrile Convulsions by the G27 round (2026-08-29), which stated the age band this entry did not.
 - **Dx/Ix:** find the source of infection, look for signs of meningitis. MSU, CXR, ENT swabs. Avoid LP in the postictal period.
 - **Mx:** O2 + recovery position. Check glucose. If the fit lasts >5 minutes, treat as status epilepticus.
 - **Parental education:** allay fear (the child is not dying). Febrile seizure is associated with ≤3% risk of epilepsy — risk increases with a positive family history, complex features (focal onset, >15 minutes, >1 seizure in 24h), developmental abnormality. Recurrence of febrile seizures is common. If a seizure lasts >5 minutes, call an ambulance.

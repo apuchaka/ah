@@ -794,6 +794,13 @@ Start in a specific area of the brain, typically the temporal lobe; further divi
 ### Febrile Convulsions
 Children 6 months to 5 years old, ~3% of children; occurs early in a viral infection when temperature rises rapidly; brief, generalised tonic-clonic or tonic.
 
+> [!warning] **This is a one-line definition and was the whole entry.** [[15_12a_Paeds_-_Epilepsy_Syndromes_and_Status_Epilepticus]] Febrile seizures/convulsions owns it, and carries the three things missing here that change what you do:
+> - **Simple vs complex.** A *simple* febrile seizure is generalised, lasts **<15 minutes**, and occurs **once in 24 hours**. Focal onset, duration >15 minutes, or recurrence within 24 hours make it **complex** — which changes the risk and the threshold for investigation.
+> - **Meningitis must be actively excluded** — the fever is the presenting feature of both, and this entry named neither the differential nor the work-up (source of infection, MSU, CXR, ENT swabs; avoid LP in the postictal period).
+> - **Management**, including that a seizure lasting **>5 minutes is treated as status epilepticus** — see Status Epilepticus below in this file.
+>
+> Linked and summarised by the G27 round (2026-08-29). Both entries agree on the ~3% incidence and the seizure description.
+
 ### Alcohol Withdrawal Seizures
 Peak incidence ~36h after last drink.
 > [!info] Verified against NSW Health/WA Mental Health Commission alcohol withdrawal guidelines (cross-referenced from the earlier localisation of this same content in [[03_Gastrointestinal]] Alcohol withdrawal), Aug 2026 — **diazepam is the benzodiazepine of choice in Australia; chlordiazepoxide is not registered/available in Australia**, so don't reach for it as an equal-first-line option the way the UK-sourced note does. See [[03_Gastrointestinal]] Alcohol-Related Liver Disease (ArLD) → Alcohol withdrawal for the fuller AU-specific regimen (diazepam dosing/tapering, thiamine dosing) — not repeated here.
