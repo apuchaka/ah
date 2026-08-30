@@ -84,6 +84,8 @@ status: standalone — not yet cross-referenced into the corpus
 
 **D:** **Plasma glucose** (fasting or random), **HbA1c** (glycated haemoglobin, reflecting average glycaemia over the preceding red cell lifespan), and the **75 g oral glucose tolerance test**.
 
+> [!warning] **The 75 g load is the ADULT and pregnancy load. It is not the paediatric load.** In children the glucose load is calculated **by body weight, to a maximum of 75 g** — per-kg with an absolute cap, which is the correct paediatric form. **75 g given to a small child is a substantial overload.** Confirm the per-kg figure against the local paediatric protocol; it is not stated here because the Australian paediatric sources are egress-blocked in this environment.
+
 **Ind:** Diagnosis and monitoring of diabetes; screening in at-risk groups; gestational diabetes screening; investigation of hypoglycaemia; assessment of any acutely unwell patient (**a capillary glucose is part of the primary survey**).
 
 **Role:** All three are diagnostic tests; **HbA1c has the practical advantage of not requiring fasting**, and Australian guidance accepts it for diagnosis.
