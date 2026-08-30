@@ -34,7 +34,9 @@ threshold or timing window; 2 for non-numeric. Disagreement → omit and log.
 | 13 | P5-E3 | **Lachman / anterior + posterior drawer / pivot shift** | The knee examination. Named in one table cell, no technique |
 | 14 | P5-A5 | **Serum phosphate + refeeding syndrome** | The one electrolyte with no entry, in a corpus teaching all the others |
 | 15 | P5-A32 | **MSK eponym fractures** — Lisfranc, Bennett's, Gamekeeper's/Stener, Hill-Sachs, Jefferson. Eight eponyms at zero hits in a corpus owning Colles', Smith's, Barton's, Monteggia, Galeazzi, Boxer |
-| 16 | P5-D7 | **Venepuncture, cannulation, LA infiltration, ECG leads** | Day-one skills, never mentioned or ≤4 uses |
+| 16 | P5-B3 | **Fleischner criteria / incidental pulmonary nodule** | No entry at all; the commonest incidental finding an intern must action. Found in Part B, never queued |
+| 17 | P5-B4 | **Pressure injury staging + Braden/Waterlow/Norton** | Pressure-area content exists in `11_07b`; the staging and risk scoring do not. Ward-daily |
+| 18 | P5-D7 | **Venepuncture, cannulation, LA infiltration, ECG leads** | Day-one skills, never mentioned or ≤4 uses |
 
 ## TIER 2 — build next (14). Clearly examinable, less catastrophic if missed.
 
@@ -48,6 +50,10 @@ P5-A15 alcoholic ketoacidosis (anion-gap differential) ·
 P5-A26 retropharyngeal abscess (paediatric airway) ·
 P5-E6 PROM confirmation tests (nitrazine, ferning, fFN) ·
 P5-A16 adjustment disorder (commonest general-hospital psychiatric diagnosis) ·
+P5-A13 facial fractures incl. Le Fort (zero hits; ED assessment) ·
+P5-B2 / P5-B6 BI-RADS, PI-RADS, TI-RADS, Lung-RADS (what the number means on a report) ·
+P5-B1 Bethesda thyroid cytology (grades the FNA the corpus orders but never interprets) ·
+P5-B5 ward assessment scales — 4AT, CAM-ICU, modified Rankin, Katz/Lawton, PPS/AKPS ·
 P5-D2 NG tube insertion · P5-D3 chest drain ·
 S3-6 type 2 respiratory failure · S3-7 neuromuscular respiratory failure (FVC ↔ GBS/MG link)
 
@@ -61,6 +67,8 @@ P5-A28 herpetic whitlow + lymphangitis · P5-A29 solitary pulmonary nodule ·
 P5-C5 influenza antivirals · P5-C7 nystatin · P5-C8 albendazole/mebendazole ·
 P5-C11 H2 antagonists · P5-C12 decongestants · P5-C13 bulk-forming laxatives ·
 P5-E5 Finkelstein's + femoral stretch · P5-E7 FeNa, metanephrines, SPEP ·
+P5-E8 anti-RNP (completes the ENA panel) · P5-E9 deamidated gliadin peptides (coeliac serology in IgA deficiency) ·
+P5-E10 body plethysmography ·
 S3-3 organophosphate poisoning · P5-D1 biopsy as a procedure
 
 ## TIER 4 — CUT THESE FIRST if time runs out (10).
