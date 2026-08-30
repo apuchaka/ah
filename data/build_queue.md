@@ -33,7 +33,8 @@ threshold or timing window; 2 for non-numeric. Disagreement → omit and log.
 | 12 | P5-E2 | **McMurray's test** | OSCE-performable. Meniscal injury taught, its test absent |
 | 13 | P5-E3 | **Lachman / anterior + posterior drawer / pivot shift** | The knee examination. Named in one table cell, no technique |
 | 14 | P5-A5 | **Serum phosphate + refeeding syndrome** | The one electrolyte with no entry, in a corpus teaching all the others |
-| 15 | P5-D7 | **Venepuncture, cannulation, LA infiltration, ECG leads** | Day-one skills, never mentioned or ≤4 uses |
+| 15 | P5-A32 | **MSK eponym fractures** — Lisfranc, Bennett's, Gamekeeper's/Stener, Hill-Sachs, Jefferson. Eight eponyms at zero hits in a corpus owning Colles', Smith's, Barton's, Monteggia, Galeazzi, Boxer |
+| 16 | P5-D7 | **Venepuncture, cannulation, LA infiltration, ECG leads** | Day-one skills, never mentioned or ≤4 uses |
 
 ## TIER 2 — build next (14). Clearly examinable, less catastrophic if missed.
 
@@ -78,7 +79,7 @@ below this line, you have lost little.
 | P5-C6 | Valaciclovir/famciclovir dosing | Aciclovir already adequate; these are alternatives |
 | P5-C14 | CGRP antagonists | Specialist-initiated, PBS-restricted |
 | P5-E4 | Spurling's, cervical distraction, FABER | Lower OSCE frequency than the knee and SLR tests above |
-| MR-4+ | Remaining granular drug classes | Mostly specialist subclass detail |
+| MR-4…MR-47 | **Now itemised — see tracker Section F.** 44 items, each with a corpus hit count and a tier derived from it. **Nine were mis-tiered by the old catch-all** and sit at Tier 2 or 3: mu-opioid full/partial, opioid strong/weak, MAOI reversibility, chemo extravasation, chlorhexidine, IL-inhibitors, JAK/TYK2, azapirones, milrinone, St John's wort interactions. The remaining 32 are genuinely Tier 4. |
 
 ## CANNOT BE BUILT AT ALL — not a priority decision (67)
 

@@ -370,3 +370,59 @@ concussive, and the four parasomnia rows are one item each.
 > completed build could tick one copy and leave the other reading as unstarted.
 > The workflow rows now point here instead. **When adding a build item, add it
 > here and only here.**
+
+### Section F (continued) — the 44 remaining granular drug classes from the Diagnoses spreadsheet
+
+> [!note] **Itemised because they were previously one line.** The build queue carried these as a single
+> Tier 4 row, "MR-4+ Remaining granular drug classes — mostly specialist subclass detail", which pre-judged
+> 44 unchecked items and made *checked-and-cleared* indistinguishable from *never looked at*. Each now has an
+> ID, a corpus hit count, and a tier derived from that count plus intern relevance — not from the prior assumption.
+> **Nine were mis-tiered by that assumption** and are Tier 2 or 3, not Tier 4.
+
+| ID | Item | Tier | Status |
+|---|---|---|---|
+| MR-4 | **Mu-opioid full vs partial agonists** — 1 corpus hits. Buprenorphine's ceiling effect and the partial-agonist distinction — governs opioid substitution and acute pain in an opioid-dependent patient | Tier 2 | ⬜ |
+| MR-5 | **Opioid strong vs weak / atypical** — 4 corpus hits. Tramadol and tapentadol's atypical mechanisms; the weak/strong ladder | Tier 2 | ⬜ |
+| MR-6 | **MAOIs by reversibility** — 1 corpus hits. Irreversible vs reversible MAO-A; the tyramine interaction differs between them | Tier 3 | ⬜ |
+| MR-7 | **Vesicants / chemotherapy extravasation** — 6 corpus hits. A ward emergency with a time-critical response. 6 uses, no entry | Tier 2 | ⬜ |
+| MR-8 | **Muscle relaxants — botulinum neurotoxins** — 13 corpus hits. 13 uses; likely adequate, needs a read not a build | Tier 4 | ⬜ |
+| MR-9 | **Carbacephem** — 0 corpus hits. Obsolete class; correctly absent | Tier 4 | ⬜ |
+| MR-10 | **Monobactams (aztreonam)** — 1 corpus hits. Already NAMED ONLY in the 75-agent pass; recognition-level | Tier 4 | ⬜ |
+| MR-11 | **Lipopeptides (daptomycin)** — 1 corpus hits. Already NAMED ONLY in the 75-agent pass; specialist | Tier 4 | ⬜ |
+| MR-12 | **Pleuromutilins** — 0 corpus hits. Not on the Australian formulary in general use | Tier 4 | ⬜ |
+| MR-13 | **Bisbiguanide antiseptics (chlorhexidine)** — 2 corpus hits. Chlorhexidine is used daily for skin prep and line care; 2 uses is thin for how often an intern handles it | Tier 3 | ⬜ |
+| MR-14 | **ALS therapies (riluzole, edaravone)** — 1 corpus hits. Specialist-initiated | Tier 4 | ⬜ |
+| MR-15 | **MS therapies — anti-CD20** — 3 corpus hits. MS DMT landscape; recognition-level for an intern | Tier 3 | ⬜ |
+| MR-16 | **MS therapies — anti-VLA-4 (natalizumab)** — 1 corpus hits. Specialist; PML risk is the one intern-relevant point | Tier 4 | ⬜ |
+| MR-17 | **MS therapies — S1P modulators** — 1 corpus hits. Specialist | Tier 4 | ⬜ |
+| MR-18 | **MS therapies — interferons / glatiramer** — 1 corpus hits. Specialist | Tier 4 | ⬜ |
+| MR-19 | **MS therapies — pyrimidine synthesis (teriflunomide)** — 0 corpus hits. Specialist | Tier 4 | ⬜ |
+| MR-20 | **IL-12/23, IL-17, IL-23 inhibitors** — 7 corpus hits. Biologics an intern will see on medication charts; infection-screening implications | Tier 3 | ⬜ |
+| MR-21 | **JAK1 / TYK2 inhibitors** — 0 corpus hits. Zero hits. Increasingly common in RA/IBD/derm; VTE and infection warnings are intern-relevant | Tier 3 | ⬜ |
+| MR-22 | **Calcimimetics (cinacalcet)** — 2 corpus hits. Renal/endocrine specialist | Tier 4 | ⬜ |
+| MR-23 | **Tyrosine hydroxylase inhibitors (metirosine)** — 0 corpus hits. Phaeochromocytoma, specialist | Tier 4 | ⬜ |
+| MR-24 | **P-selectin inhibitors (crizanlizumab)** — 0 corpus hits. Sickle cell, specialist | Tier 4 | ⬜ |
+| MR-25 | **Megakaryocyte maturation inhibitors (anagrelide)** — 0 corpus hits. Haematology specialist | Tier 4 | ⬜ |
+| MR-26 | **Guanylate cyclase-C agonists (linaclotide)** — 1 corpus hits. Constipation second-line, specialist-initiated | Tier 4 | ⬜ |
+| MR-27 | **Intestinal chloride channel activators (lubiprostone)** — 0 corpus hits. As above | Tier 4 | ⬜ |
+| MR-28 | **NHE3 inhibitors (tenapanor)** — 0 corpus hits. As above | Tier 4 | ⬜ |
+| MR-29 | **5-HT4 agonists (prucalopride)** — 0 corpus hits. As above | Tier 4 | ⬜ |
+| MR-30 | **Topical antibacterials by mechanism** — 18 corpus hits. 18 uses; likely adequate, needs a read not a build | Tier 4 | ⬜ |
+| MR-31 | **Topical antifungals — pyridones (ciclopirox)** — 0 corpus hits. Minor; azoles and terbinafine already covered | Tier 4 | ⬜ |
+| MR-32 | **Psychedelics (5-HT2A agonists)** — 1 corpus hits. Emerging; not intern-level in Australia yet | Tier 4 | ⬜ |
+| MR-33 | **Monoamine releasing agents / MDMA** — 2 corpus hits. Recreational-drug presentation to ED; serotonin toxicity link | Tier 3 | ⬜ |
+| MR-34 | **Azapirones (buspirone)** — 0 corpus hits. Zero hits. Non-dependence-forming anxiolytic; a real prescribing option | Tier 3 | ⬜ |
+| MR-35 | **Herbal / botanical supplements** — 3 corpus hits. St John's wort interactions are an intern-level trap; 3 uses is thin | Tier 3 | ⬜ |
+| MR-36 | **Essential fatty acids (omega-3)** — 3 corpus hits. Low yield | Tier 4 | ⬜ |
+| MR-37 | **Essential minerals / trace elements** — 2 corpus hits. Low yield outside TPN | Tier 4 | ⬜ |
+| MR-38 | **RANKL inhibitors (denosumab)** — 15 corpus hits. 15 uses; likely adequate, needs a read not a build | Tier 4 | ⬜ |
+| MR-39 | **Sclerostin inhibitors (romosozumab)** — 1 corpus hits. Specialist osteoporosis | Tier 4 | ⬜ |
+| MR-40 | **PDE3 inhibitors (milrinone)** — 0 corpus hits. Zero hits. ICU inotrope an intern will see running | Tier 3 | ⬜ |
+| MR-41 | **Direct arteriolar vasodilators (hydralazine, minoxidil)** — 6 corpus hits. 6 uses; hydralazine already appears in the hypertension and pre-eclampsia content | Tier 4 | ⬜ |
+| MR-42 | **Potassium channel openers (nicorandil)** — 2 corpus hits. Second-line antianginal | Tier 4 | ⬜ |
+| MR-43 | **Alpha-1 / central alpha-2 agonists** — 13 corpus hits. 13 uses; likely adequate | Tier 4 | ⬜ |
+| MR-44 | **Bile acid sequestrants / ezetimibe** — 7 corpus hits. 7 uses; adequate for intern level | Tier 4 | ⬜ |
+| MR-45 | **Erythropoiesis-stimulating agents** — 14 corpus hits. 14 uses; likely adequate | Tier 4 | ⬜ |
+| MR-46 | **Polyclonal antibodies (ATG)** — 0 corpus hits. Transplant specialist | Tier 4 | ⬜ |
+| MR-47 | **Alpha-glucosidase inhibitors (acarbose)** — 0 corpus hits. Rarely used in Australia | Tier 4 | ⬜ |
+| P5-A32 | **MSK eponym fractures and lesions — Bennett's, Rolando, Lisfranc, Gamekeeper's thumb, Stener lesion, Hill-Sachs, Jefferson, Hangman.** All zero corpus hits, all confirmed by hand in the eponym audit, and **none was ever queued** — they were recorded as GAP in `scripts/judge_conditions.py` and never carried into the tracker. The corpus owns entries for Colles', Smith's, Barton's, Monteggia, Galeazzi and Boxer, so this is the asymmetric-set pattern: the eponyms it does teach make the missing ones look covered. Lisfranc is the highest-yield (classically missed on plain films); Bennett's and Gamekeeper's/Stener are common hand injuries with a surgical-referral decision. | RACGP; MSK examination and fracture texts | ⬜ |
