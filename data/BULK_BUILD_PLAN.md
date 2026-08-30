@@ -156,4 +156,12 @@ Two completeness failures were found by **re-deriving every row from the build l
 - `Fecal Incontinence` — a symptom on the investigations list, logged during Part A.
 - `Gastrografin` — built before it was recognised as a Conditions-list item (out of scope); flagged in place rather than deleted so the conditions session does not duplicate it.
 
+**Integrity pass over Parts A/B/C (2026-08-30, after the completion record above):**
+- Build status table present in all 35 files — pass.
+- Sourcing-limitation callout present in all 35 files — pass.
+- All `NEW_*` wikilinks and file cross-references resolve — pass.
+- Six stale `see <file> when built` pointers found in `NEW_Drugs_08`, `10`, `12`, `14` for files that now exist — all replaced with the destination file plus a verified entry number; zero remain (commit `ade226c`).
+- Duplicate-header check: 16 apparent collisions reported by the scan, **all 16 confirmed artefacts** of the scan's own normalisation stripping numeric prefixes; 0 literal duplicate headings within the bulk-build set or against the existing corpus.
+- **Two real gaps found: the corrections lived in this plan and in the fixing file, but not in the file that had the gap.** A reader opening either file directly got no warning. Both now carry an in-file `[!danger]` notice: `NEW_Investigations_Haematology.md` (11 of 28 rows, all 17 missing rows named, pointing to Part 2 entries 0.11–0.25, commit `22f1c9b`) and `NEW_Drug_Classes_Cardiovascular_Antihypertensives.md` (three beta-blocker rows, pointing to `NEW_Drugs_06_Cardiovascular.md` 0.7, and stating that the incidental in-text beta-blocker mentions are not the class entry, commit `a70dac8`). These are the only two files marked `BATCHING TEST` in their frontmatter, and both are now covered.
+
 **Still outstanding, not started:** the audit of the 18 presentation-axis `NEW_*` files, which were built against `data/new_build_topics_tiered.md` rather than the pipe-delimited build lists and predate the row-mapping convention. Verified as having **zero item-level overlap** with Parts A/B/C, so this audit is independent of the bulk build's completeness.
