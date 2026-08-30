@@ -584,4 +584,9 @@ status: standalone — not yet cross-referenced into the corpus
 
 **Items in file: 20 entries covering 21 build-list rows (including `C-Spine X-Ray` deferred in from the O&G file). One row deferred to Part B.**
 
-> [!note] **Part A is now complete.** All eleven investigation files in `data/BULK_BUILD_PLAN.md` exist, and every investigation row in `data/build_list_investigations.md` has been built, collapsed into another entry as a duplicate, or explicitly deferred with a destination recorded.
+> [!danger] **CORRECTION (2026-08-30) — the claim originally made here was wrong, and is left visible rather than rewritten.**
+> This file originally ended: *"Part A is now complete. All eleven investigation files exist, and every investigation row has been built, collapsed into another entry as a duplicate, or explicitly deferred."* **All eleven files did exist, but two of them did not cover their rows:**
+> - `NEW_Investigations_Haematology.md` covered **11 of 28** Haematology rows (it was a batching-test output listed as "DONE" in the plan). **Fixed by `NEW_Investigations_Haematology_Part2.md`.**
+> - `NEW_Investigations_Infectious_Diseases.md` had missed **Campylobacter** and **Clostridium perfringens**. **Fixed in place as 0.22 and 0.23 of that file.**
+>
+> **The error was in the evidence, not the arithmetic: "the file exists and the plan says DONE" was treated as "the file covers its rows."** With both gaps closed, **Part A is now complete against `data/build_list_investigations.md`, checked row by row** — but that statement should be re-verified by anyone relying on it, not taken from this note.

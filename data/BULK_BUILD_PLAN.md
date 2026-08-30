@@ -61,7 +61,8 @@
 ## Deterministic file order — resume from the first one missing
 
 ### Part A — Investigations (one file per investigation category)
-1. `NEW_Investigations_Haematology.md` — **DONE** (built during the batching test, 10 items)
+1. `NEW_Investigations_Haematology.md` — **INCOMPLETE, now completed by `NEW_Investigations_Haematology_Part2.md`.** The batching-test build covered only **11 of the category's 28 build-list rows**; listing it as "DONE" here caused Part A to be declared complete while 17 rows were unbuilt. **Corrected 2026-08-30.**
+1b. `NEW_Investigations_Haematology_Part2.md` — the remaining 17 rows (numbered 0.11–0.25 to continue the category).
 2. `NEW_Investigations_Infectious_Diseases.md`
 3. `NEW_Investigations_Gastroenterology.md`
 4. `NEW_Investigations_Renal_and_Urology.md`
@@ -109,3 +110,18 @@ A file counts as complete when it exists, ends with a build-status table, and ha
 - **Reference ranges and doses are the weak axis.** In the batching test, 5 of 10 investigation entries had their normal range omitted. Note each omission in place.
 - **CLAUDE.md rule 5** — treat every absolute quantity as suspect, especially paediatric. Per-kg, per-m², per-age-band or per-kg-with-cap are the correct forms.
 - **CLAUDE.md rule 8** — report honestly. "Clean against everything currently known to check for", never "verified complete".
+
+
+---
+
+## Correction log (added 2026-08-30, per CLAUDE.md rules 7 and 8)
+
+Two completeness failures were found by **re-deriving every row from the build lists and checking each against the file's actual content**, rather than trusting a file's own narrative claim or this plan's "DONE" marker.
+
+1. **`NEW_Investigations_Haematology.md`** covered 11 of 28 category rows. It was a **batching-test** output (the instruction was to build ten related investigations to measure a rate), and was then recorded here as DONE. **Fixed** by `NEW_Investigations_Haematology_Part2.md`.
+2. **`NEW_Drug_Classes_Cardiovascular_Antihypertensives.md`** never built the **beta-blockers** — three build-list rows, and arguably the most clinically important class in that subsection. **Fixed** in `NEW_Drugs_06_Cardiovascular.md` section 0.7.
+3. **`NEW_Investigations_Infectious_Diseases.md`** missed **Campylobacter** and **Clostridium perfringens**; its own status block claimed 21 built and its arithmetic did not reconcile with the build list. **Fixed** in place as 0.22 and 0.23.
+
+**Method change adopted for the rest of the build, and applied to every Part C file so far:** each file ends with a **build status table mapping every build-list row** — built, built jointly with another row, built elsewhere, deferred with a destination, or `UNRESOLVED — needs review`. **A narrative claim of completeness is not acceptable evidence and did not catch any of these three.**
+
+**Still to re-check by the same method:** the presentation-axis `NEW_*` files built earlier in the session (Cardiology and Vascular, Dermatology, Neurology, Orthopaedics, and the rest), which predate this convention and were built against tier-tagged topic lists rather than the pipe-delimited build lists.
