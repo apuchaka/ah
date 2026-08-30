@@ -96,7 +96,12 @@ source: quackquackmed 15.01 Paediatric life support, Newborn life support, Intra
 
 ### Preparation
 
-- Decontaminate the field. Lidocaine 1% 5mL if conscious. Syringe for blood sampling. Flush. Tape for securing. Primed infusion set ± 3-way tap.
+- Decontaminate the field. **Local anaesthetic if conscious — dosed by weight** (see the box below). Syringe for blood sampling. Flush. Tape for securing. Primed infusion set ± 3-way tap.
+
+> [!danger] **The local anaesthetic volume here was "lidocaine 1% 5mL" — an absolute adult volume, in the paediatric and newborn life support entry.**
+> 5mL of 1% lidocaine is **50mg**. Local anaesthetic maximum doses are **strictly weight-based**, and lidocaine is one of the drugs where exceeding the maximum causes **local anaesthetic systemic toxicity (LAST)** — perioral tingling and tinnitus, then seizures, then cardiac arrest. **This is the one procedure in this file performed on patients from birth upwards**, so an absolute figure here is read across to a 3.5kg newborn as readily as to a teenager, and 50mg is a large multiple of a newborn's maximum.
+> **The absolute figure has been removed rather than replaced.** Take the maximum from the weight-based mg/kg figure in your local paediatric formulary or the RCH Melbourne guideline, calculate it for the actual child, and note that the maximum differs for lidocaine **with** adrenaline. See `PENDING_GUIDELINE_CHECKS.md` **B66**.
+> **The equipment line immediately above already does this correctly** — the EZ-IO needle is chosen by weight band (15mm for <39kg, 25mm for >40kg). The dose line was the one that did not, which is the pattern CLAUDE.md rule 5 describes: the absolute figure standing alone, in a file that elsewhere knows to band by weight.
 
 ### Site of insertion
 
