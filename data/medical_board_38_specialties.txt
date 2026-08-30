@@ -1,0 +1,78 @@
+# The 38 specialties — Medical Board of Australia recognised specialties
+#
+# Supplied by the user 2026-08-30. Persisted here because this list had been
+# used as scaffolding in three separate Phase 5 passes and was never saved,
+# so it had to be re-supplied each time — the same failure as the AMH
+# classification and the Diagnoses spreadsheet, both of which lived only in
+# prompt text until they were written to data/.
+#
+# WHAT THIS DOES AND DOES NOT UNBLOCK
+# It does NOT by itself unblock P5-A4 or P5-D8. Those need, per specialty,
+# an enumeration of conditions (A4) or procedures (D8) — and the sources for
+# those (AMC prevocational framework, college curricula, Murtagh's index)
+# remain egress-blocked. This file supplies the axis, not the content.
+# What it does fix: the scaffold no longer evaporates between sessions.
+
+ 1. Addiction medicine
+ 2. Anaesthesia
+ 3. Dermatology
+ 4. Emergency medicine
+ 5. General practice
+ 6. Intensive care medicine
+ 7. Medical administration
+ 8. Obstetrics and gynaecology
+ 9. Occupational and environmental medicine
+10. Ophthalmology
+11. Paediatrics and child health
+12. Pain medicine
+13. Palliative medicine
+14. Pathology
+15. Cardiology
+16. Clinical genetics
+17. Clinical pharmacology
+18. Endocrinology
+19. Gastroenterology and hepatology
+20. General medicine
+21. Geriatric medicine
+22. Haematology
+23. Immunology and allergy
+24. Infectious diseases
+25. Medical oncology
+26. Nephrology
+27. Neurology
+28. Nuclear medicine
+29. Respiratory and sleep medicine
+30. Rheumatology
+31. Psychiatry
+32. Public health medicine
+33. Radiation oncology
+34. Radiology
+35. Rehabilitation medicine
+36. Sexual health medicine
+37. Sport and exercise medicine
+38. Surgery
+
+# ---------------------------------------------------------------------------
+# CHEAP COVERAGE PROBE (2026-08-30)
+#
+# Not an enumeration — a keyword probe asking only "does the corpus address
+# this specialty's domain at all?", 3 domain terms per specialty against 148
+# content files. It cannot tell depth from breadth and it cannot find a
+# missing condition inside a well-covered specialty. It is a triage signal
+# for where an enumeration would pay off, nothing more.
+#
+# Three specialties fall below 10 domain hits:
+#   Medical administration            9   clinical governance, open disclosure
+#   Nuclear medicine                  5   scintigraphy, technetium, PET, V/Q
+#   Sport and exercise medicine       3   sports injury, return to play, overuse
+#
+# Sport and exercise medicine at 3 is consistent with an independent finding:
+# the Part E pass showed the knee and back special tests (McMurray's, straight
+# leg raise, Lachman, drawer, pivot shift) are absent or named-only, and the
+# concussion return-to-play gap (P5-A7, now built) sat in the same territory.
+# Two different methods pointing at the same specialty is worth more than
+# either alone.
+#
+# Everything else clears 10 comfortably; the top of the range (Infectious
+# diseases 590, Neurology 477, Haematology 425) reflects where the corpus is
+# heaviest, which matches its organ-system file structure.
