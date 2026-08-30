@@ -429,7 +429,7 @@ Similar phenotype to pseudohypoparathyroidism, but normal biochemistry.
 **Dx criteria for diabetes mellitus:**
 - Symptomatic patients: random plasma glucose ≥11.1 mmol/L
 - Fasting plasma glucose ≥7.0 mmol/L
-- Plasma glucose ≥11.1 mmol/L 2h after 75g OGTT
+- Plasma glucose ≥11.1 mmol/L 2h after 75g OGTT — **the 75g load is the adult and pregnancy load; the paediatric load is weight-based to a 75g maximum** (see [[NEW_Investigations_Endocrine]] 0.4). The glucose *thresholds* above are the same in children; only the load differs.
 - HbA1c ≥48 mmol/mol (≥6.5%)
 
 **Ix:** glucose levels (*why:* confirms hyperglycaemia against the diagnostic criteria above; *what:* elevated per the criteria). Plasma or urine ketones (*why:* screens for ketosis, both supporting the T1DM diagnosis (absolute insulin deficiency drives ketogenesis) and screening for DKA at presentation, given how commonly T1DM first presents this way; *what:* positive/elevated ketones support T1DM over T2DM and may indicate concurrent DKA). C-peptide (*why:* directly reflects endogenous insulin production, distinguishing T1DM (absolute deficiency) from T2DM (relative deficiency with preserved/excess endogenous production) — particularly useful in atypical presentations where the clinical picture alone doesn't clearly distinguish the two; *what:* low, reflecting minimal endogenous insulin production). Diabetes-specific autoantibodies (*why:* confirms the autoimmune subtype specifically, supporting T1DM diagnosis and distinguishing from other causes of absolute insulin deficiency; *what:* e.g. anti-GAD, anti-IA2, anti-insulin antibodies — positive in the majority of autoimmune T1DM).
