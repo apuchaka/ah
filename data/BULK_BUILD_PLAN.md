@@ -125,3 +125,35 @@ Two completeness failures were found by **re-deriving every row from the build l
 **Method change adopted for the rest of the build, and applied to every Part C file so far:** each file ends with a **build status table mapping every build-list row** — built, built jointly with another row, built elsewhere, deferred with a destination, or `UNRESOLVED — needs review`. **A narrative claim of completeness is not acceptable evidence and did not catch any of these three.**
 
 **Still to re-check by the same method:** the presentation-axis `NEW_*` files built earlier in the session (Cardiology and Vascular, Dermatology, Neurology, Orthopaedics, and the rest), which predate this convention and were built against tier-tagged topic lists rather than the pipe-delimited build lists.
+
+
+---
+
+## Build completion record (2026-08-30)
+
+**Parts A, B and C are complete and audited row-by-row against the build lists.**
+
+| Part | Files | Rows | Audit |
+|---|---|---|---|
+| A — Investigations | 12 | 198 / 198 | Every row verified; 4 residual scan flags manually confirmed as artefacts (en-dash in `Renin–Aldosterone`, `Rheum`→`Rheumatological`, `Enterobacteriaceae`→`Enterobacterales`, `Celiac`→`Coeliac`) |
+| B — Manoeuvres and procedures | 1 | 16 rows + 3 deferred in | Complete |
+| C — Drug classes | 22 | 437 / 437 | Every row verified; 1 residual scan flag manually confirmed as an artefact (`Calcium Channel Blockers (Non-DHP)` built as `Calcium Channel Blockers — Non-Dihydropyridine (Non-DHP)`) |
+
+**Total: 35 files, 651 build-list rows.**
+
+**Every file ends with a build status table mapping every one of its build-list rows** to one of: built · built jointly with another row (naming/capitalisation duplicate or subset) · built elsewhere with the destination named · deferred with a destination named · `UNRESOLVED — needs review`. This convention was adopted after the three completeness failures in the correction log above, and it is what caught them.
+
+**Items resolved during the build that were flagged earlier:**
+- `G-CSF` — a drug on the investigations list; built in `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.2.3.
+- `C-Spine X-Ray`, `Compression Test`, `Distraction Test` — miscategorised under Gynaecology; built in Part A file 11 and Part B respectively.
+- `Femoral Stretch Test` — an exam manoeuvre on the investigations list; built in Part B.
+- Beta-blockers — never built in the antihypertensives file; built in `NEW_Drugs_06_Cardiovascular.md` 0.7.
+- `Campylobacter`, `Clostridium perfringens` — missed at first build; added to the Infectious Diseases file as 0.22 and 0.23.
+- 17 Haematology investigation rows — never built; completed in `NEW_Investigations_Haematology_Part2.md`.
+
+**Items still logged `UNRESOLVED — needs review`:**
+- `Petechiae` (`NEW_Investigations_Haematology_Part2.md` 0.25) — a clinical sign miscategorised onto the investigations list. Clinical content given because the sign is high-stakes; belongs on the Presentations list.
+- `Fecal Incontinence` — a symptom on the investigations list, logged during Part A.
+- `Gastrografin` — built before it was recognised as a Conditions-list item (out of scope); flagged in place rather than deleted so the conditions session does not duplicate it.
+
+**Still outstanding, not started:** the audit of the 18 presentation-axis `NEW_*` files, which were built against `data/new_build_topics_tiered.md` rather than the pipe-delimited build lists and predate the row-mapping convention. Verified as having **zero item-level overlap** with Parts A/B/C, so this audit is independent of the bulk build's completeness.
