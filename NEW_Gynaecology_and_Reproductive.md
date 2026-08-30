@@ -10,7 +10,7 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 
 > [!danger] **Sourcing limitation applying to this whole file.** Australian primary guideline domains are **egress-blocked in this environment** (verified 2026-08-30: 38 domains, `curl` and `WebFetch`, all 403 at the gateway). Entries are **snippet-sourced**. Numerics appear only on three-source agreement; where sources disagreed the figure is omitted and the disagreement stated.
 
-> [!note] **This file contains the one Tier 1 topic only.** The category has 1 T1, 1 T2 and 22 T3 topics. See the build-status table at the end.
+> [!note] **This file contains all Tier 1 and Tier 2 topics.** The category has 1 T1, 1 T2 and 22 T3 topics. T3 not yet built. See the build-status table at the end.
 
 ## Acute Vaginal Bleeding
 
@@ -42,6 +42,18 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 > [!danger] **Three rules carried from this presentation.** **(1) No digital vaginal examination in bleeding beyond the first trimester until placenta praevia is excluded** — it can provoke catastrophic haemorrhage. **(2) In abruption the visible blood loss can be a fraction of the actual loss**, so resuscitate to the physiology and not to what is on the pad. **(3) Postmenopausal bleeding is endometrial carcinoma until investigation says otherwise** — a single episode warrants referral, and attributing it to atrophy without investigation is the error that delays diagnosis.
 > **Specific uterotonic agents and doses for postpartum haemorrhage are deliberately omitted** — they are protocol-specific, and the Australian sources are egress-blocked. The intern-level actions are: **call for help early, rub up the fundus, empty the bladder, gain large-bore access, take bloods and crossmatch, and start resuscitation** while the obstetric team is on the way.
 
+## Acute Pelvic Pain
+
+- **DDx:** **the first action in every case is a pregnancy test**, because it splits the differential.
+  - **Pregnancy-related:** **ectopic pregnancy**, miscarriage, corpus luteum cyst rupture, and in later pregnancy, abruption and labour.
+  - **Gynaecological:** **ovarian torsion** (sudden severe unilateral pain with nausea and vomiting, often with an ovarian cyst or mass — **a surgical emergency where the ovary is salvageable only with prompt detorsion**, and where **Doppler flow may still be present, so a normal Doppler does not exclude it**), **ovarian cyst rupture or haemorrhage**, **pelvic inflammatory disease and tubo-ovarian abscess**, endometriosis, degenerating fibroid, ovarian hyperstimulation syndrome, Mittelschmerz, dysmenorrhoea, haematocolpos in an adolescent with primary amenorrhoea.
+  - **Non-gynaecological — and these cause a large share of "pelvic pain" presentations:** **appendicitis**, diverticulitis, **urinary tract infection and pyelonephritis**, **ureteric colic**, constipation, inflammatory bowel disease, mesenteric adenitis, hernia, and **musculoskeletal and pelvic floor causes**.
+- **Focused Hx:** **last menstrual period and pregnancy possibility**; onset (**sudden and severe suggests torsion, rupture or ectopic**), site, radiation and severity; **relationship to the menstrual cycle**; **vaginal bleeding or discharge**; **dyspareunia — deep or superficial — and dyschezia**, which point toward endometriosis or PID; fever; urinary and bowel symptoms; **nausea and vomiting** (prominent in torsion); **sexual history and STI risk, taken privately and without assumption**; contraception including **IUD**; **assisted reproduction** (torsion and OHSS risk); previous pelvic surgery, ectopic, PID or known cysts; and **a private, direct opportunity to disclose violence or non-consensual sex**.
+- **Examination:** vital signs including temperature, with **an assessment for peritonism and for haemodynamic compromise**; abdominal examination for guarding, rebound, and localised versus generalised tenderness, and for a palpable mass; **speculum examination** for discharge, bleeding, cervical appearance and a visible IUD thread; **bimanual examination for cervical motion tenderness, adnexal tenderness or mass, and uterine size and mobility**, with consent and a chaperone; examination of the hernial orifices; and **renal angle tenderness**.
+- **First-line Ix:** **β-hCG first, always**; **FBC, CRP, UEC, group and hold**; **urinalysis and urine culture**; **endocervical and high vaginal swabs with NAAT for chlamydia and gonorrhoea**; **pelvic ultrasound, preferably transvaginal** — for adnexal masses, free fluid, tubo-ovarian abscess and pregnancy location, **noting that ultrasound is operator-dependent and that a normal scan does not exclude torsion or early PID**; **CT abdomen/pelvis** where a gastrointestinal or urological cause is more likely and the patient is not pregnant; **lactate and blood cultures** where sepsis is suspected; and **diagnostic laparoscopy**, which remains the definitive investigation for suspected torsion and for endometriosis.
+
+> [!warning] **Pelvic inflammatory disease is under-diagnosed and under-treated, and the threshold for empirical treatment is deliberately low** — because the tests are insensitive and the consequences of missing it (tubal infertility, chronic pelvic pain, ectopic pregnancy) are long-term and irreversible. **Treat on clinical suspicion in a sexually active young woman with pelvic pain and cervical motion, uterine or adnexal tenderness, once pregnancy and surgical causes have been considered — do not wait for swab results.** **The antibiotic regimen is deliberately omitted** — Australian STI management guidelines are egress-blocked, and the regimen changes with resistance patterns. Use the current Australian STI guidelines and arrange **partner notification and testing**, which is part of the treatment, not an afterthought.
+
 ---
 
 ## Build status of this file
@@ -49,7 +61,7 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 | Tier | Count | Status |
 |---|---|---|
 | **T1** | 1 | **Built** — Acute Vaginal Bleeding |
-| T2 | 1 | Not built — Acute Pelvic Pain |
+| **T2** | 1 | **Built** — Acute Pelvic Pain |
 | T3 | 22 | Not built |
 
 ## Topics skipped in this category
