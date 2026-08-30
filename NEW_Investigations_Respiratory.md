@@ -47,6 +47,7 @@ status: standalone — not yet cross-referenced into the corpus
 > [!warning] **Bronchodilator reversibility — the threshold has changed, and sources disagree.**
 > The long-standing and still widely quoted criterion is an increase in FEV₁ (or FVC) of **≥12% *and* ≥200 mL** from baseline after a bronchodilator. The **2022 ATS/ERS interpretation update** replaced this with a change of **>10% of the predicted value** for FEV₁ or FVC, on the grounds that a percentage-of-baseline threshold is biased against patients with low baseline values.
 > **Both are in current use, and reports may quote either.** Read which definition your laboratory's report applies rather than assuming. Neither is stated here as *the* threshold, because the sources genuinely conflict.
+> **Both criteria above are ADULT criteria, and the absolute ≥200 mL component is the part that does not transfer.** A child's whole FEV₁ may be little more than a litre, so a fixed 200 mL requirement is a far larger relative change in a child than in an adult and will under-diagnose reversibility in small lungs. **Paediatric interpretation uses the percentage criterion**, and paediatric spirometry is read against age-, height- and sex-specific predicted values throughout — never against an adult absolute volume.
 
 > [!danger] **Do not ignore**
 > - **Reversibility is supportive, not definitive.** A negative reversibility test **does not exclude asthma** — the patient may simply not be obstructed on the day, or may be well controlled. Conversely, some COPD shows reversibility.
