@@ -426,3 +426,23 @@ concussive, and the four parasomnia rows are one item each.
 | MR-46 | **Polyclonal antibodies (ATG)** — 0 corpus hits. Transplant specialist | Tier 4 | ⬜ |
 | MR-47 | **Alpha-glucosidase inhibitors (acarbose)** — 0 corpus hits. Rarely used in Australia | Tier 4 | ⬜ |
 | P5-A32 | **MSK eponym fractures and lesions — Bennett's, Rolando, Lisfranc, Gamekeeper's thumb, Stener lesion, Hill-Sachs, Jefferson, Hangman.** All zero corpus hits, all confirmed by hand in the eponym audit, and **none was ever queued** — they were recorded as GAP in `scripts/judge_conditions.py` and never carried into the tracker. The corpus owns entries for Colles', Smith's, Barton's, Monteggia, Galeazzi and Boxer, so this is the asymmetric-set pattern: the eponyms it does teach make the missing ones look covered. Lisfranc is the highest-yield (classically missed on plain films); Bennett's and Gamekeeper's/Stener are common hand injuries with a surgical-referral decision. | RACGP; MSK examination and fracture texts | ⬜ |
+| P5-E8 | **Anti-RNP** — 0 hits, completing the ENA panel the corpus half-teaches (ANA, anti-dsDNA, anti-Sm, anti-Ro all present). Anti-RNP is the MCTD marker. Asymmetric-set pattern. | RCPA; eTG Rheumatology | ⬜ |
+| P5-E9 | **Deamidated gliadin peptides (DGP)** — 0 hits. Anti-tTG coeliac serology is covered; DGP is the second-line test that matters in **IgA deficiency**, where tTG is falsely negative. | RCPA; Coeliac Australia | ⬜ |
+| P5-E10 | **Body plethysmography** — 0 hits. Spirometry is covered; plethysmography is what distinguishes restriction from obstruction on lung volumes. Lower yield. | Lung Foundation Australia | ⬜ |
+
+> [!warning] **Transcription fidelity was never checked, and the first Part E pass was reported complete when it was not.**
+> The pass reported "263 items, complete". The source list held **279**. Sixteen were lost in transcription —
+> mostly items nested inside a parenthetical beside another test (**Troponin T** beside Troponin I,
+> **DGP** beside anti-tTG, **plethysmography** inside the PFT bundle), plus five standalone microbiology
+> organisms and two palliative instruments (**FAMCARE-P16**, **QUAL-E**).
+>
+> Nothing in the method compared the transcribed file against the source. Every enumeration this phase has
+> run — 2,585 conditions, 276 AMH leaves, 254 spreadsheet classes, 94 presentation items — was transcribed
+> the same way and **none had its fidelity checked**. This is a distinct failure from the naming-convention
+> problems: those made present things look absent; this makes items vanish entirely, and a vanished item
+> leaves no trace to notice.
+>
+> **Re-run result: 279 items — 21 own an entry, 98 in a taught section, 17 prose, 4 acronym-only, 139 absent.**
+> Of the 16 recovered: Morbidity owns an entry; Anti-Ro, Mortality and home sleep testing sit in taught
+> sections; Troponin T is mentioned; and three are genuine gaps (E8, E9, E10). The rest are out of scope —
+> individual organism cultures, HHV-8 PCR, and two palliative research instruments.
