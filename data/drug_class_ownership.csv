@@ -1,0 +1,255 @@
+cls,verdict,how,header,file,label,labelfile,labelhow,mr,n,found,named
+Aminoglycosides,MEMBERS ONLY,,,,,,,,2/3,gentamicin|tobramycin,Aminoglycosides|aminoglycoside
+Ansamycins,MEMBERS ONLY,,,,,,,,2/2,rifampicin|rifabutin,
+Bisbiguanide Antiseptics,MEMBERS ONLY,,,,,,,,1/1,chlorhexidine,chlorhexidine
+Carbacephem,ABSENT,,,,,,,,0/1,,
+Carbapenems,MEMBERS ONLY,,,,,,,,3/3,meropenem|imipenem|ertapenem,Carbapenems|carbapenem
+Cephalosporins (1st Gen),MEMBERS ONLY,,,,,,,,4/4,cefazolin|cephazolin|cephalexin|cefalexin,Cephalosporins
+Cephalosporins (2nd Gen),MEMBERS ONLY,,,,,,,,1/3,cefuroxime,Cephalosporins
+Cephalosporins (3rd Gen),MEMBERS ONLY,,,,,,,,3/3,ceftriaxone|cefotaxime|ceftazidime,Cephalosporins|third-generation cephalosporin|3rd generation cephalosporin
+Cephalosporins (4th Gen),MEMBERS ONLY,,,,,,,,1/2,cefepime,Cephalosporins
+Cephalosporins (5th Gen),MEMBERS ONLY,,,,,,,,0/2,,Cephalosporins
+Drugs against mycobacteria,MEMBERS ONLY,,,,,,,,4/4,isoniazid|pyrazinamide|ethambutol|dapsone,
+Glycopeptides,MEMBERS ONLY,,,,,,,,2/2,vancomycin|teicoplanin,
+Lincosamides(Bs),MEMBERS ONLY,,,,,,,,1/2,clindamycin,
+Lipopeptide,MEMBERS ONLY,,,,,,,,1/1,daptomycin,
+Macrolides(Bs),MEMBERS ONLY,,,,,,,,4/4,azithromycin|clarithromycin|erythromycin|roxithromycin,Macrolides|macrolide
+Metronidazole,MEMBERS ONLY,,,,,,,,1/2,metronidazole,Metronidazole
+Monobactams,MEMBERS ONLY,,,,,,,,1/1,aztreonam,
+Nitrofurans,MEMBERS ONLY,,,,,,,,1/1,nitrofurantoin,
+Oxazolidinones(Bs),MEMBERS ONLY,,,,,,,,1/2,linezolid,
+Penicillin combinations,MEMBERS ONLY,,,,,,,,2/3,clavulanate|tazobactam,
+Penicillins (Narrow/Broad Spectrum),MEMBERS ONLY,,,,,,,,4/4,benzylpenicillin|amoxicillin|flucloxacillin|phenoxymethylpenicillin,penicillin
+Pleuromutilin antibiotics,ABSENT,,,,,,,,0/2,,
+Polypeptides,ABSENT,,,,,,,,0/3,,
+Quinolones / Fluoroquinolones,MEMBERS ONLY,,,,,,,,3/3,ciprofloxacin|norfloxacin|moxifloxacin,fluoroquinolone|quinolone
+Sulfonamides(Bs),MEMBERS ONLY,,,,,,,,3/3,sulfamethoxazole|trimethoprim|sulfadiazine,Sulfonamides|sulfonamide|sulphonamide
+Tetracyclines(Bs),MEMBERS ONLY,,,,,,,,2/3,doxycycline|lymecycline,Tetracyclines|tetracycline
+Interferons (Antiviral / Antineoplastic),MEMBERS ONLY,,,,,,,,1/1,interferon,interferon
+Antimalarials / DMARDs,MEMBERS ONLY,,,,,,,,3/3,hydroxychloroquine|chloroquine|sulfasalazine,antimalarial|DMARD
+H1 Antagonists (1st Gen),MEMBERS ONLY,,,,,,,,2/3,promethazine|chlorpheniramine,sedating antihistamine
+Herbal / Botanical Supplements,MEMBERS ONLY,,,,,,,,1/3,st john,herbal|complementary medicine
+Mu-Opioid Receptor Agonists (Full),MEMBERS ONLY,,,,,,,,3/3,morphine|fentanyl|hydromorphone,
+Opioid Analgesics (Strong / Full Agonists),MEMBERS ONLY,,,,,,,,4/4,morphine|oxycodone|fentanyl|hydromorphone,strong opioid
+Opioid Analgesics (Weak / Atypical),MEMBERS ONLY,,,,,,,,2/3,codeine|tramadol,weak opioid
+Mu-Opioid Receptor Agonists (Partial),MEMBERS ONLY,,,,,,,,1/1,buprenorphine,
+Inhalational Anesthetics (Gases),MEMBERS ONLY,,,,,,,,1/2,nitrous oxide,inhalational anaesthetic
+Inhalational Anesthetics (Volatiles),MEMBERS ONLY,,,,,,,,3/4,sevoflurane|isoflurane|halothane,
+Intravenous Anesthetics (GABA-A Modulators),MEMBERS ONLY,,,,,,,,2/3,propofol|thiopental,
+Intravenous Anesthetics (NMDA Antagonists),MEMBERS ONLY,,,,,,,,1/1,ketamine,dissociative anaesthetic
+Local Anesthetics (Amides),MEMBERS ONLY,,,,,,,,4/4,lignocaine|lidocaine|bupivacaine|ropivacaine,
+Local Anesthetics (Esters),MEMBERS ONLY,,,,,,,,2/4,procaine|cocaine,
+Parasympatholytics / Vagolytics,MEMBERS ONLY,,,,,,,,2/3,atropine|glycopyrronium,
+Muscarinic Antagonists (General),MEMBERS ONLY,,,,,,,,3/3,hyoscine|atropine|oxybutynin,
+Anticholinergics (Muscarinic Antagonists),OWNS,"alias ""anticholinergic burden""",Anticholinergic burden — specifically worth knowing in Australia,18_Geriatrics_and_Older_Persons_Health.md,,,,,4/4,ipratropium|tiotropium|oxybutynin|benztropine,Anticholinergics|anticholinergic burden
+ICD (Implantable Cardioverter Defibrillator),MEMBERS ONLY,,,,,,,,0/2,,ICD
+Alpha-Blockers (Non-selective),MEMBERS ONLY,,,,,,,,0/2,,Alpha-Blockers
+Antiarrhythmics (Class Ia),MEMBERS ONLY,,,,,,,,2/3,quinidine|procainamide,Antiarrhythmics
+Antiarrhythmics (Class Ib),MEMBERS ONLY,,,,,,,,2/3,lignocaine|lidocaine,Antiarrhythmics
+Antiarrhythmics (Class Ic),MEMBERS ONLY,,,,,,,,1/2,flecainide,Antiarrhythmics
+Antiarrhythmics (Class III),MEMBERS ONLY,,,,,,,,2/3,amiodarone|sotalol,Antiarrhythmics
+Beta-1 Adrenergic Agonists,MEMBERS ONLY,,,,,,,,1/1,dobutamine,
+Beta-Blockers (Cardioselective / Beta-1),MEMBERS ONLY,,,,,,,,3/4,metoprolol|atenolol|bisoprolol,Beta-Blockers
+Beta-Blockers (Mixed Alpha/Beta),MEMBERS ONLY,,,,,,,,2/2,carvedilol|labetalol,Beta-Blockers
+Beta-Blockers (Non-selective),MEMBERS ONLY,,,,,,,,2/3,propranolol|timolol,Beta-Blockers
+Beta-Blockers (with ISA),MEMBERS ONLY,,,,,,,,0/3,,Beta-Blockers
+Bile Acid Sequestrants,MEMBERS ONLY,,,,,,,,2/3,cholestyramine|colestyramine,Bile Acid Sequestrants|bile acid sequestrant
+Calcium Channel Blockers (DHP),MEMBERS ONLY,,,,,,,,2/4,amlodipine|nifedipine,Calcium Channel Blockers|dihydropyridine
+Calcium Channel Blockers (Non-DHP),MEMBERS ONLY,,,,,,,,2/2,verapamil|diltiazem,Calcium Channel Blockers|non-dihydropyridine
+Cardiac Glycosides,MEMBERS ONLY,,,,,,,,1/2,digoxin,
+Cardioversion (Medical Procedure),MEMBERS ONLY,,,,,,,,1/1,cardioversion,Cardioversion|DC cardioversion|electrical cardioversion
+Cholesterol Absorption Inhibitors,MEMBERS ONLY,,,,,,,,1/1,ezetimibe,
+Direct Arteriolar Vasodilators,MEMBERS ONLY,,,,,,,,2/2,hydralazine|minoxidil,
+Fibrates (PPAR-alpha Agonists),MEMBERS ONLY,,,,,,,,1/3,fenofibrate,Fibrates|fibrate
+HMG-CoA Reductase Inhibitors,MEMBERS ONLY,,,,,,,,1/4,atorvastatin,HMG-CoA Reductase Inhibitors|statin
+Nitrates & NO Donors,MEMBERS ONLY,,,,,,,,3/4,GTN|isosorbide|nitroprusside,nitrate
+PCSK9 Inhibitors,MEMBERS ONLY,,,,,,,,0/2,,PCSK9 Inhibitors|PCSK9
+Phosphodiesterase 3 (PDE3) Inhibitors,ABSENT,,,,,,,,0/2,,
+Purinergic Agonists,OWNS,"alias ""adenosine""",0.34.3 Adenosine,01_Cardiovascular.md,,,,,1/1,adenosine,adenosine
+Alpha-2 Adrenergic Agonists (Central),MEMBERS ONLY,,,,,,,,2/3,clonidine|methyldopa,
+"Dopamine, Beta-1, and Alpha-1 Agonists",MEMBERS ONLY,,,,,,,,1/1,dopamine,inotrope|vasopressor
+Non-selective Beta Agonists,MEMBERS ONLY,,,,,,,,1/2,isoprenaline,
+Vasodilators (Potassium Channel Openers),MEMBERS ONLY,,,,,,,,2/3,nicorandil|minoxidil,Vasodilators
+Alpha-1 Adrenergic Agonists,MEMBERS ONLY,,,,,,,,2/3,phenylephrine|midodrine,
+Alpha-1 Selective Blockers,MEMBERS ONLY,,,,,,,,1/3,doxazosin,
+Calcium Channel Blockers (Cerebrovascular),MEMBERS ONLY,,,,,,,,1/1,nimodipine,Calcium Channel Blockers
+Thrombolytics (Plasminogen Activators),MEMBERS ONLY,,,,,,,,2/3,alteplase|tenecteplase,thrombolysis|fibrinolytic
+Essential Fatty Acids,MEMBERS ONLY,,,,,,,,2/2,omega-3|fish oil,omega-3|fish oil
+Nicotinic Acid (Vitamin B3),MEMBERS ONLY,,,,,,,,2/2,nicotinic acid|niacin,Nicotinic Acid|niacin
+Endothelin Receptor Antagonists,MEMBERS ONLY,,,,,,,,2/3,bosentan|macitentan,Endothelin Receptor Antagonists|endothelin receptor antagonist
+Prostacyclin Analogs,MEMBERS ONLY,,,,,,,,1/3,epoprostenol,prostacyclin analogue
+Soluble Guanylate Cyclase (sGC) Stimulators,ABSENT,,,,,,,,0/1,,
+ACE Inhibitors,BOLD LABEL,,,,ACE-inhibitors,01_Cardiovascular.md,class name,,1/4,ramipril,ACE Inhibitors|ACEi
+Angiotensin II Receptor Blockers (ARBs),BOLD LABEL,,,,Angiotensin II blockers/ARBs (-sartan),01_Cardiovascular.md,"alias ""ARB""",,1/4,losartan,ARB
+Mixed Adrenergic Agonists (Norepinephrine),MEMBERS ONLY,,,,,,,,2/2,noradrenaline|norepinephrine,noradrenaline
+Mixed Adrenergic Agonists (Epinephrine),MEMBERS ONLY,,,,,,,,1/2,adrenaline,adrenaline
+Electrolytes,OWNS,class name,Electrolyte Disorders,06_Metabolic_Medicine_and_Endocrinology.md,,,,,2/3,potassium chloride|magnesium sulfate,Electrolytes|electrolyte replacement
+Fluids,BOLD LABEL,,,,Fluid choice,06_Metabolic_Medicine_and_Endocrinology.md,class name,,4/4,hartmann|normal saline|plasma-lyte|compound sodium lactate,Fluids|fluid therapy
+Antimitotics (Topical),MEMBERS ONLY,,,,,,,,1/1,podophyll,
+Contact Sensitizers (Topical Immunotherapy),ABSENT,,,,,,,,0/2,,
+Glucocorticoids (Topical),BOLD LABEL,,,,Topical steroids.,09_04_Dermatology_-_Eczema__Psoriasis__Rosacea.md,"alias ""topical steroid""",,4/4,betamethasone|mometasone|hydrocortisone|methylprednisolone aceponate,Glucocorticoids|topical corticosteroid|topical steroid
+Keratolytics,MEMBERS ONLY,,,,,,,,2/2,salicylic acid|urea,
+PDE-4 Inhibitors (Topical),ABSENT,,,,,,,,0/1,,
+Retinoids (Systemic),MEMBERS ONLY,,,,,,,,1/2,isotretinoin,Retinoids|systemic retinoid
+Retinoids (Topical RAR Agonists),MEMBERS ONLY,,,,,,,,0/3,,Retinoids|topical retinoid
+Skin Protectants / Astringents,BOLD LABEL,,,,Simple emollients,09_04_Dermatology_-_Eczema__Psoriasis__Rosacea.md,"alias ""emollient""",,2/3,paraffin|emollient,emollient
+Toll-like Receptor 7 (TLR7) Agonists,MEMBERS ONLY,,,,,,,,1/1,imiquimod,
+Topical Antibacterials (Cell Wall / Membrane Disruptors),MEMBERS ONLY,,,,,,,,0/2,,topical antibacterial
+Topical Antibacterials (Oxidizing Agents),MEMBERS ONLY,,,,,,,,2/2,benzoyl peroxide|hydrogen peroxide,
+Topical Antibacterials (RNA Synthetase Inhibitors),MEMBERS ONLY,,,,,,,,1/1,mupirocin,mupirocin
+Topical Antifungals (Pyridones),ABSENT,,,,,,,,0/1,,
+Topical Antiseborrheics / Cytostatics,MEMBERS ONLY,,,,,,,,2/3,coal tar|ketoconazole shampoo,
+Topical Calcineurin Inhibitors,MEMBERS ONLY,,,,,,,,0/2,,Topical Calcineurin Inhibitors|topical calcineurin inhibitor
+Vitamin D Analogs (Topical),MEMBERS ONLY,,,,,,,,1/2,calcipotriol,
+Caustics / Astringents,MEMBERS ONLY,,,,,,,,1/2,silver nitrate,
+Topical Antibacterials (Aminoglycosides),MEMBERS ONLY,,,,,,,,2/2,neomycin|framycetin,
+Topical Antifungals (Triazoles/Imidazoles),MEMBERS ONLY,,,,,,,,2/3,clotrimazole|ketoconazole,
+Chemical Coagulants / Protein Precipitants,ABSENT,,,,,,,,0/2,,
+Biguanides (AMPK Activators),MEMBERS ONLY,,,,,,,,1/1,metformin,
+Calcimimetics,MEMBERS ONLY,,,,,,,,1/1,cinacalcet,calcimimetic
+DPP-4 Inhibitors,MEMBERS ONLY,,,,,,,,1/3,sitagliptin,gliptin
+GLP-1 Receptor Agonists,MEMBERS ONLY,,,,,,,,1/4,liraglutide,GLP-1 Receptor Agonists|GLP-1
+Insulins (Intermediate-Acting),MEMBERS ONLY,,,,,,,,1/3,isophane,Insulins|isophane insulin
+Insulins (Long-Acting),MEMBERS ONLY,,,,,,,,2/5,lantus|levemir,Insulins|basal insulin
+Insulins (Rapid-Acting),MEMBERS ONLY,,,,,,,,1/4,novorapid,Insulins|rapid-acting insulin
+Meglitinides,ABSENT,,,,,,,,0/2,,
+Mineralocorticoids,MEMBERS ONLY,,,,,,,,1/1,fludrocortisone,mineralocorticoid
+Sulfonylureas,MEMBERS ONLY,,,,,,,,1/3,gliclazide,Sulfonylureas|sulfonylurea
+Synthetic Thyroid Hormones,MEMBERS ONLY,,,,,,,,2/3,thyroxine|levothyroxine,
+Thiazolidinediones (PPAR-gamma Agonists),MEMBERS ONLY,,,,,,,,1/2,pioglitazone,Thiazolidinediones|thiazolidinedione
+Thioamides (Thyroid Peroxidase Inhibitors),MEMBERS ONLY,,,,,,,,3/3,carbimazole|propylthiouracil|methimazole,antithyroid drug
+Tyrosine Hydroxylase Inhibitors,ABSENT,,,,,,,,0/2,,
+SGLT2 Inhibitors,MEMBERS ONLY,,,,,,,,2/3,empagliflozin|dapagliflozin,SGLT2 Inhibitors|SGLT2
+Insulins (Short-Acting),MEMBERS ONLY,,,,,,,,1/3,actrapid,Insulins|short-acting insulin
+"Alpha-Blockers (Non-selective, Irreversible)",MEMBERS ONLY,,,,,,,,0/1,,Alpha-Blockers
+Alpha-Glucosidase Inhibitors,ABSENT,,,,,,,,0/1,,
+Synthetic Androgens / Anabolic Steroids,MEMBERS ONLY,,,,,,,,1/3,testosterone,anabolic steroid
+Vasopressin (V1/V2) Receptor Agonists,MEMBERS ONLY,,,,,,,,3/3,desmopressin|terlipressin|vasopressin,Vasopressin
+Vitamin D & Analogs,BOLD LABEL,,,,Supplementation — Vitamin D,16_01-05_Antenatal_Care.md,"alias ""vitamin D supplementation""",,2/3,cholecalciferol|calcitriol,vitamin D supplementation
+Calcium Salts / Supplements,MEMBERS ONLY,,,,,,,,2/3,calcium carbonate|calcium gluconate,calcium supplement
+Parathyroid Hormone (PTH) Analogs,MEMBERS ONLY,,,,,,,,1/2,teriparatide,
+RANK Ligand (RANKL) Inhibitors,MEMBERS ONLY,,,,,,,,1/1,denosumab,
+Sclerostin Inhibitors,MEMBERS ONLY,,,,,,,,1/1,romosozumab,
+Glucagon Receptor Agonists,MEMBERS ONLY,,,,,,,,1/1,glucagon,glucagon
+Simple Carbohydrates,MEMBERS ONLY,,,,,,,,1/3,glucose gel,oral glucose|glucose gel
+Essential Minerals,MEMBERS ONLY,,,,,,,,1/3,selenium,
+Topical Antibacterials (DNA Gyrase Inhibitors),ABSENT,,,,,,,,0/2,,
+Guanylate Cyclase-C Agonists,MEMBERS ONLY,,,,,,,,1/2,linaclotide,
+Intestinal Chloride Channel Activators,ABSENT,,,,,,,,0/1,,
+NHE3 Inhibitors,ABSENT,,,,,,,,0/1,,
+Proton Pump Inhibitors (PPIs),MEMBERS ONLY,,,,,,,,2/4,esomeprazole|lansoprazole,PPI
+Serotonin (5-HT4) Receptor Agonists,MEMBERS ONLY,,,,,,,,0/2,,Serotonin
+Alpha-1 Blockers (Uroselective),MEMBERS ONLY,,,,,,,,1/3,tamsulosin,
+5-Alpha-Reductase Inhibitors,MEMBERS ONLY,,,,,,,,1/2,finasteride,
+Antiandrogens (Receptor Antagonists),MEMBERS ONLY,,,,,,,,2/4,bicalutamide|cyproterone,
+Hormone Replacement Therapy (Estrogen/Progestin),OWNS,"alias ""HRT""",Hormone replacement therapy (HRT),17_02_Menorrhagia__PMS__Menopause__HRT.md,,,,,1/3,oestrogen,Hormone Replacement Therapy|HRT|menopausal hormone therapy
+Combined Oral Contraceptives (Estrogen/Progestin),OWNS,"alias ""COCP""",Combined oral contraceptive pill (COCP),16_16-17_Contraception.md,,,,,3/3,ethinyloestradiol|ethinylestradiol|levonorgestrel,COCP|combined oral contraceptive
+Progestins,MEMBERS ONLY,,,,,,,,4/4,medroxyprogesterone|norethisterone|etonogestrel|desogestrel,Progestins|progestogen|progestin
+SERMs (Selective Estrogen Receptor Modulators),MEMBERS ONLY,,,,,,,,2/3,tamoxifen|raloxifene,
+G-CSF (Colony-Stimulating),MEMBERS ONLY,,,,,,,,1/4,g-csf,G-CSF
+Low Molecular Weight Heparins (LMWHs),OWNS,class name,Low molecular weight heparin (LMWH),10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets.md,,,,,1/3,enoxaparin,LMWH
+P-selectin Inhibitors,ABSENT,,,,,,,,0/1,,
+Anticoagulants (Factor Xa Inhibitors),OWNS,"alias ""DOAC""",Direct oral anticoagulants (DOACs),10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets.md,,,,,4/4,rivaroxaban|apixaban|edoxaban|fondaparinux,Anticoagulants|factor Xa inhibitor|DOAC
+Anticoagulants (Vitamin K Antagonists),OWNS,"alias ""warfarin""",Warfarin,10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets.md,,,,,1/2,warfarin,Anticoagulants|warfarin
+Antiplatelets (COX Inhibitors),OWNS,"alias ""aspirin""",Aspirin,10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets.md,,,,,1/2,aspirin,Antiplatelets|aspirin
+Antiplatelets (P2Y12 Inhibitors),OWNS,"alias ""P2Y12 inhibitor""",P2Y12 inhibitors,10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets.md,,,,,3/3,clopidogrel|ticagrelor|prasugrel,Antiplatelets|P2Y12 inhibitor
+Megakaryocyte Maturation Inhibitors (PDE3 Inhibitors),ABSENT,,,,,,,,0/1,,
+Erythropoiesis-Stimulating Agents,MEMBERS ONLY,,,,,,,,2/3,darbepoetin|erythropoietin,Erythropoiesis-Stimulating Agents|erythropoiesis-stimulating agent
+Interleukin-12/23 (IL-12/23) Inhibitors,MEMBERS ONLY,,,,,,,,1/1,ustekinumab,
+Interleukin-17 (IL-17) Receptor Antagonists,ABSENT,,,,,,,,0/1,,
+Interleukin-17 (IL-17A/F) Inhibitors,ABSENT,,,,,,,,0/1,,
+Interleukin-17A (IL-17A) Inhibitors,MEMBERS ONLY,,,,,,,,1/2,secukinumab,
+Interleukin-23 (IL-23) Inhibitors,ABSENT,,,,,,,,0/3,,
+Intravenous Immunoglobulins (IVIG),BOLD LABEL,,,,IVIG (intravenous immunoglobulin),15_06_Paeds_-_Cyanotic_CHD__Kawasaki_Disease__Murmurs.md,class name,,1/1,immunoglobulin,IVIG|intravenous immunoglobulin
+Janus Kinase (JAK) 1 Inhibitors,ABSENT,,,,,,,,0/3,,
+Tyrosine Kinase 2 (TYK2) Inhibitors,ABSENT,,,,,,,,0/1,,
+Glucocorticoids (Systemic),MEMBERS ONLY,,,,,,,,3/3,prednisolone|dexamethasone|hydrocortisone,Glucocorticoids|systemic corticosteroid|oral corticosteroid
+TNF-Alpha Inhibitors,MEMBERS ONLY,,,,,,,,3/4,infliximab|adalimumab|etanercept,anti-TNF
+Calcineurin Inhibitors,MEMBERS ONLY,,,,,,,,2/3,ciclosporin|tacrolimus,Calcineurin Inhibitors|calcineurin inhibitor
+mTOR Inhibitors,MEMBERS ONLY,,,,,,,,2/2,sirolimus|everolimus,mTOR Inhibitors|mTOR inhibitor
+Polyclonal Antibodies (T-cell Depleting),ABSENT,,,,,,,,0/2,,
+Bisphosphonates (Osteoclast Inhibitors),OWNS,"alias ""bisphosphonate""",Bisphosphonates,11_08b_Ortho_-_Paget_s_Disease_and_Osteoporosis.md,,,,,3/4,alendronate|zoledronic|risedronate,Bisphosphonates|bisphosphonate
+Purinergic (Adenosine) Antagonists,MEMBERS ONLY,,,,,,,,2/3,theophylline|aminophylline,
+Vasopressin Receptor Antagonists (Vaptans),MEMBERS ONLY,,,,,,,,1/2,tolvaptan,vaptan
+Acetylcholinesterase Inhibitors (Central),MEMBERS ONLY,,,,,,,,3/3,donepezil|rivastigmine|galantamine,Acetylcholinesterase Inhibitors
+ALS Therapies (Apoptosis / ER Stress Inhibitors),ABSENT,,,,,,,,0/2,,
+ALS Therapies (Free Radical Scavengers),ABSENT,,,,,,,,0/1,,
+ALS Therapies (Glutamate Antagonists),MEMBERS ONLY,,,,,,,,1/1,riluzole,riluzole
+Anticonvulsants (Broad Spectrum),MEMBERS ONLY,,,,,,,,3/3,valproate|topiramate|lamotrigine,Anticonvulsants
+Anticonvulsants (GABA Reuptake / Transaminase Inhibitors),MEMBERS ONLY,,,,,,,,1/2,vigabatrin,Anticonvulsants
+Anticonvulsants (SV2A Ligands),MEMBERS ONLY,,,,,,,,1/2,levetiracetam,Anticonvulsants
+Anticonvulsants (T-Type Calcium Channel Blockers),MEMBERS ONLY,,,,,,,,1/1,ethosuximide,Anticonvulsants
+Anticonvulsants (VGCC Blockers / Gabapentinoids),MEMBERS ONLY,,,,,,,,2/2,gabapentin|pregabalin,Anticonvulsants|gabapentinoid
+Anticonvulsants (Voltage-Gated Sodium Channel Blockers),MEMBERS ONLY,,,,,,,,3/4,carbamazepine|phenytoin|oxcarbazepine,Anticonvulsants
+Barbiturates (GABA-A Modulators),MEMBERS ONLY,,,,,,,,2/3,phenobarbitone|phenobarbital,Barbiturates|barbiturate
+DOPA Decarboxylase Inhibitors,MEMBERS ONLY,,,,,,,,1/2,carbidopa,
+Dopamine Agonists (Non-Ergot),MEMBERS ONLY,,,,,,,,3/4,pramipexole|ropinirole|apomorphine,Dopamine Agonists
+Dopamine Precursors,BOLD LABEL,,,,Levodopa,04_Neurology.md,"alias ""levodopa""",,1/3,levodopa,levodopa
+GHB Receptor / GABA-B Agonists,ABSENT,,,,,,,,0/2,,
+Dopamine Agonists (Ergot Derivatives),MEMBERS ONLY,,,,,,,,2/3,cabergoline|bromocriptine,Dopamine Agonists
+Benzodiazepines (GABA-A Modulators),OWNS,"alias ""benzodiazepine""",Benzodiazepines,14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,4/4,diazepam|midazolam|lorazepam|clonazepam,Benzodiazepines|benzodiazepine
+CGRP Antagonists (Monoclonal Antibodies),ABSENT,,,,,,,,0/3,,
+Ergot Alkaloids (5-HT Agonists),ABSENT,,,,,,,,0/3,,
+MAO-B Inhibitors,BOLD LABEL,,,,MAO-B inhibitors,04_Neurology.md,class name,,2/3,selegiline|rasagiline,MAO-B Inhibitors|MAO-B inhibitor
+Migraine Therapies (Calcium Channel Blockers),MEMBERS ONLY,,,,,,,,1/2,cinnarizine,
+MS Therapies (Anti-CD20 Monoclonal Antibodies),MEMBERS ONLY,,,,,,,,3/3,ocrelizumab|rituximab|ofatumumab,anti-CD20
+MS Therapies (Anti-VLA-4 Monoclonal Antibodies),MEMBERS ONLY,,,,,,,,1/1,natalizumab,
+MS Therapies (Immunomodulators / Pyrimidine Synthesis Inhibitors),MEMBERS ONLY,,,,,,,,1/2,leflunomide,
+MS Therapies (Interferons),MEMBERS ONLY,,,,,,,,1/1,interferon,
+MS Therapies (S1P Modulators),MEMBERS ONLY,,,,,,,,1/3,fingolimod,
+Muscarinic Antagonists (Central),MEMBERS ONLY,,,,,,,,3/3,benztropine|trihexyphenidyl|procyclidine,
+NMDA Receptor Antagonists,BOLD LABEL,,,,NMDA receptor antagonists,04_Neurology.md,class name,,2/2,memantine|ketamine,NMDA Receptor Antagonists
+Triptans (5-HT1B/1D Agonists),MEMBERS ONLY,,,,,,,,2/4,sumatriptan|zolmitriptan,Triptans|triptan
+Muscle Relaxants (Neurotoxins),MEMBERS ONLY,,,,,,,,1/2,botulinum,Muscle Relaxants|botulinum toxin
+Interferons (MS Therapies),MEMBERS ONLY,,,,,,,,1/1,interferon,
+MS Therapies (Myelin Decoys),MEMBERS ONLY,,,,,,,,1/1,glatiramer,glatiramer
+Muscle Relaxants (GABA-B Agonists),MEMBERS ONLY,,,,,,,,1/1,baclofen,Muscle Relaxants|baclofen
+Acetylcholinesterase Inhibitors (Peripheral),MEMBERS ONLY,,,,,,,,2/3,pyridostigmine|neostigmine,Acetylcholinesterase Inhibitors
+Fat-Soluble Vitamins,MEMBERS ONLY,,,,,,,,4/4,vitamin A|vitamin E|vitamin K|retinol,Fat-Soluble Vitamins|fat-soluble vitamin
+Iron Supplements,MEMBERS ONLY,,,,,,,,1/4,ferrous sulfate,Iron Supplements|iron replacement
+Water-Soluble Vitamins,MEMBERS ONLY,,,,,,,,4/4,thiamine|folic acid|vitamin C|pyridoxine,
+Antimetabolites (Pyrimidine Analogues),MEMBERS ONLY,,,,,,,,1/4,fluorouracil,
+Cytotoxic Antibiotics (DNA Intercalators),MEMBERS ONLY,,,,,,,,2/4,doxorubicin|bleomycin,anthracycline
+VEGF Inhibitors (Systemic / Intravitreal),MEMBERS ONLY,,,,,,,,3/3,bevacizumab|ranibizumab|aflibercept,VEGF Inhibitors|anti-VEGF
+Antimetabolites (Folate Antagonists),MEMBERS ONLY,,,,,,,,1/2,methotrexate,
+Vesicants (Chemotherapy Extravasation Context),MEMBERS ONLY,,,,,,,,1/2,extravasation,extravasation
+External Fixation (Surgical Procedure),ABSENT,,,,,,,,0/2,,
+Arthroplasty (Surgical & Perioperative Med Mgt),OWNS,"alias ""joint replacement""",Joint replacements (arthroplasty),11_08a_Ortho_-_Joint_Replacements.md,,,,,3/3,arthroplasty|hip replacement|knee replacement,Arthroplasty|joint replacement
+Azapirones (5-HT1A Partial Agonists),ABSENT,,,,,,,,0/1,,
+Aldehyde Dehydrogenase Inhibitors,MEMBERS ONLY,,,,,,,,1/1,disulfiram,
+"MAOIs (Irreversible, Non-selective)",OWNS,"alias ""MAOI""",Monoamine oxidase inhibitors (MAOIs),14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,1/2,phenelzine,MAOIs|MAOI
+"MAOIs (Reversible, MAO-A Selective)",OWNS,"alias ""MAOI""",Monoamine oxidase inhibitors (MAOIs),14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,1/1,moclobemide,MAOIs|MAOI
+Mood Stabilizers (Cationic Salts),OWNS,"alias ""lithium""",Lithium,14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,1/1,lithium,lithium
+NaSSAs (Noradrenergic & Specific Serotonergic Antidepressants),MEMBERS ONLY,,,,,,,,1/2,mirtazapine,
+NDRIs (Norepinephrine-Dopamine Reuptake Inhibitors),MEMBERS ONLY,,,,,,,,1/1,bupropion,
+Psychedelics (5-HT2A Agonists),MEMBERS ONLY,,,,,,,,2/3,lysergic acid|LSD,psychedelic
+Serotonin Modulators and Stimulators,ABSENT,,,,,,,,0/2,,
+SSRIs (Selective Serotonin Reuptake Inhibitors),OWNS,class name,Selective serotonin reuptake inhibitors (SSRIs),14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,4/4,sertraline|fluoxetine|escitalopram|citalopram,SSRIs|SSRI
+nAChR Agonists,MEMBERS ONLY,,,,,,,,1/2,nicotine replacement,nicotine replacement
+nAChR Partial Agonists,MEMBERS ONLY,,,,,,,,1/2,varenicline,
+NMDA Receptor Modulators,ABSENT,,,,,,,,0/2,,
+H1 Antagonists (Sedative/Anticholinergic),MEMBERS ONLY,,,,,,,,2/3,promethazine|doxylamine,sedating antihistamine
+Botanical Extracts / Antioxidants,MEMBERS ONLY,,,,,,,,1/2,st john,
+CNS Stimulants (NDRIs),MEMBERS ONLY,,,,,,,,3/3,methylphenidate|dexamfetamine|lisdexamfetamine,
+SNRIs (Serotonin-Norepinephrine Reuptake Inhibitors),OWNS,"alias ""SNRI""",Serotonin-noradrenaline reuptake inhibitors (SNRIs),14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,2/3,venlafaxine|duloxetine,SNRIs|SNRI
+Tricyclic Antidepressants (TCAs),OWNS,class name,Tricyclic antidepressants (TCAs),14_06a_Psych_-_Drugs_Used_in_Psychiatry.md,,,,,3/4,amitriptyline|clomipramine|imipramine,Tricyclic Antidepressants|TCA
+Wake-Promoting Agents (Atypical Dopamine Reuptake Inhibitors),ABSENT,,,,,,,,0/2,,
+Orexin Receptor Antagonists,ABSENT,,,,,,,,0/2,,
+Pineal Hormones,ABSENT,,,,,,,,0/1,,
+SARIs (Serotonin Antag / Reuptake Inhib),ABSENT,,,,,,,,0/2,,
+Monoamine Releasing Agents / Empathogens,MEMBERS ONLY,,,,,,,,1/2,MDMA,
+Phosphodiesterase Inhibitors (Non-selective / Spasmolytics),MEMBERS ONLY,,,,,,,,3/3,theophylline|aminophylline|papaverine,
+Short-Acting Beta-2 Agonists (SABA),MEMBERS ONLY,,,,,,,,1/2,salbutamol,SABA
+Mast Cell Stabilizers,MEMBERS ONLY,,,,,,,,1/3,nedocromil,
+Diuretics (Loop),BOLD LABEL,,,,"Loop diuretics (e.g. furosemide, bumetanide)",01_Cardiovascular.md,class name,,2/3,furosemide|bumetanide,Diuretics|loop diuretic
+Diuretics (Thiazide-like),BOLD LABEL,,,,Thiazide-like diuretics,01_Cardiovascular.md,class name,,2/4,indapamide|chlortalidone,Diuretics|thiazide
+Diuretics (K-Sparing / Aldose Antag),BOLD LABEL,,,,"Aldosterone antagonists (e.g. spironolactone, eplerenone)",01_Cardiovascular.md,"alias ""aldosterone antagonist""",,2/3,spironolactone|eplerenone,Diuretics|potassium-sparing diuretic|aldosterone antagonist
+COX-2 Selective NSAIDs,ABSENT,,,,,,,,0/3,,
+Non-Selective NSAIDs,MEMBERS ONLY,,,,,,,,3/4,ibuprofen|diclofenac|indomethacin,NSAID
+Xanthine Oxidase Inhibitors,MEMBERS ONLY,,,,,,,,2/2,allopurinol|febuxostat,
+Chelating Agents,MEMBERS ONLY,,,,,,,,3/4,dimercaprol|penicillamine|EDTA,Chelating Agents|chelation
+Specific Reversal Agents / Antidotes,BOLD LABEL,,,,Antidote,10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets.md,"alias ""antidote""",,4/4,naloxone|flumazenil|idarucizumab|andexanet,antidote|reversal agent
+Local Anesthetics (VG Na+ Blockers),MEMBERS ONLY,,,,,,,,1/3,intralipid,local anaesthetic toxicity
+Iron Chelating Agents,MEMBERS ONLY,,,,,,,,2/3,desferrioxamine|deferasirox,iron chelation
+Mu-Opioid Receptor Antagonists,MEMBERS ONLY,,,,,,,,2/3,naloxone|naltrexone,
+Carotid Endarterectomy (CEA) (Surgical),MEMBERS ONLY,,,,,,,,1/2,carotid endarterectomy,Carotid Endarterectomy|carotid endarterectomy

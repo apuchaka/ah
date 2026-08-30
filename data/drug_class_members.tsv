@@ -1,0 +1,254 @@
+Aminoglycosides	aminoglycoside	gentamicin|tobramycin|amikacin
+Ansamycins	rifamycin|rifamycins	rifampicin|rifabutin
+Bisbiguanide Antiseptics	chlorhexidine	chlorhexidine
+Carbacephem	carbacephem	loracarbef
+Carbapenems	carbapenem	meropenem|imipenem|ertapenem
+Cephalosporins (1st Gen)	first-generation cephalosporin|1st generation cephalosporin	cefazolin|cephazolin|cephalexin|cefalexin
+Cephalosporins (2nd Gen)	second-generation cephalosporin|2nd generation cephalosporin	cefuroxime|cefaclor|cefoxitin
+Cephalosporins (3rd Gen)	third-generation cephalosporin|3rd generation cephalosporin	ceftriaxone|cefotaxime|ceftazidime
+Cephalosporins (4th Gen)	fourth-generation cephalosporin|4th generation cephalosporin	cefepime|cefpirome
+Cephalosporins (5th Gen)	fifth-generation cephalosporin|5th generation cephalosporin	ceftaroline|ceftobiprole
+Drugs against mycobacteria	antituberculous|anti-tuberculous|antimycobacterial|TB treatment	isoniazid|pyrazinamide|ethambutol|dapsone
+Glycopeptides	glycopeptide	vancomycin|teicoplanin
+Lincosamides(Bs)	lincosamide	clindamycin|lincomycin
+Lipopeptide	lipopeptide	daptomycin
+Macrolides(Bs)	macrolide	azithromycin|clarithromycin|erythromycin|roxithromycin
+Metronidazole	nitroimidazole	metronidazole|tinidazole
+Monobactams	monobactam	aztreonam
+Nitrofurans	nitrofuran	nitrofurantoin
+Oxazolidinones(Bs)	oxazolidinone	linezolid|tedizolid
+Penicillin combinations	beta-lactamase inhibitor combination|augmentin	clavulanate|tazobactam|sulbactam
+Penicillins (Narrow/Broad Spectrum)	penicillin	benzylpenicillin|amoxicillin|flucloxacillin|phenoxymethylpenicillin
+Pleuromutilin antibiotics	pleuromutilin	lefamulin|retapamulin
+Polypeptides	polymyxin	colistin|polymyxin|bacitracin
+Quinolones / Fluoroquinolones	fluoroquinolone|quinolone	ciprofloxacin|norfloxacin|moxifloxacin
+Sulfonamides(Bs)	sulfonamide|sulphonamide	sulfamethoxazole|trimethoprim|sulfadiazine
+Tetracyclines(Bs)	tetracycline	doxycycline|minocycline|lymecycline
+Interferons (Antiviral / Antineoplastic)	interferon	interferon
+Antimalarials / DMARDs	antimalarial|DMARD|disease-modifying antirheumatic	hydroxychloroquine|chloroquine|sulfasalazine
+H1 Antagonists (1st Gen)	sedating antihistamine|first-generation antihistamine	promethazine|chlorpheniramine|diphenhydramine
+Herbal / Botanical Supplements	herbal|complementary medicine	st john|ginkgo|ginseng
+Mu-Opioid Receptor Agonists (Full)	full mu agonist|full opioid agonist	morphine|fentanyl|hydromorphone
+Opioid Analgesics (Strong / Full Agonists)	strong opioid	morphine|oxycodone|fentanyl|hydromorphone
+Opioid Analgesics (Weak / Atypical)	weak opioid	codeine|tramadol|tapentadol
+Mu-Opioid Receptor Agonists (Partial)	partial mu agonist|partial opioid agonist	buprenorphine
+Inhalational Anesthetics (Gases)	inhalational anaesthetic|anaesthetic gas	nitrous oxide|xenon
+Inhalational Anesthetics (Volatiles)	volatile anaesthetic	sevoflurane|isoflurane|desflurane|halothane
+Intravenous Anesthetics (GABA-A Modulators)	intravenous anaesthetic|induction agent	propofol|thiopentone|thiopental
+Intravenous Anesthetics (NMDA Antagonists)	dissociative anaesthetic	ketamine
+Local Anesthetics (Amides)	amide local anaesthetic	lignocaine|lidocaine|bupivacaine|ropivacaine
+Local Anesthetics (Esters)	ester local anaesthetic	procaine|tetracaine|amethocaine|cocaine
+Parasympatholytics / Vagolytics	vagolytic|parasympatholytic	atropine|glycopyrrolate|glycopyrronium
+Muscarinic Antagonists (General)	muscarinic antagonist	hyoscine|atropine|oxybutynin
+Anticholinergics (Muscarinic Antagonists)	anticholinergic burden	ipratropium|tiotropium|oxybutynin|benztropine
+ICD (Implantable Cardioverter Defibrillator)	implantable cardioverter	implantable cardioverter|ICD implantation
+Alpha-Blockers (Non-selective)	non-selective alpha blocker	phenoxybenzamine|phentolamine
+Antiarrhythmics (Class Ia)	class Ia antiarrhythmic	quinidine|procainamide|disopyramide
+Antiarrhythmics (Class Ib)	class Ib antiarrhythmic	lignocaine|lidocaine|mexiletine
+Antiarrhythmics (Class Ic)	class Ic antiarrhythmic	flecainide|propafenone
+Antiarrhythmics (Class III)	class III antiarrhythmic	amiodarone|sotalol|dronedarone
+Beta-1 Adrenergic Agonists	beta-1 agonist	dobutamine
+Beta-Blockers (Cardioselective / Beta-1)	cardioselective beta-blocker	metoprolol|atenolol|bisoprolol|nebivolol
+Beta-Blockers (Mixed Alpha/Beta)	mixed alpha beta blocker	carvedilol|labetalol
+Beta-Blockers (Non-selective)	non-selective beta-blocker	propranolol|nadolol|timolol
+Beta-Blockers (with ISA)	intrinsic sympathomimetic activity	pindolol|acebutolol|oxprenolol
+Bile Acid Sequestrants	bile acid sequestrant|bile acid binding resin	cholestyramine|colestyramine|colesevelam
+Calcium Channel Blockers (DHP)	dihydropyridine	amlodipine|nifedipine|felodipine|lercanidipine
+Calcium Channel Blockers (Non-DHP)	non-dihydropyridine|rate-limiting calcium channel blocker	verapamil|diltiazem
+Cardiac Glycosides	cardiac glycoside	digoxin|digitoxin
+Cardioversion (Medical Procedure)	DC cardioversion|electrical cardioversion	cardioversion
+Cholesterol Absorption Inhibitors	cholesterol absorption inhibitor	ezetimibe
+Direct Arteriolar Vasodilators	direct vasodilator	hydralazine|minoxidil
+Fibrates (PPAR-alpha Agonists)	fibrate	fenofibrate|gemfibrozil|bezafibrate
+HMG-CoA Reductase Inhibitors	statin	atorvastatin|rosuvastatin|simvastatin|pravastatin
+Nitrates & NO Donors	nitrate	glyceryl trinitrate|GTN|isosorbide|nitroprusside
+PCSK9 Inhibitors	PCSK9	evolocumab|alirocumab
+Phosphodiesterase 3 (PDE3) Inhibitors	PDE3 inhibitor	milrinone|enoximone
+Purinergic Agonists	adenosine	adenosine
+Alpha-2 Adrenergic Agonists (Central)	central alpha-2 agonist	clonidine|methyldopa|dexmedetomidine
+Dopamine, Beta-1, and Alpha-1 Agonists	inotrope|vasopressor	dopamine
+Non-selective Beta Agonists	non-selective beta agonist	isoprenaline|isoproterenol
+Vasodilators (Potassium Channel Openers)	potassium channel opener	nicorandil|minoxidil|diazoxide
+Alpha-1 Adrenergic Agonists	alpha-1 agonist	phenylephrine|metaraminol|midodrine
+Alpha-1 Selective Blockers	selective alpha-1 blocker	prazosin|doxazosin|terazosin
+Calcium Channel Blockers (Cerebrovascular)	cerebroselective calcium channel blocker	nimodipine
+Thrombolytics (Plasminogen Activators)	thrombolysis|fibrinolytic	alteplase|tenecteplase|streptokinase
+Essential Fatty Acids	omega-3|fish oil	omega-3|fish oil
+Nicotinic Acid (Vitamin B3)	niacin	nicotinic acid|niacin
+Endothelin Receptor Antagonists	endothelin receptor antagonist	bosentan|ambrisentan|macitentan
+Prostacyclin Analogs	prostacyclin analogue	epoprostenol|iloprost|treprostinil
+Soluble Guanylate Cyclase (sGC) Stimulators	guanylate cyclase stimulator	riociguat
+ACE Inhibitors	angiotensin converting enzyme inhibitor|ACEi	ramipril|perindopril|enalapril|lisinopril
+Angiotensin II Receptor Blockers (ARBs)	angiotensin receptor blocker|ARB	candesartan|irbesartan|telmisartan|losartan
+Mixed Adrenergic Agonists (Norepinephrine)	noradrenaline	noradrenaline|norepinephrine
+Mixed Adrenergic Agonists (Epinephrine)	adrenaline	adrenaline|epinephrine
+Electrolytes	electrolyte replacement	potassium chloride|magnesium sulfate|magnesium sulphate
+Fluids	intravenous fluid|fluid therapy	hartmann|normal saline|plasma-lyte|compound sodium lactate
+Antimitotics (Topical)	topical antimitotic	podophyll
+Contact Sensitizers (Topical Immunotherapy)	contact sensitiser|topical immunotherapy	diphencyprone|squaric acid
+Glucocorticoids (Topical)	topical corticosteroid|topical steroid	betamethasone|mometasone|hydrocortisone|methylprednisolone aceponate
+Keratolytics	keratolytic	salicylic acid|urea
+PDE-4 Inhibitors (Topical)	topical PDE-4	crisaborole
+Retinoids (Systemic)	oral retinoid|systemic retinoid	isotretinoin|acitretin
+Retinoids (Topical RAR Agonists)	topical retinoid	tretinoin|adapalene|tazarotene
+Skin Protectants / Astringents	barrier preparation|emollient	zinc oxide|paraffin|emollient
+Toll-like Receptor 7 (TLR7) Agonists	TLR7 agonist	imiquimod
+Topical Antibacterials (Cell Wall / Membrane Disruptors)	topical antibacterial	bacitracin|polymyxin
+Topical Antibacterials (Oxidizing Agents)	oxidising antiseptic	benzoyl peroxide|hydrogen peroxide
+Topical Antibacterials (RNA Synthetase Inhibitors)	mupirocin	mupirocin
+Topical Antifungals (Pyridones)	hydroxypyridone antifungal	ciclopirox
+Topical Antiseborrheics / Cytostatics	antiseborrhoeic	selenium sulfide|coal tar|ketoconazole shampoo
+Topical Calcineurin Inhibitors	topical calcineurin inhibitor	pimecrolimus|tacrolimus ointment
+Vitamin D Analogs (Topical)	topical vitamin D analogue	calcipotriol|calcitriol ointment
+Caustics / Astringents	caustic	silver nitrate|trichloroacetic
+Topical Antibacterials (Aminoglycosides)	topical aminoglycoside	neomycin|framycetin
+Topical Antifungals (Triazoles/Imidazoles)	topical azole antifungal	clotrimazole|miconazole|ketoconazole
+Chemical Coagulants / Protein Precipitants	chemical cautery	aluminium chloride|ferric subsulfate
+Biguanides (AMPK Activators)	biguanide	metformin
+Calcimimetics	calcimimetic	cinacalcet
+DPP-4 Inhibitors	gliptin|DPP-4	sitagliptin|linagliptin|vildagliptin
+GLP-1 Receptor Agonists	GLP-1	semaglutide|exenatide|dulaglutide|liraglutide
+Insulins (Intermediate-Acting)	isophane insulin|NPH insulin	protaphane|humulin NPH|isophane
+Insulins (Long-Acting)	basal insulin|long-acting insulin	glargine|detemir|degludec|lantus|levemir
+Insulins (Rapid-Acting)	rapid-acting insulin	aspart|lispro|glulisine|novorapid
+Meglitinides	glinide	repaglinide|nateglinide
+Mineralocorticoids	mineralocorticoid	fludrocortisone
+Sulfonylureas	sulphonylurea|sulfonylurea	gliclazide|glimepiride|glibenclamide
+Synthetic Thyroid Hormones	thyroid hormone replacement	thyroxine|levothyroxine|liothyronine
+Thiazolidinediones (PPAR-gamma Agonists)	glitazone|thiazolidinedione	pioglitazone|rosiglitazone
+Thioamides (Thyroid Peroxidase Inhibitors)	antithyroid drug|thionamide	carbimazole|propylthiouracil|methimazole
+Tyrosine Hydroxylase Inhibitors	tyrosine hydroxylase inhibitor	metirosine|metyrosine
+SGLT2 Inhibitors	gliflozin|SGLT2	empagliflozin|dapagliflozin|ertugliflozin
+Insulins (Short-Acting)	short-acting insulin|neutral insulin	actrapid|humulin R|regular insulin
+Alpha-Blockers (Non-selective, Irreversible)	irreversible alpha blockade	phenoxybenzamine
+Alpha-Glucosidase Inhibitors	alpha-glucosidase inhibitor	acarbose
+Synthetic Androgens / Anabolic Steroids	anabolic steroid|androgen replacement	testosterone|nandrolone|oxandrolone
+Vasopressin (V1/V2) Receptor Agonists	vasopressin analogue	desmopressin|terlipressin|vasopressin
+Vitamin D & Analogs	vitamin D supplementation	cholecalciferol|ergocalciferol|calcitriol
+Calcium Salts / Supplements	calcium supplement	calcium carbonate|calcium gluconate|calcium citrate
+Parathyroid Hormone (PTH) Analogs	PTH analogue	teriparatide|abaloparatide
+RANK Ligand (RANKL) Inhibitors	RANKL inhibitor	denosumab
+Sclerostin Inhibitors	sclerostin inhibitor	romosozumab
+Glucagon Receptor Agonists	glucagon	glucagon
+Simple Carbohydrates	oral glucose|glucose gel	glucose gel|jelly bean|lucozade
+Essential Minerals	mineral supplement	zinc supplement|selenium|iodine supplement
+Topical Antibacterials (DNA Gyrase Inhibitors)	topical quinolone	ofloxacin drops|ciprofloxacin drops
+Guanylate Cyclase-C Agonists	guanylate cyclase-C agonist	linaclotide|plecanatide
+Intestinal Chloride Channel Activators	chloride channel activator	lubiprostone
+NHE3 Inhibitors	NHE3 inhibitor	tenapanor
+Proton Pump Inhibitors (PPIs)	PPI	omeprazole|pantoprazole|esomeprazole|lansoprazole
+Serotonin (5-HT4) Receptor Agonists	prokinetic 5-HT4 agonist	prucalopride|cisapride
+Alpha-1 Blockers (Uroselective)	uroselective alpha blocker	tamsulosin|silodosin|alfuzosin
+5-Alpha-Reductase Inhibitors	5-alpha-reductase inhibitor	finasteride|dutasteride
+Antiandrogens (Receptor Antagonists)	antiandrogen	bicalutamide|cyproterone|flutamide|enzalutamide
+Hormone Replacement Therapy (Estrogen/Progestin)	HRT|menopausal hormone therapy	oestrogen|estradiol|conjugated equine
+Combined Oral Contraceptives (Estrogen/Progestin)	COCP|combined oral contraceptive	ethinyloestradiol|ethinylestradiol|levonorgestrel
+Progestins	progestogen|progestin	medroxyprogesterone|norethisterone|etonogestrel|desogestrel
+SERMs (Selective Estrogen Receptor Modulators)	SERM	tamoxifen|raloxifene|clomiphene
+G-CSF (Colony-Stimulating)	granulocyte colony-stimulating factor	filgrastim|pegfilgrastim|lenograstim|g-csf
+Low Molecular Weight Heparins (LMWHs)	LMWH	enoxaparin|dalteparin|clexane
+P-selectin Inhibitors	P-selectin inhibitor	crizanlizumab
+Anticoagulants (Factor Xa Inhibitors)	factor Xa inhibitor|DOAC	rivaroxaban|apixaban|edoxaban|fondaparinux
+Anticoagulants (Vitamin K Antagonists)	vitamin K antagonist|warfarin	warfarin|acenocoumarol
+Antiplatelets (COX Inhibitors)	aspirin	aspirin|acetylsalicylic
+Antiplatelets (P2Y12 Inhibitors)	P2Y12 inhibitor	clopidogrel|ticagrelor|prasugrel
+Megakaryocyte Maturation Inhibitors (PDE3 Inhibitors)	anagrelide	anagrelide
+Erythropoiesis-Stimulating Agents	erythropoiesis-stimulating agent|ESA	epoetin|darbepoetin|erythropoietin
+Interleukin-12/23 (IL-12/23) Inhibitors	IL-12/23 inhibitor	ustekinumab
+Interleukin-17 (IL-17) Receptor Antagonists	IL-17 receptor antagonist	brodalumab
+Interleukin-17 (IL-17A/F) Inhibitors	IL-17A/F inhibitor	bimekizumab
+Interleukin-17A (IL-17A) Inhibitors	IL-17A inhibitor	secukinumab|ixekizumab
+Interleukin-23 (IL-23) Inhibitors	IL-23 inhibitor	guselkumab|risankizumab|tildrakizumab
+Intravenous Immunoglobulins (IVIG)	IVIG|intravenous immunoglobulin	immunoglobulin
+Janus Kinase (JAK) 1 Inhibitors	JAK inhibitor	tofacitinib|baricitinib|upadacitinib
+Tyrosine Kinase 2 (TYK2) Inhibitors	TYK2 inhibitor	deucravacitinib
+Glucocorticoids (Systemic)	systemic corticosteroid|oral corticosteroid	prednisolone|dexamethasone|hydrocortisone
+TNF-Alpha Inhibitors	TNF inhibitor|anti-TNF	infliximab|adalimumab|etanercept|golimumab
+Calcineurin Inhibitors	calcineurin inhibitor	ciclosporin|cyclosporin|tacrolimus
+mTOR Inhibitors	mTOR inhibitor	sirolimus|everolimus
+Polyclonal Antibodies (T-cell Depleting)	antithymocyte globulin	antithymocyte|ATG
+Bisphosphonates (Osteoclast Inhibitors)	bisphosphonate	alendronate|zoledronic|risedronate|pamidronate
+Purinergic (Adenosine) Antagonists	methylxanthine|adenosine antagonist	theophylline|aminophylline|caffeine citrate
+Vasopressin Receptor Antagonists (Vaptans)	vaptan	tolvaptan|conivaptan
+Acetylcholinesterase Inhibitors (Central)	central cholinesterase inhibitor	donepezil|rivastigmine|galantamine
+ALS Therapies (Apoptosis / ER Stress Inhibitors)	ALS therapy	tauroursodeoxycholic|sodium phenylbutyrate
+ALS Therapies (Free Radical Scavengers)	free radical scavenger	edaravone
+ALS Therapies (Glutamate Antagonists)	riluzole	riluzole
+Anticonvulsants (Broad Spectrum)	broad-spectrum anticonvulsant	valproate|topiramate|lamotrigine
+Anticonvulsants (GABA Reuptake / Transaminase Inhibitors)	GABA transaminase inhibitor	vigabatrin|tiagabine
+Anticonvulsants (SV2A Ligands)	SV2A ligand	levetiracetam|brivaracetam
+Anticonvulsants (T-Type Calcium Channel Blockers)	T-type calcium channel blocker	ethosuximide
+Anticonvulsants (VGCC Blockers / Gabapentinoids)	gabapentinoid	gabapentin|pregabalin
+Anticonvulsants (Voltage-Gated Sodium Channel Blockers)	sodium channel blocking anticonvulsant	carbamazepine|phenytoin|lacosamide|oxcarbazepine
+Barbiturates (GABA-A Modulators)	barbiturate	phenobarbitone|phenobarbital|thiopentone
+DOPA Decarboxylase Inhibitors	dopa decarboxylase inhibitor	carbidopa|benserazide
+Dopamine Agonists (Non-Ergot)	non-ergot dopamine agonist	pramipexole|ropinirole|rotigotine|apomorphine
+Dopamine Precursors	levodopa	levodopa|madopar|sinemet
+GHB Receptor / GABA-B Agonists	sodium oxybate	sodium oxybate|gamma-hydroxybutyrate
+Dopamine Agonists (Ergot Derivatives)	ergot dopamine agonist	cabergoline|bromocriptine|pergolide
+Benzodiazepines (GABA-A Modulators)	benzodiazepine	diazepam|midazolam|lorazepam|clonazepam
+CGRP Antagonists (Monoclonal Antibodies)	CGRP monoclonal antibody	erenumab|fremanezumab|galcanezumab
+Ergot Alkaloids (5-HT Agonists)	ergot alkaloid	ergotamine|dihydroergotamine|methysergide
+MAO-B Inhibitors	MAO-B inhibitor	selegiline|rasagiline|safinamide
+Migraine Therapies (Calcium Channel Blockers)	migraine prophylaxis calcium channel blocker	flunarizine|cinnarizine
+MS Therapies (Anti-CD20 Monoclonal Antibodies)	anti-CD20	ocrelizumab|rituximab|ofatumumab
+MS Therapies (Anti-VLA-4 Monoclonal Antibodies)	anti-VLA-4	natalizumab
+MS Therapies (Immunomodulators / Pyrimidine Synthesis Inhibitors)	pyrimidine synthesis inhibitor	teriflunomide|leflunomide
+MS Therapies (Interferons)	beta interferon	interferon
+MS Therapies (S1P Modulators)	S1P modulator	fingolimod|siponimod|ozanimod
+Muscarinic Antagonists (Central)	central anticholinergic	benztropine|trihexyphenidyl|procyclidine
+NMDA Receptor Antagonists	NMDA antagonist	memantine|ketamine
+Triptans (5-HT1B/1D Agonists)	triptan	sumatriptan|rizatriptan|zolmitriptan|eletriptan
+Muscle Relaxants (Neurotoxins)	botulinum toxin	botulinum|botox
+Interferons (MS Therapies)	interferon beta	interferon
+MS Therapies (Myelin Decoys)	glatiramer	glatiramer
+Muscle Relaxants (GABA-B Agonists)	baclofen	baclofen
+Acetylcholinesterase Inhibitors (Peripheral)	peripheral cholinesterase inhibitor	pyridostigmine|neostigmine|edrophonium
+Fat-Soluble Vitamins	fat-soluble vitamin	vitamin A|vitamin E|vitamin K|retinol
+Iron Supplements	oral iron|iron replacement	ferrous sulfate|ferrous sulphate|ferrous fumarate|ferric carboxymaltose
+Water-Soluble Vitamins	water-soluble vitamin	thiamine|folic acid|vitamin C|pyridoxine
+Antimetabolites (Pyrimidine Analogues)	pyrimidine analogue	fluorouracil|capecitabine|gemcitabine|cytarabine
+Cytotoxic Antibiotics (DNA Intercalators)	anthracycline	doxorubicin|daunorubicin|epirubicin|bleomycin
+VEGF Inhibitors (Systemic / Intravitreal)	anti-VEGF	bevacizumab|ranibizumab|aflibercept
+Antimetabolites (Folate Antagonists)	folate antagonist	methotrexate|pemetrexed
+Vesicants (Chemotherapy Extravasation Context)	extravasation	extravasation|vesicant
+External Fixation (Surgical Procedure)	external fixator	external fixation|external fixator
+Arthroplasty (Surgical & Perioperative Med Mgt)	joint replacement	arthroplasty|hip replacement|knee replacement
+Azapirones (5-HT1A Partial Agonists)	azapirone	buspirone
+Aldehyde Dehydrogenase Inhibitors	aldehyde dehydrogenase inhibitor	disulfiram
+MAOIs (Irreversible, Non-selective)	irreversible MAOI|MAOI	phenelzine|tranylcypromine
+MAOIs (Reversible, MAO-A Selective)	RIMA|reversible inhibitor of monoamine oxidase|MAOI	moclobemide
+Mood Stabilizers (Cationic Salts)	lithium	lithium
+NaSSAs (Noradrenergic & Specific Serotonergic Antidepressants)	NaSSA	mirtazapine|mianserin
+NDRIs (Norepinephrine-Dopamine Reuptake Inhibitors)	NDRI	bupropion
+Psychedelics (5-HT2A Agonists)	psychedelic	psilocybin|lysergic acid|LSD
+Serotonin Modulators and Stimulators	serotonin modulator	vortioxetine|vilazodone
+SSRIs (Selective Serotonin Reuptake Inhibitors)	SSRI	sertraline|fluoxetine|escitalopram|citalopram
+nAChR Agonists	nicotine replacement	nicotine patch|nicotine replacement
+nAChR Partial Agonists	nicotinic partial agonist	varenicline|cytisine
+NMDA Receptor Modulators	esketamine	esketamine|dextromethorphan
+H1 Antagonists (Sedative/Anticholinergic)	sedating antihistamine	promethazine|doxylamine|diphenhydramine
+Botanical Extracts / Antioxidants	botanical extract	st john|ginkgo
+CNS Stimulants (NDRIs)	psychostimulant	methylphenidate|dexamfetamine|lisdexamfetamine
+SNRIs (Serotonin-Norepinephrine Reuptake Inhibitors)	SNRI	venlafaxine|duloxetine|desvenlafaxine
+Tricyclic Antidepressants (TCAs)	TCA	amitriptyline|nortriptyline|clomipramine|imipramine
+Wake-Promoting Agents (Atypical Dopamine Reuptake Inhibitors)	wake-promoting agent	modafinil|armodafinil
+Orexin Receptor Antagonists	orexin receptor antagonist	suvorexant|lemborexant
+Pineal Hormones	melatonin	melatonin
+SARIs (Serotonin Antag / Reuptake Inhib)	SARI	trazodone|nefazodone
+Monoamine Releasing Agents / Empathogens	empathogen	MDMA|methylenedioxymethamphetamine
+Phosphodiesterase Inhibitors (Non-selective / Spasmolytics)	non-selective phosphodiesterase inhibitor	theophylline|aminophylline|papaverine
+Short-Acting Beta-2 Agonists (SABA)	SABA|short-acting beta agonist	salbutamol|terbutaline
+Mast Cell Stabilizers	mast cell stabiliser	sodium cromoglycate|nedocromil|ketotifen
+Diuretics (Loop)	loop diuretic	frusemide|furosemide|bumetanide
+Diuretics (Thiazide-like)	thiazide	hydrochlorothiazide|indapamide|chlortalidone|chlorthalidone
+Diuretics (K-Sparing / Aldose Antag)	potassium-sparing diuretic|aldosterone antagonist	spironolactone|eplerenone|amiloride
+COX-2 Selective NSAIDs	COX-2 inhibitor|coxib	celecoxib|meloxicam|etoricoxib
+Non-Selective NSAIDs	NSAID	ibuprofen|naproxen|diclofenac|indomethacin
+Xanthine Oxidase Inhibitors	xanthine oxidase inhibitor	allopurinol|febuxostat
+Chelating Agents	chelation	dimercaprol|succimer|penicillamine|EDTA
+Specific Reversal Agents / Antidotes	antidote|reversal agent	naloxone|flumazenil|idarucizumab|andexanet
+Local Anesthetics (VG Na+ Blockers)	local anaesthetic toxicity	lignocaine toxicity|intralipid|local anaesthetic systemic toxicity
+Iron Chelating Agents	iron chelation	desferrioxamine|deferasirox|deferiprone
+Mu-Opioid Receptor Antagonists	opioid antagonist	naloxone|naltrexone|methylnaltrexone
+Carotid Endarterectomy (CEA) (Surgical)	carotid endarterectomy	carotid endarterectomy|carotid stenting
