@@ -169,14 +169,14 @@ status: standalone — not yet cross-referenced into the corpus
 
 ### 0.5.5 Other Immunomodulating Drugs
 - **Immunoglobulin (IVIg and subcutaneous)** — replacement in immunodeficiency and immunomodulation in **ITP, Guillain-Barré syndrome, CIDP, myasthenic crisis and Kawasaki disease**. Adverse effects: headache and aseptic meningitis, renal impairment, **thrombosis**, haemolysis, and infusion reactions. **Supply is restricted by national criteria in Australia.**
-- **Vaccines** — see `NEW_Drugs_20_Vaccines.md` when built.
+- **Vaccines** — see `NEW_Drugs_20_Vaccines.md` 0.1.
 - **Immunostimulants** — BCG (see `NEW_Drugs_13_Genitourinary.md` 0.6), imiquimod, and the CAR-T and bispecific platforms above.
-- **Hydroxychloroquine, sulfasalazine, leflunomide, methotrexate** — conventional synthetic DMARDs; see `NEW_Drugs_19_Rheumatological.md` when built.
+- **Hydroxychloroquine, sulfasalazine, leflunomide, methotrexate** — conventional synthetic DMARDs; see `NEW_Drugs_19_Rheumatological.md` 0.1.2.
 
 ## 0.6 Interferons
 - **Key agents:** **peginterferon alfa** (2a and 2b), interferon beta (multiple sclerosis), interferon gamma (chronic granulomatous disease).
 - **Mechanism:** recombinant cytokines activating host antiviral, antiproliferative and immunomodulatory pathways.
-- **Indications — now substantially narrowed.** **Hepatitis C use has been abandoned entirely** since the direct-acting antivirals (see `NEW_Drugs_05_Anti_infectives.md` 0.6.3). Remaining roles: **hepatitis B and D**, **myeloproliferative neoplasms** (where peginterferon has a genuine and expanding role in polycythaemia vera and essential thrombocythaemia, including in pregnancy), **melanoma** (largely displaced by checkpoint inhibitors), some renal cell carcinoma, and **interferon beta in relapsing-remitting multiple sclerosis** (see `NEW_Drugs_15_Neurological.md` when built).
+- **Indications — now substantially narrowed.** **Hepatitis C use has been abandoned entirely** since the direct-acting antivirals (see `NEW_Drugs_05_Anti_infectives.md` 0.6.3). Remaining roles: **hepatitis B and D**, **myeloproliferative neoplasms** (where peginterferon has a genuine and expanding role in polycythaemia vera and essential thrombocythaemia, including in pregnancy), **melanoma** (largely displaced by checkpoint inhibitors), some renal cell carcinoma, and **interferon beta in relapsing-remitting multiple sclerosis** (see `NEW_Drugs_15_Neurological.md` 0.4).
 - **Adverse effects — the reason they were abandoned as soon as alternatives existed:** a severe **flu-like syndrome** with every dose; **DEPRESSION AND SUICIDALITY** (screen before and during — this is not a minor caveat); **bone marrow suppression**; **thyroid dysfunction** (both hypo- and hyperthyroidism); autoimmune phenomena; fatigue, anorexia and weight loss; alopecia; and injection site reactions.
 - **Contraindications:** **decompensated cirrhosis, uncontrolled psychiatric illness, and autoimmune disease.**
 

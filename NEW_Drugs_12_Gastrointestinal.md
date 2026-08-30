@@ -46,7 +46,7 @@ status: standalone — not yet cross-referenced into the corpus
 
 ### 0.1.4 Other Drugs for Ulcers
 - **Sucralfate** — forms a protective barrier over ulcer bases; needs an acid environment (so do not give with a PPI at the same time), and **binds other drugs** — separate doses.
-- **Misoprostol** — a prostaglandin analogue for NSAID ulcer prophylaxis; largely displaced by PPIs because it causes **diarrhoea and abdominal cramps**. **It is an abortifacient and uterotonic and is absolutely contraindicated in pregnancy** — and is used deliberately for that purpose in obstetrics (see `NEW_Drugs_16_Obstetric_and_Gynaecological.md` when built).
+- **Misoprostol** — a prostaglandin analogue for NSAID ulcer prophylaxis; largely displaced by PPIs because it causes **diarrhoea and abdominal cramps**. **It is an abortifacient and uterotonic and is absolutely contraindicated in pregnancy** — and is used deliberately for that purpose in obstetrics (see `NEW_Drugs_16_Obstetric_and_Gynaecological.md` 0.10.1).
 - **Bismuth compounds** — mucosal protection and anti-*H. pylori* activity; blacken the tongue and stool (**do not confuse with melaena**).
 - **Potassium-competitive acid blockers (vonoprazan)** — a newer class with faster, more sustained acid suppression, used in *H. pylori* regimens where available.
 

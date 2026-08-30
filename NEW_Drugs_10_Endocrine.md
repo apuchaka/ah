@@ -162,7 +162,7 @@ status: standalone — not yet cross-referenced into the corpus
 
 ### 0.2.10 Other Drugs for Diabetes
 - **Amylin analogue — pramlintide** (limited availability); **bromocriptine** and **colesevelam** have minor glucose-lowering indications overseas.
-- **Drugs for diabetes complications:** ACE inhibitors and ARBs for **albuminuria** (renoprotective independent of blood pressure), **finerenone** in diabetic kidney disease, statins for cardiovascular risk, and agents for **neuropathic pain** (see `NEW_Drugs_15_Neurological.md` when built).
+- **Drugs for diabetes complications:** ACE inhibitors and ARBs for **albuminuria** (renoprotective independent of blood pressure), **finerenone** in diabetic kidney disease, statins for cardiovascular risk, and agents for **neuropathic pain** (see `NEW_Drugs_15_Neurological.md` 0.6).
 - **Non-drug management is the foundation:** structured education, dietetic input, physical activity, **glucose monitoring and continuous glucose monitoring** (subsidised in Australia for defined groups — check current NDSS eligibility), sick day plans, **driving advice**, foot care, and **annual screening for retinopathy, nephropathy and neuropathy**.
 - **Vaccination** — influenza, pneumococcal and COVID-19 are specifically recommended in diabetes.
 
