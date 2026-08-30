@@ -34,10 +34,15 @@ source: quackquackmed 15.16 Diabetes mellitus, MODY, Diabetic ketoacidosis in ch
 
 - **S/Smx:** weakness, dizziness, shaking, palpitations, sweating, anxiety, hunger, vomiting; headache, confusion, blurred vision, lethargy, coma, convulsions. Behavioural changes: agitation, irritability.
 - **Mx:**
-  - 10–20g of fast-acting glucose by mouth + complex carbs. If not possible, give oral glucose gel — 1 teaspoon of sugar moistened with water under the tongue every 10–12 minutes if nothing else available.
+  - **Fast-acting glucose by mouth, dosed by body weight** (see the box below), + complex carbs. If not possible, give oral glucose gel — 1 teaspoon of sugar moistened with water under the tongue every 10–12 minutes if nothing else available.
   - Or 5mL/kg IV 10% glucose.
   - Severe, out of hospital: glucagon 1mg IM (500mcg if <8 years old or <25kg).
   - Expect quick return to consciousness; recheck BG within 15 minutes.
+
+> [!warning] **The oral carbohydrate quantity here was "10–20g" — the adult figure, in the paediatric entry.**
+> It is the **same figure** as the adult entry ([[06_Metabolic_Medicine_and_Endocrinology]] Hypoglycaemia), which **names this entry as owning child-with-diabetes management** — so a reader following that pointer for a small child arrived at the adult quantity. Paediatric fast-acting carbohydrate for hypoglycaemia is **weight-based**; 10–20g is several times what a toddler needs.
+> **Less dangerous than the other rule 5 findings in this corpus** — over-treating hypoglycaemia causes rebound hyperglycaemia rather than acute harm, and the immediate priority is always to treat — but it is the wrong teaching and the wrong form. **The absolute figure has been removed rather than replaced**; take the per-kg figure from the RCH Melbourne guideline or the local paediatric diabetes protocol. See `PENDING_GUIDELINE_CHECKS.md` **B67**.
+> **The two lines around it are already in the correct form** — IV 10% glucose at 5mL/kg, and glucagon banded at 500mcg if <8 years or <25kg. The oral line was the one left absolute.
 
 > [!warning] If BG is normal after hypo treatment, this may be a post-ictal state after a hypoglycaemic fit — DO NOT give more glucose, as this may cause or worsen cerebral oedema.
 
