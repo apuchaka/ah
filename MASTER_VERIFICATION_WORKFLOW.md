@@ -1864,3 +1864,78 @@ This is where a test-based lens finds what a condition-based lens cannot.
 ### Confirming the Simmonds-Thompson premise
 
 Checked with `git log -S`: the Simmonds-Thompson description traces to the **initial upload commit**, not to any commit from this session. It is **original corpus content that the earlier eponym check found**, not content this session built. Re-flagging it as absent would have been wrong, and it is correctly scored ADEQUATE here.
+
+---
+
+## Corpus-wide adult-vs-paediatric sweep (2026-08-30)
+
+The first sweep of its kind run across **all 209 `.md` files** rather than one round's
+working set. It exists because the preceding integrity pass over the bulk-build files was
+**purely structural** — tables present, callouts present, links resolve, headers unique —
+and none of those checks looks at the content of a number. That pass reported the build
+clean while adult doses sat unmarked in paediatric entries.
+
+### Method
+
+Every numeric quantity in the corpus was extracted and classified by whether its
+denominator makes it a **lab value or rate** (`/L`, `/min`, `/1.73m²`), a **correct
+paediatric form** (`/kg`, `/m²`), or an **absolute quantity**. Absolutes were then tested
+for paediatric context at three widening scopes:
+
+1. **Line scope** — paediatric words on the same line. 20 lines.
+2. **Section scope** — paediatric words within ±8 lines or in the enclosing heading. 83
+   lines, of which most were obstetric text where "baby" sits near a dose given to the
+   *mother*.
+3. **Widened vocabulary** — terms the first regex could not match (`paeds`, `juvenile`,
+   `congenital`, `puberty`, `boys`, `girls`, `RCH`, `under 5`, `aged N`). Surfaced **8
+   further lines the first two scopes missed**, two of which were genuine.
+
+**Totals: 853 quantity matches; 542 absolute; 111 lines reviewed by hand; 11 genuine
+findings; 100 dismissed with reason.**
+
+### Why the third scope matters
+
+The narrow regex would have reported the corpus clean at 9 findings. Widening the
+*vocabulary of paediatric context* — not the quantity pattern — found two more. **A scan's
+blind spot is usually in the half of the query nobody is looking at**: the quantity pattern
+was tuned carefully and the context pattern was written once and trusted.
+
+### The eleven findings
+
+| File | Defect | Kind |
+|---|---|---|
+| `15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md` | IO insertion "lidocaine 1% 5mL" — 50mg absolute, in the newborn life support file | dose, high |
+| `NEW_Drugs_10_Endocrine.md` | hydrocortisone 100mg induction / 200mg per 24h, bare absolutes | dose, high |
+| `08_09_Infectious_Disease_-_Miscellaneous.md` (bites) | adult doses **and adult drug choices** — doxycycline, ciprofloxacin | drug choice |
+| `08_09_Infectious_Disease_-_Miscellaneous.md` (post-splenectomy) | adult prophylaxis doses in an entry that extends the regimen to children | dose |
+| `02_Respiratory.md` | reversibility stated as "≥12% **or** ≥200 mL" where another file said **and** | logic + adult absolute |
+| `07_Renal_Medicine_and_Urology.md` | adult >3.5 g/day nephrotic threshold, in a table naming children | threshold |
+| `10_08_Haemonc_-_Blood_Products_and_Transfusion.md` | "one unit raises Hb by 10 g/L" — an adult rule of thumb, not a dose | rule of thumb |
+| `09_01_Dermatology_-_Dermatological_Emergencies.md` | adult aciclovir for eczema herpeticum, a disease of children | dose |
+| `15_16b_Paeds_-_Diabetes_Mellitus__MODY__DKA.md` | adult 10–20g oral carbohydrate in the paediatric entry | dose, low |
+| `NEW_Investigations_Endocrine.md` + `06_Metabolic_Medicine_and_Endocrinology.md` | 75g OGTT load unqualified | load |
+| `16_01-05_Antenatal_Care.md` | neonatal vitamin K 1mg unqualified for preterm | dose, low |
+
+New tracker entries: **B66–B70**. No paediatric figure was invented anywhere; every
+absolute was **removed or marked, never replaced**, because the Australian paediatric
+sources remain egress-blocked.
+
+### Three patterns worth carrying forward
+
+1. **The defect is often not in a "dose" field.** Four of the eleven were a *threshold*, a
+   *rule of thumb*, a *test load*, and a *drug choice*. A scan looking only for
+   prescriptions would have found seven.
+2. **Contradiction between two files is stronger evidence than either file alone.** The
+   `or`/`and` reversibility error was invisible in each file separately and obvious across
+   the pair.
+3. **Cross-references between an adult and a paediatric entry were consistently one-way.**
+   The paediatric nephrotic entry pointed at the adult entry; the adult entry pointed at
+   children while carrying the unmarked adult number. **Check the reciprocal direction of
+   every adult↔paediatric pointer** — that asymmetry is now a known corpus defect shape.
+
+### Honest limits
+
+Restricted to quantities that a regex can recognise. It cannot see a dose stated only in
+words, a paediatric contraindication expressed as prose, an adult-only *route*, or an
+adult *frequency* attached to a correct per-kg amount. **Clean against this technique
+only.**
