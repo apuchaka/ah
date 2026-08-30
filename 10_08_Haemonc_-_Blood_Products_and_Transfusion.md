@@ -40,7 +40,11 @@ source: quackquackmed 10.08 Blood products, Warfarin reversal, Transfusion compl
 ### Packed red cells
 
 - Each unit is ~300mL — whole blood is collected from the donor, then plasma is removed.
-- Each bag should raise the patient's Hb by approximately 10 g/L (3% haematocrit).
+- Each bag should raise the patient's Hb by approximately 10 g/L (3% haematocrit) — **in an adult**.
+
+> [!warning] **"One unit raises Hb by 10 g/L" is an ADULT rule of thumb and does not transfer to a child.**
+> It is not a dose, which is why it reads as a neutral fact — but it silently assumes an adult blood volume. **Paediatric red cell transfusion is prescribed in mL/kg, not in units**, and one adult unit (~300mL above) is a large fraction of a small child's total blood volume: given as a "unit" it both over-transfuses and risks circulatory overload. **Prescribe paediatric transfusion by weight from the local paediatric protocol.**
+> The Massive Transfusion Protocol section of this file already carries this warning for the emergency setting (**"paediatric/neonatal patients require age-specific institutional protocols … adult ratios and activation triggers do not transfer"**); the routine-transfusion section above did not. Found by the corpus-wide adult-vs-paediatric sweep, 2026-08-30.
 - Requires group & save (G&S) and cross-match before administration.
 - Store at 4°C prior to infusion. In a non-urgent scenario, a unit of RBCs is usually transfused over 90–120 minutes. Shelf life ~42 days.
 
