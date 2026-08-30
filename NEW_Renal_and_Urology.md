@@ -10,7 +10,7 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 
 > [!danger] **Sourcing limitation applying to this whole file.** Australian primary guideline domains are **egress-blocked in this environment** (verified 2026-08-30: 38 domains, `curl` and `WebFetch`, all 403 at the gateway). Entries are **snippet-sourced**. Numerics appear only on three-source agreement; where sources disagreed the figure is omitted and the disagreement stated.
 
-> [!note] **This file contains the one Tier 1 Renal & Urology topic only.** The category has 1 T1, 1 T2 and 31 T3 topics. See the build-status table at the end.
+> [!note] **This file contains all Tier 1 and Tier 2 Renal & Urology topics.** The category has 1 T1, 1 T2 and 31 T3 topics. T3 not yet built. See the build-status table at the end.
 
 ## Acute Scrotal Pain
 
@@ -42,6 +42,28 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 > [!danger] **The time window, which is why this is a Tier 1 topic.** Sources consistently report **salvage rates above 90% when surgical exploration occurs within about 6 hours of pain onset, falling to roughly 50% beyond about 12 hours**, with progressive loss thereafter. Three independent sources agreed on this pattern.
 > The intern-level actions that follow are: **document the time of onset explicitly**, **refer to urology or surgery immediately on suspicion rather than after investigation**, **keep the patient fasted**, **give analgesia**, and **do not order an ultrasound if it will delay exploration**. Note also that **torsion can present with abdominal or groin pain and no scrotal complaint at all** — so **every male presenting with acute lower abdominal pain needs his scrotum examined**, which is the omission that most often produces the missed diagnosis.
 
+## Acute Urinary Retention
+
+- **D:** the sudden inability to pass urine, with a painfully distended bladder. **It is painful — and painless retention is a different and more sinister problem**, suggesting chronic retention or a neurological cause such as cauda equina syndrome or spinal cord compression.
+- **DDx:**
+  - **Obstructive:** **benign prostatic hyperplasia — much the commonest in men**, prostate cancer, urethral stricture, phimosis or paraphimosis, meatal stenosis, **blocked or displaced urinary catheter** (check this first in any catheterised patient), bladder or urethral stone, clot retention after haematuria, pelvic mass, **faecal impaction — common, reversible and frequently overlooked**, and in women, pelvic organ prolapse, gravid uterus or ovarian mass.
+  - **Neurological:** **cauda equina syndrome** and **spinal cord compression** — the diagnoses that must be excluded, particularly when retention is painless or accompanied by back pain, leg symptoms or saddle numbness; multiple sclerosis; diabetic autonomic neuropathy; stroke; post-spinal or epidural anaesthesia.
+  - **Pharmacological — check the chart, because this group is reversible:** **anticholinergics** (oxybutynin, amitriptyline, antihistamines, antipsychotics), **opioids**, **alpha-agonists including over-the-counter decongestants (pseudoephedrine)**, benzodiazepines, general and spinal anaesthesia, NSAIDs, and **alcohol**.
+  - **Infective and inflammatory:** urinary tract infection and prostatitis, **herpes zoster or herpes simplex affecting the sacral dermatomes**, urethritis, vulvovaginitis in children.
+  - **Postoperative retention** — very common, multifactorial (anaesthesia, opioids, immobility, pain, fluid load), and an intern's routine problem.
+- **Focused Hx:** time since last void and volume passed; **pain — present or absent**; preceding **lower urinary tract symptoms** (hesitancy, poor stream, terminal dribbling, incomplete emptying, frequency, nocturia); **haematuria and clots**; **back pain, leg weakness, saddle numbness, faecal incontinence or constipation** — the cauda equina screen, asked in every case; fever, dysuria and urethral discharge; **complete drug history including over-the-counter decongestants and antihistamines**; recent surgery, anaesthesia and immobility; alcohol; known prostate disease, previous retention, previous catheterisation or urethral instrumentation; neurological history; and in women, obstetric and prolapse history.
+- **Examination:** **palpate and percuss for a distended bladder** — dull to percussion, tender, arising from the pelvis; **abdominal examination** for masses and for constipation; **external genitalia** — phimosis, paraphimosis, meatal stenosis; **digital rectal examination** for prostate size and character, faecal loading, and **anal tone** (reduced tone is a cauda equina sign); **perineal and saddle sensation**; **lower limb neurological examination including reflexes and plantar responses**; **spinal palpation**; and in a catheterised patient, **inspect the catheter and tubing for kinking, blockage or displacement before assuming a new pathology**.
+- **First-line Ix:**
+  - **Bladder scan (post-void residual volume) to confirm — and record the volume.**
+  - **Urethral catheterisation is both diagnostic and therapeutic**, and **the drained volume should be measured and documented**, since it guides everything afterwards.
+  - **UEC and creatinine** — to identify **obstructive acute kidney injury**, which changes management and disposition; **FBC, CRP**; **glucose**; **calcium**.
+  - **Urinalysis and urine culture** — sent after catheterisation.
+  - **PSA — but not during acute retention or immediately after catheterisation**, since both falsely elevate it; defer it, and this is a genuinely common error.
+  - **Ultrasound of the renal tract** where the residual is large, the creatinine is raised, or hydronephrosis is suspected.
+  - **Urgent MRI of the spine** where any cauda equina or cord compression feature is present — **and this takes priority over urological work-up**.
+
+> [!warning] **Two things to watch after relieving the obstruction.** **(1) Post-obstructive diuresis** — a large-volume diuresis can follow decompression of a chronically obstructed bladder, causing hypovolaemia and electrolyte disturbance, so urine output, fluid balance and electrolytes need monitoring rather than a catheter and discharge. **(2) Haematuria ex vacuo** — decompression bleeding, usually self-limiting. *(Specific advice on whether to decompress gradually or completely, and the volume thresholds involved, is not stated here: it did not meet the three-source standard, and practice varies. Drain the bladder, monitor the output, and follow local guidance.)*
+
 ---
 
 ## Build status of this file
@@ -49,7 +71,7 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 | Tier | Count | Status |
 |---|---|---|
 | **T1** | 1 | **Built** — Acute Scrotal Pain |
-| T2 | 1 | Not built — Acute Urinary Retention |
+| **T2** | 1 | **Built** — Acute Urinary Retention |
 | T3 | 31 | Not built |
 
 ## Topics skipped in this category
