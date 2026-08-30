@@ -10,7 +10,7 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 
 > [!danger] **Sourcing limitation applying to this whole file.** Australian primary guideline domains are **egress-blocked in this environment** (verified 2026-08-30: 38 domains, `curl` and `WebFetch`, all 403 at the gateway). Entries are **snippet-sourced**. Numerics appear only on three-source agreement; where sources disagreed the figure is omitted and the disagreement stated.
 
-> [!note] **This file contains the two Tier 1 Orthopaedics & Trauma topics only.** The category has 2 T1, 2 T2, 51 T3 and 2 CUT topics. See the build-status table at the end.
+> [!note] **This file contains all Tier 1 and Tier 2 Orthopaedics & Trauma topics.** The category has 2 T1, 2 T2, 51 T3 and 2 CUT topics. T3 not yet built. See the build-status table at the end.
 
 ## Acute Back Pain
 
@@ -63,6 +63,36 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 
 > [!danger] **Both time-critical diagnoses here are made worse by waiting for a test.** For **compartment syndrome**, sources agree that **fasciotomy performed early gives near-complete functional recovery, and that delay beyond several hours risks irreversible nerve and muscle damage** — the specific hour figures vary between sources and are not fixed here, but the direction is unambiguous. For **acute limb ischaemia**, the presence of **paraesthesia or paralysis** marks a threatened limb requiring immediate vascular surgical involvement. In both, **the correct intern action is escalation, serial reassessment and documentation of the neurovascular status at each check** — not ordering an investigation and waiting for it.
 
+## Acute Neck Pain
+
+- **DDx:**
+  - **Serious causes to exclude:** **cervical fracture or ligamentous instability** after trauma; **cervical myelopathy or cord compression** (from disc, tumour, abscess or trauma) — indicated by **limb weakness, gait disturbance, clumsy hands, bladder or bowel involvement, and upper motor neurone signs in the legs**; **epidural abscess** and **vertebral osteomyelitis/discitis** (fever, immunosuppression, IV drug use, recent bacteraemia or procedure); **malignancy** with vertebral metastases; **meningitis** and **subarachnoid haemorrhage** (neck stiffness with headache and fever or thunderclap onset — the neck pain is a symptom of the intracranial problem, not a mechanical one); **vertebral or carotid artery dissection** (neck pain with headache, Horner's syndrome, or neurological deficit — commoner in younger patients and after minor trauma or neck manipulation); **inflammatory arthritis with atlanto-axial instability**, particularly in **long-standing rheumatoid arthritis**, which is a critical anaesthetic and manual-handling consideration.
+  - **Common and mechanical:** cervical strain, degenerative facet and disc disease, **cervical radiculopathy** (dermatomal arm pain, often worse with neck extension and rotation toward the side of pain), acute torticollis, whiplash-associated disorder, myofascial pain, poor posture and occupational strain.
+  - **Referred:** cardiac ischaemia, pharyngeal or dental infection, apical lung pathology (**Pancoast tumour**, with shoulder and arm pain, Horner's syndrome and hand wasting), thyroiditis, diaphragmatic irritation.
+- **Focused Hx:** mechanism and severity of any trauma; **age, and whether there is a dangerous mechanism** — both feed into the validated cervical spine imaging decision rules used in Australian emergency departments; **midline neck pain versus paraspinal**; **arm pain, numbness, weakness, and its distribution**; **the myelopathy questions — buttons and coins, handwriting deterioration, unsteady gait, urinary urgency or retention**; **fever, night sweats, weight loss, known malignancy, immunosuppression, IV drug use**; headache and its onset; **rheumatoid arthritis and its duration**; anticoagulation; recent neck manipulation; occupation.
+- **Examination:** **if trauma is possible, immobilise and clear the cervical spine using a validated decision rule before moving the neck.** Otherwise: inspect posture and deformity; **palpate for midline bony tenderness (bone) versus paraspinal muscular tenderness**; range of movement; **full upper and lower limb neurological examination — power, reflexes, sensation, tone and plantar responses**, since **hyperreflexia and upgoing plantars in the legs with neck pain means myelopathy until proven otherwise**; **gait and Romberg's**; **Hoffmann's sign**; **Spurling's test** for radiculopathy; **neck stiffness and Kernig's sign** where meningitis is possible; **Horner's syndrome**; temperature; lymph nodes and thyroid; and cardiorespiratory examination for referred causes.
+- **First-line Ix:** **none for uncomplicated mechanical neck pain.** Where red flags exist: **CT cervical spine** for suspected fracture (**a validated decision rule should drive this, not reflex imaging**); **urgent MRI cervical spine** for suspected myelopathy, cord compression, abscess or malignancy — **MRI is the test, and CT does not exclude these**; **FBC, CRP, ESR, blood cultures** for suspected infection; **CT or MR angiography of the neck vessels** for suspected dissection; **CT brain** for suspected subarachnoid haemorrhage; **calcium, ALP, myeloma screen and PSA** where malignancy is suspected; **flexion–extension views or CT** where atlanto-axial instability is a concern in rheumatoid disease — **and flag this to the anaesthetic team before any airway manipulation.**
+
+## Acute Soft Tissue Swelling
+
+- **DDx:**
+  - **Infective — the time-critical group:** **necrotising fasciitis** (**pain out of proportion, rapid progression, systemic toxicity, skin anaesthesia, crepitus, bullae or dusky skin** — a surgical emergency where delay to debridement drives mortality), **cellulitis and abscess**, **septic arthritis** or bursitis, **osteomyelitis**, **Ludwig's angina** and other deep space infections when in the neck.
+  - **Vascular:** **deep vein thrombosis**, superficial thrombophlebitis, haematoma (especially **on anticoagulants, and spontaneously in a patient with a bleeding disorder**), **acute limb ischaemia with reperfusion swelling**, ruptured Baker's cyst (mimics DVT closely), lymphoedema, venous insufficiency.
+  - **Traumatic:** contusion, muscle tear, fracture, **compartment syndrome**, tendon rupture, joint effusion or haemarthrosis.
+  - **Inflammatory and other:** **gout and pseudogout** (which reliably mimic infection — hot, red, exquisitely tender), reactive or inflammatory arthritis, **angioedema** (including **ACE inhibitor–induced, which can occur years after starting the drug**, and hereditary angioedema — both of which threaten the airway when facial or oral), allergic reaction, **anaphylaxis**, insect or snake bite envenomation, drug reaction, malignancy including soft tissue sarcoma, and **generalised oedema from cardiac, renal, hepatic or nutritional causes presenting as a swollen limb**.
+- **Focused Hx:** **speed of onset — over minutes suggests allergy, angioedema or bleeding; over hours suggests infection or DVT; over days to weeks suggests inflammatory, venous or neoplastic causes**; **pain and whether it is out of proportion to appearances**; fever and systemic upset; trauma; **anticoagulants and antiplatelets**; **ACE inhibitors and angiotensin receptor blockers, and NSAIDs** for angioedema; allergen, food, drug, sting or bite exposure; **VTE risk factors in full**; previous similar episodes; known gout; immunosuppression, diabetes and IV drug use; recent surgery, cannula or injection at the site; travel; and cardiac, renal and liver history.
+- **Examination:** **vital signs and a sepsis assessment first** — swelling with systemic illness is a different problem from swelling alone.
+  - **Mark the border of any erythema with a pen and note the time** — the practical intern action that lets the next reviewer see whether it is advancing.
+  - Assess **temperature, tenderness, fluctuance, crepitus, skin colour including dusky or mottled areas, blistering, and any area of anaesthesia within the swelling** — **anaesthetic skin over a painful swelling is a necrotising infection sign**.
+  - **Compare with the other side, and measure limb circumference at a marked level** for a suspected DVT.
+  - Assess **distal neurovascular status, compartments, and pain on passive stretch**.
+  - Examine the **joint** — effusion, range of movement, and whether the pain is truly articular.
+  - **Airway assessment and inspection of the lips, tongue and oropharynx** in any facial or neck swelling.
+  - Look for **generalised oedema, JVP elevation, ascites and pitting**, which reframe the problem as systemic.
+- **First-line Ix:** **FBC, CRP, UEC, LFTs, coagulation profile, creatine kinase, lactate, blood cultures if febrile**; **urate** (though a normal level during an acute gout attack is common and does not exclude it, and a raised level does not exclude septic arthritis); **glucose/HbA1c**; **venous duplex ultrasound** for suspected DVT within a pretest-probability pathway; **plain X-ray** for fracture, foreign body or gas in the tissues; **ultrasound** for abscess and fluid collections; **CT or MRI** where deep infection, necrotising fasciitis or malignancy is suspected — **but in necrotising fasciitis, imaging must not delay surgical review**; **joint aspiration before antibiotics** where septic arthritis is possible; **albumin, urinalysis with protein quantification, and echocardiography** where the swelling is generalised.
+
+> [!danger] **Necrotising fasciitis is a clinical diagnosis and the commonest reason it is missed is that the skin looks unremarkable early.** The triad to act on is **pain out of proportion to the appearance, rapid progression, and systemic toxicity**. Anaesthesia of the overlying skin, crepitus, dusky discolouration and bullae are later signs. **If it is suspected, the action is immediate surgical referral, not a scan and not a period of observation on antibiotics.**
+
 ---
 
 ## Build status of this file
@@ -70,7 +100,7 @@ status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 | Tier | Count | Status |
 |---|---|---|
 | **T1** | 2 | **Both built** — Acute Back Pain, Acute Limb Pain |
-| T2 | 2 | Not built — Acute Neck Pain, Acute Soft Tissue Swelling |
+| **T2** | 2 | **Both built** — Acute Neck Pain, Acute Soft Tissue Swelling |
 | T3 | 51 | Not built |
 | CUT | 2 | **Dropped per the tier tags** — Hill-Sachs lesion, Stener lesion |
 
