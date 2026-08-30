@@ -96,7 +96,12 @@ import re, glob, os, csv, sys, unicodedata
 
 META = {"CLAUDE.md","CLAUDE_CODE_PROMPT.md","COWORK_HANDOFF.md",
         "MASTER_VERIFICATION_WORKFLOW.md","PENDING_GUIDELINE_CHECKS.md",
-        "PHASE_EXECUTION_WORKFLOW.md","RECOMMENDED_WORKFLOW.md"}
+        "PHASE_EXECUTION_WORKFLOW.md","RECOMMENDED_WORKFLOW.md",
+        # Medications_Reference.md is this run's own output, not corpus. While
+        # it was scanned, a topic could be scored as covered by a stub this
+        # very session had just written - the scan marking its own homework.
+        # section_owns.py excludes it for the same reason.
+        "Medications_Reference.md"}
 # NOTE, and it is the important one in this file.
 # This pattern originally required the literal `**` of the corpus's bold
 # markers (`**Mx:**`). But load() calls strip_md() BEFORE splitting into
