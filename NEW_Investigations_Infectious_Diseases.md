@@ -441,18 +441,65 @@ status: standalone — not yet cross-referenced into the corpus
 
 ---
 
+## 0.22 Campylobacter (Stool Culture / Multiplex PCR)
+
+**D:** Detection of ***Campylobacter jejuni*** (and *C. coli*) in stool by **culture on selective media at 42 °C in a microaerophilic atmosphere**, or — now more commonly and much faster — as part of a **multiplex gastrointestinal PCR panel**.
+
+**Ind:** Acute diarrhoea, particularly **bloody or febrile diarrhoea**, or diarrhoea that is severe, prolonged (beyond about a week), in an immunocompromised or elderly patient, in a returned traveller, or occurring in a cluster or in a food handler, childcare or healthcare worker.
+
+**Role:** ***Campylobacter* is the commonest bacterial cause of gastroenteritis in Australia**, and is **notifiable in every jurisdiction** — so the test serves public health surveillance and outbreak detection as well as the individual patient.
+
+> [!warning] **The result rarely changes treatment for the individual, and that is the point to understand.** Most campylobacter enteritis is **self-limiting and managed with rehydration alone**. Antibiotics — sources name **azithromycin** as the agent of choice, with a short course, and note **high fluoroquinolone resistance** (particularly in South-East Asian isolates) — are reserved for **severe, prolonged, bloody or febrile illness, immunosuppression, pregnancy, or extremes of age.** Treating everyone who tests positive is not indicated.
+
+> [!danger] **Do not ignore**
+> - ***Campylobacter* is the commonest identified antecedent infection in GUILLAIN-BARRÉ SYNDROME**, through molecular mimicry between bacterial lipo-oligosaccharide and human gangliosides. Sources report roughly **1 in 1,000–5,000 infections is followed by GBS, typically 1–3 weeks later.** **New ascending weakness or areflexia after a diarrhoeal illness is GBS until proven otherwise** — it needs serial **FVC** measurement and urgent neurology input, not reassurance. See [[04_Neurology]].
+> - **Reactive arthritis** is the other post-infectious sequela.
+> - **Antimotility agents (loperamide) are avoided in bloody or febrile diarrhoea** — they prolong exposure and are associated with complications in invasive infection.
+> - **Notify, and ask about the exposure**: undercooked poultry, unpasteurised milk, untreated water, and contact with animals. Food handlers, childcare and healthcare workers have **exclusion requirements** set by the state health department.
+> - **A positive PCR does not distinguish live from dead organism** and can stay positive after clinical recovery — do not re-test for clearance unless public health requires it.
+
+**Normal/abnormal:** Organism detected or not detected; culture additionally gives susceptibilities, which matter when treatment is needed.
+
+**Alt:** Stool culture for other pathogens and multiplex panel (0.9); blood cultures where there is systemic illness (bacteraemia occurs, particularly in the immunosuppressed); faecal calprotectin and endoscopy where inflammatory bowel disease is the alternative diagnosis; serology in suspected post-infectious GBS is not used diagnostically.
+
+## 0.23 *Clostridium perfringens* (Stool Toxin Detection, and Tissue Diagnosis in Gas Gangrene)
+
+**D:** **Two entirely different clinical entities share this organism, and they require different tests.**
+1. **Food-poisoning diarrhoea:** detection of ***C. perfringens* enterotoxin (CPE) in stool by ELISA**, with quantitative stool culture — usually done for **outbreak investigation** rather than for an individual patient.
+2. **Clostridial myonecrosis (gas gangrene) and necrotising soft tissue infection:** **Gram stain and culture of tissue taken at surgery**, with imaging showing soft tissue gas.
+
+**Ind:** **Outbreak investigation** of a cluster of short-lived diarrhoea and cramps after a shared meal; and, quite separately, **suspected necrotising soft tissue infection**.
+
+**Role:** In the food-poisoning form, the test is **epidemiological**. In myonecrosis, the diagnosis is **clinical and surgical** — the laboratory confirms it afterwards.
+
+> [!info] **The food-poisoning syndrome is characteristic and self-limiting.** Sources describe **type A** strains as responsible for most *C. perfringens* food poisoning, classically from **improperly cooled or reheated meat, poultry and gravy** — the "cafeteria germ". Spores survive cooking, germinate as food cools slowly, and enterotoxin is produced in the gut. **Watery diarrhoea and cramps WITHOUT prominent vomiting or fever, beginning about 6–24 hours after the meal and settling within about 24 hours.** Treatment is **rehydration only — antibiotics are not indicated.**
+
+> [!danger] **CLOSTRIDIAL MYONECROSIS (GAS GANGRENE) IS A SURGICAL EMERGENCY AND THE ONLY TREATMENT THAT WORKS IS DEBRIDEMENT.**
+> - **Recognise it: PAIN OUT OF PROPORTION to the visible findings** is the earliest and most important sign, with rapid progression over hours, systemic toxicity out of keeping with local appearances, tense oedema, bronze or dusky discolouration, bullae, a thin "dishwater" discharge, and **crepitus or gas on imaging (which is a late sign — its absence excludes nothing)**.
+> - **Do not wait for imaging or laboratory confirmation.** Resuscitate, give **broad-spectrum antibiotics plus CLINDAMYCIN** (which switches off exotoxin production — see `NEW_Drugs_05_Anti_infectives.md` 0.2.12), and **call the surgical team immediately.** Every hour of delay costs tissue and life.
+> - **Risk factors:** penetrating and contaminated trauma, crush injury, intravenous drug use, bowel and biliary surgery, malignancy (spontaneous *C. septicum* myonecrosis is associated with **occult colorectal cancer** — investigate the bowel afterwards), diabetes, and immunosuppression.
+> - **Necrotising fasciitis is the differential and the management is the same: urgent surgical exploration.** Scoring tools do not exclude it. See [[11_01_Ortho_-_Orthopaedic_Emergencies]].
+
+**Normal/abnormal:** Enterotoxin detected or not detected in stool; Gram-positive bacilli with tissue necrosis and characteristically **few inflammatory cells** on tissue Gram stain in myonecrosis.
+
+**Alt:** Multiplex stool PCR panel (0.9) for the diarrhoeal syndrome; **surgical exploration — the definitive diagnostic and therapeutic step** in suspected myonecrosis; blood cultures; CT or plain radiographs for soft tissue gas; CK, lactate and a full septic screen.
+
+
 ## Build status of this file
 
 | Measure | Value |
 |---|---|
 | Category | Investigations — Infectious Diseases |
-| No-header items in category | 27 |
-| **Built** | **21** |
+| No-header items in category | 30 rows, of which 6 tagged `[CUT]` and 1 (`Blood Cultures`) was on the ambiguous list — 23 to build |
+| **Built** | **23** |
 | Dropped as `[CUT]` per tier tags | 6 |
-| Searches used | 7 |
+| Searches used | 7 at first build, +1 for the two items added on audit |
 
 **Dropped `[CUT]` items, recorded rather than silently omitted:** B. cereus · Citrobacter · Dark Field Examination · Echinococcus granulosus · Human Herpes Virus 8 · India-Ink Stain. *(Dark-field microscopy is nonetheless referenced inside 0.14 as an alternative test, since omitting it there would have left the syphilis entry incomplete.)*
 
 **Out-of-scope items encountered:** none in this category. `Blood Cultures` [T1] was on the **ambiguous** list, not the no-header list, so it is not built here.
 
 **Omissions under the sourcing standard, each stated in place:** faecal calprotectin cut-off · ASOT and anti-DNase B numeric cut-offs · coeliac no-biopsy antibody threshold · *Cryptosporidium* swimming exclusion period · splenic-rupture avoidance duration in EBV · all antimicrobial and antifungal agents and doses.
+
+> [!warning] **Two items were added on audit (2026-08-30), and the omission is recorded rather than quietly corrected.**
+> `Campylobacter` and `Clostridium perfringens` are both `[T3]` no-header rows in `data/build_list_investigations.md` and were **missed at first build**. The original status block claimed 21 built and its arithmetic did not reconcile with the build list (27 + 6 CUT ≠ 30 rows). They are now built as **0.22** and **0.23**, and the counts above are corrected. **The gap was found only by re-deriving the row list from the build list and checking each row against the file** — a narrative completeness claim would not have caught it.
