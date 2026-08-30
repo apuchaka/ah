@@ -495,7 +495,7 @@ DM complicates 5% of pregnancies: 87.5% GDM, 7.5% T1DM, 5% T2DM.
 **Obstetric cholestasis** (0.7% prevalence)
 - Pruritus (palms, soles) in 2nd half, no rash, worse at night
 - Diagnosis of exclusion — rule out BBV, autoimmune disease, US of liver
-- Weekly LFTs; give vitamin K 10mg/24h if abnormal clotting screen, 1mg to baby at birth
+- Weekly LFTs; give vitamin K 10mg/24h if abnormal clotting screen, 1mg IM to baby at birth (**the term-newborn dose — preterm and low-birth-weight babies receive less, by weight; use the local neonatal protocol**)
 - Typically induced at 37w; ursodeoxycholic acid ↓itch
 - Symptoms resolve within 1w of delivery; can recur with COCP and in ≤70% subsequent pregnancies
 
