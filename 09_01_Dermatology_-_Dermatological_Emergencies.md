@@ -111,7 +111,10 @@ source: quackquackmed 09.01 Dermatological emergencies
   - Blisters are monomorphic ± filled with clear yellow fluid or thick purulent material ± blood stained.
   - Blisters may weep or bleed, then crust and form sores; may leave long-term scars.
 - **Ix:** swab — serology, PCR or MC&S; ± skin biopsy.
-- **Mx:** aciclovir PO 400–800mg 5×/day for 10–14 days or until lesions heal. If patient is severely unwell, IV aciclovir. Secondary bacterial infection — antibiotics. Topical steroids are not recommended. Refer to ophthalmologist if ocular involvement.
+- **Mx:** aciclovir PO 400–800mg 5×/day for 10–14 days or until lesions heal — **an adult dose; see the note below**. If patient is severely unwell, IV aciclovir. Secondary bacterial infection — antibiotics. Topical steroids are not recommended. Refer to ophthalmologist if ocular involvement.
+
+> [!warning] **The aciclovir dose above is an adult dose, and eczema herpeticum is disproportionately a disease of children.**
+> It complicates atopic dermatitis, which peaks in infancy and early childhood, so the typical patient with this diagnosis is a **child** — while the only dose given is the adult one. Paediatric aciclovir is dosed **per kilogram**. **Take the paediatric dose and route from eTG or the local paediatric protocol**; a young child or an unwell infant needs IV therapy and paediatric review rather than an oral adult regimen. Found by the corpus-wide adult-vs-paediatric sweep, 2026-08-30.
 
 ## Staph scalded skin syndrome (SSSS)
 
