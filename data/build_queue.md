@@ -100,6 +100,74 @@ below this line, you have lost little.
 - **Method limitations** (`P5-E-METHOD`, the 23 uncorroborated short-named conditions,
   the 103 unverified AMH leaves) are open work but not build items.
 
+## OPEN — method limitations, not source-blocked
+
+**These are not build items and must not be picked up as Tier 1 work.** Nothing here is
+blocked by egress; each needs a *better checking method*, and each is a decision about
+whether the time is worth it. Listed so they cannot be forgotten, not so they compete
+with the build queue.
+
+### M1 — Phase 5 never enumerated its own axes (`P5-E-METHOD`)
+
+**What it is.** Phase 5 enumerated conditions, drugs, procedures, scales — and did not
+name investigations as an axis until Part E was requested. Four axes checked to
+exhaustion tells you nothing about how many axes exist. Candidate unchecked axes:
+anatomy, emergency algorithms, communication and consent scenarios, ethics and legal,
+epidemiology and public health, imaging interpretation.
+
+**Method that would resolve it.** Enumerate the *axes* rather than the items: list the
+kinds of thing a clinical corpus contains, then run one cheap keyword probe per axis
+(the 38-specialty probe is the working precedent — 3 terms each, one pass) to see which
+have never had a dedicated enumeration. That produces a list of unchecked axes, not a
+list of gaps; each surviving axis then needs its own enumeration to be useful.
+
+**Time.** ~1 turn to enumerate and probe the axes. Each axis it surfaces is then a
+Part-E-sized project of its own (Part E was ~3 turns including the transcription repair).
+
+### M2 — the 23 conditions rejected by construction, not by evidence
+
+**What it is.** The acronym corroboration check requires a ≥9-character word in the
+condition's own name. 23 conditions have none, so acronym matching was disabled for them
+and they fell to ABSENT **by construction**. Five are since known by other means (the
+bundle branch blocks and HFrEF are covered; anterior cord syndrome and orbital floor
+fracture are queued as gaps). **18 have no verdict anyone should trust.** They are listed
+by name in `PENDING_GUIDELINE_CHECKS.md` Section E.
+
+**Method that would resolve it.** Two options. Either (a) 18 targeted manual greps with
+alias variants — the same technique that resolved the 14 acronym rows, which found 3
+false survivors and 3 false rejections out of 14; or (b) a corroboration signal that does
+not depend on word length: co-occurrence of two short tokens, or the subject area of the
+file the acronym appears in. **(a) is better value at this scale** — 18 items does not
+justify building and validating a new matcher, and a manual pass gives certainty rather
+than a second proxy.
+
+**Time.** ~1 turn. This is the cheapest of the three and the one I would do first.
+
+### M3 — the 103 unverified AMH leaves
+
+**What it is.** Of 276 AMH leaf subclasses, 93 scored THIN and 10 NAMED ONLY, and **none
+of the 103 was individually read**. The scan behind them scores four dimensions by keyword
+proxy, and the mechanism proxy is *confirmed* to produce false negatives — ocular
+anticholinergics scored NAMED ONLY against a line that explains the mechanism correctly in
+plain clinical English. Each of the 103 is one of three things the scan cannot separate:
+a genuine depth gap, a proxy false negative, or a class correctly thin because it sits
+above the intern ceiling.
+
+**Method that would resolve it.** Read the entry. There is no proxy fix — the failure is
+that a keyword proxy cannot detect an explanation written without keyword vocabulary, and
+a second proxy would have the same blind spot in a different place. Batched at ~10 leaves
+per pass, judging each against the intern/RMO ceiling.
+
+**Time.** ~10–12 turns for all 103. **Reducible to ~3–4 turns** by triaging first to the
+leaves an intern actually prescribes from — roughly 30 of the 103 — and formally deferring
+the rest. That triage is itself the decision worth making before starting.
+
+### Recommended order if these are ever taken on
+
+**M2 first** (1 turn, cheapest, gives certainty on 18 items), then **M1** (1 turn, and it
+is the only one that can reveal an entire unchecked axis — the highest-variance item on
+this page), then **M3 triaged to ~30 leaves** (3–4 turns). Full M3 last, if ever.
+
 ## Already built (6)
 
 P5-A7 concussion · P5-A8 cord syndromes · P5-A20 paronychia + felon ·
